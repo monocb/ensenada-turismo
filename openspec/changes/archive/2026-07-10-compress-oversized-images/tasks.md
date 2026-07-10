@@ -12,5 +12,5 @@
 ## 3. Documentación y deploy
 
 - [x] 3.1 Actualizar `docs/pendientes/performance.md`: tachar los ítems resueltos, dejar solo `srcset` pendiente
-- [ ] 3.2 Commit + push a `main`
-- [ ] 3.3 Verificar en producción (`ensenadaturismo.com`) que las imágenes cargan bien y pesan lo esperado
+- [x] 3.2 Commit + push a `main`
+- [x] 3.3 Verificar en producción (`ensenadaturismo.com`) que las imágenes cargan bien y pesan lo esperado
