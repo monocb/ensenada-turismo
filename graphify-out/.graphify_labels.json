@@ -156,5 +156,8 @@
   "154": "detect.mjs",
   "155": "Contenido de la home",
   "156": "Misión y objetivos",
-  "157": "linea-historica.md"
+  "157": "linea-historica.md",
+  "158": "Diagnostic Scan",
+  "159": "normalizeGitHubEvent",
+  "160": "createManualEditRoutes"
 }

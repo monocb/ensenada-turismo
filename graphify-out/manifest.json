@@ -908,5 +908,25 @@
     "mtime": 1783702810.535167,
     "ast_hash": "89ab8d022a29811ed395594add90b8b7",
     "semantic_hash": ""
+  },
+  ".impeccable/design.json": {
+    "mtime": 1783704293.8162217,
+    "ast_hash": "b9e48a404fd444124c21a86c1aaec0f5",
+    "semantic_hash": ""
+  },
+  ".impeccable/live/config.json": {
+    "mtime": 1783704341.3865836,
+    "ast_hash": "6fb43fec2512c925bd11496039f41a3b",
+    "semantic_hash": ""
+  },
+  "DESIGN.md": {
+    "mtime": 1783704246.7319167,
+    "ast_hash": "2bcf31c87883e9686ac05bd63d253341",
+    "semantic_hash": ""
+  },
+  "PRODUCT.md": {
+    "mtime": 1783703690.8403604,
+    "ast_hash": "3a6b867d4734bcae232d419f8d55a0d2",
+    "semantic_hash": ""
   }
 }
