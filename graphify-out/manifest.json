@@ -928,5 +928,30 @@
     "mtime": 1783703690.8403604,
     "ast_hash": "3a6b867d4734bcae232d419f8d55a0d2",
     "semantic_hash": ""
+  },
+  "openspec/changes/fix-mobile-menu-text-bleed/.openspec.yaml": {
+    "mtime": 1783711039.4268384,
+    "ast_hash": "a4980ad0f497704c46cfa140cda4a1fd",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-mobile-menu-text-bleed/design.md": {
+    "mtime": 1783712343.1590543,
+    "ast_hash": "37f1c661cdf635abc520431936094e72",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-mobile-menu-text-bleed/proposal.md": {
+    "mtime": 1783712388.9656627,
+    "ast_hash": "556038daa4b11d31f712f59d283858e7",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-mobile-menu-text-bleed/specs/mobile-hero-layout/spec.md": {
+    "mtime": 1783711165.4249215,
+    "ast_hash": "2d7ec124acb5150bae743905eeb61641",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-mobile-menu-text-bleed/tasks.md": {
+    "mtime": 1783712719.618693,
+    "ast_hash": "a242f6fa3d18ecdc6cbd01c9a464a723",
+    "semantic_hash": ""
   }
 }
