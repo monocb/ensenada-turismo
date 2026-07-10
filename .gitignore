@@ -11,3 +11,11 @@ desktop.ini
 
 # Por si en el futuro se agrega tooling de build
 node_modules/
+
+# Graphify: cache y metadata específica de esta máquina (rutas absolutas,
+# no portables entre clones). El grafo en sí (graph.html/json, GRAPH_REPORT.md,
+# manifest.json) sí se versiona.
+graphify-out/cache/
+graphify-out/.graphify_python
+graphify-out/.graphify_root
+graphify-out/cost.json
