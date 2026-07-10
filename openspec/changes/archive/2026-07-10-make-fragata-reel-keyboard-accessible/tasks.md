@@ -12,5 +12,5 @@
 
 ## 3. Deploy
 
-- [ ] 3.1 Commit + push a `main`
-- [ ] 3.2 Verificar en producción (`ensenadaturismo.com`) que la navegación por teclado funciona
+- [x] 3.1 Commit + push a `main`
+- [x] 3.2 Verificar en producción (`ensenadaturismo.com`) que la navegación por teclado funciona

@@ -1,7 +1,7 @@
 {
   "script.js": {
-    "mtime": 1783694813.9286265,
-    "ast_hash": "45b8b90944b5350a11a4c16b31223e93",
+    "mtime": 1783727045.5077758,
+    "ast_hash": "161a7187c4fcf9d334f842a64171ee28",
     "semantic_hash": ""
   },
   ".claude/commands/opsx/apply.md": {
@@ -125,9 +125,9 @@
     "semantic_hash": "17ecabddca4fdd0226bf0c318839bb30"
   },
   "index.html": {
-    "mtime": 1783544798.4068036,
-    "ast_hash": "cfa570d2b00d1cfeddb91b11638d28ac",
-    "semantic_hash": "cfa570d2b00d1cfeddb91b11638d28ac"
+    "mtime": 1783727000.7686157,
+    "ast_hash": "7297a49304c8db13fdadf951e6ba16b6",
+    "semantic_hash": ""
   },
   "openspec/config.yaml": {
     "mtime": 1783657718.292583,
@@ -1042,6 +1042,31 @@
   "openspec/specs/image-asset-budget/spec.md": {
     "mtime": 1783723316.5814538,
     "ast_hash": "ad7ba6f77d6595689e46eadc27a26781",
+    "semantic_hash": ""
+  },
+  "openspec/changes/make-fragata-reel-keyboard-accessible/.openspec.yaml": {
+    "mtime": 1783726603.946615,
+    "ast_hash": "a4980ad0f497704c46cfa140cda4a1fd",
+    "semantic_hash": ""
+  },
+  "openspec/changes/make-fragata-reel-keyboard-accessible/design.md": {
+    "mtime": 1783726668.0034902,
+    "ast_hash": "719d9cd6e010d91cff2fbf8874043671",
+    "semantic_hash": ""
+  },
+  "openspec/changes/make-fragata-reel-keyboard-accessible/proposal.md": {
+    "mtime": 1783726630.155287,
+    "ast_hash": "7baedf420fe323a67932c3b3cf3b4aba",
+    "semantic_hash": ""
+  },
+  "openspec/changes/make-fragata-reel-keyboard-accessible/specs/keyboard-accessible-galleries/spec.md": {
+    "mtime": 1783726685.8077905,
+    "ast_hash": "bb64da5f0f4cf4a79974e4ec11f5bec4",
+    "semantic_hash": ""
+  },
+  "openspec/changes/make-fragata-reel-keyboard-accessible/tasks.md": {
+    "mtime": 1783727223.806831,
+    "ast_hash": "0dcd84b0b5479643f09c89b8c0e563c6",
     "semantic_hash": ""
   }
 }
