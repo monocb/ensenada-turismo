@@ -70,14 +70,374 @@
   },
   "nodes": [
     {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude",
+      "community": 1,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_claude_md",
+      "community": 1,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "Qu\u00e9 es el proyecto",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "claude_qu\u00e9_es_el_proyecto",
+      "community": 1,
+      "norm_label": "que es el proyecto"
+    },
+    {
+      "label": "Stack",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "claude_stack",
+      "community": 1,
+      "norm_label": "stack"
+    },
+    {
+      "label": "C\u00f3mo previsualizar en local",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "claude_c\u00f3mo_previsualizar_en_local",
+      "community": 1,
+      "norm_label": "como previsualizar en local"
+    },
+    {
+      "label": "Mapa de carpetas",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "claude_mapa_de_carpetas",
+      "community": 1,
+      "norm_label": "mapa de carpetas"
+    },
+    {
+      "label": "C\u00f3mo agregar una foto a una galer\u00eda",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "claude_c\u00f3mo_agregar_una_foto_a_una_galer\u00eda",
+      "community": 1,
+      "norm_label": "como agregar una foto a una galeria"
+    },
+    {
+      "label": "Aviso sobre `styles.css`",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "claude_aviso_sobre_styles_css",
+      "community": 1,
+      "norm_label": "aviso sobre `styles.css`"
+    },
+    {
+      "label": "Antes de tocar colores o textos de marca",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "claude_antes_de_tocar_colores_o_textos_de_marca",
+      "community": 1,
+      "norm_label": "antes de tocar colores o textos de marca"
+    },
+    {
+      "label": "Pendientes conocidos",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "claude_pendientes_conocidos",
+      "community": 1,
+      "norm_label": "pendientes conocidos"
+    },
+    {
+      "label": "Metodolog\u00eda de trabajo",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "claude_metodolog\u00eda_de_trabajo",
+      "community": 1,
+      "norm_label": "metodologia de trabajo"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "claude_graphify",
+      "community": 1,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "convenciones-css.md",
+      "file_type": "document",
+      "source_file": "docs/tecnico/convenciones-css.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_tecnico_convenciones_css",
+      "community": 1,
+      "norm_label": "convenciones-css.md"
+    },
+    {
+      "label": "Convenciones de CSS",
+      "file_type": "document",
+      "source_file": "docs/tecnico/convenciones-css.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_tecnico_convenciones_css_convenciones_de_css",
+      "community": 1,
+      "norm_label": "convenciones de css"
+    },
+    {
+      "label": "`styles.css` creci\u00f3 por parches, no por dise\u00f1o de arquitectura",
+      "file_type": "document",
+      "source_file": "docs/tecnico/convenciones-css.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_tecnico_convenciones_css_styles_css_creci\u00f3_por_parches_no_por_dise\u00f1o_de_arquitectura",
+      "community": 1,
+      "norm_label": "`styles.css` crecio por parches, no por diseno de arquitectura"
+    },
+    {
+      "label": "design.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_design",
+      "community": 171,
+      "norm_label": "design.md"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_design_context",
+      "community": 171,
+      "norm_label": "context"
+    },
+    {
+      "label": "Goals / Non-Goals",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/design.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_design_goals_non_goals",
+      "community": 171,
+      "norm_label": "goals / non-goals"
+    },
+    {
+      "label": "Decisions",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/design.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_design_decisions",
+      "community": 171,
+      "norm_label": "decisions"
+    },
+    {
+      "label": "Risks / Trade-offs",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/design.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_design_risks_trade_offs",
+      "community": 171,
+      "norm_label": "risks / trade-offs"
+    },
+    {
+      "label": "Migration Plan",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/design.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_design_migration_plan",
+      "community": 171,
+      "norm_label": "migration plan"
+    },
+    {
+      "label": "Open Questions",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/design.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_design_open_questions",
+      "community": 171,
+      "norm_label": "open questions"
+    },
+    {
+      "label": "proposal.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/proposal.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_proposal",
+      "community": 172,
+      "norm_label": "proposal.md"
+    },
+    {
+      "label": "Why",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/proposal.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_proposal_why",
+      "community": 172,
+      "norm_label": "why"
+    },
+    {
+      "label": "What Changes",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/proposal.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_proposal_what_changes",
+      "community": 172,
+      "norm_label": "what changes"
+    },
+    {
+      "label": "Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/proposal.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_proposal_capabilities",
+      "community": 172,
+      "norm_label": "capabilities"
+    },
+    {
+      "label": "New Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/proposal.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_proposal_new_capabilities",
+      "community": 172,
+      "norm_label": "new capabilities"
+    },
+    {
+      "label": "Modified Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/proposal.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_proposal_modified_capabilities",
+      "community": 172,
+      "norm_label": "modified capabilities"
+    },
+    {
+      "label": "Impact",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/proposal.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_proposal_impact",
+      "community": 172,
+      "norm_label": "impact"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/specs/technical-docs-accuracy/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_specs_technical_docs_accuracy_spec",
+      "community": 174,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "ADDED Requirements",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/specs/technical-docs-accuracy/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_specs_technical_docs_accuracy_spec_added_requirements",
+      "community": 174,
+      "norm_label": "added requirements"
+    },
+    {
+      "label": "Requirement: La documentaci\u00f3n describe con precisi\u00f3n la cantidad real de bloques `:root` en `styles.css`",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/specs/technical-docs-accuracy/spec.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_specs_technical_docs_accuracy_spec_requirement_la_documentaci\u00f3n_describe_con_precisi\u00f3n_la_cantidad_real_de_bloques_root_en_styles_css",
+      "community": 174,
+      "norm_label": "requirement: la documentacion describe con precision la cantidad real de bloques `:root` en `styles.css`"
+    },
+    {
+      "label": "Scenario: Un colaborador agrega una variable CSS nueva",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/specs/technical-docs-accuracy/spec.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_specs_technical_docs_accuracy_spec_scenario_un_colaborador_agrega_una_variable_css_nueva",
+      "community": 174,
+      "norm_label": "scenario: un colaborador agrega una variable css nueva"
+    },
+    {
+      "label": "tasks.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_tasks",
+      "community": 175,
+      "norm_label": "tasks.md"
+    },
+    {
+      "label": "1. Corregir la documentaci\u00f3n",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_tasks_1_corregir_la_documentaci\u00f3n",
+      "community": 175,
+      "norm_label": "1. corregir la documentacion"
+    },
+    {
+      "label": "2. Deploy",
+      "file_type": "document",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/tasks.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "openspec_changes_fix_css_conventions_doc_drift_tasks_2_deploy",
+      "community": 175,
+      "norm_label": "2. deploy"
+    },
+    {
       "label": "design.md",
       "file_type": "document",
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/design.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design",
       "community": 163,
-      "norm_label": "design.md"
+      "norm_label": "design.md",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design"
     },
     {
       "label": "Context",
@@ -85,9 +445,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/design.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_context",
       "community": 163,
-      "norm_label": "context"
+      "norm_label": "context",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_context"
     },
     {
       "label": "Goals / Non-Goals",
@@ -95,9 +455,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/design.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_goals_non_goals",
       "community": 163,
-      "norm_label": "goals / non-goals"
+      "norm_label": "goals / non-goals",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_goals_non_goals"
     },
     {
       "label": "Decisions",
@@ -105,9 +465,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/design.md",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_decisions",
       "community": 163,
-      "norm_label": "decisions"
+      "norm_label": "decisions",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_decisions"
     },
     {
       "label": "Risks / Trade-offs",
@@ -115,9 +475,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/design.md",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_risks_trade_offs",
       "community": 163,
-      "norm_label": "risks / trade-offs"
+      "norm_label": "risks / trade-offs",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_risks_trade_offs"
     },
     {
       "label": "Migration Plan",
@@ -125,9 +485,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/design.md",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_migration_plan",
       "community": 163,
-      "norm_label": "migration plan"
+      "norm_label": "migration plan",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_migration_plan"
     },
     {
       "label": "Open Questions",
@@ -135,9 +495,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/design.md",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_open_questions",
       "community": 163,
-      "norm_label": "open questions"
+      "norm_label": "open questions",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_open_questions"
     },
     {
       "label": "proposal.md",
@@ -145,9 +505,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/proposal.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal",
       "community": 164,
-      "norm_label": "proposal.md"
+      "norm_label": "proposal.md",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal"
     },
     {
       "label": "Why",
@@ -155,9 +515,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/proposal.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_why",
       "community": 164,
-      "norm_label": "why"
+      "norm_label": "why",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_why"
     },
     {
       "label": "What Changes",
@@ -165,9 +525,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/proposal.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_what_changes",
       "community": 164,
-      "norm_label": "what changes"
+      "norm_label": "what changes",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_what_changes"
     },
     {
       "label": "Capabilities",
@@ -175,9 +535,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/proposal.md",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_capabilities",
       "community": 164,
-      "norm_label": "capabilities"
+      "norm_label": "capabilities",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_capabilities"
     },
     {
       "label": "New Capabilities",
@@ -185,9 +545,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/proposal.md",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_new_capabilities",
       "community": 164,
-      "norm_label": "new capabilities"
+      "norm_label": "new capabilities",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_new_capabilities"
     },
     {
       "label": "Modified Capabilities",
@@ -195,9 +555,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/proposal.md",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_modified_capabilities",
       "community": 164,
-      "norm_label": "modified capabilities"
+      "norm_label": "modified capabilities",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_modified_capabilities"
     },
     {
       "label": "Impact",
@@ -205,9 +565,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/proposal.md",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_impact",
       "community": 164,
-      "norm_label": "impact"
+      "norm_label": "impact",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_impact"
     },
     {
       "label": "spec.md",
@@ -215,9 +575,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/specs/place-card-visual-consistency/spec.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec",
       "community": 168,
-      "norm_label": "spec.md"
+      "norm_label": "spec.md",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec"
     },
     {
       "label": "ADDED Requirements",
@@ -225,9 +585,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/specs/place-card-visual-consistency/spec.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec_added_requirements",
       "community": 168,
-      "norm_label": "added requirements"
+      "norm_label": "added requirements",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec_added_requirements"
     },
     {
       "label": "Requirement: Las place-cards usan un radio de esquina consistente con las dem\u00e1s tarjetas del sitio",
@@ -235,9 +595,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/specs/place-card-visual-consistency/spec.md",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec_requirement_las_place_cards_usan_un_radio_de_esquina_consistente_con_las_dem\u00e1s_tarjetas_del_sitio",
       "community": 168,
-      "norm_label": "requirement: las place-cards usan un radio de esquina consistente con las demas tarjetas del sitio"
+      "norm_label": "requirement: las place-cards usan un radio de esquina consistente con las demas tarjetas del sitio",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec_requirement_las_place_cards_usan_un_radio_de_esquina_consistente_con_las_dem\u00e1s_tarjetas_del_sitio"
     },
     {
       "label": "Scenario: Renderizado de las place-cards",
@@ -245,9 +605,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/specs/place-card-visual-consistency/spec.md",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec_scenario_renderizado_de_las_place_cards",
       "community": 168,
-      "norm_label": "scenario: renderizado de las place-cards"
+      "norm_label": "scenario: renderizado de las place-cards",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec_scenario_renderizado_de_las_place_cards"
     },
     {
       "label": "Scenario: La imagen de portada respeta la esquina redondeada",
@@ -255,9 +615,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/specs/place-card-visual-consistency/spec.md",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec_scenario_la_imagen_de_portada_respeta_la_esquina_redondeada",
       "community": 168,
-      "norm_label": "scenario: la imagen de portada respeta la esquina redondeada"
+      "norm_label": "scenario: la imagen de portada respeta la esquina redondeada",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec_scenario_la_imagen_de_portada_respeta_la_esquina_redondeada"
     },
     {
       "label": "tasks.md",
@@ -265,9 +625,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/tasks.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_tasks",
       "community": 169,
-      "norm_label": "tasks.md"
+      "norm_label": "tasks.md",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_tasks"
     },
     {
       "label": "1. Aplicar el fix",
@@ -275,9 +635,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/tasks.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_tasks_1_aplicar_el_fix",
       "community": 169,
-      "norm_label": "1. aplicar el fix"
+      "norm_label": "1. aplicar el fix",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_tasks_1_aplicar_el_fix"
     },
     {
       "label": "2. Verificaci\u00f3n",
@@ -285,9 +645,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/tasks.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_tasks_2_verificaci\u00f3n",
       "community": 169,
-      "norm_label": "2. verificacion"
+      "norm_label": "2. verificacion",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_tasks_2_verificaci\u00f3n"
     },
     {
       "label": "3. Deploy",
@@ -295,9 +655,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/tasks.md",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_tasks_3_deploy",
       "community": 169,
-      "norm_label": "3. deploy"
+      "norm_label": "3. deploy",
+      "id": "openspec_changes_archive_2026_07_10_unify_place_card_radius_tasks_3_deploy"
     },
     {
       "label": "spec.md",
@@ -305,9 +665,9 @@
       "source_file": "openspec/specs/place-card-visual-consistency/spec.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_specs_place_card_visual_consistency_spec",
       "community": 167,
-      "norm_label": "spec.md"
+      "norm_label": "spec.md",
+      "id": "openspec_specs_place_card_visual_consistency_spec"
     },
     {
       "label": "Purpose",
@@ -315,9 +675,9 @@
       "source_file": "openspec/specs/place-card-visual-consistency/spec.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_specs_place_card_visual_consistency_spec_purpose",
       "community": 167,
-      "norm_label": "purpose"
+      "norm_label": "purpose",
+      "id": "openspec_specs_place_card_visual_consistency_spec_purpose"
     },
     {
       "label": "Requirements",
@@ -325,9 +685,9 @@
       "source_file": "openspec/specs/place-card-visual-consistency/spec.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "openspec_specs_place_card_visual_consistency_spec_requirements",
       "community": 167,
-      "norm_label": "requirements"
+      "norm_label": "requirements",
+      "id": "openspec_specs_place_card_visual_consistency_spec_requirements"
     },
     {
       "label": "Requirement: Las place-cards usan un radio de esquina consistente con las dem\u00e1s tarjetas del sitio",
@@ -335,9 +695,9 @@
       "source_file": "openspec/specs/place-card-visual-consistency/spec.md",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "openspec_specs_place_card_visual_consistency_spec_requirement_las_place_cards_usan_un_radio_de_esquina_consistente_con_las_dem\u00e1s_tarjetas_del_sitio",
       "community": 167,
-      "norm_label": "requirement: las place-cards usan un radio de esquina consistente con las demas tarjetas del sitio"
+      "norm_label": "requirement: las place-cards usan un radio de esquina consistente con las demas tarjetas del sitio",
+      "id": "openspec_specs_place_card_visual_consistency_spec_requirement_las_place_cards_usan_un_radio_de_esquina_consistente_con_las_dem\u00e1s_tarjetas_del_sitio"
     },
     {
       "label": "Scenario: Renderizado de las place-cards",
@@ -345,9 +705,9 @@
       "source_file": "openspec/specs/place-card-visual-consistency/spec.md",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "openspec_specs_place_card_visual_consistency_spec_scenario_renderizado_de_las_place_cards",
       "community": 167,
-      "norm_label": "scenario: renderizado de las place-cards"
+      "norm_label": "scenario: renderizado de las place-cards",
+      "id": "openspec_specs_place_card_visual_consistency_spec_scenario_renderizado_de_las_place_cards"
     },
     {
       "label": "Scenario: La imagen de portada respeta la esquina redondeada",
@@ -355,9 +715,9 @@
       "source_file": "openspec/specs/place-card-visual-consistency/spec.md",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "openspec_specs_place_card_visual_consistency_spec_scenario_la_imagen_de_portada_respeta_la_esquina_redondeada",
       "community": 167,
-      "norm_label": "scenario: la imagen de portada respeta la esquina redondeada"
+      "norm_label": "scenario: la imagen de portada respeta la esquina redondeada",
+      "id": "openspec_specs_place_card_visual_consistency_spec_scenario_la_imagen_de_portada_respeta_la_esquina_redondeada"
     },
     {
       "label": "design.md",
@@ -1065,7 +1425,7 @@
       "source_file": ".claude/skills/impeccable/SKILL.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 132,
+      "community": 120,
       "norm_label": "skill.md",
       "id": "claude_skills_impeccable_skill"
     },
@@ -1075,7 +1435,7 @@
       "source_file": ".claude/skills/impeccable/SKILL.md",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 132,
+      "community": 120,
       "norm_label": "setup",
       "id": "claude_skills_impeccable_skill_setup"
     },
@@ -1195,7 +1555,7 @@
       "source_file": ".claude/skills/impeccable/SKILL.md",
       "source_location": "L103",
       "_origin": "ast",
-      "community": 132,
+      "community": 120,
       "norm_label": "commands",
       "id": "claude_skills_impeccable_skill_commands"
     },
@@ -1205,7 +1565,7 @@
       "source_file": ".claude/skills/impeccable/SKILL.md",
       "source_location": "L133",
       "_origin": "ast",
-      "community": 132,
+      "community": 120,
       "norm_label": "routing rules",
       "id": "claude_skills_impeccable_skill_routing_rules"
     },
@@ -1215,7 +1575,7 @@
       "source_file": ".claude/skills/impeccable/SKILL.md",
       "source_location": "L158",
       "_origin": "ast",
-      "community": 132,
+      "community": 120,
       "norm_label": "pin / unpin",
       "id": "claude_skills_impeccable_skill_pin_unpin"
     },
@@ -1225,7 +1585,7 @@
       "source_file": ".claude/skills/impeccable/SKILL.md",
       "source_location": "L168",
       "_origin": "ast",
-      "community": 132,
+      "community": 120,
       "norm_label": "hooks",
       "id": "claude_skills_impeccable_skill_hooks"
     },
@@ -1515,7 +1875,7 @@
       "source_file": ".claude/skills/impeccable/reference/adapt.native.md",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 158,
+      "community": 173,
       "norm_label": "adaptation strategies",
       "id": "claude_skills_impeccable_reference_adapt_native_adaptation_strategies"
     },
@@ -1525,7 +1885,7 @@
       "source_file": ".claude/skills/impeccable/reference/adapt.native.md",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 158,
+      "community": 173,
       "norm_label": "phone \u2192 tablet (ipad / large screens)",
       "id": "claude_skills_impeccable_reference_adapt_native_phone_tablet_ipad_large_screens"
     },
@@ -1535,7 +1895,7 @@
       "source_file": ".claude/skills/impeccable/reference/adapt.native.md",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 158,
+      "community": 173,
       "norm_label": "orientation & foldables",
       "id": "claude_skills_impeccable_reference_adapt_native_orientation_foldables"
     },
@@ -1545,7 +1905,7 @@
       "source_file": ".claude/skills/impeccable/reference/adapt.native.md",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 158,
+      "community": 173,
       "norm_label": "platform \u2192 platform (ios \u2194 android)",
       "id": "claude_skills_impeccable_reference_adapt_native_platform_platform_ios_android"
     },
@@ -1555,7 +1915,7 @@
       "source_file": ".claude/skills/impeccable/reference/adapt.native.md",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 158,
+      "community": 173,
       "norm_label": "web \u2192 native (porting a website or web app)",
       "id": "claude_skills_impeccable_reference_adapt_native_web_native_porting_a_website_or_web_app"
     },
@@ -1585,7 +1945,7 @@
       "source_file": ".claude/skills/impeccable/reference/android.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 158,
+      "community": 156,
       "norm_label": "android platform",
       "id": "claude_skills_impeccable_reference_android_android_platform"
     },
@@ -1595,7 +1955,7 @@
       "source_file": ".claude/skills/impeccable/reference/android.md",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 158,
+      "community": 156,
       "norm_label": "the android slop test",
       "id": "claude_skills_impeccable_reference_android_the_android_slop_test"
     },
@@ -1605,7 +1965,7 @@
       "source_file": ".claude/skills/impeccable/reference/android.md",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 158,
+      "community": 156,
       "norm_label": "layout & structure",
       "id": "claude_skills_impeccable_reference_android_layout_structure"
     },
@@ -1615,7 +1975,7 @@
       "source_file": ".claude/skills/impeccable/reference/android.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 158,
+      "community": 156,
       "norm_label": "touch targets",
       "id": "claude_skills_impeccable_reference_android_touch_targets"
     },
@@ -1625,7 +1985,7 @@
       "source_file": ".claude/skills/impeccable/reference/android.md",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 158,
+      "community": 156,
       "norm_label": "typography",
       "id": "claude_skills_impeccable_reference_android_typography"
     },
@@ -1635,7 +1995,7 @@
       "source_file": ".claude/skills/impeccable/reference/android.md",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 158,
+      "community": 156,
       "norm_label": "color & theming",
       "id": "claude_skills_impeccable_reference_android_color_theming"
     },
@@ -1645,7 +2005,7 @@
       "source_file": ".claude/skills/impeccable/reference/android.md",
       "source_location": "L35",
       "_origin": "ast",
-      "community": 158,
+      "community": 156,
       "norm_label": "components & motion",
       "id": "claude_skills_impeccable_reference_android_components_motion"
     },
@@ -2015,7 +2375,7 @@
       "source_file": ".claude/skills/impeccable/reference/audit.native.md",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 165,
+      "community": 158,
       "norm_label": "diagnostic scan",
       "id": "claude_skills_impeccable_reference_audit_native_diagnostic_scan"
     },
@@ -2025,7 +2385,7 @@
       "source_file": ".claude/skills/impeccable/reference/audit.native.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 165,
+      "community": 158,
       "norm_label": "1. accessibility (voiceover / talkback)",
       "id": "claude_skills_impeccable_reference_audit_native_1_accessibility_voiceover_talkback"
     },
@@ -2035,7 +2395,7 @@
       "source_file": ".claude/skills/impeccable/reference/audit.native.md",
       "source_location": "L21",
       "_origin": "ast",
-      "community": 165,
+      "community": 158,
       "norm_label": "2. performance",
       "id": "claude_skills_impeccable_reference_audit_native_2_performance"
     },
@@ -2045,7 +2405,7 @@
       "source_file": ".claude/skills/impeccable/reference/audit.native.md",
       "source_location": "L33",
       "_origin": "ast",
-      "community": 165,
+      "community": 158,
       "norm_label": "3. appearance & theming",
       "id": "claude_skills_impeccable_reference_audit_native_3_appearance_theming"
     },
@@ -2055,7 +2415,7 @@
       "source_file": ".claude/skills/impeccable/reference/audit.native.md",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 165,
+      "community": 158,
       "norm_label": "4. platform conformance (critical)",
       "id": "claude_skills_impeccable_reference_audit_native_4_platform_conformance_critical"
     },
@@ -2065,7 +2425,7 @@
       "source_file": ".claude/skills/impeccable/reference/audit.native.md",
       "source_location": "L55",
       "_origin": "ast",
-      "community": 165,
+      "community": 158,
       "norm_label": "5. adaptivity",
       "id": "claude_skills_impeccable_reference_audit_native_5_adaptivity"
     },
@@ -2755,7 +3115,7 @@
       "source_file": ".claude/skills/impeccable/reference/codex.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 132,
+      "community": 121,
       "norm_label": "codex.md",
       "id": "claude_skills_impeccable_reference_codex"
     },
@@ -3185,7 +3545,7 @@
       "source_file": ".claude/skills/impeccable/reference/craft.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 132,
+      "community": 121,
       "norm_label": "craft.md",
       "id": "claude_skills_impeccable_reference_craft"
     },
@@ -4655,7 +5015,7 @@
       "source_file": ".claude/skills/impeccable/reference/hooks.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 132,
+      "community": 161,
       "norm_label": "hooks.md",
       "id": "claude_skills_impeccable_reference_hooks"
     },
@@ -4665,7 +5025,7 @@
       "source_file": ".claude/skills/impeccable/reference/hooks.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 132,
+      "community": 161,
       "norm_label": "/impeccable hooks",
       "id": "claude_skills_impeccable_reference_hooks_impeccable_hooks"
     },
@@ -4675,7 +5035,7 @@
       "source_file": ".claude/skills/impeccable/reference/hooks.md",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 132,
+      "community": 161,
       "norm_label": "routing",
       "id": "claude_skills_impeccable_reference_hooks_routing"
     },
@@ -4685,7 +5045,7 @@
       "source_file": ".claude/skills/impeccable/reference/hooks.md",
       "source_location": "L32",
       "_origin": "ast",
-      "community": 132,
+      "community": 161,
       "norm_label": "flow",
       "id": "claude_skills_impeccable_reference_hooks_flow"
     },
@@ -4695,7 +5055,7 @@
       "source_file": ".claude/skills/impeccable/reference/hooks.md",
       "source_location": "L46",
       "_origin": "ast",
-      "community": 132,
+      "community": 161,
       "norm_label": "intentional findings",
       "id": "claude_skills_impeccable_reference_hooks_intentional_findings"
     },
@@ -4705,7 +5065,7 @@
       "source_file": ".claude/skills/impeccable/reference/hooks.md",
       "source_location": "L82",
       "_origin": "ast",
-      "community": 132,
+      "community": 161,
       "norm_label": "constraints",
       "id": "claude_skills_impeccable_reference_hooks_constraints"
     },
@@ -4715,7 +5075,7 @@
       "source_file": ".claude/skills/impeccable/reference/hooks.md",
       "source_location": "L89",
       "_origin": "ast",
-      "community": 132,
+      "community": 161,
       "norm_label": "failure modes",
       "id": "claude_skills_impeccable_reference_hooks_failure_modes"
     },
@@ -4905,7 +5265,7 @@
       "source_file": ".claude/skills/impeccable/reference/interaction-design.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 132,
+      "community": 121,
       "norm_label": "interaction-design.md",
       "id": "claude_skills_impeccable_reference_interaction_design"
     },
@@ -5445,7 +5805,7 @@
       "source_file": ".claude/skills/impeccable/reference/live.md",
       "source_location": "L194",
       "_origin": "ast",
-      "community": 161,
+      "community": 85,
       "norm_label": "4. plan three variants: identity first, then mode, then axes",
       "id": "claude_skills_impeccable_reference_live_4_plan_three_variants_identity_first_then_mode_then_axes"
     },
@@ -5455,7 +5815,7 @@
       "source_file": ".claude/skills/impeccable/reference/live.md",
       "source_location": "L200",
       "_origin": "ast",
-      "community": 161,
+      "community": 85,
       "norm_label": "phase a: extract the identity (non-skippable)",
       "id": "claude_skills_impeccable_reference_live_phase_a_extract_the_identity_non_skippable"
     },
@@ -5465,7 +5825,7 @@
       "source_file": ".claude/skills/impeccable/reference/live.md",
       "source_location": "L223",
       "_origin": "ast",
-      "community": 161,
+      "community": 85,
       "norm_label": "phase b: pick mode (default vs departure)",
       "id": "claude_skills_impeccable_reference_live_phase_b_pick_mode_default_vs_departure"
     },
@@ -5475,7 +5835,7 @@
       "source_file": ".claude/skills/impeccable/reference/live.md",
       "source_location": "L234",
       "_origin": "ast",
-      "community": 161,
+      "community": 85,
       "norm_label": "phase c: plan three variants",
       "id": "claude_skills_impeccable_reference_live_phase_c_plan_three_variants"
     },
@@ -5485,7 +5845,7 @@
       "source_file": ".claude/skills/impeccable/reference/live.md",
       "source_location": "L259",
       "_origin": "ast",
-      "community": 161,
+      "community": 85,
       "norm_label": "phase d: squint test",
       "id": "claude_skills_impeccable_reference_live_phase_d_squint_test"
     },
@@ -6195,7 +6555,7 @@
       "source_file": ".claude/skills/impeccable/reference/overdrive.md",
       "source_location": "L46",
       "_origin": "ast",
-      "community": 103,
+      "community": 147,
       "norm_label": "the toolkit",
       "id": "claude_skills_impeccable_reference_overdrive_the_toolkit"
     },
@@ -6205,7 +6565,7 @@
       "source_file": ".claude/skills/impeccable/reference/overdrive.md",
       "source_location": "L50",
       "_origin": "ast",
-      "community": 103,
+      "community": 147,
       "norm_label": "make transitions feel cinematic",
       "id": "claude_skills_impeccable_reference_overdrive_make_transitions_feel_cinematic"
     },
@@ -6215,7 +6575,7 @@
       "source_file": ".claude/skills/impeccable/reference/overdrive.md",
       "source_location": "L55",
       "_origin": "ast",
-      "community": 103,
+      "community": 147,
       "norm_label": "tie animation to scroll position",
       "id": "claude_skills_impeccable_reference_overdrive_tie_animation_to_scroll_position"
     },
@@ -6225,7 +6585,7 @@
       "source_file": ".claude/skills/impeccable/reference/overdrive.md",
       "source_location": "L58",
       "_origin": "ast",
-      "community": 103,
+      "community": 147,
       "norm_label": "render beyond css",
       "id": "claude_skills_impeccable_reference_overdrive_render_beyond_css"
     },
@@ -6235,7 +6595,7 @@
       "source_file": ".claude/skills/impeccable/reference/overdrive.md",
       "source_location": "L64",
       "_origin": "ast",
-      "community": 103,
+      "community": 147,
       "norm_label": "make data feel alive",
       "id": "claude_skills_impeccable_reference_overdrive_make_data_feel_alive"
     },
@@ -6245,7 +6605,7 @@
       "source_file": ".claude/skills/impeccable/reference/overdrive.md",
       "source_location": "L69",
       "_origin": "ast",
-      "community": 103,
+      "community": 147,
       "norm_label": "animate complex properties",
       "id": "claude_skills_impeccable_reference_overdrive_animate_complex_properties"
     },
@@ -6255,7 +6615,7 @@
       "source_file": ".claude/skills/impeccable/reference/overdrive.md",
       "source_location": "L73",
       "_origin": "ast",
-      "community": 103,
+      "community": 147,
       "norm_label": "push performance boundaries",
       "id": "claude_skills_impeccable_reference_overdrive_push_performance_boundaries"
     },
@@ -6265,7 +6625,7 @@
       "source_file": ".claude/skills/impeccable/reference/overdrive.md",
       "source_location": "L78",
       "_origin": "ast",
-      "community": 103,
+      "community": 147,
       "norm_label": "interact with the device",
       "id": "claude_skills_impeccable_reference_overdrive_interact_with_the_device"
     },
@@ -6325,7 +6685,7 @@
       "source_file": ".claude/skills/impeccable/reference/polish.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 100,
+      "community": 120,
       "norm_label": "polish.md",
       "id": "claude_skills_impeccable_reference_polish"
     },
@@ -6335,7 +6695,7 @@
       "source_file": ".claude/skills/impeccable/reference/polish.md",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 100,
+      "community": 120,
       "norm_label": "design system discovery",
       "id": "claude_skills_impeccable_reference_polish_design_system_discovery"
     },
@@ -6345,7 +6705,7 @@
       "source_file": ".claude/skills/impeccable/reference/polish.md",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 100,
+      "community": 120,
       "norm_label": "pre-polish assessment",
       "id": "claude_skills_impeccable_reference_polish_pre_polish_assessment"
     },
@@ -6495,7 +6855,7 @@
       "source_file": ".claude/skills/impeccable/reference/polish.md",
       "source_location": "L180",
       "_origin": "ast",
-      "community": 100,
+      "community": 120,
       "norm_label": "polish checklist",
       "id": "claude_skills_impeccable_reference_polish_polish_checklist"
     },
@@ -6505,7 +6865,7 @@
       "source_file": ".claude/skills/impeccable/reference/polish.md",
       "source_location": "L223",
       "_origin": "ast",
-      "community": 100,
+      "community": 120,
       "norm_label": "final verification",
       "id": "claude_skills_impeccable_reference_polish_final_verification"
     },
@@ -6515,7 +6875,7 @@
       "source_file": ".claude/skills/impeccable/reference/polish.md",
       "source_location": "L234",
       "_origin": "ast",
-      "community": 100,
+      "community": 120,
       "norm_label": "clean up",
       "id": "claude_skills_impeccable_reference_polish_clean_up"
     },
@@ -6945,7 +7305,7 @@
       "source_file": ".claude/skills/impeccable/reference/typeset.md",
       "source_location": "L75",
       "_origin": "ast",
-      "community": 166,
+      "community": 132,
       "norm_label": "improve typography systematically",
       "id": "claude_skills_impeccable_reference_typeset_improve_typography_systematically"
     },
@@ -6955,7 +7315,7 @@
       "source_file": ".claude/skills/impeccable/reference/typeset.md",
       "source_location": "L77",
       "_origin": "ast",
-      "community": 166,
+      "community": 132,
       "norm_label": "font selection",
       "id": "claude_skills_impeccable_reference_typeset_font_selection"
     },
@@ -6965,7 +7325,7 @@
       "source_file": ".claude/skills/impeccable/reference/typeset.md",
       "source_location": "L84",
       "_origin": "ast",
-      "community": 166,
+      "community": 132,
       "norm_label": "establish hierarchy",
       "id": "claude_skills_impeccable_reference_typeset_establish_hierarchy"
     },
@@ -6975,7 +7335,7 @@
       "source_file": ".claude/skills/impeccable/reference/typeset.md",
       "source_location": "L93",
       "_origin": "ast",
-      "community": 166,
+      "community": 132,
       "norm_label": "fix readability",
       "id": "claude_skills_impeccable_reference_typeset_fix_readability"
     },
@@ -6985,7 +7345,7 @@
       "source_file": ".claude/skills/impeccable/reference/typeset.md",
       "source_location": "L100",
       "_origin": "ast",
-      "community": 166,
+      "community": 132,
       "norm_label": "refine details",
       "id": "claude_skills_impeccable_reference_typeset_refine_details"
     },
@@ -6995,7 +7355,7 @@
       "source_file": ".claude/skills/impeccable/reference/typeset.md",
       "source_location": "L107",
       "_origin": "ast",
-      "community": 166,
+      "community": 132,
       "norm_label": "weight consistency",
       "id": "claude_skills_impeccable_reference_typeset_weight_consistency"
     },
@@ -7615,7 +7975,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L408",
       "_origin": "ast",
-      "community": 96,
+      "community": 73,
       "norm_label": "iscandidateprojectroot()",
       "id": "claude_skills_impeccable_scripts_context_iscandidateprojectroot"
     },
@@ -7665,7 +8025,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L474",
       "_origin": "ast",
-      "community": 73,
+      "community": 138,
       "norm_label": "nearestprojectlikeroot()",
       "id": "claude_skills_impeccable_scripts_context_nearestprojectlikeroot"
     },
@@ -7705,7 +8065,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L529",
       "_origin": "ast",
-      "community": 71,
+      "community": 155,
       "norm_label": "readworkspacepatterns()",
       "id": "claude_skills_impeccable_scripts_context_readworkspacepatterns"
     },
@@ -7715,7 +8075,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L537",
       "_origin": "ast",
-      "community": 71,
+      "community": 155,
       "norm_label": "readpackageworkspaces()",
       "id": "claude_skills_impeccable_scripts_context_readpackageworkspaces"
     },
@@ -7725,7 +8085,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L545",
       "_origin": "ast",
-      "community": 71,
+      "community": 155,
       "norm_label": "readlernaworkspaces()",
       "id": "claude_skills_impeccable_scripts_context_readlernaworkspaces"
     },
@@ -7735,7 +8095,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L550",
       "_origin": "ast",
-      "community": 71,
+      "community": 155,
       "norm_label": "readpnpmworkspaces()",
       "id": "claude_skills_impeccable_scripts_context_readpnpmworkspaces"
     },
@@ -7745,7 +8105,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L580",
       "_origin": "ast",
-      "community": 71,
+      "community": 155,
       "norm_label": "stripyamlinlinecomment()",
       "id": "claude_skills_impeccable_scripts_context_stripyamlinlinecomment"
     },
@@ -7755,7 +8115,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L593",
       "_origin": "ast",
-      "community": 71,
+      "community": 155,
       "norm_label": "parseyamlflowlist()",
       "id": "claude_skills_impeccable_scripts_context_parseyamlflowlist"
     },
@@ -7765,7 +8125,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L617",
       "_origin": "ast",
-      "community": 71,
+      "community": 155,
       "norm_label": "unquoteyamlvalue()",
       "id": "claude_skills_impeccable_scripts_context_unquoteyamlvalue"
     },
@@ -7775,7 +8135,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L623",
       "_origin": "ast",
-      "community": 71,
+      "community": 155,
       "norm_label": "readjson()",
       "id": "claude_skills_impeccable_scripts_context_readjson"
     },
@@ -7965,7 +8325,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L876",
       "_origin": "ast",
-      "community": 147,
+      "community": 71,
       "norm_label": "cli()",
       "id": "claude_skills_impeccable_scripts_context_cli"
     },
@@ -7975,7 +8335,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L953",
       "_origin": "ast",
-      "community": 147,
+      "community": 71,
       "norm_label": "parseclioptions()",
       "id": "claude_skills_impeccable_scripts_context_parseclioptions"
     },
@@ -7985,7 +8345,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L957",
       "_origin": "ast",
-      "community": 147,
+      "community": 71,
       "norm_label": "hastargetoption()",
       "id": "claude_skills_impeccable_scripts_context_hastargetoption"
     },
@@ -7995,7 +8355,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L961",
       "_origin": "ast",
-      "community": 147,
+      "community": 71,
       "norm_label": "pathexistsfortarget()",
       "id": "claude_skills_impeccable_scripts_context_pathexistsfortarget"
     },
@@ -8005,7 +8365,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L966",
       "_origin": "ast",
-      "community": 147,
+      "community": 71,
       "norm_label": "buildresolvedcontextdirective()",
       "id": "claude_skills_impeccable_scripts_context_buildresolvedcontextdirective"
     },
@@ -8015,7 +8375,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L978",
       "_origin": "ast",
-      "community": 147,
+      "community": 71,
       "norm_label": "shouldwarnmissingtarget()",
       "id": "claude_skills_impeccable_scripts_context_shouldwarnmissingtarget"
     },
@@ -8025,7 +8385,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L989",
       "_origin": "ast",
-      "community": 147,
+      "community": 71,
       "norm_label": "buildmissingtargetdirective()",
       "id": "claude_skills_impeccable_scripts_context_buildmissingtargetdirective"
     },
@@ -8035,7 +8395,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L998",
       "_origin": "ast",
-      "community": 147,
+      "community": 71,
       "norm_label": "buildtargetselectiondirective()",
       "id": "claude_skills_impeccable_scripts_context_buildtargetselectiondirective"
     },
@@ -8175,7 +8535,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detect-csp.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 120,
+      "community": 51,
       "norm_label": "detect-csp.mjs",
       "id": "claude_skills_impeccable_scripts_detect_csp"
     },
@@ -8185,7 +8545,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detect-csp.mjs",
       "source_location": "L31",
       "_origin": "ast",
-      "community": 120,
+      "community": 51,
       "norm_label": "skip_dirs",
       "id": "claude_skills_impeccable_scripts_detect_csp_skip_dirs"
     },
@@ -8195,7 +8555,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detect-csp.mjs",
       "source_location": "L45",
       "_origin": "ast",
-      "community": 120,
+      "community": 51,
       "norm_label": "scan_exts",
       "id": "claude_skills_impeccable_scripts_detect_csp_scan_exts"
     },
@@ -8205,7 +8565,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detect-csp.mjs",
       "source_location": "L46",
       "_origin": "ast",
-      "community": 120,
+      "community": 51,
       "norm_label": "layout_exts",
       "id": "claude_skills_impeccable_scripts_detect_csp_layout_exts"
     },
@@ -8215,7 +8575,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detect-csp.mjs",
       "source_location": "L51",
       "_origin": "ast",
-      "community": 120,
+      "community": 51,
       "norm_label": "monorepo_helper_signals",
       "id": "claude_skills_impeccable_scripts_detect_csp_monorepo_helper_signals"
     },
@@ -8225,7 +8585,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detect-csp.mjs",
       "source_location": "L58",
       "_origin": "ast",
-      "community": 120,
+      "community": 51,
       "norm_label": "sveltekit_csp_signals",
       "id": "claude_skills_impeccable_scripts_detect_csp_sveltekit_csp_signals"
     },
@@ -8235,7 +8595,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detect-csp.mjs",
       "source_location": "L63",
       "_origin": "ast",
-      "community": 120,
+      "community": 51,
       "norm_label": "nuxt_security_signals",
       "id": "claude_skills_impeccable_scripts_detect_csp_nuxt_security_signals"
     },
@@ -8245,7 +8605,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detect-csp.mjs",
       "source_location": "L69",
       "_origin": "ast",
-      "community": 120,
+      "community": 51,
       "norm_label": "inline_header_signals",
       "id": "claude_skills_impeccable_scripts_detect_csp_inline_header_signals"
     },
@@ -8255,7 +8615,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detect-csp.mjs",
       "source_location": "L74",
       "_origin": "ast",
-      "community": 120,
+      "community": 51,
       "norm_label": "nuxt_route_rules_signals",
       "id": "claude_skills_impeccable_scripts_detect_csp_nuxt_route_rules_signals"
     },
@@ -8265,7 +8625,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detect-csp.mjs",
       "source_location": "L87",
       "_origin": "ast",
-      "community": 120,
+      "community": 51,
       "norm_label": "detectcsp()",
       "id": "claude_skills_impeccable_scripts_detect_csp_detectcsp"
     },
@@ -8275,7 +8635,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detect-csp.mjs",
       "source_location": "L164",
       "_origin": "ast",
-      "community": 120,
+      "community": 51,
       "norm_label": "walk()",
       "id": "claude_skills_impeccable_scripts_detect_csp_walk"
     },
@@ -9645,7 +10005,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/design-system.mjs",
       "source_location": "L767",
       "_origin": "ast",
-      "community": 38,
+      "community": 88,
       "norm_label": "mergedesignsystemfindings()",
       "id": "claude_skills_impeccable_scripts_detector_design_system_mergedesignsystemfindings"
     },
@@ -9765,7 +10125,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L669",
       "_origin": "ast",
-      "community": 90,
+      "community": 45,
       "norm_label": "normalizegooglefontfamilyparam()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_normalizegooglefontfamilyparam"
     },
@@ -9775,7 +10135,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L676",
       "_origin": "ast",
-      "community": 90,
+      "community": 45,
       "norm_label": "extractgooglefontfamilies()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_extractgooglefontfamilies"
     },
@@ -9815,7 +10175,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L835",
       "_origin": "ast",
-      "community": 125,
+      "community": 45,
       "norm_label": "iscardlikefromprops()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_iscardlikefromprops"
     },
@@ -9845,7 +10205,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L914",
       "_origin": "ast",
-      "community": 105,
+      "community": 45,
       "norm_label": "checkitalicserif()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkitalicserif"
     },
@@ -9875,7 +10235,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1031",
       "_origin": "ast",
-      "community": 90,
+      "community": 166,
       "norm_label": "checkrepeatedsectionkickers()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkrepeatedsectionkickers"
     },
@@ -9885,7 +10245,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1047",
       "_origin": "ast",
-      "community": 125,
+      "community": 45,
       "norm_label": "checkmotion()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkmotion"
     },
@@ -9945,7 +10305,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1442",
       "_origin": "ast",
-      "community": 125,
+      "community": 45,
       "norm_label": "parseradiustopx()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_parseradiustopx"
     },
@@ -9955,7 +10315,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1456",
       "_origin": "ast",
-      "community": 125,
+      "community": 45,
       "norm_label": "resolveborderradiuspx()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_resolveborderradiuspx"
     },
@@ -9995,7 +10355,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1543",
       "_origin": "ast",
-      "community": 105,
+      "community": 45,
       "norm_label": "checkelementitalicserifdom()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementitalicserifdom"
     },
@@ -10065,7 +10425,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1743",
       "_origin": "ast",
-      "community": 90,
+      "community": 166,
       "norm_label": "cleaninlinetext()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_cleaninlinetext"
     },
@@ -10075,7 +10435,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1752",
       "_origin": "ast",
-      "community": 90,
+      "community": 166,
       "norm_label": "isrepeatedkickercardcontext()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_isrepeatedkickercardcontext"
     },
@@ -10085,7 +10445,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1757",
       "_origin": "ast",
-      "community": 90,
+      "community": 166,
       "norm_label": "isrepeatedkickercandidate()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_isrepeatedkickercandidate"
     },
@@ -10095,7 +10455,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1786",
       "_origin": "ast",
-      "community": 90,
+      "community": 166,
       "norm_label": "collectrepeatedsectionkickercandidates()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_collectrepeatedsectionkickercandidates"
     },
@@ -10105,7 +10465,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1824",
       "_origin": "ast",
-      "community": 90,
+      "community": 166,
       "norm_label": "checkrepeatedsectionkickersdom()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkrepeatedsectionkickersdom"
     },
@@ -10115,7 +10475,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1833",
       "_origin": "ast",
-      "community": 125,
+      "community": 45,
       "norm_label": "checkelementmotiondom()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementmotiondom"
     },
@@ -10145,7 +10505,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1937",
       "_origin": "ast",
-      "community": 105,
+      "community": 45,
       "norm_label": "resolvefontsizepx()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_resolvefontsizepx"
     },
@@ -10305,7 +10665,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2550",
       "_origin": "ast",
-      "community": 105,
+      "community": 45,
       "norm_label": "checkelementitalicserif()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementitalicserif"
     },
@@ -10325,7 +10685,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2592",
       "_origin": "ast",
-      "community": 90,
+      "community": 166,
       "norm_label": "checkrepeatedsectionkickersfromdoc()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkrepeatedsectionkickersfromdoc"
     },
@@ -10335,7 +10695,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2601",
       "_origin": "ast",
-      "community": 125,
+      "community": 45,
       "norm_label": "checkelementmotion()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementmotion"
     },
@@ -10365,7 +10725,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2679",
       "_origin": "ast",
-      "community": 125,
+      "community": 45,
       "norm_label": "iscardlikedom()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_iscardlikedom"
     },
@@ -10375,7 +10735,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2691",
       "_origin": "ast",
-      "community": 125,
+      "community": 45,
       "norm_label": "checklayout()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checklayout"
     },
@@ -10385,7 +10745,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2725",
       "_origin": "ast",
-      "community": 90,
+      "community": 50,
       "norm_label": "checkpagetypography()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkpagetypography"
     },
@@ -10395,7 +10755,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2798",
       "_origin": "ast",
-      "community": 125,
+      "community": 45,
       "norm_label": "iscardlike()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_iscardlike"
     },
@@ -10405,7 +10765,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2818",
       "_origin": "ast",
-      "community": 125,
+      "community": 45,
       "norm_label": "checkpagelayout()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkpagelayout"
     },
@@ -10415,7 +10775,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2868",
       "_origin": "ast",
-      "community": 90,
+      "community": 95,
       "norm_label": "iscreamcolor()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_iscreamcolor"
     },
@@ -10425,7 +10785,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2890",
       "_origin": "ast",
-      "community": 90,
+      "community": 95,
       "norm_label": "creamfromclasslist()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_creamfromclasslist"
     },
@@ -10435,7 +10795,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2902",
       "_origin": "ast",
-      "community": 90,
+      "community": 95,
       "norm_label": "checkcreampalette()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkcreampalette"
     },
@@ -10445,7 +10805,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2941",
       "_origin": "ast",
-      "community": 105,
+      "community": 45,
       "norm_label": "checkoversizedh1()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkoversizedh1"
     },
@@ -10455,7 +10815,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2959",
       "_origin": "ast",
-      "community": 105,
+      "community": 45,
       "norm_label": "checkelementoversizedh1()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementoversizedh1"
     },
@@ -10465,7 +10825,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2966",
       "_origin": "ast",
-      "community": 105,
+      "community": 45,
       "norm_label": "checkelementoversizedh1dom()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementoversizedh1dom"
     },
@@ -10475,7 +10835,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2981",
       "_origin": "ast",
-      "community": 95,
+      "community": 165,
       "norm_label": "shadowlayeralpha()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_shadowlayeralpha"
     },
@@ -10485,7 +10845,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2990",
       "_origin": "ast",
-      "community": 95,
+      "community": 165,
       "norm_label": "shadowmaxblurpx()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_shadowmaxblurpx"
     },
@@ -10505,7 +10865,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L3013",
       "_origin": "ast",
-      "community": 95,
+      "community": 165,
       "norm_label": "checkgptthinborderwideshadow()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkgptthinborderwideshadow"
     },
@@ -10515,7 +10875,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L3025",
       "_origin": "ast",
-      "community": 95,
+      "community": 165,
       "norm_label": "borderwidthsfromstyle()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_borderwidthsfromstyle"
     },
@@ -10525,7 +10885,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L3034",
       "_origin": "ast",
-      "community": 95,
+      "community": 165,
       "norm_label": "bordercolorsfromstyle()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_bordercolorsfromstyle"
     },
@@ -10535,7 +10895,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L3043",
       "_origin": "ast",
-      "community": 95,
+      "community": 165,
       "norm_label": "checkelementgptbordershadow()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementgptbordershadow"
     },
@@ -10545,7 +10905,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L3047",
       "_origin": "ast",
-      "community": 95,
+      "community": 165,
       "norm_label": "checkelementgptbordershadowdom()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementgptbordershadowdom"
     },
@@ -10555,7 +10915,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L3055",
       "_origin": "ast",
-      "community": 117,
+      "community": 126,
       "norm_label": "classselector()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_classselector"
     },
@@ -10715,7 +11075,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L3265",
       "_origin": "ast",
-      "community": 117,
+      "community": 126,
       "norm_label": "isrenderedforbrowserrule()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_isrenderedforbrowserrule"
     },
@@ -10725,7 +11085,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L3277",
       "_origin": "ast",
-      "community": 117,
+      "community": 126,
       "norm_label": "checkelementtextoverflowdom()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementtextoverflowdom"
     },
@@ -10875,7 +11235,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L3871",
       "_origin": "ast",
-      "community": 117,
+      "community": 63,
       "norm_label": "getdirecttext()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_getdirecttext"
     },
@@ -10885,7 +11245,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L3878",
       "_origin": "ast",
-      "community": 117,
+      "community": 63,
       "norm_label": "getdirecttextrect()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_getdirecttextrect"
     },
@@ -10895,7 +11255,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L3906",
       "_origin": "ast",
-      "community": 117,
+      "community": 63,
       "norm_label": "collectvisualcontrastreasons()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_collectvisualcontrastreasons"
     },
@@ -10905,7 +11265,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L3961",
       "_origin": "ast",
-      "community": 117,
+      "community": 63,
       "norm_label": "collectvisualcontrastcandidates()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_collectvisualcontrastcandidates"
     },
@@ -10915,7 +11275,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4025",
       "_origin": "ast",
-      "community": 117,
+      "community": 94,
       "norm_label": "clampbyte()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_clampbyte"
     },
@@ -10925,7 +11285,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4029",
       "_origin": "ast",
-      "community": 117,
+      "community": 94,
       "norm_label": "blendrgba()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_blendrgba"
     },
@@ -11065,7 +11425,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4314",
       "_origin": "ast",
-      "community": 117,
+      "community": 89,
       "norm_label": "textsamplepoints()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_textsamplepoints"
     },
@@ -11085,7 +11445,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4393",
       "_origin": "ast",
-      "community": 117,
+      "community": 89,
       "norm_label": "analyzevisualcontrastcandidate()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_analyzevisualcontrastcandidate"
     },
@@ -11115,7 +11475,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4511",
       "_origin": "ast",
-      "community": 45,
+      "community": 90,
       "norm_label": "iselementhidden()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_iselementhidden"
     },
@@ -11155,7 +11515,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4574",
       "_origin": "ast",
-      "community": 45,
+      "community": 105,
       "norm_label": "normalizebrowserfontname()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_normalizebrowserfontname"
     },
@@ -11165,7 +11525,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4583",
       "_origin": "ast",
-      "community": 45,
+      "community": 105,
       "norm_label": "browserprimaryfont()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_browserprimaryfont"
     },
@@ -11175,7 +11535,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4591",
       "_origin": "ast",
-      "community": 45,
+      "community": 105,
       "norm_label": "browserdesignsystemconfig()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_browserdesignsystemconfig"
     },
@@ -11185,7 +11545,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4613",
       "_origin": "ast",
-      "community": 45,
+      "community": 95,
       "norm_label": "browsercolorsclose()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_browsercolorsclose"
     },
@@ -11195,7 +11555,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4622",
       "_origin": "ast",
-      "community": 45,
+      "community": 95,
       "norm_label": "isbrowserdesigncolorallowed()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_isbrowserdesigncolorallowed"
     },
@@ -11205,7 +11565,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4633",
       "_origin": "ast",
-      "community": 45,
+      "community": 95,
       "norm_label": "isbrowsertransparentcss()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_isbrowsertransparentcss"
     },
@@ -11215,7 +11575,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4640",
       "_origin": "ast",
-      "community": 45,
+      "community": 95,
       "norm_label": "isbrowserdesignradiusallowed()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_isbrowserdesignradiusallowed"
     },
@@ -11225,7 +11585,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4651",
       "_origin": "ast",
-      "community": 45,
+      "community": 95,
       "norm_label": "browserradiustokens()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_browserradiustokens"
     },
@@ -11235,7 +11595,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4659",
       "_origin": "ast",
-      "community": 45,
+      "community": 95,
       "norm_label": "browserhasdirecttext()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_browserhasdirecttext"
     },
@@ -11245,7 +11605,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4663",
       "_origin": "ast",
-      "community": 45,
+      "community": 95,
       "norm_label": "browsersampletext()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_browsersampletext"
     },
@@ -11255,7 +11615,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4668",
       "_origin": "ast",
-      "community": 45,
+      "community": 90,
       "norm_label": "shouldskipdesignelement()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_shouldskipdesignelement"
     },
@@ -11265,7 +11625,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4673",
       "_origin": "ast",
-      "community": 45,
+      "community": 95,
       "norm_label": "checkelementdesignsystemdom()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementdesignsystemdom"
     },
@@ -11275,7 +11635,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4732",
       "_origin": "ast",
-      "community": 45,
+      "community": 105,
       "norm_label": "decodebrowsergooglefamily()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_decodebrowsergooglefamily"
     },
@@ -11285,7 +11645,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4741",
       "_origin": "ast",
-      "community": 45,
+      "community": 105,
       "norm_label": "checkbrowserdesignsystemsources()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkbrowserdesignsystemsources"
     },
@@ -11455,7 +11815,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/browser/detect-url.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 61,
+      "community": 117,
       "norm_label": "detect-url.mjs",
       "id": "claude_skills_impeccable_scripts_detector_engines_browser_detect_url"
     },
@@ -11465,7 +11825,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/browser/detect-url.mjs",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 61,
+      "community": 117,
       "norm_label": "serializedesignsystemforbrowser()",
       "id": "claude_skills_impeccable_scripts_detector_engines_browser_detect_url_serializedesignsystemforbrowser"
     },
@@ -11475,7 +11835,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/browser/detect-url.mjs",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 61,
+      "community": 117,
       "norm_label": "runvisualcontrastfallback()",
       "id": "claude_skills_impeccable_scripts_detector_engines_browser_detect_url_runvisualcontrastfallback"
     },
@@ -11485,7 +11845,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/browser/detect-url.mjs",
       "source_location": "L106",
       "_origin": "ast",
-      "community": 61,
+      "community": 117,
       "norm_label": "detecturl()",
       "id": "claude_skills_impeccable_scripts_detector_engines_browser_detect_url_detecturl"
     },
@@ -11585,7 +11945,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/regex/detect-text.mjs",
       "source_location": "L42",
       "_origin": "ast",
-      "community": 50,
+      "community": 61,
       "norm_label": "firstoverusedgooglefont()",
       "id": "claude_skills_impeccable_scripts_detector_engines_regex_detect_text_firstoverusedgooglefont"
     },
@@ -11595,7 +11955,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/regex/detect-text.mjs",
       "source_location": "L46",
       "_origin": "ast",
-      "community": 50,
+      "community": 61,
       "norm_label": "isneutralbordercolor()",
       "id": "claude_skills_impeccable_scripts_detector_engines_regex_detect_text_isneutralbordercolor"
     },
@@ -12105,7 +12465,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L799",
       "_origin": "ast",
-      "community": 44,
+      "community": 88,
       "norm_label": "staticdocument",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticdocument"
     },
@@ -12115,7 +12475,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L800",
       "_origin": "ast",
-      "community": 44,
+      "community": 88,
       "norm_label": ".constructor()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticdocument_constructor"
     },
@@ -12125,7 +12485,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L809",
       "_origin": "ast",
-      "community": 44,
+      "community": 88,
       "norm_label": ".wrap()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticdocument_wrap"
     },
@@ -12135,7 +12495,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L817",
       "_origin": "ast",
-      "community": 44,
+      "community": 88,
       "norm_label": ".queryselectorall()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticdocument_queryselectorall"
     },
@@ -12145,7 +12505,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L824",
       "_origin": "ast",
-      "community": 44,
+      "community": 88,
       "norm_label": ".queryselector()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticdocument_queryselector"
     },
@@ -12155,7 +12515,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L832",
       "_origin": "ast",
-      "community": 44,
+      "community": 88,
       "norm_label": ".documentelement()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticdocument_documentelement"
     },
@@ -12165,7 +12525,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L835",
       "_origin": "ast",
-      "community": 44,
+      "community": 88,
       "norm_label": ".body()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticdocument_body"
     },
@@ -12175,7 +12535,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L838",
       "_origin": "ast",
-      "community": 44,
+      "community": 88,
       "norm_label": ".setstyle()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticdocument_setstyle"
     },
@@ -12185,7 +12545,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L841",
       "_origin": "ast",
-      "community": 44,
+      "community": 88,
       "norm_label": ".getstyle()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticdocument_getstyle"
     },
@@ -12205,7 +12565,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L855",
       "_origin": "ast",
-      "community": 61,
+      "community": 88,
       "norm_label": "buildstaticwindow()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_buildstaticwindow"
     },
@@ -12215,7 +12575,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L862",
       "_origin": "ast",
-      "community": 61,
+      "community": 88,
       "norm_label": "collectstaticcsstext()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_collectstaticcsstext"
     },
@@ -12225,7 +12585,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L887",
       "_origin": "ast",
-      "community": 61,
+      "community": 44,
       "norm_label": "buildstaticstylemap()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_buildstaticstylemap"
     },
@@ -12235,7 +12595,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/detect-html.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 61,
+      "community": 88,
       "norm_label": "detect-html.mjs",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_detect_html"
     },
@@ -12245,7 +12605,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/detect-html.mjs",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 61,
+      "community": 88,
       "norm_label": "checkstaticpagetypography()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_detect_html_checkstaticpagetypography"
     },
@@ -12255,7 +12615,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/detect-html.mjs",
       "source_location": "L78",
       "_origin": "ast",
-      "community": 61,
+      "community": 88,
       "norm_label": "checkelementbrokenimage()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_detect_html_checkelementbrokenimage"
     },
@@ -12265,7 +12625,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/detect-html.mjs",
       "source_location": "L92",
       "_origin": "ast",
-      "community": 61,
+      "community": 88,
       "norm_label": "static_element_rules",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_detect_html_static_element_rules"
     },
@@ -12275,7 +12635,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/detect-html.mjs",
       "source_location": "L107",
       "_origin": "ast",
-      "community": 61,
+      "community": 88,
       "norm_label": "detecthtml()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_detect_html_detecthtml"
     },
@@ -12285,7 +12645,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/visual/screenshot-contrast.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 61,
+      "community": 117,
       "norm_label": "screenshot-contrast.mjs",
       "id": "claude_skills_impeccable_scripts_detector_engines_visual_screenshot_contrast"
     },
@@ -12295,7 +12655,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/visual/screenshot-contrast.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 61,
+      "community": 117,
       "norm_label": "sanitizescreenshotclip()",
       "id": "claude_skills_impeccable_scripts_detector_engines_visual_screenshot_contrast_sanitizescreenshotclip"
     },
@@ -12305,7 +12665,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/visual/screenshot-contrast.mjs",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 61,
+      "community": 117,
       "norm_label": "comparescreenshotcontrast()",
       "id": "claude_skills_impeccable_scripts_detector_engines_visual_screenshot_contrast_comparescreenshotcontrast"
     },
@@ -12315,7 +12675,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/visual/screenshot-contrast.mjs",
       "source_location": "L108",
       "_origin": "ast",
-      "community": 61,
+      "community": 117,
       "norm_label": "capturevisualcontrastcandidate()",
       "id": "claude_skills_impeccable_scripts_detector_engines_visual_screenshot_contrast_capturevisualcontrastcandidate"
     },
@@ -12345,7 +12705,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/findings.mjs",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 61,
+      "community": 117,
       "norm_label": "finding()",
       "id": "claude_skills_impeccable_scripts_detector_findings_finding"
     },
@@ -12455,7 +12815,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 61,
+      "community": 117,
       "norm_label": "profiler.mjs",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler"
     },
@@ -12465,7 +12825,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 61,
+      "community": 117,
       "norm_label": "profilenow()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_profilenow"
     },
@@ -12475,7 +12835,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 62,
+      "community": 117,
       "norm_label": "createdetectorprofile()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_createdetectorprofile"
     },
@@ -12485,7 +12845,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 61,
+      "community": 117,
       "norm_label": "recordprofileevent()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_recordprofileevent"
     },
@@ -12495,7 +12855,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L36",
       "_origin": "ast",
-      "community": 61,
+      "community": 117,
       "norm_label": "extractfindingids()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_extractfindingids"
     },
@@ -12505,7 +12865,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 61,
+      "community": 117,
       "norm_label": "profilefindings()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_profilefindings"
     },
@@ -12515,7 +12875,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L54",
       "_origin": "ast",
-      "community": 61,
+      "community": 117,
       "norm_label": "profilestep()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_profilestep"
     },
@@ -12525,7 +12885,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L68",
       "_origin": "ast",
-      "community": 61,
+      "community": 117,
       "norm_label": "profilefindingsasync()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_profilefindingsasync"
     },
@@ -12535,7 +12895,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L81",
       "_origin": "ast",
-      "community": 61,
+      "community": 117,
       "norm_label": "profilestepasync()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_profilestepasync"
     },
@@ -12545,7 +12905,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L95",
       "_origin": "ast",
-      "community": 61,
+      "community": 117,
       "norm_label": "percentile()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_percentile"
     },
@@ -12555,7 +12915,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L104",
       "_origin": "ast",
-      "community": 61,
+      "community": 117,
       "norm_label": "summarizedetectorprofile()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_summarizedetectorprofile"
     },
@@ -12635,7 +12995,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/registry/antipatterns.mjs",
       "source_location": "L476",
       "_origin": "ast",
-      "community": 61,
+      "community": 62,
       "norm_label": "filterbyproviders()",
       "id": "claude_skills_impeccable_scripts_detector_registry_antipatterns_filterbyproviders"
     },
@@ -12815,7 +13175,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L447",
       "_origin": "ast",
-      "community": 61,
+      "community": 88,
       "norm_label": "checkhtmlpatterns()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkhtmlpatterns"
     },
@@ -12935,7 +13295,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L946",
       "_origin": "ast",
-      "community": 34,
+      "community": 44,
       "norm_label": "resolvevarrefs()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_resolvevarrefs"
     },
@@ -13145,7 +13505,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L1350",
       "_origin": "ast",
-      "community": 95,
+      "community": 34,
       "norm_label": "text_edge_tags",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_text_edge_tags"
     },
@@ -13195,7 +13555,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L1715",
       "_origin": "ast",
-      "community": 34,
+      "community": 88,
       "norm_label": "checkpagequalityfromdoc()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkpagequalityfromdoc"
     },
@@ -13205,7 +13565,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L1736",
       "_origin": "ast",
-      "community": 34,
+      "community": 88,
       "norm_label": "checkpagequalitydom()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkpagequalitydom"
     },
@@ -13275,7 +13635,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L1918",
       "_origin": "ast",
-      "community": 61,
+      "community": 88,
       "norm_label": "checkrepeatedsectionkickersfromdoc()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkrepeatedsectionkickersfromdoc"
     },
@@ -13355,7 +13715,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L2144",
       "_origin": "ast",
-      "community": 34,
+      "community": 88,
       "norm_label": "checkpagelayout()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkpagelayout"
     },
@@ -13365,7 +13725,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L2194",
       "_origin": "ast",
-      "community": 34,
+      "community": 88,
       "norm_label": "iscreamcolor()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_iscreamcolor"
     },
@@ -13385,7 +13745,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L2216",
       "_origin": "ast",
-      "community": 34,
+      "community": 88,
       "norm_label": "creamfromclasslist()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_creamfromclasslist"
     },
@@ -13395,7 +13755,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L2228",
       "_origin": "ast",
-      "community": 34,
+      "community": 88,
       "norm_label": "checkcreampalette()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkcreampalette"
     },
@@ -13625,7 +13985,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L2529",
       "_origin": "ast",
-      "community": 34,
+      "community": 126,
       "norm_label": "text_overflow_skip_tags",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_text_overflow_skip_tags"
     },
@@ -13725,7 +14085,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/color.mjs",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 50,
+      "community": 61,
       "norm_label": "isneutralcolor()",
       "id": "claude_skills_impeccable_scripts_detector_shared_color_isneutralcolor"
     },
@@ -13815,7 +14175,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/constants.mjs",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 125,
+      "community": 34,
       "norm_label": "safe_tags",
       "id": "claude_skills_impeccable_scripts_detector_shared_constants_safe_tags"
     },
@@ -13915,7 +14275,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/fonts.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 50,
+      "community": 61,
       "norm_label": "fonts.mjs",
       "id": "claude_skills_impeccable_scripts_detector_shared_fonts"
     },
@@ -13925,7 +14285,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/fonts.mjs",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 50,
+      "community": 61,
       "norm_label": "normalizegooglefontfamilyparam()",
       "id": "claude_skills_impeccable_scripts_detector_shared_fonts_normalizegooglefontfamilyparam"
     },
@@ -13935,7 +14295,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/fonts.mjs",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 50,
+      "community": 61,
       "norm_label": "extractgooglefontfamilies()",
       "id": "claude_skills_impeccable_scripts_detector_shared_fonts_extractgooglefontfamilies"
     },
@@ -17385,7 +17745,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L164",
       "_origin": "ast",
-      "community": 65,
+      "community": 37,
       "norm_label": "writescrolly()",
       "id": "claude_skills_impeccable_scripts_live_browser_writescrolly"
     },
@@ -17675,7 +18035,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L900",
       "_origin": "ast",
-      "community": 65,
+      "community": 37,
       "norm_label": "extractcontext()",
       "id": "claude_skills_impeccable_scripts_live_browser_extractcontext"
     },
@@ -17735,7 +18095,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1005",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "normalizemanualcontexttext()",
       "id": "claude_skills_impeccable_scripts_live_browser_normalizemanualcontexttext"
     },
@@ -17765,7 +18125,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1093",
       "_origin": "ast",
-      "community": 39,
+      "community": 37,
       "norm_label": "showbar()",
       "id": "claude_skills_impeccable_scripts_live_browser_showbar"
     },
@@ -17785,7 +18145,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1132",
       "_origin": "ast",
-      "community": 39,
+      "community": 43,
       "norm_label": "updatebarcontent()",
       "id": "claude_skills_impeccable_scripts_live_browser_updatebarcontent"
     },
@@ -17795,7 +18155,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1170",
       "_origin": "ast",
-      "community": 39,
+      "community": 43,
       "norm_label": "applyconfigurebarchrome()",
       "id": "claude_skills_impeccable_scripts_live_browser_applyconfigurebarchrome"
     },
@@ -17805,7 +18165,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1179",
       "_origin": "ast",
-      "community": 39,
+      "community": 43,
       "norm_label": "restorepickerbarchrome()",
       "id": "claude_skills_impeccable_scripts_live_browser_restorepickerbarchrome"
     },
@@ -18085,7 +18445,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1636",
       "_origin": "ast",
-      "community": 7,
+      "community": 55,
       "norm_label": "layoutflowchildren()",
       "id": "claude_skills_impeccable_scripts_live_browser_layoutflowchildren"
     },
@@ -18155,7 +18515,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1753",
       "_origin": "ast",
-      "community": 7,
+      "community": 55,
       "norm_label": "cursorforinsertaxis()",
       "id": "claude_skills_impeccable_scripts_live_browser_cursorforinsertaxis"
     },
@@ -18165,7 +18525,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1757",
       "_origin": "ast",
-      "community": 39,
+      "community": 7,
       "norm_label": "placeholdersizing()",
       "id": "claude_skills_impeccable_scripts_live_browser_placeholdersizing"
     },
@@ -18185,7 +18545,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1780",
       "_origin": "ast",
-      "community": 39,
+      "community": 7,
       "norm_label": "applyplaceholdersizingstyles()",
       "id": "claude_skills_impeccable_scripts_live_browser_applyplaceholdersizingstyles"
     },
@@ -18225,7 +18585,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1823",
       "_origin": "ast",
-      "community": 7,
+      "community": 74,
       "norm_label": "clampplaceholdersize()",
       "id": "claude_skills_impeccable_scripts_live_browser_clampplaceholdersize"
     },
@@ -18245,7 +18605,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1837",
       "_origin": "ast",
-      "community": 7,
+      "community": 74,
       "norm_label": "resizeplaceholderfromedge()",
       "id": "claude_skills_impeccable_scripts_live_browser_resizeplaceholderfromedge"
     },
@@ -18285,7 +18645,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1932",
       "_origin": "ast",
-      "community": 7,
+      "community": 55,
       "norm_label": "setpageinteractioncursor()",
       "id": "claude_skills_impeccable_scripts_live_browser_setpageinteractioncursor"
     },
@@ -18295,7 +18655,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1952",
       "_origin": "ast",
-      "community": 7,
+      "community": 55,
       "norm_label": "syncpageinteractioncursor()",
       "id": "claude_skills_impeccable_scripts_live_browser_syncpageinteractioncursor"
     },
@@ -18345,7 +18705,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L2017",
       "_origin": "ast",
-      "community": 65,
+      "community": 37,
       "norm_label": "buildinsertplaceholdersnapshotfromdom()",
       "id": "claude_skills_impeccable_scripts_live_browser_buildinsertplaceholdersnapshotfromdom"
     },
@@ -18385,7 +18745,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L2083",
       "_origin": "ast",
-      "community": 39,
+      "community": 74,
       "norm_label": "applyplaceholderdimensions()",
       "id": "claude_skills_impeccable_scripts_live_browser_applyplaceholderdimensions"
     },
@@ -18435,7 +18795,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L2163",
       "_origin": "ast",
-      "community": 39,
+      "community": 7,
       "norm_label": "createinsertplaceholder()",
       "id": "claude_skills_impeccable_scripts_live_browser_createinsertplaceholder"
     },
@@ -18465,7 +18825,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L2214",
       "_origin": "ast",
-      "community": 7,
+      "community": 43,
       "norm_label": "ensureinsertcreatetooltip()",
       "id": "claude_skills_impeccable_scripts_live_browser_ensureinsertcreatetooltip"
     },
@@ -18475,7 +18835,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L2238",
       "_origin": "ast",
-      "community": 7,
+      "community": 43,
       "norm_label": "showinsertcreatetooltip()",
       "id": "claude_skills_impeccable_scripts_live_browser_showinsertcreatetooltip"
     },
@@ -18545,7 +18905,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L2497",
       "_origin": "ast",
-      "community": 39,
+      "community": 43,
       "norm_label": "buildgeneratingrow()",
       "id": "claude_skills_impeccable_scripts_live_browser_buildgeneratingrow"
     },
@@ -18555,7 +18915,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L2535",
       "_origin": "ast",
-      "community": 39,
+      "community": 43,
       "norm_label": "buildcyclingrow()",
       "id": "claude_skills_impeccable_scripts_live_browser_buildcyclingrow"
     },
@@ -18565,7 +18925,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L2655",
       "_origin": "ast",
-      "community": 39,
+      "community": 43,
       "norm_label": "buildsavingrow()",
       "id": "claude_skills_impeccable_scripts_live_browser_buildsavingrow"
     },
@@ -18575,7 +18935,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L2680",
       "_origin": "ast",
-      "community": 39,
+      "community": 43,
       "norm_label": "buildconfirmedrow()",
       "id": "claude_skills_impeccable_scripts_live_browser_buildconfirmedrow"
     },
@@ -18585,7 +18945,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L2701",
       "_origin": "ast",
-      "community": 39,
+      "community": 43,
       "norm_label": "builddots()",
       "id": "claude_skills_impeccable_scripts_live_browser_builddots"
     },
@@ -18595,7 +18955,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L2741",
       "_origin": "ast",
-      "community": 39,
+      "community": 43,
       "norm_label": "navbtn()",
       "id": "claude_skills_impeccable_scripts_live_browser_navbtn"
     },
@@ -18615,7 +18975,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L2761",
       "_origin": "ast",
-      "community": 90,
+      "community": 43,
       "norm_label": "el()",
       "id": "claude_skills_impeccable_scripts_live_browser_el"
     },
@@ -18655,7 +19015,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L2882",
       "_origin": "ast",
-      "community": 39,
+      "community": 43,
       "norm_label": "ensurecyclingrenderable()",
       "id": "claude_skills_impeccable_scripts_live_browser_ensurecyclingrenderable"
     },
@@ -18895,7 +19255,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3437",
       "_origin": "ast",
-      "community": 65,
+      "community": 37,
       "norm_label": "buildlocatorforleaf()",
       "id": "claude_skills_impeccable_scripts_live_browser_buildlocatorforleaf"
     },
@@ -18935,7 +19295,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3504",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "documentrefsegment()",
       "id": "claude_skills_impeccable_scripts_live_browser_documentrefsegment"
     },
@@ -18945,7 +19305,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3509",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "documentrefidsuffix()",
       "id": "claude_skills_impeccable_scripts_live_browser_documentrefidsuffix"
     },
@@ -18955,7 +19315,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3513",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "documentrefclasssuffix()",
       "id": "claude_skills_impeccable_scripts_live_browser_documentrefclasssuffix"
     },
@@ -18965,7 +19325,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3524",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "normalizedocumentreftoken()",
       "id": "claude_skills_impeccable_scripts_live_browser_normalizedocumentreftoken"
     },
@@ -18975,7 +19335,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3528",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "indexamongsametag()",
       "id": "claude_skills_impeccable_scripts_live_browser_indexamongsametag"
     },
@@ -19015,7 +19375,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3588",
       "_origin": "ast",
-      "community": 65,
+      "community": 7,
       "norm_label": "forbiddenmanualtextchars()",
       "id": "claude_skills_impeccable_scripts_live_browser_forbiddenmanualtextchars"
     },
@@ -19025,7 +19385,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3596",
       "_origin": "ast",
-      "community": 65,
+      "community": 37,
       "norm_label": "applyediting()",
       "id": "claude_skills_impeccable_scripts_live_browser_applyediting"
     },
@@ -19035,7 +19395,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3670",
       "_origin": "ast",
-      "community": 55,
+      "community": 68,
       "norm_label": "schedulependingdockposition()",
       "id": "claude_skills_impeccable_scripts_live_browser_schedulependingdockposition"
     },
@@ -19065,7 +19425,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3712",
       "_origin": "ast",
-      "community": 39,
+      "community": 43,
       "norm_label": "ensurespinkeyframes()",
       "id": "claude_skills_impeccable_scripts_live_browser_ensurespinkeyframes"
     },
@@ -19235,7 +19595,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3942",
       "_origin": "ast",
-      "community": 37,
+      "community": 47,
       "norm_label": "maybeshowfirstsavetoast()",
       "id": "claude_skills_impeccable_scripts_live_browser_maybeshowfirstsavetoast"
     },
@@ -19265,7 +19625,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4008",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "onpendingtrashclick()",
       "id": "claude_skills_impeccable_scripts_live_browser_onpendingtrashclick"
     },
@@ -19345,7 +19705,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4196",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "restorediscardedmanualedits()",
       "id": "claude_skills_impeccable_scripts_live_browser_restorediscardedmanualedits"
     },
@@ -19355,7 +19715,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4215",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "canrestoremanualeditelement()",
       "id": "claude_skills_impeccable_scripts_live_browser_canrestoremanualeditelement"
     },
@@ -19375,7 +19735,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4232",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "restoremixedtextnodemanualedit()",
       "id": "claude_skills_impeccable_scripts_live_browser_restoremixedtextnodemanualedit"
     },
@@ -19385,7 +19745,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4250",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "directmixedtextrestorenodes()",
       "id": "claude_skills_impeccable_scripts_live_browser_directmixedtextrestorenodes"
     },
@@ -19395,7 +19755,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4260",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "findmanualeditrestoreelement()",
       "id": "claude_skills_impeccable_scripts_live_browser_findmanualeditrestoreelement"
     },
@@ -19405,7 +19765,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4279",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "querymanualeditref()",
       "id": "claude_skills_impeccable_scripts_live_browser_querymanualeditref"
     },
@@ -19415,7 +19775,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4299",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "parsemanualeditrefsegment()",
       "id": "claude_skills_impeccable_scripts_live_browser_parsemanualeditrefsegment"
     },
@@ -19425,7 +19785,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4315",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "elementmatchesmanualrefsegment()",
       "id": "claude_skills_impeccable_scripts_live_browser_elementmatchesmanualrefsegment"
     },
@@ -19435,7 +19795,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4326",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "cssident()",
       "id": "claude_skills_impeccable_scripts_live_browser_cssident"
     },
@@ -19725,7 +20085,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4856",
       "_origin": "ast",
-      "community": 65,
+      "community": 7,
       "norm_label": "buildpickedanchorsnapshot()",
       "id": "claude_skills_impeccable_scripts_live_browser_buildpickedanchorsnapshot"
     },
@@ -20135,7 +20495,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L5755",
       "_origin": "ast",
-      "community": 39,
+      "community": 43,
       "norm_label": "cyclevariant()",
       "id": "claude_skills_impeccable_scripts_live_browser_cyclevariant"
     },
@@ -20215,7 +20575,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L5870",
       "_origin": "ast",
-      "community": 65,
+      "community": 37,
       "norm_label": "startscrolllock()",
       "id": "claude_skills_impeccable_scripts_live_browser_startscrolllock"
     },
@@ -20245,7 +20605,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6093",
       "_origin": "ast",
-      "community": 39,
+      "community": 37,
       "norm_label": "startscrolltracking()",
       "id": "claude_skills_impeccable_scripts_live_browser_startscrolltracking"
     },
@@ -20285,7 +20645,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6283",
       "_origin": "ast",
-      "community": 65,
+      "community": 47,
       "norm_label": "sendevent()",
       "id": "claude_skills_impeccable_scripts_live_browser_sendevent"
     },
@@ -20295,7 +20655,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6304",
       "_origin": "ast",
-      "community": 65,
+      "community": 37,
       "norm_label": "checkpointpayload()",
       "id": "claude_skills_impeccable_scripts_live_browser_checkpointpayload"
     },
@@ -20305,7 +20665,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6323",
       "_origin": "ast",
-      "community": 65,
+      "community": 37,
       "norm_label": "sendcheckpoint()",
       "id": "claude_skills_impeccable_scripts_live_browser_sendcheckpoint"
     },
@@ -20335,7 +20695,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6355",
       "_origin": "ast",
-      "community": 7,
+      "community": 55,
       "norm_label": "handlemousemove()",
       "id": "claude_skills_impeccable_scripts_live_browser_handlemousemove"
     },
@@ -20355,7 +20715,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6479",
       "_origin": "ast",
-      "community": 37,
+      "community": 47,
       "norm_label": "maybewarnconditionalancestor()",
       "id": "claude_skills_impeccable_scripts_live_browser_maybewarnconditionalancestor"
     },
@@ -20365,7 +20725,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6533",
       "_origin": "ast",
-      "community": 65,
+      "community": 47,
       "norm_label": "maybeprefetchpage()",
       "id": "claude_skills_impeccable_scripts_live_browser_maybeprefetchpage"
     },
@@ -20375,7 +20735,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6541",
       "_origin": "ast",
-      "community": 37,
+      "community": 7,
       "norm_label": "shouldpassthroughelementnav()",
       "id": "claude_skills_impeccable_scripts_live_browser_shouldpassthroughelementnav"
     },
@@ -20395,7 +20755,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6669",
       "_origin": "ast",
-      "community": 65,
+      "community": 37,
       "norm_label": "handlego()",
       "id": "claude_skills_impeccable_scripts_live_browser_handlego"
     },
@@ -20415,7 +20775,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6745",
       "_origin": "ast",
-      "community": 65,
+      "community": 37,
       "norm_label": "handleinsertcreate()",
       "id": "claude_skills_impeccable_scripts_live_browser_handleinsertcreate"
     },
@@ -20425,7 +20785,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6807",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "loadmodernscreenshot()",
       "id": "claude_skills_impeccable_scripts_live_browser_loadmodernscreenshot"
     },
@@ -20465,7 +20825,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6893",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "istransparentcolor()",
       "id": "claude_skills_impeccable_scripts_live_browser_istransparentcolor"
     },
@@ -20475,7 +20835,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6909",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "resolvecanvasbackground()",
       "id": "claude_skills_impeccable_scripts_live_browser_resolvecanvasbackground"
     },
@@ -20485,7 +20845,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6930",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "capturechromenodes()",
       "id": "claude_skills_impeccable_scripts_live_browser_capturechromenodes"
     },
@@ -20495,7 +20855,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6954",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "hidecapturechromeforshaderproxy()",
       "id": "claude_skills_impeccable_scripts_live_browser_hidecapturechromeforshaderproxy"
     },
@@ -20505,7 +20865,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6973",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "shoulduseancestorcropshaderproxy()",
       "id": "claude_skills_impeccable_scripts_live_browser_shoulduseancestorcropshaderproxy"
     },
@@ -20515,7 +20875,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6983",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "paintsshaderproxysurface()",
       "id": "claude_skills_impeccable_scripts_live_browser_paintsshaderproxysurface"
     },
@@ -20525,7 +20885,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6990",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "findshaderproxycaptureroot()",
       "id": "claude_skills_impeccable_scripts_live_browser_findshaderproxycaptureroot"
     },
@@ -20535,7 +20895,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7013",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "captureelementfromrenderedancestor()",
       "id": "claude_skills_impeccable_scripts_live_browser_captureelementfromrenderedancestor"
     },
@@ -20545,7 +20905,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7037",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "captureelementtoblob()",
       "id": "claude_skills_impeccable_scripts_live_browser_captureelementtoblob"
     },
@@ -20555,7 +20915,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7107",
       "_origin": "ast",
-      "community": 65,
+      "community": 37,
       "norm_label": "captureandemit()",
       "id": "claude_skills_impeccable_scripts_live_browser_captureandemit"
     },
@@ -20565,7 +20925,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7241",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "csscolortorgb01()",
       "id": "claude_skills_impeccable_scripts_live_browser_csscolortorgb01"
     },
@@ -20575,7 +20935,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7255",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "resolvepaperrgb()",
       "id": "claude_skills_impeccable_scripts_live_browser_resolvepaperrgb"
     },
@@ -20585,7 +20945,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7272",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "paintsbackdrop()",
       "id": "claude_skills_impeccable_scripts_live_browser_paintsbackdrop"
     },
@@ -20595,7 +20955,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7287",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "findbackdropancestor()",
       "id": "claude_skills_impeccable_scripts_live_browser_findbackdropancestor"
     },
@@ -20605,7 +20965,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7298",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "averagergb01()",
       "id": "claude_skills_impeccable_scripts_live_browser_averagergb01"
     },
@@ -20615,7 +20975,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7309",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "dominantrgb01()",
       "id": "claude_skills_impeccable_scripts_live_browser_dominantrgb01"
     },
@@ -20625,7 +20985,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7335",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "samplesurroundingrgb()",
       "id": "claude_skills_impeccable_scripts_live_browser_samplesurroundingrgb"
     },
@@ -20635,7 +20995,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7353",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "compileshader()",
       "id": "claude_skills_impeccable_scripts_live_browser_compileshader"
     },
@@ -20665,7 +21025,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7386",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "showshaderbitmapfallback()",
       "id": "claude_skills_impeccable_scripts_live_browser_showshaderbitmapfallback"
     },
@@ -20675,7 +21035,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7405",
       "_origin": "ast",
-      "community": 88,
+      "community": 7,
       "norm_label": "showshaderoverlay()",
       "id": "claude_skills_impeccable_scripts_live_browser_showshaderoverlay"
     },
@@ -20685,7 +21045,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7517",
       "_origin": "ast",
-      "community": 37,
+      "community": 43,
       "norm_label": "handleaccept()",
       "id": "claude_skills_impeccable_scripts_live_browser_handleaccept"
     },
@@ -20715,7 +21075,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7602",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "snapshotacceptedvariantdom()",
       "id": "claude_skills_impeccable_scripts_live_browser_snapshotacceptedvariantdom"
     },
@@ -20725,7 +21085,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7615",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "selectorforacceptedroot()",
       "id": "claude_skills_impeccable_scripts_live_browser_selectorforacceptedroot"
     },
@@ -20805,7 +21165,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7732",
       "_origin": "ast",
-      "community": 37,
+      "community": 47,
       "norm_label": "handlediscard()",
       "id": "claude_skills_impeccable_scripts_live_browser_handlediscard"
     },
@@ -20915,7 +21275,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7873",
       "_origin": "ast",
-      "community": 39,
+      "community": 37,
       "norm_label": "restorefromactivesessions()",
       "id": "claude_skills_impeccable_scripts_live_browser_restorefromactivesessions"
     },
@@ -20995,7 +21355,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7976",
       "_origin": "ast",
-      "community": 37,
+      "community": 47,
       "norm_label": "dismisstoast()",
       "id": "claude_skills_impeccable_scripts_live_browser_dismisstoast"
     },
@@ -21005,7 +21365,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7982",
       "_origin": "ast",
-      "community": 37,
+      "community": 47,
       "norm_label": "showtoast()",
       "id": "claude_skills_impeccable_scripts_live_browser_showtoast"
     },
@@ -21035,7 +21395,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8211",
       "_origin": "ast",
-      "community": 37,
+      "community": 7,
       "norm_label": "saveinteractionprefs()",
       "id": "claude_skills_impeccable_scripts_live_browser_saveinteractionprefs"
     },
@@ -21055,7 +21415,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8221",
       "_origin": "ast",
-      "community": 37,
+      "community": 7,
       "norm_label": "savepickpref()",
       "id": "claude_skills_impeccable_scripts_live_browser_savepickpref"
     },
@@ -21175,7 +21535,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8436",
       "_origin": "ast",
-      "community": 47,
+      "community": 125,
       "norm_label": "shouldfocussteerchat()",
       "id": "claude_skills_impeccable_scripts_live_browser_shouldfocussteerchat"
     },
@@ -21185,7 +21545,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8442",
       "_origin": "ast",
-      "community": 47,
+      "community": 125,
       "norm_label": "ispageeditableelement()",
       "id": "claude_skills_impeccable_scripts_live_browser_ispageeditableelement"
     },
@@ -21195,7 +21555,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8448",
       "_origin": "ast",
-      "community": 47,
+      "community": 125,
       "norm_label": "isinlineeditactive()",
       "id": "claude_skills_impeccable_scripts_live_browser_isinlineeditactive"
     },
@@ -21205,7 +21565,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8452",
       "_origin": "ast",
-      "community": 47,
+      "community": 125,
       "norm_label": "ispageeditableactive()",
       "id": "claude_skills_impeccable_scripts_live_browser_ispageeditableactive"
     },
@@ -21215,7 +21575,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8457",
       "_origin": "ast",
-      "community": 47,
+      "community": 125,
       "norm_label": "pagehashosttextselection()",
       "id": "claude_skills_impeccable_scripts_live_browser_pagehashosttextselection"
     },
@@ -21225,7 +21585,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8467",
       "_origin": "ast",
-      "community": 47,
+      "community": 125,
       "norm_label": "shouldsteerautofocus()",
       "id": "claude_skills_impeccable_scripts_live_browser_shouldsteerautofocus"
     },
@@ -21235,7 +21595,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8474",
       "_origin": "ast",
-      "community": 47,
+      "community": 125,
       "norm_label": "clearsteerfocusrecovertimer()",
       "id": "claude_skills_impeccable_scripts_live_browser_clearsteerfocusrecovertimer"
     },
@@ -21245,7 +21605,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8481",
       "_origin": "ast",
-      "community": 47,
+      "community": 125,
       "norm_label": "schedulesteerfocusrecover()",
       "id": "claude_skills_impeccable_scripts_live_browser_schedulesteerfocusrecover"
     },
@@ -21255,7 +21615,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8502",
       "_origin": "ast",
-      "community": 47,
+      "community": 125,
       "norm_label": "notepagepointerdown()",
       "id": "claude_skills_impeccable_scripts_live_browser_notepagepointerdown"
     },
@@ -21265,7 +21625,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8512",
       "_origin": "ast",
-      "community": 47,
+      "community": 125,
       "norm_label": "attachsteerfocusguard()",
       "id": "claude_skills_impeccable_scripts_live_browser_attachsteerfocusguard"
     },
@@ -21355,7 +21715,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8678",
       "_origin": "ast",
-      "community": 55,
+      "community": 43,
       "norm_label": "buildsteerprocessingdots()",
       "id": "claude_skills_impeccable_scripts_live_browser_buildsteerprocessingdots"
     },
@@ -21545,7 +21905,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L9029",
       "_origin": "ast",
-      "community": 43,
+      "community": 47,
       "norm_label": "configurevoicecontext()",
       "id": "claude_skills_impeccable_scripts_live_browser_configurevoicecontext"
     },
@@ -21565,7 +21925,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L9050",
       "_origin": "ast",
-      "community": 43,
+      "community": 47,
       "norm_label": "toggleconfigurevoice()",
       "id": "claude_skills_impeccable_scripts_live_browser_toggleconfigurevoice"
     },
@@ -21585,7 +21945,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L9083",
       "_origin": "ast",
-      "community": 37,
+      "community": 47,
       "norm_label": "maybecompletesteer()",
       "id": "claude_skills_impeccable_scripts_live_browser_maybecompletesteer"
     },
@@ -23295,7 +23655,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-inject.mjs",
       "source_location": "L243",
       "_origin": "ast",
-      "community": 51,
+      "community": 81,
       "norm_label": "resolvefiles()",
       "id": "claude_skills_impeccable_scripts_live_inject_resolvefiles"
     },
@@ -23305,7 +23665,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-inject.mjs",
       "source_location": "L291",
       "_origin": "ast",
-      "community": 51,
+      "community": 81,
       "norm_label": "globtoregex()",
       "id": "claude_skills_impeccable_scripts_live_inject_globtoregex"
     },
@@ -28075,7 +28435,7 @@
       "source_file": "docs/tecnico/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 27,
+      "community": 170,
       "norm_label": "readme.md",
       "id": "docs_tecnico_readme"
     },
@@ -28085,7 +28445,7 @@
       "source_file": "docs/tecnico/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 27,
+      "community": 170,
       "norm_label": "tecnico",
       "id": "docs_tecnico_readme_t\u00e9cnico"
     },
@@ -28095,7 +28455,7 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 27,
+      "community": 170,
       "norm_label": "evaluacion-generador-estatico.md",
       "id": "docs_tecnico_evaluacion_generador_estatico"
     },
@@ -29820,132 +30180,12 @@
       "id": "openspec_specs_security_headers_spec_scenario_un_tercero_intenta_embeber_el_sitio_en_un_iframe"
     },
     {
-      "label": "CLAUDE.md",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "claude.md",
-      "id": "claude"
-    },
-    {
-      "label": "CLAUDE.md",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "claude.md",
-      "id": "claude_claude_md"
-    },
-    {
-      "label": "Qu\u00e9 es el proyecto",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "que es el proyecto",
-      "id": "claude_qu\u00e9_es_el_proyecto"
-    },
-    {
-      "label": "Stack",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "stack",
-      "id": "claude_stack"
-    },
-    {
-      "label": "C\u00f3mo previsualizar en local",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L13",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "como previsualizar en local",
-      "id": "claude_c\u00f3mo_previsualizar_en_local"
-    },
-    {
-      "label": "Mapa de carpetas",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L21",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "mapa de carpetas",
-      "id": "claude_mapa_de_carpetas"
-    },
-    {
-      "label": "C\u00f3mo agregar una foto a una galer\u00eda",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L25",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "como agregar una foto a una galeria",
-      "id": "claude_c\u00f3mo_agregar_una_foto_a_una_galer\u00eda"
-    },
-    {
-      "label": "Aviso sobre `styles.css`",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L29",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "aviso sobre `styles.css`",
-      "id": "claude_aviso_sobre_styles_css"
-    },
-    {
-      "label": "Antes de tocar colores o textos de marca",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L33",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "antes de tocar colores o textos de marca",
-      "id": "claude_antes_de_tocar_colores_o_textos_de_marca"
-    },
-    {
-      "label": "Pendientes conocidos",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L37",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "pendientes conocidos",
-      "id": "claude_pendientes_conocidos"
-    },
-    {
-      "label": "Metodolog\u00eda de trabajo",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L41",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "metodologia de trabajo",
-      "id": "claude_metodolog\u00eda_de_trabajo"
-    },
-    {
-      "label": "graphify",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L45",
-      "_origin": "ast",
-      "community": 1,
-      "norm_label": "graphify",
-      "id": "claude_graphify"
-    },
-    {
       "label": "README.md",
       "file_type": "document",
       "source_file": "docs/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 137,
+      "community": 170,
       "norm_label": "readme.md",
       "id": "docs_readme"
     },
@@ -29955,7 +30195,7 @@
       "source_file": "docs/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 137,
+      "community": 170,
       "norm_label": "indice de documentacion \u2014 turismo ensenada",
       "id": "docs_readme_\u00edndice_de_documentaci\u00f3n_turismo_ensenada"
     },
@@ -29965,7 +30205,7 @@
       "source_file": "docs/marca/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 137,
+      "community": 170,
       "norm_label": "readme.md",
       "id": "docs_marca_readme"
     },
@@ -29975,7 +30215,7 @@
       "source_file": "docs/marca/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 137,
+      "community": 170,
       "norm_label": "marca",
       "id": "docs_marca_readme_marca"
     },
@@ -30115,7 +30355,7 @@
       "source_file": "docs/pendientes/seguridad.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
+      "community": 5,
       "norm_label": "seguridad.md",
       "id": "docs_pendientes_seguridad"
     },
@@ -30125,7 +30365,7 @@
       "source_file": "docs/pendientes/seguridad.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
+      "community": 5,
       "norm_label": "seguridad",
       "id": "docs_pendientes_seguridad_seguridad"
     },
@@ -30205,7 +30445,7 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 155,
+      "community": 5,
       "norm_label": "contenido de la home",
       "id": "docs_proyecto_contenido_home_contenido_de_la_home"
     },
@@ -30215,7 +30455,7 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 155,
+      "community": 5,
       "norm_label": "identidad y navegacion",
       "id": "docs_proyecto_contenido_home_identidad_y_navegaci\u00f3n"
     },
@@ -30225,7 +30465,7 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 155,
+      "community": 5,
       "norm_label": "secciones de la home",
       "id": "docs_proyecto_contenido_home_secciones_de_la_home"
     },
@@ -30235,7 +30475,7 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 155,
+      "community": 5,
       "norm_label": "ver tambien",
       "id": "docs_proyecto_contenido_home_ver_tambi\u00e9n"
     },
@@ -30395,7 +30635,7 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 152,
       "norm_label": "mision-y-objetivos.md",
       "id": "docs_proyecto_mision_y_objetivos"
     },
@@ -30405,7 +30645,7 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 156,
+      "community": 152,
       "norm_label": "mision y objetivos",
       "id": "docs_proyecto_mision_y_objetivos_misi\u00f3n_y_objetivos"
     },
@@ -30415,7 +30655,7 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 156,
+      "community": 152,
       "norm_label": "que es",
       "id": "docs_proyecto_mision_y_objetivos_qu\u00e9_es"
     },
@@ -30425,7 +30665,7 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 156,
+      "community": 152,
       "norm_label": "objetivos",
       "id": "docs_proyecto_mision_y_objetivos_objetivos"
     },
@@ -30435,39 +30675,9 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 156,
+      "community": 152,
       "norm_label": "alcance actual vs. proyectado",
       "id": "docs_proyecto_mision_y_objetivos_alcance_actual_vs_proyectado"
-    },
-    {
-      "label": "convenciones-css.md",
-      "file_type": "document",
-      "source_file": "docs/tecnico/convenciones-css.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "convenciones-css.md",
-      "id": "docs_tecnico_convenciones_css"
-    },
-    {
-      "label": "Convenciones de CSS",
-      "file_type": "document",
-      "source_file": "docs/tecnico/convenciones-css.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "convenciones de css",
-      "id": "docs_tecnico_convenciones_css_convenciones_de_css"
-    },
-    {
-      "label": "`styles.css` creci\u00f3 por parches, no por dise\u00f1o de arquitectura",
-      "file_type": "document",
-      "source_file": "docs/tecnico/convenciones-css.md",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "`styles.css` crecio por parches, no por diseno de arquitectura",
-      "id": "docs_tecnico_convenciones_css_styles_css_creci\u00f3_por_parches_no_por_dise\u00f1o_de_arquitectura"
     },
     {
       "label": "convenciones-js.md",
@@ -30585,7 +30795,7 @@
       "source_file": "docs/tecnico/patron-galerias-manifest.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 137,
       "norm_label": "patron-galerias-manifest.md",
       "id": "docs_tecnico_patron_galerias_manifest"
     },
@@ -30595,7 +30805,7 @@
       "source_file": "docs/tecnico/patron-galerias-manifest.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 137,
       "norm_label": "patron de galeria: `assets/en-fotos/manifest.json`",
       "id": "docs_tecnico_patron_galerias_manifest_patr\u00f3n_de_galer\u00eda_assets_en_fotos_manifest_json"
     },
@@ -30605,7 +30815,7 @@
       "source_file": "docs/tecnico/patron-galerias-manifest.md",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 5,
+      "community": 137,
       "norm_label": "caso de uso: agregar una foto nueva a una galeria",
       "id": "docs_tecnico_patron_galerias_manifest_caso_de_uso_agregar_una_foto_nueva_a_una_galer\u00eda"
     },
@@ -30615,7 +30825,7 @@
       "source_file": "docs/tecnico/stack-y-mapa-de-archivos.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 152,
       "norm_label": "stack-y-mapa-de-archivos.md",
       "id": "docs_tecnico_stack_y_mapa_de_archivos"
     },
@@ -31345,12 +31555,352 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude",
+      "target": "claude_claude_md",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "claude",
+      "target": "docs_tecnico_convenciones_css",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_antes_de_tocar_colores_o_textos_de_marca",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_aviso_sobre_styles_css",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_c\u00f3mo_agregar_una_foto_a_una_galer\u00eda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_c\u00f3mo_previsualizar_en_local",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_mapa_de_carpetas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_metodolog\u00eda_de_trabajo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_pendientes_conocidos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_qu\u00e9_es_el_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "openspec/config.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "openspec_config_openspec_config",
+      "target": "claude_claude_md"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_readme",
+      "target": "claude_claude_md"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/marca/colores-y-tipografia.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_marca_colores_y_tipografia",
+      "target": "docs_tecnico_convenciones_css"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tecnico/convenciones-css.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_tecnico_convenciones_css",
+      "target": "docs_tecnico_convenciones_css_convenciones_de_css",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tecnico/convenciones-css.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_tecnico_convenciones_css_convenciones_de_css",
+      "target": "docs_tecnico_convenciones_css_styles_css_creci\u00f3_por_parches_no_por_dise\u00f1o_de_arquitectura",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/design.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_fix_css_conventions_doc_drift_design",
+      "target": "openspec_changes_fix_css_conventions_doc_drift_design_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/design.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "openspec_changes_fix_css_conventions_doc_drift_design",
+      "target": "openspec_changes_fix_css_conventions_doc_drift_design_decisions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/design.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "openspec_changes_fix_css_conventions_doc_drift_design",
+      "target": "openspec_changes_fix_css_conventions_doc_drift_design_goals_non_goals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/design.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "openspec_changes_fix_css_conventions_doc_drift_design",
+      "target": "openspec_changes_fix_css_conventions_doc_drift_design_migration_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/design.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "openspec_changes_fix_css_conventions_doc_drift_design",
+      "target": "openspec_changes_fix_css_conventions_doc_drift_design_open_questions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/design.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "openspec_changes_fix_css_conventions_doc_drift_design",
+      "target": "openspec_changes_fix_css_conventions_doc_drift_design_risks_trade_offs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/proposal.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "openspec_changes_fix_css_conventions_doc_drift_proposal",
+      "target": "openspec_changes_fix_css_conventions_doc_drift_proposal_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/proposal.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "openspec_changes_fix_css_conventions_doc_drift_proposal",
+      "target": "openspec_changes_fix_css_conventions_doc_drift_proposal_impact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/proposal.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "openspec_changes_fix_css_conventions_doc_drift_proposal",
+      "target": "openspec_changes_fix_css_conventions_doc_drift_proposal_what_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/proposal.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_fix_css_conventions_doc_drift_proposal",
+      "target": "openspec_changes_fix_css_conventions_doc_drift_proposal_why",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/proposal.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "openspec_changes_fix_css_conventions_doc_drift_proposal_capabilities",
+      "target": "openspec_changes_fix_css_conventions_doc_drift_proposal_modified_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/proposal.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "openspec_changes_fix_css_conventions_doc_drift_proposal_capabilities",
+      "target": "openspec_changes_fix_css_conventions_doc_drift_proposal_new_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/specs/technical-docs-accuracy/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_fix_css_conventions_doc_drift_specs_technical_docs_accuracy_spec",
+      "target": "openspec_changes_fix_css_conventions_doc_drift_specs_technical_docs_accuracy_spec_added_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/specs/technical-docs-accuracy/spec.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "openspec_changes_fix_css_conventions_doc_drift_specs_technical_docs_accuracy_spec_added_requirements",
+      "target": "openspec_changes_fix_css_conventions_doc_drift_specs_technical_docs_accuracy_spec_requirement_la_documentaci\u00f3n_describe_con_precisi\u00f3n_la_cantidad_real_de_bloques_root_en_styles_css",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/specs/technical-docs-accuracy/spec.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "openspec_changes_fix_css_conventions_doc_drift_specs_technical_docs_accuracy_spec_requirement_la_documentaci\u00f3n_describe_con_precisi\u00f3n_la_cantidad_real_de_bloques_root_en_styles_css",
+      "target": "openspec_changes_fix_css_conventions_doc_drift_specs_technical_docs_accuracy_spec_scenario_un_colaborador_agrega_una_variable_css_nueva",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/tasks.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_fix_css_conventions_doc_drift_tasks",
+      "target": "openspec_changes_fix_css_conventions_doc_drift_tasks_1_corregir_la_documentaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/fix-css-conventions-doc-drift/tasks.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "openspec_changes_fix_css_conventions_doc_drift_tasks",
+      "target": "openspec_changes_fix_css_conventions_doc_drift_tasks_2_deploy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/design.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design",
-      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_context",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_context"
     },
     {
       "relation": "contains",
@@ -31358,9 +31908,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/design.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design",
-      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_decisions",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_decisions"
     },
     {
       "relation": "contains",
@@ -31368,9 +31918,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/design.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design",
-      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_goals_non_goals",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_goals_non_goals"
     },
     {
       "relation": "contains",
@@ -31378,9 +31928,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/design.md",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design",
-      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_migration_plan",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_migration_plan"
     },
     {
       "relation": "contains",
@@ -31388,9 +31938,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/design.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design",
-      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_open_questions",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_open_questions"
     },
     {
       "relation": "contains",
@@ -31398,9 +31948,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/design.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design",
-      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_risks_trade_offs",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_design_risks_trade_offs"
     },
     {
       "relation": "contains",
@@ -31408,9 +31958,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/proposal.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal",
-      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_capabilities",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_capabilities"
     },
     {
       "relation": "contains",
@@ -31418,9 +31968,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/proposal.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal",
-      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_impact",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_impact"
     },
     {
       "relation": "contains",
@@ -31428,9 +31978,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/proposal.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal",
-      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_what_changes",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_what_changes"
     },
     {
       "relation": "contains",
@@ -31438,9 +31988,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/proposal.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal",
-      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_why",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_why"
     },
     {
       "relation": "contains",
@@ -31448,9 +31998,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/proposal.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_capabilities",
-      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_modified_capabilities",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_modified_capabilities"
     },
     {
       "relation": "contains",
@@ -31458,9 +32008,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/proposal.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_capabilities",
-      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_new_capabilities",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_proposal_new_capabilities"
     },
     {
       "relation": "contains",
@@ -31468,9 +32018,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/specs/place-card-visual-consistency/spec.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec",
-      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec_added_requirements",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec_added_requirements"
     },
     {
       "relation": "contains",
@@ -31478,9 +32028,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/specs/place-card-visual-consistency/spec.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec_added_requirements",
-      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec_requirement_las_place_cards_usan_un_radio_de_esquina_consistente_con_las_dem\u00e1s_tarjetas_del_sitio",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec_requirement_las_place_cards_usan_un_radio_de_esquina_consistente_con_las_dem\u00e1s_tarjetas_del_sitio"
     },
     {
       "relation": "contains",
@@ -31488,9 +32038,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/specs/place-card-visual-consistency/spec.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec_requirement_las_place_cards_usan_un_radio_de_esquina_consistente_con_las_dem\u00e1s_tarjetas_del_sitio",
-      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec_scenario_la_imagen_de_portada_respeta_la_esquina_redondeada",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec_scenario_la_imagen_de_portada_respeta_la_esquina_redondeada"
     },
     {
       "relation": "contains",
@@ -31498,9 +32048,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/specs/place-card-visual-consistency/spec.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec_requirement_las_place_cards_usan_un_radio_de_esquina_consistente_con_las_dem\u00e1s_tarjetas_del_sitio",
-      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec_scenario_renderizado_de_las_place_cards",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_specs_place_card_visual_consistency_spec_scenario_renderizado_de_las_place_cards"
     },
     {
       "relation": "contains",
@@ -31508,9 +32058,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/tasks.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_unify_place_card_radius_tasks",
-      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_tasks_1_aplicar_el_fix",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_tasks_1_aplicar_el_fix"
     },
     {
       "relation": "contains",
@@ -31518,9 +32068,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/tasks.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_unify_place_card_radius_tasks",
-      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_tasks_2_verificaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_tasks_2_verificaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -31528,9 +32078,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-unify-place-card-radius/tasks.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_unify_place_card_radius_tasks",
-      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_tasks_3_deploy",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_unify_place_card_radius_tasks_3_deploy"
     },
     {
       "relation": "contains",
@@ -31538,9 +32088,9 @@
       "source_file": "openspec/specs/place-card-visual-consistency/spec.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_place_card_visual_consistency_spec",
-      "target": "openspec_specs_place_card_visual_consistency_spec_purpose",
-      "confidence_score": 1.0
+      "target": "openspec_specs_place_card_visual_consistency_spec_purpose"
     },
     {
       "relation": "contains",
@@ -31548,9 +32098,9 @@
       "source_file": "openspec/specs/place-card-visual-consistency/spec.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_place_card_visual_consistency_spec",
-      "target": "openspec_specs_place_card_visual_consistency_spec_requirements",
-      "confidence_score": 1.0
+      "target": "openspec_specs_place_card_visual_consistency_spec_requirements"
     },
     {
       "relation": "contains",
@@ -31558,9 +32108,9 @@
       "source_file": "openspec/specs/place-card-visual-consistency/spec.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_place_card_visual_consistency_spec_requirements",
-      "target": "openspec_specs_place_card_visual_consistency_spec_requirement_las_place_cards_usan_un_radio_de_esquina_consistente_con_las_dem\u00e1s_tarjetas_del_sitio",
-      "confidence_score": 1.0
+      "target": "openspec_specs_place_card_visual_consistency_spec_requirement_las_place_cards_usan_un_radio_de_esquina_consistente_con_las_dem\u00e1s_tarjetas_del_sitio"
     },
     {
       "relation": "contains",
@@ -31568,9 +32118,9 @@
       "source_file": "openspec/specs/place-card-visual-consistency/spec.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_place_card_visual_consistency_spec_requirement_las_place_cards_usan_un_radio_de_esquina_consistente_con_las_dem\u00e1s_tarjetas_del_sitio",
-      "target": "openspec_specs_place_card_visual_consistency_spec_scenario_la_imagen_de_portada_respeta_la_esquina_redondeada",
-      "confidence_score": 1.0
+      "target": "openspec_specs_place_card_visual_consistency_spec_scenario_la_imagen_de_portada_respeta_la_esquina_redondeada"
     },
     {
       "relation": "contains",
@@ -31578,9 +32128,9 @@
       "source_file": "openspec/specs/place-card-visual-consistency/spec.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_place_card_visual_consistency_spec_requirement_las_place_cards_usan_un_radio_de_esquina_consistente_con_las_dem\u00e1s_tarjetas_del_sitio",
-      "target": "openspec_specs_place_card_visual_consistency_spec_scenario_renderizado_de_las_place_cards",
-      "confidence_score": 1.0
+      "target": "openspec_specs_place_card_visual_consistency_spec_scenario_renderizado_de_las_place_cards"
     },
     {
       "relation": "contains",
@@ -98324,16 +98874,6 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L39",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude",
-      "target": "docs_proyecto_funcionalidades_futuras"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "docs/marca/arquitectura-de-marca.md",
       "source_location": null,
@@ -100162,196 +100702,6 @@
       "target": "openspec_specs_security_headers_spec_scenario_un_tercero_intenta_embeber_el_sitio_en_un_iframe"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude",
-      "target": "claude_claude_md"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude",
-      "target": "docs_proyecto_mision_y_objetivos"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude",
-      "target": "docs_readme"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude",
-      "target": "docs_tecnico_convenciones_css"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L43",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude",
-      "target": "docs_tecnico_metodologia_graphify"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L43",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude",
-      "target": "docs_tecnico_metodologia_openspec"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude",
-      "target": "docs_tecnico_stack_y_mapa_de_archivos"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L33",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_claude_md",
-      "target": "claude_antes_de_tocar_colores_o_textos_de_marca"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L29",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_claude_md",
-      "target": "claude_aviso_sobre_styles_css"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_claude_md",
-      "target": "claude_c\u00f3mo_agregar_una_foto_a_una_galer\u00eda"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_claude_md",
-      "target": "claude_c\u00f3mo_previsualizar_en_local"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L45",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_claude_md",
-      "target": "claude_graphify"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_claude_md",
-      "target": "claude_mapa_de_carpetas"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_claude_md",
-      "target": "claude_metodolog\u00eda_de_trabajo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L37",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_claude_md",
-      "target": "claude_pendientes_conocidos"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_claude_md",
-      "target": "claude_qu\u00e9_es_el_proyecto"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_claude_md",
-      "target": "claude_stack"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "openspec/config.yaml",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "openspec_config_openspec_config",
-      "target": "claude_claude_md"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.75,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "readme_readme",
-      "target": "claude_claude_md"
-    },
-    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "docs/marca/README.md",
@@ -100440,16 +100790,6 @@
       "confidence_score": 1.0,
       "source": "docs_marca_colores_y_tipografia",
       "target": "docs_marca_colores_y_tipografia_colores_y_tipograf\u00eda"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/marca/colores-y-tipografia.md",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_marca_colores_y_tipografia",
-      "target": "docs_tecnico_convenciones_css"
     },
     {
       "relation": "references",
@@ -100980,26 +101320,6 @@
       "confidence_score": 1.0,
       "source": "docs_proyecto_mision_y_objetivos_misi\u00f3n_y_objetivos",
       "target": "docs_proyecto_mision_y_objetivos_qu\u00e9_es"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/tecnico/convenciones-css.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_tecnico_convenciones_css",
-      "target": "docs_tecnico_convenciones_css_convenciones_de_css"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/tecnico/convenciones-css.md",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_tecnico_convenciones_css_convenciones_de_css",
-      "target": "docs_tecnico_convenciones_css_styles_css_creci\u00f3_por_parches_no_por_dise\u00f1o_de_arquitectura"
     },
     {
       "relation": "contains",
@@ -102197,5 +102517,5 @@
       "source_file": "docs/marca/arquitectura-de-marca.md"
     }
   ],
-  "built_at_commit": "870528153d9e4c54387b05d1e55214327bc38286"
+  "built_at_commit": "e44a61494251e69d6edfa4215495daefeb6dadd0"
 }

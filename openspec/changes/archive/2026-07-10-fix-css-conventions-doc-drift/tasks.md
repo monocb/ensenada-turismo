@@ -5,4 +5,4 @@
 
 ## 2. Deploy
 
-- [ ] 2.1 Commit + push a `main`
+- [x] 2.1 Commit + push a `main`

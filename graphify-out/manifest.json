@@ -60,8 +60,8 @@
     "semantic_hash": "a61f55364ccc12e7d09a077f85b7ebc9"
   },
   "CLAUDE.md": {
-    "mtime": 1783659995.605737,
-    "ast_hash": "91e54591926b24bfe7db6e8622e95e0d",
+    "mtime": 1783719487.7106023,
+    "ast_hash": "5ccedbe502c910007bbd42c8ca173b5c",
     "semantic_hash": ""
   },
   "README.md": {
@@ -245,8 +245,8 @@
     "semantic_hash": ""
   },
   "docs/tecnico/convenciones-css.md": {
-    "mtime": 1783659735.6607118,
-    "ast_hash": "6579d590dd94629dce6eec99f1168c58",
+    "mtime": 1783719460.327459,
+    "ast_hash": "fa08fc3da69534fa1c3280a2c2c7bc95",
     "semantic_hash": ""
   },
   "docs/tecnico/convenciones-js.md": {
@@ -982,6 +982,31 @@
   "openspec/specs/place-card-visual-consistency/spec.md": {
     "mtime": 1783718486.8053067,
     "ast_hash": "cd0f365c740ab96214512896f775b875",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-css-conventions-doc-drift/.openspec.yaml": {
+    "mtime": 1783718697.927303,
+    "ast_hash": "a4980ad0f497704c46cfa140cda4a1fd",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-css-conventions-doc-drift/design.md": {
+    "mtime": 1783718790.4275022,
+    "ast_hash": "e504444c298dc5f57a1a6af77088ac24",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-css-conventions-doc-drift/proposal.md": {
+    "mtime": 1783718762.658085,
+    "ast_hash": "ac0bb49a72fb12638eae1040677f0b29",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-css-conventions-doc-drift/specs/technical-docs-accuracy/spec.md": {
+    "mtime": 1783718809.340542,
+    "ast_hash": "65014d8dcfe31fc5dbccb94e5fadbaeb",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-css-conventions-doc-drift/tasks.md": {
+    "mtime": 1783719496.359754,
+    "ast_hash": "643837e745732cf95c5571efc3476983",
     "semantic_hash": ""
   }
 }
