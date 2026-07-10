@@ -387,6 +387,12 @@ reel?.querySelectorAll("img").forEach((image) => {
     const gallery = reel.querySelectorAll("img");
     openLightbox(image, gallery);
   });
+  image.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    event.preventDefault();
+    const gallery = reel.querySelectorAll("img");
+    openLightbox(image, gallery);
+  });
 });
 
 placeGalleryImages.forEach((image) => {

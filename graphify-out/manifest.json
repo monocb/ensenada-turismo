@@ -1014,29 +1014,34 @@
     "ast_hash": "89965800506b367410e496c3aa6f2329",
     "semantic_hash": ""
   },
-  "openspec/changes/compress-oversized-images/.openspec.yaml": {
-    "mtime": 1783721141.7137537,
+  "openspec/changes/archive/2026-07-10-compress-oversized-images/.openspec.yaml": {
+    "mtime": 1783723335.6567757,
     "ast_hash": "a4980ad0f497704c46cfa140cda4a1fd",
     "semantic_hash": ""
   },
-  "openspec/changes/compress-oversized-images/design.md": {
-    "mtime": 1783721212.6582668,
+  "openspec/changes/archive/2026-07-10-compress-oversized-images/design.md": {
+    "mtime": 1783723335.6546068,
     "ast_hash": "1e8c65e9f646b124c9a6cd7b12ca2bd6",
     "semantic_hash": ""
   },
-  "openspec/changes/compress-oversized-images/proposal.md": {
-    "mtime": 1783721167.6793342,
+  "openspec/changes/archive/2026-07-10-compress-oversized-images/proposal.md": {
+    "mtime": 1783723335.6546068,
     "ast_hash": "3e6f2aff5b899d27a2ee2656621bb3a8",
     "semantic_hash": ""
   },
-  "openspec/changes/compress-oversized-images/specs/image-asset-budget/spec.md": {
-    "mtime": 1783721232.0069535,
+  "openspec/changes/archive/2026-07-10-compress-oversized-images/specs/image-asset-budget/spec.md": {
+    "mtime": 1783723335.6567757,
     "ast_hash": "efe7e0a9ce3be1a69ca2075e77a308c4",
     "semantic_hash": ""
   },
-  "openspec/changes/compress-oversized-images/tasks.md": {
-    "mtime": 1783721594.8284087,
-    "ast_hash": "3364cf603f9cfd9458974fa9b8137681",
+  "openspec/changes/archive/2026-07-10-compress-oversized-images/tasks.md": {
+    "mtime": 1783723335.6577752,
+    "ast_hash": "3542f80c6ad7b0aef40de7d933dc1b80",
+    "semantic_hash": ""
+  },
+  "openspec/specs/image-asset-budget/spec.md": {
+    "mtime": 1783723316.5814538,
+    "ast_hash": "ad7ba6f77d6595689e46eadc27a26781",
     "semantic_hash": ""
   }
 }
