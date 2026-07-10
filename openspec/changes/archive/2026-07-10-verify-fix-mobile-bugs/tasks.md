@@ -13,5 +13,5 @@
 
 ## 3. Deploy y validación en producción
 
-- [ ] 3.1 Commit + push a `main`
-- [ ] 3.2 Verificar en producción (`ensenadaturismo.com`) en 320/375/414/430px que el hero ya no recorta el texto
+- [x] 3.1 Commit + push a `main`
+- [x] 3.2 Verificar en producción (`ensenadaturismo.com`) en 320/375/414/430px que el hero ya no recorta el texto

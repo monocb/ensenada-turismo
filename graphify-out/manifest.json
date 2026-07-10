@@ -165,23 +165,23 @@
     "semantic_hash": ""
   },
   "docs/pendientes/bug-menu-hamburguesa.md": {
-    "mtime": 1783659806.4360955,
-    "ast_hash": "ca5679b0ce1dd183a31bf599911a60b3",
+    "mtime": 1783696346.5452821,
+    "ast_hash": "3244cad1e5b57318fba953ec10b6488e",
     "semantic_hash": ""
   },
   "docs/pendientes/bug-portada-mobile.md": {
-    "mtime": 1783659797.8387446,
-    "ast_hash": "e96c37b67d69fc02608cb3f1c4ae04ff",
+    "mtime": 1783696378.0793562,
+    "ast_hash": "1d3bc07d9198043fe207567df9b01a63",
     "semantic_hash": ""
   },
   "docs/pendientes/bug-renglon-amarillo.md": {
-    "mtime": 1783659814.2992089,
-    "ast_hash": "2ed070f00af5d3954bf89ef16f821ffc",
+    "mtime": 1783696366.6059704,
+    "ast_hash": "072356dd525f60660a96891850735006",
     "semantic_hash": ""
   },
   "docs/pendientes/bug-seccion-cultura.md": {
-    "mtime": 1783659821.0087433,
-    "ast_hash": "086bf901596fa13746d1946e1255afd6",
+    "mtime": 1783696356.4118164,
+    "ast_hash": "f95692a64ad750893b298049cc838fed",
     "semantic_hash": ""
   },
   "docs/pendientes/performance.md": {
@@ -332,6 +332,31 @@
   "openspec/specs/gallery-accessibility/spec.md": {
     "mtime": 1783695070.4808307,
     "ast_hash": "a80e7371bcc827b31ab0fd0bc03a9e9b",
+    "semantic_hash": ""
+  },
+  "openspec/changes/verify-fix-mobile-bugs/.openspec.yaml": {
+    "mtime": 1783695893.459817,
+    "ast_hash": "a4980ad0f497704c46cfa140cda4a1fd",
+    "semantic_hash": ""
+  },
+  "openspec/changes/verify-fix-mobile-bugs/design.md": {
+    "mtime": 1783695973.808593,
+    "ast_hash": "2d4215a213be10bc9706a6f2d4709684",
+    "semantic_hash": ""
+  },
+  "openspec/changes/verify-fix-mobile-bugs/proposal.md": {
+    "mtime": 1783695928.3551548,
+    "ast_hash": "022756833bb19a152273233c40c63a68",
+    "semantic_hash": ""
+  },
+  "openspec/changes/verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md": {
+    "mtime": 1783695985.8425598,
+    "ast_hash": "aae929844c16fe3741152bb478d5b3e7",
+    "semantic_hash": ""
+  },
+  "openspec/changes/verify-fix-mobile-bugs/tasks.md": {
+    "mtime": 1783696387.5629232,
+    "ast_hash": "fd543943cc8b03923050b9b6c17f0740",
     "semantic_hash": ""
   }
 }

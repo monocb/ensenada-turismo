@@ -1,16 +1,16 @@
 # Graph Report - ensenada-turismo  (2026-07-10)
 
 ## Corpus Check
-- 59 files · ~20,439 words
+- 63 files · ~22,399 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 278 nodes · 355 edges · 24 communities (23 shown, 1 thin omitted)
-- Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 16 edges (avg confidence: 0.78)
+- 305 nodes · 374 edges · 28 communities (27 shown, 1 thin omitted)
+- Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 16 edges (avg confidence: 0.78)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `72bb3e85`
+- Built from commit: `39382c56`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -39,6 +39,10 @@
 - proposal.md
 - ADDED Requirements
 - Contenido de la home
+- design.md
+- proposal.md
+- Metodología: Graphify
+- tasks.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `OpenSpec CLI (openspec command)` - 11 edges
@@ -55,14 +59,14 @@
 ## Surprising Connections (you probably didn't know these)
 - `Home page (index.html)` --semantically_similar_to--> `En Fotos page (en-fotos/index.html)`  [INFERRED] [semantically similar]
   index.html → en-fotos/index.html
+- `OpenSpec project config (openspec/config.yaml)` --shares_data_with--> `OpenSpec CLI (openspec command)`  [INFERRED]
+  openspec/config.yaml → .claude/commands/opsx/apply.md
 - `404 Not Found page (404.html)` --references--> `favicon.svg ("ET" monogram brand mark, navy square with white border)`  [EXTRACTED]
   404.html → favicon.svg
 - `Home page (index.html)` --references--> `favicon.svg ("ET" monogram brand mark, navy square with white border)`  [EXTRACTED]
   index.html → favicon.svg
 - `En Fotos page (en-fotos/index.html)` --references--> `favicon.svg ("ET" monogram brand mark, navy square with white border)`  [EXTRACTED]
   en-fotos/index.html → favicon.svg
-- `OpenSpec project config (openspec/config.yaml)` --shares_data_with--> `OpenSpec CLI (openspec command)`  [INFERRED]
-  openspec/config.yaml → .claude/commands/opsx/apply.md
 
 ## Import Cycles
 - None detected.
@@ -73,15 +77,15 @@
 - **Documentos derivados del Manual Interno de Marca v1.0** — docs_marca_identidad, docs_marca_sistema_visual, docs_marca_colores_y_tipografia, docs_marca_arquitectura_de_marca, docs_marca_fotografia_y_composicion, docs_marca_sponsors_y_reglas [INFERRED 0.85]
 - **Sistema de líneas de marca y su color asociado** — docs_marca_arquitectura_de_marca, docs_marca_colores_y_tipografia, docs_marca_sistema_visual_color [INFERRED 0.80]
 
-## Communities (24 total, 1 thin omitted)
+## Communities (28 total, 1 thin omitted)
 
 ### Community 0 - "Interacciones de UI (script.js)"
 Cohesion: 0.04
 Nodes (36): activeLightboxImages, carousel, carouselNext, carouselPrev, header, hero, lightbox, lightboxClose (+28 more)
 
 ### Community 1 - "Flujo de trabajo OpenSpec"
-Cohesion: 0.29
-Nodes (22): OPSX: Apply (slash command), OPSX: Archive (slash command), OPSX: Explore (slash command), OPSX: Propose (slash command), OPSX: Sync (slash command), openspec-apply-change (skill), openspec-archive-change (skill), openspec-explore (skill) (+14 more)
+Cohesion: 0.31
+Nodes (21): OPSX: Apply (slash command), OPSX: Archive (slash command), OPSX: Explore (slash command), OPSX: Propose (slash command), OPSX: Sync (slash command), openspec-apply-change (skill), openspec-archive-change (skill), openspec-explore (skill) (+13 more)
 
 ### Community 2 - "Bugs y riesgos conocidos"
 Cohesion: 0.50
@@ -96,16 +100,16 @@ Cohesion: 0.10
 Nodes (22): Arquitectura de marca, ENSENADA CULTURA, ENSENADA EN FOTOS, ENSENADA EN VIVO, ENSENADA HISTORIA, ENSENADA IDENTIDAD, ENSENADA (marca madre), Colores y tipografía (+14 more)
 
 ### Community 5 - "Mision y funcionalidades futuras"
-Cohesion: 0.08
-Nodes (21): Línea histórica pública, Ver también, Localidad: El Dique, Ver también, Localidad: Ensenada Centro, Ver también, Localidad: Punta Lara, Ver también (+13 more)
+Cohesion: 0.07
+Nodes (27): Contenido de la home, Identidad y navegación, Secciones de la home, Ver también, Línea histórica pública, Ver también, Localidad: El Dique, Ver también (+19 more)
 
 ### Community 6 - "Contenido y localidades del sitio"
 Cohesion: 0.08
-Nodes (16): Accesibilidad, Bug: menú hamburguesa mostrando seis líneas, Bug: portada mobile con problemas de responsive, Bug: "renglón amarillo" rompe el layout en mobile, Bug: sección Cultura sin mostrar fotos correctamente, Performance, Pendientes, Riesgos ya mitigados (+8 more)
+Nodes (14): Accesibilidad, Bug: menú hamburguesa mostrando seis líneas, Bug: portada mobile con problemas de responsive, Bug: "renglón amarillo" rompe el layout en mobile, Bug: sección Cultura sin mostrar fotos correctamente, Performance, Pendientes, Riesgos ya mitigados (+6 more)
 
 ### Community 7 - "Identidad y sistema visual de marca"
-Cohesion: 0.15
-Nodes (12): Antes de tocar colores o textos de marca, Aviso sobre `styles.css`, Cómo agregar una foto a una galería, Cómo previsualizar en local, graphify, Mapa de carpetas, Metodología de trabajo, Pendientes conocidos (+4 more)
+Cohesion: 0.14
+Nodes (13): Antes de tocar colores o textos de marca, Aviso sobre `styles.css`, Cómo agregar una foto a una galería, Cómo previsualizar en local, graphify, Mapa de carpetas, Metodología de trabajo, Pendientes conocidos (+5 more)
 
 ### Community 8 - "Fotografia y composicion de marca"
 Cohesion: 0.40
@@ -120,12 +124,12 @@ Cohesion: 0.67
 Nodes (3): getPlaceModalFocusable(), openPlaceModal(), trapPlaceModalFocus()
 
 ### Community 12 - "Stack y mapa de archivos"
-Cohesion: 0.19
-Nodes (9): Contenido de la home, Identidad y navegación, Secciones de la home, Ver también, Convención de `assets/`, Mapa de archivos, Stack, Stack y mapa de archivos (+1 more)
+Cohesion: 0.40
+Nodes (5): Convención de `assets/`, Mapa de archivos, Stack, Stack y mapa de archivos, Ver también
 
 ### Community 13 - "Misión y objetivos"
-Cohesion: 0.50
-Nodes (4): Alcance actual vs. proyectado, Misión y objetivos, Objetivos, Qué es
+Cohesion: 0.22
+Nodes (8): ADDED Requirements, Requirement: El menú mobile es funcional y usa un ícono de tres líneas, Requirement: El título del hero no se recorta en viewports mobile, Requirement: La sección Cultura muestra sus fotos correctamente, Scenario: Abrir el menú mobile, Scenario: Navegar el carrusel de Cultura, Scenario: Viewport de teléfono angosto (320px), Scenario: Viewport de teléfono típico (375-430px)
 
 ### Community 14 - "Metodología: Graphify"
 Cohesion: 0.29
@@ -167,25 +171,41 @@ Nodes (5): ADDED Requirements, Requirement: El alt de las fotos de galería incl
 Cohesion: 0.50
 Nodes (3): 1. Implementar el nuevo template de alt, 2. Verificación, 3. Deploy
 
+### Community 24 - "design.md"
+Cohesion: 0.29
+Nodes (6): Context, Decisions, Goals / Non-Goals, Migration Plan, Open Questions, Risks / Trade-offs
+
+### Community 25 - "proposal.md"
+Cohesion: 0.29
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
+
+### Community 26 - "Metodología: Graphify"
+Cohesion: 0.50
+Nodes (4): Metodología: Graphify, Salida, Uso día a día, Ver también
+
+### Community 27 - "tasks.md"
+Cohesion: 0.50
+Nodes (3): 1. Corregir el bug confirmado (hero h1 recortado), 2. Actualizar documentación de los 4 bugs con el estado verificado, 3. Deploy y validación en producción
+
 ## Knowledge Gaps
-- **141 isolated node(s):** `Context`, `Goals / Non-Goals`, `Decisions`, `Risks / Trade-offs`, `Migration Plan` (+136 more)
+- **159 isolated node(s):** `Bug: menú hamburguesa mostrando seis líneas`, `Bug: portada mobile con problemas de responsive`, `Bug: "renglón amarillo" rompe el layout en mobile`, `Bug: sección Cultura sin mostrar fotos correctamente`, `Context` (+154 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `OpenSpec project config (openspec/config.yaml)` connect `Flujo de trabajo OpenSpec` to `Identidad y sistema visual de marca`?**
-  _High betweenness centrality (0.067) - this node is a cross-community bridge._
+- **Why does `OpenSpec project config (openspec/config.yaml)` connect `Identidad y sistema visual de marca` to `Flujo de trabajo OpenSpec`?**
+  _High betweenness centrality (0.055) - this node is a cross-community bridge._
+- **Why does `OpenSpec CLI (openspec command)` connect `Flujo de trabajo OpenSpec` to `Identidad y sistema visual de marca`?**
+  _High betweenness centrality (0.047) - this node is a cross-community bridge._
 - **Why does `Arquitectura de marca` connect `Arquitectura de marca y colores` to `Mision y funcionalidades futuras`?**
-  _High betweenness centrality (0.024) - this node is a cross-community bridge._
-- **What connects `Context`, `Goals / Non-Goals`, `Decisions` to the rest of the system?**
-  _146 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.020) - this node is a cross-community bridge._
+- **What connects `Bug: menú hamburguesa mostrando seis líneas`, `Bug: portada mobile con problemas de responsive`, `Bug: "renglón amarillo" rompe el layout en mobile` to the rest of the system?**
+  _164 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interacciones de UI (script.js)` be split into smaller, more focused modules?**
   _Cohesion score 0.043478260869565216 - nodes in this community are weakly interconnected._
 - **Should `Arquitectura de marca y colores` be split into smaller, more focused modules?**
   _Cohesion score 0.1 - nodes in this community are weakly interconnected._
 - **Should `Mision y funcionalidades futuras` be split into smaller, more focused modules?**
-  _Cohesion score 0.08108108108108109 - nodes in this community are weakly interconnected._
-- **Should `Contenido y localidades del sitio` be split into smaller, more focused modules?**
-  _Cohesion score 0.07936507936507936 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06553911205073996 - nodes in this community are weakly interconnected._
