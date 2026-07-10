@@ -953,5 +953,30 @@
     "mtime": 1783715424.4770877,
     "ast_hash": "f908c553e1eb266a62020b0717680068",
     "semantic_hash": ""
+  },
+  "openspec/changes/unify-place-card-radius/.openspec.yaml": {
+    "mtime": 1783716052.3953803,
+    "ast_hash": "a4980ad0f497704c46cfa140cda4a1fd",
+    "semantic_hash": ""
+  },
+  "openspec/changes/unify-place-card-radius/design.md": {
+    "mtime": 1783716190.7986062,
+    "ast_hash": "dacf3aac09b3e73a203377d0bb25745a",
+    "semantic_hash": ""
+  },
+  "openspec/changes/unify-place-card-radius/proposal.md": {
+    "mtime": 1783716153.6863658,
+    "ast_hash": "9ac80d172230501f72619855e7bfee3e",
+    "semantic_hash": ""
+  },
+  "openspec/changes/unify-place-card-radius/specs/place-card-visual-consistency/spec.md": {
+    "mtime": 1783716211.714004,
+    "ast_hash": "05916d89b6a27909315d45c33f55d097",
+    "semantic_hash": ""
+  },
+  "openspec/changes/unify-place-card-radius/tasks.md": {
+    "mtime": 1783717201.711517,
+    "ast_hash": "b382cbffcd4e2d79a79047901875f96a",
+    "semantic_hash": ""
   }
 }

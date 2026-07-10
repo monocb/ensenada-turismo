@@ -10,5 +10,5 @@
 
 ## 3. Deploy
 
-- [ ] 3.1 Commit + push a `main`
-- [ ] 3.2 Verificar en producción (`ensenadaturismo.com`) que las place-cards tienen esquinas redondeadas
+- [x] 3.1 Commit + push a `main`
+- [x] 3.2 Verificar en producción (`ensenadaturismo.com`) que las place-cards tienen esquinas redondeadas
