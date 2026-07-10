@@ -334,29 +334,34 @@
     "ast_hash": "a80e7371bcc827b31ab0fd0bc03a9e9b",
     "semantic_hash": ""
   },
-  "openspec/changes/verify-fix-mobile-bugs/.openspec.yaml": {
-    "mtime": 1783695893.459817,
+  "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/.openspec.yaml": {
+    "mtime": 1783696862.601775,
     "ast_hash": "a4980ad0f497704c46cfa140cda4a1fd",
     "semantic_hash": ""
   },
-  "openspec/changes/verify-fix-mobile-bugs/design.md": {
-    "mtime": 1783695973.808593,
+  "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/design.md": {
+    "mtime": 1783696862.6309786,
     "ast_hash": "2d4215a213be10bc9706a6f2d4709684",
     "semantic_hash": ""
   },
-  "openspec/changes/verify-fix-mobile-bugs/proposal.md": {
-    "mtime": 1783695928.3551548,
+  "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/proposal.md": {
+    "mtime": 1783696862.6279523,
     "ast_hash": "022756833bb19a152273233c40c63a68",
     "semantic_hash": ""
   },
-  "openspec/changes/verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md": {
-    "mtime": 1783695985.8425598,
+  "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md": {
+    "mtime": 1783696862.6782928,
     "ast_hash": "aae929844c16fe3741152bb478d5b3e7",
     "semantic_hash": ""
   },
-  "openspec/changes/verify-fix-mobile-bugs/tasks.md": {
-    "mtime": 1783696387.5629232,
-    "ast_hash": "fd543943cc8b03923050b9b6c17f0740",
+  "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/tasks.md": {
+    "mtime": 1783696862.6828232,
+    "ast_hash": "5023a33006902c7574b76f529dd3bc86",
+    "semantic_hash": ""
+  },
+  "openspec/specs/mobile-hero-layout/spec.md": {
+    "mtime": 1783696826.2354815,
+    "ast_hash": "49eb615a36057ccdbb48cbf356b52f69",
     "semantic_hash": ""
   }
 }

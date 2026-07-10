@@ -11,5 +11,6 @@ Cómo está construido el sitio y cómo trabajar sobre el código. Cada archivo 
 | [`deploy-netlify.md`](deploy-netlify.md) | Datos del sitio en Netlify, checklist de reconexión a Git |
 | [`metodologia-openspec.md`](metodologia-openspec.md) | Toda tarea nueva pasa primero por una propuesta OpenSpec |
 | [`metodologia-graphify.md`](metodologia-graphify.md) | Grafo de conocimiento del repo |
+| [`evaluacion-generador-estatico.md`](evaluacion-generador-estatico.md) | Astro vs. Eleventy vs. status quo: qué usar y cuándo migrar |
 
 Volver al [índice general](../README.md).
