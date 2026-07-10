@@ -984,29 +984,34 @@
     "ast_hash": "cd0f365c740ab96214512896f775b875",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-css-conventions-doc-drift/.openspec.yaml": {
-    "mtime": 1783718697.927303,
+  "openspec/changes/archive/2026-07-10-fix-css-conventions-doc-drift/.openspec.yaml": {
+    "mtime": 1783720635.4678972,
     "ast_hash": "a4980ad0f497704c46cfa140cda4a1fd",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-css-conventions-doc-drift/design.md": {
-    "mtime": 1783718790.4275022,
+  "openspec/changes/archive/2026-07-10-fix-css-conventions-doc-drift/design.md": {
+    "mtime": 1783720635.472406,
     "ast_hash": "e504444c298dc5f57a1a6af77088ac24",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-css-conventions-doc-drift/proposal.md": {
-    "mtime": 1783718762.658085,
+  "openspec/changes/archive/2026-07-10-fix-css-conventions-doc-drift/proposal.md": {
+    "mtime": 1783720635.4688964,
     "ast_hash": "ac0bb49a72fb12638eae1040677f0b29",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-css-conventions-doc-drift/specs/technical-docs-accuracy/spec.md": {
-    "mtime": 1783718809.340542,
+  "openspec/changes/archive/2026-07-10-fix-css-conventions-doc-drift/specs/technical-docs-accuracy/spec.md": {
+    "mtime": 1783720635.4708996,
     "ast_hash": "65014d8dcfe31fc5dbccb94e5fadbaeb",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-css-conventions-doc-drift/tasks.md": {
-    "mtime": 1783719496.359754,
-    "ast_hash": "643837e745732cf95c5571efc3476983",
+  "openspec/changes/archive/2026-07-10-fix-css-conventions-doc-drift/tasks.md": {
+    "mtime": 1783720635.472406,
+    "ast_hash": "5a6414d81e9f2ad28c687a1484d91167",
+    "semantic_hash": ""
+  },
+  "openspec/specs/technical-docs-accuracy/spec.md": {
+    "mtime": 1783720620.2127914,
+    "ast_hash": "89965800506b367410e496c3aa6f2329",
     "semantic_hash": ""
   }
 }
