@@ -12,6 +12,6 @@
 
 ## 3. Deploy y validación en producción
 
-- [ ] 3.1 Mergear el cambio a `main` y esperar el deploy automático de Netlify
-- [ ] 3.2 Verificar las cabeceras en el sitio en producción (por ejemplo con `curl -I https://ensenadaturismo.com/` o securityheaders.com) confirmando que CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy y HSTS están presentes
-- [ ] 3.3 Repetir la verificación manual de Google Fonts y el embed de YouTube en el sitio ya desplegado
+- [x] 3.1 Mergear el cambio a `main` y esperar el deploy automático de Netlify
+- [x] 3.2 Verificar las cabeceras en el sitio en producción (por ejemplo con `curl -I https://ensenadaturismo.com/` o securityheaders.com) confirmando que CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy y HSTS están presentes
+- [x] 3.3 Repetir la verificación manual de Google Fonts y el embed de YouTube en el sitio ya desplegado

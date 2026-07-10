@@ -1,16 +1,16 @@
 # Graph Report - ensenada-turismo  (2026-07-10)
 
 ## Corpus Check
-- 49 files · ~16,918 words
+- 53 files · ~18,587 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 207 nodes · 293 edges · 15 communities (14 shown, 1 thin omitted)
+- 235 nodes · 317 edges · 20 communities (19 shown, 1 thin omitted)
 - Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 16 edges (avg confidence: 0.78)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6bfb46a5`
+- Built from commit: `0bdec81d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -30,6 +30,11 @@
 - Stack y mapa de archivos
 - Misión y objetivos
 - Metodología: Graphify
+- ADDED Requirements
+- design.md
+- proposal.md
+- Contenido de la home
+- tasks.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `OpenSpec CLI (openspec command)` - 11 edges
@@ -64,7 +69,7 @@
 - **Documentos derivados del Manual Interno de Marca v1.0** — docs_marca_identidad, docs_marca_sistema_visual, docs_marca_colores_y_tipografia, docs_marca_arquitectura_de_marca, docs_marca_fotografia_y_composicion, docs_marca_sponsors_y_reglas [INFERRED 0.85]
 - **Sistema de líneas de marca y su color asociado** — docs_marca_arquitectura_de_marca, docs_marca_colores_y_tipografia, docs_marca_sistema_visual_color [INFERRED 0.80]
 
-## Communities (15 total, 1 thin omitted)
+## Communities (20 total, 1 thin omitted)
 
 ### Community 0 - "Interacciones de UI (script.js)"
 Cohesion: 0.04
@@ -87,8 +92,8 @@ Cohesion: 0.10
 Nodes (22): Arquitectura de marca, ENSENADA CULTURA, ENSENADA EN FOTOS, ENSENADA EN VIVO, ENSENADA HISTORIA, ENSENADA IDENTIDAD, ENSENADA (marca madre), Colores y tipografía (+14 more)
 
 ### Community 5 - "Mision y funcionalidades futuras"
-Cohesion: 0.08
-Nodes (21): Contenido de la home, Identidad y navegación, Secciones de la home, Ver también, Línea histórica pública, Ver también, Localidad: El Dique, Ver también (+13 more)
+Cohesion: 0.09
+Nodes (17): Línea histórica pública, Ver también, Localidad: El Dique, Ver también, Localidad: Ensenada Centro, Ver también, Localidad: Punta Lara, Ver también (+9 more)
 
 ### Community 6 - "Contenido y localidades del sitio"
 Cohesion: 0.08
@@ -122,8 +127,28 @@ Nodes (4): Alcance actual vs. proyectado, Misión y objetivos, Objetivos, Qué e
 Cohesion: 0.50
 Nodes (4): Metodología: Graphify, Salida, Uso día a día, Ver también
 
+### Community 15 - "ADDED Requirements"
+Cohesion: 0.20
+Nodes (9): ADDED Requirements, Requirement: Cabeceras de seguridad HTTP en todas las rutas, Requirement: El sitio no puede ser embebido en un iframe ajeno, Requirement: La Content-Security-Policy permite el embed de YouTube, Requirement: La Content-Security-Policy permite Google Fonts, Scenario: Cualquier página del sitio incluye cabeceras de seguridad, Scenario: El embed de YouTube se reproduce sin violar la CSP, Scenario: Google Fonts carga sin violar la CSP (+1 more)
+
+### Community 16 - "design.md"
+Cohesion: 0.29
+Nodes (6): Context, Decisions, Goals / Non-Goals, Migration Plan, Open Questions, Risks / Trade-offs
+
+### Community 17 - "proposal.md"
+Cohesion: 0.29
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
+
+### Community 18 - "Contenido de la home"
+Cohesion: 0.50
+Nodes (4): Contenido de la home, Identidad y navegación, Secciones de la home, Ver también
+
+### Community 19 - "tasks.md"
+Cohesion: 0.50
+Nodes (3): 1. Crear el archivo `_headers`, 2. Verificación local/preview, 3. Deploy y validación en producción
+
 ## Knowledge Gaps
-- **99 isolated node(s):** `Qué es el proyecto`, `Stack`, `Cómo previsualizar en local`, `Mapa de carpetas`, `Cómo agregar una foto a una galería` (+94 more)
+- **117 isolated node(s):** `Context`, `Goals / Non-Goals`, `Decisions`, `Risks / Trade-offs`, `Migration Plan` (+112 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -131,16 +156,16 @@ Nodes (4): Metodología: Graphify, Salida, Uso día a día, Ver también
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `OpenSpec project config (openspec/config.yaml)` connect `Flujo de trabajo OpenSpec` to `Identidad y sistema visual de marca`?**
-  _High betweenness centrality (0.120) - this node is a cross-community bridge._
+  _High betweenness centrality (0.093) - this node is a cross-community bridge._
 - **Why does `Arquitectura de marca` connect `Arquitectura de marca y colores` to `Mision y funcionalidades futuras`?**
-  _High betweenness centrality (0.043) - this node is a cross-community bridge._
-- **What connects `Qué es el proyecto`, `Stack`, `Cómo previsualizar en local` to the rest of the system?**
-  _104 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.033) - this node is a cross-community bridge._
+- **What connects `Context`, `Goals / Non-Goals`, `Decisions` to the rest of the system?**
+  _122 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interacciones de UI (script.js)` be split into smaller, more focused modules?**
   _Cohesion score 0.043478260869565216 - nodes in this community are weakly interconnected._
 - **Should `Arquitectura de marca y colores` be split into smaller, more focused modules?**
   _Cohesion score 0.1 - nodes in this community are weakly interconnected._
 - **Should `Mision y funcionalidades futuras` be split into smaller, more focused modules?**
-  _Cohesion score 0.08108108108108109 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.0946969696969697 - nodes in this community are weakly interconnected._
 - **Should `Contenido y localidades del sitio` be split into smaller, more focused modules?**
   _Cohesion score 0.07936507936507936 - nodes in this community are weakly interconnected._

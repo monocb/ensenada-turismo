@@ -273,5 +273,30 @@
     "mtime": 1783659709.0159864,
     "ast_hash": "3581c018474b8099fca6c483795bc4e3",
     "semantic_hash": ""
+  },
+  "openspec/changes/add-security-headers/.openspec.yaml": {
+    "mtime": 1783661252.6390057,
+    "ast_hash": "a4980ad0f497704c46cfa140cda4a1fd",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-security-headers/design.md": {
+    "mtime": 1783661362.8547204,
+    "ast_hash": "e6974916b0c39e9b602089e5013ccf86",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-security-headers/proposal.md": {
+    "mtime": 1783661302.0742395,
+    "ast_hash": "b0b9c1dbdc107eb1ac85d4757f5028c1",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-security-headers/specs/security-headers/spec.md": {
+    "mtime": 1783661406.0117555,
+    "ast_hash": "4c46654d1d40bbdef5d1bac7cfd82152",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-security-headers/tasks.md": {
+    "mtime": 1783693175.4097364,
+    "ast_hash": "7ce7cfd3eb4f44fe55bc0cce8cc1f744",
+    "semantic_hash": ""
   }
 }

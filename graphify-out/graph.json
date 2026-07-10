@@ -70,14 +70,284 @@
   },
   "nodes": [
     {
-      "label": "CLAUDE.md",
+      "label": "design.md",
       "file_type": "document",
-      "source_file": "CLAUDE.md",
+      "source_file": "openspec/changes/add-security-headers/design.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "claude",
-      "community": 5,
-      "norm_label": "claude.md"
+      "id": "openspec_changes_add_security_headers_design",
+      "community": 16,
+      "norm_label": "design.md"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_design_context",
+      "community": 16,
+      "norm_label": "context"
+    },
+    {
+      "label": "Goals / Non-Goals",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/design.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_design_goals_non_goals",
+      "community": 16,
+      "norm_label": "goals / non-goals"
+    },
+    {
+      "label": "Decisions",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/design.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_design_decisions",
+      "community": 16,
+      "norm_label": "decisions"
+    },
+    {
+      "label": "Risks / Trade-offs",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/design.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_design_risks_trade_offs",
+      "community": 16,
+      "norm_label": "risks / trade-offs"
+    },
+    {
+      "label": "Migration Plan",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/design.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_design_migration_plan",
+      "community": 16,
+      "norm_label": "migration plan"
+    },
+    {
+      "label": "Open Questions",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/design.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_design_open_questions",
+      "community": 16,
+      "norm_label": "open questions"
+    },
+    {
+      "label": "proposal.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/proposal.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_proposal",
+      "community": 17,
+      "norm_label": "proposal.md"
+    },
+    {
+      "label": "Why",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/proposal.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_proposal_why",
+      "community": 17,
+      "norm_label": "why"
+    },
+    {
+      "label": "What Changes",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/proposal.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_proposal_what_changes",
+      "community": 17,
+      "norm_label": "what changes"
+    },
+    {
+      "label": "Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/proposal.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_proposal_capabilities",
+      "community": 17,
+      "norm_label": "capabilities"
+    },
+    {
+      "label": "New Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/proposal.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_proposal_new_capabilities",
+      "community": 17,
+      "norm_label": "new capabilities"
+    },
+    {
+      "label": "Modified Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/proposal.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_proposal_modified_capabilities",
+      "community": 17,
+      "norm_label": "modified capabilities"
+    },
+    {
+      "label": "Impact",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/proposal.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_proposal_impact",
+      "community": 17,
+      "norm_label": "impact"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/specs/security-headers/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_specs_security_headers_spec",
+      "community": 15,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "ADDED Requirements",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/specs/security-headers/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_specs_security_headers_spec_added_requirements",
+      "community": 15,
+      "norm_label": "added requirements"
+    },
+    {
+      "label": "Requirement: Cabeceras de seguridad HTTP en todas las rutas",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/specs/security-headers/spec.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_specs_security_headers_spec_requirement_cabeceras_de_seguridad_http_en_todas_las_rutas",
+      "community": 15,
+      "norm_label": "requirement: cabeceras de seguridad http en todas las rutas"
+    },
+    {
+      "label": "Scenario: Cualquier p\u00e1gina del sitio incluye cabeceras de seguridad",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/specs/security-headers/spec.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_specs_security_headers_spec_scenario_cualquier_p\u00e1gina_del_sitio_incluye_cabeceras_de_seguridad",
+      "community": 15,
+      "norm_label": "scenario: cualquier pagina del sitio incluye cabeceras de seguridad"
+    },
+    {
+      "label": "Requirement: La Content-Security-Policy permite Google Fonts",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/specs/security-headers/spec.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_specs_security_headers_spec_requirement_la_content_security_policy_permite_google_fonts",
+      "community": 15,
+      "norm_label": "requirement: la content-security-policy permite google fonts"
+    },
+    {
+      "label": "Scenario: Google Fonts carga sin violar la CSP",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/specs/security-headers/spec.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_specs_security_headers_spec_scenario_google_fonts_carga_sin_violar_la_csp",
+      "community": 15,
+      "norm_label": "scenario: google fonts carga sin violar la csp"
+    },
+    {
+      "label": "Requirement: La Content-Security-Policy permite el embed de YouTube",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/specs/security-headers/spec.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_specs_security_headers_spec_requirement_la_content_security_policy_permite_el_embed_de_youtube",
+      "community": 15,
+      "norm_label": "requirement: la content-security-policy permite el embed de youtube"
+    },
+    {
+      "label": "Scenario: El embed de YouTube se reproduce sin violar la CSP",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/specs/security-headers/spec.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_specs_security_headers_spec_scenario_el_embed_de_youtube_se_reproduce_sin_violar_la_csp",
+      "community": 15,
+      "norm_label": "scenario: el embed de youtube se reproduce sin violar la csp"
+    },
+    {
+      "label": "Requirement: El sitio no puede ser embebido en un iframe ajeno",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/specs/security-headers/spec.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_specs_security_headers_spec_requirement_el_sitio_no_puede_ser_embebido_en_un_iframe_ajeno",
+      "community": 15,
+      "norm_label": "requirement: el sitio no puede ser embebido en un iframe ajeno"
+    },
+    {
+      "label": "Scenario: Un tercero intenta embeber el sitio en un iframe",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/specs/security-headers/spec.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_specs_security_headers_spec_scenario_un_tercero_intenta_embeber_el_sitio_en_un_iframe",
+      "community": 15,
+      "norm_label": "scenario: un tercero intenta embeber el sitio en un iframe"
+    },
+    {
+      "label": "tasks.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_tasks",
+      "community": 19,
+      "norm_label": "tasks.md"
+    },
+    {
+      "label": "1. Crear el archivo `_headers`",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_tasks_1_crear_el_archivo_headers",
+      "community": 19,
+      "norm_label": "1. crear el archivo `_headers`"
+    },
+    {
+      "label": "2. Verificaci\u00f3n local/preview",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/tasks.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_tasks_2_verificaci\u00f3n_local_preview",
+      "community": 19,
+      "norm_label": "2. verificacion local/preview"
+    },
+    {
+      "label": "3. Deploy y validaci\u00f3n en producci\u00f3n",
+      "file_type": "document",
+      "source_file": "openspec/changes/add-security-headers/tasks.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "openspec_changes_add_security_headers_tasks_3_deploy_y_validaci\u00f3n_en_producci\u00f3n",
+      "community": 19,
+      "norm_label": "3. deploy y validacion en produccion"
     },
     {
       "label": "CLAUDE.md",
@@ -85,9 +355,19 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "claude_claude_md",
+      "community": 5,
+      "norm_label": "claude.md",
+      "id": "claude"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
       "community": 7,
-      "norm_label": "claude.md"
+      "norm_label": "claude.md",
+      "id": "claude_claude_md"
     },
     {
       "label": "Qu\u00e9 es el proyecto",
@@ -95,9 +375,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "claude_qu\u00e9_es_el_proyecto",
       "community": 7,
-      "norm_label": "que es el proyecto"
+      "norm_label": "que es el proyecto",
+      "id": "claude_qu\u00e9_es_el_proyecto"
     },
     {
       "label": "Stack",
@@ -105,9 +385,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "claude_stack",
       "community": 7,
-      "norm_label": "stack"
+      "norm_label": "stack",
+      "id": "claude_stack"
     },
     {
       "label": "C\u00f3mo previsualizar en local",
@@ -115,9 +395,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "claude_c\u00f3mo_previsualizar_en_local",
       "community": 7,
-      "norm_label": "como previsualizar en local"
+      "norm_label": "como previsualizar en local",
+      "id": "claude_c\u00f3mo_previsualizar_en_local"
     },
     {
       "label": "Mapa de carpetas",
@@ -125,9 +405,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "claude_mapa_de_carpetas",
       "community": 7,
-      "norm_label": "mapa de carpetas"
+      "norm_label": "mapa de carpetas",
+      "id": "claude_mapa_de_carpetas"
     },
     {
       "label": "C\u00f3mo agregar una foto a una galer\u00eda",
@@ -135,9 +415,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "claude_c\u00f3mo_agregar_una_foto_a_una_galer\u00eda",
       "community": 7,
-      "norm_label": "como agregar una foto a una galeria"
+      "norm_label": "como agregar una foto a una galeria",
+      "id": "claude_c\u00f3mo_agregar_una_foto_a_una_galer\u00eda"
     },
     {
       "label": "Aviso sobre `styles.css`",
@@ -145,9 +425,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L29",
       "_origin": "ast",
-      "id": "claude_aviso_sobre_styles_css",
       "community": 7,
-      "norm_label": "aviso sobre `styles.css`"
+      "norm_label": "aviso sobre `styles.css`",
+      "id": "claude_aviso_sobre_styles_css"
     },
     {
       "label": "Antes de tocar colores o textos de marca",
@@ -155,9 +435,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L33",
       "_origin": "ast",
-      "id": "claude_antes_de_tocar_colores_o_textos_de_marca",
       "community": 7,
-      "norm_label": "antes de tocar colores o textos de marca"
+      "norm_label": "antes de tocar colores o textos de marca",
+      "id": "claude_antes_de_tocar_colores_o_textos_de_marca"
     },
     {
       "label": "Pendientes conocidos",
@@ -165,9 +445,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L37",
       "_origin": "ast",
-      "id": "claude_pendientes_conocidos",
       "community": 7,
-      "norm_label": "pendientes conocidos"
+      "norm_label": "pendientes conocidos",
+      "id": "claude_pendientes_conocidos"
     },
     {
       "label": "Metodolog\u00eda de trabajo",
@@ -175,9 +455,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L41",
       "_origin": "ast",
-      "id": "claude_metodolog\u00eda_de_trabajo",
       "community": 7,
-      "norm_label": "metodologia de trabajo"
+      "norm_label": "metodologia de trabajo",
+      "id": "claude_metodolog\u00eda_de_trabajo"
     },
     {
       "label": "graphify",
@@ -185,9 +465,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L45",
       "_origin": "ast",
-      "id": "claude_graphify",
       "community": 7,
-      "norm_label": "graphify"
+      "norm_label": "graphify",
+      "id": "claude_graphify"
     },
     {
       "label": "README.md",
@@ -195,9 +475,9 @@
       "source_file": "docs/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_readme",
       "community": 5,
-      "norm_label": "readme.md"
+      "norm_label": "readme.md",
+      "id": "docs_readme"
     },
     {
       "label": "\u00cdndice de documentaci\u00f3n \u2014 Turismo Ensenada",
@@ -205,9 +485,9 @@
       "source_file": "docs/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_readme_\u00edndice_de_documentaci\u00f3n_turismo_ensenada",
       "community": 5,
-      "norm_label": "indice de documentacion \u2014 turismo ensenada"
+      "norm_label": "indice de documentacion \u2014 turismo ensenada",
+      "id": "docs_readme_\u00edndice_de_documentaci\u00f3n_turismo_ensenada"
     },
     {
       "label": "README.md",
@@ -215,9 +495,9 @@
       "source_file": "docs/marca/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_marca_readme",
       "community": 4,
-      "norm_label": "readme.md"
+      "norm_label": "readme.md",
+      "id": "docs_marca_readme"
     },
     {
       "label": "Marca",
@@ -225,9 +505,9 @@
       "source_file": "docs/marca/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_marca_readme_marca",
       "community": 4,
-      "norm_label": "marca"
+      "norm_label": "marca",
+      "id": "docs_marca_readme_marca"
     },
     {
       "label": "colores-y-tipografia.md",
@@ -235,9 +515,9 @@
       "source_file": "docs/marca/colores-y-tipografia.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_marca_colores_y_tipografia",
       "community": 4,
-      "norm_label": "colores-y-tipografia.md"
+      "norm_label": "colores-y-tipografia.md",
+      "id": "docs_marca_colores_y_tipografia"
     },
     {
       "label": "Colores y tipograf\u00eda",
@@ -245,9 +525,9 @@
       "source_file": "docs/marca/colores-y-tipografia.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_marca_colores_y_tipografia_colores_y_tipograf\u00eda",
       "community": 4,
-      "norm_label": "colores y tipografia"
+      "norm_label": "colores y tipografia",
+      "id": "docs_marca_colores_y_tipografia_colores_y_tipograf\u00eda"
     },
     {
       "label": "fotografia-y-composicion.md",
@@ -255,9 +535,9 @@
       "source_file": "docs/marca/fotografia-y-composicion.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_marca_fotografia_y_composicion",
       "community": 4,
-      "norm_label": "fotografia-y-composicion.md"
+      "norm_label": "fotografia-y-composicion.md",
+      "id": "docs_marca_fotografia_y_composicion"
     },
     {
       "label": "Fotograf\u00eda y composici\u00f3n",
@@ -265,9 +545,9 @@
       "source_file": "docs/marca/fotografia-y-composicion.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_marca_fotografia_y_composicion_fotograf\u00eda_y_composici\u00f3n",
       "community": 4,
-      "norm_label": "fotografia y composicion"
+      "norm_label": "fotografia y composicion",
+      "id": "docs_marca_fotografia_y_composicion_fotograf\u00eda_y_composici\u00f3n"
     },
     {
       "label": "Categor\u00edas de referencia",
@@ -275,9 +555,9 @@
       "source_file": "docs/marca/fotografia-y-composicion.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "docs_marca_fotografia_y_composicion_categor\u00edas_de_referencia",
       "community": 4,
-      "norm_label": "categorias de referencia"
+      "norm_label": "categorias de referencia",
+      "id": "docs_marca_fotografia_y_composicion_categor\u00edas_de_referencia"
     },
     {
       "label": "README.md",
@@ -285,9 +565,9 @@
       "source_file": "docs/pendientes/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_readme",
       "community": 6,
-      "norm_label": "readme.md"
+      "norm_label": "readme.md",
+      "id": "docs_pendientes_readme"
     },
     {
       "label": "Pendientes",
@@ -295,9 +575,9 @@
       "source_file": "docs/pendientes/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_readme_pendientes",
       "community": 6,
-      "norm_label": "pendientes"
+      "norm_label": "pendientes",
+      "id": "docs_pendientes_readme_pendientes"
     },
     {
       "label": "accesibilidad.md",
@@ -305,9 +585,9 @@
       "source_file": "docs/pendientes/accesibilidad.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_accesibilidad",
       "community": 6,
-      "norm_label": "accesibilidad.md"
+      "norm_label": "accesibilidad.md",
+      "id": "docs_pendientes_accesibilidad"
     },
     {
       "label": "Accesibilidad",
@@ -315,9 +595,9 @@
       "source_file": "docs/pendientes/accesibilidad.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_accesibilidad_accesibilidad",
       "community": 6,
-      "norm_label": "accesibilidad"
+      "norm_label": "accesibilidad",
+      "id": "docs_pendientes_accesibilidad_accesibilidad"
     },
     {
       "label": "bug-menu-hamburguesa.md",
@@ -325,9 +605,9 @@
       "source_file": "docs/pendientes/bug-menu-hamburguesa.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_bug_menu_hamburguesa",
       "community": 6,
-      "norm_label": "bug-menu-hamburguesa.md"
+      "norm_label": "bug-menu-hamburguesa.md",
+      "id": "docs_pendientes_bug_menu_hamburguesa"
     },
     {
       "label": "Bug: men\u00fa hamburguesa mostrando seis l\u00edneas",
@@ -335,9 +615,9 @@
       "source_file": "docs/pendientes/bug-menu-hamburguesa.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_bug_menu_hamburguesa_bug_men\u00fa_hamburguesa_mostrando_seis_l\u00edneas",
       "community": 6,
-      "norm_label": "bug: menu hamburguesa mostrando seis lineas"
+      "norm_label": "bug: menu hamburguesa mostrando seis lineas",
+      "id": "docs_pendientes_bug_menu_hamburguesa_bug_men\u00fa_hamburguesa_mostrando_seis_l\u00edneas"
     },
     {
       "label": "bug-portada-mobile.md",
@@ -345,9 +625,9 @@
       "source_file": "docs/pendientes/bug-portada-mobile.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_bug_portada_mobile",
       "community": 6,
-      "norm_label": "bug-portada-mobile.md"
+      "norm_label": "bug-portada-mobile.md",
+      "id": "docs_pendientes_bug_portada_mobile"
     },
     {
       "label": "Bug: portada mobile con problemas de responsive",
@@ -355,9 +635,9 @@
       "source_file": "docs/pendientes/bug-portada-mobile.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_bug_portada_mobile_bug_portada_mobile_con_problemas_de_responsive",
       "community": 6,
-      "norm_label": "bug: portada mobile con problemas de responsive"
+      "norm_label": "bug: portada mobile con problemas de responsive",
+      "id": "docs_pendientes_bug_portada_mobile_bug_portada_mobile_con_problemas_de_responsive"
     },
     {
       "label": "bug-renglon-amarillo.md",
@@ -365,9 +645,9 @@
       "source_file": "docs/pendientes/bug-renglon-amarillo.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_bug_renglon_amarillo",
       "community": 6,
-      "norm_label": "bug-renglon-amarillo.md"
+      "norm_label": "bug-renglon-amarillo.md",
+      "id": "docs_pendientes_bug_renglon_amarillo"
     },
     {
       "label": "Bug: \"rengl\u00f3n amarillo\" rompe el layout en mobile",
@@ -375,9 +655,9 @@
       "source_file": "docs/pendientes/bug-renglon-amarillo.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_bug_renglon_amarillo_bug_rengl\u00f3n_amarillo_rompe_el_layout_en_mobile",
       "community": 6,
-      "norm_label": "bug: \"renglon amarillo\" rompe el layout en mobile"
+      "norm_label": "bug: \"renglon amarillo\" rompe el layout en mobile",
+      "id": "docs_pendientes_bug_renglon_amarillo_bug_rengl\u00f3n_amarillo_rompe_el_layout_en_mobile"
     },
     {
       "label": "bug-seccion-cultura.md",
@@ -385,9 +665,9 @@
       "source_file": "docs/pendientes/bug-seccion-cultura.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_bug_seccion_cultura",
       "community": 6,
-      "norm_label": "bug-seccion-cultura.md"
+      "norm_label": "bug-seccion-cultura.md",
+      "id": "docs_pendientes_bug_seccion_cultura"
     },
     {
       "label": "Bug: secci\u00f3n Cultura sin mostrar fotos correctamente",
@@ -395,9 +675,9 @@
       "source_file": "docs/pendientes/bug-seccion-cultura.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_bug_seccion_cultura_bug_secci\u00f3n_cultura_sin_mostrar_fotos_correctamente",
       "community": 6,
-      "norm_label": "bug: seccion cultura sin mostrar fotos correctamente"
+      "norm_label": "bug: seccion cultura sin mostrar fotos correctamente",
+      "id": "docs_pendientes_bug_seccion_cultura_bug_secci\u00f3n_cultura_sin_mostrar_fotos_correctamente"
     },
     {
       "label": "performance.md",
@@ -405,9 +685,9 @@
       "source_file": "docs/pendientes/performance.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_performance",
       "community": 6,
-      "norm_label": "performance.md"
+      "norm_label": "performance.md",
+      "id": "docs_pendientes_performance"
     },
     {
       "label": "Performance",
@@ -415,9 +695,9 @@
       "source_file": "docs/pendientes/performance.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_performance_performance",
       "community": 6,
-      "norm_label": "performance"
+      "norm_label": "performance",
+      "id": "docs_pendientes_performance_performance"
     },
     {
       "label": "riesgos-mitigados.md",
@@ -425,9 +705,9 @@
       "source_file": "docs/pendientes/riesgos-mitigados.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_riesgos_mitigados",
       "community": 6,
-      "norm_label": "riesgos-mitigados.md"
+      "norm_label": "riesgos-mitigados.md",
+      "id": "docs_pendientes_riesgos_mitigados"
     },
     {
       "label": "Riesgos ya mitigados",
@@ -435,9 +715,9 @@
       "source_file": "docs/pendientes/riesgos-mitigados.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_riesgos_mitigados_riesgos_ya_mitigados",
       "community": 6,
-      "norm_label": "riesgos ya mitigados"
+      "norm_label": "riesgos ya mitigados",
+      "id": "docs_pendientes_riesgos_mitigados_riesgos_ya_mitigados"
     },
     {
       "label": "seguridad.md",
@@ -445,9 +725,9 @@
       "source_file": "docs/pendientes/seguridad.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_seguridad",
       "community": 6,
-      "norm_label": "seguridad.md"
+      "norm_label": "seguridad.md",
+      "id": "docs_pendientes_seguridad"
     },
     {
       "label": "Seguridad",
@@ -455,9 +735,9 @@
       "source_file": "docs/pendientes/seguridad.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_seguridad_seguridad",
       "community": 6,
-      "norm_label": "seguridad"
+      "norm_label": "seguridad",
+      "id": "docs_pendientes_seguridad_seguridad"
     },
     {
       "label": "seo.md",
@@ -465,9 +745,9 @@
       "source_file": "docs/pendientes/seo.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_seo",
       "community": 6,
-      "norm_label": "seo.md"
+      "norm_label": "seo.md",
+      "id": "docs_pendientes_seo"
     },
     {
       "label": "SEO",
@@ -475,9 +755,9 @@
       "source_file": "docs/pendientes/seo.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_seo_seo",
       "community": 6,
-      "norm_label": "seo"
+      "norm_label": "seo",
+      "id": "docs_pendientes_seo_seo"
     },
     {
       "label": "Ya implementado",
@@ -485,9 +765,9 @@
       "source_file": "docs/pendientes/seo.md",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "docs_pendientes_seo_ya_implementado",
       "community": 6,
-      "norm_label": "ya implementado"
+      "norm_label": "ya implementado",
+      "id": "docs_pendientes_seo_ya_implementado"
     },
     {
       "label": "Pendiente de revisar",
@@ -495,9 +775,9 @@
       "source_file": "docs/pendientes/seo.md",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "docs_pendientes_seo_pendiente_de_revisar",
       "community": 6,
-      "norm_label": "pendiente de revisar"
+      "norm_label": "pendiente de revisar",
+      "id": "docs_pendientes_seo_pendiente_de_revisar"
     },
     {
       "label": "README.md",
@@ -505,9 +785,9 @@
       "source_file": "docs/proyecto/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_readme",
       "community": 5,
-      "norm_label": "readme.md"
+      "norm_label": "readme.md",
+      "id": "docs_proyecto_readme"
     },
     {
       "label": "Proyecto",
@@ -515,9 +795,9 @@
       "source_file": "docs/proyecto/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_readme_proyecto",
       "community": 5,
-      "norm_label": "proyecto"
+      "norm_label": "proyecto",
+      "id": "docs_proyecto_readme_proyecto"
     },
     {
       "label": "contenido-home.md",
@@ -525,9 +805,9 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_contenido_home",
       "community": 5,
-      "norm_label": "contenido-home.md"
+      "norm_label": "contenido-home.md",
+      "id": "docs_proyecto_contenido_home"
     },
     {
       "label": "Contenido de la home",
@@ -535,9 +815,9 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_contenido_home_contenido_de_la_home",
-      "community": 5,
-      "norm_label": "contenido de la home"
+      "community": 18,
+      "norm_label": "contenido de la home",
+      "id": "docs_proyecto_contenido_home_contenido_de_la_home"
     },
     {
       "label": "Identidad y navegaci\u00f3n",
@@ -545,9 +825,9 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "docs_proyecto_contenido_home_identidad_y_navegaci\u00f3n",
-      "community": 5,
-      "norm_label": "identidad y navegacion"
+      "community": 18,
+      "norm_label": "identidad y navegacion",
+      "id": "docs_proyecto_contenido_home_identidad_y_navegaci\u00f3n"
     },
     {
       "label": "Secciones de la home",
@@ -555,9 +835,9 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "docs_proyecto_contenido_home_secciones_de_la_home",
-      "community": 5,
-      "norm_label": "secciones de la home"
+      "community": 18,
+      "norm_label": "secciones de la home",
+      "id": "docs_proyecto_contenido_home_secciones_de_la_home"
     },
     {
       "label": "Ver tambi\u00e9n",
@@ -565,9 +845,9 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "docs_proyecto_contenido_home_ver_tambi\u00e9n",
-      "community": 5,
-      "norm_label": "ver tambien"
+      "community": 18,
+      "norm_label": "ver tambien",
+      "id": "docs_proyecto_contenido_home_ver_tambi\u00e9n"
     },
     {
       "label": "funcionalidades-futuras.md",
@@ -575,9 +855,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_funcionalidades_futuras",
       "community": 5,
-      "norm_label": "funcionalidades-futuras.md"
+      "norm_label": "funcionalidades-futuras.md",
+      "id": "docs_proyecto_funcionalidades_futuras"
     },
     {
       "label": "Funcionalidades futuras",
@@ -585,9 +865,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
       "community": 8,
-      "norm_label": "funcionalidades futuras"
+      "norm_label": "funcionalidades futuras",
+      "id": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras"
     },
     {
       "label": "Concurso fotogr\u00e1fico",
@@ -595,9 +875,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "docs_proyecto_funcionalidades_futuras_concurso_fotogr\u00e1fico",
       "community": 8,
-      "norm_label": "concurso fotografico"
+      "norm_label": "concurso fotografico",
+      "id": "docs_proyecto_funcionalidades_futuras_concurso_fotogr\u00e1fico"
     },
     {
       "label": "Concurso de microrelatos \"Historias de Ensenada\"",
@@ -605,9 +885,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "docs_proyecto_funcionalidades_futuras_concurso_de_microrelatos_historias_de_ensenada",
       "community": 8,
-      "norm_label": "concurso de microrelatos \"historias de ensenada\""
+      "norm_label": "concurso de microrelatos \"historias de ensenada\"",
+      "id": "docs_proyecto_funcionalidades_futuras_concurso_de_microrelatos_historias_de_ensenada"
     },
     {
       "label": "P\u00e1ginas por lugar",
@@ -615,9 +895,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "docs_proyecto_funcionalidades_futuras_p\u00e1ginas_por_lugar",
       "community": 8,
-      "norm_label": "paginas por lugar"
+      "norm_label": "paginas por lugar",
+      "id": "docs_proyecto_funcionalidades_futuras_p\u00e1ginas_por_lugar"
     },
     {
       "label": "Otras mejoras de producto planteadas",
@@ -625,9 +905,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "docs_proyecto_funcionalidades_futuras_otras_mejoras_de_producto_planteadas",
       "community": 8,
-      "norm_label": "otras mejoras de producto planteadas"
+      "norm_label": "otras mejoras de producto planteadas",
+      "id": "docs_proyecto_funcionalidades_futuras_otras_mejoras_de_producto_planteadas"
     },
     {
       "label": "historial-migracion.md",
@@ -635,9 +915,9 @@
       "source_file": "docs/proyecto/historial-migracion.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_historial_migracion",
       "community": 6,
-      "norm_label": "historial-migracion.md"
+      "norm_label": "historial-migracion.md",
+      "id": "docs_proyecto_historial_migracion"
     },
     {
       "label": "Historial de migraci\u00f3n",
@@ -645,9 +925,9 @@
       "source_file": "docs/proyecto/historial-migracion.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_historial_migracion_historial_de_migraci\u00f3n",
       "community": 6,
-      "norm_label": "historial de migracion"
+      "norm_label": "historial de migracion",
+      "id": "docs_proyecto_historial_migracion_historial_de_migraci\u00f3n"
     },
     {
       "label": "Sobre la carpeta `EXPORTACION_PROYECTO` (no incluida en este repo)",
@@ -655,9 +935,9 @@
       "source_file": "docs/proyecto/historial-migracion.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "docs_proyecto_historial_migracion_sobre_la_carpeta_exportacion_proyecto_no_incluida_en_este_repo",
       "community": 6,
-      "norm_label": "sobre la carpeta `exportacion_proyecto` (no incluida en este repo)"
+      "norm_label": "sobre la carpeta `exportacion_proyecto` (no incluida en este repo)",
+      "id": "docs_proyecto_historial_migracion_sobre_la_carpeta_exportacion_proyecto_no_incluida_en_este_repo"
     },
     {
       "label": "linea-historica.md",
@@ -665,9 +945,9 @@
       "source_file": "docs/proyecto/linea-historica.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_linea_historica",
       "community": 5,
-      "norm_label": "linea-historica.md"
+      "norm_label": "linea-historica.md",
+      "id": "docs_proyecto_linea_historica"
     },
     {
       "label": "L\u00ednea hist\u00f3rica p\u00fablica",
@@ -675,9 +955,9 @@
       "source_file": "docs/proyecto/linea-historica.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_linea_historica_l\u00ednea_hist\u00f3rica_p\u00fablica",
       "community": 5,
-      "norm_label": "linea historica publica"
+      "norm_label": "linea historica publica",
+      "id": "docs_proyecto_linea_historica_l\u00ednea_hist\u00f3rica_p\u00fablica"
     },
     {
       "label": "Ver tambi\u00e9n",
@@ -685,9 +965,9 @@
       "source_file": "docs/proyecto/linea-historica.md",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "docs_proyecto_linea_historica_ver_tambi\u00e9n",
       "community": 5,
-      "norm_label": "ver tambien"
+      "norm_label": "ver tambien",
+      "id": "docs_proyecto_linea_historica_ver_tambi\u00e9n"
     },
     {
       "label": "localidad-el-dique.md",
@@ -695,9 +975,9 @@
       "source_file": "docs/proyecto/localidad-el-dique.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_localidad_el_dique",
       "community": 5,
-      "norm_label": "localidad-el-dique.md"
+      "norm_label": "localidad-el-dique.md",
+      "id": "docs_proyecto_localidad_el_dique"
     },
     {
       "label": "Localidad: El Dique",
@@ -705,9 +985,9 @@
       "source_file": "docs/proyecto/localidad-el-dique.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_localidad_el_dique_localidad_el_dique",
       "community": 5,
-      "norm_label": "localidad: el dique"
+      "norm_label": "localidad: el dique",
+      "id": "docs_proyecto_localidad_el_dique_localidad_el_dique"
     },
     {
       "label": "Ver tambi\u00e9n",
@@ -715,9 +995,9 @@
       "source_file": "docs/proyecto/localidad-el-dique.md",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "docs_proyecto_localidad_el_dique_ver_tambi\u00e9n",
       "community": 5,
-      "norm_label": "ver tambien"
+      "norm_label": "ver tambien",
+      "id": "docs_proyecto_localidad_el_dique_ver_tambi\u00e9n"
     },
     {
       "label": "localidad-ensenada-centro.md",
@@ -725,9 +1005,9 @@
       "source_file": "docs/proyecto/localidad-ensenada-centro.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_localidad_ensenada_centro",
       "community": 5,
-      "norm_label": "localidad-ensenada-centro.md"
+      "norm_label": "localidad-ensenada-centro.md",
+      "id": "docs_proyecto_localidad_ensenada_centro"
     },
     {
       "label": "Localidad: Ensenada Centro",
@@ -735,9 +1015,9 @@
       "source_file": "docs/proyecto/localidad-ensenada-centro.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_localidad_ensenada_centro_localidad_ensenada_centro",
       "community": 5,
-      "norm_label": "localidad: ensenada centro"
+      "norm_label": "localidad: ensenada centro",
+      "id": "docs_proyecto_localidad_ensenada_centro_localidad_ensenada_centro"
     },
     {
       "label": "Ver tambi\u00e9n",
@@ -745,9 +1025,9 @@
       "source_file": "docs/proyecto/localidad-ensenada-centro.md",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "docs_proyecto_localidad_ensenada_centro_ver_tambi\u00e9n",
       "community": 5,
-      "norm_label": "ver tambien"
+      "norm_label": "ver tambien",
+      "id": "docs_proyecto_localidad_ensenada_centro_ver_tambi\u00e9n"
     },
     {
       "label": "localidad-punta-lara.md",
@@ -755,9 +1035,9 @@
       "source_file": "docs/proyecto/localidad-punta-lara.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_localidad_punta_lara",
       "community": 5,
-      "norm_label": "localidad-punta-lara.md"
+      "norm_label": "localidad-punta-lara.md",
+      "id": "docs_proyecto_localidad_punta_lara"
     },
     {
       "label": "Localidad: Punta Lara",
@@ -765,9 +1045,9 @@
       "source_file": "docs/proyecto/localidad-punta-lara.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_localidad_punta_lara_localidad_punta_lara",
       "community": 5,
-      "norm_label": "localidad: punta lara"
+      "norm_label": "localidad: punta lara",
+      "id": "docs_proyecto_localidad_punta_lara_localidad_punta_lara"
     },
     {
       "label": "Ver tambi\u00e9n",
@@ -775,9 +1055,9 @@
       "source_file": "docs/proyecto/localidad-punta-lara.md",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "docs_proyecto_localidad_punta_lara_ver_tambi\u00e9n",
       "community": 5,
-      "norm_label": "ver tambien"
+      "norm_label": "ver tambien",
+      "id": "docs_proyecto_localidad_punta_lara_ver_tambi\u00e9n"
     },
     {
       "label": "mision-y-objetivos.md",
@@ -785,9 +1065,9 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_mision_y_objetivos",
       "community": 5,
-      "norm_label": "mision-y-objetivos.md"
+      "norm_label": "mision-y-objetivos.md",
+      "id": "docs_proyecto_mision_y_objetivos"
     },
     {
       "label": "Misi\u00f3n y objetivos",
@@ -795,9 +1075,9 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_mision_y_objetivos_misi\u00f3n_y_objetivos",
       "community": 13,
-      "norm_label": "mision y objetivos"
+      "norm_label": "mision y objetivos",
+      "id": "docs_proyecto_mision_y_objetivos_misi\u00f3n_y_objetivos"
     },
     {
       "label": "Qu\u00e9 es",
@@ -805,9 +1085,9 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "docs_proyecto_mision_y_objetivos_qu\u00e9_es",
       "community": 13,
-      "norm_label": "que es"
+      "norm_label": "que es",
+      "id": "docs_proyecto_mision_y_objetivos_qu\u00e9_es"
     },
     {
       "label": "Objetivos",
@@ -815,9 +1095,9 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "docs_proyecto_mision_y_objetivos_objetivos",
       "community": 13,
-      "norm_label": "objetivos"
+      "norm_label": "objetivos",
+      "id": "docs_proyecto_mision_y_objetivos_objetivos"
     },
     {
       "label": "Alcance actual vs. proyectado",
@@ -825,9 +1105,9 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "docs_proyecto_mision_y_objetivos_alcance_actual_vs_proyectado",
       "community": 13,
-      "norm_label": "alcance actual vs. proyectado"
+      "norm_label": "alcance actual vs. proyectado",
+      "id": "docs_proyecto_mision_y_objetivos_alcance_actual_vs_proyectado"
     },
     {
       "label": "README.md",
@@ -835,9 +1115,9 @@
       "source_file": "docs/tecnico/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_tecnico_readme",
       "community": 5,
-      "norm_label": "readme.md"
+      "norm_label": "readme.md",
+      "id": "docs_tecnico_readme"
     },
     {
       "label": "T\u00e9cnico",
@@ -845,9 +1125,9 @@
       "source_file": "docs/tecnico/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_tecnico_readme_t\u00e9cnico",
       "community": 5,
-      "norm_label": "tecnico"
+      "norm_label": "tecnico",
+      "id": "docs_tecnico_readme_t\u00e9cnico"
     },
     {
       "label": "convenciones-css.md",
@@ -855,9 +1135,9 @@
       "source_file": "docs/tecnico/convenciones-css.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_tecnico_convenciones_css",
       "community": 6,
-      "norm_label": "convenciones-css.md"
+      "norm_label": "convenciones-css.md",
+      "id": "docs_tecnico_convenciones_css"
     },
     {
       "label": "Convenciones de CSS",
@@ -865,9 +1145,9 @@
       "source_file": "docs/tecnico/convenciones-css.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_tecnico_convenciones_css_convenciones_de_css",
       "community": 6,
-      "norm_label": "convenciones de css"
+      "norm_label": "convenciones de css",
+      "id": "docs_tecnico_convenciones_css_convenciones_de_css"
     },
     {
       "label": "`styles.css` creci\u00f3 por parches, no por dise\u00f1o de arquitectura",
@@ -875,9 +1155,9 @@
       "source_file": "docs/tecnico/convenciones-css.md",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "docs_tecnico_convenciones_css_styles_css_creci\u00f3_por_parches_no_por_dise\u00f1o_de_arquitectura",
       "community": 6,
-      "norm_label": "`styles.css` crecio por parches, no por diseno de arquitectura"
+      "norm_label": "`styles.css` crecio por parches, no por diseno de arquitectura",
+      "id": "docs_tecnico_convenciones_css_styles_css_creci\u00f3_por_parches_no_por_dise\u00f1o_de_arquitectura"
     },
     {
       "label": "convenciones-js.md",
@@ -885,9 +1165,9 @@
       "source_file": "docs/tecnico/convenciones-js.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_tecnico_convenciones_js",
       "community": 5,
-      "norm_label": "convenciones-js.md"
+      "norm_label": "convenciones-js.md",
+      "id": "docs_tecnico_convenciones_js"
     },
     {
       "label": "Convenciones de JS",
@@ -895,9 +1175,9 @@
       "source_file": "docs/tecnico/convenciones-js.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_tecnico_convenciones_js_convenciones_de_js",
       "community": 5,
-      "norm_label": "convenciones de js"
+      "norm_label": "convenciones de js",
+      "id": "docs_tecnico_convenciones_js_convenciones_de_js"
     },
     {
       "label": "metodologia-graphify.md",
@@ -905,9 +1185,9 @@
       "source_file": "docs/tecnico/metodologia-graphify.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_tecnico_metodologia_graphify",
       "community": 5,
-      "norm_label": "metodologia-graphify.md"
+      "norm_label": "metodologia-graphify.md",
+      "id": "docs_tecnico_metodologia_graphify"
     },
     {
       "label": "Metodolog\u00eda: Graphify",
@@ -915,9 +1195,9 @@
       "source_file": "docs/tecnico/metodologia-graphify.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_tecnico_metodologia_graphify_metodolog\u00eda_graphify",
       "community": 14,
-      "norm_label": "metodologia: graphify"
+      "norm_label": "metodologia: graphify",
+      "id": "docs_tecnico_metodologia_graphify_metodolog\u00eda_graphify"
     },
     {
       "label": "Salida",
@@ -925,9 +1205,9 @@
       "source_file": "docs/tecnico/metodologia-graphify.md",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "docs_tecnico_metodologia_graphify_salida",
       "community": 14,
-      "norm_label": "salida"
+      "norm_label": "salida",
+      "id": "docs_tecnico_metodologia_graphify_salida"
     },
     {
       "label": "Uso d\u00eda a d\u00eda",
@@ -935,9 +1215,9 @@
       "source_file": "docs/tecnico/metodologia-graphify.md",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "docs_tecnico_metodologia_graphify_uso_d\u00eda_a_d\u00eda",
       "community": 14,
-      "norm_label": "uso dia a dia"
+      "norm_label": "uso dia a dia",
+      "id": "docs_tecnico_metodologia_graphify_uso_d\u00eda_a_d\u00eda"
     },
     {
       "label": "Ver tambi\u00e9n",
@@ -945,9 +1225,9 @@
       "source_file": "docs/tecnico/metodologia-graphify.md",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "docs_tecnico_metodologia_graphify_ver_tambi\u00e9n",
       "community": 14,
-      "norm_label": "ver tambien"
+      "norm_label": "ver tambien",
+      "id": "docs_tecnico_metodologia_graphify_ver_tambi\u00e9n"
     },
     {
       "label": "metodologia-openspec.md",
@@ -955,9 +1235,9 @@
       "source_file": "docs/tecnico/metodologia-openspec.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_tecnico_metodologia_openspec",
       "community": 5,
-      "norm_label": "metodologia-openspec.md"
+      "norm_label": "metodologia-openspec.md",
+      "id": "docs_tecnico_metodologia_openspec"
     },
     {
       "label": "Metodolog\u00eda: OpenSpec",
@@ -965,9 +1245,9 @@
       "source_file": "docs/tecnico/metodologia-openspec.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_tecnico_metodologia_openspec_metodolog\u00eda_openspec",
       "community": 5,
-      "norm_label": "metodologia: openspec"
+      "norm_label": "metodologia: openspec",
+      "id": "docs_tecnico_metodologia_openspec_metodolog\u00eda_openspec"
     },
     {
       "label": "Flujo",
@@ -975,9 +1255,9 @@
       "source_file": "docs/tecnico/metodologia-openspec.md",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "docs_tecnico_metodologia_openspec_flujo",
       "community": 5,
-      "norm_label": "flujo"
+      "norm_label": "flujo",
+      "id": "docs_tecnico_metodologia_openspec_flujo"
     },
     {
       "label": "Ver tambi\u00e9n",
@@ -985,9 +1265,9 @@
       "source_file": "docs/tecnico/metodologia-openspec.md",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "docs_tecnico_metodologia_openspec_ver_tambi\u00e9n",
       "community": 5,
-      "norm_label": "ver tambien"
+      "norm_label": "ver tambien",
+      "id": "docs_tecnico_metodologia_openspec_ver_tambi\u00e9n"
     },
     {
       "label": "patron-galerias-manifest.md",
@@ -995,9 +1275,9 @@
       "source_file": "docs/tecnico/patron-galerias-manifest.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_tecnico_patron_galerias_manifest",
       "community": 5,
-      "norm_label": "patron-galerias-manifest.md"
+      "norm_label": "patron-galerias-manifest.md",
+      "id": "docs_tecnico_patron_galerias_manifest"
     },
     {
       "label": "Patr\u00f3n de galer\u00eda: `assets/en-fotos/manifest.json`",
@@ -1005,9 +1285,9 @@
       "source_file": "docs/tecnico/patron-galerias-manifest.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_tecnico_patron_galerias_manifest_patr\u00f3n_de_galer\u00eda_assets_en_fotos_manifest_json",
       "community": 5,
-      "norm_label": "patron de galeria: `assets/en-fotos/manifest.json`"
+      "norm_label": "patron de galeria: `assets/en-fotos/manifest.json`",
+      "id": "docs_tecnico_patron_galerias_manifest_patr\u00f3n_de_galer\u00eda_assets_en_fotos_manifest_json"
     },
     {
       "label": "Caso de uso: agregar una foto nueva a una galer\u00eda",
@@ -1015,9 +1295,9 @@
       "source_file": "docs/tecnico/patron-galerias-manifest.md",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "docs_tecnico_patron_galerias_manifest_caso_de_uso_agregar_una_foto_nueva_a_una_galer\u00eda",
       "community": 5,
-      "norm_label": "caso de uso: agregar una foto nueva a una galeria"
+      "norm_label": "caso de uso: agregar una foto nueva a una galeria",
+      "id": "docs_tecnico_patron_galerias_manifest_caso_de_uso_agregar_una_foto_nueva_a_una_galer\u00eda"
     },
     {
       "label": "stack-y-mapa-de-archivos.md",
@@ -1025,9 +1305,9 @@
       "source_file": "docs/tecnico/stack-y-mapa-de-archivos.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_tecnico_stack_y_mapa_de_archivos",
       "community": 5,
-      "norm_label": "stack-y-mapa-de-archivos.md"
+      "norm_label": "stack-y-mapa-de-archivos.md",
+      "id": "docs_tecnico_stack_y_mapa_de_archivos"
     },
     {
       "label": "Stack y mapa de archivos",
@@ -1035,9 +1315,9 @@
       "source_file": "docs/tecnico/stack-y-mapa-de-archivos.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_tecnico_stack_y_mapa_de_archivos_stack_y_mapa_de_archivos",
       "community": 12,
-      "norm_label": "stack y mapa de archivos"
+      "norm_label": "stack y mapa de archivos",
+      "id": "docs_tecnico_stack_y_mapa_de_archivos_stack_y_mapa_de_archivos"
     },
     {
       "label": "Stack",
@@ -1045,9 +1325,9 @@
       "source_file": "docs/tecnico/stack-y-mapa-de-archivos.md",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "docs_tecnico_stack_y_mapa_de_archivos_stack",
       "community": 12,
-      "norm_label": "stack"
+      "norm_label": "stack",
+      "id": "docs_tecnico_stack_y_mapa_de_archivos_stack"
     },
     {
       "label": "Mapa de archivos",
@@ -1055,9 +1335,9 @@
       "source_file": "docs/tecnico/stack-y-mapa-de-archivos.md",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "docs_tecnico_stack_y_mapa_de_archivos_mapa_de_archivos",
       "community": 12,
-      "norm_label": "mapa de archivos"
+      "norm_label": "mapa de archivos",
+      "id": "docs_tecnico_stack_y_mapa_de_archivos_mapa_de_archivos"
     },
     {
       "label": "Convenci\u00f3n de `assets/`",
@@ -1065,9 +1345,9 @@
       "source_file": "docs/tecnico/stack-y-mapa-de-archivos.md",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "docs_tecnico_stack_y_mapa_de_archivos_convenci\u00f3n_de_assets",
       "community": 12,
-      "norm_label": "convencion de `assets/`"
+      "norm_label": "convencion de `assets/`",
+      "id": "docs_tecnico_stack_y_mapa_de_archivos_convenci\u00f3n_de_assets"
     },
     {
       "label": "Ver tambi\u00e9n",
@@ -1075,9 +1355,9 @@
       "source_file": "docs/tecnico/stack-y-mapa-de-archivos.md",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "docs_tecnico_stack_y_mapa_de_archivos_ver_tambi\u00e9n",
       "community": 12,
-      "norm_label": "ver tambien"
+      "norm_label": "ver tambien",
+      "id": "docs_tecnico_stack_y_mapa_de_archivos_ver_tambi\u00e9n"
     },
     {
       "label": "script.js",
@@ -2305,12 +2585,252 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/design.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_design",
+      "target": "openspec_changes_add_security_headers_design_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/design.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_design",
+      "target": "openspec_changes_add_security_headers_design_decisions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/design.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_design",
+      "target": "openspec_changes_add_security_headers_design_goals_non_goals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/design.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_design",
+      "target": "openspec_changes_add_security_headers_design_migration_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/design.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_design",
+      "target": "openspec_changes_add_security_headers_design_open_questions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/design.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_design",
+      "target": "openspec_changes_add_security_headers_design_risks_trade_offs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/proposal.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_proposal",
+      "target": "openspec_changes_add_security_headers_proposal_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/proposal.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_proposal",
+      "target": "openspec_changes_add_security_headers_proposal_impact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/proposal.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_proposal",
+      "target": "openspec_changes_add_security_headers_proposal_what_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/proposal.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_proposal",
+      "target": "openspec_changes_add_security_headers_proposal_why",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/proposal.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_proposal_capabilities",
+      "target": "openspec_changes_add_security_headers_proposal_modified_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/proposal.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_proposal_capabilities",
+      "target": "openspec_changes_add_security_headers_proposal_new_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/specs/security-headers/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_specs_security_headers_spec",
+      "target": "openspec_changes_add_security_headers_specs_security_headers_spec_added_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/specs/security-headers/spec.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_specs_security_headers_spec_added_requirements",
+      "target": "openspec_changes_add_security_headers_specs_security_headers_spec_requirement_cabeceras_de_seguridad_http_en_todas_las_rutas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/specs/security-headers/spec.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_specs_security_headers_spec_added_requirements",
+      "target": "openspec_changes_add_security_headers_specs_security_headers_spec_requirement_el_sitio_no_puede_ser_embebido_en_un_iframe_ajeno",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/specs/security-headers/spec.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_specs_security_headers_spec_added_requirements",
+      "target": "openspec_changes_add_security_headers_specs_security_headers_spec_requirement_la_content_security_policy_permite_el_embed_de_youtube",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/specs/security-headers/spec.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_specs_security_headers_spec_added_requirements",
+      "target": "openspec_changes_add_security_headers_specs_security_headers_spec_requirement_la_content_security_policy_permite_google_fonts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/specs/security-headers/spec.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_specs_security_headers_spec_requirement_cabeceras_de_seguridad_http_en_todas_las_rutas",
+      "target": "openspec_changes_add_security_headers_specs_security_headers_spec_scenario_cualquier_p\u00e1gina_del_sitio_incluye_cabeceras_de_seguridad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/specs/security-headers/spec.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_specs_security_headers_spec_requirement_la_content_security_policy_permite_google_fonts",
+      "target": "openspec_changes_add_security_headers_specs_security_headers_spec_scenario_google_fonts_carga_sin_violar_la_csp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/specs/security-headers/spec.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_specs_security_headers_spec_requirement_la_content_security_policy_permite_el_embed_de_youtube",
+      "target": "openspec_changes_add_security_headers_specs_security_headers_spec_scenario_el_embed_de_youtube_se_reproduce_sin_violar_la_csp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/specs/security-headers/spec.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_specs_security_headers_spec_requirement_el_sitio_no_puede_ser_embebido_en_un_iframe_ajeno",
+      "target": "openspec_changes_add_security_headers_specs_security_headers_spec_scenario_un_tercero_intenta_embeber_el_sitio_en_un_iframe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/tasks.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_tasks",
+      "target": "openspec_changes_add_security_headers_tasks_1_crear_el_archivo_headers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/tasks.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_tasks",
+      "target": "openspec_changes_add_security_headers_tasks_2_verificaci\u00f3n_local_preview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/add-security-headers/tasks.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "openspec_changes_add_security_headers_tasks",
+      "target": "openspec_changes_add_security_headers_tasks_3_deploy_y_validaci\u00f3n_en_producci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "claude_claude_md",
-      "confidence_score": 1.0
+      "target": "claude_claude_md"
     },
     {
       "relation": "references",
@@ -2318,9 +2838,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "docs_proyecto_funcionalidades_futuras",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_funcionalidades_futuras"
     },
     {
       "relation": "references",
@@ -2328,9 +2848,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "docs_proyecto_mision_y_objetivos",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_mision_y_objetivos"
     },
     {
       "relation": "references",
@@ -2338,9 +2858,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "docs_readme",
-      "confidence_score": 1.0
+      "target": "docs_readme"
     },
     {
       "relation": "references",
@@ -2348,9 +2868,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "docs_tecnico_convenciones_css",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_convenciones_css"
     },
     {
       "relation": "references",
@@ -2358,9 +2878,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "docs_tecnico_metodologia_graphify",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_metodologia_graphify"
     },
     {
       "relation": "references",
@@ -2368,9 +2888,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "docs_tecnico_metodologia_openspec",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_metodologia_openspec"
     },
     {
       "relation": "references",
@@ -2378,9 +2898,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "docs_tecnico_stack_y_mapa_de_archivos",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_stack_y_mapa_de_archivos"
     },
     {
       "relation": "contains",
@@ -2388,9 +2908,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md",
-      "target": "claude_antes_de_tocar_colores_o_textos_de_marca",
-      "confidence_score": 1.0
+      "target": "claude_antes_de_tocar_colores_o_textos_de_marca"
     },
     {
       "relation": "contains",
@@ -2398,9 +2918,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md",
-      "target": "claude_aviso_sobre_styles_css",
-      "confidence_score": 1.0
+      "target": "claude_aviso_sobre_styles_css"
     },
     {
       "relation": "contains",
@@ -2408,9 +2928,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md",
-      "target": "claude_c\u00f3mo_agregar_una_foto_a_una_galer\u00eda",
-      "confidence_score": 1.0
+      "target": "claude_c\u00f3mo_agregar_una_foto_a_una_galer\u00eda"
     },
     {
       "relation": "contains",
@@ -2418,9 +2938,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md",
-      "target": "claude_c\u00f3mo_previsualizar_en_local",
-      "confidence_score": 1.0
+      "target": "claude_c\u00f3mo_previsualizar_en_local"
     },
     {
       "relation": "contains",
@@ -2428,9 +2948,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md",
-      "target": "claude_graphify",
-      "confidence_score": 1.0
+      "target": "claude_graphify"
     },
     {
       "relation": "contains",
@@ -2438,9 +2958,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md",
-      "target": "claude_mapa_de_carpetas",
-      "confidence_score": 1.0
+      "target": "claude_mapa_de_carpetas"
     },
     {
       "relation": "contains",
@@ -2448,9 +2968,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md",
-      "target": "claude_metodolog\u00eda_de_trabajo",
-      "confidence_score": 1.0
+      "target": "claude_metodolog\u00eda_de_trabajo"
     },
     {
       "relation": "contains",
@@ -2458,9 +2978,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md",
-      "target": "claude_pendientes_conocidos",
-      "confidence_score": 1.0
+      "target": "claude_pendientes_conocidos"
     },
     {
       "relation": "contains",
@@ -2468,9 +2988,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md",
-      "target": "claude_qu\u00e9_es_el_proyecto",
-      "confidence_score": 1.0
+      "target": "claude_qu\u00e9_es_el_proyecto"
     },
     {
       "relation": "contains",
@@ -2478,9 +2998,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_claude_md",
-      "target": "claude_stack",
-      "confidence_score": 1.0
+      "target": "claude_stack"
     },
     {
       "relation": "references",
@@ -2508,9 +3028,9 @@
       "source_file": "docs/marca/README.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_marca_readme",
-      "target": "docs_readme",
-      "confidence_score": 1.0
+      "target": "docs_readme"
     },
     {
       "relation": "references",
@@ -2518,9 +3038,9 @@
       "source_file": "docs/pendientes/README.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_readme",
-      "target": "docs_readme",
-      "confidence_score": 1.0
+      "target": "docs_readme"
     },
     {
       "relation": "references",
@@ -2528,9 +3048,9 @@
       "source_file": "docs/proyecto/README.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_readme",
-      "target": "docs_readme",
-      "confidence_score": 1.0
+      "target": "docs_readme"
     },
     {
       "relation": "contains",
@@ -2538,9 +3058,9 @@
       "source_file": "docs/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_readme",
-      "target": "docs_readme_\u00edndice_de_documentaci\u00f3n_turismo_ensenada",
-      "confidence_score": 1.0
+      "target": "docs_readme_\u00edndice_de_documentaci\u00f3n_turismo_ensenada"
     },
     {
       "relation": "references",
@@ -2548,9 +3068,9 @@
       "source_file": "docs/README.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_readme",
-      "target": "docs_tecnico_readme",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_readme"
     },
     {
       "relation": "references",
@@ -2558,9 +3078,9 @@
       "source_file": "docs/marca/README.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_marca_readme",
-      "target": "docs_marca_colores_y_tipografia",
-      "confidence_score": 1.0
+      "target": "docs_marca_colores_y_tipografia"
     },
     {
       "relation": "references",
@@ -2568,9 +3088,9 @@
       "source_file": "docs/marca/README.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_marca_readme",
-      "target": "docs_marca_fotografia_y_composicion",
-      "confidence_score": 1.0
+      "target": "docs_marca_fotografia_y_composicion"
     },
     {
       "relation": "contains",
@@ -2578,9 +3098,9 @@
       "source_file": "docs/marca/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_marca_readme",
-      "target": "docs_marca_readme_marca",
-      "confidence_score": 1.0
+      "target": "docs_marca_readme_marca"
     },
     {
       "relation": "references",
@@ -2598,9 +3118,9 @@
       "source_file": "docs/marca/colores-y-tipografia.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_marca_colores_y_tipografia",
-      "target": "docs_marca_colores_y_tipografia_colores_y_tipograf\u00eda",
-      "confidence_score": 1.0
+      "target": "docs_marca_colores_y_tipografia_colores_y_tipograf\u00eda"
     },
     {
       "relation": "references",
@@ -2608,9 +3128,9 @@
       "source_file": "docs/marca/colores-y-tipografia.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_marca_colores_y_tipografia",
-      "target": "docs_tecnico_convenciones_css",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_convenciones_css"
     },
     {
       "relation": "references",
@@ -2648,9 +3168,9 @@
       "source_file": "docs/marca/fotografia-y-composicion.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_marca_fotografia_y_composicion",
-      "target": "docs_marca_fotografia_y_composicion_fotograf\u00eda_y_composici\u00f3n",
-      "confidence_score": 1.0
+      "target": "docs_marca_fotografia_y_composicion_fotograf\u00eda_y_composici\u00f3n"
     },
     {
       "relation": "references",
@@ -2658,9 +3178,9 @@
       "source_file": "docs/marca/fotografia-y-composicion.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_marca_fotografia_y_composicion",
-      "target": "docs_tecnico_patron_galerias_manifest",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_patron_galerias_manifest"
     },
     {
       "relation": "conceptually_related_to",
@@ -2678,9 +3198,9 @@
       "source_file": "docs/marca/fotografia-y-composicion.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_marca_fotografia_y_composicion_fotograf\u00eda_y_composici\u00f3n",
-      "target": "docs_marca_fotografia_y_composicion_categor\u00edas_de_referencia",
-      "confidence_score": 1.0
+      "target": "docs_marca_fotografia_y_composicion_categor\u00edas_de_referencia"
     },
     {
       "relation": "references",
@@ -2688,9 +3208,9 @@
       "source_file": "docs/pendientes/README.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_readme",
-      "target": "docs_pendientes_accesibilidad",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_accesibilidad"
     },
     {
       "relation": "references",
@@ -2698,9 +3218,9 @@
       "source_file": "docs/pendientes/README.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_readme",
-      "target": "docs_pendientes_bug_menu_hamburguesa",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_bug_menu_hamburguesa"
     },
     {
       "relation": "references",
@@ -2708,9 +3228,9 @@
       "source_file": "docs/pendientes/README.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_readme",
-      "target": "docs_pendientes_bug_portada_mobile",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_bug_portada_mobile"
     },
     {
       "relation": "references",
@@ -2718,9 +3238,9 @@
       "source_file": "docs/pendientes/README.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_readme",
-      "target": "docs_pendientes_bug_renglon_amarillo",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_bug_renglon_amarillo"
     },
     {
       "relation": "references",
@@ -2728,9 +3248,9 @@
       "source_file": "docs/pendientes/README.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_readme",
-      "target": "docs_pendientes_bug_seccion_cultura",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_bug_seccion_cultura"
     },
     {
       "relation": "references",
@@ -2738,9 +3258,9 @@
       "source_file": "docs/pendientes/README.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_readme",
-      "target": "docs_pendientes_performance",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_performance"
     },
     {
       "relation": "contains",
@@ -2748,9 +3268,9 @@
       "source_file": "docs/pendientes/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_readme",
-      "target": "docs_pendientes_readme_pendientes",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_readme_pendientes"
     },
     {
       "relation": "references",
@@ -2758,9 +3278,9 @@
       "source_file": "docs/pendientes/README.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_readme",
-      "target": "docs_pendientes_riesgos_mitigados",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_riesgos_mitigados"
     },
     {
       "relation": "references",
@@ -2768,9 +3288,9 @@
       "source_file": "docs/pendientes/README.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_readme",
-      "target": "docs_pendientes_seguridad",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_seguridad"
     },
     {
       "relation": "references",
@@ -2778,9 +3298,9 @@
       "source_file": "docs/pendientes/README.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_readme",
-      "target": "docs_pendientes_seo",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_seo"
     },
     {
       "relation": "contains",
@@ -2788,9 +3308,9 @@
       "source_file": "docs/pendientes/accesibilidad.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_accesibilidad",
-      "target": "docs_pendientes_accesibilidad_accesibilidad",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_accesibilidad_accesibilidad"
     },
     {
       "relation": "contains",
@@ -2798,9 +3318,9 @@
       "source_file": "docs/pendientes/bug-menu-hamburguesa.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_bug_menu_hamburguesa",
-      "target": "docs_pendientes_bug_menu_hamburguesa_bug_men\u00fa_hamburguesa_mostrando_seis_l\u00edneas",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_bug_menu_hamburguesa_bug_men\u00fa_hamburguesa_mostrando_seis_l\u00edneas"
     },
     {
       "relation": "references",
@@ -2808,9 +3328,9 @@
       "source_file": "docs/pendientes/bug-menu-hamburguesa.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_bug_menu_hamburguesa",
-      "target": "docs_tecnico_convenciones_css",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_convenciones_css"
     },
     {
       "relation": "contains",
@@ -2818,9 +3338,9 @@
       "source_file": "docs/pendientes/bug-portada-mobile.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_bug_portada_mobile",
-      "target": "docs_pendientes_bug_portada_mobile_bug_portada_mobile_con_problemas_de_responsive",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_bug_portada_mobile_bug_portada_mobile_con_problemas_de_responsive"
     },
     {
       "relation": "references",
@@ -2828,9 +3348,9 @@
       "source_file": "docs/pendientes/bug-portada-mobile.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_bug_portada_mobile",
-      "target": "docs_tecnico_convenciones_css",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_convenciones_css"
     },
     {
       "relation": "contains",
@@ -2838,9 +3358,9 @@
       "source_file": "docs/pendientes/bug-renglon-amarillo.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_bug_renglon_amarillo",
-      "target": "docs_pendientes_bug_renglon_amarillo_bug_rengl\u00f3n_amarillo_rompe_el_layout_en_mobile",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_bug_renglon_amarillo_bug_rengl\u00f3n_amarillo_rompe_el_layout_en_mobile"
     },
     {
       "relation": "references",
@@ -2848,9 +3368,9 @@
       "source_file": "docs/pendientes/bug-renglon-amarillo.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_bug_renglon_amarillo",
-      "target": "docs_tecnico_convenciones_css",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_convenciones_css"
     },
     {
       "relation": "contains",
@@ -2858,9 +3378,9 @@
       "source_file": "docs/pendientes/bug-seccion-cultura.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_bug_seccion_cultura",
-      "target": "docs_pendientes_bug_seccion_cultura_bug_secci\u00f3n_cultura_sin_mostrar_fotos_correctamente",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_bug_seccion_cultura_bug_secci\u00f3n_cultura_sin_mostrar_fotos_correctamente"
     },
     {
       "relation": "references",
@@ -2868,9 +3388,9 @@
       "source_file": "docs/pendientes/bug-seccion-cultura.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_bug_seccion_cultura",
-      "target": "docs_tecnico_convenciones_css",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_convenciones_css"
     },
     {
       "relation": "contains",
@@ -2878,9 +3398,9 @@
       "source_file": "docs/pendientes/performance.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_performance",
-      "target": "docs_pendientes_performance_performance",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_performance_performance"
     },
     {
       "relation": "contains",
@@ -2888,9 +3408,9 @@
       "source_file": "docs/pendientes/riesgos-mitigados.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_riesgos_mitigados",
-      "target": "docs_pendientes_riesgos_mitigados_riesgos_ya_mitigados",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_riesgos_mitigados_riesgos_ya_mitigados"
     },
     {
       "relation": "references",
@@ -2898,9 +3418,9 @@
       "source_file": "docs/pendientes/riesgos-mitigados.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_riesgos_mitigados",
-      "target": "docs_proyecto_historial_migracion",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_historial_migracion"
     },
     {
       "relation": "contains",
@@ -2908,9 +3428,9 @@
       "source_file": "docs/pendientes/seguridad.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_seguridad",
-      "target": "docs_pendientes_seguridad_seguridad",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_seguridad_seguridad"
     },
     {
       "relation": "references",
@@ -2918,9 +3438,9 @@
       "source_file": "docs/pendientes/seguridad.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_seguridad",
-      "target": "docs_proyecto_funcionalidades_futuras",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_funcionalidades_futuras"
     },
     {
       "relation": "contains",
@@ -2928,9 +3448,9 @@
       "source_file": "docs/pendientes/seo.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_seo",
-      "target": "docs_pendientes_seo_seo",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_seo_seo"
     },
     {
       "relation": "references",
@@ -2938,9 +3458,9 @@
       "source_file": "docs/pendientes/seo.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_seo",
-      "target": "docs_proyecto_funcionalidades_futuras",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_funcionalidades_futuras"
     },
     {
       "relation": "contains",
@@ -2948,9 +3468,9 @@
       "source_file": "docs/pendientes/seo.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_seo_seo",
-      "target": "docs_pendientes_seo_pendiente_de_revisar",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_seo_pendiente_de_revisar"
     },
     {
       "relation": "contains",
@@ -2958,9 +3478,9 @@
       "source_file": "docs/pendientes/seo.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_seo_seo",
-      "target": "docs_pendientes_seo_ya_implementado",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_seo_ya_implementado"
     },
     {
       "relation": "references",
@@ -2968,9 +3488,9 @@
       "source_file": "docs/proyecto/README.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_readme",
-      "target": "docs_proyecto_contenido_home",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_contenido_home"
     },
     {
       "relation": "references",
@@ -2978,9 +3498,9 @@
       "source_file": "docs/proyecto/README.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_readme",
-      "target": "docs_proyecto_funcionalidades_futuras",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_funcionalidades_futuras"
     },
     {
       "relation": "references",
@@ -2988,9 +3508,9 @@
       "source_file": "docs/proyecto/README.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_readme",
-      "target": "docs_proyecto_historial_migracion",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_historial_migracion"
     },
     {
       "relation": "references",
@@ -2998,9 +3518,9 @@
       "source_file": "docs/proyecto/README.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_readme",
-      "target": "docs_proyecto_linea_historica",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_linea_historica"
     },
     {
       "relation": "references",
@@ -3008,9 +3528,9 @@
       "source_file": "docs/proyecto/README.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_readme",
-      "target": "docs_proyecto_localidad_el_dique",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_localidad_el_dique"
     },
     {
       "relation": "references",
@@ -3018,9 +3538,9 @@
       "source_file": "docs/proyecto/README.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_readme",
-      "target": "docs_proyecto_localidad_ensenada_centro",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_localidad_ensenada_centro"
     },
     {
       "relation": "references",
@@ -3028,9 +3548,9 @@
       "source_file": "docs/proyecto/README.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_readme",
-      "target": "docs_proyecto_localidad_punta_lara",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_localidad_punta_lara"
     },
     {
       "relation": "references",
@@ -3038,9 +3558,9 @@
       "source_file": "docs/proyecto/README.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_readme",
-      "target": "docs_proyecto_mision_y_objetivos",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_mision_y_objetivos"
     },
     {
       "relation": "contains",
@@ -3048,9 +3568,9 @@
       "source_file": "docs/proyecto/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_readme",
-      "target": "docs_proyecto_readme_proyecto",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_readme_proyecto"
     },
     {
       "relation": "contains",
@@ -3058,9 +3578,9 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_contenido_home",
-      "target": "docs_proyecto_contenido_home_contenido_de_la_home",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_contenido_home_contenido_de_la_home"
     },
     {
       "relation": "references",
@@ -3068,9 +3588,9 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_contenido_home",
-      "target": "docs_proyecto_localidad_el_dique",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_localidad_el_dique"
     },
     {
       "relation": "references",
@@ -3078,9 +3598,9 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_contenido_home",
-      "target": "docs_proyecto_localidad_ensenada_centro",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_localidad_ensenada_centro"
     },
     {
       "relation": "references",
@@ -3088,9 +3608,9 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_contenido_home",
-      "target": "docs_proyecto_localidad_punta_lara",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_localidad_punta_lara"
     },
     {
       "relation": "contains",
@@ -3098,9 +3618,9 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_contenido_home_contenido_de_la_home",
-      "target": "docs_proyecto_contenido_home_identidad_y_navegaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_contenido_home_identidad_y_navegaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -3108,9 +3628,9 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_contenido_home_contenido_de_la_home",
-      "target": "docs_proyecto_contenido_home_secciones_de_la_home",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_contenido_home_secciones_de_la_home"
     },
     {
       "relation": "contains",
@@ -3118,9 +3638,9 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_contenido_home_contenido_de_la_home",
-      "target": "docs_proyecto_contenido_home_ver_tambi\u00e9n",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_contenido_home_ver_tambi\u00e9n"
     },
     {
       "relation": "references",
@@ -3148,9 +3668,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_funcionalidades_futuras",
-      "target": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras"
     },
     {
       "relation": "references",
@@ -3158,9 +3678,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_funcionalidades_futuras",
-      "target": "docs_tecnico_patron_galerias_manifest",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_patron_galerias_manifest"
     },
     {
       "relation": "references",
@@ -3168,9 +3688,9 @@
       "source_file": "docs/proyecto/localidad-el-dique.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_localidad_el_dique",
-      "target": "docs_proyecto_funcionalidades_futuras",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_funcionalidades_futuras"
     },
     {
       "relation": "references",
@@ -3178,9 +3698,9 @@
       "source_file": "docs/proyecto/localidad-ensenada-centro.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_localidad_ensenada_centro",
-      "target": "docs_proyecto_funcionalidades_futuras",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_funcionalidades_futuras"
     },
     {
       "relation": "references",
@@ -3188,9 +3708,9 @@
       "source_file": "docs/proyecto/localidad-punta-lara.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_localidad_punta_lara",
-      "target": "docs_proyecto_funcionalidades_futuras",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_funcionalidades_futuras"
     },
     {
       "relation": "references",
@@ -3198,9 +3718,9 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_mision_y_objetivos",
-      "target": "docs_proyecto_funcionalidades_futuras",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_funcionalidades_futuras"
     },
     {
       "relation": "contains",
@@ -3208,9 +3728,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
-      "target": "docs_proyecto_funcionalidades_futuras_concurso_de_microrelatos_historias_de_ensenada",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_funcionalidades_futuras_concurso_de_microrelatos_historias_de_ensenada"
     },
     {
       "relation": "contains",
@@ -3218,9 +3738,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
-      "target": "docs_proyecto_funcionalidades_futuras_concurso_fotogr\u00e1fico",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_funcionalidades_futuras_concurso_fotogr\u00e1fico"
     },
     {
       "relation": "contains",
@@ -3228,9 +3748,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
-      "target": "docs_proyecto_funcionalidades_futuras_otras_mejoras_de_producto_planteadas",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_funcionalidades_futuras_otras_mejoras_de_producto_planteadas"
     },
     {
       "relation": "contains",
@@ -3238,9 +3758,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
-      "target": "docs_proyecto_funcionalidades_futuras_p\u00e1ginas_por_lugar",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_funcionalidades_futuras_p\u00e1ginas_por_lugar"
     },
     {
       "relation": "contains",
@@ -3248,9 +3768,9 @@
       "source_file": "docs/proyecto/historial-migracion.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_historial_migracion",
-      "target": "docs_proyecto_historial_migracion_historial_de_migraci\u00f3n",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_historial_migracion_historial_de_migraci\u00f3n"
     },
     {
       "relation": "contains",
@@ -3258,9 +3778,9 @@
       "source_file": "docs/proyecto/historial-migracion.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_historial_migracion_historial_de_migraci\u00f3n",
-      "target": "docs_proyecto_historial_migracion_sobre_la_carpeta_exportacion_proyecto_no_incluida_en_este_repo",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_historial_migracion_sobre_la_carpeta_exportacion_proyecto_no_incluida_en_este_repo"
     },
     {
       "relation": "contains",
@@ -3268,9 +3788,9 @@
       "source_file": "docs/proyecto/linea-historica.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_linea_historica",
-      "target": "docs_proyecto_linea_historica_l\u00ednea_hist\u00f3rica_p\u00fablica",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_linea_historica_l\u00ednea_hist\u00f3rica_p\u00fablica"
     },
     {
       "relation": "contains",
@@ -3278,9 +3798,9 @@
       "source_file": "docs/proyecto/linea-historica.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_linea_historica_l\u00ednea_hist\u00f3rica_p\u00fablica",
-      "target": "docs_proyecto_linea_historica_ver_tambi\u00e9n",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_linea_historica_ver_tambi\u00e9n"
     },
     {
       "relation": "contains",
@@ -3288,9 +3808,9 @@
       "source_file": "docs/proyecto/localidad-el-dique.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_localidad_el_dique",
-      "target": "docs_proyecto_localidad_el_dique_localidad_el_dique",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_localidad_el_dique_localidad_el_dique"
     },
     {
       "relation": "references",
@@ -3298,9 +3818,9 @@
       "source_file": "docs/proyecto/localidad-el-dique.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_localidad_el_dique",
-      "target": "docs_tecnico_patron_galerias_manifest",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_patron_galerias_manifest"
     },
     {
       "relation": "contains",
@@ -3308,9 +3828,9 @@
       "source_file": "docs/proyecto/localidad-el-dique.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_localidad_el_dique_localidad_el_dique",
-      "target": "docs_proyecto_localidad_el_dique_ver_tambi\u00e9n",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_localidad_el_dique_ver_tambi\u00e9n"
     },
     {
       "relation": "contains",
@@ -3318,9 +3838,9 @@
       "source_file": "docs/proyecto/localidad-ensenada-centro.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_localidad_ensenada_centro",
-      "target": "docs_proyecto_localidad_ensenada_centro_localidad_ensenada_centro",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_localidad_ensenada_centro_localidad_ensenada_centro"
     },
     {
       "relation": "contains",
@@ -3328,9 +3848,9 @@
       "source_file": "docs/proyecto/localidad-ensenada-centro.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_localidad_ensenada_centro_localidad_ensenada_centro",
-      "target": "docs_proyecto_localidad_ensenada_centro_ver_tambi\u00e9n",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_localidad_ensenada_centro_ver_tambi\u00e9n"
     },
     {
       "relation": "contains",
@@ -3338,9 +3858,9 @@
       "source_file": "docs/proyecto/localidad-punta-lara.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_localidad_punta_lara",
-      "target": "docs_proyecto_localidad_punta_lara_localidad_punta_lara",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_localidad_punta_lara_localidad_punta_lara"
     },
     {
       "relation": "references",
@@ -3348,9 +3868,9 @@
       "source_file": "docs/proyecto/localidad-punta-lara.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_localidad_punta_lara",
-      "target": "docs_tecnico_patron_galerias_manifest",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_patron_galerias_manifest"
     },
     {
       "relation": "contains",
@@ -3358,9 +3878,9 @@
       "source_file": "docs/proyecto/localidad-punta-lara.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_localidad_punta_lara_localidad_punta_lara",
-      "target": "docs_proyecto_localidad_punta_lara_ver_tambi\u00e9n",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_localidad_punta_lara_ver_tambi\u00e9n"
     },
     {
       "relation": "contains",
@@ -3368,9 +3888,9 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_mision_y_objetivos",
-      "target": "docs_proyecto_mision_y_objetivos_misi\u00f3n_y_objetivos",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_mision_y_objetivos_misi\u00f3n_y_objetivos"
     },
     {
       "relation": "references",
@@ -3378,9 +3898,9 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_mision_y_objetivos",
-      "target": "docs_tecnico_stack_y_mapa_de_archivos",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_stack_y_mapa_de_archivos"
     },
     {
       "relation": "contains",
@@ -3388,9 +3908,9 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_mision_y_objetivos_misi\u00f3n_y_objetivos",
-      "target": "docs_proyecto_mision_y_objetivos_alcance_actual_vs_proyectado",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_mision_y_objetivos_alcance_actual_vs_proyectado"
     },
     {
       "relation": "contains",
@@ -3398,9 +3918,9 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_mision_y_objetivos_misi\u00f3n_y_objetivos",
-      "target": "docs_proyecto_mision_y_objetivos_objetivos",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_mision_y_objetivos_objetivos"
     },
     {
       "relation": "contains",
@@ -3408,9 +3928,9 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_mision_y_objetivos_misi\u00f3n_y_objetivos",
-      "target": "docs_proyecto_mision_y_objetivos_qu\u00e9_es",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_mision_y_objetivos_qu\u00e9_es"
     },
     {
       "relation": "references",
@@ -3418,9 +3938,9 @@
       "source_file": "docs/tecnico/README.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_readme",
-      "target": "docs_tecnico_convenciones_css",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_convenciones_css"
     },
     {
       "relation": "references",
@@ -3428,9 +3948,9 @@
       "source_file": "docs/tecnico/README.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_readme",
-      "target": "docs_tecnico_convenciones_js",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_convenciones_js"
     },
     {
       "relation": "references",
@@ -3438,9 +3958,9 @@
       "source_file": "docs/tecnico/README.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_readme",
-      "target": "docs_tecnico_metodologia_graphify",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_metodologia_graphify"
     },
     {
       "relation": "references",
@@ -3448,9 +3968,9 @@
       "source_file": "docs/tecnico/README.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_readme",
-      "target": "docs_tecnico_metodologia_openspec",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_metodologia_openspec"
     },
     {
       "relation": "references",
@@ -3458,9 +3978,9 @@
       "source_file": "docs/tecnico/README.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_readme",
-      "target": "docs_tecnico_patron_galerias_manifest",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_patron_galerias_manifest"
     },
     {
       "relation": "contains",
@@ -3468,9 +3988,9 @@
       "source_file": "docs/tecnico/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_readme",
-      "target": "docs_tecnico_readme_t\u00e9cnico",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_readme_t\u00e9cnico"
     },
     {
       "relation": "references",
@@ -3478,9 +3998,9 @@
       "source_file": "docs/tecnico/README.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_readme",
-      "target": "docs_tecnico_stack_y_mapa_de_archivos",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_stack_y_mapa_de_archivos"
     },
     {
       "relation": "contains",
@@ -3488,9 +4008,9 @@
       "source_file": "docs/tecnico/convenciones-css.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_convenciones_css",
-      "target": "docs_tecnico_convenciones_css_convenciones_de_css",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_convenciones_css_convenciones_de_css"
     },
     {
       "relation": "contains",
@@ -3498,9 +4018,9 @@
       "source_file": "docs/tecnico/convenciones-css.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_convenciones_css_convenciones_de_css",
-      "target": "docs_tecnico_convenciones_css_styles_css_creci\u00f3_por_parches_no_por_dise\u00f1o_de_arquitectura",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_convenciones_css_styles_css_creci\u00f3_por_parches_no_por_dise\u00f1o_de_arquitectura"
     },
     {
       "relation": "contains",
@@ -3508,9 +4028,9 @@
       "source_file": "docs/tecnico/convenciones-js.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_convenciones_js",
-      "target": "docs_tecnico_convenciones_js_convenciones_de_js",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_convenciones_js_convenciones_de_js"
     },
     {
       "relation": "contains",
@@ -3518,9 +4038,9 @@
       "source_file": "docs/tecnico/metodologia-graphify.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_metodologia_graphify",
-      "target": "docs_tecnico_metodologia_graphify_metodolog\u00eda_graphify",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_metodologia_graphify_metodolog\u00eda_graphify"
     },
     {
       "relation": "references",
@@ -3528,9 +4048,9 @@
       "source_file": "docs/tecnico/metodologia-graphify.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_metodologia_graphify",
-      "target": "docs_tecnico_metodologia_openspec",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_metodologia_openspec"
     },
     {
       "relation": "contains",
@@ -3538,9 +4058,9 @@
       "source_file": "docs/tecnico/metodologia-graphify.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_metodologia_graphify_metodolog\u00eda_graphify",
-      "target": "docs_tecnico_metodologia_graphify_salida",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_metodologia_graphify_salida"
     },
     {
       "relation": "contains",
@@ -3548,9 +4068,9 @@
       "source_file": "docs/tecnico/metodologia-graphify.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_metodologia_graphify_metodolog\u00eda_graphify",
-      "target": "docs_tecnico_metodologia_graphify_uso_d\u00eda_a_d\u00eda",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_metodologia_graphify_uso_d\u00eda_a_d\u00eda"
     },
     {
       "relation": "contains",
@@ -3558,9 +4078,9 @@
       "source_file": "docs/tecnico/metodologia-graphify.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_metodologia_graphify_metodolog\u00eda_graphify",
-      "target": "docs_tecnico_metodologia_graphify_ver_tambi\u00e9n",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_metodologia_graphify_ver_tambi\u00e9n"
     },
     {
       "relation": "contains",
@@ -3568,9 +4088,9 @@
       "source_file": "docs/tecnico/metodologia-openspec.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_metodologia_openspec",
-      "target": "docs_tecnico_metodologia_openspec_metodolog\u00eda_openspec",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_metodologia_openspec_metodolog\u00eda_openspec"
     },
     {
       "relation": "contains",
@@ -3578,9 +4098,9 @@
       "source_file": "docs/tecnico/metodologia-openspec.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_metodologia_openspec_metodolog\u00eda_openspec",
-      "target": "docs_tecnico_metodologia_openspec_flujo",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_metodologia_openspec_flujo"
     },
     {
       "relation": "contains",
@@ -3588,9 +4108,9 @@
       "source_file": "docs/tecnico/metodologia-openspec.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_metodologia_openspec_metodolog\u00eda_openspec",
-      "target": "docs_tecnico_metodologia_openspec_ver_tambi\u00e9n",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_metodologia_openspec_ver_tambi\u00e9n"
     },
     {
       "relation": "contains",
@@ -3598,9 +4118,9 @@
       "source_file": "docs/tecnico/patron-galerias-manifest.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_patron_galerias_manifest",
-      "target": "docs_tecnico_patron_galerias_manifest_patr\u00f3n_de_galer\u00eda_assets_en_fotos_manifest_json",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_patron_galerias_manifest_patr\u00f3n_de_galer\u00eda_assets_en_fotos_manifest_json"
     },
     {
       "relation": "references",
@@ -3608,9 +4128,9 @@
       "source_file": "docs/tecnico/stack-y-mapa-de-archivos.md",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_stack_y_mapa_de_archivos",
-      "target": "docs_tecnico_patron_galerias_manifest",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_patron_galerias_manifest"
     },
     {
       "relation": "contains",
@@ -3618,9 +4138,9 @@
       "source_file": "docs/tecnico/patron-galerias-manifest.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_patron_galerias_manifest_patr\u00f3n_de_galer\u00eda_assets_en_fotos_manifest_json",
-      "target": "docs_tecnico_patron_galerias_manifest_caso_de_uso_agregar_una_foto_nueva_a_una_galer\u00eda",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_patron_galerias_manifest_caso_de_uso_agregar_una_foto_nueva_a_una_galer\u00eda"
     },
     {
       "relation": "contains",
@@ -3628,9 +4148,9 @@
       "source_file": "docs/tecnico/stack-y-mapa-de-archivos.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_stack_y_mapa_de_archivos",
-      "target": "docs_tecnico_stack_y_mapa_de_archivos_stack_y_mapa_de_archivos",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_stack_y_mapa_de_archivos_stack_y_mapa_de_archivos"
     },
     {
       "relation": "contains",
@@ -3638,9 +4158,9 @@
       "source_file": "docs/tecnico/stack-y-mapa-de-archivos.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_stack_y_mapa_de_archivos_stack_y_mapa_de_archivos",
-      "target": "docs_tecnico_stack_y_mapa_de_archivos_convenci\u00f3n_de_assets",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_stack_y_mapa_de_archivos_convenci\u00f3n_de_assets"
     },
     {
       "relation": "contains",
@@ -3648,9 +4168,9 @@
       "source_file": "docs/tecnico/stack-y-mapa-de-archivos.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_stack_y_mapa_de_archivos_stack_y_mapa_de_archivos",
-      "target": "docs_tecnico_stack_y_mapa_de_archivos_mapa_de_archivos",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_stack_y_mapa_de_archivos_mapa_de_archivos"
     },
     {
       "relation": "contains",
@@ -3658,9 +4178,9 @@
       "source_file": "docs/tecnico/stack-y-mapa-de-archivos.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_stack_y_mapa_de_archivos_stack_y_mapa_de_archivos",
-      "target": "docs_tecnico_stack_y_mapa_de_archivos_stack",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_stack_y_mapa_de_archivos_stack"
     },
     {
       "relation": "contains",
@@ -3668,9 +4188,9 @@
       "source_file": "docs/tecnico/stack-y-mapa-de-archivos.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_stack_y_mapa_de_archivos_stack_y_mapa_de_archivos",
-      "target": "docs_tecnico_stack_y_mapa_de_archivos_ver_tambi\u00e9n",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_stack_y_mapa_de_archivos_ver_tambi\u00e9n"
     },
     {
       "relation": "contains",
@@ -5307,5 +5827,5 @@
       "source_file": "docs/marca/arquitectura-de-marca.md"
     }
   ],
-  "built_at_commit": "6bfb46a5e78afd5a338ea0b0f83b0c26be448e6a"
+  "built_at_commit": "0bdec81d20ea598f429dc9ac013097434d32ae54"
 }
