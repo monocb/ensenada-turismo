@@ -1,5 +1,5 @@
 # Bug: sección Cultura sin mostrar fotos correctamente
 
-Reportado en una auditoría previa del sitio en vivo. **No confirmado como resuelto ni pendiente hoy** — `styles.css` tiene comentarios de parches fechados que sugieren que se atendió parcialmente (ver [`docs/tecnico/convenciones-css.md`](../tecnico/convenciones-css.md)); verificar manualmente antes de asumir el estado.
+**Verificado como resuelto / no reproducible (2026-07-10)**, con Chrome headless emulando mobile sobre `netlify dev`: las 6 fotos del carrusel (`.culture-carousel[data-carousel]`) cargan y se muestran correctamente (`naturalWidth > 0`, sin espacios en blanco) al navegar con los controles `[data-carousel-prev]`/`[data-carousel-next]`. Ver `openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/` para el detalle de la verificación.
 
-La sección "Cultura música y encuentros" fue reportada sin mostrar sus fotos correctamente.
+Reportado originalmente en una auditoría previa del sitio en vivo: la sección "Cultura música y encuentros" fue reportada sin mostrar sus fotos correctamente.

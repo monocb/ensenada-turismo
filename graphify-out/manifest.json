@@ -304,29 +304,34 @@
     "ast_hash": "1e95f9f33895b0cba98fb08c8f7dd0e8",
     "semantic_hash": ""
   },
-  "openspec/changes/improve-gallery-alt-text/.openspec.yaml": {
-    "mtime": 1783694158.1879692,
+  "openspec/changes/archive/2026-07-10-improve-gallery-alt-text/.openspec.yaml": {
+    "mtime": 1783695101.2948608,
     "ast_hash": "a4980ad0f497704c46cfa140cda4a1fd",
     "semantic_hash": ""
   },
-  "openspec/changes/improve-gallery-alt-text/design.md": {
-    "mtime": 1783694822.8777092,
+  "openspec/changes/archive/2026-07-10-improve-gallery-alt-text/design.md": {
+    "mtime": 1783695101.2979012,
     "ast_hash": "bc60a4c374ebd1fa9da9818d89ee0517",
     "semantic_hash": ""
   },
-  "openspec/changes/improve-gallery-alt-text/proposal.md": {
-    "mtime": 1783694182.1858385,
+  "openspec/changes/archive/2026-07-10-improve-gallery-alt-text/proposal.md": {
+    "mtime": 1783695101.2948608,
     "ast_hash": "e3ac85f2657a51d3b9e15e607c452549",
     "semantic_hash": ""
   },
-  "openspec/changes/improve-gallery-alt-text/specs/gallery-accessibility/spec.md": {
-    "mtime": 1783694224.0004616,
+  "openspec/changes/archive/2026-07-10-improve-gallery-alt-text/specs/gallery-accessibility/spec.md": {
+    "mtime": 1783695101.2973762,
     "ast_hash": "2df660a5d5353d964d01cf568f6f3d4b",
     "semantic_hash": ""
   },
-  "openspec/changes/improve-gallery-alt-text/tasks.md": {
-    "mtime": 1783694841.1196425,
-    "ast_hash": "23e8d05d11df7f64bb5c45730c3cccb3",
+  "openspec/changes/archive/2026-07-10-improve-gallery-alt-text/tasks.md": {
+    "mtime": 1783695101.2979012,
+    "ast_hash": "51b374c019e46c92cef462e6d275183a",
+    "semantic_hash": ""
+  },
+  "openspec/specs/gallery-accessibility/spec.md": {
+    "mtime": 1783695070.4808307,
+    "ast_hash": "a80e7371bcc827b31ab0fd0bc03a9e9b",
     "semantic_hash": ""
   }
 }

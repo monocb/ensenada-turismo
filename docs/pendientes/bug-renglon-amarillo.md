@@ -1,5 +1,5 @@
 # Bug: "renglón amarillo" rompe el layout en mobile
 
-Reportado en una auditoría previa del sitio en vivo. **No confirmado como resuelto ni pendiente hoy** — `styles.css` tiene comentarios de parches fechados que sugieren que se atendió parcialmente (ver [`docs/tecnico/convenciones-css.md`](../tecnico/convenciones-css.md)); verificar manualmente en mobile antes de asumir el estado.
+**Verificado como resuelto / no reproducible (2026-07-10)**, con Chrome headless emulando mobile (320–430px) sobre `netlify dev`: no se detectó overflow horizontal en ningún punto de la página de inicio (`document.documentElement.scrollWidth === window.innerWidth` en los 6 anchos probados). El resaltado amarillo detrás del tagline del hero (`.hero-content p.hero-tagline span`) se ve correctamente contenido, sin romper el layout. Ver `openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/` para el detalle de la verificación.
 
-Un elemento con franja/fondo amarillo rompía el layout en pantallas mobile.
+Reportado originalmente en una auditoría previa del sitio en vivo: un elemento con franja/fondo amarillo rompía el layout en pantallas mobile.

@@ -1,16 +1,16 @@
 # Graph Report - ensenada-turismo  (2026-07-10)
 
 ## Corpus Check
-- 58 files · ~20,239 words
+- 59 files · ~20,439 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 271 nodes · 349 edges · 25 communities (24 shown, 1 thin omitted)
+- 278 nodes · 355 edges · 24 communities (23 shown, 1 thin omitted)
 - Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 16 edges (avg confidence: 0.78)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a8b838aa`
+- Built from commit: `72bb3e85`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -39,7 +39,6 @@
 - proposal.md
 - ADDED Requirements
 - Contenido de la home
-- tasks.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `OpenSpec CLI (openspec command)` - 11 edges
@@ -74,7 +73,7 @@
 - **Documentos derivados del Manual Interno de Marca v1.0** — docs_marca_identidad, docs_marca_sistema_visual, docs_marca_colores_y_tipografia, docs_marca_arquitectura_de_marca, docs_marca_fotografia_y_composicion, docs_marca_sponsors_y_reglas [INFERRED 0.85]
 - **Sistema de líneas de marca y su color asociado** — docs_marca_arquitectura_de_marca, docs_marca_colores_y_tipografia, docs_marca_sistema_visual_color [INFERRED 0.80]
 
-## Communities (25 total, 1 thin omitted)
+## Communities (24 total, 1 thin omitted)
 
 ### Community 0 - "Interacciones de UI (script.js)"
 Cohesion: 0.04
@@ -97,8 +96,8 @@ Cohesion: 0.10
 Nodes (22): Arquitectura de marca, ENSENADA CULTURA, ENSENADA EN FOTOS, ENSENADA EN VIVO, ENSENADA HISTORIA, ENSENADA IDENTIDAD, ENSENADA (marca madre), Colores y tipografía (+14 more)
 
 ### Community 5 - "Mision y funcionalidades futuras"
-Cohesion: 0.09
-Nodes (17): Línea histórica pública, Ver también, Localidad: El Dique, Ver también, Localidad: Ensenada Centro, Ver también, Localidad: Punta Lara, Ver también (+9 more)
+Cohesion: 0.08
+Nodes (21): Línea histórica pública, Ver también, Localidad: El Dique, Ver también, Localidad: Ensenada Centro, Ver también, Localidad: Punta Lara, Ver también (+13 more)
 
 ### Community 6 - "Contenido y localidades del sitio"
 Cohesion: 0.08
@@ -121,16 +120,16 @@ Cohesion: 0.67
 Nodes (3): getPlaceModalFocusable(), openPlaceModal(), trapPlaceModalFocus()
 
 ### Community 12 - "Stack y mapa de archivos"
-Cohesion: 0.40
-Nodes (5): Convención de `assets/`, Mapa de archivos, Stack, Stack y mapa de archivos, Ver también
+Cohesion: 0.19
+Nodes (9): Contenido de la home, Identidad y navegación, Secciones de la home, Ver también, Convención de `assets/`, Mapa de archivos, Stack, Stack y mapa de archivos (+1 more)
 
 ### Community 13 - "Misión y objetivos"
 Cohesion: 0.50
 Nodes (4): Alcance actual vs. proyectado, Misión y objetivos, Objetivos, Qué es
 
 ### Community 14 - "Metodología: Graphify"
-Cohesion: 0.50
-Nodes (4): Metodología: Graphify, Salida, Uso día a día, Ver también
+Cohesion: 0.29
+Nodes (6): Context, Decisions, Goals / Non-Goals, Migration Plan, Open Questions, Risks / Trade-offs
 
 ### Community 15 - "ADDED Requirements"
 Cohesion: 0.18
@@ -154,11 +153,11 @@ Nodes (3): 1. Crear el archivo `_headers`, 2. Verificación local/preview, 3. De
 
 ### Community 20 - "design.md"
 Cohesion: 0.29
-Nodes (6): Context, Decisions, Goals / Non-Goals, Migration Plan, Open Questions, Risks / Trade-offs
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
 
 ### Community 21 - "proposal.md"
 Cohesion: 0.29
-Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
+Nodes (6): Purpose, Requirement: El alt de las fotos de galería incluye título y ubicación, Requirement: Ninguna foto de galería recibe un alt genérico no descriptivo, Requirements, Scenario: Una sección de galería no define título, Scenario: Una sección de galería tiene título y ubicación definidos
 
 ### Community 22 - "ADDED Requirements"
 Cohesion: 0.33
@@ -166,14 +165,10 @@ Nodes (5): ADDED Requirements, Requirement: El alt de las fotos de galería incl
 
 ### Community 23 - "Contenido de la home"
 Cohesion: 0.50
-Nodes (4): Contenido de la home, Identidad y navegación, Secciones de la home, Ver también
-
-### Community 24 - "tasks.md"
-Cohesion: 0.50
 Nodes (3): 1. Implementar el nuevo template de alt, 2. Verificación, 3. Deploy
 
 ## Knowledge Gaps
-- **138 isolated node(s):** `Context`, `Goals / Non-Goals`, `Decisions`, `Risks / Trade-offs`, `Migration Plan` (+133 more)
+- **141 isolated node(s):** `Context`, `Goals / Non-Goals`, `Decisions`, `Risks / Trade-offs`, `Migration Plan` (+136 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -181,16 +176,16 @@ Nodes (3): 1. Implementar el nuevo template de alt, 2. Verificación, 3. Deploy
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `OpenSpec project config (openspec/config.yaml)` connect `Flujo de trabajo OpenSpec` to `Identidad y sistema visual de marca`?**
-  _High betweenness centrality (0.070) - this node is a cross-community bridge._
+  _High betweenness centrality (0.067) - this node is a cross-community bridge._
 - **Why does `Arquitectura de marca` connect `Arquitectura de marca y colores` to `Mision y funcionalidades futuras`?**
-  _High betweenness centrality (0.025) - this node is a cross-community bridge._
+  _High betweenness centrality (0.024) - this node is a cross-community bridge._
 - **What connects `Context`, `Goals / Non-Goals`, `Decisions` to the rest of the system?**
-  _143 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _146 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interacciones de UI (script.js)` be split into smaller, more focused modules?**
   _Cohesion score 0.043478260869565216 - nodes in this community are weakly interconnected._
 - **Should `Arquitectura de marca y colores` be split into smaller, more focused modules?**
   _Cohesion score 0.1 - nodes in this community are weakly interconnected._
 - **Should `Mision y funcionalidades futuras` be split into smaller, more focused modules?**
-  _Cohesion score 0.0946969696969697 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08108108108108109 - nodes in this community are weakly interconnected._
 - **Should `Contenido y localidades del sitio` be split into smaller, more focused modules?**
   _Cohesion score 0.07936507936507936 - nodes in this community are weakly interconnected._
