@@ -1,0 +1,28 @@
+schema: spec-driven
+
+# Project context (optional)
+# This is shown to AI when creating artifacts.
+# Add your tech stack, conventions, style guides, domain knowledge, etc.
+# Example:
+#   context: |
+#     Tech stack: TypeScript, React, Node.js
+#     We use conventional commits
+#     Domain: e-commerce platform
+context: |
+  Turismo Ensenada (ensenadaturismo.com): sitio de turismo para Ensenada,
+  provincia de Buenos Aires, Argentina. Ver docs/README.md para el índice
+  completo de documentación (proyecto, marca, técnico, pendientes).
+  Tech stack: HTML/CSS/JS estático plano. Sin build, sin dependencias,
+  sin package.json — no agregar ninguno sin consultar primero.
+  Deploy: Netlify, conectado a la rama main de este repo.
+  Ver CLAUDE.md en la raíz para el contexto operativo corto.
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always include a "Non-goals" section
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
