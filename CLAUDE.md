@@ -28,7 +28,7 @@ Copiar el archivo (`.webp`) a `assets/en-fotos/<categoria>/` y agregar la entrad
 
 ## Aviso sobre `styles.css`
 
-Es grande (~7.9k líneas) y creció por comentarios fechados de parches puntuales, con **dos bloques `:root` separados** (uno al inicio, otro ~línea 2062). No hay tests de regresión visual — evitar reorganizaciones amplias del archivo; seguir el mismo patrón de agregar/corregir puntualmente. Detalle en [`docs/tecnico/convenciones-css.md`](docs/tecnico/convenciones-css.md).
+Es grande (~7.9k líneas) y creció por comentarios fechados de parches puntuales, con **4 bloques `:root` separados** (líneas ~1, ~2062, ~2899, ~5284 — verificar con `grep -n "^:root" styles.css`). No hay tests de regresión visual — evitar reorganizaciones amplias del archivo; seguir el mismo patrón de agregar/corregir puntualmente. Detalle en [`docs/tecnico/convenciones-css.md`](docs/tecnico/convenciones-css.md).
 
 ## Antes de tocar colores o textos de marca
 

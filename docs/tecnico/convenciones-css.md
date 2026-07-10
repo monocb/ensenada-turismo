@@ -9,7 +9,13 @@ El archivo tiene ~7.9k líneas y creció a fuerza de comentarios fechados marcan
 /* Puesta a punto responsive final 2026-07-05 */
 ```
 
-Como consecuencia, hay **dos bloques `:root` separados**: uno al inicio del archivo, y otro más adelante (~línea 2062) para una paleta "travel" agregada después. Antes de agregar una variable CSS nueva, revisar ambos bloques para no duplicarla.
+Como consecuencia, hay **4 bloques `:root` separados** (verificable con `grep -n "^:root" styles.css`):
+- Línea 1: bloque base.
+- ~Línea 2062: `/* Tourism refresh inspired by the Canva travel landing reference. */`
+- ~Línea 2899: `/* Aplicacion de manual interno de marca Turismo Ensenada v1.0 */`
+- ~Línea 5284: `/* Correccion cronologia lateral: Ensenada Historica */`
+
+Antes de agregar una variable CSS nueva, revisar los 4 bloques para no duplicarla (las líneas son aproximadas — el archivo sigue recibiendo parches que las corren).
 
 **No hay tests de regresión visual.** Cualquier refactor "prolijo" del CSS (unificar los `:root`, reordenar secciones) puede romper silenciosamente una corrección mobile puntual de un commit anterior. Si se necesita tocar `styles.css` de forma amplia, hacerlo en un commit aislado y verificar visualmente antes/después en mobile y desktop.
 
