@@ -6353,7 +6353,7 @@ summary:focus-visible {
   overflow: hidden !important;
   min-width: 0 !important;
   border: 0 !important;
-  border-radius: 0 !important;
+  border-radius: 18px !important;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.96)),
     radial-gradient(circle at 12% 12%, var(--place-soft), transparent 38%) !important;
