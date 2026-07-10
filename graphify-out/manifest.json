@@ -1,8 +1,8 @@
 {
   "script.js": {
-    "mtime": 1783544798.4208465,
-    "ast_hash": "97e80dfac1502c501ec51e81ae2b70f6",
-    "semantic_hash": "97e80dfac1502c501ec51e81ae2b70f6"
+    "mtime": 1783694813.9286265,
+    "ast_hash": "45b8b90944b5350a11a4c16b31223e93",
+    "semantic_hash": ""
   },
   ".claude/commands/opsx/apply.md": {
     "mtime": 1783657689.9343088,
@@ -302,6 +302,31 @@
   "openspec/specs/security-headers/spec.md": {
     "mtime": 1783693928.2744539,
     "ast_hash": "1e95f9f33895b0cba98fb08c8f7dd0e8",
+    "semantic_hash": ""
+  },
+  "openspec/changes/improve-gallery-alt-text/.openspec.yaml": {
+    "mtime": 1783694158.1879692,
+    "ast_hash": "a4980ad0f497704c46cfa140cda4a1fd",
+    "semantic_hash": ""
+  },
+  "openspec/changes/improve-gallery-alt-text/design.md": {
+    "mtime": 1783694822.8777092,
+    "ast_hash": "bc60a4c374ebd1fa9da9818d89ee0517",
+    "semantic_hash": ""
+  },
+  "openspec/changes/improve-gallery-alt-text/proposal.md": {
+    "mtime": 1783694182.1858385,
+    "ast_hash": "e3ac85f2657a51d3b9e15e607c452549",
+    "semantic_hash": ""
+  },
+  "openspec/changes/improve-gallery-alt-text/specs/gallery-accessibility/spec.md": {
+    "mtime": 1783694224.0004616,
+    "ast_hash": "2df660a5d5353d964d01cf568f6f3d4b",
+    "semantic_hash": ""
+  },
+  "openspec/changes/improve-gallery-alt-text/tasks.md": {
+    "mtime": 1783694841.1196425,
+    "ast_hash": "23e8d05d11df7f64bb5c45730c3cccb3",
     "semantic_hash": ""
   }
 }

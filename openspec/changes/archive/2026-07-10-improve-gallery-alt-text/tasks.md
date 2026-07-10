@@ -11,5 +11,5 @@
 
 ## 3. Deploy
 
-- [ ] 3.1 Commit + push a `main`
-- [ ] 3.2 Verificar en producción (`ensenadaturismo.com/en-fotos/`) que el `alt` de las fotos se actualizó (inspeccionar DOM)
+- [x] 3.1 Commit + push a `main`
+- [x] 3.2 Verificar en producción (`ensenadaturismo.com/en-fotos/`) que el `alt` de las fotos se actualizó (inspeccionar DOM)

@@ -72,12 +72,812 @@
     {
       "label": "design.md",
       "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_design",
+      "community": 20,
+      "norm_label": "design.md"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_design_context",
+      "community": 20,
+      "norm_label": "context"
+    },
+    {
+      "label": "Goals / Non-Goals",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/design.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_design_goals_non_goals",
+      "community": 20,
+      "norm_label": "goals / non-goals"
+    },
+    {
+      "label": "Decisions",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/design.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_design_decisions",
+      "community": 20,
+      "norm_label": "decisions"
+    },
+    {
+      "label": "Risks / Trade-offs",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/design.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_design_risks_trade_offs",
+      "community": 20,
+      "norm_label": "risks / trade-offs"
+    },
+    {
+      "label": "Migration Plan",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/design.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_design_migration_plan",
+      "community": 20,
+      "norm_label": "migration plan"
+    },
+    {
+      "label": "Open Questions",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/design.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_design_open_questions",
+      "community": 20,
+      "norm_label": "open questions"
+    },
+    {
+      "label": "proposal.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/proposal.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_proposal",
+      "community": 21,
+      "norm_label": "proposal.md"
+    },
+    {
+      "label": "Why",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/proposal.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_proposal_why",
+      "community": 21,
+      "norm_label": "why"
+    },
+    {
+      "label": "What Changes",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/proposal.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_proposal_what_changes",
+      "community": 21,
+      "norm_label": "what changes"
+    },
+    {
+      "label": "Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/proposal.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_proposal_capabilities",
+      "community": 21,
+      "norm_label": "capabilities"
+    },
+    {
+      "label": "New Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/proposal.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_proposal_new_capabilities",
+      "community": 21,
+      "norm_label": "new capabilities"
+    },
+    {
+      "label": "Modified Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/proposal.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_proposal_modified_capabilities",
+      "community": 21,
+      "norm_label": "modified capabilities"
+    },
+    {
+      "label": "Impact",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/proposal.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_proposal_impact",
+      "community": 21,
+      "norm_label": "impact"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/specs/gallery-accessibility/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_specs_gallery_accessibility_spec",
+      "community": 22,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "ADDED Requirements",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/specs/gallery-accessibility/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_specs_gallery_accessibility_spec_added_requirements",
+      "community": 22,
+      "norm_label": "added requirements"
+    },
+    {
+      "label": "Requirement: El alt de las fotos de galer\u00eda incluye t\u00edtulo y ubicaci\u00f3n",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/specs/gallery-accessibility/spec.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_specs_gallery_accessibility_spec_requirement_el_alt_de_las_fotos_de_galer\u00eda_incluye_t\u00edtulo_y_ubicaci\u00f3n",
+      "community": 22,
+      "norm_label": "requirement: el alt de las fotos de galeria incluye titulo y ubicacion"
+    },
+    {
+      "label": "Scenario: Una secci\u00f3n de galer\u00eda tiene t\u00edtulo y ubicaci\u00f3n definidos",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/specs/gallery-accessibility/spec.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_specs_gallery_accessibility_spec_scenario_una_secci\u00f3n_de_galer\u00eda_tiene_t\u00edtulo_y_ubicaci\u00f3n_definidos",
+      "community": 22,
+      "norm_label": "scenario: una seccion de galeria tiene titulo y ubicacion definidos"
+    },
+    {
+      "label": "Requirement: Ninguna foto de galer\u00eda recibe un alt gen\u00e9rico no descriptivo",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/specs/gallery-accessibility/spec.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_specs_gallery_accessibility_spec_requirement_ninguna_foto_de_galer\u00eda_recibe_un_alt_gen\u00e9rico_no_descriptivo",
+      "community": 22,
+      "norm_label": "requirement: ninguna foto de galeria recibe un alt generico no descriptivo"
+    },
+    {
+      "label": "Scenario: Una secci\u00f3n de galer\u00eda no define t\u00edtulo",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/specs/gallery-accessibility/spec.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_specs_gallery_accessibility_spec_scenario_una_secci\u00f3n_de_galer\u00eda_no_define_t\u00edtulo",
+      "community": 22,
+      "norm_label": "scenario: una seccion de galeria no define titulo"
+    },
+    {
+      "label": "tasks.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_tasks",
+      "community": 24,
+      "norm_label": "tasks.md"
+    },
+    {
+      "label": "1. Implementar el nuevo template de alt",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_tasks_1_implementar_el_nuevo_template_de_alt",
+      "community": 24,
+      "norm_label": "1. implementar el nuevo template de alt"
+    },
+    {
+      "label": "2. Verificaci\u00f3n",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/tasks.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_tasks_2_verificaci\u00f3n",
+      "community": 24,
+      "norm_label": "2. verificacion"
+    },
+    {
+      "label": "3. Deploy",
+      "file_type": "document",
+      "source_file": "openspec/changes/improve-gallery-alt-text/tasks.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "openspec_changes_improve_gallery_alt_text_tasks_3_deploy",
+      "community": 24,
+      "norm_label": "3. deploy"
+    },
+    {
+      "label": "script.js",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "script",
+      "community": 0,
+      "norm_label": "script.js"
+    },
+    {
+      "label": "header",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "script_header",
+      "community": 0,
+      "norm_label": "header"
+    },
+    {
+      "label": "menu",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "script_menu",
+      "community": 0,
+      "norm_label": "menu"
+    },
+    {
+      "label": "menuButton",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "script_menubutton",
+      "community": 0,
+      "norm_label": "menubutton"
+    },
+    {
+      "label": "carousel",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "script_carousel",
+      "community": 0,
+      "norm_label": "carousel"
+    },
+    {
+      "label": "carouselPrev",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "script_carouselprev",
+      "community": 0,
+      "norm_label": "carouselprev"
+    },
+    {
+      "label": "carouselNext",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "script_carouselnext",
+      "community": 0,
+      "norm_label": "carouselnext"
+    },
+    {
+      "label": "reel",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "script_reel",
+      "community": 0,
+      "norm_label": "reel"
+    },
+    {
+      "label": "reelPrev",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "script_reelprev",
+      "community": 0,
+      "norm_label": "reelprev"
+    },
+    {
+      "label": "reelNext",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "script_reelnext",
+      "community": 0,
+      "norm_label": "reelnext"
+    },
+    {
+      "label": "lightbox",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "script_lightbox",
+      "community": 0,
+      "norm_label": "lightbox"
+    },
+    {
+      "label": "lightboxImage",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "script_lightboximage",
+      "community": 0,
+      "norm_label": "lightboximage"
+    },
+    {
+      "label": "lightboxClose",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "script_lightboxclose",
+      "community": 0,
+      "norm_label": "lightboxclose"
+    },
+    {
+      "label": "lightboxPrev",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "script_lightboxprev",
+      "community": 0,
+      "norm_label": "lightboxprev"
+    },
+    {
+      "label": "lightboxNext",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "script_lightboxnext",
+      "community": 0,
+      "norm_label": "lightboxnext"
+    },
+    {
+      "label": "lightboxTitle",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "script_lightboxtitle",
+      "community": 0,
+      "norm_label": "lightboxtitle"
+    },
+    {
+      "label": "lightboxLocation",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "script_lightboxlocation",
+      "community": 0,
+      "norm_label": "lightboxlocation"
+    },
+    {
+      "label": "lightboxDescription",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "script_lightboxdescription",
+      "community": 0,
+      "norm_label": "lightboxdescription"
+    },
+    {
+      "label": "placeCards",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "script_placecards",
+      "community": 0,
+      "norm_label": "placecards"
+    },
+    {
+      "label": "placeTriggers",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "script_placetriggers",
+      "community": 0,
+      "norm_label": "placetriggers"
+    },
+    {
+      "label": "placeGalleryImages",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "script_placegalleryimages",
+      "community": 0,
+      "norm_label": "placegalleryimages"
+    },
+    {
+      "label": "placeModal",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "script_placemodal",
+      "community": 0,
+      "norm_label": "placemodal"
+    },
+    {
+      "label": "placeModalPanel",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "script_placemodalpanel",
+      "community": 0,
+      "norm_label": "placemodalpanel"
+    },
+    {
+      "label": "placeModalImage",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "script_placemodalimage",
+      "community": 0,
+      "norm_label": "placemodalimage"
+    },
+    {
+      "label": "placeModalNumber",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "script_placemodalnumber",
+      "community": 0,
+      "norm_label": "placemodalnumber"
+    },
+    {
+      "label": "placeModalTitle",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "script_placemodaltitle",
+      "community": 0,
+      "norm_label": "placemodaltitle"
+    },
+    {
+      "label": "placeModalKicker",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "script_placemodalkicker",
+      "community": 0,
+      "norm_label": "placemodalkicker"
+    },
+    {
+      "label": "placeModalReview",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "script_placemodalreview",
+      "community": 0,
+      "norm_label": "placemodalreview"
+    },
+    {
+      "label": "placeModalCloseButtons",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "script_placemodalclosebuttons",
+      "community": 0,
+      "norm_label": "placemodalclosebuttons"
+    },
+    {
+      "label": "photoExhibitImages",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "script_photoexhibitimages",
+      "community": 0,
+      "norm_label": "photoexhibitimages"
+    },
+    {
+      "label": "photoReelSections",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "script_photoreelsections",
+      "community": 0,
+      "norm_label": "photoreelsections"
+    },
+    {
+      "label": "socialStrip",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "script_socialstrip",
+      "community": 0,
+      "norm_label": "socialstrip"
+    },
+    {
+      "label": "hero",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "script_hero",
+      "community": 0,
+      "norm_label": "hero"
+    },
+    {
+      "label": "pageHero",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "script_pagehero",
+      "community": 0,
+      "norm_label": "pagehero"
+    },
+    {
+      "label": "revealTargets",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "script_revealtargets",
+      "community": 0,
+      "norm_label": "revealtargets"
+    },
+    {
+      "label": "motionPhotos",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "script_motionphotos",
+      "community": 0,
+      "norm_label": "motionphotos"
+    },
+    {
+      "label": "activeLightboxImages",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "script_activelightboximages",
+      "community": 0,
+      "norm_label": "activelightboximages"
+    },
+    {
+      "label": "refreshHeader()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "script_refreshheader",
+      "community": 0,
+      "norm_label": "refreshheader()"
+    },
+    {
+      "label": "setupNarrativeReveal()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "script_setupnarrativereveal",
+      "community": 0,
+      "norm_label": "setupnarrativereveal()"
+    },
+    {
+      "label": "updatePhotoDepth()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L101",
+      "_origin": "ast",
+      "id": "script_updatephotodepth",
+      "community": 11,
+      "norm_label": "updatephotodepth()"
+    },
+    {
+      "label": "requestPhotoDepth()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L118",
+      "_origin": "ast",
+      "id": "script_requestphotodepth",
+      "community": 11,
+      "norm_label": "requestphotodepth()"
+    },
+    {
+      "label": "prepareMediaForPublicView()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L124",
+      "_origin": "ast",
+      "id": "script_preparemediaforpublicview",
+      "community": 0,
+      "norm_label": "preparemediaforpublicview()"
+    },
+    {
+      "label": "setMenuOpen()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L135",
+      "_origin": "ast",
+      "id": "script_setmenuopen",
+      "community": 0,
+      "norm_label": "setmenuopen()"
+    },
+    {
+      "label": "moveCarousel()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L155",
+      "_origin": "ast",
+      "id": "script_movecarousel",
+      "community": 0,
+      "norm_label": "movecarousel()"
+    },
+    {
+      "label": "moveReel()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L168",
+      "_origin": "ast",
+      "id": "script_movereel",
+      "community": 0,
+      "norm_label": "movereel()"
+    },
+    {
+      "label": "humanizeSlug()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L181",
+      "_origin": "ast",
+      "id": "script_humanizeslug",
+      "community": 9,
+      "norm_label": "humanizeslug()"
+    },
+    {
+      "label": "setupPhotoReelSection()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L189",
+      "_origin": "ast",
+      "id": "script_setupphotoreelsection",
+      "community": 9,
+      "norm_label": "setupphotoreelsection()"
+    },
+    {
+      "label": "scrollToElement()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L251",
+      "_origin": "ast",
+      "id": "script_scrolltoelement",
+      "community": 0,
+      "norm_label": "scrolltoelement()"
+    },
+    {
+      "label": "renderLightboxImage()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L259",
+      "_origin": "ast",
+      "id": "script_renderlightboximage",
+      "community": 9,
+      "norm_label": "renderlightboximage()"
+    },
+    {
+      "label": "openLightbox()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L287",
+      "_origin": "ast",
+      "id": "script_openlightbox",
+      "community": 9,
+      "norm_label": "openlightbox()"
+    },
+    {
+      "label": "closeLightbox()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L297",
+      "_origin": "ast",
+      "id": "script_closelightbox",
+      "community": 0,
+      "norm_label": "closelightbox()"
+    },
+    {
+      "label": "moveLightbox()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L307",
+      "_origin": "ast",
+      "id": "script_movelightbox",
+      "community": 9,
+      "norm_label": "movelightbox()"
+    },
+    {
+      "label": "getPlaceModalFocusable()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L314",
+      "_origin": "ast",
+      "id": "script_getplacemodalfocusable",
+      "community": 10,
+      "norm_label": "getplacemodalfocusable()"
+    },
+    {
+      "label": "openPlaceModal()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L323",
+      "_origin": "ast",
+      "id": "script_openplacemodal",
+      "community": 10,
+      "norm_label": "openplacemodal()"
+    },
+    {
+      "label": "closePlaceModal()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L352",
+      "_origin": "ast",
+      "id": "script_closeplacemodal",
+      "community": 0,
+      "norm_label": "closeplacemodal()"
+    },
+    {
+      "label": "trapPlaceModalFocus()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L367",
+      "_origin": "ast",
+      "id": "script_trapplacemodalfocus",
+      "community": 10,
+      "norm_label": "trapplacemodalfocus()"
+    },
+    {
+      "label": "design.md",
+      "file_type": "document",
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/design.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_design",
       "community": 17,
-      "norm_label": "design.md"
+      "norm_label": "design.md",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_design"
     },
     {
       "label": "Context",
@@ -85,9 +885,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/design.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_design_context",
       "community": 17,
-      "norm_label": "context"
+      "norm_label": "context",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_design_context"
     },
     {
       "label": "Goals / Non-Goals",
@@ -95,9 +895,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/design.md",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_design_goals_non_goals",
       "community": 17,
-      "norm_label": "goals / non-goals"
+      "norm_label": "goals / non-goals",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_design_goals_non_goals"
     },
     {
       "label": "Decisions",
@@ -105,9 +905,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/design.md",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_design_decisions",
       "community": 17,
-      "norm_label": "decisions"
+      "norm_label": "decisions",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_design_decisions"
     },
     {
       "label": "Risks / Trade-offs",
@@ -115,9 +915,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/design.md",
       "source_location": "L38",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_design_risks_trade_offs",
       "community": 17,
-      "norm_label": "risks / trade-offs"
+      "norm_label": "risks / trade-offs",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_design_risks_trade_offs"
     },
     {
       "label": "Migration Plan",
@@ -125,9 +925,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/design.md",
       "source_location": "L44",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_design_migration_plan",
       "community": 17,
-      "norm_label": "migration plan"
+      "norm_label": "migration plan",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_design_migration_plan"
     },
     {
       "label": "Open Questions",
@@ -135,9 +935,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/design.md",
       "source_location": "L51",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_design_open_questions",
       "community": 17,
-      "norm_label": "open questions"
+      "norm_label": "open questions",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_design_open_questions"
     },
     {
       "label": "proposal.md",
@@ -145,9 +945,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/proposal.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_proposal",
       "community": 18,
-      "norm_label": "proposal.md"
+      "norm_label": "proposal.md",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_proposal"
     },
     {
       "label": "Why",
@@ -155,9 +955,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/proposal.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_why",
       "community": 18,
-      "norm_label": "why"
+      "norm_label": "why",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_why"
     },
     {
       "label": "What Changes",
@@ -165,9 +965,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/proposal.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_what_changes",
       "community": 18,
-      "norm_label": "what changes"
+      "norm_label": "what changes",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_what_changes"
     },
     {
       "label": "Capabilities",
@@ -175,9 +975,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/proposal.md",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_capabilities",
       "community": 18,
-      "norm_label": "capabilities"
+      "norm_label": "capabilities",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_capabilities"
     },
     {
       "label": "New Capabilities",
@@ -185,9 +985,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/proposal.md",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_new_capabilities",
       "community": 18,
-      "norm_label": "new capabilities"
+      "norm_label": "new capabilities",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_new_capabilities"
     },
     {
       "label": "Modified Capabilities",
@@ -195,9 +995,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/proposal.md",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_modified_capabilities",
       "community": 18,
-      "norm_label": "modified capabilities"
+      "norm_label": "modified capabilities",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_modified_capabilities"
     },
     {
       "label": "Impact",
@@ -205,9 +1005,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/proposal.md",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_impact",
       "community": 18,
-      "norm_label": "impact"
+      "norm_label": "impact",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_impact"
     },
     {
       "label": "spec.md",
@@ -215,9 +1015,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/specs/security-headers/spec.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec",
       "community": 16,
-      "norm_label": "spec.md"
+      "norm_label": "spec.md",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec"
     },
     {
       "label": "ADDED Requirements",
@@ -225,9 +1025,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/specs/security-headers/spec.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_added_requirements",
       "community": 16,
-      "norm_label": "added requirements"
+      "norm_label": "added requirements",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_added_requirements"
     },
     {
       "label": "Requirement: Cabeceras de seguridad HTTP en todas las rutas",
@@ -235,9 +1035,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/specs/security-headers/spec.md",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_cabeceras_de_seguridad_http_en_todas_las_rutas",
       "community": 16,
-      "norm_label": "requirement: cabeceras de seguridad http en todas las rutas"
+      "norm_label": "requirement: cabeceras de seguridad http en todas las rutas",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_cabeceras_de_seguridad_http_en_todas_las_rutas"
     },
     {
       "label": "Scenario: Cualquier p\u00e1gina del sitio incluye cabeceras de seguridad",
@@ -245,9 +1045,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/specs/security-headers/spec.md",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_scenario_cualquier_p\u00e1gina_del_sitio_incluye_cabeceras_de_seguridad",
       "community": 16,
-      "norm_label": "scenario: cualquier pagina del sitio incluye cabeceras de seguridad"
+      "norm_label": "scenario: cualquier pagina del sitio incluye cabeceras de seguridad",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_scenario_cualquier_p\u00e1gina_del_sitio_incluye_cabeceras_de_seguridad"
     },
     {
       "label": "Requirement: La Content-Security-Policy permite Google Fonts",
@@ -255,9 +1055,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/specs/security-headers/spec.md",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_la_content_security_policy_permite_google_fonts",
       "community": 16,
-      "norm_label": "requirement: la content-security-policy permite google fonts"
+      "norm_label": "requirement: la content-security-policy permite google fonts",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_la_content_security_policy_permite_google_fonts"
     },
     {
       "label": "Scenario: Google Fonts carga sin violar la CSP",
@@ -265,9 +1065,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/specs/security-headers/spec.md",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_scenario_google_fonts_carga_sin_violar_la_csp",
       "community": 16,
-      "norm_label": "scenario: google fonts carga sin violar la csp"
+      "norm_label": "scenario: google fonts carga sin violar la csp",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_scenario_google_fonts_carga_sin_violar_la_csp"
     },
     {
       "label": "Requirement: La Content-Security-Policy permite el embed de YouTube",
@@ -275,9 +1075,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/specs/security-headers/spec.md",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_la_content_security_policy_permite_el_embed_de_youtube",
       "community": 16,
-      "norm_label": "requirement: la content-security-policy permite el embed de youtube"
+      "norm_label": "requirement: la content-security-policy permite el embed de youtube",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_la_content_security_policy_permite_el_embed_de_youtube"
     },
     {
       "label": "Scenario: El embed de YouTube se reproduce sin violar la CSP",
@@ -285,9 +1085,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/specs/security-headers/spec.md",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_scenario_el_embed_de_youtube_se_reproduce_sin_violar_la_csp",
       "community": 16,
-      "norm_label": "scenario: el embed de youtube se reproduce sin violar la csp"
+      "norm_label": "scenario: el embed de youtube se reproduce sin violar la csp",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_scenario_el_embed_de_youtube_se_reproduce_sin_violar_la_csp"
     },
     {
       "label": "Requirement: El sitio no puede ser embebido en un iframe ajeno",
@@ -295,9 +1095,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/specs/security-headers/spec.md",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_el_sitio_no_puede_ser_embebido_en_un_iframe_ajeno",
       "community": 16,
-      "norm_label": "requirement: el sitio no puede ser embebido en un iframe ajeno"
+      "norm_label": "requirement: el sitio no puede ser embebido en un iframe ajeno",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_el_sitio_no_puede_ser_embebido_en_un_iframe_ajeno"
     },
     {
       "label": "Scenario: Un tercero intenta embeber el sitio en un iframe",
@@ -305,9 +1105,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/specs/security-headers/spec.md",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_scenario_un_tercero_intenta_embeber_el_sitio_en_un_iframe",
       "community": 16,
-      "norm_label": "scenario: un tercero intenta embeber el sitio en un iframe"
+      "norm_label": "scenario: un tercero intenta embeber el sitio en un iframe",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_scenario_un_tercero_intenta_embeber_el_sitio_en_un_iframe"
     },
     {
       "label": "tasks.md",
@@ -315,9 +1115,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/tasks.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_tasks",
       "community": 19,
-      "norm_label": "tasks.md"
+      "norm_label": "tasks.md",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_tasks"
     },
     {
       "label": "1. Crear el archivo `_headers`",
@@ -325,9 +1125,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/tasks.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_tasks_1_crear_el_archivo_headers",
       "community": 19,
-      "norm_label": "1. crear el archivo `_headers`"
+      "norm_label": "1. crear el archivo `_headers`",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_tasks_1_crear_el_archivo_headers"
     },
     {
       "label": "2. Verificaci\u00f3n local/preview",
@@ -335,9 +1135,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/tasks.md",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_tasks_2_verificaci\u00f3n_local_preview",
       "community": 19,
-      "norm_label": "2. verificacion local/preview"
+      "norm_label": "2. verificacion local/preview",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_tasks_2_verificaci\u00f3n_local_preview"
     },
     {
       "label": "3. Deploy y validaci\u00f3n en producci\u00f3n",
@@ -345,9 +1145,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/tasks.md",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_add_security_headers_tasks_3_deploy_y_validaci\u00f3n_en_producci\u00f3n",
       "community": 19,
-      "norm_label": "3. deploy y validacion en produccion"
+      "norm_label": "3. deploy y validacion en produccion",
+      "id": "openspec_changes_archive_2026_07_10_add_security_headers_tasks_3_deploy_y_validaci\u00f3n_en_producci\u00f3n"
     },
     {
       "label": "spec.md",
@@ -355,9 +1155,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_specs_security_headers_spec",
       "community": 15,
-      "norm_label": "spec.md"
+      "norm_label": "spec.md",
+      "id": "openspec_specs_security_headers_spec"
     },
     {
       "label": "Purpose",
@@ -365,9 +1165,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_specs_security_headers_spec_purpose",
       "community": 15,
-      "norm_label": "purpose"
+      "norm_label": "purpose",
+      "id": "openspec_specs_security_headers_spec_purpose"
     },
     {
       "label": "Requirements",
@@ -375,9 +1175,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "openspec_specs_security_headers_spec_requirements",
       "community": 15,
-      "norm_label": "requirements"
+      "norm_label": "requirements",
+      "id": "openspec_specs_security_headers_spec_requirements"
     },
     {
       "label": "Requirement: Cabeceras de seguridad HTTP en todas las rutas",
@@ -385,9 +1185,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "openspec_specs_security_headers_spec_requirement_cabeceras_de_seguridad_http_en_todas_las_rutas",
       "community": 15,
-      "norm_label": "requirement: cabeceras de seguridad http en todas las rutas"
+      "norm_label": "requirement: cabeceras de seguridad http en todas las rutas",
+      "id": "openspec_specs_security_headers_spec_requirement_cabeceras_de_seguridad_http_en_todas_las_rutas"
     },
     {
       "label": "Scenario: Cualquier p\u00e1gina del sitio incluye cabeceras de seguridad",
@@ -395,9 +1195,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "openspec_specs_security_headers_spec_scenario_cualquier_p\u00e1gina_del_sitio_incluye_cabeceras_de_seguridad",
       "community": 15,
-      "norm_label": "scenario: cualquier pagina del sitio incluye cabeceras de seguridad"
+      "norm_label": "scenario: cualquier pagina del sitio incluye cabeceras de seguridad",
+      "id": "openspec_specs_security_headers_spec_scenario_cualquier_p\u00e1gina_del_sitio_incluye_cabeceras_de_seguridad"
     },
     {
       "label": "Requirement: La Content-Security-Policy permite Google Fonts",
@@ -405,9 +1205,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "openspec_specs_security_headers_spec_requirement_la_content_security_policy_permite_google_fonts",
       "community": 15,
-      "norm_label": "requirement: la content-security-policy permite google fonts"
+      "norm_label": "requirement: la content-security-policy permite google fonts",
+      "id": "openspec_specs_security_headers_spec_requirement_la_content_security_policy_permite_google_fonts"
     },
     {
       "label": "Scenario: Google Fonts carga sin violar la CSP",
@@ -415,9 +1215,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "openspec_specs_security_headers_spec_scenario_google_fonts_carga_sin_violar_la_csp",
       "community": 15,
-      "norm_label": "scenario: google fonts carga sin violar la csp"
+      "norm_label": "scenario: google fonts carga sin violar la csp",
+      "id": "openspec_specs_security_headers_spec_scenario_google_fonts_carga_sin_violar_la_csp"
     },
     {
       "label": "Requirement: La Content-Security-Policy permite el embed de YouTube",
@@ -425,9 +1225,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "openspec_specs_security_headers_spec_requirement_la_content_security_policy_permite_el_embed_de_youtube",
       "community": 15,
-      "norm_label": "requirement: la content-security-policy permite el embed de youtube"
+      "norm_label": "requirement: la content-security-policy permite el embed de youtube",
+      "id": "openspec_specs_security_headers_spec_requirement_la_content_security_policy_permite_el_embed_de_youtube"
     },
     {
       "label": "Scenario: El embed de YouTube se reproduce sin violar la CSP",
@@ -435,9 +1235,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "openspec_specs_security_headers_spec_scenario_el_embed_de_youtube_se_reproduce_sin_violar_la_csp",
       "community": 15,
-      "norm_label": "scenario: el embed de youtube se reproduce sin violar la csp"
+      "norm_label": "scenario: el embed de youtube se reproduce sin violar la csp",
+      "id": "openspec_specs_security_headers_spec_scenario_el_embed_de_youtube_se_reproduce_sin_violar_la_csp"
     },
     {
       "label": "Requirement: El sitio no puede ser embebido en un iframe ajeno",
@@ -445,9 +1245,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "openspec_specs_security_headers_spec_requirement_el_sitio_no_puede_ser_embebido_en_un_iframe_ajeno",
       "community": 15,
-      "norm_label": "requirement: el sitio no puede ser embebido en un iframe ajeno"
+      "norm_label": "requirement: el sitio no puede ser embebido en un iframe ajeno",
+      "id": "openspec_specs_security_headers_spec_requirement_el_sitio_no_puede_ser_embebido_en_un_iframe_ajeno"
     },
     {
       "label": "Scenario: Un tercero intenta embeber el sitio en un iframe",
@@ -455,9 +1255,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "openspec_specs_security_headers_spec_scenario_un_tercero_intenta_embeber_el_sitio_en_un_iframe",
       "community": 15,
-      "norm_label": "scenario: un tercero intenta embeber el sitio en un iframe"
+      "norm_label": "scenario: un tercero intenta embeber el sitio en un iframe",
+      "id": "openspec_specs_security_headers_spec_scenario_un_tercero_intenta_embeber_el_sitio_en_un_iframe"
     },
     {
       "label": "CLAUDE.md",
@@ -925,7 +1725,7 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 23,
       "norm_label": "contenido de la home",
       "id": "docs_proyecto_contenido_home_contenido_de_la_home"
     },
@@ -935,7 +1735,7 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 5,
+      "community": 23,
       "norm_label": "identidad y navegacion",
       "id": "docs_proyecto_contenido_home_identidad_y_navegaci\u00f3n"
     },
@@ -945,7 +1745,7 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 5,
+      "community": 23,
       "norm_label": "secciones de la home",
       "id": "docs_proyecto_contenido_home_secciones_de_la_home"
     },
@@ -955,7 +1755,7 @@
       "source_file": "docs/proyecto/contenido-home.md",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 5,
+      "community": 23,
       "norm_label": "ver tambien",
       "id": "docs_proyecto_contenido_home_ver_tambi\u00e9n"
     },
@@ -1468,556 +2268,6 @@
       "community": 12,
       "norm_label": "ver tambien",
       "id": "docs_tecnico_stack_y_mapa_de_archivos_ver_tambi\u00e9n"
-    },
-    {
-      "label": "script.js",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "script.js",
-      "id": "script"
-    },
-    {
-      "label": "header",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "header",
-      "id": "script_header"
-    },
-    {
-      "label": "menu",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L2",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "menu",
-      "id": "script_menu"
-    },
-    {
-      "label": "menuButton",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "menubutton",
-      "id": "script_menubutton"
-    },
-    {
-      "label": "carousel",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "carousel",
-      "id": "script_carousel"
-    },
-    {
-      "label": "carouselPrev",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "carouselprev",
-      "id": "script_carouselprev"
-    },
-    {
-      "label": "carouselNext",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L6",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "carouselnext",
-      "id": "script_carouselnext"
-    },
-    {
-      "label": "reel",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L7",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "reel",
-      "id": "script_reel"
-    },
-    {
-      "label": "reelPrev",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "reelprev",
-      "id": "script_reelprev"
-    },
-    {
-      "label": "reelNext",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "reelnext",
-      "id": "script_reelnext"
-    },
-    {
-      "label": "lightbox",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L10",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "lightbox",
-      "id": "script_lightbox"
-    },
-    {
-      "label": "lightboxImage",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L11",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "lightboximage",
-      "id": "script_lightboximage"
-    },
-    {
-      "label": "lightboxClose",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L12",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "lightboxclose",
-      "id": "script_lightboxclose"
-    },
-    {
-      "label": "lightboxPrev",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L13",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "lightboxprev",
-      "id": "script_lightboxprev"
-    },
-    {
-      "label": "lightboxNext",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L14",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "lightboxnext",
-      "id": "script_lightboxnext"
-    },
-    {
-      "label": "lightboxTitle",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "lightboxtitle",
-      "id": "script_lightboxtitle"
-    },
-    {
-      "label": "lightboxLocation",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L16",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "lightboxlocation",
-      "id": "script_lightboxlocation"
-    },
-    {
-      "label": "lightboxDescription",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L17",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "lightboxdescription",
-      "id": "script_lightboxdescription"
-    },
-    {
-      "label": "placeCards",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L18",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "placecards",
-      "id": "script_placecards"
-    },
-    {
-      "label": "placeTriggers",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L19",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "placetriggers",
-      "id": "script_placetriggers"
-    },
-    {
-      "label": "placeGalleryImages",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L20",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "placegalleryimages",
-      "id": "script_placegalleryimages"
-    },
-    {
-      "label": "placeModal",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L21",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "placemodal",
-      "id": "script_placemodal"
-    },
-    {
-      "label": "placeModalPanel",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L22",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "placemodalpanel",
-      "id": "script_placemodalpanel"
-    },
-    {
-      "label": "placeModalImage",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L23",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "placemodalimage",
-      "id": "script_placemodalimage"
-    },
-    {
-      "label": "placeModalNumber",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L24",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "placemodalnumber",
-      "id": "script_placemodalnumber"
-    },
-    {
-      "label": "placeModalTitle",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L25",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "placemodaltitle",
-      "id": "script_placemodaltitle"
-    },
-    {
-      "label": "placeModalKicker",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L26",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "placemodalkicker",
-      "id": "script_placemodalkicker"
-    },
-    {
-      "label": "placeModalReview",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L27",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "placemodalreview",
-      "id": "script_placemodalreview"
-    },
-    {
-      "label": "placeModalCloseButtons",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L28",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "placemodalclosebuttons",
-      "id": "script_placemodalclosebuttons"
-    },
-    {
-      "label": "photoExhibitImages",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L29",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "photoexhibitimages",
-      "id": "script_photoexhibitimages"
-    },
-    {
-      "label": "photoReelSections",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L30",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "photoreelsections",
-      "id": "script_photoreelsections"
-    },
-    {
-      "label": "socialStrip",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L31",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "socialstrip",
-      "id": "script_socialstrip"
-    },
-    {
-      "label": "hero",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L32",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "hero",
-      "id": "script_hero"
-    },
-    {
-      "label": "pageHero",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L33",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "pagehero",
-      "id": "script_pagehero"
-    },
-    {
-      "label": "revealTargets",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L34",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "revealtargets",
-      "id": "script_revealtargets"
-    },
-    {
-      "label": "motionPhotos",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L37",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "motionphotos",
-      "id": "script_motionphotos"
-    },
-    {
-      "label": "activeLightboxImages",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L40",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "activelightboximages",
-      "id": "script_activelightboximages"
-    },
-    {
-      "label": "refreshHeader()",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L47",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "refreshheader()",
-      "id": "script_refreshheader"
-    },
-    {
-      "label": "setupNarrativeReveal()",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L75",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "setupnarrativereveal()",
-      "id": "script_setupnarrativereveal"
-    },
-    {
-      "label": "updatePhotoDepth()",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L101",
-      "_origin": "ast",
-      "community": 11,
-      "norm_label": "updatephotodepth()",
-      "id": "script_updatephotodepth"
-    },
-    {
-      "label": "requestPhotoDepth()",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L118",
-      "_origin": "ast",
-      "community": 11,
-      "norm_label": "requestphotodepth()",
-      "id": "script_requestphotodepth"
-    },
-    {
-      "label": "prepareMediaForPublicView()",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L124",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "preparemediaforpublicview()",
-      "id": "script_preparemediaforpublicview"
-    },
-    {
-      "label": "setMenuOpen()",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L135",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "setmenuopen()",
-      "id": "script_setmenuopen"
-    },
-    {
-      "label": "moveCarousel()",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L155",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "movecarousel()",
-      "id": "script_movecarousel"
-    },
-    {
-      "label": "moveReel()",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L168",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "movereel()",
-      "id": "script_movereel"
-    },
-    {
-      "label": "setupPhotoReelSection()",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L181",
-      "_origin": "ast",
-      "community": 9,
-      "norm_label": "setupphotoreelsection()",
-      "id": "script_setupphotoreelsection"
-    },
-    {
-      "label": "scrollToElement()",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L239",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "scrolltoelement()",
-      "id": "script_scrolltoelement"
-    },
-    {
-      "label": "renderLightboxImage()",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L247",
-      "_origin": "ast",
-      "community": 9,
-      "norm_label": "renderlightboximage()",
-      "id": "script_renderlightboximage"
-    },
-    {
-      "label": "openLightbox()",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L275",
-      "_origin": "ast",
-      "community": 9,
-      "norm_label": "openlightbox()",
-      "id": "script_openlightbox"
-    },
-    {
-      "label": "closeLightbox()",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L285",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "closelightbox()",
-      "id": "script_closelightbox"
-    },
-    {
-      "label": "moveLightbox()",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L295",
-      "_origin": "ast",
-      "community": 9,
-      "norm_label": "movelightbox()",
-      "id": "script_movelightbox"
-    },
-    {
-      "label": "getPlaceModalFocusable()",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L302",
-      "_origin": "ast",
-      "community": 10,
-      "norm_label": "getplacemodalfocusable()",
-      "id": "script_getplacemodalfocusable"
-    },
-    {
-      "label": "openPlaceModal()",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L311",
-      "_origin": "ast",
-      "community": 10,
-      "norm_label": "openplacemodal()",
-      "id": "script_openplacemodal"
-    },
-    {
-      "label": "closePlaceModal()",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L340",
-      "_origin": "ast",
-      "community": 0,
-      "norm_label": "closeplacemodal()",
-      "id": "script_closeplacemodal"
-    },
-    {
-      "label": "trapPlaceModalFocus()",
-      "file_type": "code",
-      "source_file": "script.js",
-      "source_location": "L355",
-      "_origin": "ast",
-      "community": 10,
-      "norm_label": "trapplacemodalfocus()",
-      "id": "script_trapplacemodalfocus"
     },
     {
       "label": "OPSX: Apply (slash command)",
@@ -2695,12 +2945,842 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/design.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_design",
+      "target": "openspec_changes_improve_gallery_alt_text_design_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/design.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_design",
+      "target": "openspec_changes_improve_gallery_alt_text_design_decisions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/design.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_design",
+      "target": "openspec_changes_improve_gallery_alt_text_design_goals_non_goals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/design.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_design",
+      "target": "openspec_changes_improve_gallery_alt_text_design_migration_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/design.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_design",
+      "target": "openspec_changes_improve_gallery_alt_text_design_open_questions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/design.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_design",
+      "target": "openspec_changes_improve_gallery_alt_text_design_risks_trade_offs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/proposal.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_proposal",
+      "target": "openspec_changes_improve_gallery_alt_text_proposal_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/proposal.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_proposal",
+      "target": "openspec_changes_improve_gallery_alt_text_proposal_impact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/proposal.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_proposal",
+      "target": "openspec_changes_improve_gallery_alt_text_proposal_what_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/proposal.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_proposal",
+      "target": "openspec_changes_improve_gallery_alt_text_proposal_why",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/proposal.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_proposal_capabilities",
+      "target": "openspec_changes_improve_gallery_alt_text_proposal_modified_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/proposal.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_proposal_capabilities",
+      "target": "openspec_changes_improve_gallery_alt_text_proposal_new_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/specs/gallery-accessibility/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_specs_gallery_accessibility_spec",
+      "target": "openspec_changes_improve_gallery_alt_text_specs_gallery_accessibility_spec_added_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/specs/gallery-accessibility/spec.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_specs_gallery_accessibility_spec_added_requirements",
+      "target": "openspec_changes_improve_gallery_alt_text_specs_gallery_accessibility_spec_requirement_el_alt_de_las_fotos_de_galer\u00eda_incluye_t\u00edtulo_y_ubicaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/specs/gallery-accessibility/spec.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_specs_gallery_accessibility_spec_added_requirements",
+      "target": "openspec_changes_improve_gallery_alt_text_specs_gallery_accessibility_spec_requirement_ninguna_foto_de_galer\u00eda_recibe_un_alt_gen\u00e9rico_no_descriptivo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/specs/gallery-accessibility/spec.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_specs_gallery_accessibility_spec_requirement_el_alt_de_las_fotos_de_galer\u00eda_incluye_t\u00edtulo_y_ubicaci\u00f3n",
+      "target": "openspec_changes_improve_gallery_alt_text_specs_gallery_accessibility_spec_scenario_una_secci\u00f3n_de_galer\u00eda_tiene_t\u00edtulo_y_ubicaci\u00f3n_definidos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/specs/gallery-accessibility/spec.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_specs_gallery_accessibility_spec_requirement_ninguna_foto_de_galer\u00eda_recibe_un_alt_gen\u00e9rico_no_descriptivo",
+      "target": "openspec_changes_improve_gallery_alt_text_specs_gallery_accessibility_spec_scenario_una_secci\u00f3n_de_galer\u00eda_no_define_t\u00edtulo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/tasks.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_tasks",
+      "target": "openspec_changes_improve_gallery_alt_text_tasks_1_implementar_el_nuevo_template_de_alt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/tasks.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_tasks",
+      "target": "openspec_changes_improve_gallery_alt_text_tasks_2_verificaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/improve-gallery-alt-text/tasks.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "openspec_changes_improve_gallery_alt_text_tasks",
+      "target": "openspec_changes_improve_gallery_alt_text_tasks_3_deploy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_activelightboximages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_carousel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_carouselnext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_carouselprev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "confidence": "INFERRED",
+      "source_file": "script.js",
+      "source_location": "L413",
+      "weight": 1.0,
+      "context": "argument",
+      "source": "script",
+      "target": "script_closelightbox",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L352",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_closeplacemodal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L314",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_getplacemodalfocusable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_header",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_hero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L181",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_humanizeslug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_lightbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_lightboxclose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_lightboxdescription",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_lightboximage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_lightboxlocation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_lightboxnext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_lightboxprev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_lightboxtitle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_menu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_menubutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_motionphotos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L155",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_movecarousel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L307",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_movelightbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L168",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_movereel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L287",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_openlightbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L323",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_openplacemodal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_pagehero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_photoexhibitimages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_photoreelsections",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_placecards",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_placegalleryimages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_placemodal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_placemodalclosebuttons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_placemodalimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_placemodalkicker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_placemodalnumber",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_placemodalpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_placemodalreview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_placemodaltitle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_placetriggers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_preparemediaforpublicview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_reel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_reelnext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_reelprev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_refreshheader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L259",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_renderlightboximage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_requestphotodepth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_revealtargets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L251",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_scrolltoelement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_setmenuopen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_setupnarrativereveal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "confidence": "INFERRED",
+      "source_file": "script.js",
+      "source_location": "L248",
+      "weight": 1.0,
+      "context": "argument",
+      "source": "script",
+      "target": "script_setupphotoreelsection",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_socialstrip",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "confidence": "INFERRED",
+      "source_file": "script.js",
+      "source_location": "L430",
+      "weight": 1.0,
+      "context": "argument",
+      "source": "script",
+      "target": "script_trapplacemodalfocus",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "script",
+      "target": "script_updatephotodepth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "source_file": "script.js",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "script_requestphotodepth",
+      "target": "script_updatephotodepth",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L212",
+      "weight": 1.0,
+      "source": "script_setupphotoreelsection",
+      "target": "script_humanizeslug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L243",
+      "weight": 1.0,
+      "source": "script_setupphotoreelsection",
+      "target": "script_openlightbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L311",
+      "weight": 1.0,
+      "source": "script_movelightbox",
+      "target": "script_renderlightboximage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L291",
+      "weight": 1.0,
+      "source": "script_openlightbox",
+      "target": "script_renderlightboximage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L347",
+      "weight": 1.0,
+      "source": "script_openplacemodal",
+      "target": "script_getplacemodalfocusable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L369",
+      "weight": 1.0,
+      "source": "script_trapplacemodalfocus",
+      "target": "script_getplacemodalfocusable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/design.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_design",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_design_context",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_design_context"
     },
     {
       "relation": "contains",
@@ -2708,9 +3788,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/design.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_design",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_design_decisions",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_design_decisions"
     },
     {
       "relation": "contains",
@@ -2718,9 +3798,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/design.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_design",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_design_goals_non_goals",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_design_goals_non_goals"
     },
     {
       "relation": "contains",
@@ -2728,9 +3808,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/design.md",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_design",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_design_migration_plan",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_design_migration_plan"
     },
     {
       "relation": "contains",
@@ -2738,9 +3818,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/design.md",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_design",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_design_open_questions",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_design_open_questions"
     },
     {
       "relation": "contains",
@@ -2748,9 +3828,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/design.md",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_design",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_design_risks_trade_offs",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_design_risks_trade_offs"
     },
     {
       "relation": "contains",
@@ -2758,9 +3838,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/proposal.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_proposal",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_capabilities",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_capabilities"
     },
     {
       "relation": "contains",
@@ -2768,9 +3848,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/proposal.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_proposal",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_impact",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_impact"
     },
     {
       "relation": "contains",
@@ -2778,9 +3858,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/proposal.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_proposal",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_what_changes",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_what_changes"
     },
     {
       "relation": "contains",
@@ -2788,9 +3868,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/proposal.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_proposal",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_why",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_why"
     },
     {
       "relation": "contains",
@@ -2798,9 +3878,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/proposal.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_capabilities",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_modified_capabilities",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_modified_capabilities"
     },
     {
       "relation": "contains",
@@ -2808,9 +3888,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/proposal.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_capabilities",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_new_capabilities",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_proposal_new_capabilities"
     },
     {
       "relation": "contains",
@@ -2818,9 +3898,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/specs/security-headers/spec.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_added_requirements",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_added_requirements"
     },
     {
       "relation": "contains",
@@ -2828,9 +3908,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/specs/security-headers/spec.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_added_requirements",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_cabeceras_de_seguridad_http_en_todas_las_rutas",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_cabeceras_de_seguridad_http_en_todas_las_rutas"
     },
     {
       "relation": "contains",
@@ -2838,9 +3918,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/specs/security-headers/spec.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_added_requirements",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_el_sitio_no_puede_ser_embebido_en_un_iframe_ajeno",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_el_sitio_no_puede_ser_embebido_en_un_iframe_ajeno"
     },
     {
       "relation": "contains",
@@ -2848,9 +3928,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/specs/security-headers/spec.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_added_requirements",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_la_content_security_policy_permite_el_embed_de_youtube",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_la_content_security_policy_permite_el_embed_de_youtube"
     },
     {
       "relation": "contains",
@@ -2858,9 +3938,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/specs/security-headers/spec.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_added_requirements",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_la_content_security_policy_permite_google_fonts",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_la_content_security_policy_permite_google_fonts"
     },
     {
       "relation": "contains",
@@ -2868,9 +3948,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/specs/security-headers/spec.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_cabeceras_de_seguridad_http_en_todas_las_rutas",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_scenario_cualquier_p\u00e1gina_del_sitio_incluye_cabeceras_de_seguridad",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_scenario_cualquier_p\u00e1gina_del_sitio_incluye_cabeceras_de_seguridad"
     },
     {
       "relation": "contains",
@@ -2878,9 +3958,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/specs/security-headers/spec.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_la_content_security_policy_permite_google_fonts",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_scenario_google_fonts_carga_sin_violar_la_csp",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_scenario_google_fonts_carga_sin_violar_la_csp"
     },
     {
       "relation": "contains",
@@ -2888,9 +3968,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/specs/security-headers/spec.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_la_content_security_policy_permite_el_embed_de_youtube",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_scenario_el_embed_de_youtube_se_reproduce_sin_violar_la_csp",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_scenario_el_embed_de_youtube_se_reproduce_sin_violar_la_csp"
     },
     {
       "relation": "contains",
@@ -2898,9 +3978,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/specs/security-headers/spec.md",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_requirement_el_sitio_no_puede_ser_embebido_en_un_iframe_ajeno",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_scenario_un_tercero_intenta_embeber_el_sitio_en_un_iframe",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_specs_security_headers_spec_scenario_un_tercero_intenta_embeber_el_sitio_en_un_iframe"
     },
     {
       "relation": "contains",
@@ -2908,9 +3988,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/tasks.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_tasks",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_tasks_1_crear_el_archivo_headers",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_tasks_1_crear_el_archivo_headers"
     },
     {
       "relation": "contains",
@@ -2918,9 +3998,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/tasks.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_tasks",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_tasks_2_verificaci\u00f3n_local_preview",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_tasks_2_verificaci\u00f3n_local_preview"
     },
     {
       "relation": "contains",
@@ -2928,9 +4008,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-add-security-headers/tasks.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_add_security_headers_tasks",
-      "target": "openspec_changes_archive_2026_07_10_add_security_headers_tasks_3_deploy_y_validaci\u00f3n_en_producci\u00f3n",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_add_security_headers_tasks_3_deploy_y_validaci\u00f3n_en_producci\u00f3n"
     },
     {
       "relation": "contains",
@@ -2938,9 +4018,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_security_headers_spec",
-      "target": "openspec_specs_security_headers_spec_purpose",
-      "confidence_score": 1.0
+      "target": "openspec_specs_security_headers_spec_purpose"
     },
     {
       "relation": "contains",
@@ -2948,9 +4028,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_security_headers_spec",
-      "target": "openspec_specs_security_headers_spec_requirements",
-      "confidence_score": 1.0
+      "target": "openspec_specs_security_headers_spec_requirements"
     },
     {
       "relation": "contains",
@@ -2958,9 +4038,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_security_headers_spec_requirements",
-      "target": "openspec_specs_security_headers_spec_requirement_cabeceras_de_seguridad_http_en_todas_las_rutas",
-      "confidence_score": 1.0
+      "target": "openspec_specs_security_headers_spec_requirement_cabeceras_de_seguridad_http_en_todas_las_rutas"
     },
     {
       "relation": "contains",
@@ -2968,9 +4048,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_security_headers_spec_requirements",
-      "target": "openspec_specs_security_headers_spec_requirement_el_sitio_no_puede_ser_embebido_en_un_iframe_ajeno",
-      "confidence_score": 1.0
+      "target": "openspec_specs_security_headers_spec_requirement_el_sitio_no_puede_ser_embebido_en_un_iframe_ajeno"
     },
     {
       "relation": "contains",
@@ -2978,9 +4058,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_security_headers_spec_requirements",
-      "target": "openspec_specs_security_headers_spec_requirement_la_content_security_policy_permite_el_embed_de_youtube",
-      "confidence_score": 1.0
+      "target": "openspec_specs_security_headers_spec_requirement_la_content_security_policy_permite_el_embed_de_youtube"
     },
     {
       "relation": "contains",
@@ -2988,9 +4068,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_security_headers_spec_requirements",
-      "target": "openspec_specs_security_headers_spec_requirement_la_content_security_policy_permite_google_fonts",
-      "confidence_score": 1.0
+      "target": "openspec_specs_security_headers_spec_requirement_la_content_security_policy_permite_google_fonts"
     },
     {
       "relation": "contains",
@@ -2998,9 +4078,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_security_headers_spec_requirement_cabeceras_de_seguridad_http_en_todas_las_rutas",
-      "target": "openspec_specs_security_headers_spec_scenario_cualquier_p\u00e1gina_del_sitio_incluye_cabeceras_de_seguridad",
-      "confidence_score": 1.0
+      "target": "openspec_specs_security_headers_spec_scenario_cualquier_p\u00e1gina_del_sitio_incluye_cabeceras_de_seguridad"
     },
     {
       "relation": "contains",
@@ -3008,9 +4088,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_security_headers_spec_requirement_la_content_security_policy_permite_google_fonts",
-      "target": "openspec_specs_security_headers_spec_scenario_google_fonts_carga_sin_violar_la_csp",
-      "confidence_score": 1.0
+      "target": "openspec_specs_security_headers_spec_scenario_google_fonts_carga_sin_violar_la_csp"
     },
     {
       "relation": "contains",
@@ -3018,9 +4098,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_security_headers_spec_requirement_la_content_security_policy_permite_el_embed_de_youtube",
-      "target": "openspec_specs_security_headers_spec_scenario_el_embed_de_youtube_se_reproduce_sin_violar_la_csp",
-      "confidence_score": 1.0
+      "target": "openspec_specs_security_headers_spec_scenario_el_embed_de_youtube_se_reproduce_sin_violar_la_csp"
     },
     {
       "relation": "contains",
@@ -3028,9 +4108,9 @@
       "source_file": "openspec/specs/security-headers/spec.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_security_headers_spec_requirement_el_sitio_no_puede_ser_embebido_en_un_iframe_ajeno",
-      "target": "openspec_specs_security_headers_spec_scenario_un_tercero_intenta_embeber_el_sitio_en_un_iframe",
-      "confidence_score": 1.0
+      "target": "openspec_specs_security_headers_spec_scenario_un_tercero_intenta_embeber_el_sitio_en_un_iframe"
     },
     {
       "relation": "contains",
@@ -4403,615 +5483,6 @@
       "target": "docs_tecnico_stack_y_mapa_de_archivos_ver_tambi\u00e9n"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L40",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_activelightboximages"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_carousel"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_carouselnext"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_carouselprev"
-    },
-    {
-      "relation": "indirect_call",
-      "confidence": "INFERRED",
-      "source_file": "script.js",
-      "source_location": "L401",
-      "weight": 1.0,
-      "context": "argument",
-      "confidence_score": 0.5,
-      "source": "script",
-      "target": "script_closelightbox"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L340",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_closeplacemodal"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L302",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_getplacemodalfocusable"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_header"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L32",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_hero"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_lightbox"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_lightboxclose"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_lightboxdescription"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_lightboximage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_lightboxlocation"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_lightboxnext"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_lightboxprev"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_lightboxtitle"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_menu"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_menubutton"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L37",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_motionphotos"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L155",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_movecarousel"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L295",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_movelightbox"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L168",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_movereel"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L275",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_openlightbox"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L311",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_openplacemodal"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L33",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_pagehero"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L29",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_photoexhibitimages"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L30",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_photoreelsections"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_placecards"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_placegalleryimages"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_placemodal"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L28",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_placemodalclosebuttons"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_placemodalimage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L26",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_placemodalkicker"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_placemodalnumber"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_placemodalpanel"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L27",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_placemodalreview"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_placemodaltitle"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_placetriggers"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L124",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_preparemediaforpublicview"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_reel"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_reelnext"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_reelprev"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L47",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_refreshheader"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L247",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_renderlightboximage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L118",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_requestphotodepth"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_revealtargets"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L239",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_scrolltoelement"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L135",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_setmenuopen"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L75",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_setupnarrativereveal"
-    },
-    {
-      "relation": "indirect_call",
-      "confidence": "INFERRED",
-      "source_file": "script.js",
-      "source_location": "L236",
-      "weight": 1.0,
-      "context": "argument",
-      "confidence_score": 0.5,
-      "source": "script",
-      "target": "script_setupphotoreelsection"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_socialstrip"
-    },
-    {
-      "relation": "indirect_call",
-      "confidence": "INFERRED",
-      "source_file": "script.js",
-      "source_location": "L418",
-      "weight": 1.0,
-      "context": "argument",
-      "confidence_score": 0.5,
-      "source": "script",
-      "target": "script_trapplacemodalfocus"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L101",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script",
-      "target": "script_updatephotodepth"
-    },
-    {
-      "relation": "indirect_call",
-      "context": "argument",
-      "confidence": "INFERRED",
-      "source_file": "script.js",
-      "source_location": "L121",
-      "weight": 1.0,
-      "confidence_score": 0.5,
-      "source": "script_requestphotodepth",
-      "target": "script_updatephotodepth"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L231",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script_setupphotoreelsection",
-      "target": "script_openlightbox"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L299",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script_movelightbox",
-      "target": "script_renderlightboximage"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L279",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script_openlightbox",
-      "target": "script_renderlightboximage"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L335",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script_openplacemodal",
-      "target": "script_getplacemodalfocusable"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "script.js",
-      "source_location": "L357",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "script_trapplacemodalfocus",
-      "target": "script_getplacemodalfocusable"
-    },
-    {
       "relation": "implements",
       "confidence": "INFERRED",
       "confidence_score": 0.95,
@@ -6037,5 +6508,5 @@
       "source_file": "docs/marca/arquitectura-de-marca.md"
     }
   ],
-  "built_at_commit": "2deb93f124c474f97bed832bae473ee56a90c968"
+  "built_at_commit": "a8b838aa2fa3d5d322c1ff53580555482d3d0f9f"
 }
