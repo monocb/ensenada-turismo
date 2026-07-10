@@ -178,6 +178,14 @@ function moveReel(direction) {
 reelPrev?.addEventListener("click", () => moveReel(-1));
 reelNext?.addEventListener("click", () => moveReel(1));
 
+function humanizeSlug(slug) {
+  return slug
+    .split("-")
+    .filter(Boolean)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
+
 function setupPhotoReelSection(section) {
   const photoReel = section.querySelector("[data-photo-reel]");
   const folder = section.dataset.photoFolder;
@@ -201,7 +209,11 @@ function setupPhotoReelSection(section) {
 
       image.loading = "lazy";
       image.src = `/assets/en-fotos/${folder}/${prefix}-${number}.webp`;
-      image.alt = title ? `${title}, foto ${number}` : "Foto de Ensenada";
+      const altBase = title || humanizeSlug(prefix || folder);
+      const includesLocation = location && altBase.toLowerCase().includes(location.toLowerCase());
+      image.alt = location && !includesLocation
+        ? `${altBase} en ${location}, foto ${number}`
+        : `${altBase}, foto ${number}`;
       if (title) image.dataset.lightboxTitle = title;
       if (location) image.dataset.lightboxLocation = location;
       if (description) image.dataset.lightboxDescription = description;
