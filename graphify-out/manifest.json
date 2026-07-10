@@ -369,29 +369,34 @@
     "ast_hash": "78c61fe3bda46ddfd52b4a712bf94705",
     "semantic_hash": ""
   },
-  "openspec/changes/evaluate-static-site-generator/.openspec.yaml": {
-    "mtime": 1783697374.3729544,
+  "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/.openspec.yaml": {
+    "mtime": 1783700021.7789724,
     "ast_hash": "a4980ad0f497704c46cfa140cda4a1fd",
     "semantic_hash": ""
   },
-  "openspec/changes/evaluate-static-site-generator/design.md": {
-    "mtime": 1783698194.829985,
+  "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/design.md": {
+    "mtime": 1783700021.8006263,
     "ast_hash": "52a61495e996fcdc7ca319fdbb8fe1cc",
     "semantic_hash": ""
   },
-  "openspec/changes/evaluate-static-site-generator/proposal.md": {
-    "mtime": 1783697460.3285658,
+  "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/proposal.md": {
+    "mtime": 1783700021.7794793,
     "ast_hash": "db87e8743ff79fa54611926b1ce61cdb",
     "semantic_hash": ""
   },
-  "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md": {
-    "mtime": 1783697521.6114192,
+  "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/specs/stack-decision-record/spec.md": {
+    "mtime": 1783700021.7980833,
     "ast_hash": "88b23998e37552da9d61317080071a30",
     "semantic_hash": ""
   },
-  "openspec/changes/evaluate-static-site-generator/tasks.md": {
-    "mtime": 1783699232.3795395,
-    "ast_hash": "281ac3bc92bd94f680a95163bcc4a8af",
+  "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/tasks.md": {
+    "mtime": 1783700021.7985902,
+    "ast_hash": "db16f96ce9d6a01cc3c72d27daa8613d",
+    "semantic_hash": ""
+  },
+  "openspec/specs/stack-decision-record/spec.md": {
+    "mtime": 1783699998.326018,
+    "ast_hash": "73f6738320b70e2ab8d419765dba2403",
     "semantic_hash": ""
   }
 }

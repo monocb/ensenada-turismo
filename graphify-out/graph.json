@@ -70,14 +70,374 @@
   },
   "nodes": [
     {
+      "label": "design.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design",
+      "community": 29,
+      "norm_label": "design.md"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design_context",
+      "community": 29,
+      "norm_label": "context"
+    },
+    {
+      "label": "Resumen de la correcci\u00f3n de rumbo",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/design.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design_resumen_de_la_correcci\u00f3n_de_rumbo",
+      "community": 29,
+      "norm_label": "resumen de la correccion de rumbo"
+    },
+    {
+      "label": "Goals / Non-Goals",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/design.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design_goals_non_goals",
+      "community": 29,
+      "norm_label": "goals / non-goals"
+    },
+    {
+      "label": "Decisions",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/design.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design_decisions",
+      "community": 29,
+      "norm_label": "decisions"
+    },
+    {
+      "label": "Risks / Trade-offs",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/design.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design_risks_trade_offs",
+      "community": 29,
+      "norm_label": "risks / trade-offs"
+    },
+    {
+      "label": "Migration Plan",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/design.md",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design_migration_plan",
+      "community": 29,
+      "norm_label": "migration plan"
+    },
+    {
+      "label": "Open Questions",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/design.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design_open_questions",
+      "community": 29,
+      "norm_label": "open questions"
+    },
+    {
+      "label": "proposal.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/proposal.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_proposal",
+      "community": 31,
+      "norm_label": "proposal.md"
+    },
+    {
+      "label": "Why",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/proposal.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_proposal_why",
+      "community": 31,
+      "norm_label": "why"
+    },
+    {
+      "label": "What Changes",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/proposal.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_proposal_what_changes",
+      "community": 31,
+      "norm_label": "what changes"
+    },
+    {
+      "label": "Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/proposal.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_proposal_capabilities",
+      "community": 31,
+      "norm_label": "capabilities"
+    },
+    {
+      "label": "New Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/proposal.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_proposal_new_capabilities",
+      "community": 31,
+      "norm_label": "new capabilities"
+    },
+    {
+      "label": "Modified Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/proposal.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_proposal_modified_capabilities",
+      "community": 31,
+      "norm_label": "modified capabilities"
+    },
+    {
+      "label": "Impact",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/proposal.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_proposal_impact",
+      "community": 31,
+      "norm_label": "impact"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec",
+      "community": 30,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "ADDED Requirements",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_added_requirements",
+      "community": 30,
+      "norm_label": "added requirements"
+    },
+    {
+      "label": "Requirement: El proyecto tiene una recomendaci\u00f3n documentada sobre generadores est\u00e1ticos",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_el_proyecto_tiene_una_recomendaci\u00f3n_documentada_sobre_generadores_est\u00e1ticos",
+      "community": 30,
+      "norm_label": "requirement: el proyecto tiene una recomendacion documentada sobre generadores estaticos"
+    },
+    {
+      "label": "Scenario: Alguien eval\u00faa si migrar el stack",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_scenario_alguien_eval\u00faa_si_migrar_el_stack",
+      "community": 30,
+      "norm_label": "scenario: alguien evalua si migrar el stack"
+    },
+    {
+      "label": "Requirement: La recomendaci\u00f3n define condiciones concretas de activaci\u00f3n",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_la_recomendaci\u00f3n_define_condiciones_concretas_de_activaci\u00f3n",
+      "community": 30,
+      "norm_label": "requirement: la recomendacion define condiciones concretas de activacion"
+    },
+    {
+      "label": "Scenario: Se eval\u00faa si es momento de migrar",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_scenario_se_eval\u00faa_si_es_momento_de_migrar",
+      "community": 30,
+      "norm_label": "scenario: se evalua si es momento de migrar"
+    },
+    {
+      "label": "Requirement: El documento est\u00e1 enlazado desde el \u00edndice t\u00e9cnico",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_el_documento_est\u00e1_enlazado_desde_el_\u00edndice_t\u00e9cnico",
+      "community": 30,
+      "norm_label": "requirement: el documento esta enlazado desde el indice tecnico"
+    },
+    {
+      "label": "Scenario: Alguien navega la documentaci\u00f3n t\u00e9cnica",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_scenario_alguien_navega_la_documentaci\u00f3n_t\u00e9cnica",
+      "community": 30,
+      "norm_label": "scenario: alguien navega la documentacion tecnica"
+    },
+    {
+      "label": "tasks.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_tasks",
+      "community": 33,
+      "norm_label": "tasks.md"
+    },
+    {
+      "label": "1. Escribir el documento de evaluaci\u00f3n",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_tasks_1_escribir_el_documento_de_evaluaci\u00f3n",
+      "community": 33,
+      "norm_label": "1. escribir el documento de evaluacion"
+    },
+    {
+      "label": "2. Enlazar desde el \u00edndice de documentaci\u00f3n",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/tasks.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_tasks_2_enlazar_desde_el_\u00edndice_de_documentaci\u00f3n",
+      "community": 33,
+      "norm_label": "2. enlazar desde el indice de documentacion"
+    },
+    {
+      "label": "3. Deploy",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/tasks.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_tasks_3_deploy",
+      "community": 33,
+      "norm_label": "3. deploy"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "openspec/specs/stack-decision-record/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_specs_stack_decision_record_spec",
+      "community": 28,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "Purpose",
+      "file_type": "document",
+      "source_file": "openspec/specs/stack-decision-record/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_specs_stack_decision_record_spec_purpose",
+      "community": 28,
+      "norm_label": "purpose"
+    },
+    {
+      "label": "Requirements",
+      "file_type": "document",
+      "source_file": "openspec/specs/stack-decision-record/spec.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "openspec_specs_stack_decision_record_spec_requirements",
+      "community": 28,
+      "norm_label": "requirements"
+    },
+    {
+      "label": "Requirement: El proyecto tiene una recomendaci\u00f3n documentada sobre generadores est\u00e1ticos",
+      "file_type": "document",
+      "source_file": "openspec/specs/stack-decision-record/spec.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "openspec_specs_stack_decision_record_spec_requirement_el_proyecto_tiene_una_recomendaci\u00f3n_documentada_sobre_generadores_est\u00e1ticos",
+      "community": 28,
+      "norm_label": "requirement: el proyecto tiene una recomendacion documentada sobre generadores estaticos"
+    },
+    {
+      "label": "Scenario: Alguien eval\u00faa si migrar el stack",
+      "file_type": "document",
+      "source_file": "openspec/specs/stack-decision-record/spec.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "openspec_specs_stack_decision_record_spec_scenario_alguien_eval\u00faa_si_migrar_el_stack",
+      "community": 28,
+      "norm_label": "scenario: alguien evalua si migrar el stack"
+    },
+    {
+      "label": "Requirement: La recomendaci\u00f3n define condiciones concretas de activaci\u00f3n",
+      "file_type": "document",
+      "source_file": "openspec/specs/stack-decision-record/spec.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "openspec_specs_stack_decision_record_spec_requirement_la_recomendaci\u00f3n_define_condiciones_concretas_de_activaci\u00f3n",
+      "community": 28,
+      "norm_label": "requirement: la recomendacion define condiciones concretas de activacion"
+    },
+    {
+      "label": "Scenario: Se eval\u00faa si es momento de migrar",
+      "file_type": "document",
+      "source_file": "openspec/specs/stack-decision-record/spec.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "openspec_specs_stack_decision_record_spec_scenario_se_eval\u00faa_si_es_momento_de_migrar",
+      "community": 28,
+      "norm_label": "scenario: se evalua si es momento de migrar"
+    },
+    {
+      "label": "Requirement: El documento est\u00e1 enlazado desde el \u00edndice t\u00e9cnico",
+      "file_type": "document",
+      "source_file": "openspec/specs/stack-decision-record/spec.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "openspec_specs_stack_decision_record_spec_requirement_el_documento_est\u00e1_enlazado_desde_el_\u00edndice_t\u00e9cnico",
+      "community": 28,
+      "norm_label": "requirement: el documento esta enlazado desde el indice tecnico"
+    },
+    {
+      "label": "Scenario: Alguien navega la documentaci\u00f3n t\u00e9cnica",
+      "file_type": "document",
+      "source_file": "openspec/specs/stack-decision-record/spec.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "openspec_specs_stack_decision_record_spec_scenario_alguien_navega_la_documentaci\u00f3n_t\u00e9cnica",
+      "community": 28,
+      "norm_label": "scenario: alguien navega la documentacion tecnica"
+    },
+    {
       "label": "funcionalidades-futuras.md",
       "file_type": "document",
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_funcionalidades_futuras",
       "community": 5,
-      "norm_label": "funcionalidades-futuras.md"
+      "norm_label": "funcionalidades-futuras.md",
+      "id": "docs_proyecto_funcionalidades_futuras"
     },
     {
       "label": "Funcionalidades futuras",
@@ -85,9 +445,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
       "community": 5,
-      "norm_label": "funcionalidades futuras"
+      "norm_label": "funcionalidades futuras",
+      "id": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras"
     },
     {
       "label": "Concurso fotogr\u00e1fico",
@@ -95,9 +455,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "docs_proyecto_funcionalidades_futuras_concurso_fotogr\u00e1fico",
       "community": 5,
-      "norm_label": "concurso fotografico"
+      "norm_label": "concurso fotografico",
+      "id": "docs_proyecto_funcionalidades_futuras_concurso_fotogr\u00e1fico"
     },
     {
       "label": "Concurso de microrelatos \"Historias de Ensenada\"",
@@ -105,9 +465,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "docs_proyecto_funcionalidades_futuras_concurso_de_microrelatos_historias_de_ensenada",
       "community": 5,
-      "norm_label": "concurso de microrelatos \"historias de ensenada\""
+      "norm_label": "concurso de microrelatos \"historias de ensenada\"",
+      "id": "docs_proyecto_funcionalidades_futuras_concurso_de_microrelatos_historias_de_ensenada"
     },
     {
       "label": "P\u00e1ginas por lugar",
@@ -115,9 +475,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "docs_proyecto_funcionalidades_futuras_p\u00e1ginas_por_lugar",
       "community": 5,
-      "norm_label": "paginas por lugar"
+      "norm_label": "paginas por lugar",
+      "id": "docs_proyecto_funcionalidades_futuras_p\u00e1ginas_por_lugar"
     },
     {
       "label": "Otras mejoras de producto planteadas",
@@ -125,9 +485,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "docs_proyecto_funcionalidades_futuras_otras_mejoras_de_producto_planteadas",
       "community": 5,
-      "norm_label": "otras mejoras de producto planteadas"
+      "norm_label": "otras mejoras de producto planteadas",
+      "id": "docs_proyecto_funcionalidades_futuras_otras_mejoras_de_producto_planteadas"
     },
     {
       "label": "README.md",
@@ -135,9 +495,9 @@
       "source_file": "docs/tecnico/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_tecnico_readme",
       "community": 27,
-      "norm_label": "readme.md"
+      "norm_label": "readme.md",
+      "id": "docs_tecnico_readme"
     },
     {
       "label": "T\u00e9cnico",
@@ -145,9 +505,9 @@
       "source_file": "docs/tecnico/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_tecnico_readme_t\u00e9cnico",
       "community": 27,
-      "norm_label": "tecnico"
+      "norm_label": "tecnico",
+      "id": "docs_tecnico_readme_t\u00e9cnico"
     },
     {
       "label": "evaluacion-generador-estatico.md",
@@ -155,9 +515,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_tecnico_evaluacion_generador_estatico",
       "community": 27,
-      "norm_label": "evaluacion-generador-estatico.md"
+      "norm_label": "evaluacion-generador-estatico.md",
+      "id": "docs_tecnico_evaluacion_generador_estatico"
     },
     {
       "label": "Evaluaci\u00f3n: \u00bfconviene un generador est\u00e1tico?",
@@ -165,9 +525,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_tecnico_evaluacion_generador_estatico_evaluaci\u00f3n_conviene_un_generador_est\u00e1tico",
       "community": 27,
-      "norm_label": "evaluacion: \u00bfconviene un generador estatico?"
+      "norm_label": "evaluacion: \u00bfconviene un generador estatico?",
+      "id": "docs_tecnico_evaluacion_generador_estatico_evaluaci\u00f3n_conviene_un_generador_est\u00e1tico"
     },
     {
       "label": "Por qu\u00e9 esta evaluaci\u00f3n",
@@ -175,9 +535,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "docs_tecnico_evaluacion_generador_estatico_por_qu\u00e9_esta_evaluaci\u00f3n",
       "community": 27,
-      "norm_label": "por que esta evaluacion"
+      "norm_label": "por que esta evaluacion",
+      "id": "docs_tecnico_evaluacion_generador_estatico_por_qu\u00e9_esta_evaluaci\u00f3n"
     },
     {
       "label": "Comparaci\u00f3n (fuentes oficiales)",
@@ -185,9 +545,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "docs_tecnico_evaluacion_generador_estatico_comparaci\u00f3n_fuentes_oficiales",
       "community": 27,
-      "norm_label": "comparacion (fuentes oficiales)"
+      "norm_label": "comparacion (fuentes oficiales)",
+      "id": "docs_tecnico_evaluacion_generador_estatico_comparaci\u00f3n_fuentes_oficiales"
     },
     {
       "label": "Recomendaci\u00f3n",
@@ -195,9 +555,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "docs_tecnico_evaluacion_generador_estatico_recomendaci\u00f3n",
       "community": 27,
-      "norm_label": "recomendacion"
+      "norm_label": "recomendacion",
+      "id": "docs_tecnico_evaluacion_generador_estatico_recomendaci\u00f3n"
     },
     {
       "label": "Si \"p\u00e1ginas por lugar\" arranca primero \u2192 Eleventy",
@@ -205,9 +565,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "docs_tecnico_evaluacion_generador_estatico_si_p\u00e1ginas_por_lugar_arranca_primero_eleventy",
       "community": 27,
-      "norm_label": "si \"paginas por lugar\" arranca primero \u2192 eleventy"
+      "norm_label": "si \"paginas por lugar\" arranca primero \u2192 eleventy",
+      "id": "docs_tecnico_evaluacion_generador_estatico_si_p\u00e1ginas_por_lugar_arranca_primero_eleventy"
     },
     {
       "label": "Si el sistema de datos de concursos arranca primero \u2192 reconsiderar Astro Content Collections",
@@ -215,9 +575,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L39",
       "_origin": "ast",
-      "id": "docs_tecnico_evaluacion_generador_estatico_si_el_sistema_de_datos_de_concursos_arranca_primero_reconsiderar_astro_content_collections",
       "community": 27,
-      "norm_label": "si el sistema de datos de concursos arranca primero \u2192 reconsiderar astro content collections"
+      "norm_label": "si el sistema de datos de concursos arranca primero \u2192 reconsiderar astro content collections",
+      "id": "docs_tecnico_evaluacion_generador_estatico_si_el_sistema_de_datos_de_concursos_arranca_primero_reconsiderar_astro_content_collections"
     },
     {
       "label": "Si ambos triggers terminan conviviendo",
@@ -225,9 +585,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L43",
       "_origin": "ast",
-      "id": "docs_tecnico_evaluacion_generador_estatico_si_ambos_triggers_terminan_conviviendo",
       "community": 27,
-      "norm_label": "si ambos triggers terminan conviviendo"
+      "norm_label": "si ambos triggers terminan conviviendo",
+      "id": "docs_tecnico_evaluacion_generador_estatico_si_ambos_triggers_terminan_conviviendo"
     },
     {
       "label": "Para el sistema de concursos (independiente del generador elegido)",
@@ -235,9 +595,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L47",
       "_origin": "ast",
-      "id": "docs_tecnico_evaluacion_generador_estatico_para_el_sistema_de_concursos_independiente_del_generador_elegido",
       "community": 27,
-      "norm_label": "para el sistema de concursos (independiente del generador elegido)"
+      "norm_label": "para el sistema de concursos (independiente del generador elegido)",
+      "id": "docs_tecnico_evaluacion_generador_estatico_para_el_sistema_de_concursos_independiente_del_generador_elegido"
     },
     {
       "label": "Antes de comprometerse: un spike acotado",
@@ -245,9 +605,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L51",
       "_origin": "ast",
-      "id": "docs_tecnico_evaluacion_generador_estatico_antes_de_comprometerse_un_spike_acotado",
       "community": 27,
-      "norm_label": "antes de comprometerse: un spike acotado"
+      "norm_label": "antes de comprometerse: un spike acotado",
+      "id": "docs_tecnico_evaluacion_generador_estatico_antes_de_comprometerse_un_spike_acotado"
     },
     {
       "label": "Qu\u00e9 NO hacer",
@@ -255,9 +615,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L55",
       "_origin": "ast",
-      "id": "docs_tecnico_evaluacion_generador_estatico_qu\u00e9_no_hacer",
       "community": 27,
-      "norm_label": "que no hacer"
+      "norm_label": "que no hacer",
+      "id": "docs_tecnico_evaluacion_generador_estatico_qu\u00e9_no_hacer"
     },
     {
       "label": "Alternativas descartadas",
@@ -265,279 +625,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L61",
       "_origin": "ast",
-      "id": "docs_tecnico_evaluacion_generador_estatico_alternativas_descartadas",
       "community": 27,
-      "norm_label": "alternativas descartadas"
-    },
-    {
-      "label": "design.md",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_design",
-      "community": 28,
-      "norm_label": "design.md"
-    },
-    {
-      "label": "Context",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_design_context",
-      "community": 28,
-      "norm_label": "context"
-    },
-    {
-      "label": "Resumen de la correcci\u00f3n de rumbo",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_design_resumen_de_la_correcci\u00f3n_de_rumbo",
-      "community": 28,
-      "norm_label": "resumen de la correccion de rumbo"
-    },
-    {
-      "label": "Goals / Non-Goals",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_design_goals_non_goals",
-      "community": 28,
-      "norm_label": "goals / non-goals"
-    },
-    {
-      "label": "Decisions",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
-      "source_location": "L26",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_design_decisions",
-      "community": 28,
-      "norm_label": "decisions"
-    },
-    {
-      "label": "Risks / Trade-offs",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
-      "source_location": "L52",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_design_risks_trade_offs",
-      "community": 28,
-      "norm_label": "risks / trade-offs"
-    },
-    {
-      "label": "Migration Plan",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
-      "source_location": "L59",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_design_migration_plan",
-      "community": 28,
-      "norm_label": "migration plan"
-    },
-    {
-      "label": "Open Questions",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
-      "source_location": "L66",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_design_open_questions",
-      "community": 28,
-      "norm_label": "open questions"
-    },
-    {
-      "label": "proposal.md",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_proposal",
-      "community": 30,
-      "norm_label": "proposal.md"
-    },
-    {
-      "label": "Why",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_proposal_why",
-      "community": 30,
-      "norm_label": "why"
-    },
-    {
-      "label": "What Changes",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_proposal_what_changes",
-      "community": 30,
-      "norm_label": "what changes"
-    },
-    {
-      "label": "Capabilities",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_proposal_capabilities",
-      "community": 30,
-      "norm_label": "capabilities"
-    },
-    {
-      "label": "New Capabilities",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_proposal_new_capabilities",
-      "community": 30,
-      "norm_label": "new capabilities"
-    },
-    {
-      "label": "Modified Capabilities",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_proposal_modified_capabilities",
-      "community": 30,
-      "norm_label": "modified capabilities"
-    },
-    {
-      "label": "Impact",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
-      "source_location": "L20",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_proposal_impact",
-      "community": 30,
-      "norm_label": "impact"
-    },
-    {
-      "label": "spec.md",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec",
-      "community": 29,
-      "norm_label": "spec.md"
-    },
-    {
-      "label": "ADDED Requirements",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_added_requirements",
-      "community": 29,
-      "norm_label": "added requirements"
-    },
-    {
-      "label": "Requirement: El proyecto tiene una recomendaci\u00f3n documentada sobre generadores est\u00e1ticos",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_el_proyecto_tiene_una_recomendaci\u00f3n_documentada_sobre_generadores_est\u00e1ticos",
-      "community": 29,
-      "norm_label": "requirement: el proyecto tiene una recomendacion documentada sobre generadores estaticos"
-    },
-    {
-      "label": "Scenario: Alguien eval\u00faa si migrar el stack",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_scenario_alguien_eval\u00faa_si_migrar_el_stack",
-      "community": 29,
-      "norm_label": "scenario: alguien evalua si migrar el stack"
-    },
-    {
-      "label": "Requirement: La recomendaci\u00f3n define condiciones concretas de activaci\u00f3n",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_la_recomendaci\u00f3n_define_condiciones_concretas_de_activaci\u00f3n",
-      "community": 29,
-      "norm_label": "requirement: la recomendacion define condiciones concretas de activacion"
-    },
-    {
-      "label": "Scenario: Se eval\u00faa si es momento de migrar",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
-      "source_location": "L13",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_scenario_se_eval\u00faa_si_es_momento_de_migrar",
-      "community": 29,
-      "norm_label": "scenario: se evalua si es momento de migrar"
-    },
-    {
-      "label": "Requirement: El documento est\u00e1 enlazado desde el \u00edndice t\u00e9cnico",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_el_documento_est\u00e1_enlazado_desde_el_\u00edndice_t\u00e9cnico",
-      "community": 29,
-      "norm_label": "requirement: el documento esta enlazado desde el indice tecnico"
-    },
-    {
-      "label": "Scenario: Alguien navega la documentaci\u00f3n t\u00e9cnica",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
-      "source_location": "L20",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_scenario_alguien_navega_la_documentaci\u00f3n_t\u00e9cnica",
-      "community": 29,
-      "norm_label": "scenario: alguien navega la documentacion tecnica"
-    },
-    {
-      "label": "tasks.md",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/tasks.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_tasks",
-      "community": 31,
-      "norm_label": "tasks.md"
-    },
-    {
-      "label": "1. Escribir el documento de evaluaci\u00f3n",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/tasks.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_tasks_1_escribir_el_documento_de_evaluaci\u00f3n",
-      "community": 31,
-      "norm_label": "1. escribir el documento de evaluacion"
-    },
-    {
-      "label": "2. Enlazar desde el \u00edndice de documentaci\u00f3n",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/tasks.md",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_tasks_2_enlazar_desde_el_\u00edndice_de_documentaci\u00f3n",
-      "community": 31,
-      "norm_label": "2. enlazar desde el indice de documentacion"
-    },
-    {
-      "label": "3. Deploy",
-      "file_type": "document",
-      "source_file": "openspec/changes/evaluate-static-site-generator/tasks.md",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "openspec_changes_evaluate_static_site_generator_tasks_3_deploy",
-      "community": 31,
-      "norm_label": "3. deploy"
+      "norm_label": "alternativas descartadas",
+      "id": "docs_tecnico_evaluacion_generador_estatico_alternativas_descartadas"
     },
     {
       "label": "design.md",
@@ -2875,7 +2965,7 @@
       "source_file": "docs/tecnico/convenciones-css.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 12,
       "norm_label": "convenciones-css.md",
       "id": "docs_tecnico_convenciones_css"
     },
@@ -2885,7 +2975,7 @@
       "source_file": "docs/tecnico/convenciones-css.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 12,
       "norm_label": "convenciones de css",
       "id": "docs_tecnico_convenciones_css_convenciones_de_css"
     },
@@ -2895,7 +2985,7 @@
       "source_file": "docs/tecnico/convenciones-css.md",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 4,
+      "community": 12,
       "norm_label": "`styles.css` crecio por parches, no por diseno de arquitectura",
       "id": "docs_tecnico_convenciones_css_styles_css_creci\u00f3_por_parches_no_por_dise\u00f1o_de_arquitectura"
     },
@@ -3238,7 +3328,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 1,
       "norm_label": "openspec project config (openspec/config.yaml)",
       "id": "openspec_config_openspec_config"
     },
@@ -3773,6 +3863,316 @@
   ],
   "links": [
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/design.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/design.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design_decisions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/design.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design_goals_non_goals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/design.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design_migration_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/design.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design_open_questions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/design.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design_resumen_de_la_correcci\u00f3n_de_rumbo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/design.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_design_risks_trade_offs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/proposal.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_proposal",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_proposal_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/proposal.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_proposal",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_proposal_impact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/proposal.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_proposal",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_proposal_what_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/proposal.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_proposal",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_proposal_why",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/proposal.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_proposal_capabilities",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_proposal_modified_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/proposal.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_proposal_capabilities",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_proposal_new_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_added_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_added_requirements",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_el_documento_est\u00e1_enlazado_desde_el_\u00edndice_t\u00e9cnico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_added_requirements",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_el_proyecto_tiene_una_recomendaci\u00f3n_documentada_sobre_generadores_est\u00e1ticos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_added_requirements",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_la_recomendaci\u00f3n_define_condiciones_concretas_de_activaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_el_proyecto_tiene_una_recomendaci\u00f3n_documentada_sobre_generadores_est\u00e1ticos",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_scenario_alguien_eval\u00faa_si_migrar_el_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_la_recomendaci\u00f3n_define_condiciones_concretas_de_activaci\u00f3n",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_scenario_se_eval\u00faa_si_es_momento_de_migrar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_el_documento_est\u00e1_enlazado_desde_el_\u00edndice_t\u00e9cnico",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_specs_stack_decision_record_spec_scenario_alguien_navega_la_documentaci\u00f3n_t\u00e9cnica",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/tasks.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_tasks",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_tasks_1_escribir_el_documento_de_evaluaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/tasks.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_tasks",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_tasks_2_enlazar_desde_el_\u00edndice_de_documentaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/tasks.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_tasks",
+      "target": "openspec_changes_archive_2026_07_10_evaluate_static_site_generator_tasks_3_deploy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/stack-decision-record/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_specs_stack_decision_record_spec",
+      "target": "openspec_specs_stack_decision_record_spec_purpose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/stack-decision-record/spec.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "openspec_specs_stack_decision_record_spec",
+      "target": "openspec_specs_stack_decision_record_spec_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/stack-decision-record/spec.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "openspec_specs_stack_decision_record_spec_requirements",
+      "target": "openspec_specs_stack_decision_record_spec_requirement_el_documento_est\u00e1_enlazado_desde_el_\u00edndice_t\u00e9cnico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/stack-decision-record/spec.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "openspec_specs_stack_decision_record_spec_requirements",
+      "target": "openspec_specs_stack_decision_record_spec_requirement_el_proyecto_tiene_una_recomendaci\u00f3n_documentada_sobre_generadores_est\u00e1ticos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/stack-decision-record/spec.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "openspec_specs_stack_decision_record_spec_requirements",
+      "target": "openspec_specs_stack_decision_record_spec_requirement_la_recomendaci\u00f3n_define_condiciones_concretas_de_activaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/stack-decision-record/spec.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "openspec_specs_stack_decision_record_spec_requirement_el_proyecto_tiene_una_recomendaci\u00f3n_documentada_sobre_generadores_est\u00e1ticos",
+      "target": "openspec_specs_stack_decision_record_spec_scenario_alguien_eval\u00faa_si_migrar_el_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/stack-decision-record/spec.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "openspec_specs_stack_decision_record_spec_requirement_la_recomendaci\u00f3n_define_condiciones_concretas_de_activaci\u00f3n",
+      "target": "openspec_specs_stack_decision_record_spec_scenario_se_eval\u00faa_si_es_momento_de_migrar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/stack-decision-record/spec.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "openspec_specs_stack_decision_record_spec_requirement_el_documento_est\u00e1_enlazado_desde_el_\u00edndice_t\u00e9cnico",
+      "target": "openspec_specs_stack_decision_record_spec_scenario_alguien_navega_la_documentaci\u00f3n_t\u00e9cnica",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
@@ -3828,9 +4228,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_funcionalidades_futuras",
-      "target": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras"
     },
     {
       "relation": "references",
@@ -3838,9 +4238,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_funcionalidades_futuras",
-      "target": "docs_tecnico_evaluacion_generador_estatico",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_evaluacion_generador_estatico"
     },
     {
       "relation": "references",
@@ -3898,9 +4298,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
-      "target": "docs_proyecto_funcionalidades_futuras_concurso_de_microrelatos_historias_de_ensenada",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_funcionalidades_futuras_concurso_de_microrelatos_historias_de_ensenada"
     },
     {
       "relation": "contains",
@@ -3908,9 +4308,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
-      "target": "docs_proyecto_funcionalidades_futuras_concurso_fotogr\u00e1fico",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_funcionalidades_futuras_concurso_fotogr\u00e1fico"
     },
     {
       "relation": "contains",
@@ -3918,9 +4318,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
-      "target": "docs_proyecto_funcionalidades_futuras_otras_mejoras_de_producto_planteadas",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_funcionalidades_futuras_otras_mejoras_de_producto_planteadas"
     },
     {
       "relation": "contains",
@@ -3928,9 +4328,9 @@
       "source_file": "docs/proyecto/funcionalidades-futuras.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
-      "target": "docs_proyecto_funcionalidades_futuras_p\u00e1ginas_por_lugar",
-      "confidence_score": 1.0
+      "target": "docs_proyecto_funcionalidades_futuras_p\u00e1ginas_por_lugar"
     },
     {
       "relation": "references",
@@ -3948,9 +4348,9 @@
       "source_file": "docs/tecnico/README.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_readme",
-      "target": "docs_tecnico_evaluacion_generador_estatico",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_evaluacion_generador_estatico"
     },
     {
       "relation": "contains",
@@ -3958,9 +4358,9 @@
       "source_file": "docs/tecnico/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_readme",
-      "target": "docs_tecnico_readme_t\u00e9cnico",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_readme_t\u00e9cnico"
     },
     {
       "relation": "contains",
@@ -3968,9 +4368,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_evaluacion_generador_estatico",
-      "target": "docs_tecnico_evaluacion_generador_estatico_evaluaci\u00f3n_conviene_un_generador_est\u00e1tico",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_evaluacion_generador_estatico_evaluaci\u00f3n_conviene_un_generador_est\u00e1tico"
     },
     {
       "relation": "contains",
@@ -3978,9 +4378,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_evaluacion_generador_estatico_evaluaci\u00f3n_conviene_un_generador_est\u00e1tico",
-      "target": "docs_tecnico_evaluacion_generador_estatico_alternativas_descartadas",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_evaluacion_generador_estatico_alternativas_descartadas"
     },
     {
       "relation": "contains",
@@ -3988,9 +4388,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_evaluacion_generador_estatico_evaluaci\u00f3n_conviene_un_generador_est\u00e1tico",
-      "target": "docs_tecnico_evaluacion_generador_estatico_antes_de_comprometerse_un_spike_acotado",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_evaluacion_generador_estatico_antes_de_comprometerse_un_spike_acotado"
     },
     {
       "relation": "contains",
@@ -3998,9 +4398,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_evaluacion_generador_estatico_evaluaci\u00f3n_conviene_un_generador_est\u00e1tico",
-      "target": "docs_tecnico_evaluacion_generador_estatico_comparaci\u00f3n_fuentes_oficiales",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_evaluacion_generador_estatico_comparaci\u00f3n_fuentes_oficiales"
     },
     {
       "relation": "contains",
@@ -4008,9 +4408,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_evaluacion_generador_estatico_evaluaci\u00f3n_conviene_un_generador_est\u00e1tico",
-      "target": "docs_tecnico_evaluacion_generador_estatico_por_qu\u00e9_esta_evaluaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_evaluacion_generador_estatico_por_qu\u00e9_esta_evaluaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -4018,9 +4418,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_evaluacion_generador_estatico_evaluaci\u00f3n_conviene_un_generador_est\u00e1tico",
-      "target": "docs_tecnico_evaluacion_generador_estatico_qu\u00e9_no_hacer",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_evaluacion_generador_estatico_qu\u00e9_no_hacer"
     },
     {
       "relation": "contains",
@@ -4028,9 +4428,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_evaluacion_generador_estatico_evaluaci\u00f3n_conviene_un_generador_est\u00e1tico",
-      "target": "docs_tecnico_evaluacion_generador_estatico_recomendaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_evaluacion_generador_estatico_recomendaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -4038,9 +4438,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_evaluacion_generador_estatico_recomendaci\u00f3n",
-      "target": "docs_tecnico_evaluacion_generador_estatico_para_el_sistema_de_concursos_independiente_del_generador_elegido",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_evaluacion_generador_estatico_para_el_sistema_de_concursos_independiente_del_generador_elegido"
     },
     {
       "relation": "contains",
@@ -4048,9 +4448,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_evaluacion_generador_estatico_recomendaci\u00f3n",
-      "target": "docs_tecnico_evaluacion_generador_estatico_si_ambos_triggers_terminan_conviviendo",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_evaluacion_generador_estatico_si_ambos_triggers_terminan_conviviendo"
     },
     {
       "relation": "contains",
@@ -4058,9 +4458,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_evaluacion_generador_estatico_recomendaci\u00f3n",
-      "target": "docs_tecnico_evaluacion_generador_estatico_si_el_sistema_de_datos_de_concursos_arranca_primero_reconsiderar_astro_content_collections",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_evaluacion_generador_estatico_si_el_sistema_de_datos_de_concursos_arranca_primero_reconsiderar_astro_content_collections"
     },
     {
       "relation": "contains",
@@ -4068,239 +4468,9 @@
       "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_tecnico_evaluacion_generador_estatico_recomendaci\u00f3n",
-      "target": "docs_tecnico_evaluacion_generador_estatico_si_p\u00e1ginas_por_lugar_arranca_primero_eleventy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_design",
-      "target": "openspec_changes_evaluate_static_site_generator_design_context",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_design",
-      "target": "openspec_changes_evaluate_static_site_generator_design_decisions",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_design",
-      "target": "openspec_changes_evaluate_static_site_generator_design_goals_non_goals",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
-      "source_location": "L59",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_design",
-      "target": "openspec_changes_evaluate_static_site_generator_design_migration_plan",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
-      "source_location": "L66",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_design",
-      "target": "openspec_changes_evaluate_static_site_generator_design_open_questions",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_design",
-      "target": "openspec_changes_evaluate_static_site_generator_design_resumen_de_la_correcci\u00f3n_de_rumbo",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
-      "source_location": "L52",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_design",
-      "target": "openspec_changes_evaluate_static_site_generator_design_risks_trade_offs",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_proposal",
-      "target": "openspec_changes_evaluate_static_site_generator_proposal_capabilities",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_proposal",
-      "target": "openspec_changes_evaluate_static_site_generator_proposal_impact",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_proposal",
-      "target": "openspec_changes_evaluate_static_site_generator_proposal_what_changes",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_proposal",
-      "target": "openspec_changes_evaluate_static_site_generator_proposal_why",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_proposal_capabilities",
-      "target": "openspec_changes_evaluate_static_site_generator_proposal_modified_capabilities",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_proposal_capabilities",
-      "target": "openspec_changes_evaluate_static_site_generator_proposal_new_capabilities",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec",
-      "target": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_added_requirements",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_added_requirements",
-      "target": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_el_documento_est\u00e1_enlazado_desde_el_\u00edndice_t\u00e9cnico",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_added_requirements",
-      "target": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_el_proyecto_tiene_una_recomendaci\u00f3n_documentada_sobre_generadores_est\u00e1ticos",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_added_requirements",
-      "target": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_la_recomendaci\u00f3n_define_condiciones_concretas_de_activaci\u00f3n",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_el_proyecto_tiene_una_recomendaci\u00f3n_documentada_sobre_generadores_est\u00e1ticos",
-      "target": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_scenario_alguien_eval\u00faa_si_migrar_el_stack",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_la_recomendaci\u00f3n_define_condiciones_concretas_de_activaci\u00f3n",
-      "target": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_scenario_se_eval\u00faa_si_es_momento_de_migrar",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_el_documento_est\u00e1_enlazado_desde_el_\u00edndice_t\u00e9cnico",
-      "target": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_scenario_alguien_navega_la_documentaci\u00f3n_t\u00e9cnica",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/tasks.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_tasks",
-      "target": "openspec_changes_evaluate_static_site_generator_tasks_1_escribir_el_documento_de_evaluaci\u00f3n",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/tasks.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_tasks",
-      "target": "openspec_changes_evaluate_static_site_generator_tasks_2_enlazar_desde_el_\u00edndice_de_documentaci\u00f3n",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/evaluate-static-site-generator/tasks.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "openspec_changes_evaluate_static_site_generator_tasks",
-      "target": "openspec_changes_evaluate_static_site_generator_tasks_3_deploy",
-      "confidence_score": 1.0
+      "target": "docs_tecnico_evaluacion_generador_estatico_si_p\u00e1ginas_por_lugar_arranca_primero_eleventy"
     },
     {
       "relation": "contains",
@@ -7968,5 +8138,5 @@
       "source_file": "docs/marca/arquitectura-de-marca.md"
     }
   ],
-  "built_at_commit": "c3706010271a3461faf9bfc48b126c19c8ccb654"
+  "built_at_commit": "1d07100f7db612c1d613c3195d6ea0507e031c4f"
 }
