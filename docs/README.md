@@ -31,6 +31,7 @@ Cómo está construido el sitio y cómo trabajar sobre el código.
 | [`arquitectura-del-sitio.md`](tecnico/arquitectura-del-sitio.md) | Stack, mapa de archivos, patrón `manifest.json` de galerías |
 | [`convenciones-de-codigo.md`](tecnico/convenciones-de-codigo.md) | Cómo creció `styles.css`, los dos bloques `:root`, convenciones de JS |
 | [`deploy-netlify.md`](tecnico/deploy-netlify.md) | Datos del sitio en Netlify, checklist de reconexión a Git |
+| [`metodologia-de-trabajo.md`](tecnico/metodologia-de-trabajo.md) | OpenSpec (propuesta antes de implementar) y Graphify (grafo de conocimiento del repo) |
 
 ## Pendientes (`pendientes/`)
 Estado conocido de bugs y deuda técnica — no asumir que algo funciona o que falta sin verificar primero.

@@ -38,6 +38,10 @@ Revisar [`docs/marca/`](docs/marca/) — hay una paleta y un tono de marca defin
 
 Bugs de mobile, estado de SEO/accesibilidad y funcionalidades futuras (concursos, páginas por lugar) están documentados en [`docs/pendientes/`](docs/pendientes/) y [`docs/proyecto/funcionalidades-futuras.md`](docs/proyecto/funcionalidades-futuras.md) — no asumir su estado sin verificar.
 
+## Metodología de trabajo
+
+Toda tarea nueva no trivial arranca con `/opsx:propose "<descripción>"` (OpenSpec) antes de escribir código — no implementar directo desde una idea suelta en el chat. Detalle completo, y del grafo de conocimiento del repo (Graphify, sección de abajo), en [`docs/tecnico/metodologia-de-trabajo.md`](docs/tecnico/metodologia-de-trabajo.md).
+
 ## graphify
 
 This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
