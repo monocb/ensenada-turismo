@@ -13,5 +13,5 @@ Página individual para cada punto de interés, hoy solo mencionados dentro de l
 
 ## Otras mejoras de producto planteadas
 - Video real de YouTube embebido en la sección Punta Lara (hoy sin definir).
-- Sistema de datos para eventos, concursos, notas y galerías (más allá del `manifest.json` de fotos, ver [`docs/tecnico/arquitectura-del-sitio.md`](../tecnico/arquitectura-del-sitio.md)).
+- Sistema de datos para eventos, concursos, notas y galerías (más allá del `manifest.json` de fotos, ver [`docs/tecnico/patron-galerias-manifest.md`](../tecnico/patron-galerias-manifest.md)).
 - Espacios comerciales/publicitarios para sponsors, siguiendo las reglas de [`docs/marca/sponsors-y-reglas.md`](../marca/sponsors-y-reglas.md).

@@ -20,7 +20,7 @@ npx serve .
 
 ## Mapa de carpetas
 
-`index.html` / `en-fotos/index.html` / `404.html` son las páginas. `script.js` y `styles.css` concentran todo el JS y CSS del sitio. `assets/` tiene una subcarpeta por sección (`fragata/`, `historia/`, `identidad/`, `lugares/`, `portada-home/`, `en-fotos/`). Detalle completo en [`docs/tecnico/arquitectura-del-sitio.md`](docs/tecnico/arquitectura-del-sitio.md).
+`index.html` / `en-fotos/index.html` / `404.html` son las páginas. `script.js` y `styles.css` concentran todo el JS y CSS del sitio. `assets/` tiene una subcarpeta por sección (`fragata/`, `historia/`, `identidad/`, `lugares/`, `portada-home/`, `en-fotos/`). Detalle completo en [`docs/tecnico/stack-y-mapa-de-archivos.md`](docs/tecnico/stack-y-mapa-de-archivos.md).
 
 ## Cómo agregar una foto a una galería
 
@@ -28,7 +28,7 @@ Copiar el archivo (`.webp`) a `assets/en-fotos/<categoria>/` y agregar la entrad
 
 ## Aviso sobre `styles.css`
 
-Es grande (~7.9k líneas) y creció por comentarios fechados de parches puntuales, con **dos bloques `:root` separados** (uno al inicio, otro ~línea 2062). No hay tests de regresión visual — evitar reorganizaciones amplias del archivo; seguir el mismo patrón de agregar/corregir puntualmente. Detalle en [`docs/tecnico/convenciones-de-codigo.md`](docs/tecnico/convenciones-de-codigo.md).
+Es grande (~7.9k líneas) y creció por comentarios fechados de parches puntuales, con **dos bloques `:root` separados** (uno al inicio, otro ~línea 2062). No hay tests de regresión visual — evitar reorganizaciones amplias del archivo; seguir el mismo patrón de agregar/corregir puntualmente. Detalle en [`docs/tecnico/convenciones-css.md`](docs/tecnico/convenciones-css.md).
 
 ## Antes de tocar colores o textos de marca
 
@@ -40,7 +40,7 @@ Bugs de mobile, estado de SEO/accesibilidad y funcionalidades futuras (concursos
 
 ## Metodología de trabajo
 
-Toda tarea nueva no trivial arranca con `/opsx:propose "<descripción>"` (OpenSpec) antes de escribir código — no implementar directo desde una idea suelta en el chat. Detalle completo, y del grafo de conocimiento del repo (Graphify, sección de abajo), en [`docs/tecnico/metodologia-de-trabajo.md`](docs/tecnico/metodologia-de-trabajo.md).
+Toda tarea nueva no trivial arranca con `/opsx:propose "<descripción>"` (OpenSpec) antes de escribir código — no implementar directo desde una idea suelta en el chat. Detalle completo en [`docs/tecnico/metodologia-openspec.md`](docs/tecnico/metodologia-openspec.md), y del grafo de conocimiento del repo (Graphify, sección de abajo) en [`docs/tecnico/metodologia-graphify.md`](docs/tecnico/metodologia-graphify.md).
 
 ## graphify
 

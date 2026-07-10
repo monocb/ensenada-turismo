@@ -17,4 +17,4 @@ No es solo turismo en sentido clásico: combina turismo, memoria, pertenencia, o
 
 ## Alcance actual vs. proyectado
 
-El alcance funcional actual es el de una plataforma estática/landing editorial (ver [`docs/tecnico/arquitectura-del-sitio.md`](../tecnico/arquitectura-del-sitio.md)). El alcance proyectado agrega: recorridos y puntos de interés, galerías fotográficas, video, historia local, eventos, concursos participativos, espacios comerciales/publicitarios — ver detalle en [`funcionalidades-futuras.md`](funcionalidades-futuras.md).
+El alcance funcional actual es el de una plataforma estática/landing editorial (ver [`docs/tecnico/stack-y-mapa-de-archivos.md`](../tecnico/stack-y-mapa-de-archivos.md)). El alcance proyectado agrega: recorridos y puntos de interés, galerías fotográficas, video, historia local, eventos, concursos participativos, espacios comerciales/publicitarios — ver detalle en [`funcionalidades-futuras.md`](funcionalidades-futuras.md).

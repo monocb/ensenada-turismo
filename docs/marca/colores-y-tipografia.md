@@ -1,6 +1,6 @@
 # Colores y tipografía
 
-Paleta oficial de marca (Manual Interno de Marca v1.0). **Nota**: esta paleta es la referencia de diseño de marca; no implica que el CSS actual del sitio (`styles.css`) ya la use — antes de aplicarla a componentes existentes, comparar contra las variables reales en los dos bloques `:root` (ver [`docs/tecnico/convenciones-de-codigo.md`](../tecnico/convenciones-de-codigo.md)).
+Paleta oficial de marca (Manual Interno de Marca v1.0). **Nota**: esta paleta es la referencia de diseño de marca; no implica que el CSS actual del sitio (`styles.css`) ya la use — antes de aplicarla a componentes existentes, comparar contra las variables reales en los dos bloques `:root` (ver [`docs/tecnico/convenciones-css.md`](../tecnico/convenciones-css.md)).
 
 | Uso              | Color   | Hex       |
 |------------------|---------|-----------|
