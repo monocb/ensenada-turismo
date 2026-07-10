@@ -105,8 +105,8 @@
     "semantic_hash": "be9b86dbb0782a6772ae4d6d3a0ccd2b"
   },
   "docs/proyecto/funcionalidades-futuras.md": {
-    "mtime": 1783659963.5895228,
-    "ast_hash": "653b7f39c01a0e0cd0a1cf639faecd3c",
+    "mtime": 1783699223.4469354,
+    "ast_hash": "7c04dcaadf7621fb3ebc5355f56cdc5f",
     "semantic_hash": ""
   },
   "docs/proyecto/mision-y-objetivos.md": {
@@ -240,8 +240,8 @@
     "semantic_hash": ""
   },
   "docs/tecnico/README.md": {
-    "mtime": 1783659922.6200876,
-    "ast_hash": "8ac971b138a048416ae72fef4d8c62ee",
+    "mtime": 1783699212.43649,
+    "ast_hash": "1dda80f28bf2f0913477e2a2a34c2b18",
     "semantic_hash": ""
   },
   "docs/tecnico/convenciones-css.md": {
@@ -362,6 +362,36 @@
   "openspec/specs/mobile-hero-layout/spec.md": {
     "mtime": 1783696826.2354815,
     "ast_hash": "49eb615a36057ccdbb48cbf356b52f69",
+    "semantic_hash": ""
+  },
+  "docs/tecnico/evaluacion-generador-estatico.md": {
+    "mtime": 1783699190.2389562,
+    "ast_hash": "78c61fe3bda46ddfd52b4a712bf94705",
+    "semantic_hash": ""
+  },
+  "openspec/changes/evaluate-static-site-generator/.openspec.yaml": {
+    "mtime": 1783697374.3729544,
+    "ast_hash": "a4980ad0f497704c46cfa140cda4a1fd",
+    "semantic_hash": ""
+  },
+  "openspec/changes/evaluate-static-site-generator/design.md": {
+    "mtime": 1783698194.829985,
+    "ast_hash": "52a61495e996fcdc7ca319fdbb8fe1cc",
+    "semantic_hash": ""
+  },
+  "openspec/changes/evaluate-static-site-generator/proposal.md": {
+    "mtime": 1783697460.3285658,
+    "ast_hash": "db87e8743ff79fa54611926b1ce61cdb",
+    "semantic_hash": ""
+  },
+  "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md": {
+    "mtime": 1783697521.6114192,
+    "ast_hash": "88b23998e37552da9d61317080071a30",
+    "semantic_hash": ""
+  },
+  "openspec/changes/evaluate-static-site-generator/tasks.md": {
+    "mtime": 1783699232.3795395,
+    "ast_hash": "281ac3bc92bd94f680a95163bcc4a8af",
     "semantic_hash": ""
   }
 }

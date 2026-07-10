@@ -70,14 +70,484 @@
   },
   "nodes": [
     {
+      "label": "funcionalidades-futuras.md",
+      "file_type": "document",
+      "source_file": "docs/proyecto/funcionalidades-futuras.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_proyecto_funcionalidades_futuras",
+      "community": 5,
+      "norm_label": "funcionalidades-futuras.md"
+    },
+    {
+      "label": "Funcionalidades futuras",
+      "file_type": "document",
+      "source_file": "docs/proyecto/funcionalidades-futuras.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
+      "community": 5,
+      "norm_label": "funcionalidades futuras"
+    },
+    {
+      "label": "Concurso fotogr\u00e1fico",
+      "file_type": "document",
+      "source_file": "docs/proyecto/funcionalidades-futuras.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_proyecto_funcionalidades_futuras_concurso_fotogr\u00e1fico",
+      "community": 5,
+      "norm_label": "concurso fotografico"
+    },
+    {
+      "label": "Concurso de microrelatos \"Historias de Ensenada\"",
+      "file_type": "document",
+      "source_file": "docs/proyecto/funcionalidades-futuras.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "docs_proyecto_funcionalidades_futuras_concurso_de_microrelatos_historias_de_ensenada",
+      "community": 5,
+      "norm_label": "concurso de microrelatos \"historias de ensenada\""
+    },
+    {
+      "label": "P\u00e1ginas por lugar",
+      "file_type": "document",
+      "source_file": "docs/proyecto/funcionalidades-futuras.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "docs_proyecto_funcionalidades_futuras_p\u00e1ginas_por_lugar",
+      "community": 5,
+      "norm_label": "paginas por lugar"
+    },
+    {
+      "label": "Otras mejoras de producto planteadas",
+      "file_type": "document",
+      "source_file": "docs/proyecto/funcionalidades-futuras.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "docs_proyecto_funcionalidades_futuras_otras_mejoras_de_producto_planteadas",
+      "community": 5,
+      "norm_label": "otras mejoras de producto planteadas"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "docs/tecnico/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_tecnico_readme",
+      "community": 27,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "T\u00e9cnico",
+      "file_type": "document",
+      "source_file": "docs/tecnico/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_tecnico_readme_t\u00e9cnico",
+      "community": 27,
+      "norm_label": "tecnico"
+    },
+    {
+      "label": "evaluacion-generador-estatico.md",
+      "file_type": "document",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_tecnico_evaluacion_generador_estatico",
+      "community": 27,
+      "norm_label": "evaluacion-generador-estatico.md"
+    },
+    {
+      "label": "Evaluaci\u00f3n: \u00bfconviene un generador est\u00e1tico?",
+      "file_type": "document",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_tecnico_evaluacion_generador_estatico_evaluaci\u00f3n_conviene_un_generador_est\u00e1tico",
+      "community": 27,
+      "norm_label": "evaluacion: \u00bfconviene un generador estatico?"
+    },
+    {
+      "label": "Por qu\u00e9 esta evaluaci\u00f3n",
+      "file_type": "document",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_tecnico_evaluacion_generador_estatico_por_qu\u00e9_esta_evaluaci\u00f3n",
+      "community": 27,
+      "norm_label": "por que esta evaluacion"
+    },
+    {
+      "label": "Comparaci\u00f3n (fuentes oficiales)",
+      "file_type": "document",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "docs_tecnico_evaluacion_generador_estatico_comparaci\u00f3n_fuentes_oficiales",
+      "community": 27,
+      "norm_label": "comparacion (fuentes oficiales)"
+    },
+    {
+      "label": "Recomendaci\u00f3n",
+      "file_type": "document",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "docs_tecnico_evaluacion_generador_estatico_recomendaci\u00f3n",
+      "community": 27,
+      "norm_label": "recomendacion"
+    },
+    {
+      "label": "Si \"p\u00e1ginas por lugar\" arranca primero \u2192 Eleventy",
+      "file_type": "document",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "docs_tecnico_evaluacion_generador_estatico_si_p\u00e1ginas_por_lugar_arranca_primero_eleventy",
+      "community": 27,
+      "norm_label": "si \"paginas por lugar\" arranca primero \u2192 eleventy"
+    },
+    {
+      "label": "Si el sistema de datos de concursos arranca primero \u2192 reconsiderar Astro Content Collections",
+      "file_type": "document",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "docs_tecnico_evaluacion_generador_estatico_si_el_sistema_de_datos_de_concursos_arranca_primero_reconsiderar_astro_content_collections",
+      "community": 27,
+      "norm_label": "si el sistema de datos de concursos arranca primero \u2192 reconsiderar astro content collections"
+    },
+    {
+      "label": "Si ambos triggers terminan conviviendo",
+      "file_type": "document",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "docs_tecnico_evaluacion_generador_estatico_si_ambos_triggers_terminan_conviviendo",
+      "community": 27,
+      "norm_label": "si ambos triggers terminan conviviendo"
+    },
+    {
+      "label": "Para el sistema de concursos (independiente del generador elegido)",
+      "file_type": "document",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "docs_tecnico_evaluacion_generador_estatico_para_el_sistema_de_concursos_independiente_del_generador_elegido",
+      "community": 27,
+      "norm_label": "para el sistema de concursos (independiente del generador elegido)"
+    },
+    {
+      "label": "Antes de comprometerse: un spike acotado",
+      "file_type": "document",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "docs_tecnico_evaluacion_generador_estatico_antes_de_comprometerse_un_spike_acotado",
+      "community": 27,
+      "norm_label": "antes de comprometerse: un spike acotado"
+    },
+    {
+      "label": "Qu\u00e9 NO hacer",
+      "file_type": "document",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "docs_tecnico_evaluacion_generador_estatico_qu\u00e9_no_hacer",
+      "community": 27,
+      "norm_label": "que no hacer"
+    },
+    {
+      "label": "Alternativas descartadas",
+      "file_type": "document",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "docs_tecnico_evaluacion_generador_estatico_alternativas_descartadas",
+      "community": 27,
+      "norm_label": "alternativas descartadas"
+    },
+    {
+      "label": "design.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_design",
+      "community": 28,
+      "norm_label": "design.md"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_design_context",
+      "community": 28,
+      "norm_label": "context"
+    },
+    {
+      "label": "Resumen de la correcci\u00f3n de rumbo",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_design_resumen_de_la_correcci\u00f3n_de_rumbo",
+      "community": 28,
+      "norm_label": "resumen de la correccion de rumbo"
+    },
+    {
+      "label": "Goals / Non-Goals",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_design_goals_non_goals",
+      "community": 28,
+      "norm_label": "goals / non-goals"
+    },
+    {
+      "label": "Decisions",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_design_decisions",
+      "community": 28,
+      "norm_label": "decisions"
+    },
+    {
+      "label": "Risks / Trade-offs",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_design_risks_trade_offs",
+      "community": 28,
+      "norm_label": "risks / trade-offs"
+    },
+    {
+      "label": "Migration Plan",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_design_migration_plan",
+      "community": 28,
+      "norm_label": "migration plan"
+    },
+    {
+      "label": "Open Questions",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_design_open_questions",
+      "community": 28,
+      "norm_label": "open questions"
+    },
+    {
+      "label": "proposal.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_proposal",
+      "community": 30,
+      "norm_label": "proposal.md"
+    },
+    {
+      "label": "Why",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_proposal_why",
+      "community": 30,
+      "norm_label": "why"
+    },
+    {
+      "label": "What Changes",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_proposal_what_changes",
+      "community": 30,
+      "norm_label": "what changes"
+    },
+    {
+      "label": "Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_proposal_capabilities",
+      "community": 30,
+      "norm_label": "capabilities"
+    },
+    {
+      "label": "New Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_proposal_new_capabilities",
+      "community": 30,
+      "norm_label": "new capabilities"
+    },
+    {
+      "label": "Modified Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_proposal_modified_capabilities",
+      "community": 30,
+      "norm_label": "modified capabilities"
+    },
+    {
+      "label": "Impact",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_proposal_impact",
+      "community": 30,
+      "norm_label": "impact"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec",
+      "community": 29,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "ADDED Requirements",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_added_requirements",
+      "community": 29,
+      "norm_label": "added requirements"
+    },
+    {
+      "label": "Requirement: El proyecto tiene una recomendaci\u00f3n documentada sobre generadores est\u00e1ticos",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_el_proyecto_tiene_una_recomendaci\u00f3n_documentada_sobre_generadores_est\u00e1ticos",
+      "community": 29,
+      "norm_label": "requirement: el proyecto tiene una recomendacion documentada sobre generadores estaticos"
+    },
+    {
+      "label": "Scenario: Alguien eval\u00faa si migrar el stack",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_scenario_alguien_eval\u00faa_si_migrar_el_stack",
+      "community": 29,
+      "norm_label": "scenario: alguien evalua si migrar el stack"
+    },
+    {
+      "label": "Requirement: La recomendaci\u00f3n define condiciones concretas de activaci\u00f3n",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_la_recomendaci\u00f3n_define_condiciones_concretas_de_activaci\u00f3n",
+      "community": 29,
+      "norm_label": "requirement: la recomendacion define condiciones concretas de activacion"
+    },
+    {
+      "label": "Scenario: Se eval\u00faa si es momento de migrar",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_scenario_se_eval\u00faa_si_es_momento_de_migrar",
+      "community": 29,
+      "norm_label": "scenario: se evalua si es momento de migrar"
+    },
+    {
+      "label": "Requirement: El documento est\u00e1 enlazado desde el \u00edndice t\u00e9cnico",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_el_documento_est\u00e1_enlazado_desde_el_\u00edndice_t\u00e9cnico",
+      "community": 29,
+      "norm_label": "requirement: el documento esta enlazado desde el indice tecnico"
+    },
+    {
+      "label": "Scenario: Alguien navega la documentaci\u00f3n t\u00e9cnica",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_scenario_alguien_navega_la_documentaci\u00f3n_t\u00e9cnica",
+      "community": 29,
+      "norm_label": "scenario: alguien navega la documentacion tecnica"
+    },
+    {
+      "label": "tasks.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_tasks",
+      "community": 31,
+      "norm_label": "tasks.md"
+    },
+    {
+      "label": "1. Escribir el documento de evaluaci\u00f3n",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_tasks_1_escribir_el_documento_de_evaluaci\u00f3n",
+      "community": 31,
+      "norm_label": "1. escribir el documento de evaluacion"
+    },
+    {
+      "label": "2. Enlazar desde el \u00edndice de documentaci\u00f3n",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/tasks.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_tasks_2_enlazar_desde_el_\u00edndice_de_documentaci\u00f3n",
+      "community": 31,
+      "norm_label": "2. enlazar desde el indice de documentacion"
+    },
+    {
+      "label": "3. Deploy",
+      "file_type": "document",
+      "source_file": "openspec/changes/evaluate-static-site-generator/tasks.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "openspec_changes_evaluate_static_site_generator_tasks_3_deploy",
+      "community": 31,
+      "norm_label": "3. deploy"
+    },
+    {
       "label": "design.md",
       "file_type": "document",
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/design.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design",
       "community": 24,
-      "norm_label": "design.md"
+      "norm_label": "design.md",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design"
     },
     {
       "label": "Context",
@@ -85,9 +555,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/design.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_context",
       "community": 24,
-      "norm_label": "context"
+      "norm_label": "context",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_context"
     },
     {
       "label": "Goals / Non-Goals",
@@ -95,9 +565,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/design.md",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_goals_non_goals",
       "community": 24,
-      "norm_label": "goals / non-goals"
+      "norm_label": "goals / non-goals",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_goals_non_goals"
     },
     {
       "label": "Decisions",
@@ -105,9 +575,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/design.md",
       "source_location": "L29",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_decisions",
       "community": 24,
-      "norm_label": "decisions"
+      "norm_label": "decisions",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_decisions"
     },
     {
       "label": "Risks / Trade-offs",
@@ -115,9 +585,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/design.md",
       "source_location": "L42",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_risks_trade_offs",
       "community": 24,
-      "norm_label": "risks / trade-offs"
+      "norm_label": "risks / trade-offs",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_risks_trade_offs"
     },
     {
       "label": "Migration Plan",
@@ -125,9 +595,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/design.md",
       "source_location": "L48",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_migration_plan",
       "community": 24,
-      "norm_label": "migration plan"
+      "norm_label": "migration plan",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_migration_plan"
     },
     {
       "label": "Open Questions",
@@ -135,9 +605,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/design.md",
       "source_location": "L57",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_open_questions",
       "community": 24,
-      "norm_label": "open questions"
+      "norm_label": "open questions",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_open_questions"
     },
     {
       "label": "proposal.md",
@@ -145,9 +615,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/proposal.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal",
       "community": 25,
-      "norm_label": "proposal.md"
+      "norm_label": "proposal.md",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal"
     },
     {
       "label": "Why",
@@ -155,9 +625,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/proposal.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_why",
       "community": 25,
-      "norm_label": "why"
+      "norm_label": "why",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_why"
     },
     {
       "label": "What Changes",
@@ -165,9 +635,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/proposal.md",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_what_changes",
       "community": 25,
-      "norm_label": "what changes"
+      "norm_label": "what changes",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_what_changes"
     },
     {
       "label": "Capabilities",
@@ -175,9 +645,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/proposal.md",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_capabilities",
       "community": 25,
-      "norm_label": "capabilities"
+      "norm_label": "capabilities",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_capabilities"
     },
     {
       "label": "New Capabilities",
@@ -185,9 +655,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/proposal.md",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_new_capabilities",
       "community": 25,
-      "norm_label": "new capabilities"
+      "norm_label": "new capabilities",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_new_capabilities"
     },
     {
       "label": "Modified Capabilities",
@@ -195,9 +665,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/proposal.md",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_modified_capabilities",
       "community": 25,
-      "norm_label": "modified capabilities"
+      "norm_label": "modified capabilities",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_modified_capabilities"
     },
     {
       "label": "Impact",
@@ -205,9 +675,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/proposal.md",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_impact",
       "community": 25,
-      "norm_label": "impact"
+      "norm_label": "impact",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_impact"
     },
     {
       "label": "spec.md",
@@ -215,9 +685,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec",
       "community": 13,
-      "norm_label": "spec.md"
+      "norm_label": "spec.md",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec"
     },
     {
       "label": "ADDED Requirements",
@@ -225,9 +695,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_added_requirements",
       "community": 13,
-      "norm_label": "added requirements"
+      "norm_label": "added requirements",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_added_requirements"
     },
     {
       "label": "Requirement: El t\u00edtulo del hero no se recorta en viewports mobile",
@@ -235,9 +705,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_requirement_el_t\u00edtulo_del_hero_no_se_recorta_en_viewports_mobile",
       "community": 13,
-      "norm_label": "requirement: el titulo del hero no se recorta en viewports mobile"
+      "norm_label": "requirement: el titulo del hero no se recorta en viewports mobile",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_requirement_el_t\u00edtulo_del_hero_no_se_recorta_en_viewports_mobile"
     },
     {
       "label": "Scenario: Viewport de tel\u00e9fono angosto (320px)",
@@ -245,9 +715,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_scenario_viewport_de_tel\u00e9fono_angosto_320px",
       "community": 13,
-      "norm_label": "scenario: viewport de telefono angosto (320px)"
+      "norm_label": "scenario: viewport de telefono angosto (320px)",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_scenario_viewport_de_tel\u00e9fono_angosto_320px"
     },
     {
       "label": "Scenario: Viewport de tel\u00e9fono t\u00edpico (375-430px)",
@@ -255,9 +725,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_scenario_viewport_de_tel\u00e9fono_t\u00edpico_375_430px",
       "community": 13,
-      "norm_label": "scenario: viewport de telefono tipico (375-430px)"
+      "norm_label": "scenario: viewport de telefono tipico (375-430px)",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_scenario_viewport_de_tel\u00e9fono_t\u00edpico_375_430px"
     },
     {
       "label": "Requirement: El men\u00fa mobile es funcional y usa un \u00edcono de tres l\u00edneas",
@@ -265,9 +735,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_requirement_el_men\u00fa_mobile_es_funcional_y_usa_un_\u00edcono_de_tres_l\u00edneas",
       "community": 13,
-      "norm_label": "requirement: el menu mobile es funcional y usa un icono de tres lineas"
+      "norm_label": "requirement: el menu mobile es funcional y usa un icono de tres lineas",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_requirement_el_men\u00fa_mobile_es_funcional_y_usa_un_\u00edcono_de_tres_l\u00edneas"
     },
     {
       "label": "Scenario: Abrir el men\u00fa mobile",
@@ -275,9 +745,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_scenario_abrir_el_men\u00fa_mobile",
       "community": 13,
-      "norm_label": "scenario: abrir el menu mobile"
+      "norm_label": "scenario: abrir el menu mobile",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_scenario_abrir_el_men\u00fa_mobile"
     },
     {
       "label": "Requirement: La secci\u00f3n Cultura muestra sus fotos correctamente",
@@ -285,9 +755,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_requirement_la_secci\u00f3n_cultura_muestra_sus_fotos_correctamente",
       "community": 13,
-      "norm_label": "requirement: la seccion cultura muestra sus fotos correctamente"
+      "norm_label": "requirement: la seccion cultura muestra sus fotos correctamente",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_requirement_la_secci\u00f3n_cultura_muestra_sus_fotos_correctamente"
     },
     {
       "label": "Scenario: Navegar el carrusel de Cultura",
@@ -295,9 +765,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_scenario_navegar_el_carrusel_de_cultura",
       "community": 13,
-      "norm_label": "scenario: navegar el carrusel de cultura"
+      "norm_label": "scenario: navegar el carrusel de cultura",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_scenario_navegar_el_carrusel_de_cultura"
     },
     {
       "label": "tasks.md",
@@ -305,9 +775,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/tasks.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_tasks",
       "community": 26,
-      "norm_label": "tasks.md"
+      "norm_label": "tasks.md",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_tasks"
     },
     {
       "label": "1. Corregir el bug confirmado (hero h1 recortado)",
@@ -315,9 +785,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/tasks.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_tasks_1_corregir_el_bug_confirmado_hero_h1_recortado",
       "community": 26,
-      "norm_label": "1. corregir el bug confirmado (hero h1 recortado)"
+      "norm_label": "1. corregir el bug confirmado (hero h1 recortado)",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_tasks_1_corregir_el_bug_confirmado_hero_h1_recortado"
     },
     {
       "label": "2. Actualizar documentaci\u00f3n de los 4 bugs con el estado verificado",
@@ -325,9 +795,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/tasks.md",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_tasks_2_actualizar_documentaci\u00f3n_de_los_4_bugs_con_el_estado_verificado",
       "community": 26,
-      "norm_label": "2. actualizar documentacion de los 4 bugs con el estado verificado"
+      "norm_label": "2. actualizar documentacion de los 4 bugs con el estado verificado",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_tasks_2_actualizar_documentaci\u00f3n_de_los_4_bugs_con_el_estado_verificado"
     },
     {
       "label": "3. Deploy y validaci\u00f3n en producci\u00f3n",
@@ -335,9 +805,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/tasks.md",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_tasks_3_deploy_y_validaci\u00f3n_en_producci\u00f3n",
       "community": 26,
-      "norm_label": "3. deploy y validacion en produccion"
+      "norm_label": "3. deploy y validacion en produccion",
+      "id": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_tasks_3_deploy_y_validaci\u00f3n_en_producci\u00f3n"
     },
     {
       "label": "spec.md",
@@ -345,9 +815,9 @@
       "source_file": "openspec/specs/mobile-hero-layout/spec.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_specs_mobile_hero_layout_spec",
       "community": 8,
-      "norm_label": "spec.md"
+      "norm_label": "spec.md",
+      "id": "openspec_specs_mobile_hero_layout_spec"
     },
     {
       "label": "Purpose",
@@ -355,9 +825,9 @@
       "source_file": "openspec/specs/mobile-hero-layout/spec.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_specs_mobile_hero_layout_spec_purpose",
       "community": 8,
-      "norm_label": "purpose"
+      "norm_label": "purpose",
+      "id": "openspec_specs_mobile_hero_layout_spec_purpose"
     },
     {
       "label": "Requirements",
@@ -365,9 +835,9 @@
       "source_file": "openspec/specs/mobile-hero-layout/spec.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "openspec_specs_mobile_hero_layout_spec_requirements",
       "community": 8,
-      "norm_label": "requirements"
+      "norm_label": "requirements",
+      "id": "openspec_specs_mobile_hero_layout_spec_requirements"
     },
     {
       "label": "Requirement: El t\u00edtulo del hero no se recorta en viewports mobile",
@@ -375,9 +845,9 @@
       "source_file": "openspec/specs/mobile-hero-layout/spec.md",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "openspec_specs_mobile_hero_layout_spec_requirement_el_t\u00edtulo_del_hero_no_se_recorta_en_viewports_mobile",
       "community": 8,
-      "norm_label": "requirement: el titulo del hero no se recorta en viewports mobile"
+      "norm_label": "requirement: el titulo del hero no se recorta en viewports mobile",
+      "id": "openspec_specs_mobile_hero_layout_spec_requirement_el_t\u00edtulo_del_hero_no_se_recorta_en_viewports_mobile"
     },
     {
       "label": "Scenario: Viewport de tel\u00e9fono angosto (320px)",
@@ -385,9 +855,9 @@
       "source_file": "openspec/specs/mobile-hero-layout/spec.md",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "openspec_specs_mobile_hero_layout_spec_scenario_viewport_de_tel\u00e9fono_angosto_320px",
       "community": 8,
-      "norm_label": "scenario: viewport de telefono angosto (320px)"
+      "norm_label": "scenario: viewport de telefono angosto (320px)",
+      "id": "openspec_specs_mobile_hero_layout_spec_scenario_viewport_de_tel\u00e9fono_angosto_320px"
     },
     {
       "label": "Scenario: Viewport de tel\u00e9fono t\u00edpico (375-430px)",
@@ -395,9 +865,9 @@
       "source_file": "openspec/specs/mobile-hero-layout/spec.md",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "openspec_specs_mobile_hero_layout_spec_scenario_viewport_de_tel\u00e9fono_t\u00edpico_375_430px",
       "community": 8,
-      "norm_label": "scenario: viewport de telefono tipico (375-430px)"
+      "norm_label": "scenario: viewport de telefono tipico (375-430px)",
+      "id": "openspec_specs_mobile_hero_layout_spec_scenario_viewport_de_tel\u00e9fono_t\u00edpico_375_430px"
     },
     {
       "label": "Requirement: El men\u00fa mobile es funcional y usa un \u00edcono de tres l\u00edneas",
@@ -405,9 +875,9 @@
       "source_file": "openspec/specs/mobile-hero-layout/spec.md",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "openspec_specs_mobile_hero_layout_spec_requirement_el_men\u00fa_mobile_es_funcional_y_usa_un_\u00edcono_de_tres_l\u00edneas",
       "community": 8,
-      "norm_label": "requirement: el menu mobile es funcional y usa un icono de tres lineas"
+      "norm_label": "requirement: el menu mobile es funcional y usa un icono de tres lineas",
+      "id": "openspec_specs_mobile_hero_layout_spec_requirement_el_men\u00fa_mobile_es_funcional_y_usa_un_\u00edcono_de_tres_l\u00edneas"
     },
     {
       "label": "Scenario: Abrir el men\u00fa mobile",
@@ -415,9 +885,9 @@
       "source_file": "openspec/specs/mobile-hero-layout/spec.md",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "openspec_specs_mobile_hero_layout_spec_scenario_abrir_el_men\u00fa_mobile",
       "community": 8,
-      "norm_label": "scenario: abrir el menu mobile"
+      "norm_label": "scenario: abrir el menu mobile",
+      "id": "openspec_specs_mobile_hero_layout_spec_scenario_abrir_el_men\u00fa_mobile"
     },
     {
       "label": "Requirement: La secci\u00f3n Cultura muestra sus fotos correctamente",
@@ -425,9 +895,9 @@
       "source_file": "openspec/specs/mobile-hero-layout/spec.md",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "openspec_specs_mobile_hero_layout_spec_requirement_la_secci\u00f3n_cultura_muestra_sus_fotos_correctamente",
       "community": 8,
-      "norm_label": "requirement: la seccion cultura muestra sus fotos correctamente"
+      "norm_label": "requirement: la seccion cultura muestra sus fotos correctamente",
+      "id": "openspec_specs_mobile_hero_layout_spec_requirement_la_secci\u00f3n_cultura_muestra_sus_fotos_correctamente"
     },
     {
       "label": "Scenario: Navegar el carrusel de Cultura",
@@ -435,9 +905,9 @@
       "source_file": "openspec/specs/mobile-hero-layout/spec.md",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "openspec_specs_mobile_hero_layout_spec_scenario_navegar_el_carrusel_de_cultura",
       "community": 8,
-      "norm_label": "scenario: navegar el carrusel de cultura"
+      "norm_label": "scenario: navegar el carrusel de cultura",
+      "id": "openspec_specs_mobile_hero_layout_spec_scenario_navegar_el_carrusel_de_cultura"
     },
     {
       "label": "bug-menu-hamburguesa.md",
@@ -1905,7 +2375,7 @@
       "source_file": "docs/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
+      "community": 27,
       "norm_label": "readme.md",
       "id": "docs_readme"
     },
@@ -1915,7 +2385,7 @@
       "source_file": "docs/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
+      "community": 27,
       "norm_label": "indice de documentacion \u2014 turismo ensenada",
       "id": "docs_readme_\u00edndice_de_documentaci\u00f3n_turismo_ensenada"
     },
@@ -2200,66 +2670,6 @@
       "id": "docs_proyecto_contenido_home_ver_tambi\u00e9n"
     },
     {
-      "label": "funcionalidades-futuras.md",
-      "file_type": "document",
-      "source_file": "docs/proyecto/funcionalidades-futuras.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "funcionalidades-futuras.md",
-      "id": "docs_proyecto_funcionalidades_futuras"
-    },
-    {
-      "label": "Funcionalidades futuras",
-      "file_type": "document",
-      "source_file": "docs/proyecto/funcionalidades-futuras.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "funcionalidades futuras",
-      "id": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras"
-    },
-    {
-      "label": "Concurso fotogr\u00e1fico",
-      "file_type": "document",
-      "source_file": "docs/proyecto/funcionalidades-futuras.md",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "concurso fotografico",
-      "id": "docs_proyecto_funcionalidades_futuras_concurso_fotogr\u00e1fico"
-    },
-    {
-      "label": "Concurso de microrelatos \"Historias de Ensenada\"",
-      "file_type": "document",
-      "source_file": "docs/proyecto/funcionalidades-futuras.md",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "concurso de microrelatos \"historias de ensenada\"",
-      "id": "docs_proyecto_funcionalidades_futuras_concurso_de_microrelatos_historias_de_ensenada"
-    },
-    {
-      "label": "P\u00e1ginas por lugar",
-      "file_type": "document",
-      "source_file": "docs/proyecto/funcionalidades-futuras.md",
-      "source_location": "L11",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "paginas por lugar",
-      "id": "docs_proyecto_funcionalidades_futuras_p\u00e1ginas_por_lugar"
-    },
-    {
-      "label": "Otras mejoras de producto planteadas",
-      "file_type": "document",
-      "source_file": "docs/proyecto/funcionalidades-futuras.md",
-      "source_location": "L14",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "otras mejoras de producto planteadas",
-      "id": "docs_proyecto_funcionalidades_futuras_otras_mejoras_de_producto_planteadas"
-    },
-    {
       "label": "historial-migracion.md",
       "file_type": "document",
       "source_file": "docs/proyecto/historial-migracion.md",
@@ -2415,7 +2825,7 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 12,
       "norm_label": "mision-y-objetivos.md",
       "id": "docs_proyecto_mision_y_objetivos"
     },
@@ -2425,7 +2835,7 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 12,
       "norm_label": "mision y objetivos",
       "id": "docs_proyecto_mision_y_objetivos_misi\u00f3n_y_objetivos"
     },
@@ -2435,7 +2845,7 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 5,
+      "community": 12,
       "norm_label": "que es",
       "id": "docs_proyecto_mision_y_objetivos_qu\u00e9_es"
     },
@@ -2445,7 +2855,7 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 5,
+      "community": 12,
       "norm_label": "objetivos",
       "id": "docs_proyecto_mision_y_objetivos_objetivos"
     },
@@ -2455,29 +2865,9 @@
       "source_file": "docs/proyecto/mision-y-objetivos.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 5,
+      "community": 12,
       "norm_label": "alcance actual vs. proyectado",
       "id": "docs_proyecto_mision_y_objetivos_alcance_actual_vs_proyectado"
-    },
-    {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "docs/tecnico/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "readme.md",
-      "id": "docs_tecnico_readme"
-    },
-    {
-      "label": "T\u00e9cnico",
-      "file_type": "document",
-      "source_file": "docs/tecnico/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 12,
-      "norm_label": "tecnico",
-      "id": "docs_tecnico_readme_t\u00e9cnico"
     },
     {
       "label": "convenciones-css.md",
@@ -2485,7 +2875,7 @@
       "source_file": "docs/tecnico/convenciones-css.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": "convenciones-css.md",
       "id": "docs_tecnico_convenciones_css"
     },
@@ -2495,7 +2885,7 @@
       "source_file": "docs/tecnico/convenciones-css.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": "convenciones de css",
       "id": "docs_tecnico_convenciones_css_convenciones_de_css"
     },
@@ -2505,7 +2895,7 @@
       "source_file": "docs/tecnico/convenciones-css.md",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 12,
+      "community": 4,
       "norm_label": "`styles.css` crecio por parches, no por diseno de arquitectura",
       "id": "docs_tecnico_convenciones_css_styles_css_creci\u00f3_por_parches_no_por_dise\u00f1o_de_arquitectura"
     },
@@ -2515,7 +2905,7 @@
       "source_file": "docs/tecnico/convenciones-js.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
+      "community": 32,
       "norm_label": "convenciones-js.md",
       "id": "docs_tecnico_convenciones_js"
     },
@@ -2525,7 +2915,7 @@
       "source_file": "docs/tecnico/convenciones-js.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
+      "community": 32,
       "norm_label": "convenciones de js",
       "id": "docs_tecnico_convenciones_js_convenciones_de_js"
     },
@@ -2625,7 +3015,7 @@
       "source_file": "docs/tecnico/patron-galerias-manifest.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
+      "community": 5,
       "norm_label": "patron-galerias-manifest.md",
       "id": "docs_tecnico_patron_galerias_manifest"
     },
@@ -2635,7 +3025,7 @@
       "source_file": "docs/tecnico/patron-galerias-manifest.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
+      "community": 5,
       "norm_label": "patron de galeria: `assets/en-fotos/manifest.json`",
       "id": "docs_tecnico_patron_galerias_manifest_patr\u00f3n_de_galer\u00eda_assets_en_fotos_manifest_json"
     },
@@ -2645,7 +3035,7 @@
       "source_file": "docs/tecnico/patron-galerias-manifest.md",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 12,
+      "community": 5,
       "norm_label": "caso de uso: agregar una foto nueva a una galeria",
       "id": "docs_tecnico_patron_galerias_manifest_caso_de_uso_agregar_una_foto_nueva_a_una_galer\u00eda"
     },
@@ -2848,7 +3238,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 7,
       "norm_label": "openspec project config (openspec/config.yaml)",
       "id": "openspec_config_openspec_config"
     },
@@ -3383,14 +3773,544 @@
   ],
   "links": [
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude",
+      "target": "docs_proyecto_funcionalidades_futuras"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/marca/arquitectura-de-marca.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "docs_marca_arquitectura_de_marca",
+      "target": "docs_proyecto_funcionalidades_futuras"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/marca/sponsors-y-reglas.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "docs_marca_sponsors_y_reglas",
+      "target": "docs_proyecto_funcionalidades_futuras"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pendientes/seguridad.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_pendientes_seguridad",
+      "target": "docs_proyecto_funcionalidades_futuras"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/pendientes/seo.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_pendientes_seo",
+      "target": "docs_proyecto_funcionalidades_futuras"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/proyecto/funcionalidades-futuras.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_proyecto_funcionalidades_futuras",
+      "target": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/proyecto/funcionalidades-futuras.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "docs_proyecto_funcionalidades_futuras",
+      "target": "docs_tecnico_evaluacion_generador_estatico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/proyecto/localidad-el-dique.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_proyecto_localidad_el_dique",
+      "target": "docs_proyecto_funcionalidades_futuras"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/proyecto/localidad-ensenada-centro.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_proyecto_localidad_ensenada_centro",
+      "target": "docs_proyecto_funcionalidades_futuras"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/proyecto/localidad-punta-lara.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_proyecto_localidad_punta_lara",
+      "target": "docs_proyecto_funcionalidades_futuras"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/proyecto/mision-y-objetivos.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_proyecto_mision_y_objetivos",
+      "target": "docs_proyecto_funcionalidades_futuras"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/proyecto/README.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_proyecto_readme",
+      "target": "docs_proyecto_funcionalidades_futuras"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/proyecto/funcionalidades-futuras.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
+      "target": "docs_proyecto_funcionalidades_futuras_concurso_de_microrelatos_historias_de_ensenada",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/proyecto/funcionalidades-futuras.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
+      "target": "docs_proyecto_funcionalidades_futuras_concurso_fotogr\u00e1fico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/proyecto/funcionalidades-futuras.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
+      "target": "docs_proyecto_funcionalidades_futuras_otras_mejoras_de_producto_planteadas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/proyecto/funcionalidades-futuras.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
+      "target": "docs_proyecto_funcionalidades_futuras_p\u00e1ginas_por_lugar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/README.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_readme",
+      "target": "docs_tecnico_readme"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tecnico/README.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "docs_tecnico_readme",
+      "target": "docs_tecnico_evaluacion_generador_estatico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tecnico/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_tecnico_readme",
+      "target": "docs_tecnico_readme_t\u00e9cnico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_tecnico_evaluacion_generador_estatico",
+      "target": "docs_tecnico_evaluacion_generador_estatico_evaluaci\u00f3n_conviene_un_generador_est\u00e1tico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "docs_tecnico_evaluacion_generador_estatico_evaluaci\u00f3n_conviene_un_generador_est\u00e1tico",
+      "target": "docs_tecnico_evaluacion_generador_estatico_alternativas_descartadas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "docs_tecnico_evaluacion_generador_estatico_evaluaci\u00f3n_conviene_un_generador_est\u00e1tico",
+      "target": "docs_tecnico_evaluacion_generador_estatico_antes_de_comprometerse_un_spike_acotado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "docs_tecnico_evaluacion_generador_estatico_evaluaci\u00f3n_conviene_un_generador_est\u00e1tico",
+      "target": "docs_tecnico_evaluacion_generador_estatico_comparaci\u00f3n_fuentes_oficiales",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_tecnico_evaluacion_generador_estatico_evaluaci\u00f3n_conviene_un_generador_est\u00e1tico",
+      "target": "docs_tecnico_evaluacion_generador_estatico_por_qu\u00e9_esta_evaluaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "docs_tecnico_evaluacion_generador_estatico_evaluaci\u00f3n_conviene_un_generador_est\u00e1tico",
+      "target": "docs_tecnico_evaluacion_generador_estatico_qu\u00e9_no_hacer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "docs_tecnico_evaluacion_generador_estatico_evaluaci\u00f3n_conviene_un_generador_est\u00e1tico",
+      "target": "docs_tecnico_evaluacion_generador_estatico_recomendaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "docs_tecnico_evaluacion_generador_estatico_recomendaci\u00f3n",
+      "target": "docs_tecnico_evaluacion_generador_estatico_para_el_sistema_de_concursos_independiente_del_generador_elegido",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "docs_tecnico_evaluacion_generador_estatico_recomendaci\u00f3n",
+      "target": "docs_tecnico_evaluacion_generador_estatico_si_ambos_triggers_terminan_conviviendo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "docs_tecnico_evaluacion_generador_estatico_recomendaci\u00f3n",
+      "target": "docs_tecnico_evaluacion_generador_estatico_si_el_sistema_de_datos_de_concursos_arranca_primero_reconsiderar_astro_content_collections",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tecnico/evaluacion-generador-estatico.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "docs_tecnico_evaluacion_generador_estatico_recomendaci\u00f3n",
+      "target": "docs_tecnico_evaluacion_generador_estatico_si_p\u00e1ginas_por_lugar_arranca_primero_eleventy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_design",
+      "target": "openspec_changes_evaluate_static_site_generator_design_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_design",
+      "target": "openspec_changes_evaluate_static_site_generator_design_decisions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_design",
+      "target": "openspec_changes_evaluate_static_site_generator_design_goals_non_goals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_design",
+      "target": "openspec_changes_evaluate_static_site_generator_design_migration_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_design",
+      "target": "openspec_changes_evaluate_static_site_generator_design_open_questions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_design",
+      "target": "openspec_changes_evaluate_static_site_generator_design_resumen_de_la_correcci\u00f3n_de_rumbo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/design.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_design",
+      "target": "openspec_changes_evaluate_static_site_generator_design_risks_trade_offs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_proposal",
+      "target": "openspec_changes_evaluate_static_site_generator_proposal_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_proposal",
+      "target": "openspec_changes_evaluate_static_site_generator_proposal_impact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_proposal",
+      "target": "openspec_changes_evaluate_static_site_generator_proposal_what_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_proposal",
+      "target": "openspec_changes_evaluate_static_site_generator_proposal_why",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_proposal_capabilities",
+      "target": "openspec_changes_evaluate_static_site_generator_proposal_modified_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/proposal.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_proposal_capabilities",
+      "target": "openspec_changes_evaluate_static_site_generator_proposal_new_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec",
+      "target": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_added_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_added_requirements",
+      "target": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_el_documento_est\u00e1_enlazado_desde_el_\u00edndice_t\u00e9cnico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_added_requirements",
+      "target": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_el_proyecto_tiene_una_recomendaci\u00f3n_documentada_sobre_generadores_est\u00e1ticos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_added_requirements",
+      "target": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_la_recomendaci\u00f3n_define_condiciones_concretas_de_activaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_el_proyecto_tiene_una_recomendaci\u00f3n_documentada_sobre_generadores_est\u00e1ticos",
+      "target": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_scenario_alguien_eval\u00faa_si_migrar_el_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_la_recomendaci\u00f3n_define_condiciones_concretas_de_activaci\u00f3n",
+      "target": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_scenario_se_eval\u00faa_si_es_momento_de_migrar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/specs/stack-decision-record/spec.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_requirement_el_documento_est\u00e1_enlazado_desde_el_\u00edndice_t\u00e9cnico",
+      "target": "openspec_changes_evaluate_static_site_generator_specs_stack_decision_record_spec_scenario_alguien_navega_la_documentaci\u00f3n_t\u00e9cnica",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/tasks.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_tasks",
+      "target": "openspec_changes_evaluate_static_site_generator_tasks_1_escribir_el_documento_de_evaluaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/tasks.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_tasks",
+      "target": "openspec_changes_evaluate_static_site_generator_tasks_2_enlazar_desde_el_\u00edndice_de_documentaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/evaluate-static-site-generator/tasks.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "openspec_changes_evaluate_static_site_generator_tasks",
+      "target": "openspec_changes_evaluate_static_site_generator_tasks_3_deploy",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/design.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_context",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_context"
     },
     {
       "relation": "contains",
@@ -3398,9 +4318,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/design.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_decisions",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_decisions"
     },
     {
       "relation": "contains",
@@ -3408,9 +4328,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/design.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_goals_non_goals",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_goals_non_goals"
     },
     {
       "relation": "contains",
@@ -3418,9 +4338,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/design.md",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_migration_plan",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_migration_plan"
     },
     {
       "relation": "contains",
@@ -3428,9 +4348,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/design.md",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_open_questions",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_open_questions"
     },
     {
       "relation": "contains",
@@ -3438,9 +4358,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/design.md",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_risks_trade_offs",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_design_risks_trade_offs"
     },
     {
       "relation": "contains",
@@ -3448,9 +4368,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/proposal.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_capabilities",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_capabilities"
     },
     {
       "relation": "contains",
@@ -3458,9 +4378,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/proposal.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_impact",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_impact"
     },
     {
       "relation": "contains",
@@ -3468,9 +4388,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/proposal.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_what_changes",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_what_changes"
     },
     {
       "relation": "contains",
@@ -3478,9 +4398,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/proposal.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_why",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_why"
     },
     {
       "relation": "contains",
@@ -3488,9 +4408,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/proposal.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_capabilities",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_modified_capabilities",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_modified_capabilities"
     },
     {
       "relation": "contains",
@@ -3498,9 +4418,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/proposal.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_capabilities",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_new_capabilities",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_proposal_new_capabilities"
     },
     {
       "relation": "contains",
@@ -3508,9 +4428,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_added_requirements",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_added_requirements"
     },
     {
       "relation": "contains",
@@ -3518,9 +4438,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_added_requirements",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_requirement_el_men\u00fa_mobile_es_funcional_y_usa_un_\u00edcono_de_tres_l\u00edneas",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_requirement_el_men\u00fa_mobile_es_funcional_y_usa_un_\u00edcono_de_tres_l\u00edneas"
     },
     {
       "relation": "contains",
@@ -3528,9 +4448,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_added_requirements",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_requirement_el_t\u00edtulo_del_hero_no_se_recorta_en_viewports_mobile",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_requirement_el_t\u00edtulo_del_hero_no_se_recorta_en_viewports_mobile"
     },
     {
       "relation": "contains",
@@ -3538,9 +4458,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_added_requirements",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_requirement_la_secci\u00f3n_cultura_muestra_sus_fotos_correctamente",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_requirement_la_secci\u00f3n_cultura_muestra_sus_fotos_correctamente"
     },
     {
       "relation": "contains",
@@ -3548,9 +4468,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_requirement_el_t\u00edtulo_del_hero_no_se_recorta_en_viewports_mobile",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_scenario_viewport_de_tel\u00e9fono_angosto_320px",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_scenario_viewport_de_tel\u00e9fono_angosto_320px"
     },
     {
       "relation": "contains",
@@ -3558,9 +4478,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_requirement_el_t\u00edtulo_del_hero_no_se_recorta_en_viewports_mobile",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_scenario_viewport_de_tel\u00e9fono_t\u00edpico_375_430px",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_scenario_viewport_de_tel\u00e9fono_t\u00edpico_375_430px"
     },
     {
       "relation": "contains",
@@ -3568,9 +4488,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_requirement_el_men\u00fa_mobile_es_funcional_y_usa_un_\u00edcono_de_tres_l\u00edneas",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_scenario_abrir_el_men\u00fa_mobile",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_scenario_abrir_el_men\u00fa_mobile"
     },
     {
       "relation": "contains",
@@ -3578,9 +4498,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/specs/mobile-hero-layout/spec.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_requirement_la_secci\u00f3n_cultura_muestra_sus_fotos_correctamente",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_scenario_navegar_el_carrusel_de_cultura",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_specs_mobile_hero_layout_spec_scenario_navegar_el_carrusel_de_cultura"
     },
     {
       "relation": "contains",
@@ -3588,9 +4508,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/tasks.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_tasks",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_tasks_1_corregir_el_bug_confirmado_hero_h1_recortado",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_tasks_1_corregir_el_bug_confirmado_hero_h1_recortado"
     },
     {
       "relation": "contains",
@@ -3598,9 +4518,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/tasks.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_tasks",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_tasks_2_actualizar_documentaci\u00f3n_de_los_4_bugs_con_el_estado_verificado",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_tasks_2_actualizar_documentaci\u00f3n_de_los_4_bugs_con_el_estado_verificado"
     },
     {
       "relation": "contains",
@@ -3608,9 +4528,9 @@
       "source_file": "openspec/changes/archive/2026-07-10-verify-fix-mobile-bugs/tasks.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_tasks",
-      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_tasks_3_deploy_y_validaci\u00f3n_en_producci\u00f3n",
-      "confidence_score": 1.0
+      "target": "openspec_changes_archive_2026_07_10_verify_fix_mobile_bugs_tasks_3_deploy_y_validaci\u00f3n_en_producci\u00f3n"
     },
     {
       "relation": "contains",
@@ -3618,9 +4538,9 @@
       "source_file": "openspec/specs/mobile-hero-layout/spec.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_mobile_hero_layout_spec",
-      "target": "openspec_specs_mobile_hero_layout_spec_purpose",
-      "confidence_score": 1.0
+      "target": "openspec_specs_mobile_hero_layout_spec_purpose"
     },
     {
       "relation": "contains",
@@ -3628,9 +4548,9 @@
       "source_file": "openspec/specs/mobile-hero-layout/spec.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_mobile_hero_layout_spec",
-      "target": "openspec_specs_mobile_hero_layout_spec_requirements",
-      "confidence_score": 1.0
+      "target": "openspec_specs_mobile_hero_layout_spec_requirements"
     },
     {
       "relation": "contains",
@@ -3638,9 +4558,9 @@
       "source_file": "openspec/specs/mobile-hero-layout/spec.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_mobile_hero_layout_spec_requirements",
-      "target": "openspec_specs_mobile_hero_layout_spec_requirement_el_men\u00fa_mobile_es_funcional_y_usa_un_\u00edcono_de_tres_l\u00edneas",
-      "confidence_score": 1.0
+      "target": "openspec_specs_mobile_hero_layout_spec_requirement_el_men\u00fa_mobile_es_funcional_y_usa_un_\u00edcono_de_tres_l\u00edneas"
     },
     {
       "relation": "contains",
@@ -3648,9 +4568,9 @@
       "source_file": "openspec/specs/mobile-hero-layout/spec.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_mobile_hero_layout_spec_requirements",
-      "target": "openspec_specs_mobile_hero_layout_spec_requirement_el_t\u00edtulo_del_hero_no_se_recorta_en_viewports_mobile",
-      "confidence_score": 1.0
+      "target": "openspec_specs_mobile_hero_layout_spec_requirement_el_t\u00edtulo_del_hero_no_se_recorta_en_viewports_mobile"
     },
     {
       "relation": "contains",
@@ -3658,9 +4578,9 @@
       "source_file": "openspec/specs/mobile-hero-layout/spec.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_mobile_hero_layout_spec_requirements",
-      "target": "openspec_specs_mobile_hero_layout_spec_requirement_la_secci\u00f3n_cultura_muestra_sus_fotos_correctamente",
-      "confidence_score": 1.0
+      "target": "openspec_specs_mobile_hero_layout_spec_requirement_la_secci\u00f3n_cultura_muestra_sus_fotos_correctamente"
     },
     {
       "relation": "contains",
@@ -3668,9 +4588,9 @@
       "source_file": "openspec/specs/mobile-hero-layout/spec.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_mobile_hero_layout_spec_requirement_el_t\u00edtulo_del_hero_no_se_recorta_en_viewports_mobile",
-      "target": "openspec_specs_mobile_hero_layout_spec_scenario_viewport_de_tel\u00e9fono_angosto_320px",
-      "confidence_score": 1.0
+      "target": "openspec_specs_mobile_hero_layout_spec_scenario_viewport_de_tel\u00e9fono_angosto_320px"
     },
     {
       "relation": "contains",
@@ -3678,9 +4598,9 @@
       "source_file": "openspec/specs/mobile-hero-layout/spec.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_mobile_hero_layout_spec_requirement_el_t\u00edtulo_del_hero_no_se_recorta_en_viewports_mobile",
-      "target": "openspec_specs_mobile_hero_layout_spec_scenario_viewport_de_tel\u00e9fono_t\u00edpico_375_430px",
-      "confidence_score": 1.0
+      "target": "openspec_specs_mobile_hero_layout_spec_scenario_viewport_de_tel\u00e9fono_t\u00edpico_375_430px"
     },
     {
       "relation": "contains",
@@ -3688,9 +4608,9 @@
       "source_file": "openspec/specs/mobile-hero-layout/spec.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_mobile_hero_layout_spec_requirement_el_men\u00fa_mobile_es_funcional_y_usa_un_\u00edcono_de_tres_l\u00edneas",
-      "target": "openspec_specs_mobile_hero_layout_spec_scenario_abrir_el_men\u00fa_mobile",
-      "confidence_score": 1.0
+      "target": "openspec_specs_mobile_hero_layout_spec_scenario_abrir_el_men\u00fa_mobile"
     },
     {
       "relation": "contains",
@@ -3698,9 +4618,9 @@
       "source_file": "openspec/specs/mobile-hero-layout/spec.md",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "openspec_specs_mobile_hero_layout_spec_requirement_la_secci\u00f3n_cultura_muestra_sus_fotos_correctamente",
-      "target": "openspec_specs_mobile_hero_layout_spec_scenario_navegar_el_carrusel_de_cultura",
-      "confidence_score": 1.0
+      "target": "openspec_specs_mobile_hero_layout_spec_scenario_navegar_el_carrusel_de_cultura"
     },
     {
       "relation": "contains",
@@ -5026,16 +5946,6 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L39",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude",
-      "target": "docs_proyecto_funcionalidades_futuras"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
       "source_location": "L7",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -5251,16 +6161,6 @@
       "confidence_score": 1.0,
       "source": "docs_readme",
       "target": "docs_readme_\u00edndice_de_documentaci\u00f3n_turismo_ensenada"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/README.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_readme",
-      "target": "docs_tecnico_readme"
     },
     {
       "relation": "references",
@@ -5503,16 +6403,6 @@
       "target": "docs_pendientes_seguridad_seguridad"
     },
     {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/pendientes/seguridad.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_pendientes_seguridad",
-      "target": "docs_proyecto_funcionalidades_futuras"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/pendientes/seo.md",
@@ -5521,16 +6411,6 @@
       "confidence_score": 1.0,
       "source": "docs_pendientes_seo",
       "target": "docs_pendientes_seo_seo"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/pendientes/seo.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_pendientes_seo",
-      "target": "docs_proyecto_funcionalidades_futuras"
     },
     {
       "relation": "contains",
@@ -5561,16 +6441,6 @@
       "confidence_score": 1.0,
       "source": "docs_proyecto_readme",
       "target": "docs_proyecto_contenido_home"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/proyecto/README.md",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_proyecto_readme",
-      "target": "docs_proyecto_funcionalidades_futuras"
     },
     {
       "relation": "references",
@@ -5711,126 +6581,6 @@
       "confidence_score": 1.0,
       "source": "docs_proyecto_contenido_home_contenido_de_la_home",
       "target": "docs_proyecto_contenido_home_ver_tambi\u00e9n"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/marca/arquitectura-de-marca.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_marca_arquitectura_de_marca",
-      "target": "docs_proyecto_funcionalidades_futuras"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/marca/sponsors-y-reglas.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "docs_marca_sponsors_y_reglas",
-      "target": "docs_proyecto_funcionalidades_futuras"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/proyecto/funcionalidades-futuras.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_proyecto_funcionalidades_futuras",
-      "target": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/proyecto/funcionalidades-futuras.md",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_proyecto_funcionalidades_futuras",
-      "target": "docs_tecnico_patron_galerias_manifest"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/proyecto/localidad-el-dique.md",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_proyecto_localidad_el_dique",
-      "target": "docs_proyecto_funcionalidades_futuras"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/proyecto/localidad-ensenada-centro.md",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_proyecto_localidad_ensenada_centro",
-      "target": "docs_proyecto_funcionalidades_futuras"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/proyecto/localidad-punta-lara.md",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_proyecto_localidad_punta_lara",
-      "target": "docs_proyecto_funcionalidades_futuras"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/proyecto/mision-y-objetivos.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_proyecto_mision_y_objetivos",
-      "target": "docs_proyecto_funcionalidades_futuras"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/proyecto/funcionalidades-futuras.md",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
-      "target": "docs_proyecto_funcionalidades_futuras_concurso_de_microrelatos_historias_de_ensenada"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/proyecto/funcionalidades-futuras.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
-      "target": "docs_proyecto_funcionalidades_futuras_concurso_fotogr\u00e1fico"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/proyecto/funcionalidades-futuras.md",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
-      "target": "docs_proyecto_funcionalidades_futuras_otras_mejoras_de_producto_planteadas"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/proyecto/funcionalidades-futuras.md",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_proyecto_funcionalidades_futuras_funcionalidades_futuras",
-      "target": "docs_proyecto_funcionalidades_futuras_p\u00e1ginas_por_lugar"
     },
     {
       "relation": "contains",
@@ -6001,76 +6751,6 @@
       "confidence_score": 1.0,
       "source": "docs_proyecto_mision_y_objetivos_misi\u00f3n_y_objetivos",
       "target": "docs_proyecto_mision_y_objetivos_qu\u00e9_es"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/tecnico/README.md",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_tecnico_readme",
-      "target": "docs_tecnico_convenciones_css"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/tecnico/README.md",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_tecnico_readme",
-      "target": "docs_tecnico_convenciones_js"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/tecnico/README.md",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_tecnico_readme",
-      "target": "docs_tecnico_metodologia_graphify"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/tecnico/README.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_tecnico_readme",
-      "target": "docs_tecnico_metodologia_openspec"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/tecnico/README.md",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_tecnico_readme",
-      "target": "docs_tecnico_patron_galerias_manifest"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/tecnico/README.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_tecnico_readme",
-      "target": "docs_tecnico_readme_t\u00e9cnico"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/tecnico/README.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_tecnico_readme",
-      "target": "docs_tecnico_stack_y_mapa_de_archivos"
     },
     {
       "relation": "contains",
@@ -7288,5 +7968,5 @@
       "source_file": "docs/marca/arquitectura-de-marca.md"
     }
   ],
-  "built_at_commit": "0642396ba495c486accd76de7d2b6b44b9432795"
+  "built_at_commit": "c3706010271a3461faf9bfc48b126c19c8ccb654"
 }

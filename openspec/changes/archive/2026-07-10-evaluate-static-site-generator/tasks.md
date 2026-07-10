@@ -11,4 +11,4 @@
 
 ## 3. Deploy
 
-- [ ] 3.1 Commit + push a `main`
+- [x] 3.1 Commit + push a `main`
