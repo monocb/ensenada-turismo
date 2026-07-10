@@ -20,3 +20,10 @@ graphify-out/.graphify_python
 graphify-out/.graphify_root
 graphify-out/cost.json
 graphify-out/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]/
+
+# Impeccable: preferencias por desarrollador y estado local de sesiones de
+# /impeccable live (no es config de proyecto compartida). design.json y
+# live/config.json sí se versionan.
+.impeccable/config.local.json
+.impeccable/live/sessions/
+.impeccable/assets/

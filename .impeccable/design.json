@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-10T00:00:00.000Z",
+  "title": "Design System: Turismo Ensenada",
+  "extensions": {
+    "colorMeta": {
+      "primary": { "role": "primary", "displayName": "Dorado Resaltador", "canonical": "#ffcf4a", "tonalRamp": ["#3d2f0a", "#7a5e13", "#b78d1d", "#f0c02e", "#ffcf4a", "#ffdb75", "#ffe8a3", "#fff5d6"] },
+      "primary-deep": { "role": "primary", "displayName": "Dorado Resaltador (profundo)", "canonical": "#ffcf2f", "tonalRamp": ["#3a2c05", "#77590b", "#b48611", "#f0b81c", "#ffcf2f", "#ffdb63", "#ffe897", "#fff5cb"] },
+      "ink": { "role": "neutral", "displayName": "Tinta", "canonical": "#101014", "tonalRamp": ["#000000", "#0a0a0c", "#101014", "#242429", "#3d3d44", "#6b6b74", "#a3a3ac", "#e0e0e6"] },
+      "night": { "role": "neutral", "displayName": "Noche", "canonical": "#080b18", "tonalRamp": ["#000000", "#050710", "#080b18", "#161b33", "#2c3560", "#525f9c", "#8b96cc", "#c9d0ec"] },
+      "paper": { "role": "neutral", "displayName": "Papel", "canonical": "#fbf4e7", "tonalRamp": ["#3d3524", "#786c4c", "#b3a37a", "#e5d8b8", "#fbf4e7", "#fdf9f0", "#fefcf7", "#ffffff"] },
+      "white": { "role": "neutral", "displayName": "Blanco", "canonical": "#ffffff", "tonalRamp": ["#1a1a1a", "#404040", "#666666", "#8c8c8c", "#b3b3b3", "#d9d9d9", "#f0f0f0", "#ffffff"] },
+      "line-fotos": { "role": "secondary", "displayName": "Celeste Fotos", "canonical": "#00c8ff", "tonalRamp": ["#00303d", "#00607a", "#0090b8", "#00b8e6", "#00c8ff", "#4dd8ff", "#99e8ff", "#cff4ff"] },
+      "line-fotos-accent": { "role": "secondary", "displayName": "Lima Fotos", "canonical": "#c7ff31", "tonalRamp": ["#2e3a08", "#5c7310", "#8bad18", "#b9e625", "#c7ff31", "#d6ff66", "#e6ff9c", "#f5ffd1"] },
+      "line-cultura": { "role": "secondary", "displayName": "Violeta Cultura", "canonical": "#6d5cff", "tonalRamp": ["#1c1740", "#392f80", "#5546bf", "#6552e6", "#6d5cff", "#9186ff", "#b6adff", "#dad6ff"] },
+      "line-cultura-accent": { "role": "secondary", "displayName": "Amarillo Cultura", "canonical": "#ffd43d", "tonalRamp": ["#3d2f05", "#7a5e0a", "#b78c0f", "#f0ba26", "#ffd43d", "#ffe071", "#ffeba3", "#fff6d6"] },
+      "line-historia": { "role": "secondary", "displayName": "Azul Documento Historia", "canonical": "#173f78", "tonalRamp": ["#050f1e", "#0a1e3c", "#0f2d5a", "#123773", "#173f78", "#3b5f97", "#7d94bc", "#c1cbe0"] },
+      "line-envivo": { "role": "secondary", "displayName": "Rojo Alerta En Vivo", "canonical": "#f04438", "tonalRamp": ["#3a0e0a", "#741d14", "#ad2b1e", "#e0392c", "#f04438", "#f47870", "#f8aca7", "#fbdad7"] },
+      "brand-blue-oficial": { "role": "tertiary", "displayName": "Azul Marca Oficial (no visible en UI)", "canonical": "#0b55ff", "tonalRamp": ["#020e33", "#031c66", "#052a99", "#083ecc", "#0b55ff", "#4c7fff", "#8daaff", "#cfd6ff"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Título ENSENADA del hero y títulos de sección equivalentes, siempre en mayúsculas." },
+      "headline": { "displayName": "Headline", "purpose": "Títulos de sección (ej. Cultura, música y encuentros)." },
+      "body": { "displayName": "Body destacado", "purpose": "Taglines y textos cortos de impacto — peso 900 incluso en cuerpo." },
+      "label": { "displayName": "Label", "purpose": "Navegación, botones, badges." }
+    },
+    "shadows": [
+      { "name": "card", "value": "0 26px 80px rgba(5, 32, 49, 0.13)", "purpose": "Tarjetas y contenedores flotantes sobre fondo claro." },
+      { "name": "hero", "value": "0 24px 70px rgba(0, 0, 0, 0.34)", "purpose": "Elementos sobre secciones con foto de fondo." }
+    ],
+    "motion": [
+      { "name": "reveal-on-scroll", "value": "IntersectionObserver + opacity/transform", "purpose": "Revelado progresivo de secciones al hacer scroll (script.js)." },
+      { "name": "carousel-scroll", "value": "scrollBy({ behavior: 'smooth' })", "purpose": "Desplazamiento de carruseles/reels con los controles prev/next." }
+    ],
+    "breakpoints": [
+      { "name": "mobile", "value": "760px" },
+      { "name": "tablet", "value": "900px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Botón dorado pill, ej. 'Cerrar' en modales de lugar.",
+      "html": "<button class=\"ds-btn-primary\" type=\"button\">CERRAR</button>",
+      "css": ".ds-btn-primary { background: #ffcf4a; color: #101014; padding: 14px 28px; border-radius: 999px; border: none; font-weight: 900; text-transform: uppercase; letter-spacing: 0.02em; font-family: Inter, Arial, Helvetica, sans-serif; transition: transform 0.2s; } .ds-btn-primary:hover { transform: translateY(-2px); } .ds-btn-primary:focus-visible { outline: 3px solid #ffcf4a; outline-offset: 4px; }"
+    },
+    {
+      "name": "Nav Toggle (hamburger)",
+      "kind": "button",
+      "refersTo": "nav-toggle",
+      "description": "Botón de menú mobile, tres líneas, translúcido oscuro con borde blanco.",
+      "html": "<button class=\"ds-nav-toggle\" type=\"button\" aria-label=\"Abrir menu\" aria-expanded=\"false\"><span class=\"ds-nav-toggle-line\"></span><span class=\"ds-nav-toggle-line\"></span><span class=\"ds-nav-toggle-line\"></span></button>",
+      "css": ".ds-nav-toggle { display: grid; place-items: center; gap: 4px; width: 44px; height: 44px; background: rgba(7, 11, 11, 0.46); border: 1px solid rgba(255, 255, 255, 0.5); border-radius: 10px; } .ds-nav-toggle-line { width: 20px; height: 2px; background: #ffffff; } .ds-nav-toggle:focus-visible { outline: 3px solid #ffcf4a; outline-offset: 4px; }"
+    },
+    {
+      "name": "Social Link Pill",
+      "kind": "chip",
+      "refersTo": "social-link",
+      "description": "Pill blanco con ícono + texto, usado en la franja de redes sociales.",
+      "html": "<a class=\"ds-social-link\" href=\"#\"><span class=\"ds-social-icon\">◎</span><strong>turismoensenada_</strong></a>",
+      "css": ".ds-social-link { display: inline-flex; align-items: center; gap: 10px; padding: 7px 16px 7px 8px; background: rgba(255, 255, 255, 0.92); color: #061322; border-radius: 999px; font-weight: 900; text-decoration: none; box-shadow: 0 14px 32px rgba(2, 20, 18, 0.18); } .ds-social-icon { width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; }"
+    },
+    {
+      "name": "Carousel Control",
+      "kind": "button",
+      "refersTo": "carousel-control",
+      "description": "Botón circular translúcido de prev/next para carruseles y reels.",
+      "html": "<button class=\"ds-carousel-control\" type=\"button\" aria-label=\"Siguiente\">›</button>",
+      "css": ".ds-carousel-control { width: 48px; height: 48px; border-radius: 999px; background: rgba(255, 255, 255, 0.12); border: 1px solid rgba(255, 255, 255, 0.24); color: #ffffff; font-size: 20px; display: grid; place-items: center; } .ds-carousel-control:hover { background: rgba(255, 255, 255, 0.2); } .ds-carousel-control:focus-visible { outline: 3px solid #ffcf4a; outline-offset: 4px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "La Señal Costera",
+    "overview": "El sitio se lee como el río de noche: una superficie oscura y densa (navy casi negro, #101014-#080b18) sobre la que se recortan señales de color vivo — el dorado resaltador que marca lo importante, y un color por cada línea de contenido (Fotos, Cultura, Historia, En Vivo) que ordena el archivo como boyas en el agua. La palabra ENSENADA, en Inter en sus pesos más pesados (900-950), es siempre el elemento con más fuerza visual de cualquier pantalla. Este sistema rechaza explícitamente el tono de folleto turístico, el exceso de texto, los íconos obvios y el tono de oficina pública.",
+    "keyCharacteristics": [
+      "Superficie oscura por defecto (navy/negro), no un neutro cálido tipo paper de SaaS genérico",
+      "Un único acento dorado-resaltador que funciona como highlighter literal detrás de texto",
+      "Un color propio por línea de contenido dentro de una sola marca madre",
+      "Tipografía única (Inter) en pesos extremos haciendo todo el trabajo de jerarquía",
+      "Fotografía real siempre por delante de cualquier elemento decorativo"
+    ],
+    "rules": [
+      { "name": "La Regla del Resaltador", "body": "El dorado se usa como un marcador literal — franja detrás de texto, círculos, bordes de foco — nunca como relleno de superficies grandes.", "section": "colors" },
+      { "name": "La Regla del Peso Único", "body": "No hay pesos livianos (400-600) en ningún texto visible de marca.", "section": "typography" },
+      { "name": "La Regla de la Sombra con Color", "body": "Ninguna sombra usa negro puro sobre superficies claras — siempre un tinte navy.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do usar Inter en pesos 800+ para cualquier texto que deba sentirse de marca",
+      "Do reservar el dorado para momentos puntuales de énfasis, no como color de fondo extendido",
+      "Do usar border-radius: 999px en controles interactivos",
+      "Do usar sombras difusas con tinte navy, nunca negro puro",
+      "Do anteponer la fotografía real a cualquier ilustración o ícono decorativo",
+      "Do dar foco visible con anillo dorado offset a todo control interactivo nuevo"
+    ],
+    "donts": [
+      "Don't usar tono de folleto turístico, exceso de texto, íconos obvios ni tono de oficina pública",
+      "Don't introducir una segunda familia tipográfica sin una razón de marca explícita",
+      "Don't asumir que el azul del manual oficial es el color primario al construir algo nuevo",
+      "Don't agregar más variantes de border-radius sin revisar la inconsistencia ya detectada en las place-cards",
+      "Don't usar sombras negras puras sobre superficies claras"
+    ]
+  }
+}
