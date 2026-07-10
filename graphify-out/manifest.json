@@ -60,9 +60,9 @@
     "semantic_hash": "a61f55364ccc12e7d09a077f85b7ebc9"
   },
   "CLAUDE.md": {
-    "mtime": 1783658408.2890687,
-    "ast_hash": "e776df0984bbd09ca836dbf363209662",
-    "semantic_hash": "e776df0984bbd09ca836dbf363209662"
+    "mtime": 1783659995.605737,
+    "ast_hash": "91e54591926b24bfe7db6e8622e95e0d",
+    "semantic_hash": ""
   },
   "README.md": {
     "mtime": 1783551985.637054,
@@ -70,14 +70,9 @@
     "semantic_hash": "663d35b191ec062b31260de7700dc14d"
   },
   "docs/README.md": {
-    "mtime": 1783551958.1198611,
-    "ast_hash": "1655fa4778aed1ae0c78b12ed7d87d6a",
-    "semantic_hash": "1655fa4778aed1ae0c78b12ed7d87d6a"
-  },
-  "docs/historial-migracion.md": {
-    "mtime": 1783551941.1647205,
-    "ast_hash": "893350ae2916de92b69fe4319f7d5f2f",
-    "semantic_hash": "893350ae2916de92b69fe4319f7d5f2f"
+    "mtime": 1783659941.8926532,
+    "ast_hash": "1fd8843b33571ab8c74168e9180af4e8",
+    "semantic_hash": ""
   },
   "docs/marca/arquitectura-de-marca.md": {
     "mtime": 1783551808.9419158,
@@ -85,14 +80,14 @@
     "semantic_hash": "a3384988e938067b5712144d44492e02"
   },
   "docs/marca/colores-y-tipografia.md": {
-    "mtime": 1783551826.6063576,
-    "ast_hash": "9f6edc3191f4f2c93c25226ecc07ce80",
-    "semantic_hash": "9f6edc3191f4f2c93c25226ecc07ce80"
+    "mtime": 1783659949.2564783,
+    "ast_hash": "85822ed74db2c81160d6a90b54820f5b",
+    "semantic_hash": ""
   },
   "docs/marca/fotografia-y-composicion.md": {
-    "mtime": 1783551842.0186882,
-    "ast_hash": "3333daee6197087f962debe9d1644e6d",
-    "semantic_hash": "3333daee6197087f962debe9d1644e6d"
+    "mtime": 1783659956.6857717,
+    "ast_hash": "045be093f7f11ae396518e1b9e737af7",
+    "semantic_hash": ""
   },
   "docs/marca/identidad.md": {
     "mtime": 1783551766.296491,
@@ -109,40 +104,15 @@
     "ast_hash": "be9b86dbb0782a6772ae4d6d3a0ccd2b",
     "semantic_hash": "be9b86dbb0782a6772ae4d6d3a0ccd2b"
   },
-  "docs/pendientes/bugs-conocidos.md": {
-    "mtime": 1783551915.9678366,
-    "ast_hash": "03e115d489a6dec1d1bd68ea279f502c",
-    "semantic_hash": "03e115d489a6dec1d1bd68ea279f502c"
-  },
-  "docs/pendientes/seo-y-accesibilidad.md": {
-    "mtime": 1783551929.437256,
-    "ast_hash": "6e2c5d0087140bf7e95d657f52cd016f",
-    "semantic_hash": "6e2c5d0087140bf7e95d657f52cd016f"
-  },
-  "docs/proyecto/contenido-actual.md": {
-    "mtime": 1783551740.3249652,
-    "ast_hash": "9a33a49b09e742f215bcc9e4e29c8487",
-    "semantic_hash": "9a33a49b09e742f215bcc9e4e29c8487"
-  },
   "docs/proyecto/funcionalidades-futuras.md": {
-    "mtime": 1783551752.62497,
-    "ast_hash": "a709990abfe004f96763d16eac7c718c",
-    "semantic_hash": "a709990abfe004f96763d16eac7c718c"
+    "mtime": 1783659963.5895228,
+    "ast_hash": "653b7f39c01a0e0cd0a1cf639faecd3c",
+    "semantic_hash": ""
   },
   "docs/proyecto/mision-y-objetivos.md": {
-    "mtime": 1783551727.236188,
-    "ast_hash": "6f8ed0a27fac31d72d0e9258881da991",
-    "semantic_hash": "6f8ed0a27fac31d72d0e9258881da991"
-  },
-  "docs/tecnico/arquitectura-del-sitio.md": {
-    "mtime": 1783551871.87622,
-    "ast_hash": "3c83c4610b5d7543e4eeeaad9413aaa8",
-    "semantic_hash": "3c83c4610b5d7543e4eeeaad9413aaa8"
-  },
-  "docs/tecnico/convenciones-de-codigo.md": {
-    "mtime": 1783551886.4962564,
-    "ast_hash": "27d59382898150a7df29b357f20c64cc",
-    "semantic_hash": "27d59382898150a7df29b357f20c64cc"
+    "mtime": 1783659970.4489853,
+    "ast_hash": "3af1d60df8319ee79528a5b2a3dff10d",
+    "semantic_hash": ""
   },
   "docs/tecnico/deploy-netlify.md": {
     "mtime": 1783551899.4420636,
@@ -173,5 +143,135 @@
     "mtime": 1783544798.44393,
     "ast_hash": "d2258f1d24e9c07306fd7acd39e6f486",
     "semantic_hash": "d2258f1d24e9c07306fd7acd39e6f486"
+  },
+  ".claude/settings.json": {
+    "mtime": 1783658408.2936096,
+    "ast_hash": "9673f9def920a679a685d7dca7fe511c",
+    "semantic_hash": ""
+  },
+  "docs/marca/README.md": {
+    "mtime": 1783659912.1479735,
+    "ast_hash": "067684590bd1e2237412e7cc81eb2ce7",
+    "semantic_hash": ""
+  },
+  "docs/pendientes/README.md": {
+    "mtime": 1783659933.5692153,
+    "ast_hash": "9198554d0a4aad28f422306195fc633a",
+    "semantic_hash": ""
+  },
+  "docs/pendientes/accesibilidad.md": {
+    "mtime": 1783659853.9655817,
+    "ast_hash": "4bc4c07eca2cb9ace46b1b59b77a5f2f",
+    "semantic_hash": ""
+  },
+  "docs/pendientes/bug-menu-hamburguesa.md": {
+    "mtime": 1783659806.4360955,
+    "ast_hash": "ca5679b0ce1dd183a31bf599911a60b3",
+    "semantic_hash": ""
+  },
+  "docs/pendientes/bug-portada-mobile.md": {
+    "mtime": 1783659797.8387446,
+    "ast_hash": "e96c37b67d69fc02608cb3f1c4ae04ff",
+    "semantic_hash": ""
+  },
+  "docs/pendientes/bug-renglon-amarillo.md": {
+    "mtime": 1783659814.2992089,
+    "ast_hash": "2ed070f00af5d3954bf89ef16f821ffc",
+    "semantic_hash": ""
+  },
+  "docs/pendientes/bug-seccion-cultura.md": {
+    "mtime": 1783659821.0087433,
+    "ast_hash": "086bf901596fa13746d1946e1255afd6",
+    "semantic_hash": ""
+  },
+  "docs/pendientes/performance.md": {
+    "mtime": 1783659860.976504,
+    "ast_hash": "76dedf897b95771706cc820419899047",
+    "semantic_hash": ""
+  },
+  "docs/pendientes/riesgos-mitigados.md": {
+    "mtime": 1783659828.8579745,
+    "ast_hash": "509376b2c0c60146fac44172e790aadb",
+    "semantic_hash": ""
+  },
+  "docs/pendientes/seguridad.md": {
+    "mtime": 1783659867.7943542,
+    "ast_hash": "0e985df83c2f287536582c3224f9888d",
+    "semantic_hash": ""
+  },
+  "docs/pendientes/seo.md": {
+    "mtime": 1783659845.21203,
+    "ast_hash": "bb1a2ba26e8a0fa22c706de0cee21e12",
+    "semantic_hash": ""
+  },
+  "docs/proyecto/README.md": {
+    "mtime": 1783659904.1126523,
+    "ast_hash": "964673abc9f144654b7c1ae8b07570e2",
+    "semantic_hash": ""
+  },
+  "docs/proyecto/contenido-home.md": {
+    "mtime": 1783659637.1636426,
+    "ast_hash": "1e2ab754ebef200334ba6421bdd049e4",
+    "semantic_hash": ""
+  },
+  "docs/proyecto/historial-migracion.md": {
+    "mtime": 1783551941.1647205,
+    "ast_hash": "893350ae2916de92b69fe4319f7d5f2f",
+    "semantic_hash": ""
+  },
+  "docs/proyecto/linea-historica.md": {
+    "mtime": 1783659670.620999,
+    "ast_hash": "abdc02cc6254ca1cdaa010ee1c15651b",
+    "semantic_hash": ""
+  },
+  "docs/proyecto/localidad-el-dique.md": {
+    "mtime": 1783659645.6913133,
+    "ast_hash": "6e1155fb48d251a4b0566a9536ccc23a",
+    "semantic_hash": ""
+  },
+  "docs/proyecto/localidad-ensenada-centro.md": {
+    "mtime": 1783659652.9487896,
+    "ast_hash": "73c9c3df7b140de9a69cc96f6bd62d22",
+    "semantic_hash": ""
+  },
+  "docs/proyecto/localidad-punta-lara.md": {
+    "mtime": 1783659662.0806692,
+    "ast_hash": "67a5ea440e927822e9a92922ea5c7b42",
+    "semantic_hash": ""
+  },
+  "docs/tecnico/README.md": {
+    "mtime": 1783659922.6200876,
+    "ast_hash": "8ac971b138a048416ae72fef4d8c62ee",
+    "semantic_hash": ""
+  },
+  "docs/tecnico/convenciones-css.md": {
+    "mtime": 1783659735.6607118,
+    "ast_hash": "6579d590dd94629dce6eec99f1168c58",
+    "semantic_hash": ""
+  },
+  "docs/tecnico/convenciones-js.md": {
+    "mtime": 1783659742.8351717,
+    "ast_hash": "ee63bd3d3499f0d5ba97ae5ea52b03f4",
+    "semantic_hash": ""
+  },
+  "docs/tecnico/metodologia-graphify.md": {
+    "mtime": 1783659772.9992142,
+    "ast_hash": "1329cf8bf789867508babf4b48d7af71",
+    "semantic_hash": ""
+  },
+  "docs/tecnico/metodologia-openspec.md": {
+    "mtime": 1783659760.4237063,
+    "ast_hash": "75bbe9cfa3fc5ceb123b4cbd71de0d03",
+    "semantic_hash": ""
+  },
+  "docs/tecnico/patron-galerias-manifest.md": {
+    "mtime": 1783659718.0372863,
+    "ast_hash": "5732c5993a530471afda1ed3bf4f0a3d",
+    "semantic_hash": ""
+  },
+  "docs/tecnico/stack-y-mapa-de-archivos.md": {
+    "mtime": 1783659709.0159864,
+    "ast_hash": "3581c018474b8099fca6c483795bc4e3",
+    "semantic_hash": ""
   }
 }
