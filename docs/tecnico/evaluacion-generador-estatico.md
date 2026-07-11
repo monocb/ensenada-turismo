@@ -7,7 +7,7 @@ Investigación realizada en **julio 2026**. Antes de reutilizar esta recomendaci
 El stack actual (HTML/CSS/JS plano, sin build, sin dependencias — ver [`stack-y-mapa-de-archivos.md`](stack-y-mapa-de-archivos.md)) funciona bien para las 3 páginas reales que tiene el sitio hoy. Pero [`funcionalidades-futuras.md`](../proyecto/funcionalidades-futuras.md) ya documenta dos features que el patrón actual no va a soportar bien:
 
 - **Páginas por lugar**: 8 páginas nuevas (una por punto de interés), hoy solo ancladas dentro del home. Van a repetir header/nav/footer, algo que a mano se vuelve tedioso y propenso a inconsistencias más allá de 2-3 páginas.
-- **Sistema de datos para eventos, concursos, notas y galerías**: el concurso de fotos (jurado + voto público) y el concurso de microrelatos necesitan un manejo de datos más serio que el `manifest.json` a mano que hoy alcanza para las galerías de fotos.
+- **Sistema de datos para eventos, concursos, notas y galerías**: el concurso de fotos (jurado + voto público) y el concurso de microrelatos necesitan un manejo de datos más serio que el patrón actual de atributos `data-photo-*` en HTML, que hoy alcanza para las galerías de fotos.
 
 `CLAUDE.md` pide consultar antes de agregar build o dependencias al proyecto. Este documento es esa consulta, resuelta de antemano para no bloquear el arranque de esas features cuando llegue el momento.
 
@@ -34,7 +34,7 @@ El problema ahí es estructural (HTML repetido), no de integridad de datos: 8 p�
 
 - No requiere adoptar una estructura de proyecto nueva.
 - No shipea runtime de ningún framework de UI — el sitio sigue siendo HTML/CSS/JS plano en el output.
-- La falta de validación de schema no es un problema serio acá: mismo perfil de riesgo que `manifest.json` hoy (pocos datos, cargados a mano, un solo mantenedor).
+- La falta de validación de schema no es un problema serio acá: mismo perfil de riesgo que el patrón `data-photo-*` hoy (pocos datos, cargados a mano, un solo mantenedor).
 
 ### Si el sistema de datos de concursos arranca primero → reconsiderar Astro Content Collections
 

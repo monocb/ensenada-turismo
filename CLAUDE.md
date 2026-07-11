@@ -24,7 +24,7 @@ npx serve .
 
 ## Cómo agregar una foto a una galería
 
-Copiar el archivo (`.webp`) a `assets/en-fotos/<categoria>/` y agregar la entrada correspondiente en `assets/en-fotos/manifest.json` (mismo esquema: `category`/`title`/`location`/`source`/`label`/`file`). No hace falta tocar `script.js` ni `index.html`.
+Convertir a `.webp`, nombrarla con el siguiente número secuencial de la galería (ej. si hay 19 fotos, la nueva es `<prefix>-20.webp`), copiarla a `assets/en-fotos/<categoria>/`, y sumar 1 al atributo `data-photo-count` de esa sección en el HTML. No hay `manifest.json` ni archivo de datos intermedio — el HTML (`data-photo-*`) es la única fuente de verdad. No hace falta tocar `script.js`. Detalle en [`docs/tecnico/patron-galerias-data-attributes.md`](docs/tecnico/patron-galerias-data-attributes.md).
 
 ## Aviso sobre `styles.css`
 

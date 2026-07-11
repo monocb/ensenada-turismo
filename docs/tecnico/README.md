@@ -5,7 +5,7 @@ Cómo está construido el sitio y cómo trabajar sobre el código. Cada archivo 
 | Caso de uso | Contenido |
 |---|---|
 | [`stack-y-mapa-de-archivos.md`](stack-y-mapa-de-archivos.md) | Stack (sin build/framework) y mapa de archivos del sitio |
-| [`patron-galerias-manifest.md`](patron-galerias-manifest.md) | Esquema de `manifest.json` y cómo agregar una foto a una galería |
+| [`patron-galerias-data-attributes.md`](patron-galerias-data-attributes.md) | Cómo se arman las galerías (atributos `data-photo-*`) y cómo agregar una foto |
 | [`convenciones-css.md`](convenciones-css.md) | Cómo creció `styles.css`, los dos bloques `:root` |
 | [`convenciones-js.md`](convenciones-js.md) | Organización de `script.js`, convención `data-*` |
 | [`deploy-netlify.md`](deploy-netlify.md) | Datos del sitio en Netlify, checklist de reconexión a Git |

@@ -6,5 +6,5 @@ Origen ferroviario e industrial: nació ligado al movimiento ferroviario, los ta
 
 ## Ver también
 
-- Galería fotográfica de la localidad: `assets/en-fotos/parroquia-el-dique/` (ver [`docs/tecnico/patron-galerias-manifest.md`](../tecnico/patron-galerias-manifest.md)).
+- Galería fotográfica de la localidad: `assets/en-fotos/parroquia-el-dique/` (ver [`docs/tecnico/patron-galerias-data-attributes.md`](../tecnico/patron-galerias-data-attributes.md)).
 - Página individual dedicada a El Dique: pendiente, ver [`funcionalidades-futuras.md`](funcionalidades-futuras.md).

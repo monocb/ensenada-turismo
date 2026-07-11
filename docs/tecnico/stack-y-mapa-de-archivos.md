@@ -24,4 +24,4 @@ Una subcarpeta por sección/lugar: `en-fotos/`, `fragata/`, `historia/`, `identi
 
 ## Ver también
 
-El patrón de galería `manifest.json` está documentado aparte en [`patron-galerias-manifest.md`](patron-galerias-manifest.md).
+El patrón de galería (atributos `data-photo-*`) está documentado aparte en [`patron-galerias-data-attributes.md`](patron-galerias-data-attributes.md).
