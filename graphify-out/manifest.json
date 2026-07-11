@@ -1074,29 +1074,34 @@
     "ast_hash": "e4c49953060b358d58a6f6bd6930b607",
     "semantic_hash": ""
   },
-  "openspec/changes/complete-social-meta-tags/.openspec.yaml": {
-    "mtime": 1783728691.3638635,
+  "openspec/changes/archive/2026-07-10-complete-social-meta-tags/.openspec.yaml": {
+    "mtime": 1783731908.8577156,
     "ast_hash": "145b3979ac90c49abaf8eac7a3e26147",
     "semantic_hash": ""
   },
-  "openspec/changes/complete-social-meta-tags/design.md": {
-    "mtime": 1783728766.1428063,
+  "openspec/changes/archive/2026-07-10-complete-social-meta-tags/design.md": {
+    "mtime": 1783731908.8567128,
     "ast_hash": "38d77bb7737a9d0a6801c54b627ec227",
     "semantic_hash": ""
   },
-  "openspec/changes/complete-social-meta-tags/proposal.md": {
-    "mtime": 1783728714.9875708,
+  "openspec/changes/archive/2026-07-10-complete-social-meta-tags/proposal.md": {
+    "mtime": 1783731908.8567128,
     "ast_hash": "ed16fb168f06dc686dafaf1d2de796bf",
     "semantic_hash": ""
   },
-  "openspec/changes/complete-social-meta-tags/specs/social-sharing-metadata/spec.md": {
-    "mtime": 1783728785.995346,
+  "openspec/changes/archive/2026-07-10-complete-social-meta-tags/specs/social-sharing-metadata/spec.md": {
+    "mtime": 1783731908.8592186,
     "ast_hash": "241bd84a7a93c1e4782f81ac1349e8be",
     "semantic_hash": ""
   },
-  "openspec/changes/complete-social-meta-tags/tasks.md": {
-    "mtime": 1783729230.4137952,
-    "ast_hash": "759f6edfbaf58229b8764762f82256f5",
+  "openspec/changes/archive/2026-07-10-complete-social-meta-tags/tasks.md": {
+    "mtime": 1783731908.8602264,
+    "ast_hash": "524821ea5c0ae02ac1ae77522e6b39a2",
+    "semantic_hash": ""
+  },
+  "openspec/specs/social-sharing-metadata/spec.md": {
+    "mtime": 1783731876.266882,
+    "ast_hash": "0034996fdee21df4917334e8d19be3a5",
     "semantic_hash": ""
   }
 }

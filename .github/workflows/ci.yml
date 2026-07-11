@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  quality-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validar HTML
+        run: npx --yes html-validate --config .htmlvalidate.json index.html en-fotos/index.html 404.html
+
+      - name: Validar sintaxis de CSS
+        run: npx --yes stylelint styles.css
+
+      - name: Chequear links e imágenes rotos
+        run: |
+          npx --yes serve . -l 4173 &
+          for i in $(seq 1 20); do
+            curl -sf http://localhost:4173/ > /dev/null && break
+            sleep 1
+          done
+          npx --yes linkinator http://localhost:4173/ --recurse --skip "ensenadaturismo\.com|fonts\.googleapis\.com"
