@@ -12,10 +12,10 @@
 - [x] 3.1 Crear `.github/workflows/ci.yml` con trigger en `push` y `pull_request`
 - [x] 3.2 Step de validación HTML: `npx html-validate --config .htmlvalidate.json index.html en-fotos/index.html 404.html`
 - [x] 3.3 Step de validación de sintaxis CSS: `npx stylelint styles.css` (config `.stylelintrc.json` con `{"rules": {}}` — `stylelint --config` no acepta JSON inline como sí hace `html-validate`, se descubrió al verificar el comando exacto antes de subir)
-- [x] 3.4 Step de link checking: levantar el sitio (`npx serve . &`) y correr `npx linkinator http://localhost:<puerto>/ --recurse` con skip de dominios externos
+- [x] 3.4 Step de link checking: `npx linkinator . --recurse --skip "..."` — cambiado en el camino (ver nota abajo): la primera versión levantaba un servidor manual (`serve` + loop de `curl`) y falló 2 veces seguidas en GitHub Actions sin poder ver el log detallado (sin auth de `gh`); se simplificó a que `linkinator` escanee la carpeta local directamente, sin servidor manual — elimina toda la clase de problemas de timing/binding de puerto
 
 ## 4. Verificación y deploy
 
 - [x] 4.1 Correr los 3 comandos localmente contra el estado final del repo (post-fixes) y confirmar 0 errores en los 3 (encontrado y corregido en el camino: `stylelint --config` con JSON inline no funciona, se necesitaba `.stylelintrc.json`)
-- [ ] 4.2 Commit + push a `main`
+- [x] 4.2 Commit + push a `main`
 - [ ] 4.3 Confirmar en GitHub Actions que el workflow corrió y quedó en verde
