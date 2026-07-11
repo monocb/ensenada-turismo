@@ -291,6 +291,7 @@ function openLightbox(image, galleryImages = [image]) {
   renderLightboxImage();
   lightbox.classList.add("is-open");
   lightbox.setAttribute("aria-hidden", "false");
+  lightbox.inert = false;
   document.body.classList.add("has-lightbox");
 }
 
@@ -298,6 +299,7 @@ function closeLightbox() {
   if (!lightbox || !lightboxImage) return;
   lightbox.classList.remove("is-open");
   lightbox.setAttribute("aria-hidden", "true");
+  lightbox.inert = true;
   document.body.classList.remove("has-lightbox");
   lightboxImage.src = "";
   activeLightboxImages = [];
@@ -341,6 +343,7 @@ function openPlaceModal(card, trigger = null) {
 
   placeModal.classList.add("is-open");
   placeModal.setAttribute("aria-hidden", "false");
+  placeModal.inert = false;
   document.body.classList.add("has-place-modal", "modal-open");
   document.documentElement.classList.add("has-place-modal");
   window.requestAnimationFrame(() => {
@@ -353,6 +356,7 @@ function closePlaceModal() {
   if (!placeModal?.classList.contains("is-open")) return;
   placeModal.classList.remove("is-open");
   placeModal.setAttribute("aria-hidden", "true");
+  placeModal.inert = true;
   document.body.classList.remove("has-place-modal", "modal-open");
   document.documentElement.classList.remove("has-place-modal");
   if (placeModalImage) {

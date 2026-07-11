@@ -75,7 +75,7 @@
       <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal" data-menu-button>
         <span class="sr-only">Menu</span>
       </button>
-      <nav class="main-nav" id="menu-principal" data-menu>
+      <nav class="main-nav" id="menu-principal" data-menu aria-label="Navegación principal">
           <a href="/#inicio">Inicio</a>
           <a href="/en-fotos/">En Fotos</a>
           <a href="/#recorrido">Descubrí</a>
@@ -146,7 +146,7 @@
           </h2>
           <p class="identity-stamp">Una marca para mostrar la ciudad desde adentro.</p>
         </div>
-        <div class="brand-line-grid" aria-label="L&iacute;neas visuales de Turismo Ensenada">
+        <div class="brand-line-grid" role="group" aria-label="L&iacute;neas visuales de Turismo Ensenada">
           <a class="brand-line brand-line-fotos" href="/en-fotos/">
             <img src="assets/aerea-costa-punta-lara.jpg" alt="Costa de Ensenada vista desde el aire" width="1280" height="720" decoding="async" loading="lazy" />
             <span>ENSENADA</span>
@@ -208,7 +208,7 @@
             </div>
           </div>
 
-          <div class="fragata-reel" data-reel aria-label="Carrete de fotos de la Fragata ARA Libertad en Ensenada">
+          <div class="fragata-reel" data-reel role="group" aria-label="Carrete de fotos de la Fragata ARA Libertad en Ensenada">
             <figure class="is-featured">
               <img src="assets/fragata/fragata-01-portada.webp" alt="Fragata ARA Libertad navegando frente a Ensenada" data-lightbox-title="Fragata ARA Libertad" data-lightbox-location="Ensenada" width="1600" height="1200" decoding="async" loading="lazy" tabindex="0" role="button" />
               <span>01</span>
@@ -257,7 +257,7 @@
         </div>
       </section>
 
-      <div class="image-lightbox" data-lightbox aria-hidden="true">
+      <div class="image-lightbox" data-lightbox aria-hidden="true" inert>
         <button class="lightbox-close" type="button" aria-label="Cerrar imagen ampliada" data-lightbox-close>
         </button>
         <button class="lightbox-nav lightbox-prev" type="button" aria-label="Ver foto anterior" data-lightbox-prev>
@@ -277,7 +277,7 @@
           <p class="eyebrow">ENSENADA IDENTIDAD</p>
           <h2>Tres formas de vivir Ensenada</h2>
         </div>
-        <div class="place-accordion" aria-label="Historias de localidades de Ensenada">
+        <div class="place-accordion" role="group" aria-label="Historias de localidades de Ensenada">
           <article
             class="place-card"
             data-place="el-dique"
@@ -343,7 +343,7 @@
         </div>
       </section>
 
-      <div class="place-modal" data-place-modal aria-hidden="true">
+      <div class="place-modal" data-place-modal aria-hidden="true" inert>
         <div class="place-modal__overlay" data-place-modal-close></div>
         <section
           class="place-modal__panel"
@@ -416,7 +416,7 @@
             central de esa identidad.
           </p>
         </div>
-        <div class="video-panel" aria-label="Video sobre el Fuerte Barrag&aacute;n">
+        <div class="video-panel" role="group" aria-label="Video sobre el Fuerte Barrag&aacute;n">
           <div class="youtube-lite" data-youtube-lite data-video-id="trexYQJm6Fc">
             <button class="youtube-lite-button" type="button" aria-label="Reproducir video sobre Fuerte Barrag&aacute;n">
               <img src="assets/fuerte-barragan.jpg" alt="Vista previa del video sobre el Fuerte Barrag&aacute;n" width="1224" height="884" loading="lazy" decoding="async">

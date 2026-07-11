@@ -52,7 +52,7 @@
       <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal" data-menu-button>
         <span class="sr-only">Menu</span>
       </button>
-      <nav class="main-nav" id="menu-principal" data-menu>
+      <nav class="main-nav" id="menu-principal" data-menu aria-label="Navegación principal">
         <a href="/#inicio">Inicio</a>
         <a href="/en-fotos/" aria-current="page">En Fotos</a>
         <a href="/#recorrido">Descubrí</a>
@@ -93,7 +93,7 @@
               <h2 id="parroquia-el-dique-title">Parroquia del Dique</h2>
               <p>Una cobertura de comunidad, fe e identidad barrial en El Dique.</p>
             </div>
-            <div class="photos-reel-controls" aria-label="Controles del carrete Parroquia del Dique">
+            <div class="photos-reel-controls" role="group" aria-label="Controles del carrete Parroquia del Dique">
               <button type="button" aria-label="Fotos anteriores de Parroquia del Dique" data-photo-reel-prev>
                 <span aria-hidden="true">&larr;</span>
               </button>
@@ -123,7 +123,7 @@
               <h2 id="stella-maris-punta-lara-title">Stella Maris</h2>
               <p>Una postal reconocible de la costa y del encuentro frente al r&iacute;o.</p>
             </div>
-            <div class="photos-reel-controls" aria-label="Controles del carrete Stella Maris">
+            <div class="photos-reel-controls" role="group" aria-label="Controles del carrete Stella Maris">
               <button type="button" aria-label="Fotos anteriores de Stella Maris" data-photo-reel-prev>
                 <span aria-hidden="true">&larr;</span>
               </button>
@@ -153,7 +153,7 @@
               <h2 id="domingo-punta-lara-title">Domingo en Punta Lara</h2>
               <p>Familias, playa, descanso y vida cotidiana en la ribera ensenadense.</p>
             </div>
-            <div class="photos-reel-controls" aria-label="Controles del carrete Domingo en Punta Lara">
+            <div class="photos-reel-controls" role="group" aria-label="Controles del carrete Domingo en Punta Lara">
               <button type="button" aria-label="Fotos anteriores de Domingo en Punta Lara" data-photo-reel-prev>
                 <span aria-hidden="true">&larr;</span>
               </button>
@@ -167,7 +167,7 @@
       </div>
     </main>
 
-    <div class="image-lightbox" data-lightbox aria-hidden="true">
+    <div class="image-lightbox" data-lightbox aria-hidden="true" inert>
       <button class="lightbox-close" type="button" aria-label="Cerrar imagen ampliada" data-lightbox-close></button>
       <button class="lightbox-nav lightbox-prev" type="button" aria-label="Ver foto anterior" data-lightbox-prev></button>
       <img src="" alt="" data-lightbox-image />
