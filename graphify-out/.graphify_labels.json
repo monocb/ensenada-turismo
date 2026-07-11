@@ -200,5 +200,11 @@
   "198": "ensureFile",
   "199": "tasks.md",
   "200": "4. Plan three variants: identity first, then mode, then axes",
-  "201": "checkHeroEyebrow"
+  "201": "checkHeroEyebrow",
+  "202": "BORDER_SAFE_TAGS",
+  "203": "acceptedDomAlreadyClean",
+  "204": "proposal.md",
+  "205": "Requirement: La documentación describe con precisión el mecanismo real de las galerías de fotos",
+  "206": "tasks.md",
+  "207": "Patrón de galería: atributos `data-photo-*`"
 }

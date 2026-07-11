@@ -60,8 +60,8 @@
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1783719487.7106023,
-    "ast_hash": "5ccedbe502c910007bbd42c8ca173b5c",
+    "mtime": 1783793297.7612,
+    "ast_hash": "8ea9e3847c28fdb521aa76f356f152f0",
     "semantic_hash": ""
   },
   "README.md": {
@@ -85,8 +85,8 @@
     "semantic_hash": ""
   },
   "docs/marca/fotografia-y-composicion.md": {
-    "mtime": 1783659956.6857717,
-    "ast_hash": "045be093f7f11ae396518e1b9e737af7",
+    "mtime": 1783793332.6844418,
+    "ast_hash": "6b3cb634f426c75bf4dbc7a56d293a87",
     "semantic_hash": ""
   },
   "docs/marca/identidad.md": {
@@ -105,8 +105,8 @@
     "semantic_hash": "be9b86dbb0782a6772ae4d6d3a0ccd2b"
   },
   "docs/proyecto/funcionalidades-futuras.md": {
-    "mtime": 1783699223.4469354,
-    "ast_hash": "7c04dcaadf7621fb3ebc5355f56cdc5f",
+    "mtime": 1783793383.3207798,
+    "ast_hash": "0ca150aceb7eec270aa57f7a0dcc5aae",
     "semantic_hash": ""
   },
   "docs/proyecto/mision-y-objetivos.md": {
@@ -225,8 +225,8 @@
     "semantic_hash": ""
   },
   "docs/proyecto/localidad-el-dique.md": {
-    "mtime": 1783659645.6913133,
-    "ast_hash": "6e1155fb48d251a4b0566a9536ccc23a",
+    "mtime": 1783793368.0201726,
+    "ast_hash": "12608ea466413b0cfbede4bfa69dde40",
     "semantic_hash": ""
   },
   "docs/proyecto/localidad-ensenada-centro.md": {
@@ -235,13 +235,13 @@
     "semantic_hash": ""
   },
   "docs/proyecto/localidad-punta-lara.md": {
-    "mtime": 1783659662.0806692,
-    "ast_hash": "67a5ea440e927822e9a92922ea5c7b42",
+    "mtime": 1783793375.0018604,
+    "ast_hash": "54067d01807a26d6af3d5d5dbc223a78",
     "semantic_hash": ""
   },
   "docs/tecnico/README.md": {
-    "mtime": 1783791948.8254333,
-    "ast_hash": "bbc060c5f7d38e9f78a9109817ddd44d",
+    "mtime": 1783793321.1943016,
+    "ast_hash": "b22bbb0668fbae270f0a412ecf99ac06",
     "semantic_hash": ""
   },
   "docs/tecnico/convenciones-css.md": {
@@ -264,14 +264,9 @@
     "ast_hash": "75bbe9cfa3fc5ceb123b4cbd71de0d03",
     "semantic_hash": ""
   },
-  "docs/tecnico/patron-galerias-manifest.md": {
-    "mtime": 1783659718.0372863,
-    "ast_hash": "5732c5993a530471afda1ed3bf4f0a3d",
-    "semantic_hash": ""
-  },
   "docs/tecnico/stack-y-mapa-de-archivos.md": {
-    "mtime": 1783659709.0159864,
-    "ast_hash": "3581c018474b8099fca6c483795bc4e3",
+    "mtime": 1783793358.2582262,
+    "ast_hash": "49bd8ea05217ffb2452a9567dd7a2e34",
     "semantic_hash": ""
   },
   "openspec/changes/archive/2026-07-10-add-security-headers/.openspec.yaml": {
@@ -365,8 +360,8 @@
     "semantic_hash": ""
   },
   "docs/tecnico/evaluacion-generador-estatico.md": {
-    "mtime": 1783699190.2389562,
-    "ast_hash": "78c61fe3bda46ddfd52b4a712bf94705",
+    "mtime": 1783793405.228709,
+    "ast_hash": "6008a545b86e931736b5ab668ca95c20",
     "semantic_hash": ""
   },
   "openspec/changes/archive/2026-07-10-evaluate-static-site-generator/.openspec.yaml": {
@@ -1182,6 +1177,36 @@
   "openspec/specs/responsive-hero-images/spec.md": {
     "mtime": 1783792184.827066,
     "ast_hash": "ee4e6dc5c5e5dbbdbaf3de87d9837b34",
+    "semantic_hash": ""
+  },
+  "docs/tecnico/patron-galerias-data-attributes.md": {
+    "mtime": 1783793279.8400645,
+    "ast_hash": "4a08aac4ca1bafd5c5065f1ed34701ed",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-photo-gallery-docs/.openspec.yaml": {
+    "mtime": 1783792639.0198946,
+    "ast_hash": "145b3979ac90c49abaf8eac7a3e26147",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-photo-gallery-docs/design.md": {
+    "mtime": 1783792675.9459145,
+    "ast_hash": "b1af726c63e73856c8e31f5dba29513e",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-photo-gallery-docs/proposal.md": {
+    "mtime": 1783792655.1558242,
+    "ast_hash": "c11e5c17a895d93533a49382a891b362",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-photo-gallery-docs/specs/technical-docs-accuracy/spec.md": {
+    "mtime": 1783792683.9022634,
+    "ast_hash": "439a2ccda9fd2800dcab46dfab47d763",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-photo-gallery-docs/tasks.md": {
+    "mtime": 1783793462.382261,
+    "ast_hash": "90eb9b6439587e931c2142cc712d9701",
     "semantic_hash": ""
   }
 }
