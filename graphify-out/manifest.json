@@ -160,8 +160,8 @@
     "semantic_hash": ""
   },
   "docs/pendientes/accesibilidad.md": {
-    "mtime": 1783733836.764966,
-    "ast_hash": "51ac94fc941038772c8c9a7fd69adad5",
+    "mtime": 1783796617.508283,
+    "ast_hash": "0c03dabb6f436395bcd4badb6af8e06c",
     "semantic_hash": ""
   },
   "docs/pendientes/bug-menu-hamburguesa.md": {
@@ -1207,6 +1207,31 @@
   "openspec/changes/archive/2026-07-11-fix-photo-gallery-docs/tasks.md": {
     "mtime": 1783794469.2157223,
     "ast_hash": "5f40d2cbe3d7757b276c804b6410b9ca",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-hero-tagline-contrast/.openspec.yaml": {
+    "mtime": 1783796219.4134252,
+    "ast_hash": "145b3979ac90c49abaf8eac7a3e26147",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-hero-tagline-contrast/design.md": {
+    "mtime": 1783796284.4853244,
+    "ast_hash": "b112d1dafc162d895dd3aee917a8d35b",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-hero-tagline-contrast/proposal.md": {
+    "mtime": 1783796238.0348418,
+    "ast_hash": "a5b9d20a1e950ddc6e0be07639c42f09",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-hero-tagline-contrast/specs/text-contrast-over-images/spec.md": {
+    "mtime": 1783796294.333884,
+    "ast_hash": "1901284ce6ff0aa6099cd7fbdf0ab2ca",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-hero-tagline-contrast/tasks.md": {
+    "mtime": 1783796627.19813,
+    "ast_hash": "8a09c1b6aef747fe70d3674bb2f2c803",
     "semantic_hash": ""
   }
 }
