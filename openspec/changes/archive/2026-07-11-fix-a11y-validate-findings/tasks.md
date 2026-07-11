@@ -28,6 +28,6 @@
 
 ## 6. Deploy
 
-- [ ] 6.1 Commit + push a `main` (confirmar con el usuario antes)
-- [ ] 6.2 Verificar en producción
-- [ ] 6.3 Archivar el change y sincronizar la spec `aria-semantics-and-focus`
+- [x] 6.1 Commit + push a `main` (confirmar con el usuario antes)
+- [x] 6.2 Verificar en producción
+- [x] 6.3 Archivar el change y sincronizar la spec `aria-semantics-and-focus`
