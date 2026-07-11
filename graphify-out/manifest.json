@@ -55,9 +55,9 @@
     "semantic_hash": "ca0a72a09ab4270d6868acc01dc9e6c9"
   },
   "404.html": {
-    "mtime": 1783544798.4364126,
-    "ast_hash": "a61f55364ccc12e7d09a077f85b7ebc9",
-    "semantic_hash": "a61f55364ccc12e7d09a077f85b7ebc9"
+    "mtime": 1783733672.7669091,
+    "ast_hash": "13c2866fe5aa30e462c4601e6d3f8c68",
+    "semantic_hash": ""
   },
   "CLAUDE.md": {
     "mtime": 1783719487.7106023,
@@ -120,13 +120,13 @@
     "semantic_hash": "0bfe316dedd6def3a27875dad4d981a6"
   },
   "en-fotos/index.html": {
-    "mtime": 1783729151.364634,
-    "ast_hash": "80b1658594539d85ef4dd0892dcd19be",
+    "mtime": 1783733654.2167523,
+    "ast_hash": "a77c95f7eac3b58b2dc9bca3044de68e",
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1783729182.6228886,
-    "ast_hash": "4f8e7dece3b07186f0f42233471cfb4e",
+    "mtime": 1783733637.76163,
+    "ast_hash": "7f7a54d268be993f9429cea33a6a72e4",
     "semantic_hash": ""
   },
   "openspec/config.yaml": {
@@ -160,8 +160,8 @@
     "semantic_hash": ""
   },
   "docs/pendientes/accesibilidad.md": {
-    "mtime": 1783659853.9655817,
-    "ast_hash": "4bc4c07eca2cb9ace46b1b59b77a5f2f",
+    "mtime": 1783733836.764966,
+    "ast_hash": "51ac94fc941038772c8c9a7fd69adad5",
     "semantic_hash": ""
   },
   "docs/pendientes/bug-menu-hamburguesa.md": {
@@ -1102,6 +1102,46 @@
   "openspec/specs/social-sharing-metadata/spec.md": {
     "mtime": 1783731876.266882,
     "ast_hash": "0034996fdee21df4917334e8d19be3a5",
+    "semantic_hash": ""
+  },
+  ".htmlvalidate.json": {
+    "mtime": 1783733729.7335503,
+    "ast_hash": "45b348d69c94db892f425a35d70d03e7",
+    "semantic_hash": ""
+  },
+  ".stylelintrc.json": {
+    "mtime": 1783733938.232165,
+    "ast_hash": "69a378cfa897779d7a4f31ca9def0e1a",
+    "semantic_hash": ""
+  },
+  ".github/workflows/ci.yml": {
+    "mtime": 1783738354.136216,
+    "ast_hash": "14c59e333aea69227871b113eb87abdb",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-minimal-ci/.openspec.yaml": {
+    "mtime": 1783732676.88721,
+    "ast_hash": "145b3979ac90c49abaf8eac7a3e26147",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-minimal-ci/design.md": {
+    "mtime": 1783733767.652489,
+    "ast_hash": "8beafc36eae291bb39f18039db0fc6ef",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-minimal-ci/proposal.md": {
+    "mtime": 1783733986.9683392,
+    "ast_hash": "8709966d401a647cf78eec7b152c514a",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-minimal-ci/specs/ci-quality-gate/spec.md": {
+    "mtime": 1783732800.4053228,
+    "ast_hash": "407daf157fcadce43a6081d9da26786e",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-minimal-ci/tasks.md": {
+    "mtime": 1783738495.3672109,
+    "ast_hash": "b972ad1845568b465c9f6779788bb5ad",
     "semantic_hash": ""
   }
 }
