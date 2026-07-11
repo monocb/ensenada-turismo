@@ -1005,8 +1005,8 @@
     "semantic_hash": ""
   },
   "openspec/specs/technical-docs-accuracy/spec.md": {
-    "mtime": 1783720620.2127914,
-    "ast_hash": "89965800506b367410e496c3aa6f2329",
+    "mtime": 1783794462.5655923,
+    "ast_hash": "48c1e535a9e67105e59fe93c55f5a136",
     "semantic_hash": ""
   },
   "openspec/changes/archive/2026-07-10-compress-oversized-images/.openspec.yaml": {
@@ -1184,29 +1184,29 @@
     "ast_hash": "4a08aac4ca1bafd5c5065f1ed34701ed",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-photo-gallery-docs/.openspec.yaml": {
-    "mtime": 1783792639.0198946,
+  "openspec/changes/archive/2026-07-11-fix-photo-gallery-docs/.openspec.yaml": {
+    "mtime": 1783794469.2157223,
     "ast_hash": "145b3979ac90c49abaf8eac7a3e26147",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-photo-gallery-docs/design.md": {
-    "mtime": 1783792675.9459145,
+  "openspec/changes/archive/2026-07-11-fix-photo-gallery-docs/design.md": {
+    "mtime": 1783794469.2137215,
     "ast_hash": "b1af726c63e73856c8e31f5dba29513e",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-photo-gallery-docs/proposal.md": {
-    "mtime": 1783792655.1558242,
+  "openspec/changes/archive/2026-07-11-fix-photo-gallery-docs/proposal.md": {
+    "mtime": 1783794469.2127225,
     "ast_hash": "c11e5c17a895d93533a49382a891b362",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-photo-gallery-docs/specs/technical-docs-accuracy/spec.md": {
-    "mtime": 1783792683.9022634,
+  "openspec/changes/archive/2026-07-11-fix-photo-gallery-docs/specs/technical-docs-accuracy/spec.md": {
+    "mtime": 1783794469.214725,
     "ast_hash": "439a2ccda9fd2800dcab46dfab47d763",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-photo-gallery-docs/tasks.md": {
-    "mtime": 1783793462.382261,
-    "ast_hash": "90eb9b6439587e931c2142cc712d9701",
+  "openspec/changes/archive/2026-07-11-fix-photo-gallery-docs/tasks.md": {
+    "mtime": 1783794469.2157223,
+    "ast_hash": "5f40d2cbe3d7757b276c804b6410b9ca",
     "semantic_hash": ""
   }
 }
