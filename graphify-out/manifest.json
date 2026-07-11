@@ -1239,29 +1239,34 @@
     "ast_hash": "7a9228c76366c7a187d9c1f00314e509",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-a11y-validate-findings/.openspec.yaml": {
-    "mtime": 1783797376.9651344,
+  "openspec/changes/archive/2026-07-11-fix-a11y-validate-findings/.openspec.yaml": {
+    "mtime": 1783798772.3154614,
     "ast_hash": "145b3979ac90c49abaf8eac7a3e26147",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-a11y-validate-findings/design.md": {
-    "mtime": 1783797428.9116855,
+  "openspec/changes/archive/2026-07-11-fix-a11y-validate-findings/design.md": {
+    "mtime": 1783798772.3134632,
     "ast_hash": "f50e897cef40166a2c09ec0949b7b21c",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-a11y-validate-findings/proposal.md": {
-    "mtime": 1783797403.2092853,
+  "openspec/changes/archive/2026-07-11-fix-a11y-validate-findings/proposal.md": {
+    "mtime": 1783798772.3124602,
     "ast_hash": "f2b040ec0b680c1a46492d351fa0fda4",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-a11y-validate-findings/specs/aria-semantics-and-focus/spec.md": {
-    "mtime": 1783797442.297881,
+  "openspec/changes/archive/2026-07-11-fix-a11y-validate-findings/specs/aria-semantics-and-focus/spec.md": {
+    "mtime": 1783798772.3144622,
     "ast_hash": "344aa5602d96aa98ba99032a4c2f0cd0",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-a11y-validate-findings/tasks.md": {
-    "mtime": 1783797950.8155813,
-    "ast_hash": "0f0ae22b048e8dcf6cfd394204bb2eaf",
+  "openspec/changes/archive/2026-07-11-fix-a11y-validate-findings/tasks.md": {
+    "mtime": 1783798783.3847528,
+    "ast_hash": "bcc4bc4e40e7c9cd691d10c7007b37f7",
+    "semantic_hash": ""
+  },
+  "openspec/specs/aria-semantics-and-focus/spec.md": {
+    "mtime": 1783798758.19713,
+    "ast_hash": "9e1c97532a16ebd45e8cd89ce67d9a98",
     "semantic_hash": ""
   }
 }
