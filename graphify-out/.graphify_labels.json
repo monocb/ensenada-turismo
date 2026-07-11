@@ -200,10 +200,20 @@
   "198": "ensureFile",
   "199": "tasks.md",
   "200": "4. Plan three variants: identity first, then mode, then axes",
+  "201": "readWorkspacePatterns",
   "202": "BORDER_SAFE_TAGS",
   "203": "acceptedDomAlreadyClean",
   "204": "proposal.md",
   "205": "resolveWorkspaceProjectRoot",
+  "206": "Implement Animations",
   "207": "Patrón de galería: atributos `data-photo-*`",
-  "209": "isScreenReaderOnlyTextStyle"
+  "208": "resolveLiveInjectionAnchor",
+  "209": "isScreenReaderOnlyTextStyle",
+  "210": "design.md",
+  "211": "tasks.md",
+  "212": "Diagnostic Scan",
+  "213": "ensureFile",
+  "214": "proposal.md",
+  "215": "4. Plan three variants: identity first, then mode, then axes",
+  "216": "checkHeroEyebrow"
 }

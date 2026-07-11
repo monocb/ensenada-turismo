@@ -1,7 +1,7 @@
 {
   "script.js": {
-    "mtime": 1783727045.5077758,
-    "ast_hash": "161a7187c4fcf9d334f842a64171ee28",
+    "mtime": 1783797761.951852,
+    "ast_hash": "668a86e7dfe85a2ca1714d08f068e470",
     "semantic_hash": ""
   },
   ".claude/commands/opsx/apply.md": {
@@ -120,13 +120,13 @@
     "semantic_hash": "0bfe316dedd6def3a27875dad4d981a6"
   },
   "en-fotos/index.html": {
-    "mtime": 1783733654.2167523,
-    "ast_hash": "a77c95f7eac3b58b2dc9bca3044de68e",
+    "mtime": 1783797741.7986584,
+    "ast_hash": "9896ce94e57e604a6b98a41ea9bcaaa2",
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1783791823.836702,
-    "ast_hash": "7bfa61ab501d9e48659bd2c4a9a08273",
+    "mtime": 1783797732.770766,
+    "ast_hash": "765893df317204dbb4a14dc6e7cde3d9",
     "semantic_hash": ""
   },
   "openspec/config.yaml": {
@@ -160,8 +160,8 @@
     "semantic_hash": ""
   },
   "docs/pendientes/accesibilidad.md": {
-    "mtime": 1783796617.508283,
-    "ast_hash": "0c03dabb6f436395bcd4badb6af8e06c",
+    "mtime": 1783797945.2629251,
+    "ast_hash": "69a17e08689da009f9dd22a704137f73",
     "semantic_hash": ""
   },
   "docs/pendientes/bug-menu-hamburguesa.md": {
@@ -1100,8 +1100,8 @@
     "semantic_hash": ""
   },
   ".htmlvalidate.json": {
-    "mtime": 1783733729.7335503,
-    "ast_hash": "45b348d69c94db892f425a35d70d03e7",
+    "mtime": 1783797900.3305554,
+    "ast_hash": "b954e1ca4f28020667fd8eb2e3ecfad6",
     "semantic_hash": ""
   },
   ".stylelintrc.json": {
@@ -1237,6 +1237,31 @@
   "openspec/specs/text-contrast-over-images/spec.md": {
     "mtime": 1783796738.4519527,
     "ast_hash": "7a9228c76366c7a187d9c1f00314e509",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-a11y-validate-findings/.openspec.yaml": {
+    "mtime": 1783797376.9651344,
+    "ast_hash": "145b3979ac90c49abaf8eac7a3e26147",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-a11y-validate-findings/design.md": {
+    "mtime": 1783797428.9116855,
+    "ast_hash": "f50e897cef40166a2c09ec0949b7b21c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-a11y-validate-findings/proposal.md": {
+    "mtime": 1783797403.2092853,
+    "ast_hash": "f2b040ec0b680c1a46492d351fa0fda4",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-a11y-validate-findings/specs/aria-semantics-and-focus/spec.md": {
+    "mtime": 1783797442.297881,
+    "ast_hash": "344aa5602d96aa98ba99032a4c2f0cd0",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-a11y-validate-findings/tasks.md": {
+    "mtime": 1783797950.8155813,
+    "ast_hash": "0f0ae22b048e8dcf6cfd394204bb2eaf",
     "semantic_hash": ""
   }
 }
