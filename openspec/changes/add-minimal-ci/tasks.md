@@ -18,4 +18,4 @@
 
 - [x] 4.1 Correr los 3 comandos localmente contra el estado final del repo (post-fixes) y confirmar 0 errores en los 3 (encontrado y corregido en el camino: `stylelint --config` con JSON inline no funciona, se necesitaba `.stylelintrc.json`)
 - [x] 4.2 Commit + push a `main`
-- [ ] 4.3 Confirmar en GitHub Actions que el workflow corrió y quedó en verde
+- [x] 4.3 Confirmar en GitHub Actions que el workflow corrió y quedó en verde (tras 2 iteraciones: la versión original con servidor manual falló 2 veces en el runner sin poder ver el log detallado; simplificar a `linkinator .` sin servidor propio lo resolvió)
