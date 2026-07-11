@@ -1119,29 +1119,34 @@
     "ast_hash": "14c59e333aea69227871b113eb87abdb",
     "semantic_hash": ""
   },
-  "openspec/changes/add-minimal-ci/.openspec.yaml": {
-    "mtime": 1783732676.88721,
+  "openspec/changes/archive/2026-07-10-add-minimal-ci/.openspec.yaml": {
+    "mtime": 1783738655.2843764,
     "ast_hash": "145b3979ac90c49abaf8eac7a3e26147",
     "semantic_hash": ""
   },
-  "openspec/changes/add-minimal-ci/design.md": {
-    "mtime": 1783733767.652489,
+  "openspec/changes/archive/2026-07-10-add-minimal-ci/design.md": {
+    "mtime": 1783738655.2889135,
     "ast_hash": "8beafc36eae291bb39f18039db0fc6ef",
     "semantic_hash": ""
   },
-  "openspec/changes/add-minimal-ci/proposal.md": {
-    "mtime": 1783733986.9683392,
+  "openspec/changes/archive/2026-07-10-add-minimal-ci/proposal.md": {
+    "mtime": 1783738655.2868822,
     "ast_hash": "8709966d401a647cf78eec7b152c514a",
     "semantic_hash": ""
   },
-  "openspec/changes/add-minimal-ci/specs/ci-quality-gate/spec.md": {
-    "mtime": 1783732800.4053228,
+  "openspec/changes/archive/2026-07-10-add-minimal-ci/specs/ci-quality-gate/spec.md": {
+    "mtime": 1783738655.2868822,
     "ast_hash": "407daf157fcadce43a6081d9da26786e",
     "semantic_hash": ""
   },
-  "openspec/changes/add-minimal-ci/tasks.md": {
-    "mtime": 1783738495.3672109,
+  "openspec/changes/archive/2026-07-10-add-minimal-ci/tasks.md": {
+    "mtime": 1783738655.2889135,
     "ast_hash": "b972ad1845568b465c9f6779788bb5ad",
+    "semantic_hash": ""
+  },
+  "openspec/specs/ci-quality-gate/spec.md": {
+    "mtime": 1783738633.0336752,
+    "ast_hash": "cddd59948d355f0ce1b52296fc7e44e2",
     "semantic_hash": ""
   }
 }

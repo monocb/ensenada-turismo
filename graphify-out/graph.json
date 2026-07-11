@@ -70,14 +70,374 @@
   },
   "nodes": [
     {
+      "label": "design.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_design",
+      "community": 161,
+      "norm_label": "design.md"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_design_context",
+      "community": 161,
+      "norm_label": "context"
+    },
+    {
+      "label": "Goals / Non-Goals",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/design.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_design_goals_non_goals",
+      "community": 161,
+      "norm_label": "goals / non-goals"
+    },
+    {
+      "label": "Decisions",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/design.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_design_decisions",
+      "community": 161,
+      "norm_label": "decisions"
+    },
+    {
+      "label": "Risks / Trade-offs",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/design.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_design_risks_trade_offs",
+      "community": 161,
+      "norm_label": "risks / trade-offs"
+    },
+    {
+      "label": "Migration Plan",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/design.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_design_migration_plan",
+      "community": 161,
+      "norm_label": "migration plan"
+    },
+    {
+      "label": "Open Questions",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/design.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_design_open_questions",
+      "community": 161,
+      "norm_label": "open questions"
+    },
+    {
+      "label": "proposal.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/proposal.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_proposal",
+      "community": 183,
+      "norm_label": "proposal.md"
+    },
+    {
+      "label": "Why",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/proposal.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_proposal_why",
+      "community": 183,
+      "norm_label": "why"
+    },
+    {
+      "label": "What Changes",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/proposal.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_proposal_what_changes",
+      "community": 183,
+      "norm_label": "what changes"
+    },
+    {
+      "label": "Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/proposal.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_proposal_capabilities",
+      "community": 183,
+      "norm_label": "capabilities"
+    },
+    {
+      "label": "New Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/proposal.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_proposal_new_capabilities",
+      "community": 183,
+      "norm_label": "new capabilities"
+    },
+    {
+      "label": "Modified Capabilities",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/proposal.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_proposal_modified_capabilities",
+      "community": 183,
+      "norm_label": "modified capabilities"
+    },
+    {
+      "label": "Impact",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/proposal.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_proposal_impact",
+      "community": 183,
+      "norm_label": "impact"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/specs/ci-quality-gate/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec",
+      "community": 125,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "ADDED Requirements",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/specs/ci-quality-gate/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_added_requirements",
+      "community": 125,
+      "norm_label": "added requirements"
+    },
+    {
+      "label": "Requirement: El repositorio ejecuta chequeos autom\u00e1ticos de calidad en cada push",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/specs/ci-quality-gate/spec.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_requirement_el_repositorio_ejecuta_chequeos_autom\u00e1ticos_de_calidad_en_cada_push",
+      "community": 125,
+      "norm_label": "requirement: el repositorio ejecuta chequeos automaticos de calidad en cada push"
+    },
+    {
+      "label": "Scenario: Se pushea un commit a main",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/specs/ci-quality-gate/spec.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_scenario_se_pushea_un_commit_a_main",
+      "community": 125,
+      "norm_label": "scenario: se pushea un commit a main"
+    },
+    {
+      "label": "Requirement: El CI arranca en verde sobre el estado actual del repositorio",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/specs/ci-quality-gate/spec.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_requirement_el_ci_arranca_en_verde_sobre_el_estado_actual_del_repositorio",
+      "community": 125,
+      "norm_label": "requirement: el ci arranca en verde sobre el estado actual del repositorio"
+    },
+    {
+      "label": "Scenario: Primera corrida del CI",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/specs/ci-quality-gate/spec.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_scenario_primera_corrida_del_ci",
+      "community": 125,
+      "norm_label": "scenario: primera corrida del ci"
+    },
+    {
+      "label": "Requirement: Los hallazgos de accesibilidad descubiertos pero no corregidos quedan documentados",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/specs/ci-quality-gate/spec.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_requirement_los_hallazgos_de_accesibilidad_descubiertos_pero_no_corregidos_quedan_documentados",
+      "community": 125,
+      "norm_label": "requirement: los hallazgos de accesibilidad descubiertos pero no corregidos quedan documentados"
+    },
+    {
+      "label": "Scenario: Se desactiva una regla por un hallazgo real",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/specs/ci-quality-gate/spec.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_scenario_se_desactiva_una_regla_por_un_hallazgo_real",
+      "community": 125,
+      "norm_label": "scenario: se desactiva una regla por un hallazgo real"
+    },
+    {
+      "label": "tasks.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_tasks",
+      "community": 189,
+      "norm_label": "tasks.md"
+    },
+    {
+      "label": "1. Fix trivial requerido",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_tasks_1_fix_trivial_requerido",
+      "community": 189,
+      "norm_label": "1. fix trivial requerido"
+    },
+    {
+      "label": "2. Configuraci\u00f3n de linting",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/tasks.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_tasks_2_configuraci\u00f3n_de_linting",
+      "community": 189,
+      "norm_label": "2. configuracion de linting"
+    },
+    {
+      "label": "3. Workflow de GitHub Actions",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/tasks.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_tasks_3_workflow_de_github_actions",
+      "community": 189,
+      "norm_label": "3. workflow de github actions"
+    },
+    {
+      "label": "4. Verificaci\u00f3n y deploy",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/tasks.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_add_minimal_ci_tasks_4_verificaci\u00f3n_y_deploy",
+      "community": 189,
+      "norm_label": "4. verificacion y deploy"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "openspec/specs/ci-quality-gate/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_specs_ci_quality_gate_spec",
+      "community": 101,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "Purpose",
+      "file_type": "document",
+      "source_file": "openspec/specs/ci-quality-gate/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_specs_ci_quality_gate_spec_purpose",
+      "community": 101,
+      "norm_label": "purpose"
+    },
+    {
+      "label": "Requirements",
+      "file_type": "document",
+      "source_file": "openspec/specs/ci-quality-gate/spec.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "openspec_specs_ci_quality_gate_spec_requirements",
+      "community": 101,
+      "norm_label": "requirements"
+    },
+    {
+      "label": "Requirement: El repositorio ejecuta chequeos autom\u00e1ticos de calidad en cada push",
+      "file_type": "document",
+      "source_file": "openspec/specs/ci-quality-gate/spec.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "openspec_specs_ci_quality_gate_spec_requirement_el_repositorio_ejecuta_chequeos_autom\u00e1ticos_de_calidad_en_cada_push",
+      "community": 101,
+      "norm_label": "requirement: el repositorio ejecuta chequeos automaticos de calidad en cada push"
+    },
+    {
+      "label": "Scenario: Se pushea un commit a main",
+      "file_type": "document",
+      "source_file": "openspec/specs/ci-quality-gate/spec.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "openspec_specs_ci_quality_gate_spec_scenario_se_pushea_un_commit_a_main",
+      "community": 101,
+      "norm_label": "scenario: se pushea un commit a main"
+    },
+    {
+      "label": "Requirement: El CI arranca en verde sobre el estado actual del repositorio",
+      "file_type": "document",
+      "source_file": "openspec/specs/ci-quality-gate/spec.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "openspec_specs_ci_quality_gate_spec_requirement_el_ci_arranca_en_verde_sobre_el_estado_actual_del_repositorio",
+      "community": 101,
+      "norm_label": "requirement: el ci arranca en verde sobre el estado actual del repositorio"
+    },
+    {
+      "label": "Scenario: Primera corrida del CI",
+      "file_type": "document",
+      "source_file": "openspec/specs/ci-quality-gate/spec.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "openspec_specs_ci_quality_gate_spec_scenario_primera_corrida_del_ci",
+      "community": 101,
+      "norm_label": "scenario: primera corrida del ci"
+    },
+    {
+      "label": "Requirement: Los hallazgos de accesibilidad descubiertos pero no corregidos quedan documentados",
+      "file_type": "document",
+      "source_file": "openspec/specs/ci-quality-gate/spec.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "openspec_specs_ci_quality_gate_spec_requirement_los_hallazgos_de_accesibilidad_descubiertos_pero_no_corregidos_quedan_documentados",
+      "community": 101,
+      "norm_label": "requirement: los hallazgos de accesibilidad descubiertos pero no corregidos quedan documentados"
+    },
+    {
+      "label": "Scenario: Se desactiva una regla por un hallazgo real",
+      "file_type": "document",
+      "source_file": "openspec/specs/ci-quality-gate/spec.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "openspec_specs_ci_quality_gate_spec_scenario_se_desactiva_una_regla_por_un_hallazgo_real",
+      "community": 101,
+      "norm_label": "scenario: se desactiva una regla por un hallazgo real"
+    },
+    {
       "label": ".htmlvalidate.json",
       "file_type": "code",
       "source_file": ".htmlvalidate.json",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "htmlvalidate",
       "community": 128,
-      "norm_label": ".htmlvalidate.json"
+      "norm_label": ".htmlvalidate.json",
+      "id": "htmlvalidate"
     },
     {
       "label": "extends",
@@ -85,9 +445,9 @@
       "source_file": ".htmlvalidate.json",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "htmlvalidate_extends",
       "community": 128,
-      "norm_label": "extends"
+      "norm_label": "extends",
+      "id": "htmlvalidate_extends"
     },
     {
       "label": "rules",
@@ -95,9 +455,9 @@
       "source_file": ".htmlvalidate.json",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "htmlvalidate_rules",
       "community": 128,
-      "norm_label": "rules"
+      "norm_label": "rules",
+      "id": "htmlvalidate_rules"
     },
     {
       "label": "void-style",
@@ -105,9 +465,9 @@
       "source_file": ".htmlvalidate.json",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "htmlvalidate_rules_void_style",
       "community": 128,
-      "norm_label": "void-style"
+      "norm_label": "void-style",
+      "id": "htmlvalidate_rules_void_style"
     },
     {
       "label": "prefer-native-element",
@@ -115,9 +475,9 @@
       "source_file": ".htmlvalidate.json",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "htmlvalidate_rules_prefer_native_element",
       "community": 128,
-      "norm_label": "prefer-native-element"
+      "norm_label": "prefer-native-element",
+      "id": "htmlvalidate_rules_prefer_native_element"
     },
     {
       "label": "aria-label-misuse",
@@ -125,9 +485,9 @@
       "source_file": ".htmlvalidate.json",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "htmlvalidate_rules_aria_label_misuse",
       "community": 128,
-      "norm_label": "aria-label-misuse"
+      "norm_label": "aria-label-misuse",
+      "id": "htmlvalidate_rules_aria_label_misuse"
     },
     {
       "label": "hidden-focusable",
@@ -135,9 +495,9 @@
       "source_file": ".htmlvalidate.json",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "htmlvalidate_rules_hidden_focusable",
       "community": 128,
-      "norm_label": "hidden-focusable"
+      "norm_label": "hidden-focusable",
+      "id": "htmlvalidate_rules_hidden_focusable"
     },
     {
       "label": "unique-landmark",
@@ -145,9 +505,9 @@
       "source_file": ".htmlvalidate.json",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "htmlvalidate_rules_unique_landmark",
       "community": 128,
-      "norm_label": "unique-landmark"
+      "norm_label": "unique-landmark",
+      "id": "htmlvalidate_rules_unique_landmark"
     },
     {
       "label": "attribute-allowed-values",
@@ -155,9 +515,9 @@
       "source_file": ".htmlvalidate.json",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "htmlvalidate_rules_attribute_allowed_values",
       "community": 128,
-      "norm_label": "attribute-allowed-values"
+      "norm_label": "attribute-allowed-values",
+      "id": "htmlvalidate_rules_attribute_allowed_values"
     },
     {
       "label": "empty-heading",
@@ -165,9 +525,9 @@
       "source_file": ".htmlvalidate.json",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "htmlvalidate_rules_empty_heading",
       "community": 128,
-      "norm_label": "empty-heading"
+      "norm_label": "empty-heading",
+      "id": "htmlvalidate_rules_empty_heading"
     },
     {
       "label": "accesibilidad.md",
@@ -175,9 +535,9 @@
       "source_file": "docs/pendientes/accesibilidad.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_accesibilidad",
       "community": 6,
-      "norm_label": "accesibilidad.md"
+      "norm_label": "accesibilidad.md",
+      "id": "docs_pendientes_accesibilidad"
     },
     {
       "label": "Accesibilidad",
@@ -185,9 +545,9 @@
       "source_file": "docs/pendientes/accesibilidad.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "docs_pendientes_accesibilidad_accesibilidad",
       "community": 6,
-      "norm_label": "accesibilidad"
+      "norm_label": "accesibilidad",
+      "id": "docs_pendientes_accesibilidad_accesibilidad"
     },
     {
       "label": "Resuelto (2026-07-10)",
@@ -195,9 +555,9 @@
       "source_file": "docs/pendientes/accesibilidad.md",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "docs_pendientes_accesibilidad_resuelto_2026_07_10",
       "community": 6,
-      "norm_label": "resuelto (2026-07-10)"
+      "norm_label": "resuelto (2026-07-10)",
+      "id": "docs_pendientes_accesibilidad_resuelto_2026_07_10"
     },
     {
       "label": "Pendiente de revisar",
@@ -205,279 +565,9 @@
       "source_file": "docs/pendientes/accesibilidad.md",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "docs_pendientes_accesibilidad_pendiente_de_revisar",
       "community": 6,
-      "norm_label": "pendiente de revisar"
-    },
-    {
-      "label": "design.md",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/design.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_design",
-      "community": 161,
-      "norm_label": "design.md"
-    },
-    {
-      "label": "Context",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/design.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_design_context",
-      "community": 161,
-      "norm_label": "context"
-    },
-    {
-      "label": "Goals / Non-Goals",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/design.md",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_design_goals_non_goals",
-      "community": 161,
-      "norm_label": "goals / non-goals"
-    },
-    {
-      "label": "Decisions",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/design.md",
-      "source_location": "L23",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_design_decisions",
-      "community": 161,
-      "norm_label": "decisions"
-    },
-    {
-      "label": "Risks / Trade-offs",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/design.md",
-      "source_location": "L38",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_design_risks_trade_offs",
-      "community": 161,
-      "norm_label": "risks / trade-offs"
-    },
-    {
-      "label": "Migration Plan",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/design.md",
-      "source_location": "L44",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_design_migration_plan",
-      "community": 161,
-      "norm_label": "migration plan"
-    },
-    {
-      "label": "Open Questions",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/design.md",
-      "source_location": "L53",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_design_open_questions",
-      "community": 161,
-      "norm_label": "open questions"
-    },
-    {
-      "label": "proposal.md",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/proposal.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_proposal",
-      "community": 183,
-      "norm_label": "proposal.md"
-    },
-    {
-      "label": "Why",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/proposal.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_proposal_why",
-      "community": 183,
-      "norm_label": "why"
-    },
-    {
-      "label": "What Changes",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/proposal.md",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_proposal_what_changes",
-      "community": 183,
-      "norm_label": "what changes"
-    },
-    {
-      "label": "Capabilities",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/proposal.md",
-      "source_location": "L13",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_proposal_capabilities",
-      "community": 183,
-      "norm_label": "capabilities"
-    },
-    {
-      "label": "New Capabilities",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/proposal.md",
-      "source_location": "L15",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_proposal_new_capabilities",
-      "community": 183,
-      "norm_label": "new capabilities"
-    },
-    {
-      "label": "Modified Capabilities",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/proposal.md",
-      "source_location": "L18",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_proposal_modified_capabilities",
-      "community": 183,
-      "norm_label": "modified capabilities"
-    },
-    {
-      "label": "Impact",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/proposal.md",
-      "source_location": "L21",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_proposal_impact",
-      "community": 183,
-      "norm_label": "impact"
-    },
-    {
-      "label": "spec.md",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/specs/ci-quality-gate/spec.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec",
-      "community": 155,
-      "norm_label": "spec.md"
-    },
-    {
-      "label": "ADDED Requirements",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/specs/ci-quality-gate/spec.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_added_requirements",
-      "community": 155,
-      "norm_label": "added requirements"
-    },
-    {
-      "label": "Requirement: El repositorio ejecuta chequeos autom\u00e1ticos de calidad en cada push",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/specs/ci-quality-gate/spec.md",
-      "source_location": "L3",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_requirement_el_repositorio_ejecuta_chequeos_autom\u00e1ticos_de_calidad_en_cada_push",
-      "community": 155,
-      "norm_label": "requirement: el repositorio ejecuta chequeos automaticos de calidad en cada push"
-    },
-    {
-      "label": "Scenario: Se pushea un commit a main",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/specs/ci-quality-gate/spec.md",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_scenario_se_pushea_un_commit_a_main",
-      "community": 155,
-      "norm_label": "scenario: se pushea un commit a main"
-    },
-    {
-      "label": "Requirement: El CI arranca en verde sobre el estado actual del repositorio",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/specs/ci-quality-gate/spec.md",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_requirement_el_ci_arranca_en_verde_sobre_el_estado_actual_del_repositorio",
-      "community": 155,
-      "norm_label": "requirement: el ci arranca en verde sobre el estado actual del repositorio"
-    },
-    {
-      "label": "Scenario: Primera corrida del CI",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/specs/ci-quality-gate/spec.md",
-      "source_location": "L13",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_scenario_primera_corrida_del_ci",
-      "community": 155,
-      "norm_label": "scenario: primera corrida del ci"
-    },
-    {
-      "label": "Requirement: Los hallazgos de accesibilidad descubiertos pero no corregidos quedan documentados",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/specs/ci-quality-gate/spec.md",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_requirement_los_hallazgos_de_accesibilidad_descubiertos_pero_no_corregidos_quedan_documentados",
-      "community": 155,
-      "norm_label": "requirement: los hallazgos de accesibilidad descubiertos pero no corregidos quedan documentados"
-    },
-    {
-      "label": "Scenario: Se desactiva una regla por un hallazgo real",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/specs/ci-quality-gate/spec.md",
-      "source_location": "L20",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_scenario_se_desactiva_una_regla_por_un_hallazgo_real",
-      "community": 155,
-      "norm_label": "scenario: se desactiva una regla por un hallazgo real"
-    },
-    {
-      "label": "tasks.md",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/tasks.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_tasks",
-      "community": 188,
-      "norm_label": "tasks.md"
-    },
-    {
-      "label": "1. Fix trivial requerido",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/tasks.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_tasks_1_fix_trivial_requerido",
-      "community": 188,
-      "norm_label": "1. fix trivial requerido"
-    },
-    {
-      "label": "2. Configuraci\u00f3n de linting",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/tasks.md",
-      "source_location": "L5",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_tasks_2_configuraci\u00f3n_de_linting",
-      "community": 188,
-      "norm_label": "2. configuracion de linting"
-    },
-    {
-      "label": "3. Workflow de GitHub Actions",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/tasks.md",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_tasks_3_workflow_de_github_actions",
-      "community": 188,
-      "norm_label": "3. workflow de github actions"
-    },
-    {
-      "label": "4. Verificaci\u00f3n y deploy",
-      "file_type": "document",
-      "source_file": "openspec/changes/add-minimal-ci/tasks.md",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "openspec_changes_add_minimal_ci_tasks_4_verificaci\u00f3n_y_deploy",
-      "community": 188,
-      "norm_label": "4. verificacion y deploy"
+      "norm_label": "pendiente de revisar",
+      "id": "docs_pendientes_accesibilidad_pendiente_de_revisar"
     },
     {
       "label": "design.md",
@@ -9625,7 +9715,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 73,
+      "community": 71,
       "norm_label": "context.mjs",
       "id": "claude_skills_impeccable_scripts_context"
     },
@@ -9635,7 +9725,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 73,
+      "community": 71,
       "norm_label": "product_names",
       "id": "claude_skills_impeccable_scripts_context_product_names"
     },
@@ -9645,7 +9735,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 73,
+      "community": 71,
       "norm_label": "design_names",
       "id": "claude_skills_impeccable_scripts_context_design_names"
     },
@@ -9655,7 +9745,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L30",
       "_origin": "ast",
-      "community": 73,
+      "community": 71,
       "norm_label": "fallback_dirs",
       "id": "claude_skills_impeccable_scripts_context_fallback_dirs"
     },
@@ -9675,7 +9765,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L32",
       "_origin": "ast",
-      "community": 96,
+      "community": 89,
       "norm_label": "monorepo_fallback_project_dirs",
       "id": "claude_skills_impeccable_scripts_context_monorepo_fallback_project_dirs"
     },
@@ -9695,7 +9785,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L53",
       "_origin": "ast",
-      "community": 73,
+      "community": 71,
       "norm_label": "update_host",
       "id": "claude_skills_impeccable_scripts_context_update_host"
     },
@@ -9715,7 +9805,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L64",
       "_origin": "ast",
-      "community": 81,
+      "community": 80,
       "norm_label": "loadcontext()",
       "id": "claude_skills_impeccable_scripts_context_loadcontext"
     },
@@ -9745,7 +9835,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L130",
       "_origin": "ast",
-      "community": 71,
+      "community": 81,
       "norm_label": "resolvetargetselection()",
       "id": "claude_skills_impeccable_scripts_context_resolvetargetselection"
     },
@@ -9955,7 +10045,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L442",
       "_origin": "ast",
-      "community": 96,
+      "community": 89,
       "norm_label": "resolveworkspaceprojectroot()",
       "id": "claude_skills_impeccable_scripts_context_resolveworkspaceprojectroot"
     },
@@ -9965,7 +10055,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L466",
       "_origin": "ast",
-      "community": 96,
+      "community": 89,
       "norm_label": "isexcludedbyworkspacepattern()",
       "id": "claude_skills_impeccable_scripts_context_isexcludedbyworkspacepattern"
     },
@@ -9975,7 +10065,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L474",
       "_origin": "ast",
-      "community": 96,
+      "community": 89,
       "norm_label": "nearestprojectlikeroot()",
       "id": "claude_skills_impeccable_scripts_context_nearestprojectlikeroot"
     },
@@ -10005,7 +10095,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L508",
       "_origin": "ast",
-      "community": 96,
+      "community": 89,
       "norm_label": "workspacepatternmatchesrel()",
       "id": "claude_skills_impeccable_scripts_context_workspacepatternmatchesrel"
     },
@@ -10015,7 +10105,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L529",
       "_origin": "ast",
-      "community": 73,
+      "community": 120,
       "norm_label": "readworkspacepatterns()",
       "id": "claude_skills_impeccable_scripts_context_readworkspacepatterns"
     },
@@ -10025,7 +10115,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L537",
       "_origin": "ast",
-      "community": 73,
+      "community": 120,
       "norm_label": "readpackageworkspaces()",
       "id": "claude_skills_impeccable_scripts_context_readpackageworkspaces"
     },
@@ -10035,7 +10125,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L545",
       "_origin": "ast",
-      "community": 73,
+      "community": 120,
       "norm_label": "readlernaworkspaces()",
       "id": "claude_skills_impeccable_scripts_context_readlernaworkspaces"
     },
@@ -10045,7 +10135,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L550",
       "_origin": "ast",
-      "community": 73,
+      "community": 120,
       "norm_label": "readpnpmworkspaces()",
       "id": "claude_skills_impeccable_scripts_context_readpnpmworkspaces"
     },
@@ -10055,7 +10145,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L580",
       "_origin": "ast",
-      "community": 73,
+      "community": 120,
       "norm_label": "stripyamlinlinecomment()",
       "id": "claude_skills_impeccable_scripts_context_stripyamlinlinecomment"
     },
@@ -10065,7 +10155,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L593",
       "_origin": "ast",
-      "community": 73,
+      "community": 120,
       "norm_label": "parseyamlflowlist()",
       "id": "claude_skills_impeccable_scripts_context_parseyamlflowlist"
     },
@@ -10075,7 +10165,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L617",
       "_origin": "ast",
-      "community": 73,
+      "community": 120,
       "norm_label": "unquoteyamlvalue()",
       "id": "claude_skills_impeccable_scripts_context_unquoteyamlvalue"
     },
@@ -10085,7 +10175,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L623",
       "_origin": "ast",
-      "community": 73,
+      "community": 120,
       "norm_label": "readjson()",
       "id": "claude_skills_impeccable_scripts_context_readjson"
     },
@@ -10095,7 +10185,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L631",
       "_origin": "ast",
-      "community": 96,
+      "community": 89,
       "norm_label": "projectrootfromworkspacepattern()",
       "id": "claude_skills_impeccable_scripts_context_projectrootfromworkspacepattern"
     },
@@ -10105,7 +10195,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L646",
       "_origin": "ast",
-      "community": 96,
+      "community": 89,
       "norm_label": "projectrootfromdoublestarpattern()",
       "id": "claude_skills_impeccable_scripts_context_projectrootfromdoublestarpattern"
     },
@@ -10115,7 +10205,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L662",
       "_origin": "ast",
-      "community": 96,
+      "community": 89,
       "norm_label": "normalizeworkspacepattern()",
       "id": "claude_skills_impeccable_scripts_context_normalizeworkspacepattern"
     },
@@ -10125,7 +10215,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L670",
       "_origin": "ast",
-      "community": 96,
+      "community": 89,
       "norm_label": "segmentmatches()",
       "id": "claude_skills_impeccable_scripts_context_segmentmatches"
     },
@@ -10145,7 +10235,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L685",
       "_origin": "ast",
-      "community": 81,
+      "community": 80,
       "norm_label": "saferead()",
       "id": "claude_skills_impeccable_scripts_context_saferead"
     },
@@ -10155,7 +10245,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L693",
       "_origin": "ast",
-      "community": 80,
+      "community": 89,
       "norm_label": "escaperegexp()",
       "id": "claude_skills_impeccable_scripts_context_escaperegexp"
     },
@@ -10195,7 +10285,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L760",
       "_origin": "ast",
-      "community": 73,
+      "community": 71,
       "norm_label": "readlocalskillversion()",
       "id": "claude_skills_impeccable_scripts_context_readlocalskillversion"
     },
@@ -10205,7 +10295,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L772",
       "_origin": "ast",
-      "community": 73,
+      "community": 71,
       "norm_label": "readupdatecache()",
       "id": "claude_skills_impeccable_scripts_context_readupdatecache"
     },
@@ -10215,7 +10305,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L780",
       "_origin": "ast",
-      "community": 73,
+      "community": 71,
       "norm_label": "writeupdatecache()",
       "id": "claude_skills_impeccable_scripts_context_writeupdatecache"
     },
@@ -10225,7 +10315,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L790",
       "_origin": "ast",
-      "community": 73,
+      "community": 71,
       "norm_label": "comparesemver()",
       "id": "claude_skills_impeccable_scripts_context_comparesemver"
     },
@@ -10235,7 +10325,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L800",
       "_origin": "ast",
-      "community": 73,
+      "community": 71,
       "norm_label": "fetchlatestskillversion()",
       "id": "claude_skills_impeccable_scripts_context_fetchlatestskillversion"
     },
@@ -10245,7 +10335,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L811",
       "_origin": "ast",
-      "community": 73,
+      "community": 71,
       "norm_label": "buildupdatedirective()",
       "id": "claude_skills_impeccable_scripts_context_buildupdatedirective"
     },
@@ -10255,7 +10345,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L830",
       "_origin": "ast",
-      "community": 73,
+      "community": 71,
       "norm_label": "updatecheckdisabledbyconfig()",
       "id": "claude_skills_impeccable_scripts_context_updatecheckdisabledbyconfig"
     },
@@ -10265,7 +10355,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L841",
       "_origin": "ast",
-      "community": 73,
+      "community": 71,
       "norm_label": "computeupdatedirective()",
       "id": "claude_skills_impeccable_scripts_context_computeupdatedirective"
     },
@@ -10355,7 +10445,7 @@
       "source_file": ".claude/skills/impeccable/scripts/context.mjs",
       "source_location": "L1011",
       "_origin": "ast",
-      "community": 73,
+      "community": 71,
       "norm_label": "invokedasscript()",
       "id": "claude_skills_impeccable_scripts_context_invokedasscript"
     },
@@ -11485,7 +11575,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/design-system.mjs",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 62,
+      "community": 38,
       "norm_label": "resolvedesignsidecarpath()",
       "id": "claude_skills_impeccable_scripts_detector_design_system_resolvedesignsidecarpath"
     },
@@ -11495,7 +11585,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/design-system.mjs",
       "source_location": "L58",
       "_origin": "ast",
-      "community": 62,
+      "community": 38,
       "norm_label": "parsefrontmatter()",
       "id": "claude_skills_impeccable_scripts_detector_design_system_parsefrontmatter"
     },
@@ -11555,7 +11645,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/design-system.mjs",
       "source_location": "L152",
       "_origin": "ast",
-      "community": 62,
+      "community": 38,
       "norm_label": "safereadjson()",
       "id": "claude_skills_impeccable_scripts_detector_design_system_safereadjson"
     },
@@ -11745,7 +11835,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/design-system.mjs",
       "source_location": "L378",
       "_origin": "ast",
-      "community": 62,
+      "community": 38,
       "norm_label": "loaddesignsystemforcwd()",
       "id": "claude_skills_impeccable_scripts_detector_design_system_loaddesignsystemforcwd"
     },
@@ -12125,7 +12215,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L835",
       "_origin": "ast",
-      "community": 101,
+      "community": 45,
       "norm_label": "iscardlikefromprops()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_iscardlikefromprops"
     },
@@ -12145,7 +12235,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L904",
       "_origin": "ast",
-      "community": 45,
+      "community": 50,
       "norm_label": "resolveserif()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_resolveserif"
     },
@@ -12165,7 +12255,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L936",
       "_origin": "ast",
-      "community": 45,
+      "community": 88,
       "norm_label": "isaccentcolor()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_isaccentcolor"
     },
@@ -12175,7 +12265,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L983",
       "_origin": "ast",
-      "community": 45,
+      "community": 88,
       "norm_label": "checkheroeyebrow()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkheroeyebrow"
     },
@@ -12195,7 +12285,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1047",
       "_origin": "ast",
-      "community": 101,
+      "community": 88,
       "norm_label": "checkmotion()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkmotion"
     },
@@ -12255,7 +12345,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1442",
       "_origin": "ast",
-      "community": 101,
+      "community": 45,
       "norm_label": "parseradiustopx()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_parseradiustopx"
     },
@@ -12265,7 +12355,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1456",
       "_origin": "ast",
-      "community": 101,
+      "community": 45,
       "norm_label": "resolveborderradiuspx()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_resolveborderradiuspx"
     },
@@ -12315,7 +12405,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1556",
       "_origin": "ast",
-      "community": 45,
+      "community": 88,
       "norm_label": "checkelementheroeyebrowdom()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementheroeyebrowdom"
     },
@@ -12335,7 +12425,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1620",
       "_origin": "ast",
-      "community": 45,
+      "community": 88,
       "norm_label": "resolvevarrefs()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_resolvevarrefs"
     },
@@ -12425,7 +12515,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1833",
       "_origin": "ast",
-      "community": 101,
+      "community": 88,
       "norm_label": "checkelementmotiondom()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementmotiondom"
     },
@@ -12555,7 +12645,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2389",
       "_origin": "ast",
-      "community": 88,
+      "community": 45,
       "norm_label": "checkpagequalityfromdoc()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkpagequalityfromdoc"
     },
@@ -12565,7 +12655,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2410",
       "_origin": "ast",
-      "community": 88,
+      "community": 45,
       "norm_label": "checkpagequalitydom()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkpagequalitydom"
     },
@@ -12625,7 +12715,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2561",
       "_origin": "ast",
-      "community": 45,
+      "community": 88,
       "norm_label": "checkelementheroeyebrow()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementheroeyebrow"
     },
@@ -12645,7 +12735,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2601",
       "_origin": "ast",
-      "community": 101,
+      "community": 88,
       "norm_label": "checkelementmotion()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementmotion"
     },
@@ -12675,7 +12765,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2679",
       "_origin": "ast",
-      "community": 101,
+      "community": 45,
       "norm_label": "iscardlikedom()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_iscardlikedom"
     },
@@ -12685,7 +12775,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2691",
       "_origin": "ast",
-      "community": 101,
+      "community": 45,
       "norm_label": "checklayout()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checklayout"
     },
@@ -12705,7 +12795,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2798",
       "_origin": "ast",
-      "community": 101,
+      "community": 45,
       "norm_label": "iscardlike()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_iscardlike"
     },
@@ -12715,7 +12805,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2818",
       "_origin": "ast",
-      "community": 101,
+      "community": 45,
       "norm_label": "checkpagelayout()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkpagelayout"
     },
@@ -12865,7 +12955,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L3055",
       "_origin": "ast",
-      "community": 78,
+      "community": 126,
       "norm_label": "classselector()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_classselector"
     },
@@ -13025,7 +13115,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L3265",
       "_origin": "ast",
-      "community": 78,
+      "community": 63,
       "norm_label": "isrenderedforbrowserrule()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_isrenderedforbrowserrule"
     },
@@ -13035,7 +13125,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L3277",
       "_origin": "ast",
-      "community": 78,
+      "community": 126,
       "norm_label": "checkelementtextoverflowdom()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementtextoverflowdom"
     },
@@ -13185,7 +13275,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L3871",
       "_origin": "ast",
-      "community": 78,
+      "community": 63,
       "norm_label": "getdirecttext()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_getdirecttext"
     },
@@ -13195,7 +13285,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L3878",
       "_origin": "ast",
-      "community": 78,
+      "community": 63,
       "norm_label": "getdirecttextrect()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_getdirecttextrect"
     },
@@ -13205,7 +13295,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L3906",
       "_origin": "ast",
-      "community": 78,
+      "community": 63,
       "norm_label": "collectvisualcontrastreasons()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_collectvisualcontrastreasons"
     },
@@ -13215,7 +13305,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L3961",
       "_origin": "ast",
-      "community": 78,
+      "community": 63,
       "norm_label": "collectvisualcontrastcandidates()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_collectvisualcontrastcandidates"
     },
@@ -13245,7 +13335,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4043",
       "_origin": "ast",
-      "community": 94,
+      "community": 63,
       "norm_label": "pickworstcontrastcolor()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_pickworstcontrastcolor"
     },
@@ -13375,7 +13465,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4314",
       "_origin": "ast",
-      "community": 78,
+      "community": 63,
       "norm_label": "textsamplepoints()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_textsamplepoints"
     },
@@ -13395,7 +13485,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4393",
       "_origin": "ast",
-      "community": 78,
+      "community": 63,
       "norm_label": "analyzevisualcontrastcandidate()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_analyzevisualcontrastcandidate"
     },
@@ -13415,7 +13505,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4479",
       "_origin": "ast",
-      "community": 78,
+      "community": 63,
       "norm_label": "analyzevisualcontrast()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_analyzevisualcontrast"
     },
@@ -13765,7 +13855,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/browser/detect-url.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 61,
+      "community": 83,
       "norm_label": "detect-url.mjs",
       "id": "claude_skills_impeccable_scripts_detector_engines_browser_detect_url"
     },
@@ -13775,7 +13865,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/browser/detect-url.mjs",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 61,
+      "community": 83,
       "norm_label": "serializedesignsystemforbrowser()",
       "id": "claude_skills_impeccable_scripts_detector_engines_browser_detect_url_serializedesignsystemforbrowser"
     },
@@ -13785,7 +13875,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/browser/detect-url.mjs",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 61,
+      "community": 83,
       "norm_label": "runvisualcontrastfallback()",
       "id": "claude_skills_impeccable_scripts_detector_engines_browser_detect_url_runvisualcontrastfallback"
     },
@@ -13795,7 +13885,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/browser/detect-url.mjs",
       "source_location": "L106",
       "_origin": "ast",
-      "community": 61,
+      "community": 83,
       "norm_label": "detecturl()",
       "id": "claude_skills_impeccable_scripts_detector_engines_browser_detect_url_detecturl"
     },
@@ -13905,7 +13995,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/regex/detect-text.mjs",
       "source_location": "L46",
       "_origin": "ast",
-      "community": 61,
+      "community": 187,
       "norm_label": "isneutralbordercolor()",
       "id": "claude_skills_impeccable_scripts_detector_engines_regex_detect_text_isneutralbordercolor"
     },
@@ -14275,7 +14365,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L721",
       "_origin": "ast",
-      "community": 89,
+      "community": 44,
       "norm_label": "staticelement",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticelement"
     },
@@ -14285,7 +14375,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L722",
       "_origin": "ast",
-      "community": 89,
+      "community": 44,
       "norm_label": ".constructor()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticelement_constructor"
     },
@@ -14295,7 +14385,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L729",
       "_origin": "ast",
-      "community": 89,
+      "community": 44,
       "norm_label": ".parentelement()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticelement_parentelement"
     },
@@ -14305,7 +14395,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L734",
       "_origin": "ast",
-      "community": 89,
+      "community": 44,
       "norm_label": ".previouselementsibling()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticelement_previouselementsibling"
     },
@@ -14315,7 +14405,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L739",
       "_origin": "ast",
-      "community": 89,
+      "community": 44,
       "norm_label": ".children()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticelement_children"
     },
@@ -14325,7 +14415,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L742",
       "_origin": "ast",
-      "community": 89,
+      "community": 44,
       "norm_label": ".childnodes()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticelement_childnodes"
     },
@@ -14335,7 +14425,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L749",
       "_origin": "ast",
-      "community": 89,
+      "community": 44,
       "norm_label": ".textcontent()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticelement_textcontent"
     },
@@ -14345,7 +14435,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L752",
       "_origin": "ast",
-      "community": 89,
+      "community": 44,
       "norm_label": ".classname()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticelement_classname"
     },
@@ -14355,7 +14445,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L755",
       "_origin": "ast",
-      "community": 89,
+      "community": 44,
       "norm_label": ".id()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticelement_id"
     },
@@ -14365,7 +14455,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L758",
       "_origin": "ast",
-      "community": 89,
+      "community": 44,
       "norm_label": ".getattribute()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticelement_getattribute"
     },
@@ -14375,7 +14465,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L761",
       "_origin": "ast",
-      "community": 89,
+      "community": 44,
       "norm_label": ".queryselector()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticelement_queryselector"
     },
@@ -14385,7 +14475,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L769",
       "_origin": "ast",
-      "community": 89,
+      "community": 44,
       "norm_label": ".queryselectorall()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticelement_queryselectorall"
     },
@@ -14395,7 +14485,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L776",
       "_origin": "ast",
-      "community": 89,
+      "community": 44,
       "norm_label": ".closest()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticelement_closest"
     },
@@ -14405,7 +14495,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L789",
       "_origin": "ast",
-      "community": 89,
+      "community": 44,
       "norm_label": ".contains()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticelement_contains"
     },
@@ -14555,7 +14645,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/detect-html.mjs",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 50,
+      "community": 61,
       "norm_label": "checkstaticpagetypography()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_detect_html_checkstaticpagetypography"
     },
@@ -14595,7 +14685,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/visual/screenshot-contrast.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 61,
+      "community": 83,
       "norm_label": "screenshot-contrast.mjs",
       "id": "claude_skills_impeccable_scripts_detector_engines_visual_screenshot_contrast"
     },
@@ -14605,7 +14695,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/visual/screenshot-contrast.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 61,
+      "community": 83,
       "norm_label": "sanitizescreenshotclip()",
       "id": "claude_skills_impeccable_scripts_detector_engines_visual_screenshot_contrast_sanitizescreenshotclip"
     },
@@ -14615,7 +14705,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/visual/screenshot-contrast.mjs",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 61,
+      "community": 83,
       "norm_label": "comparescreenshotcontrast()",
       "id": "claude_skills_impeccable_scripts_detector_engines_visual_screenshot_contrast_comparescreenshotcontrast"
     },
@@ -14625,7 +14715,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/visual/screenshot-contrast.mjs",
       "source_location": "L108",
       "_origin": "ast",
-      "community": 61,
+      "community": 83,
       "norm_label": "capturevisualcontrastcandidate()",
       "id": "claude_skills_impeccable_scripts_detector_engines_visual_screenshot_contrast_capturevisualcontrastcandidate"
     },
@@ -14765,7 +14855,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 61,
+      "community": 83,
       "norm_label": "profiler.mjs",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler"
     },
@@ -14775,7 +14865,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 61,
+      "community": 83,
       "norm_label": "profilenow()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_profilenow"
     },
@@ -14785,7 +14875,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 61,
+      "community": 83,
       "norm_label": "createdetectorprofile()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_createdetectorprofile"
     },
@@ -14795,7 +14885,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 61,
+      "community": 83,
       "norm_label": "recordprofileevent()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_recordprofileevent"
     },
@@ -14805,7 +14895,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L36",
       "_origin": "ast",
-      "community": 61,
+      "community": 83,
       "norm_label": "extractfindingids()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_extractfindingids"
     },
@@ -14815,7 +14905,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 61,
+      "community": 83,
       "norm_label": "profilefindings()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_profilefindings"
     },
@@ -14825,7 +14915,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L54",
       "_origin": "ast",
-      "community": 61,
+      "community": 83,
       "norm_label": "profilestep()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_profilestep"
     },
@@ -14835,7 +14925,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L68",
       "_origin": "ast",
-      "community": 61,
+      "community": 83,
       "norm_label": "profilefindingsasync()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_profilefindingsasync"
     },
@@ -14845,7 +14935,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L81",
       "_origin": "ast",
-      "community": 61,
+      "community": 83,
       "norm_label": "profilestepasync()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_profilestepasync"
     },
@@ -14855,7 +14945,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L95",
       "_origin": "ast",
-      "community": 61,
+      "community": 83,
       "norm_label": "percentile()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_percentile"
     },
@@ -14865,7 +14955,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/profile/profiler.mjs",
       "source_location": "L104",
       "_origin": "ast",
-      "community": 61,
+      "community": 83,
       "norm_label": "summarizedetectorprofile()",
       "id": "claude_skills_impeccable_scripts_detector_profile_profiler_summarizedetectorprofile"
     },
@@ -14945,7 +15035,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/registry/antipatterns.mjs",
       "source_location": "L476",
       "_origin": "ast",
-      "community": 61,
+      "community": 62,
       "norm_label": "filterbyproviders()",
       "id": "claude_skills_impeccable_scripts_detector_registry_antipatterns_filterbyproviders"
     },
@@ -14985,7 +15075,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 50,
+      "community": 187,
       "norm_label": "checkborders()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkborders"
     },
@@ -15095,7 +15185,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L366",
       "_origin": "ast",
-      "community": 34,
+      "community": 88,
       "norm_label": "layout_transition_props",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_layout_transition_props"
     },
@@ -15185,7 +15275,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L792",
       "_origin": "ast",
-      "community": 50,
+      "community": 187,
       "norm_label": "checkelementbordersdom()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkelementbordersdom"
     },
@@ -15385,7 +15475,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L1258",
       "_origin": "ast",
-      "community": 34,
+      "community": 166,
       "norm_label": "quality_text_tags",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_quality_text_tags"
     },
@@ -15535,7 +15625,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L1755",
       "_origin": "ast",
-      "community": 50,
+      "community": 187,
       "norm_label": "checkelementborders()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkelementborders"
     },
@@ -15945,7 +16035,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L2531",
       "_origin": "ast",
-      "community": 34,
+      "community": 188,
       "norm_label": "metriclengthpx()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_metriclengthpx"
     },
@@ -15955,7 +16045,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L2537",
       "_origin": "ast",
-      "community": 34,
+      "community": 188,
       "norm_label": "firstmetriclengthpx()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_firstmetriclengthpx"
     },
@@ -15965,7 +16055,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L2545",
       "_origin": "ast",
-      "community": 34,
+      "community": 188,
       "norm_label": "expandboxshorthand()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_expandboxshorthand"
     },
@@ -15975,7 +16065,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L2552",
       "_origin": "ast",
-      "community": 34,
+      "community": 188,
       "norm_label": "clippedbyinset()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_clippedbyinset"
     },
@@ -15985,7 +16075,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L2564",
       "_origin": "ast",
-      "community": 34,
+      "community": 188,
       "norm_label": "clippedbyrect()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_clippedbyrect"
     },
@@ -15995,7 +16085,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L2574",
       "_origin": "ast",
-      "community": 34,
+      "community": 188,
       "norm_label": "isscreenreaderonlytextstyle()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_isscreenreaderonlytextstyle"
     },
@@ -16035,7 +16125,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/color.mjs",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 61,
+      "community": 187,
       "norm_label": "isneutralcolor()",
       "id": "claude_skills_impeccable_scripts_detector_shared_color_isneutralcolor"
     },
@@ -16125,7 +16215,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/constants.mjs",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 101,
+      "community": 34,
       "norm_label": "safe_tags",
       "id": "claude_skills_impeccable_scripts_detector_shared_constants_safe_tags"
     },
@@ -16135,7 +16225,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/constants.mjs",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 50,
+      "community": 187,
       "norm_label": "border_safe_tags",
       "id": "claude_skills_impeccable_scripts_detector_shared_constants_border_safe_tags"
     },
@@ -16255,7 +16345,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 120,
+      "community": 61,
       "norm_label": "inline-ignores.mjs",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores"
     },
@@ -16265,7 +16355,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L42",
       "_origin": "ast",
-      "community": 120,
+      "community": 61,
       "norm_label": "normalizerule()",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores_normalizerule"
     },
@@ -16275,7 +16365,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L50",
       "_origin": "ast",
-      "community": 120,
+      "community": 61,
       "norm_label": "parserulelist()",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores_parserulelist"
     },
@@ -16285,7 +16375,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L60",
       "_origin": "ast",
-      "community": 120,
+      "community": 61,
       "norm_label": "addrules()",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores_addrules"
     },
@@ -16295,7 +16385,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L64",
       "_origin": "ast",
-      "community": 120,
+      "community": 61,
       "norm_label": "getset()",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores_getset"
     },
@@ -16305,7 +16395,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L84",
       "_origin": "ast",
-      "community": 120,
+      "community": 61,
       "norm_label": "parseinlineignores()",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores_parseinlineignores"
     },
@@ -16315,7 +16405,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L115",
       "_origin": "ast",
-      "community": 120,
+      "community": 61,
       "norm_label": "setmatches()",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores_setmatches"
     },
@@ -16325,7 +16415,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L119",
       "_origin": "ast",
-      "community": 120,
+      "community": 61,
       "norm_label": "isinlineignored()",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores_isinlineignored"
     },
@@ -16335,7 +16425,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L131",
       "_origin": "ast",
-      "community": 120,
+      "community": 61,
       "norm_label": "hasdirectives()",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores_hasdirectives"
     },
@@ -16345,7 +16435,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L141",
       "_origin": "ast",
-      "community": 120,
+      "community": 61,
       "norm_label": "applyinlineignores()",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores_applyinlineignores"
     },
@@ -18865,7 +18955,7 @@
       "source_file": ".claude/skills/impeccable/scripts/lib/impeccable-config.mjs",
       "source_location": "L447",
       "_origin": "ast",
-      "community": 42,
+      "community": 62,
       "norm_label": "filterdetectionfindings()",
       "id": "claude_skills_impeccable_scripts_lib_impeccable_config_filterdetectionfindings"
     },
@@ -19255,7 +19345,7 @@
       "source_file": ".claude/skills/impeccable/scripts/lib/provider.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 73,
+      "community": 75,
       "norm_label": "provider.mjs",
       "id": "claude_skills_impeccable_scripts_lib_provider"
     },
@@ -19695,7 +19785,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L164",
       "_origin": "ast",
-      "community": 37,
+      "community": 39,
       "norm_label": "writescrolly()",
       "id": "claude_skills_impeccable_scripts_live_browser_writescrolly"
     },
@@ -19735,7 +19825,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L292",
       "_origin": "ast",
-      "community": 7,
+      "community": 37,
       "norm_label": "shouldshowhighlighttagtooltip()",
       "id": "claude_skills_impeccable_scripts_live_browser_shouldshowhighlighttagtooltip"
     },
@@ -19745,7 +19835,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L297",
       "_origin": "ast",
-      "community": 7,
+      "community": 37,
       "norm_label": "hidehighlighttagtooltip()",
       "id": "claude_skills_impeccable_scripts_live_browser_hidehighlighttagtooltip"
     },
@@ -19755,7 +19845,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L303",
       "_origin": "ast",
-      "community": 7,
+      "community": 37,
       "norm_label": "showhighlight()",
       "id": "claude_skills_impeccable_scripts_live_browser_showhighlight"
     },
@@ -19795,7 +19885,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L449",
       "_origin": "ast",
-      "community": 37,
+      "community": 65,
       "norm_label": "showannotoverlay()",
       "id": "claude_skills_impeccable_scripts_live_browser_showannotoverlay"
     },
@@ -19815,7 +19905,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L467",
       "_origin": "ast",
-      "community": 37,
+      "community": 65,
       "norm_label": "positionannotoverlay()",
       "id": "claude_skills_impeccable_scripts_live_browser_positionannotoverlay"
     },
@@ -19985,7 +20075,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L900",
       "_origin": "ast",
-      "community": 37,
+      "community": 65,
       "norm_label": "extractcontext()",
       "id": "claude_skills_impeccable_scripts_live_browser_extractcontext"
     },
@@ -19995,7 +20085,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L945",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "contextelementformanualedit()",
       "id": "claude_skills_impeccable_scripts_live_browser_contextelementformanualedit"
     },
@@ -20025,7 +20115,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L994",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "addmanualcontexttext()",
       "id": "claude_skills_impeccable_scripts_live_browser_addmanualcontexttext"
     },
@@ -20075,7 +20165,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1093",
       "_origin": "ast",
-      "community": 37,
+      "community": 39,
       "norm_label": "showbar()",
       "id": "claude_skills_impeccable_scripts_live_browser_showbar"
     },
@@ -20245,7 +20335,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1372",
       "_origin": "ast",
-      "community": 37,
+      "community": 43,
       "norm_label": "hideconfigurebartooltip()",
       "id": "claude_skills_impeccable_scripts_live_browser_hideconfigurebartooltip"
     },
@@ -20285,7 +20375,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1405",
       "_origin": "ast",
-      "community": 37,
+      "community": 43,
       "norm_label": "removeconfigureselection()",
       "id": "claude_skills_impeccable_scripts_live_browser_removeconfigureselection"
     },
@@ -20395,7 +20485,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1636",
       "_origin": "ast",
-      "community": 55,
+      "community": 43,
       "norm_label": "layoutflowchildren()",
       "id": "claude_skills_impeccable_scripts_live_browser_layoutflowchildren"
     },
@@ -20465,7 +20555,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1753",
       "_origin": "ast",
-      "community": 55,
+      "community": 7,
       "norm_label": "cursorforinsertaxis()",
       "id": "claude_skills_impeccable_scripts_live_browser_cursorforinsertaxis"
     },
@@ -20535,7 +20625,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1823",
       "_origin": "ast",
-      "community": 74,
+      "community": 7,
       "norm_label": "clampplaceholdersize()",
       "id": "claude_skills_impeccable_scripts_live_browser_clampplaceholdersize"
     },
@@ -20545,7 +20635,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1831",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "cursorforplaceholderedge()",
       "id": "claude_skills_impeccable_scripts_live_browser_cursorforplaceholderedge"
     },
@@ -20555,7 +20645,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1837",
       "_origin": "ast",
-      "community": 74,
+      "community": 7,
       "norm_label": "resizeplaceholderfromedge()",
       "id": "claude_skills_impeccable_scripts_live_browser_resizeplaceholderfromedge"
     },
@@ -20595,7 +20685,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1932",
       "_origin": "ast",
-      "community": 55,
+      "community": 7,
       "norm_label": "setpageinteractioncursor()",
       "id": "claude_skills_impeccable_scripts_live_browser_setpageinteractioncursor"
     },
@@ -20605,7 +20695,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L1952",
       "_origin": "ast",
-      "community": 55,
+      "community": 37,
       "norm_label": "syncpageinteractioncursor()",
       "id": "claude_skills_impeccable_scripts_live_browser_syncpageinteractioncursor"
     },
@@ -20655,7 +20745,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L2017",
       "_origin": "ast",
-      "community": 37,
+      "community": 39,
       "norm_label": "buildinsertplaceholdersnapshotfromdom()",
       "id": "claude_skills_impeccable_scripts_live_browser_buildinsertplaceholdersnapshotfromdom"
     },
@@ -20695,7 +20785,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L2083",
       "_origin": "ast",
-      "community": 74,
+      "community": 39,
       "norm_label": "applyplaceholderdimensions()",
       "id": "claude_skills_impeccable_scripts_live_browser_applyplaceholderdimensions"
     },
@@ -20715,7 +20805,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L2100",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "buildplaceholderresizehandles()",
       "id": "claude_skills_impeccable_scripts_live_browser_buildplaceholderresizehandles"
     },
@@ -20725,7 +20815,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L2130",
       "_origin": "ast",
-      "community": 37,
+      "community": 65,
       "norm_label": "syncplaceholderresizehandles()",
       "id": "claude_skills_impeccable_scripts_live_browser_syncplaceholderresizehandles"
     },
@@ -21015,7 +21105,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3003",
       "_origin": "ast",
-      "community": 83,
+      "community": 39,
       "norm_label": "getvisiblevariantel()",
       "id": "claude_skills_impeccable_scripts_live_browser_getvisiblevariantel"
     },
@@ -21025,7 +21115,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3015",
       "_origin": "ast",
-      "community": 83,
+      "community": 39,
       "norm_label": "parsevariantparams()",
       "id": "claude_skills_impeccable_scripts_live_browser_parsevariantparams"
     },
@@ -21035,7 +21125,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3037",
       "_origin": "ast",
-      "community": 83,
+      "community": 7,
       "norm_label": "applyparamvalue()",
       "id": "claude_skills_impeccable_scripts_live_browser_applyparamvalue"
     },
@@ -21045,7 +21135,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3062",
       "_origin": "ast",
-      "community": 83,
+      "community": 39,
       "norm_label": "applyparamdefaults()",
       "id": "claude_skills_impeccable_scripts_live_browser_applyparamdefaults"
     },
@@ -21055,7 +21145,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3070",
       "_origin": "ast",
-      "community": 83,
+      "community": 55,
       "norm_label": "formatrangevalue()",
       "id": "claude_skills_impeccable_scripts_live_browser_formatrangevalue"
     },
@@ -21065,7 +21155,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3077",
       "_origin": "ast",
-      "community": 83,
+      "community": 55,
       "norm_label": "buildparamspanel()",
       "id": "claude_skills_impeccable_scripts_live_browser_buildparamspanel"
     },
@@ -21205,7 +21295,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3437",
       "_origin": "ast",
-      "community": 37,
+      "community": 65,
       "norm_label": "buildlocatorforleaf()",
       "id": "claude_skills_impeccable_scripts_live_browser_buildlocatorforleaf"
     },
@@ -21325,7 +21415,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3588",
       "_origin": "ast",
-      "community": 7,
+      "community": 65,
       "norm_label": "forbiddenmanualtextchars()",
       "id": "claude_skills_impeccable_scripts_live_browser_forbiddenmanualtextchars"
     },
@@ -21335,7 +21425,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3596",
       "_origin": "ast",
-      "community": 37,
+      "community": 65,
       "norm_label": "applyediting()",
       "id": "claude_skills_impeccable_scripts_live_browser_applyediting"
     },
@@ -21355,7 +21445,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3675",
       "_origin": "ast",
-      "community": 55,
+      "community": 68,
       "norm_label": "positionpendingdock()",
       "id": "claude_skills_impeccable_scripts_live_browser_positionpendingdock"
     },
@@ -21545,7 +21635,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L3942",
       "_origin": "ast",
-      "community": 47,
+      "community": 65,
       "norm_label": "maybeshowfirstsavetoast()",
       "id": "claude_skills_impeccable_scripts_live_browser_maybeshowfirstsavetoast"
     },
@@ -21865,7 +21955,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4634",
       "_origin": "ast",
-      "community": 83,
+      "community": 7,
       "norm_label": "popoverdirection()",
       "id": "claude_skills_impeccable_scripts_live_browser_popoverdirection"
     },
@@ -21875,7 +21965,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4650",
       "_origin": "ast",
-      "community": 83,
+      "community": 7,
       "norm_label": "closedclippath()",
       "id": "claude_skills_impeccable_scripts_live_browser_closedclippath"
     },
@@ -21885,7 +21975,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4654",
       "_origin": "ast",
-      "community": 83,
+      "community": 7,
       "norm_label": "setclippath()",
       "id": "claude_skills_impeccable_scripts_live_browser_setclippath"
     },
@@ -21895,7 +21985,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4664",
       "_origin": "ast",
-      "community": 83,
+      "community": 7,
       "norm_label": "positionparamspanel()",
       "id": "claude_skills_impeccable_scripts_live_browser_positionparamspanel"
     },
@@ -21905,7 +21995,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4696",
       "_origin": "ast",
-      "community": 83,
+      "community": 7,
       "norm_label": "showparamspanel()",
       "id": "claude_skills_impeccable_scripts_live_browser_showparamspanel"
     },
@@ -21915,7 +22005,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4706",
       "_origin": "ast",
-      "community": 83,
+      "community": 7,
       "norm_label": "hideparamspanel()",
       "id": "claude_skills_impeccable_scripts_live_browser_hideparamspanel"
     },
@@ -21925,7 +22015,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4716",
       "_origin": "ast",
-      "community": 83,
+      "community": 39,
       "norm_label": "refreshparamspanel()",
       "id": "claude_skills_impeccable_scripts_live_browser_refreshparamspanel"
     },
@@ -21945,7 +22035,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4752",
       "_origin": "ast",
-      "community": 83,
+      "community": 39,
       "norm_label": "opentunepopover()",
       "id": "claude_skills_impeccable_scripts_live_browser_opentunepopover"
     },
@@ -22015,7 +22105,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4838",
       "_origin": "ast",
-      "community": 39,
+      "community": 155,
       "norm_label": "parseoriginalmarkupelement()",
       "id": "claude_skills_impeccable_scripts_live_browser_parseoriginalmarkupelement"
     },
@@ -22025,7 +22115,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4844",
       "_origin": "ast",
-      "community": 39,
+      "community": 155,
       "norm_label": "normalizeelementclassname()",
       "id": "claude_skills_impeccable_scripts_live_browser_normalizeelementclassname"
     },
@@ -22035,7 +22125,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4856",
       "_origin": "ast",
-      "community": 7,
+      "community": 39,
       "norm_label": "buildpickedanchorsnapshot()",
       "id": "claude_skills_impeccable_scripts_live_browser_buildpickedanchorsnapshot"
     },
@@ -22045,7 +22135,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4866",
       "_origin": "ast",
-      "community": 39,
+      "community": 155,
       "norm_label": "isusableinjectionanchor()",
       "id": "claude_skills_impeccable_scripts_live_browser_isusableinjectionanchor"
     },
@@ -22055,7 +22145,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4874",
       "_origin": "ast",
-      "community": 39,
+      "community": 155,
       "norm_label": "elementmatchesoriginalmarkup()",
       "id": "claude_skills_impeccable_scripts_live_browser_elementmatchesoriginalmarkup"
     },
@@ -22065,7 +22155,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4895",
       "_origin": "ast",
-      "community": 39,
+      "community": 155,
       "norm_label": "findliveelementfromanchorsnapshot()",
       "id": "claude_skills_impeccable_scripts_live_browser_findliveelementfromanchorsnapshot"
     },
@@ -22075,7 +22165,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4918",
       "_origin": "ast",
-      "community": 39,
+      "community": 155,
       "norm_label": "findliveelementfororiginalmarkup()",
       "id": "claude_skills_impeccable_scripts_live_browser_findliveelementfororiginalmarkup"
     },
@@ -22085,7 +22175,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L4958",
       "_origin": "ast",
-      "community": 39,
+      "community": 155,
       "norm_label": "resolveliveinjectionanchor()",
       "id": "claude_skills_impeccable_scripts_live_browser_resolveliveinjectionanchor"
     },
@@ -22485,7 +22575,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L5821",
       "_origin": "ast",
-      "community": 83,
+      "community": 7,
       "norm_label": "variantstateselector()",
       "id": "claude_skills_impeccable_scripts_live_browser_variantstateselector"
     },
@@ -22495,7 +22585,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L5832",
       "_origin": "ast",
-      "community": 83,
+      "community": 7,
       "norm_label": "variantparamdecls()",
       "id": "claude_skills_impeccable_scripts_live_browser_variantparamdecls"
     },
@@ -22505,7 +22595,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L5842",
       "_origin": "ast",
-      "community": 83,
+      "community": 7,
       "norm_label": "updatevariantstatestylesheet()",
       "id": "claude_skills_impeccable_scripts_live_browser_updatevariantstatestylesheet"
     },
@@ -22525,7 +22615,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L5870",
       "_origin": "ast",
-      "community": 37,
+      "community": 39,
       "norm_label": "startscrolllock()",
       "id": "claude_skills_impeccable_scripts_live_browser_startscrolllock"
     },
@@ -22555,7 +22645,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6093",
       "_origin": "ast",
-      "community": 37,
+      "community": 39,
       "norm_label": "startscrolltracking()",
       "id": "claude_skills_impeccable_scripts_live_browser_startscrolltracking"
     },
@@ -22605,7 +22695,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6304",
       "_origin": "ast",
-      "community": 37,
+      "community": 39,
       "norm_label": "checkpointpayload()",
       "id": "claude_skills_impeccable_scripts_live_browser_checkpointpayload"
     },
@@ -22615,7 +22705,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6323",
       "_origin": "ast",
-      "community": 37,
+      "community": 39,
       "norm_label": "sendcheckpoint()",
       "id": "claude_skills_impeccable_scripts_live_browser_sendcheckpoint"
     },
@@ -22645,7 +22735,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6355",
       "_origin": "ast",
-      "community": 55,
+      "community": 37,
       "norm_label": "handlemousemove()",
       "id": "claude_skills_impeccable_scripts_live_browser_handlemousemove"
     },
@@ -22665,7 +22755,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6479",
       "_origin": "ast",
-      "community": 47,
+      "community": 37,
       "norm_label": "maybewarnconditionalancestor()",
       "id": "claude_skills_impeccable_scripts_live_browser_maybewarnconditionalancestor"
     },
@@ -22705,7 +22795,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6669",
       "_origin": "ast",
-      "community": 37,
+      "community": 39,
       "norm_label": "handlego()",
       "id": "claude_skills_impeccable_scripts_live_browser_handlego"
     },
@@ -22725,7 +22815,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L6745",
       "_origin": "ast",
-      "community": 37,
+      "community": 39,
       "norm_label": "handleinsertcreate()",
       "id": "claude_skills_impeccable_scripts_live_browser_handleinsertcreate"
     },
@@ -22865,7 +22955,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7107",
       "_origin": "ast",
-      "community": 37,
+      "community": 39,
       "norm_label": "captureandemit()",
       "id": "claude_skills_impeccable_scripts_live_browser_captureandemit"
     },
@@ -22945,7 +23035,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7353",
       "_origin": "ast",
-      "community": 7,
+      "community": 39,
       "norm_label": "compileshader()",
       "id": "claude_skills_impeccable_scripts_live_browser_compileshader"
     },
@@ -22975,7 +23065,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7386",
       "_origin": "ast",
-      "community": 7,
+      "community": 39,
       "norm_label": "showshaderbitmapfallback()",
       "id": "claude_skills_impeccable_scripts_live_browser_showshaderbitmapfallback"
     },
@@ -22985,7 +23075,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7405",
       "_origin": "ast",
-      "community": 7,
+      "community": 39,
       "norm_label": "showshaderoverlay()",
       "id": "claude_skills_impeccable_scripts_live_browser_showshaderoverlay"
     },
@@ -22995,7 +23085,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7517",
       "_origin": "ast",
-      "community": 43,
+      "community": 37,
       "norm_label": "handleaccept()",
       "id": "claude_skills_impeccable_scripts_live_browser_handleaccept"
     },
@@ -23015,7 +23105,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7588",
       "_origin": "ast",
-      "community": 187,
+      "community": 7,
       "norm_label": "scheduleacceptcleanup()",
       "id": "claude_skills_impeccable_scripts_live_browser_scheduleacceptcleanup"
     },
@@ -23045,7 +23135,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7623",
       "_origin": "ast",
-      "community": 187,
+      "community": 7,
       "norm_label": "accepteddomalreadyclean()",
       "id": "claude_skills_impeccable_scripts_live_browser_accepteddomalreadyclean"
     },
@@ -23055,7 +23145,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7630",
       "_origin": "ast",
-      "community": 187,
+      "community": 7,
       "norm_label": "ensureaccepteddomclean()",
       "id": "claude_skills_impeccable_scripts_live_browser_ensureaccepteddomclean"
     },
@@ -23065,7 +23155,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7656",
       "_origin": "ast",
-      "community": 187,
+      "community": 7,
       "norm_label": "findacceptedruntimewrappers()",
       "id": "claude_skills_impeccable_scripts_live_browser_findacceptedruntimewrappers"
     },
@@ -23075,7 +23165,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7664",
       "_origin": "ast",
-      "community": 187,
+      "community": 7,
       "norm_label": "restoreaccepteddomfromsnapshot()",
       "id": "claude_skills_impeccable_scripts_live_browser_restoreaccepteddomfromsnapshot"
     },
@@ -23085,7 +23175,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7686",
       "_origin": "ast",
-      "community": 187,
+      "community": 7,
       "norm_label": "reloadaftermissingaccepteddom()",
       "id": "claude_skills_impeccable_scripts_live_browser_reloadaftermissingaccepteddom"
     },
@@ -23115,7 +23205,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7732",
       "_origin": "ast",
-      "community": 47,
+      "community": 37,
       "norm_label": "handlediscard()",
       "id": "claude_skills_impeccable_scripts_live_browser_handlediscard"
     },
@@ -23225,7 +23315,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7873",
       "_origin": "ast",
-      "community": 37,
+      "community": 39,
       "norm_label": "restorefromactivesessions()",
       "id": "claude_skills_impeccable_scripts_live_browser_restorefromactivesessions"
     },
@@ -23305,7 +23395,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7976",
       "_origin": "ast",
-      "community": 47,
+      "community": 39,
       "norm_label": "dismisstoast()",
       "id": "claude_skills_impeccable_scripts_live_browser_dismisstoast"
     },
@@ -23315,7 +23405,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L7982",
       "_origin": "ast",
-      "community": 47,
+      "community": 37,
       "norm_label": "showtoast()",
       "id": "claude_skills_impeccable_scripts_live_browser_showtoast"
     },
@@ -23485,7 +23575,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8436",
       "_origin": "ast",
-      "community": 125,
+      "community": 47,
       "norm_label": "shouldfocussteerchat()",
       "id": "claude_skills_impeccable_scripts_live_browser_shouldfocussteerchat"
     },
@@ -23495,7 +23585,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8442",
       "_origin": "ast",
-      "community": 125,
+      "community": 7,
       "norm_label": "ispageeditableelement()",
       "id": "claude_skills_impeccable_scripts_live_browser_ispageeditableelement"
     },
@@ -23505,7 +23595,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8448",
       "_origin": "ast",
-      "community": 125,
+      "community": 7,
       "norm_label": "isinlineeditactive()",
       "id": "claude_skills_impeccable_scripts_live_browser_isinlineeditactive"
     },
@@ -23515,7 +23605,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8452",
       "_origin": "ast",
-      "community": 125,
+      "community": 7,
       "norm_label": "ispageeditableactive()",
       "id": "claude_skills_impeccable_scripts_live_browser_ispageeditableactive"
     },
@@ -23525,7 +23615,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8457",
       "_origin": "ast",
-      "community": 125,
+      "community": 47,
       "norm_label": "pagehashosttextselection()",
       "id": "claude_skills_impeccable_scripts_live_browser_pagehashosttextselection"
     },
@@ -23535,7 +23625,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8467",
       "_origin": "ast",
-      "community": 125,
+      "community": 7,
       "norm_label": "shouldsteerautofocus()",
       "id": "claude_skills_impeccable_scripts_live_browser_shouldsteerautofocus"
     },
@@ -23545,7 +23635,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8474",
       "_origin": "ast",
-      "community": 125,
+      "community": 47,
       "norm_label": "clearsteerfocusrecovertimer()",
       "id": "claude_skills_impeccable_scripts_live_browser_clearsteerfocusrecovertimer"
     },
@@ -23555,7 +23645,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8481",
       "_origin": "ast",
-      "community": 125,
+      "community": 47,
       "norm_label": "schedulesteerfocusrecover()",
       "id": "claude_skills_impeccable_scripts_live_browser_schedulesteerfocusrecover"
     },
@@ -23565,7 +23655,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8502",
       "_origin": "ast",
-      "community": 125,
+      "community": 47,
       "norm_label": "notepagepointerdown()",
       "id": "claude_skills_impeccable_scripts_live_browser_notepagepointerdown"
     },
@@ -23575,7 +23665,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8512",
       "_origin": "ast",
-      "community": 125,
+      "community": 47,
       "norm_label": "attachsteerfocusguard()",
       "id": "claude_skills_impeccable_scripts_live_browser_attachsteerfocusguard"
     },
@@ -23665,7 +23755,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L8678",
       "_origin": "ast",
-      "community": 43,
+      "community": 47,
       "norm_label": "buildsteerprocessingdots()",
       "id": "claude_skills_impeccable_scripts_live_browser_buildsteerprocessingdots"
     },
@@ -23895,7 +23985,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L9083",
       "_origin": "ast",
-      "community": 47,
+      "community": 37,
       "norm_label": "maybecompletesteer()",
       "id": "claude_skills_impeccable_scripts_live_browser_maybecompletesteer"
     },
@@ -23985,7 +24075,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L9368",
       "_origin": "ast",
-      "community": 55,
+      "community": 7,
       "norm_label": "stopagentstatuspoll()",
       "id": "claude_skills_impeccable_scripts_live_browser_stopagentstatuspoll"
     },
@@ -23995,7 +24085,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L9375",
       "_origin": "ast",
-      "community": 55,
+      "community": 7,
       "norm_label": "fetchagentpollingstatus()",
       "id": "claude_skills_impeccable_scripts_live_browser_fetchagentpollingstatus"
     },
@@ -24005,7 +24095,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L9384",
       "_origin": "ast",
-      "community": 55,
+      "community": 7,
       "norm_label": "startagentstatuspoll()",
       "id": "claude_skills_impeccable_scripts_live_browser_startagentstatuspoll"
     },
@@ -24025,7 +24115,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L9829",
       "_origin": "ast",
-      "community": 55,
+      "community": 37,
       "norm_label": "updateglobalbarstate()",
       "id": "claude_skills_impeccable_scripts_live_browser_updateglobalbarstate"
     },
@@ -24035,7 +24125,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L9880",
       "_origin": "ast",
-      "community": 55,
+      "community": 37,
       "norm_label": "requestdetectscan()",
       "id": "claude_skills_impeccable_scripts_live_browser_requestdetectscan"
     },
@@ -24045,7 +24135,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L9891",
       "_origin": "ast",
-      "community": 55,
+      "community": 37,
       "norm_label": "toggledetect()",
       "id": "claude_skills_impeccable_scripts_live_browser_toggledetect"
     },
@@ -24075,7 +24165,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L9963",
       "_origin": "ast",
-      "community": 55,
+      "community": 37,
       "norm_label": "loaddetectscript()",
       "id": "claude_skills_impeccable_scripts_live_browser_loaddetectscript"
     },
@@ -24085,7 +24175,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L9972",
       "_origin": "ast",
-      "community": 55,
+      "community": 37,
       "norm_label": "ondetectmessage()",
       "id": "claude_skills_impeccable_scripts_live_browser_ondetectmessage"
     },
@@ -24095,7 +24185,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L9996",
       "_origin": "ast",
-      "community": 55,
+      "community": 37,
       "norm_label": "teardown()",
       "id": "claude_skills_impeccable_scripts_live_browser_teardown"
     },
@@ -24115,7 +24205,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10098",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "savedesignprefs()",
       "id": "claude_skills_impeccable_scripts_live_browser_savedesignprefs"
     },
@@ -24185,7 +24275,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10526",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "renderdesignbody()",
       "id": "claude_skills_impeccable_scripts_live_browser_renderdesignbody"
     },
@@ -24195,7 +24285,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10560",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "msgdiv()",
       "id": "claude_skills_impeccable_scripts_live_browser_msgdiv"
     },
@@ -24205,7 +24295,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10567",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "renderstalehint()",
       "id": "claude_skills_impeccable_scripts_live_browser_renderstalehint"
     },
@@ -24215,7 +24305,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10577",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "renderparsedmdcta()",
       "id": "claude_skills_impeccable_scripts_live_browser_renderparsedmdcta"
     },
@@ -24225,7 +24315,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10586",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "renderdesignvisual()",
       "id": "claude_skills_impeccable_scripts_live_browser_renderdesignvisual"
     },
@@ -24255,7 +24345,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10661",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "buildradiimodels()",
       "id": "claude_skills_impeccable_scripts_live_browser_buildradiimodels"
     },
@@ -24295,7 +24385,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10690",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "synthesizenarrative()",
       "id": "claude_skills_impeccable_scripts_live_browser_synthesizenarrative"
     },
@@ -24305,7 +24395,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10707",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "rendercolortiles()",
       "id": "claude_skills_impeccable_scripts_live_browser_rendercolortiles"
     },
@@ -24315,7 +24405,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10742",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "synthesizeramp()",
       "id": "claude_skills_impeccable_scripts_live_browser_synthesizeramp"
     },
@@ -24325,7 +24415,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10752",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "rendertypetiles()",
       "id": "claude_skills_impeccable_scripts_live_browser_rendertypetiles"
     },
@@ -24335,7 +24425,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10796",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "fontstack()",
       "id": "claude_skills_impeccable_scripts_live_browser_fontstack"
     },
@@ -24345,7 +24435,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10805",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "renderradiitile()",
       "id": "claude_skills_impeccable_scripts_live_browser_renderradiitile"
     },
@@ -24355,7 +24445,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10836",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "rendershadowtiles()",
       "id": "claude_skills_impeccable_scripts_live_browser_rendershadowtiles"
     },
@@ -24365,7 +24455,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10866",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "rendercomponenttiles()",
       "id": "claude_skills_impeccable_scripts_live_browser_rendercomponenttiles"
     },
@@ -24375,7 +24465,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10923",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "groupbykind()",
       "id": "claude_skills_impeccable_scripts_live_browser_groupbykind"
     },
@@ -24385,7 +24475,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10936",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "titleforkind()",
       "id": "claude_skills_impeccable_scripts_live_browser_titleforkind"
     },
@@ -24395,7 +24485,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10950",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "buildcollapsible()",
       "id": "claude_skills_impeccable_scripts_live_browser_buildcollapsible"
     },
@@ -24405,7 +24495,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10975",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "renderrulescollapsible()",
       "id": "claude_skills_impeccable_scripts_live_browser_renderrulescollapsible"
     },
@@ -24415,7 +24505,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L10993",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "renderdosdontscollapsible()",
       "id": "claude_skills_impeccable_scripts_live_browser_renderdosdontscollapsible"
     },
@@ -24425,7 +24515,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L11014",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "renderoverviewcollapsible()",
       "id": "claude_skills_impeccable_scripts_live_browser_renderoverviewcollapsible"
     },
@@ -24435,7 +24525,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L11038",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "csssafe()",
       "id": "claude_skills_impeccable_scripts_live_browser_csssafe"
     },
@@ -24455,7 +24545,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L11058",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "renderrawtab()",
       "id": "claude_skills_impeccable_scripts_live_browser_renderrawtab"
     },
@@ -24465,7 +24555,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L11065",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "rendermarkdown()",
       "id": "claude_skills_impeccable_scripts_live_browser_rendermarkdown"
     },
@@ -24475,7 +24565,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L11140",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "buildlisthtml()",
       "id": "claude_skills_impeccable_scripts_live_browser_buildlisthtml"
     },
@@ -24485,7 +24575,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L11154",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "inlinemd()",
       "id": "claude_skills_impeccable_scripts_live_browser_inlinemd"
     },
@@ -24495,7 +24585,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L11168",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "highlightbold()",
       "id": "claude_skills_impeccable_scripts_live_browser_highlightbold"
     },
@@ -24505,7 +24595,7 @@
       "source_file": ".claude/skills/impeccable/scripts/live-browser.js",
       "source_location": "L11172",
       "_origin": "ast",
-      "community": 7,
+      "community": 41,
       "norm_label": "escapehtml()",
       "id": "claude_skills_impeccable_scripts_live_browser_escapehtml"
     },
@@ -29185,7 +29275,7 @@
       "source_file": ".claude/skills/impeccable/scripts/modern-screenshot.umd.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 80,
+      "community": 41,
       "norm_label": "v()",
       "id": "claude_skills_impeccable_scripts_modern_screenshot_umd_v"
     },
@@ -29195,7 +29285,7 @@
       "source_file": ".claude/skills/impeccable/scripts/modern-screenshot.umd.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 54,
+      "community": 41,
       "norm_label": "q()",
       "id": "claude_skills_impeccable_scripts_modern_screenshot_umd_q"
     },
@@ -32866,12 +32956,322 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/design.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_design",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_design_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/design.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_design",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_design_decisions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/design.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_design",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_design_goals_non_goals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/design.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_design",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_design_migration_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/design.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_design",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_design_open_questions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/design.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_design",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_design_risks_trade_offs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/proposal.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_proposal",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_proposal_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/proposal.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_proposal",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_proposal_impact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/proposal.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_proposal",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_proposal_what_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/proposal.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_proposal",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_proposal_why",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/proposal.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_proposal_capabilities",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_proposal_modified_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/proposal.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_proposal_capabilities",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_proposal_new_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/specs/ci-quality-gate/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_added_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/specs/ci-quality-gate/spec.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_added_requirements",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_requirement_el_ci_arranca_en_verde_sobre_el_estado_actual_del_repositorio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/specs/ci-quality-gate/spec.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_added_requirements",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_requirement_el_repositorio_ejecuta_chequeos_autom\u00e1ticos_de_calidad_en_cada_push",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/specs/ci-quality-gate/spec.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_added_requirements",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_requirement_los_hallazgos_de_accesibilidad_descubiertos_pero_no_corregidos_quedan_documentados",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/specs/ci-quality-gate/spec.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_requirement_el_repositorio_ejecuta_chequeos_autom\u00e1ticos_de_calidad_en_cada_push",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_scenario_se_pushea_un_commit_a_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/specs/ci-quality-gate/spec.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_requirement_el_ci_arranca_en_verde_sobre_el_estado_actual_del_repositorio",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_scenario_primera_corrida_del_ci",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/specs/ci-quality-gate/spec.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_requirement_los_hallazgos_de_accesibilidad_descubiertos_pero_no_corregidos_quedan_documentados",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_specs_ci_quality_gate_spec_scenario_se_desactiva_una_regla_por_un_hallazgo_real",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/tasks.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_tasks",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_tasks_1_fix_trivial_requerido",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/tasks.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_tasks",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_tasks_2_configuraci\u00f3n_de_linting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/tasks.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_tasks",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_tasks_3_workflow_de_github_actions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/changes/archive/2026-07-10-add-minimal-ci/tasks.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "openspec_changes_archive_2026_07_10_add_minimal_ci_tasks",
+      "target": "openspec_changes_archive_2026_07_10_add_minimal_ci_tasks_4_verificaci\u00f3n_y_deploy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/ci-quality-gate/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_specs_ci_quality_gate_spec",
+      "target": "openspec_specs_ci_quality_gate_spec_purpose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/ci-quality-gate/spec.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "openspec_specs_ci_quality_gate_spec",
+      "target": "openspec_specs_ci_quality_gate_spec_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/ci-quality-gate/spec.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "openspec_specs_ci_quality_gate_spec_requirements",
+      "target": "openspec_specs_ci_quality_gate_spec_requirement_el_ci_arranca_en_verde_sobre_el_estado_actual_del_repositorio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/ci-quality-gate/spec.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "openspec_specs_ci_quality_gate_spec_requirements",
+      "target": "openspec_specs_ci_quality_gate_spec_requirement_el_repositorio_ejecuta_chequeos_autom\u00e1ticos_de_calidad_en_cada_push",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/ci-quality-gate/spec.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "openspec_specs_ci_quality_gate_spec_requirements",
+      "target": "openspec_specs_ci_quality_gate_spec_requirement_los_hallazgos_de_accesibilidad_descubiertos_pero_no_corregidos_quedan_documentados",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/ci-quality-gate/spec.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "openspec_specs_ci_quality_gate_spec_requirement_el_repositorio_ejecuta_chequeos_autom\u00e1ticos_de_calidad_en_cada_push",
+      "target": "openspec_specs_ci_quality_gate_spec_scenario_se_pushea_un_commit_a_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/ci-quality-gate/spec.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "openspec_specs_ci_quality_gate_spec_requirement_el_ci_arranca_en_verde_sobre_el_estado_actual_del_repositorio",
+      "target": "openspec_specs_ci_quality_gate_spec_scenario_primera_corrida_del_ci",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/ci-quality-gate/spec.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "openspec_specs_ci_quality_gate_spec_requirement_los_hallazgos_de_accesibilidad_descubiertos_pero_no_corregidos_quedan_documentados",
+      "target": "openspec_specs_ci_quality_gate_spec_scenario_se_desactiva_una_regla_por_un_hallazgo_real",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".htmlvalidate.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "htmlvalidate",
-      "target": "htmlvalidate_extends",
-      "confidence_score": 1.0
+      "target": "htmlvalidate_extends"
     },
     {
       "relation": "contains",
@@ -32879,9 +33279,9 @@
       "source_file": ".htmlvalidate.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "htmlvalidate",
-      "target": "htmlvalidate_rules",
-      "confidence_score": 1.0
+      "target": "htmlvalidate_rules"
     },
     {
       "relation": "contains",
@@ -32889,9 +33289,9 @@
       "source_file": ".htmlvalidate.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "htmlvalidate_rules",
-      "target": "htmlvalidate_rules_aria_label_misuse",
-      "confidence_score": 1.0
+      "target": "htmlvalidate_rules_aria_label_misuse"
     },
     {
       "relation": "contains",
@@ -32899,9 +33299,9 @@
       "source_file": ".htmlvalidate.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "htmlvalidate_rules",
-      "target": "htmlvalidate_rules_attribute_allowed_values",
-      "confidence_score": 1.0
+      "target": "htmlvalidate_rules_attribute_allowed_values"
     },
     {
       "relation": "contains",
@@ -32909,9 +33309,9 @@
       "source_file": ".htmlvalidate.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "htmlvalidate_rules",
-      "target": "htmlvalidate_rules_empty_heading",
-      "confidence_score": 1.0
+      "target": "htmlvalidate_rules_empty_heading"
     },
     {
       "relation": "contains",
@@ -32919,9 +33319,9 @@
       "source_file": ".htmlvalidate.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "htmlvalidate_rules",
-      "target": "htmlvalidate_rules_hidden_focusable",
-      "confidence_score": 1.0
+      "target": "htmlvalidate_rules_hidden_focusable"
     },
     {
       "relation": "contains",
@@ -32929,9 +33329,9 @@
       "source_file": ".htmlvalidate.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "htmlvalidate_rules",
-      "target": "htmlvalidate_rules_prefer_native_element",
-      "confidence_score": 1.0
+      "target": "htmlvalidate_rules_prefer_native_element"
     },
     {
       "relation": "contains",
@@ -32939,9 +33339,9 @@
       "source_file": ".htmlvalidate.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "htmlvalidate_rules",
-      "target": "htmlvalidate_rules_unique_landmark",
-      "confidence_score": 1.0
+      "target": "htmlvalidate_rules_unique_landmark"
     },
     {
       "relation": "contains",
@@ -32949,9 +33349,9 @@
       "source_file": ".htmlvalidate.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "htmlvalidate_rules",
-      "target": "htmlvalidate_rules_void_style",
-      "confidence_score": 1.0
+      "target": "htmlvalidate_rules_void_style"
     },
     {
       "relation": "contains",
@@ -32959,9 +33359,9 @@
       "source_file": "docs/pendientes/accesibilidad.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_accesibilidad",
-      "target": "docs_pendientes_accesibilidad_accesibilidad",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_accesibilidad_accesibilidad"
     },
     {
       "relation": "references",
@@ -32979,9 +33379,9 @@
       "source_file": "docs/pendientes/accesibilidad.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_accesibilidad_accesibilidad",
-      "target": "docs_pendientes_accesibilidad_pendiente_de_revisar",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_accesibilidad_pendiente_de_revisar"
     },
     {
       "relation": "contains",
@@ -32989,239 +33389,9 @@
       "source_file": "docs/pendientes/accesibilidad.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_pendientes_accesibilidad_accesibilidad",
-      "target": "docs_pendientes_accesibilidad_resuelto_2026_07_10",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/design.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_design",
-      "target": "openspec_changes_add_minimal_ci_design_context",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/design.md",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_design",
-      "target": "openspec_changes_add_minimal_ci_design_decisions",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/design.md",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_design",
-      "target": "openspec_changes_add_minimal_ci_design_goals_non_goals",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/design.md",
-      "source_location": "L44",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_design",
-      "target": "openspec_changes_add_minimal_ci_design_migration_plan",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/design.md",
-      "source_location": "L53",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_design",
-      "target": "openspec_changes_add_minimal_ci_design_open_questions",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/design.md",
-      "source_location": "L38",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_design",
-      "target": "openspec_changes_add_minimal_ci_design_risks_trade_offs",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/proposal.md",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_proposal",
-      "target": "openspec_changes_add_minimal_ci_proposal_capabilities",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/proposal.md",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_proposal",
-      "target": "openspec_changes_add_minimal_ci_proposal_impact",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/proposal.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_proposal",
-      "target": "openspec_changes_add_minimal_ci_proposal_what_changes",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/proposal.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_proposal",
-      "target": "openspec_changes_add_minimal_ci_proposal_why",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/proposal.md",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_proposal_capabilities",
-      "target": "openspec_changes_add_minimal_ci_proposal_modified_capabilities",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/proposal.md",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_proposal_capabilities",
-      "target": "openspec_changes_add_minimal_ci_proposal_new_capabilities",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/specs/ci-quality-gate/spec.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec",
-      "target": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_added_requirements",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/specs/ci-quality-gate/spec.md",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_added_requirements",
-      "target": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_requirement_el_ci_arranca_en_verde_sobre_el_estado_actual_del_repositorio",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/specs/ci-quality-gate/spec.md",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_added_requirements",
-      "target": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_requirement_el_repositorio_ejecuta_chequeos_autom\u00e1ticos_de_calidad_en_cada_push",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/specs/ci-quality-gate/spec.md",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_added_requirements",
-      "target": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_requirement_los_hallazgos_de_accesibilidad_descubiertos_pero_no_corregidos_quedan_documentados",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/specs/ci-quality-gate/spec.md",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_requirement_el_repositorio_ejecuta_chequeos_autom\u00e1ticos_de_calidad_en_cada_push",
-      "target": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_scenario_se_pushea_un_commit_a_main",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/specs/ci-quality-gate/spec.md",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_requirement_el_ci_arranca_en_verde_sobre_el_estado_actual_del_repositorio",
-      "target": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_scenario_primera_corrida_del_ci",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/specs/ci-quality-gate/spec.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_requirement_los_hallazgos_de_accesibilidad_descubiertos_pero_no_corregidos_quedan_documentados",
-      "target": "openspec_changes_add_minimal_ci_specs_ci_quality_gate_spec_scenario_se_desactiva_una_regla_por_un_hallazgo_real",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/tasks.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_tasks",
-      "target": "openspec_changes_add_minimal_ci_tasks_1_fix_trivial_requerido",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/tasks.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_tasks",
-      "target": "openspec_changes_add_minimal_ci_tasks_2_configuraci\u00f3n_de_linting",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/tasks.md",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_tasks",
-      "target": "openspec_changes_add_minimal_ci_tasks_3_workflow_de_github_actions",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/add-minimal-ci/tasks.md",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "openspec_changes_add_minimal_ci_tasks",
-      "target": "openspec_changes_add_minimal_ci_tasks_4_verificaci\u00f3n_y_deploy",
-      "confidence_score": 1.0
+      "target": "docs_pendientes_accesibilidad_resuelto_2026_07_10"
     },
     {
       "relation": "contains",
@@ -104908,5 +105078,5 @@
       "source_file": "docs/marca/arquitectura-de-marca.md"
     }
   ],
-  "built_at_commit": "bf2acf2112579abd5a3307d87b56aeeeeef0f80b"
+  "built_at_commit": "a53d471e955a5c787b9b4e91d42762ed1d64f5f8"
 }
