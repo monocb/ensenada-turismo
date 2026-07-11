@@ -14,6 +14,6 @@
 
 ## 4. Deploy
 
-- [ ] 4.1 Commit + push a `main` (confirmar con el usuario antes)
-- [ ] 4.2 Verificar en producción
-- [ ] 4.3 Archivar el change y sincronizar la spec `text-contrast-over-images`
+- [x] 4.1 Commit + push a `main` (confirmar con el usuario antes)
+- [x] 4.2 Verificar en producción
+- [x] 4.3 Archivar el change y sincronizar la spec `text-contrast-over-images`
