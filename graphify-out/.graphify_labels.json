@@ -200,16 +200,10 @@
   "198": "ensureFile",
   "199": "tasks.md",
   "200": "4. Plan three variants: identity first, then mode, then axes",
-  "201": "checkHeroEyebrow",
   "202": "BORDER_SAFE_TAGS",
   "203": "acceptedDomAlreadyClean",
   "204": "proposal.md",
   "205": "resolveWorkspaceProjectRoot",
-  "206": "live-target.mjs",
   "207": "Patrón de galería: atributos `data-photo-*`",
-  "208": "design.md",
-  "209": "isScreenReaderOnlyTextStyle",
-  "210": "proposal.md",
-  "211": "Requirement: El texto superpuesto a imágenes es legible en todo su recorrido",
-  "212": "tasks.md"
+  "209": "isScreenReaderOnlyTextStyle"
 }
