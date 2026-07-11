@@ -72,232 +72,292 @@
     {
       "label": "design.md",
       "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/design.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/design.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_design",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_design",
       "community": 176,
       "norm_label": "design.md"
     },
     {
       "label": "Context",
       "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/design.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/design.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_design_context",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_design_context",
       "community": 176,
       "norm_label": "context"
     },
     {
       "label": "Goals / Non-Goals",
       "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/design.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/design.md",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_design_goals_non_goals",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_design_goals_non_goals",
       "community": 176,
       "norm_label": "goals / non-goals"
     },
     {
       "label": "Decisions",
       "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/design.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/design.md",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_design_decisions",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_design_decisions",
       "community": 176,
       "norm_label": "decisions"
     },
     {
       "label": "Risks / Trade-offs",
       "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/design.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/design.md",
       "source_location": "L36",
       "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_design_risks_trade_offs",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_design_risks_trade_offs",
       "community": 176,
       "norm_label": "risks / trade-offs"
     },
     {
       "label": "Migration Plan",
       "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/design.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/design.md",
       "source_location": "L41",
       "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_design_migration_plan",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_design_migration_plan",
       "community": 176,
       "norm_label": "migration plan"
     },
     {
       "label": "Open Questions",
       "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/design.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/design.md",
       "source_location": "L49",
       "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_design_open_questions",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_design_open_questions",
       "community": 176,
       "norm_label": "open questions"
     },
     {
       "label": "proposal.md",
       "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/proposal.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/proposal.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_proposal",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_proposal",
       "community": 177,
       "norm_label": "proposal.md"
     },
     {
       "label": "Why",
       "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/proposal.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/proposal.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_proposal_why",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_proposal_why",
       "community": 177,
       "norm_label": "why"
     },
     {
       "label": "What Changes",
       "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/proposal.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/proposal.md",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_proposal_what_changes",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_proposal_what_changes",
       "community": 177,
       "norm_label": "what changes"
     },
     {
       "label": "Capabilities",
       "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/proposal.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/proposal.md",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_proposal_capabilities",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_proposal_capabilities",
       "community": 177,
       "norm_label": "capabilities"
     },
     {
       "label": "New Capabilities",
       "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/proposal.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/proposal.md",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_proposal_new_capabilities",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_proposal_new_capabilities",
       "community": 177,
       "norm_label": "new capabilities"
     },
     {
       "label": "Modified Capabilities",
       "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/proposal.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/proposal.md",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_proposal_modified_capabilities",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_proposal_modified_capabilities",
       "community": 177,
       "norm_label": "modified capabilities"
     },
     {
       "label": "Impact",
       "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/proposal.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/proposal.md",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_proposal_impact",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_proposal_impact",
       "community": 177,
       "norm_label": "impact"
     },
     {
       "label": "spec.md",
       "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/specs/keyboard-accessible-galleries/spec.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/specs/keyboard-accessible-galleries/spec.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec",
-      "community": 178,
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec",
+      "community": 179,
       "norm_label": "spec.md"
     },
     {
       "label": "ADDED Requirements",
       "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/specs/keyboard-accessible-galleries/spec.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/specs/keyboard-accessible-galleries/spec.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_added_requirements",
-      "community": 178,
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_added_requirements",
+      "community": 179,
       "norm_label": "added requirements"
     },
     {
       "label": "Requirement: Las fotos del carrete de la Fragata son operables por teclado",
       "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/specs/keyboard-accessible-galleries/spec.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/specs/keyboard-accessible-galleries/spec.md",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_requirement_las_fotos_del_carrete_de_la_fragata_son_operables_por_teclado",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_requirement_las_fotos_del_carrete_de_la_fragata_son_operables_por_teclado",
+      "community": 179,
+      "norm_label": "requirement: las fotos del carrete de la fragata son operables por teclado"
+    },
+    {
+      "label": "Scenario: Navegar y abrir una foto del carrete de la Fragata por teclado",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/specs/keyboard-accessible-galleries/spec.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_scenario_navegar_y_abrir_una_foto_del_carrete_de_la_fragata_por_teclado",
+      "community": 179,
+      "norm_label": "scenario: navegar y abrir una foto del carrete de la fragata por teclado"
+    },
+    {
+      "label": "Scenario: El foco es visible",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/specs/keyboard-accessible-galleries/spec.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_scenario_el_foco_es_visible",
+      "community": 179,
+      "norm_label": "scenario: el foco es visible"
+    },
+    {
+      "label": "tasks.md",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_tasks",
+      "community": 181,
+      "norm_label": "tasks.md"
+    },
+    {
+      "label": "1. Aplicar el fix",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/tasks.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_tasks_1_aplicar_el_fix",
+      "community": 181,
+      "norm_label": "1. aplicar el fix"
+    },
+    {
+      "label": "2. Verificaci\u00f3n",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/tasks.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_tasks_2_verificaci\u00f3n",
+      "community": 181,
+      "norm_label": "2. verificacion"
+    },
+    {
+      "label": "3. Deploy",
+      "file_type": "document",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/tasks.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_tasks_3_deploy",
+      "community": 181,
+      "norm_label": "3. deploy"
+    },
+    {
+      "label": "spec.md",
+      "file_type": "document",
+      "source_file": "openspec/specs/keyboard-accessible-galleries/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_specs_keyboard_accessible_galleries_spec",
+      "community": 178,
+      "norm_label": "spec.md"
+    },
+    {
+      "label": "Purpose",
+      "file_type": "document",
+      "source_file": "openspec/specs/keyboard-accessible-galleries/spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "openspec_specs_keyboard_accessible_galleries_spec_purpose",
+      "community": 178,
+      "norm_label": "purpose"
+    },
+    {
+      "label": "Requirements",
+      "file_type": "document",
+      "source_file": "openspec/specs/keyboard-accessible-galleries/spec.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "openspec_specs_keyboard_accessible_galleries_spec_requirements",
+      "community": 178,
+      "norm_label": "requirements"
+    },
+    {
+      "label": "Requirement: Las fotos del carrete de la Fragata son operables por teclado",
+      "file_type": "document",
+      "source_file": "openspec/specs/keyboard-accessible-galleries/spec.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "openspec_specs_keyboard_accessible_galleries_spec_requirement_las_fotos_del_carrete_de_la_fragata_son_operables_por_teclado",
       "community": 178,
       "norm_label": "requirement: las fotos del carrete de la fragata son operables por teclado"
     },
     {
       "label": "Scenario: Navegar y abrir una foto del carrete de la Fragata por teclado",
       "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/specs/keyboard-accessible-galleries/spec.md",
-      "source_location": "L6",
+      "source_file": "openspec/specs/keyboard-accessible-galleries/spec.md",
+      "source_location": "L10",
       "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_scenario_navegar_y_abrir_una_foto_del_carrete_de_la_fragata_por_teclado",
+      "id": "openspec_specs_keyboard_accessible_galleries_spec_scenario_navegar_y_abrir_una_foto_del_carrete_de_la_fragata_por_teclado",
       "community": 178,
       "norm_label": "scenario: navegar y abrir una foto del carrete de la fragata por teclado"
     },
     {
       "label": "Scenario: El foco es visible",
       "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/specs/keyboard-accessible-galleries/spec.md",
-      "source_location": "L10",
+      "source_file": "openspec/specs/keyboard-accessible-galleries/spec.md",
+      "source_location": "L14",
       "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_scenario_el_foco_es_visible",
+      "id": "openspec_specs_keyboard_accessible_galleries_spec_scenario_el_foco_es_visible",
       "community": 178,
       "norm_label": "scenario: el foco es visible"
-    },
-    {
-      "label": "tasks.md",
-      "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/tasks.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_tasks",
-      "community": 179,
-      "norm_label": "tasks.md"
-    },
-    {
-      "label": "1. Aplicar el fix",
-      "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/tasks.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_tasks_1_aplicar_el_fix",
-      "community": 179,
-      "norm_label": "1. aplicar el fix"
-    },
-    {
-      "label": "2. Verificaci\u00f3n",
-      "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/tasks.md",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_tasks_2_verificaci\u00f3n",
-      "community": 179,
-      "norm_label": "2. verificacion"
-    },
-    {
-      "label": "3. Deploy",
-      "file_type": "document",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/tasks.md",
-      "source_location": "L13",
-      "_origin": "ast",
-      "id": "openspec_changes_make_fragata_reel_keyboard_accessible_tasks_3_deploy",
-      "community": 179,
-      "norm_label": "3. deploy"
     },
     {
       "label": "script.js",
@@ -305,9 +365,9 @@
       "source_file": "script.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "script",
       "community": 0,
-      "norm_label": "script.js"
+      "norm_label": "script.js",
+      "id": "script"
     },
     {
       "label": "header",
@@ -315,9 +375,9 @@
       "source_file": "script.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "script_header",
       "community": 0,
-      "norm_label": "header"
+      "norm_label": "header",
+      "id": "script_header"
     },
     {
       "label": "menu",
@@ -325,9 +385,9 @@
       "source_file": "script.js",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "script_menu",
       "community": 0,
-      "norm_label": "menu"
+      "norm_label": "menu",
+      "id": "script_menu"
     },
     {
       "label": "menuButton",
@@ -335,9 +395,9 @@
       "source_file": "script.js",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "script_menubutton",
       "community": 0,
-      "norm_label": "menubutton"
+      "norm_label": "menubutton",
+      "id": "script_menubutton"
     },
     {
       "label": "carousel",
@@ -345,9 +405,9 @@
       "source_file": "script.js",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "script_carousel",
       "community": 0,
-      "norm_label": "carousel"
+      "norm_label": "carousel",
+      "id": "script_carousel"
     },
     {
       "label": "carouselPrev",
@@ -355,9 +415,9 @@
       "source_file": "script.js",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "script_carouselprev",
       "community": 0,
-      "norm_label": "carouselprev"
+      "norm_label": "carouselprev",
+      "id": "script_carouselprev"
     },
     {
       "label": "carouselNext",
@@ -365,9 +425,9 @@
       "source_file": "script.js",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "script_carouselnext",
       "community": 0,
-      "norm_label": "carouselnext"
+      "norm_label": "carouselnext",
+      "id": "script_carouselnext"
     },
     {
       "label": "reel",
@@ -375,9 +435,9 @@
       "source_file": "script.js",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "script_reel",
       "community": 0,
-      "norm_label": "reel"
+      "norm_label": "reel",
+      "id": "script_reel"
     },
     {
       "label": "reelPrev",
@@ -385,9 +445,9 @@
       "source_file": "script.js",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "script_reelprev",
       "community": 0,
-      "norm_label": "reelprev"
+      "norm_label": "reelprev",
+      "id": "script_reelprev"
     },
     {
       "label": "reelNext",
@@ -395,9 +455,9 @@
       "source_file": "script.js",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "script_reelnext",
       "community": 0,
-      "norm_label": "reelnext"
+      "norm_label": "reelnext",
+      "id": "script_reelnext"
     },
     {
       "label": "lightbox",
@@ -405,9 +465,9 @@
       "source_file": "script.js",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "script_lightbox",
       "community": 0,
-      "norm_label": "lightbox"
+      "norm_label": "lightbox",
+      "id": "script_lightbox"
     },
     {
       "label": "lightboxImage",
@@ -415,9 +475,9 @@
       "source_file": "script.js",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "script_lightboximage",
       "community": 0,
-      "norm_label": "lightboximage"
+      "norm_label": "lightboximage",
+      "id": "script_lightboximage"
     },
     {
       "label": "lightboxClose",
@@ -425,9 +485,9 @@
       "source_file": "script.js",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "script_lightboxclose",
       "community": 0,
-      "norm_label": "lightboxclose"
+      "norm_label": "lightboxclose",
+      "id": "script_lightboxclose"
     },
     {
       "label": "lightboxPrev",
@@ -435,9 +495,9 @@
       "source_file": "script.js",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "script_lightboxprev",
       "community": 0,
-      "norm_label": "lightboxprev"
+      "norm_label": "lightboxprev",
+      "id": "script_lightboxprev"
     },
     {
       "label": "lightboxNext",
@@ -445,9 +505,9 @@
       "source_file": "script.js",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "script_lightboxnext",
       "community": 0,
-      "norm_label": "lightboxnext"
+      "norm_label": "lightboxnext",
+      "id": "script_lightboxnext"
     },
     {
       "label": "lightboxTitle",
@@ -455,9 +515,9 @@
       "source_file": "script.js",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "script_lightboxtitle",
       "community": 0,
-      "norm_label": "lightboxtitle"
+      "norm_label": "lightboxtitle",
+      "id": "script_lightboxtitle"
     },
     {
       "label": "lightboxLocation",
@@ -465,9 +525,9 @@
       "source_file": "script.js",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "script_lightboxlocation",
       "community": 0,
-      "norm_label": "lightboxlocation"
+      "norm_label": "lightboxlocation",
+      "id": "script_lightboxlocation"
     },
     {
       "label": "lightboxDescription",
@@ -475,9 +535,9 @@
       "source_file": "script.js",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "script_lightboxdescription",
       "community": 0,
-      "norm_label": "lightboxdescription"
+      "norm_label": "lightboxdescription",
+      "id": "script_lightboxdescription"
     },
     {
       "label": "placeCards",
@@ -485,9 +545,9 @@
       "source_file": "script.js",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "script_placecards",
       "community": 0,
-      "norm_label": "placecards"
+      "norm_label": "placecards",
+      "id": "script_placecards"
     },
     {
       "label": "placeTriggers",
@@ -495,9 +555,9 @@
       "source_file": "script.js",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "script_placetriggers",
       "community": 0,
-      "norm_label": "placetriggers"
+      "norm_label": "placetriggers",
+      "id": "script_placetriggers"
     },
     {
       "label": "placeGalleryImages",
@@ -505,9 +565,9 @@
       "source_file": "script.js",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "script_placegalleryimages",
       "community": 0,
-      "norm_label": "placegalleryimages"
+      "norm_label": "placegalleryimages",
+      "id": "script_placegalleryimages"
     },
     {
       "label": "placeModal",
@@ -515,9 +575,9 @@
       "source_file": "script.js",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "script_placemodal",
       "community": 0,
-      "norm_label": "placemodal"
+      "norm_label": "placemodal",
+      "id": "script_placemodal"
     },
     {
       "label": "placeModalPanel",
@@ -525,9 +585,9 @@
       "source_file": "script.js",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "script_placemodalpanel",
       "community": 0,
-      "norm_label": "placemodalpanel"
+      "norm_label": "placemodalpanel",
+      "id": "script_placemodalpanel"
     },
     {
       "label": "placeModalImage",
@@ -535,9 +595,9 @@
       "source_file": "script.js",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "script_placemodalimage",
       "community": 0,
-      "norm_label": "placemodalimage"
+      "norm_label": "placemodalimage",
+      "id": "script_placemodalimage"
     },
     {
       "label": "placeModalNumber",
@@ -545,9 +605,9 @@
       "source_file": "script.js",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "script_placemodalnumber",
       "community": 0,
-      "norm_label": "placemodalnumber"
+      "norm_label": "placemodalnumber",
+      "id": "script_placemodalnumber"
     },
     {
       "label": "placeModalTitle",
@@ -555,9 +615,9 @@
       "source_file": "script.js",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "script_placemodaltitle",
       "community": 0,
-      "norm_label": "placemodaltitle"
+      "norm_label": "placemodaltitle",
+      "id": "script_placemodaltitle"
     },
     {
       "label": "placeModalKicker",
@@ -565,9 +625,9 @@
       "source_file": "script.js",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "script_placemodalkicker",
       "community": 0,
-      "norm_label": "placemodalkicker"
+      "norm_label": "placemodalkicker",
+      "id": "script_placemodalkicker"
     },
     {
       "label": "placeModalReview",
@@ -575,9 +635,9 @@
       "source_file": "script.js",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "script_placemodalreview",
       "community": 0,
-      "norm_label": "placemodalreview"
+      "norm_label": "placemodalreview",
+      "id": "script_placemodalreview"
     },
     {
       "label": "placeModalCloseButtons",
@@ -585,9 +645,9 @@
       "source_file": "script.js",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "script_placemodalclosebuttons",
       "community": 0,
-      "norm_label": "placemodalclosebuttons"
+      "norm_label": "placemodalclosebuttons",
+      "id": "script_placemodalclosebuttons"
     },
     {
       "label": "photoExhibitImages",
@@ -595,9 +655,9 @@
       "source_file": "script.js",
       "source_location": "L29",
       "_origin": "ast",
-      "id": "script_photoexhibitimages",
       "community": 0,
-      "norm_label": "photoexhibitimages"
+      "norm_label": "photoexhibitimages",
+      "id": "script_photoexhibitimages"
     },
     {
       "label": "photoReelSections",
@@ -605,9 +665,9 @@
       "source_file": "script.js",
       "source_location": "L30",
       "_origin": "ast",
-      "id": "script_photoreelsections",
       "community": 0,
-      "norm_label": "photoreelsections"
+      "norm_label": "photoreelsections",
+      "id": "script_photoreelsections"
     },
     {
       "label": "socialStrip",
@@ -615,9 +675,9 @@
       "source_file": "script.js",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "script_socialstrip",
       "community": 0,
-      "norm_label": "socialstrip"
+      "norm_label": "socialstrip",
+      "id": "script_socialstrip"
     },
     {
       "label": "hero",
@@ -625,9 +685,9 @@
       "source_file": "script.js",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "script_hero",
       "community": 0,
-      "norm_label": "hero"
+      "norm_label": "hero",
+      "id": "script_hero"
     },
     {
       "label": "pageHero",
@@ -635,9 +695,9 @@
       "source_file": "script.js",
       "source_location": "L33",
       "_origin": "ast",
-      "id": "script_pagehero",
       "community": 0,
-      "norm_label": "pagehero"
+      "norm_label": "pagehero",
+      "id": "script_pagehero"
     },
     {
       "label": "revealTargets",
@@ -645,9 +705,9 @@
       "source_file": "script.js",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "script_revealtargets",
       "community": 0,
-      "norm_label": "revealtargets"
+      "norm_label": "revealtargets",
+      "id": "script_revealtargets"
     },
     {
       "label": "motionPhotos",
@@ -655,9 +715,9 @@
       "source_file": "script.js",
       "source_location": "L37",
       "_origin": "ast",
-      "id": "script_motionphotos",
       "community": 0,
-      "norm_label": "motionphotos"
+      "norm_label": "motionphotos",
+      "id": "script_motionphotos"
     },
     {
       "label": "activeLightboxImages",
@@ -665,9 +725,9 @@
       "source_file": "script.js",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "script_activelightboximages",
       "community": 0,
-      "norm_label": "activelightboximages"
+      "norm_label": "activelightboximages",
+      "id": "script_activelightboximages"
     },
     {
       "label": "refreshHeader()",
@@ -675,9 +735,9 @@
       "source_file": "script.js",
       "source_location": "L47",
       "_origin": "ast",
-      "id": "script_refreshheader",
       "community": 0,
-      "norm_label": "refreshheader()"
+      "norm_label": "refreshheader()",
+      "id": "script_refreshheader"
     },
     {
       "label": "setupNarrativeReveal()",
@@ -685,9 +745,9 @@
       "source_file": "script.js",
       "source_location": "L75",
       "_origin": "ast",
-      "id": "script_setupnarrativereveal",
       "community": 0,
-      "norm_label": "setupnarrativereveal()"
+      "norm_label": "setupnarrativereveal()",
+      "id": "script_setupnarrativereveal"
     },
     {
       "label": "updatePhotoDepth()",
@@ -695,9 +755,9 @@
       "source_file": "script.js",
       "source_location": "L101",
       "_origin": "ast",
-      "id": "script_updatephotodepth",
       "community": 11,
-      "norm_label": "updatephotodepth()"
+      "norm_label": "updatephotodepth()",
+      "id": "script_updatephotodepth"
     },
     {
       "label": "requestPhotoDepth()",
@@ -705,9 +765,9 @@
       "source_file": "script.js",
       "source_location": "L118",
       "_origin": "ast",
-      "id": "script_requestphotodepth",
       "community": 11,
-      "norm_label": "requestphotodepth()"
+      "norm_label": "requestphotodepth()",
+      "id": "script_requestphotodepth"
     },
     {
       "label": "prepareMediaForPublicView()",
@@ -715,9 +775,9 @@
       "source_file": "script.js",
       "source_location": "L124",
       "_origin": "ast",
-      "id": "script_preparemediaforpublicview",
       "community": 0,
-      "norm_label": "preparemediaforpublicview()"
+      "norm_label": "preparemediaforpublicview()",
+      "id": "script_preparemediaforpublicview"
     },
     {
       "label": "setMenuOpen()",
@@ -725,9 +785,9 @@
       "source_file": "script.js",
       "source_location": "L135",
       "_origin": "ast",
-      "id": "script_setmenuopen",
       "community": 0,
-      "norm_label": "setmenuopen()"
+      "norm_label": "setmenuopen()",
+      "id": "script_setmenuopen"
     },
     {
       "label": "moveCarousel()",
@@ -735,9 +795,9 @@
       "source_file": "script.js",
       "source_location": "L155",
       "_origin": "ast",
-      "id": "script_movecarousel",
       "community": 0,
-      "norm_label": "movecarousel()"
+      "norm_label": "movecarousel()",
+      "id": "script_movecarousel"
     },
     {
       "label": "moveReel()",
@@ -745,9 +805,9 @@
       "source_file": "script.js",
       "source_location": "L168",
       "_origin": "ast",
-      "id": "script_movereel",
       "community": 0,
-      "norm_label": "movereel()"
+      "norm_label": "movereel()",
+      "id": "script_movereel"
     },
     {
       "label": "humanizeSlug()",
@@ -755,9 +815,9 @@
       "source_file": "script.js",
       "source_location": "L181",
       "_origin": "ast",
-      "id": "script_humanizeslug",
       "community": 9,
-      "norm_label": "humanizeslug()"
+      "norm_label": "humanizeslug()",
+      "id": "script_humanizeslug"
     },
     {
       "label": "setupPhotoReelSection()",
@@ -765,9 +825,9 @@
       "source_file": "script.js",
       "source_location": "L189",
       "_origin": "ast",
-      "id": "script_setupphotoreelsection",
       "community": 9,
-      "norm_label": "setupphotoreelsection()"
+      "norm_label": "setupphotoreelsection()",
+      "id": "script_setupphotoreelsection"
     },
     {
       "label": "scrollToElement()",
@@ -775,9 +835,9 @@
       "source_file": "script.js",
       "source_location": "L251",
       "_origin": "ast",
-      "id": "script_scrolltoelement",
       "community": 0,
-      "norm_label": "scrolltoelement()"
+      "norm_label": "scrolltoelement()",
+      "id": "script_scrolltoelement"
     },
     {
       "label": "renderLightboxImage()",
@@ -785,9 +845,9 @@
       "source_file": "script.js",
       "source_location": "L259",
       "_origin": "ast",
-      "id": "script_renderlightboximage",
       "community": 9,
-      "norm_label": "renderlightboximage()"
+      "norm_label": "renderlightboximage()",
+      "id": "script_renderlightboximage"
     },
     {
       "label": "openLightbox()",
@@ -795,9 +855,9 @@
       "source_file": "script.js",
       "source_location": "L287",
       "_origin": "ast",
-      "id": "script_openlightbox",
       "community": 9,
-      "norm_label": "openlightbox()"
+      "norm_label": "openlightbox()",
+      "id": "script_openlightbox"
     },
     {
       "label": "closeLightbox()",
@@ -805,9 +865,9 @@
       "source_file": "script.js",
       "source_location": "L297",
       "_origin": "ast",
-      "id": "script_closelightbox",
       "community": 0,
-      "norm_label": "closelightbox()"
+      "norm_label": "closelightbox()",
+      "id": "script_closelightbox"
     },
     {
       "label": "moveLightbox()",
@@ -815,9 +875,9 @@
       "source_file": "script.js",
       "source_location": "L307",
       "_origin": "ast",
-      "id": "script_movelightbox",
       "community": 9,
-      "norm_label": "movelightbox()"
+      "norm_label": "movelightbox()",
+      "id": "script_movelightbox"
     },
     {
       "label": "getPlaceModalFocusable()",
@@ -825,9 +885,9 @@
       "source_file": "script.js",
       "source_location": "L314",
       "_origin": "ast",
-      "id": "script_getplacemodalfocusable",
       "community": 10,
-      "norm_label": "getplacemodalfocusable()"
+      "norm_label": "getplacemodalfocusable()",
+      "id": "script_getplacemodalfocusable"
     },
     {
       "label": "openPlaceModal()",
@@ -835,9 +895,9 @@
       "source_file": "script.js",
       "source_location": "L323",
       "_origin": "ast",
-      "id": "script_openplacemodal",
       "community": 10,
-      "norm_label": "openplacemodal()"
+      "norm_label": "openplacemodal()",
+      "id": "script_openplacemodal"
     },
     {
       "label": "closePlaceModal()",
@@ -845,9 +905,9 @@
       "source_file": "script.js",
       "source_location": "L352",
       "_origin": "ast",
-      "id": "script_closeplacemodal",
       "community": 0,
-      "norm_label": "closeplacemodal()"
+      "norm_label": "closeplacemodal()",
+      "id": "script_closeplacemodal"
     },
     {
       "label": "trapPlaceModalFocus()",
@@ -855,9 +915,9 @@
       "source_file": "script.js",
       "source_location": "L367",
       "_origin": "ast",
-      "id": "script_trapplacemodalfocus",
       "community": 10,
-      "norm_label": "trapplacemodalfocus()"
+      "norm_label": "trapplacemodalfocus()",
+      "id": "script_trapplacemodalfocus"
     },
     {
       "label": "design.md",
@@ -3045,7 +3105,7 @@
       "source_file": ".claude/skills/impeccable/reference/adapt.native.md",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 172,
+      "community": 156,
       "norm_label": "adaptation strategies",
       "id": "claude_skills_impeccable_reference_adapt_native_adaptation_strategies"
     },
@@ -3055,7 +3115,7 @@
       "source_file": ".claude/skills/impeccable/reference/adapt.native.md",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 172,
+      "community": 156,
       "norm_label": "phone \u2192 tablet (ipad / large screens)",
       "id": "claude_skills_impeccable_reference_adapt_native_phone_tablet_ipad_large_screens"
     },
@@ -3065,7 +3125,7 @@
       "source_file": ".claude/skills/impeccable/reference/adapt.native.md",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 172,
+      "community": 156,
       "norm_label": "orientation & foldables",
       "id": "claude_skills_impeccable_reference_adapt_native_orientation_foldables"
     },
@@ -3075,7 +3135,7 @@
       "source_file": ".claude/skills/impeccable/reference/adapt.native.md",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 172,
+      "community": 156,
       "norm_label": "platform \u2192 platform (ios \u2194 android)",
       "id": "claude_skills_impeccable_reference_adapt_native_platform_platform_ios_android"
     },
@@ -3085,7 +3145,7 @@
       "source_file": ".claude/skills/impeccable/reference/adapt.native.md",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 172,
+      "community": 156,
       "norm_label": "web \u2192 native (porting a website or web app)",
       "id": "claude_skills_impeccable_reference_adapt_native_web_native_porting_a_website_or_web_app"
     },
@@ -3115,7 +3175,7 @@
       "source_file": ".claude/skills/impeccable/reference/android.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 156,
+      "community": 172,
       "norm_label": "android platform",
       "id": "claude_skills_impeccable_reference_android_android_platform"
     },
@@ -3125,7 +3185,7 @@
       "source_file": ".claude/skills/impeccable/reference/android.md",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 156,
+      "community": 172,
       "norm_label": "the android slop test",
       "id": "claude_skills_impeccable_reference_android_the_android_slop_test"
     },
@@ -3135,7 +3195,7 @@
       "source_file": ".claude/skills/impeccable/reference/android.md",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 156,
+      "community": 172,
       "norm_label": "layout & structure",
       "id": "claude_skills_impeccable_reference_android_layout_structure"
     },
@@ -3145,7 +3205,7 @@
       "source_file": ".claude/skills/impeccable/reference/android.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 156,
+      "community": 172,
       "norm_label": "touch targets",
       "id": "claude_skills_impeccable_reference_android_touch_targets"
     },
@@ -3155,7 +3215,7 @@
       "source_file": ".claude/skills/impeccable/reference/android.md",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 156,
+      "community": 172,
       "norm_label": "typography",
       "id": "claude_skills_impeccable_reference_android_typography"
     },
@@ -3165,7 +3225,7 @@
       "source_file": ".claude/skills/impeccable/reference/android.md",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 156,
+      "community": 172,
       "norm_label": "color & theming",
       "id": "claude_skills_impeccable_reference_android_color_theming"
     },
@@ -3175,7 +3235,7 @@
       "source_file": ".claude/skills/impeccable/reference/android.md",
       "source_location": "L35",
       "_origin": "ast",
-      "community": 156,
+      "community": 172,
       "norm_label": "components & motion",
       "id": "claude_skills_impeccable_reference_android_components_motion"
     },
@@ -3185,7 +3245,7 @@
       "source_file": ".claude/skills/impeccable/reference/animate.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 156,
+      "community": 130,
       "norm_label": "animate.md",
       "id": "claude_skills_impeccable_reference_animate"
     },
@@ -3195,7 +3255,7 @@
       "source_file": ".claude/skills/impeccable/reference/animate.md",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 156,
+      "community": 130,
       "norm_label": "register",
       "id": "claude_skills_impeccable_reference_animate_register"
     },
@@ -3205,7 +3265,7 @@
       "source_file": ".claude/skills/impeccable/reference/animate.md",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 156,
+      "community": 130,
       "norm_label": "assess animation opportunities",
       "id": "claude_skills_impeccable_reference_animate_assess_animation_opportunities"
     },
@@ -3215,7 +3275,7 @@
       "source_file": ".claude/skills/impeccable/reference/animate.md",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 156,
+      "community": 130,
       "norm_label": "plan animation strategy",
       "id": "claude_skills_impeccable_reference_animate_plan_animation_strategy"
     },
@@ -3225,7 +3285,7 @@
       "source_file": ".claude/skills/impeccable/reference/animate.md",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 91,
+      "community": 130,
       "norm_label": "implement animations",
       "id": "claude_skills_impeccable_reference_animate_implement_animations"
     },
@@ -3235,7 +3295,7 @@
       "source_file": ".claude/skills/impeccable/reference/animate.md",
       "source_location": "L53",
       "_origin": "ast",
-      "community": 91,
+      "community": 130,
       "norm_label": "entrance animations",
       "id": "claude_skills_impeccable_reference_animate_entrance_animations"
     },
@@ -3245,7 +3305,7 @@
       "source_file": ".claude/skills/impeccable/reference/animate.md",
       "source_location": "L60",
       "_origin": "ast",
-      "community": 91,
+      "community": 130,
       "norm_label": "micro-interactions",
       "id": "claude_skills_impeccable_reference_animate_micro_interactions"
     },
@@ -3255,7 +3315,7 @@
       "source_file": ".claude/skills/impeccable/reference/animate.md",
       "source_location": "L72",
       "_origin": "ast",
-      "community": 91,
+      "community": 130,
       "norm_label": "state transitions",
       "id": "claude_skills_impeccable_reference_animate_state_transitions"
     },
@@ -3265,7 +3325,7 @@
       "source_file": ".claude/skills/impeccable/reference/animate.md",
       "source_location": "L79",
       "_origin": "ast",
-      "community": 91,
+      "community": 130,
       "norm_label": "navigation & flow",
       "id": "claude_skills_impeccable_reference_animate_navigation_flow"
     },
@@ -3275,7 +3335,7 @@
       "source_file": ".claude/skills/impeccable/reference/animate.md",
       "source_location": "L85",
       "_origin": "ast",
-      "community": 91,
+      "community": 130,
       "norm_label": "feedback & guidance",
       "id": "claude_skills_impeccable_reference_animate_feedback_guidance"
     },
@@ -3285,7 +3345,7 @@
       "source_file": ".claude/skills/impeccable/reference/animate.md",
       "source_location": "L91",
       "_origin": "ast",
-      "community": 91,
+      "community": 130,
       "norm_label": "delight moments",
       "id": "claude_skills_impeccable_reference_animate_delight_moments"
     },
@@ -3375,7 +3435,7 @@
       "source_file": ".claude/skills/impeccable/reference/animate.md",
       "source_location": "L192",
       "_origin": "ast",
-      "community": 156,
+      "community": 130,
       "norm_label": "verify quality",
       "id": "claude_skills_impeccable_reference_animate_verify_quality"
     },
@@ -4285,7 +4345,7 @@
       "source_file": ".claude/skills/impeccable/reference/codex.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 84,
+      "community": 91,
       "norm_label": "codex.md",
       "id": "claude_skills_impeccable_reference_codex"
     },
@@ -4295,7 +4355,7 @@
       "source_file": ".claude/skills/impeccable/reference/codex.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 84,
+      "community": 91,
       "norm_label": "codex: visual direction & asset production",
       "id": "claude_skills_impeccable_reference_codex_codex_visual_direction_asset_production"
     },
@@ -4305,7 +4365,7 @@
       "source_file": ".claude/skills/impeccable/reference/codex.md",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 84,
+      "community": 91,
       "norm_label": "four stop points before code",
       "id": "claude_skills_impeccable_reference_codex_four_stop_points_before_code"
     },
@@ -4315,7 +4375,7 @@
       "source_file": ".claude/skills/impeccable/reference/codex.md",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 84,
+      "community": 91,
       "norm_label": "step a: explore directions with the user",
       "id": "claude_skills_impeccable_reference_codex_step_a_explore_directions_with_the_user"
     },
@@ -4325,7 +4385,7 @@
       "source_file": ".claude/skills/impeccable/reference/codex.md",
       "source_location": "L31",
       "_origin": "ast",
-      "community": 84,
+      "community": 91,
       "norm_label": "step b: generate the brand palette first",
       "id": "claude_skills_impeccable_reference_codex_step_b_generate_the_brand_palette_first"
     },
@@ -4335,7 +4395,7 @@
       "source_file": ".claude/skills/impeccable/reference/codex.md",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 84,
+      "community": 91,
       "norm_label": "step c: generate 1-3 visual mocks against the palette",
       "id": "claude_skills_impeccable_reference_codex_step_c_generate_1_3_visual_mocks_against_the_palette"
     },
@@ -4345,7 +4405,7 @@
       "source_file": ".claude/skills/impeccable/reference/codex.md",
       "source_location": "L51",
       "_origin": "ast",
-      "community": 84,
+      "community": 91,
       "norm_label": "step d: approval loop",
       "id": "claude_skills_impeccable_reference_codex_step_d_approval_loop"
     },
@@ -4355,7 +4415,7 @@
       "source_file": ".claude/skills/impeccable/reference/codex.md",
       "source_location": "L59",
       "_origin": "ast",
-      "community": 84,
+      "community": 91,
       "norm_label": "step e: mock fidelity inventory",
       "id": "claude_skills_impeccable_reference_codex_step_e_mock_fidelity_inventory"
     },
@@ -4365,7 +4425,7 @@
       "source_file": ".claude/skills/impeccable/reference/codex.md",
       "source_location": "L78",
       "_origin": "ast",
-      "community": 84,
+      "community": 91,
       "norm_label": "step f: asset slicing via the asset producer",
       "id": "claude_skills_impeccable_reference_codex_step_f_asset_slicing_via_the_asset_producer"
     },
@@ -4375,7 +4435,7 @@
       "source_file": ".claude/skills/impeccable/reference/codex.md",
       "source_location": "L103",
       "_origin": "ast",
-      "community": 84,
+      "community": 91,
       "norm_label": "after this file",
       "id": "claude_skills_impeccable_reference_codex_after_this_file"
     },
@@ -4715,7 +4775,7 @@
       "source_file": ".claude/skills/impeccable/reference/craft.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 84,
+      "community": 91,
       "norm_label": "craft.md",
       "id": "claude_skills_impeccable_reference_craft"
     },
@@ -5985,7 +6045,7 @@
       "source_file": ".claude/skills/impeccable/reference/extract.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 161,
+      "community": 105,
       "norm_label": "extract.md",
       "id": "claude_skills_impeccable_reference_extract"
     },
@@ -5995,7 +6055,7 @@
       "source_file": ".claude/skills/impeccable/reference/extract.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 161,
+      "community": 105,
       "norm_label": "extract flow",
       "id": "claude_skills_impeccable_reference_extract_extract_flow"
     },
@@ -6005,7 +6065,7 @@
       "source_file": ".claude/skills/impeccable/reference/extract.md",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 161,
+      "community": 105,
       "norm_label": "step 1: discover the design system",
       "id": "claude_skills_impeccable_reference_extract_step_1_discover_the_design_system"
     },
@@ -6015,7 +6075,7 @@
       "source_file": ".claude/skills/impeccable/reference/extract.md",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 161,
+      "community": 105,
       "norm_label": "step 2: identify patterns",
       "id": "claude_skills_impeccable_reference_extract_step_2_identify_patterns"
     },
@@ -6025,7 +6085,7 @@
       "source_file": ".claude/skills/impeccable/reference/extract.md",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 161,
+      "community": 105,
       "norm_label": "step 3: plan extraction",
       "id": "claude_skills_impeccable_reference_extract_step_3_plan_extraction"
     },
@@ -6035,7 +6095,7 @@
       "source_file": ".claude/skills/impeccable/reference/extract.md",
       "source_location": "L36",
       "_origin": "ast",
-      "community": 161,
+      "community": 105,
       "norm_label": "step 4: extract & enrich",
       "id": "claude_skills_impeccable_reference_extract_step_4_extract_enrich"
     },
@@ -6045,7 +6105,7 @@
       "source_file": ".claude/skills/impeccable/reference/extract.md",
       "source_location": "L44",
       "_origin": "ast",
-      "community": 161,
+      "community": 105,
       "norm_label": "step 5: migrate",
       "id": "claude_skills_impeccable_reference_extract_step_5_migrate"
     },
@@ -6055,7 +6115,7 @@
       "source_file": ".claude/skills/impeccable/reference/extract.md",
       "source_location": "L53",
       "_origin": "ast",
-      "community": 161,
+      "community": 105,
       "norm_label": "step 6: document",
       "id": "claude_skills_impeccable_reference_extract_step_6_document"
     },
@@ -6435,7 +6495,7 @@
       "source_file": ".claude/skills/impeccable/reference/interaction-design.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 84,
+      "community": 91,
       "norm_label": "interaction-design.md",
       "id": "claude_skills_impeccable_reference_interaction_design"
     },
@@ -6705,7 +6765,7 @@
       "source_file": ".claude/skills/impeccable/reference/layout.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 93,
+      "community": 156,
       "norm_label": "layout.md",
       "id": "claude_skills_impeccable_reference_layout"
     },
@@ -6715,7 +6775,7 @@
       "source_file": ".claude/skills/impeccable/reference/layout.md",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 93,
+      "community": 156,
       "norm_label": "register",
       "id": "claude_skills_impeccable_reference_layout_register"
     },
@@ -6725,7 +6785,7 @@
       "source_file": ".claude/skills/impeccable/reference/layout.md",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 93,
+      "community": 156,
       "norm_label": "two isolated assessments (required)",
       "id": "claude_skills_impeccable_reference_layout_two_isolated_assessments_required"
     },
@@ -6735,7 +6795,7 @@
       "source_file": ".claude/skills/impeccable/reference/layout.md",
       "source_location": "L35",
       "_origin": "ast",
-      "community": 93,
+      "community": 156,
       "norm_label": "assess current layout",
       "id": "claude_skills_impeccable_reference_layout_assess_current_layout"
     },
@@ -6745,7 +6805,7 @@
       "source_file": ".claude/skills/impeccable/reference/layout.md",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 93,
+      "community": 156,
       "norm_label": "plan layout improvements",
       "id": "claude_skills_impeccable_reference_layout_plan_layout_improvements"
     },
@@ -6835,7 +6895,7 @@
       "source_file": ".claude/skills/impeccable/reference/layout.md",
       "source_location": "L154",
       "_origin": "ast",
-      "community": 93,
+      "community": 156,
       "norm_label": "verify layout improvements",
       "id": "claude_skills_impeccable_reference_layout_verify_layout_improvements"
     },
@@ -6845,7 +6905,7 @@
       "source_file": ".claude/skills/impeccable/reference/layout.md",
       "source_location": "L167",
       "_origin": "ast",
-      "community": 93,
+      "community": 156,
       "norm_label": "live-mode signature params",
       "id": "claude_skills_impeccable_reference_layout_live_mode_signature_params"
     },
@@ -10705,7 +10765,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/design-system.mjs",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 62,
+      "community": 38,
       "norm_label": "resolvedesignsidecarpath()",
       "id": "claude_skills_impeccable_scripts_detector_design_system_resolvedesignsidecarpath"
     },
@@ -10715,7 +10775,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/design-system.mjs",
       "source_location": "L58",
       "_origin": "ast",
-      "community": 62,
+      "community": 38,
       "norm_label": "parsefrontmatter()",
       "id": "claude_skills_impeccable_scripts_detector_design_system_parsefrontmatter"
     },
@@ -10775,7 +10835,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/design-system.mjs",
       "source_location": "L152",
       "_origin": "ast",
-      "community": 62,
+      "community": 38,
       "norm_label": "safereadjson()",
       "id": "claude_skills_impeccable_scripts_detector_design_system_safereadjson"
     },
@@ -10965,7 +11025,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/design-system.mjs",
       "source_location": "L378",
       "_origin": "ast",
-      "community": 62,
+      "community": 38,
       "norm_label": "loaddesignsystemforcwd()",
       "id": "claude_skills_impeccable_scripts_detector_design_system_loaddesignsystemforcwd"
     },
@@ -11175,7 +11235,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/design-system.mjs",
       "source_location": "L767",
       "_origin": "ast",
-      "community": 88,
+      "community": 61,
       "norm_label": "mergedesignsystemfindings()",
       "id": "claude_skills_impeccable_scripts_detector_design_system_mergedesignsystemfindings"
     },
@@ -11205,7 +11265,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L65",
       "_origin": "ast",
-      "community": 166,
+      "community": 88,
       "norm_label": "isbrandfontonowndomain()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_isbrandfontonowndomain"
     },
@@ -11345,7 +11405,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L835",
       "_origin": "ast",
-      "community": 90,
+      "community": 45,
       "norm_label": "iscardlikefromprops()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_iscardlikefromprops"
     },
@@ -11365,7 +11425,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L904",
       "_origin": "ast",
-      "community": 50,
+      "community": 45,
       "norm_label": "resolveserif()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_resolveserif"
     },
@@ -11385,7 +11445,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L936",
       "_origin": "ast",
-      "community": 166,
+      "community": 45,
       "norm_label": "isaccentcolor()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_isaccentcolor"
     },
@@ -11395,7 +11455,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L983",
       "_origin": "ast",
-      "community": 166,
+      "community": 45,
       "norm_label": "checkheroeyebrow()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkheroeyebrow"
     },
@@ -11435,7 +11495,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1121",
       "_origin": "ast",
-      "community": 166,
+      "community": 88,
       "norm_label": "checkhtmlpatterns()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkhtmlpatterns"
     },
@@ -11475,7 +11535,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1442",
       "_origin": "ast",
-      "community": 90,
+      "community": 45,
       "norm_label": "parseradiustopx()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_parseradiustopx"
     },
@@ -11485,7 +11545,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1456",
       "_origin": "ast",
-      "community": 90,
+      "community": 45,
       "norm_label": "resolveborderradiuspx()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_resolveborderradiuspx"
     },
@@ -11535,7 +11595,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1556",
       "_origin": "ast",
-      "community": 166,
+      "community": 45,
       "norm_label": "checkelementheroeyebrowdom()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementheroeyebrowdom"
     },
@@ -11555,7 +11615,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1620",
       "_origin": "ast",
-      "community": 166,
+      "community": 45,
       "norm_label": "resolvevarrefs()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_resolvevarrefs"
     },
@@ -11695,7 +11755,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1975",
       "_origin": "ast",
-      "community": 95,
+      "community": 166,
       "norm_label": "csscoloristransparent()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_csscoloristransparent"
     },
@@ -11715,7 +11775,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L1997",
       "_origin": "ast",
-      "community": 95,
+      "community": 166,
       "norm_label": "getcomputedstylefor()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_getcomputedstylefor"
     },
@@ -11725,7 +11785,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2007",
       "_origin": "ast",
-      "community": 95,
+      "community": 166,
       "norm_label": "hasvisiblebackgroundboundary()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_hasvisiblebackgroundboundary"
     },
@@ -11735,7 +11795,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2026",
       "_origin": "ast",
-      "community": 95,
+      "community": 166,
       "norm_label": "hasmeaningfuldirecttext()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_hasmeaningfuldirecttext"
     },
@@ -11745,7 +11805,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2034",
       "_origin": "ast",
-      "community": 95,
+      "community": 166,
       "norm_label": "textdescendantsflushsides()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_textdescendantsflushsides"
     },
@@ -11755,7 +11815,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2060",
       "_origin": "ast",
-      "community": 95,
+      "community": 166,
       "norm_label": "checkquality()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkquality"
     },
@@ -11775,7 +11835,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2389",
       "_origin": "ast",
-      "community": 166,
+      "community": 88,
       "norm_label": "checkpagequalityfromdoc()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkpagequalityfromdoc"
     },
@@ -11785,7 +11845,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2410",
       "_origin": "ast",
-      "community": 166,
+      "community": 88,
       "norm_label": "checkpagequalitydom()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkpagequalitydom"
     },
@@ -11845,7 +11905,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2561",
       "_origin": "ast",
-      "community": 166,
+      "community": 45,
       "norm_label": "checkelementheroeyebrow()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementheroeyebrow"
     },
@@ -11885,7 +11945,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2620",
       "_origin": "ast",
-      "community": 166,
+      "community": 88,
       "norm_label": "checktypography()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checktypography"
     },
@@ -11895,7 +11955,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2679",
       "_origin": "ast",
-      "community": 90,
+      "community": 45,
       "norm_label": "iscardlikedom()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_iscardlikedom"
     },
@@ -11905,7 +11965,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2691",
       "_origin": "ast",
-      "community": 90,
+      "community": 45,
       "norm_label": "checklayout()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checklayout"
     },
@@ -11925,7 +11985,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2798",
       "_origin": "ast",
-      "community": 90,
+      "community": 45,
       "norm_label": "iscardlike()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_iscardlike"
     },
@@ -11935,7 +11995,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2818",
       "_origin": "ast",
-      "community": 90,
+      "community": 45,
       "norm_label": "checkpagelayout()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkpagelayout"
     },
@@ -11975,7 +12035,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2941",
       "_origin": "ast",
-      "community": 166,
+      "community": 45,
       "norm_label": "checkoversizedh1()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkoversizedh1"
     },
@@ -11985,7 +12045,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2959",
       "_origin": "ast",
-      "community": 166,
+      "community": 45,
       "norm_label": "checkelementoversizedh1()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementoversizedh1"
     },
@@ -11995,7 +12055,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L2966",
       "_origin": "ast",
-      "community": 166,
+      "community": 45,
       "norm_label": "checkelementoversizedh1dom()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementoversizedh1dom"
     },
@@ -12465,7 +12525,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4043",
       "_origin": "ast",
-      "community": 94,
+      "community": 63,
       "norm_label": "pickworstcontrastcolor()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_pickworstcontrastcolor"
     },
@@ -12675,7 +12735,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4566",
       "_origin": "ast",
-      "community": 166,
+      "community": 88,
       "norm_label": "browserfindingsfrommap()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_browserfindingsfrommap"
     },
@@ -12685,7 +12745,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4574",
       "_origin": "ast",
-      "community": 45,
+      "community": 88,
       "norm_label": "normalizebrowserfontname()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_normalizebrowserfontname"
     },
@@ -12695,7 +12755,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4583",
       "_origin": "ast",
-      "community": 45,
+      "community": 88,
       "norm_label": "browserprimaryfont()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_browserprimaryfont"
     },
@@ -12705,7 +12765,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4591",
       "_origin": "ast",
-      "community": 45,
+      "community": 88,
       "norm_label": "browserdesignsystemconfig()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_browserdesignsystemconfig"
     },
@@ -12715,7 +12775,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4613",
       "_origin": "ast",
-      "community": 45,
+      "community": 95,
       "norm_label": "browsercolorsclose()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_browsercolorsclose"
     },
@@ -12725,7 +12785,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4622",
       "_origin": "ast",
-      "community": 45,
+      "community": 95,
       "norm_label": "isbrowserdesigncolorallowed()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_isbrowserdesigncolorallowed"
     },
@@ -12735,7 +12795,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4633",
       "_origin": "ast",
-      "community": 45,
+      "community": 95,
       "norm_label": "isbrowsertransparentcss()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_isbrowsertransparentcss"
     },
@@ -12755,7 +12815,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4651",
       "_origin": "ast",
-      "community": 45,
+      "community": 95,
       "norm_label": "browserradiustokens()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_browserradiustokens"
     },
@@ -12765,7 +12825,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4659",
       "_origin": "ast",
-      "community": 45,
+      "community": 95,
       "norm_label": "browserhasdirecttext()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_browserhasdirecttext"
     },
@@ -12775,7 +12835,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4663",
       "_origin": "ast",
-      "community": 45,
+      "community": 95,
       "norm_label": "browsersampletext()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_browsersampletext"
     },
@@ -12795,7 +12855,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4673",
       "_origin": "ast",
-      "community": 45,
+      "community": 95,
       "norm_label": "checkelementdesignsystemdom()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkelementdesignsystemdom"
     },
@@ -12805,7 +12865,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4732",
       "_origin": "ast",
-      "community": 45,
+      "community": 88,
       "norm_label": "decodebrowsergooglefamily()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_decodebrowsergooglefamily"
     },
@@ -12815,7 +12875,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4741",
       "_origin": "ast",
-      "community": 45,
+      "community": 88,
       "norm_label": "checkbrowserdesignsystemsources()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_checkbrowserdesignsystemsources"
     },
@@ -12825,7 +12885,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L4761",
       "_origin": "ast",
-      "community": 166,
+      "community": 88,
       "norm_label": "collectbrowserfindings()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_collectbrowserfindings"
     },
@@ -12945,7 +13005,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/detect-antipatterns-browser.js",
       "source_location": "L5066",
       "_origin": "ast",
-      "community": 166,
+      "community": 88,
       "norm_label": "collectbrowserfindingsasync()",
       "id": "claude_skills_impeccable_scripts_detector_detect_antipatterns_browser_collectbrowserfindingsasync"
     },
@@ -13115,7 +13175,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/regex/detect-text.mjs",
       "source_location": "L42",
       "_origin": "ast",
-      "community": 83,
+      "community": 50,
       "norm_label": "firstoverusedgooglefont()",
       "id": "claude_skills_impeccable_scripts_detector_engines_regex_detect_text_firstoverusedgooglefont"
     },
@@ -13155,7 +13215,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/regex/detect-text.mjs",
       "source_location": "L351",
       "_origin": "ast",
-      "community": 83,
+      "community": 62,
       "norm_label": "extractstyleblocks()",
       "id": "claude_skills_impeccable_scripts_detector_engines_regex_detect_text_extractstyleblocks"
     },
@@ -13205,7 +13265,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/regex/detect-text.mjs",
       "source_location": "L449",
       "_origin": "ast",
-      "community": 83,
+      "community": 61,
       "norm_label": "runtextcontentanalyzers()",
       "id": "claude_skills_impeccable_scripts_detector_engines_regex_detect_text_runtextcontentanalyzers"
     },
@@ -13215,7 +13275,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/regex/detect-text.mjs",
       "source_location": "L467",
       "_origin": "ast",
-      "community": 83,
+      "community": 62,
       "norm_label": "detecttext()",
       "id": "claude_skills_impeccable_scripts_detector_engines_regex_detect_text_detecttext"
     },
@@ -13635,7 +13695,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L799",
       "_origin": "ast",
-      "community": 88,
+      "community": 44,
       "norm_label": "staticdocument",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticdocument"
     },
@@ -13645,7 +13705,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L800",
       "_origin": "ast",
-      "community": 88,
+      "community": 44,
       "norm_label": ".constructor()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticdocument_constructor"
     },
@@ -13655,7 +13715,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L809",
       "_origin": "ast",
-      "community": 88,
+      "community": 44,
       "norm_label": ".wrap()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticdocument_wrap"
     },
@@ -13665,7 +13725,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L817",
       "_origin": "ast",
-      "community": 88,
+      "community": 44,
       "norm_label": ".queryselectorall()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticdocument_queryselectorall"
     },
@@ -13675,7 +13735,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L824",
       "_origin": "ast",
-      "community": 88,
+      "community": 44,
       "norm_label": ".queryselector()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticdocument_queryselector"
     },
@@ -13685,7 +13745,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L832",
       "_origin": "ast",
-      "community": 88,
+      "community": 44,
       "norm_label": ".documentelement()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticdocument_documentelement"
     },
@@ -13695,7 +13755,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L835",
       "_origin": "ast",
-      "community": 88,
+      "community": 44,
       "norm_label": ".body()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticdocument_body"
     },
@@ -13705,7 +13765,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L838",
       "_origin": "ast",
-      "community": 88,
+      "community": 44,
       "norm_label": ".setstyle()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticdocument_setstyle"
     },
@@ -13715,7 +13775,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L841",
       "_origin": "ast",
-      "community": 88,
+      "community": 44,
       "norm_label": ".getstyle()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_staticdocument_getstyle"
     },
@@ -13735,7 +13795,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L855",
       "_origin": "ast",
-      "community": 88,
+      "community": 61,
       "norm_label": "buildstaticwindow()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_buildstaticwindow"
     },
@@ -13745,7 +13805,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs",
       "source_location": "L862",
       "_origin": "ast",
-      "community": 88,
+      "community": 61,
       "norm_label": "collectstaticcsstext()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_css_cascade_collectstaticcsstext"
     },
@@ -13765,7 +13825,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/detect-html.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 88,
+      "community": 61,
       "norm_label": "detect-html.mjs",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_detect_html"
     },
@@ -13775,7 +13835,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/detect-html.mjs",
       "source_location": "L43",
       "_origin": "ast",
-      "community": 88,
+      "community": 61,
       "norm_label": "checkstaticpagetypography()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_detect_html_checkstaticpagetypography"
     },
@@ -13785,7 +13845,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/detect-html.mjs",
       "source_location": "L78",
       "_origin": "ast",
-      "community": 88,
+      "community": 61,
       "norm_label": "checkelementbrokenimage()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_detect_html_checkelementbrokenimage"
     },
@@ -13795,7 +13855,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/detect-html.mjs",
       "source_location": "L92",
       "_origin": "ast",
-      "community": 88,
+      "community": 61,
       "norm_label": "static_element_rules",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_detect_html_static_element_rules"
     },
@@ -13805,7 +13865,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/engines/static-html/detect-html.mjs",
       "source_location": "L107",
       "_origin": "ast",
-      "community": 88,
+      "community": 61,
       "norm_label": "detecthtml()",
       "id": "claude_skills_impeccable_scripts_detector_engines_static_html_detect_html_detecthtml"
     },
@@ -13855,7 +13915,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/findings.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 62,
+      "community": 61,
       "norm_label": "findings.mjs",
       "id": "claude_skills_impeccable_scripts_detector_findings"
     },
@@ -13865,7 +13925,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/findings.mjs",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 62,
+      "community": 61,
       "norm_label": "getap()",
       "id": "claude_skills_impeccable_scripts_detector_findings_getap"
     },
@@ -14125,7 +14185,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/registry/antipatterns.mjs",
       "source_location": "L456",
       "_origin": "ast",
-      "community": 62,
+      "community": 61,
       "norm_label": "getantipattern()",
       "id": "claude_skills_impeccable_scripts_detector_registry_antipatterns_getantipattern"
     },
@@ -14165,7 +14225,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/registry/antipatterns.mjs",
       "source_location": "L476",
       "_origin": "ast",
-      "community": 62,
+      "community": 61,
       "norm_label": "filterbyproviders()",
       "id": "claude_skills_impeccable_scripts_detector_registry_antipatterns_filterbyproviders"
     },
@@ -14275,7 +14335,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L240",
       "_origin": "ast",
-      "community": 34,
+      "community": 50,
       "norm_label": "checkitalicserif()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkitalicserif"
     },
@@ -14315,7 +14375,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L366",
       "_origin": "ast",
-      "community": 34,
+      "community": 90,
       "norm_label": "layout_transition_props",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_layout_transition_props"
     },
@@ -14325,7 +14385,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L373",
       "_origin": "ast",
-      "community": 34,
+      "community": 90,
       "norm_label": "checkmotion()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkmotion"
     },
@@ -14345,7 +14405,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L447",
       "_origin": "ast",
-      "community": 88,
+      "community": 61,
       "norm_label": "checkhtmlpatterns()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkhtmlpatterns"
     },
@@ -14435,7 +14495,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L869",
       "_origin": "ast",
-      "community": 34,
+      "community": 50,
       "norm_label": "checkelementitalicserifdom()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkelementitalicserifdom"
     },
@@ -14465,7 +14525,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L946",
       "_origin": "ast",
-      "community": 44,
+      "community": 34,
       "norm_label": "resolvevarrefs()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_resolvevarrefs"
     },
@@ -14575,7 +14635,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L1159",
       "_origin": "ast",
-      "community": 34,
+      "community": 90,
       "norm_label": "checkelementmotiondom()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkelementmotiondom"
     },
@@ -14675,7 +14735,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L1350",
       "_origin": "ast",
-      "community": 95,
+      "community": 166,
       "norm_label": "text_edge_tags",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_text_edge_tags"
     },
@@ -14725,7 +14785,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L1715",
       "_origin": "ast",
-      "community": 88,
+      "community": 61,
       "norm_label": "checkpagequalityfromdoc()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkpagequalityfromdoc"
     },
@@ -14735,7 +14795,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L1736",
       "_origin": "ast",
-      "community": 88,
+      "community": 61,
       "norm_label": "checkpagequalitydom()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkpagequalitydom"
     },
@@ -14785,7 +14845,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L1876",
       "_origin": "ast",
-      "community": 34,
+      "community": 50,
       "norm_label": "checkelementitalicserif()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkelementitalicserif"
     },
@@ -14805,7 +14865,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L1918",
       "_origin": "ast",
-      "community": 88,
+      "community": 61,
       "norm_label": "checkrepeatedsectionkickersfromdoc()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkrepeatedsectionkickersfromdoc"
     },
@@ -14815,7 +14875,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L1927",
       "_origin": "ast",
-      "community": 34,
+      "community": 90,
       "norm_label": "checkelementmotion()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkelementmotion"
     },
@@ -14885,7 +14945,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L2144",
       "_origin": "ast",
-      "community": 88,
+      "community": 61,
       "norm_label": "checkpagelayout()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkpagelayout"
     },
@@ -14895,7 +14955,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L2194",
       "_origin": "ast",
-      "community": 88,
+      "community": 34,
       "norm_label": "iscreamcolor()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_iscreamcolor"
     },
@@ -14915,7 +14975,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L2216",
       "_origin": "ast",
-      "community": 88,
+      "community": 34,
       "norm_label": "creamfromclasslist()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_creamfromclasslist"
     },
@@ -14925,7 +14985,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/rules/checks.mjs",
       "source_location": "L2228",
       "_origin": "ast",
-      "community": 88,
+      "community": 34,
       "norm_label": "checkcreampalette()",
       "id": "claude_skills_impeccable_scripts_detector_rules_checks_checkcreampalette"
     },
@@ -15425,7 +15485,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/constants.mjs",
       "source_location": "L59",
       "_origin": "ast",
-      "community": 50,
+      "community": 38,
       "norm_label": "generic_fonts",
       "id": "claude_skills_impeccable_scripts_detector_shared_constants_generic_fonts"
     },
@@ -15445,7 +15505,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/fonts.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 83,
+      "community": 50,
       "norm_label": "fonts.mjs",
       "id": "claude_skills_impeccable_scripts_detector_shared_fonts"
     },
@@ -15455,7 +15515,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/fonts.mjs",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 83,
+      "community": 50,
       "norm_label": "normalizegooglefontfamilyparam()",
       "id": "claude_skills_impeccable_scripts_detector_shared_fonts_normalizegooglefontfamilyparam"
     },
@@ -15465,7 +15525,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/fonts.mjs",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 83,
+      "community": 50,
       "norm_label": "extractgooglefontfamilies()",
       "id": "claude_skills_impeccable_scripts_detector_shared_fonts_extractgooglefontfamilies"
     },
@@ -15475,7 +15535,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 105,
+      "community": 83,
       "norm_label": "inline-ignores.mjs",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores"
     },
@@ -15485,7 +15545,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L42",
       "_origin": "ast",
-      "community": 105,
+      "community": 83,
       "norm_label": "normalizerule()",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores_normalizerule"
     },
@@ -15495,7 +15555,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L50",
       "_origin": "ast",
-      "community": 105,
+      "community": 83,
       "norm_label": "parserulelist()",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores_parserulelist"
     },
@@ -15505,7 +15565,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L60",
       "_origin": "ast",
-      "community": 105,
+      "community": 83,
       "norm_label": "addrules()",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores_addrules"
     },
@@ -15515,7 +15575,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L64",
       "_origin": "ast",
-      "community": 105,
+      "community": 83,
       "norm_label": "getset()",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores_getset"
     },
@@ -15525,7 +15585,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L84",
       "_origin": "ast",
-      "community": 105,
+      "community": 83,
       "norm_label": "parseinlineignores()",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores_parseinlineignores"
     },
@@ -15535,7 +15595,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L115",
       "_origin": "ast",
-      "community": 105,
+      "community": 83,
       "norm_label": "setmatches()",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores_setmatches"
     },
@@ -15545,7 +15605,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L119",
       "_origin": "ast",
-      "community": 105,
+      "community": 83,
       "norm_label": "isinlineignored()",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores_isinlineignored"
     },
@@ -15555,7 +15615,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L131",
       "_origin": "ast",
-      "community": 105,
+      "community": 83,
       "norm_label": "hasdirectives()",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores_hasdirectives"
     },
@@ -15565,7 +15625,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/inline-ignores.mjs",
       "source_location": "L141",
       "_origin": "ast",
-      "community": 105,
+      "community": 83,
       "norm_label": "applyinlineignores()",
       "id": "claude_skills_impeccable_scripts_detector_shared_inline_ignores_applyinlineignores"
     },
@@ -15575,7 +15635,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/page.mjs",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 83,
+      "community": 61,
       "norm_label": "page.mjs",
       "id": "claude_skills_impeccable_scripts_detector_shared_page"
     },
@@ -15585,7 +15645,7 @@
       "source_file": ".claude/skills/impeccable/scripts/detector/shared/page.mjs",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 83,
+      "community": 61,
       "norm_label": "isfullpage()",
       "id": "claude_skills_impeccable_scripts_detector_shared_page_isfullpage"
     },
@@ -18075,7 +18135,7 @@
       "source_file": ".claude/skills/impeccable/scripts/lib/impeccable-config.mjs",
       "source_location": "L427",
       "_origin": "ast",
-      "community": 62,
+      "community": 42,
       "norm_label": "shouldignoredetectionfile()",
       "id": "claude_skills_impeccable_scripts_lib_impeccable_config_shouldignoredetectionfile"
     },
@@ -32132,191 +32192,241 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/design.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/design.md",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "openspec_changes_make_fragata_reel_keyboard_accessible_design",
-      "target": "openspec_changes_make_fragata_reel_keyboard_accessible_design_context",
+      "source": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_design",
+      "target": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_design_context",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/design.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/design.md",
       "source_location": "L25",
       "weight": 1.0,
-      "source": "openspec_changes_make_fragata_reel_keyboard_accessible_design",
-      "target": "openspec_changes_make_fragata_reel_keyboard_accessible_design_decisions",
+      "source": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_design",
+      "target": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_design_decisions",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/design.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/design.md",
       "source_location": "L16",
       "weight": 1.0,
-      "source": "openspec_changes_make_fragata_reel_keyboard_accessible_design",
-      "target": "openspec_changes_make_fragata_reel_keyboard_accessible_design_goals_non_goals",
+      "source": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_design",
+      "target": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_design_goals_non_goals",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/design.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/design.md",
       "source_location": "L41",
       "weight": 1.0,
-      "source": "openspec_changes_make_fragata_reel_keyboard_accessible_design",
-      "target": "openspec_changes_make_fragata_reel_keyboard_accessible_design_migration_plan",
+      "source": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_design",
+      "target": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_design_migration_plan",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/design.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/design.md",
       "source_location": "L49",
       "weight": 1.0,
-      "source": "openspec_changes_make_fragata_reel_keyboard_accessible_design",
-      "target": "openspec_changes_make_fragata_reel_keyboard_accessible_design_open_questions",
+      "source": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_design",
+      "target": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_design_open_questions",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/design.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/design.md",
       "source_location": "L36",
       "weight": 1.0,
-      "source": "openspec_changes_make_fragata_reel_keyboard_accessible_design",
-      "target": "openspec_changes_make_fragata_reel_keyboard_accessible_design_risks_trade_offs",
+      "source": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_design",
+      "target": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_design_risks_trade_offs",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/proposal.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/proposal.md",
       "source_location": "L12",
       "weight": 1.0,
-      "source": "openspec_changes_make_fragata_reel_keyboard_accessible_proposal",
-      "target": "openspec_changes_make_fragata_reel_keyboard_accessible_proposal_capabilities",
+      "source": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_proposal",
+      "target": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_proposal_capabilities",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/proposal.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/proposal.md",
       "source_location": "L20",
       "weight": 1.0,
-      "source": "openspec_changes_make_fragata_reel_keyboard_accessible_proposal",
-      "target": "openspec_changes_make_fragata_reel_keyboard_accessible_proposal_impact",
+      "source": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_proposal",
+      "target": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_proposal_impact",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/proposal.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/proposal.md",
       "source_location": "L5",
       "weight": 1.0,
-      "source": "openspec_changes_make_fragata_reel_keyboard_accessible_proposal",
-      "target": "openspec_changes_make_fragata_reel_keyboard_accessible_proposal_what_changes",
+      "source": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_proposal",
+      "target": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_proposal_what_changes",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/proposal.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/proposal.md",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "openspec_changes_make_fragata_reel_keyboard_accessible_proposal",
-      "target": "openspec_changes_make_fragata_reel_keyboard_accessible_proposal_why",
+      "source": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_proposal",
+      "target": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_proposal_why",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/proposal.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/proposal.md",
       "source_location": "L17",
       "weight": 1.0,
-      "source": "openspec_changes_make_fragata_reel_keyboard_accessible_proposal_capabilities",
-      "target": "openspec_changes_make_fragata_reel_keyboard_accessible_proposal_modified_capabilities",
+      "source": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_proposal_capabilities",
+      "target": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_proposal_modified_capabilities",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/proposal.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/proposal.md",
       "source_location": "L14",
       "weight": 1.0,
-      "source": "openspec_changes_make_fragata_reel_keyboard_accessible_proposal_capabilities",
-      "target": "openspec_changes_make_fragata_reel_keyboard_accessible_proposal_new_capabilities",
+      "source": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_proposal_capabilities",
+      "target": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_proposal_new_capabilities",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/specs/keyboard-accessible-galleries/spec.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/specs/keyboard-accessible-galleries/spec.md",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "openspec_changes_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec",
-      "target": "openspec_changes_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_added_requirements",
+      "source": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec",
+      "target": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_added_requirements",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/specs/keyboard-accessible-galleries/spec.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/specs/keyboard-accessible-galleries/spec.md",
       "source_location": "L3",
       "weight": 1.0,
-      "source": "openspec_changes_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_added_requirements",
-      "target": "openspec_changes_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_requirement_las_fotos_del_carrete_de_la_fragata_son_operables_por_teclado",
+      "source": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_added_requirements",
+      "target": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_requirement_las_fotos_del_carrete_de_la_fragata_son_operables_por_teclado",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/specs/keyboard-accessible-galleries/spec.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/specs/keyboard-accessible-galleries/spec.md",
       "source_location": "L10",
       "weight": 1.0,
-      "source": "openspec_changes_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_requirement_las_fotos_del_carrete_de_la_fragata_son_operables_por_teclado",
-      "target": "openspec_changes_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_scenario_el_foco_es_visible",
+      "source": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_requirement_las_fotos_del_carrete_de_la_fragata_son_operables_por_teclado",
+      "target": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_scenario_el_foco_es_visible",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/specs/keyboard-accessible-galleries/spec.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/specs/keyboard-accessible-galleries/spec.md",
       "source_location": "L6",
       "weight": 1.0,
-      "source": "openspec_changes_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_requirement_las_fotos_del_carrete_de_la_fragata_son_operables_por_teclado",
-      "target": "openspec_changes_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_scenario_navegar_y_abrir_una_foto_del_carrete_de_la_fragata_por_teclado",
+      "source": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_requirement_las_fotos_del_carrete_de_la_fragata_son_operables_por_teclado",
+      "target": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_specs_keyboard_accessible_galleries_spec_scenario_navegar_y_abrir_una_foto_del_carrete_de_la_fragata_por_teclado",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/tasks.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/tasks.md",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "openspec_changes_make_fragata_reel_keyboard_accessible_tasks",
-      "target": "openspec_changes_make_fragata_reel_keyboard_accessible_tasks_1_aplicar_el_fix",
+      "source": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_tasks",
+      "target": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_tasks_1_aplicar_el_fix",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/tasks.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/tasks.md",
       "source_location": "L6",
       "weight": 1.0,
-      "source": "openspec_changes_make_fragata_reel_keyboard_accessible_tasks",
-      "target": "openspec_changes_make_fragata_reel_keyboard_accessible_tasks_2_verificaci\u00f3n",
+      "source": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_tasks",
+      "target": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_tasks_2_verificaci\u00f3n",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "openspec/changes/make-fragata-reel-keyboard-accessible/tasks.md",
+      "source_file": "openspec/changes/archive/2026-07-10-make-fragata-reel-keyboard-accessible/tasks.md",
       "source_location": "L13",
       "weight": 1.0,
-      "source": "openspec_changes_make_fragata_reel_keyboard_accessible_tasks",
-      "target": "openspec_changes_make_fragata_reel_keyboard_accessible_tasks_3_deploy",
+      "source": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_tasks",
+      "target": "openspec_changes_archive_2026_07_10_make_fragata_reel_keyboard_accessible_tasks_3_deploy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/keyboard-accessible-galleries/spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "openspec_specs_keyboard_accessible_galleries_spec",
+      "target": "openspec_specs_keyboard_accessible_galleries_spec_purpose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/keyboard-accessible-galleries/spec.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "openspec_specs_keyboard_accessible_galleries_spec",
+      "target": "openspec_specs_keyboard_accessible_galleries_spec_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/keyboard-accessible-galleries/spec.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "openspec_specs_keyboard_accessible_galleries_spec_requirements",
+      "target": "openspec_specs_keyboard_accessible_galleries_spec_requirement_las_fotos_del_carrete_de_la_fragata_son_operables_por_teclado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/keyboard-accessible-galleries/spec.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "openspec_specs_keyboard_accessible_galleries_spec_requirement_las_fotos_del_carrete_de_la_fragata_son_operables_por_teclado",
+      "target": "openspec_specs_keyboard_accessible_galleries_spec_scenario_el_foco_es_visible",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "openspec/specs/keyboard-accessible-galleries/spec.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "openspec_specs_keyboard_accessible_galleries_spec_requirement_las_fotos_del_carrete_de_la_fragata_son_operables_por_teclado",
+      "target": "openspec_specs_keyboard_accessible_galleries_spec_scenario_navegar_y_abrir_una_foto_del_carrete_de_la_fragata_por_teclado",
       "confidence_score": 1.0
     },
     {
@@ -32325,9 +32435,9 @@
       "source_file": "script.js",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_activelightboximages",
-      "confidence_score": 1.0
+      "target": "script_activelightboximages"
     },
     {
       "relation": "contains",
@@ -32335,9 +32445,9 @@
       "source_file": "script.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_carousel",
-      "confidence_score": 1.0
+      "target": "script_carousel"
     },
     {
       "relation": "contains",
@@ -32345,9 +32455,9 @@
       "source_file": "script.js",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_carouselnext",
-      "confidence_score": 1.0
+      "target": "script_carouselnext"
     },
     {
       "relation": "contains",
@@ -32355,9 +32465,9 @@
       "source_file": "script.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_carouselprev",
-      "confidence_score": 1.0
+      "target": "script_carouselprev"
     },
     {
       "relation": "indirect_call",
@@ -32366,9 +32476,9 @@
       "source_location": "L419",
       "weight": 1.0,
       "context": "argument",
+      "confidence_score": 0.5,
       "source": "script",
-      "target": "script_closelightbox",
-      "confidence_score": 0.5
+      "target": "script_closelightbox"
     },
     {
       "relation": "contains",
@@ -32376,9 +32486,9 @@
       "source_file": "script.js",
       "source_location": "L352",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_closeplacemodal",
-      "confidence_score": 1.0
+      "target": "script_closeplacemodal"
     },
     {
       "relation": "contains",
@@ -32386,9 +32496,9 @@
       "source_file": "script.js",
       "source_location": "L314",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_getplacemodalfocusable",
-      "confidence_score": 1.0
+      "target": "script_getplacemodalfocusable"
     },
     {
       "relation": "contains",
@@ -32396,9 +32506,9 @@
       "source_file": "script.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_header",
-      "confidence_score": 1.0
+      "target": "script_header"
     },
     {
       "relation": "contains",
@@ -32406,9 +32516,9 @@
       "source_file": "script.js",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_hero",
-      "confidence_score": 1.0
+      "target": "script_hero"
     },
     {
       "relation": "contains",
@@ -32416,9 +32526,9 @@
       "source_file": "script.js",
       "source_location": "L181",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_humanizeslug",
-      "confidence_score": 1.0
+      "target": "script_humanizeslug"
     },
     {
       "relation": "contains",
@@ -32426,9 +32536,9 @@
       "source_file": "script.js",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_lightbox",
-      "confidence_score": 1.0
+      "target": "script_lightbox"
     },
     {
       "relation": "contains",
@@ -32436,9 +32546,9 @@
       "source_file": "script.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_lightboxclose",
-      "confidence_score": 1.0
+      "target": "script_lightboxclose"
     },
     {
       "relation": "contains",
@@ -32446,9 +32556,9 @@
       "source_file": "script.js",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_lightboxdescription",
-      "confidence_score": 1.0
+      "target": "script_lightboxdescription"
     },
     {
       "relation": "contains",
@@ -32456,9 +32566,9 @@
       "source_file": "script.js",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_lightboximage",
-      "confidence_score": 1.0
+      "target": "script_lightboximage"
     },
     {
       "relation": "contains",
@@ -32466,9 +32576,9 @@
       "source_file": "script.js",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_lightboxlocation",
-      "confidence_score": 1.0
+      "target": "script_lightboxlocation"
     },
     {
       "relation": "contains",
@@ -32476,9 +32586,9 @@
       "source_file": "script.js",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_lightboxnext",
-      "confidence_score": 1.0
+      "target": "script_lightboxnext"
     },
     {
       "relation": "contains",
@@ -32486,9 +32596,9 @@
       "source_file": "script.js",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_lightboxprev",
-      "confidence_score": 1.0
+      "target": "script_lightboxprev"
     },
     {
       "relation": "contains",
@@ -32496,9 +32606,9 @@
       "source_file": "script.js",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_lightboxtitle",
-      "confidence_score": 1.0
+      "target": "script_lightboxtitle"
     },
     {
       "relation": "contains",
@@ -32506,9 +32616,9 @@
       "source_file": "script.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_menu",
-      "confidence_score": 1.0
+      "target": "script_menu"
     },
     {
       "relation": "contains",
@@ -32516,9 +32626,9 @@
       "source_file": "script.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_menubutton",
-      "confidence_score": 1.0
+      "target": "script_menubutton"
     },
     {
       "relation": "contains",
@@ -32526,9 +32636,9 @@
       "source_file": "script.js",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_motionphotos",
-      "confidence_score": 1.0
+      "target": "script_motionphotos"
     },
     {
       "relation": "contains",
@@ -32536,9 +32646,9 @@
       "source_file": "script.js",
       "source_location": "L155",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_movecarousel",
-      "confidence_score": 1.0
+      "target": "script_movecarousel"
     },
     {
       "relation": "contains",
@@ -32546,9 +32656,9 @@
       "source_file": "script.js",
       "source_location": "L307",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_movelightbox",
-      "confidence_score": 1.0
+      "target": "script_movelightbox"
     },
     {
       "relation": "contains",
@@ -32556,9 +32666,9 @@
       "source_file": "script.js",
       "source_location": "L168",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_movereel",
-      "confidence_score": 1.0
+      "target": "script_movereel"
     },
     {
       "relation": "contains",
@@ -32566,9 +32676,9 @@
       "source_file": "script.js",
       "source_location": "L287",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_openlightbox",
-      "confidence_score": 1.0
+      "target": "script_openlightbox"
     },
     {
       "relation": "contains",
@@ -32576,9 +32686,9 @@
       "source_file": "script.js",
       "source_location": "L323",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_openplacemodal",
-      "confidence_score": 1.0
+      "target": "script_openplacemodal"
     },
     {
       "relation": "contains",
@@ -32586,9 +32696,9 @@
       "source_file": "script.js",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_pagehero",
-      "confidence_score": 1.0
+      "target": "script_pagehero"
     },
     {
       "relation": "contains",
@@ -32596,9 +32706,9 @@
       "source_file": "script.js",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_photoexhibitimages",
-      "confidence_score": 1.0
+      "target": "script_photoexhibitimages"
     },
     {
       "relation": "contains",
@@ -32606,9 +32716,9 @@
       "source_file": "script.js",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_photoreelsections",
-      "confidence_score": 1.0
+      "target": "script_photoreelsections"
     },
     {
       "relation": "contains",
@@ -32616,9 +32726,9 @@
       "source_file": "script.js",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_placecards",
-      "confidence_score": 1.0
+      "target": "script_placecards"
     },
     {
       "relation": "contains",
@@ -32626,9 +32736,9 @@
       "source_file": "script.js",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_placegalleryimages",
-      "confidence_score": 1.0
+      "target": "script_placegalleryimages"
     },
     {
       "relation": "contains",
@@ -32636,9 +32746,9 @@
       "source_file": "script.js",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_placemodal",
-      "confidence_score": 1.0
+      "target": "script_placemodal"
     },
     {
       "relation": "contains",
@@ -32646,9 +32756,9 @@
       "source_file": "script.js",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_placemodalclosebuttons",
-      "confidence_score": 1.0
+      "target": "script_placemodalclosebuttons"
     },
     {
       "relation": "contains",
@@ -32656,9 +32766,9 @@
       "source_file": "script.js",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_placemodalimage",
-      "confidence_score": 1.0
+      "target": "script_placemodalimage"
     },
     {
       "relation": "contains",
@@ -32666,9 +32776,9 @@
       "source_file": "script.js",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_placemodalkicker",
-      "confidence_score": 1.0
+      "target": "script_placemodalkicker"
     },
     {
       "relation": "contains",
@@ -32676,9 +32786,9 @@
       "source_file": "script.js",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_placemodalnumber",
-      "confidence_score": 1.0
+      "target": "script_placemodalnumber"
     },
     {
       "relation": "contains",
@@ -32686,9 +32796,9 @@
       "source_file": "script.js",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_placemodalpanel",
-      "confidence_score": 1.0
+      "target": "script_placemodalpanel"
     },
     {
       "relation": "contains",
@@ -32696,9 +32806,9 @@
       "source_file": "script.js",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_placemodalreview",
-      "confidence_score": 1.0
+      "target": "script_placemodalreview"
     },
     {
       "relation": "contains",
@@ -32706,9 +32816,9 @@
       "source_file": "script.js",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_placemodaltitle",
-      "confidence_score": 1.0
+      "target": "script_placemodaltitle"
     },
     {
       "relation": "contains",
@@ -32716,9 +32826,9 @@
       "source_file": "script.js",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_placetriggers",
-      "confidence_score": 1.0
+      "target": "script_placetriggers"
     },
     {
       "relation": "contains",
@@ -32726,9 +32836,9 @@
       "source_file": "script.js",
       "source_location": "L124",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_preparemediaforpublicview",
-      "confidence_score": 1.0
+      "target": "script_preparemediaforpublicview"
     },
     {
       "relation": "contains",
@@ -32736,9 +32846,9 @@
       "source_file": "script.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_reel",
-      "confidence_score": 1.0
+      "target": "script_reel"
     },
     {
       "relation": "contains",
@@ -32746,9 +32856,9 @@
       "source_file": "script.js",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_reelnext",
-      "confidence_score": 1.0
+      "target": "script_reelnext"
     },
     {
       "relation": "contains",
@@ -32756,9 +32866,9 @@
       "source_file": "script.js",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_reelprev",
-      "confidence_score": 1.0
+      "target": "script_reelprev"
     },
     {
       "relation": "contains",
@@ -32766,9 +32876,9 @@
       "source_file": "script.js",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_refreshheader",
-      "confidence_score": 1.0
+      "target": "script_refreshheader"
     },
     {
       "relation": "contains",
@@ -32776,9 +32886,9 @@
       "source_file": "script.js",
       "source_location": "L259",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_renderlightboximage",
-      "confidence_score": 1.0
+      "target": "script_renderlightboximage"
     },
     {
       "relation": "contains",
@@ -32786,9 +32896,9 @@
       "source_file": "script.js",
       "source_location": "L118",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_requestphotodepth",
-      "confidence_score": 1.0
+      "target": "script_requestphotodepth"
     },
     {
       "relation": "contains",
@@ -32796,9 +32906,9 @@
       "source_file": "script.js",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_revealtargets",
-      "confidence_score": 1.0
+      "target": "script_revealtargets"
     },
     {
       "relation": "contains",
@@ -32806,9 +32916,9 @@
       "source_file": "script.js",
       "source_location": "L251",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_scrolltoelement",
-      "confidence_score": 1.0
+      "target": "script_scrolltoelement"
     },
     {
       "relation": "contains",
@@ -32816,9 +32926,9 @@
       "source_file": "script.js",
       "source_location": "L135",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_setmenuopen",
-      "confidence_score": 1.0
+      "target": "script_setmenuopen"
     },
     {
       "relation": "contains",
@@ -32826,9 +32936,9 @@
       "source_file": "script.js",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_setupnarrativereveal",
-      "confidence_score": 1.0
+      "target": "script_setupnarrativereveal"
     },
     {
       "relation": "indirect_call",
@@ -32837,9 +32947,9 @@
       "source_location": "L248",
       "weight": 1.0,
       "context": "argument",
+      "confidence_score": 0.5,
       "source": "script",
-      "target": "script_setupphotoreelsection",
-      "confidence_score": 0.5
+      "target": "script_setupphotoreelsection"
     },
     {
       "relation": "contains",
@@ -32847,9 +32957,9 @@
       "source_file": "script.js",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_socialstrip",
-      "confidence_score": 1.0
+      "target": "script_socialstrip"
     },
     {
       "relation": "indirect_call",
@@ -32858,9 +32968,9 @@
       "source_location": "L436",
       "weight": 1.0,
       "context": "argument",
+      "confidence_score": 0.5,
       "source": "script",
-      "target": "script_trapplacemodalfocus",
-      "confidence_score": 0.5
+      "target": "script_trapplacemodalfocus"
     },
     {
       "relation": "contains",
@@ -32868,9 +32978,9 @@
       "source_file": "script.js",
       "source_location": "L101",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script",
-      "target": "script_updatephotodepth",
-      "confidence_score": 1.0
+      "target": "script_updatephotodepth"
     },
     {
       "relation": "indirect_call",
@@ -32879,9 +32989,9 @@
       "source_file": "script.js",
       "source_location": "L121",
       "weight": 1.0,
+      "confidence_score": 0.5,
       "source": "script_requestphotodepth",
-      "target": "script_updatephotodepth",
-      "confidence_score": 0.5
+      "target": "script_updatephotodepth"
     },
     {
       "relation": "calls",
@@ -32890,9 +33000,9 @@
       "source_file": "script.js",
       "source_location": "L212",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script_setupphotoreelsection",
-      "target": "script_humanizeslug",
-      "confidence_score": 1.0
+      "target": "script_humanizeslug"
     },
     {
       "relation": "calls",
@@ -32901,9 +33011,9 @@
       "source_file": "script.js",
       "source_location": "L243",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script_setupphotoreelsection",
-      "target": "script_openlightbox",
-      "confidence_score": 1.0
+      "target": "script_openlightbox"
     },
     {
       "relation": "calls",
@@ -32912,9 +33022,9 @@
       "source_file": "script.js",
       "source_location": "L311",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script_movelightbox",
-      "target": "script_renderlightboximage",
-      "confidence_score": 1.0
+      "target": "script_renderlightboximage"
     },
     {
       "relation": "calls",
@@ -32923,9 +33033,9 @@
       "source_file": "script.js",
       "source_location": "L291",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script_openlightbox",
-      "target": "script_renderlightboximage",
-      "confidence_score": 1.0
+      "target": "script_renderlightboximage"
     },
     {
       "relation": "calls",
@@ -32934,9 +33044,9 @@
       "source_file": "script.js",
       "source_location": "L347",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script_openplacemodal",
-      "target": "script_getplacemodalfocusable",
-      "confidence_score": 1.0
+      "target": "script_getplacemodalfocusable"
     },
     {
       "relation": "calls",
@@ -32945,9 +33055,9 @@
       "source_file": "script.js",
       "source_location": "L369",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "script_trapplacemodalfocus",
-      "target": "script_getplacemodalfocusable",
-      "confidence_score": 1.0
+      "target": "script_getplacemodalfocusable"
     },
     {
       "relation": "contains",
@@ -103544,5 +103654,5 @@
       "source_file": "docs/marca/arquitectura-de-marca.md"
     }
   ],
-  "built_at_commit": "81792b53e5cc502a060f578c5cf14cc5d33c0ecc"
+  "built_at_commit": "852f2b910c7c7b6c2a32dbc83334c4dccc529dd0"
 }
