@@ -1154,29 +1154,34 @@
     "ast_hash": "d299cc9ea5a813a53efdc628e6121485",
     "semantic_hash": ""
   },
-  "openspec/changes/add-hero-image-srcset/.openspec.yaml": {
-    "mtime": 1783789762.019941,
+  "openspec/changes/archive/2026-07-11-add-hero-image-srcset/.openspec.yaml": {
+    "mtime": 1783792203.261089,
     "ast_hash": "145b3979ac90c49abaf8eac7a3e26147",
     "semantic_hash": ""
   },
-  "openspec/changes/add-hero-image-srcset/design.md": {
-    "mtime": 1783789850.4855409,
+  "openspec/changes/archive/2026-07-11-add-hero-image-srcset/design.md": {
+    "mtime": 1783792203.2630894,
     "ast_hash": "f2ac42debffed375c844a73e8ea1cc24",
     "semantic_hash": ""
   },
-  "openspec/changes/add-hero-image-srcset/proposal.md": {
-    "mtime": 1783789804.4390988,
+  "openspec/changes/archive/2026-07-11-add-hero-image-srcset/proposal.md": {
+    "mtime": 1783792203.2620914,
     "ast_hash": "b94f1ace19095c85c318dbd86873a887",
     "semantic_hash": ""
   },
-  "openspec/changes/add-hero-image-srcset/specs/responsive-hero-images/spec.md": {
-    "mtime": 1783790044.3636198,
+  "openspec/changes/archive/2026-07-11-add-hero-image-srcset/specs/responsive-hero-images/spec.md": {
+    "mtime": 1783792203.2640896,
     "ast_hash": "56fe142bb7784047c7085a9f6bcef163",
     "semantic_hash": ""
   },
-  "openspec/changes/add-hero-image-srcset/tasks.md": {
-    "mtime": 1783791954.9546494,
-    "ast_hash": "36b4709da2ed9608a61fb080a2b0a133",
+  "openspec/changes/archive/2026-07-11-add-hero-image-srcset/tasks.md": {
+    "mtime": 1783792203.26509,
+    "ast_hash": "0791f33975c990165671e1ef00b3bd74",
+    "semantic_hash": ""
+  },
+  "openspec/specs/responsive-hero-images/spec.md": {
+    "mtime": 1783792184.827066,
+    "ast_hash": "ee4e6dc5c5e5dbbdbaf3de87d9837b34",
     "semantic_hash": ""
   }
 }
