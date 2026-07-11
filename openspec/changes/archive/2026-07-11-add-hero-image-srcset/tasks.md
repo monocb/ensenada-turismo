@@ -19,6 +19,6 @@
 
 ## 5. Deploy
 
-- [ ] 5.1 Commit + push a `main` (confirmar con el usuario antes, dispara deploy automático en Netlify)
-- [ ] 5.2 Verificar en producción (ensenadaturismo.com) que el hero carga correctamente
+- [x] 5.1 Commit + push a `main` (confirmar con el usuario antes, dispara deploy automático en Netlify)
+- [x] 5.2 Verificar en producción (ensenadaturismo.com) que el hero carga correctamente
 - [ ] 5.3 Archivar el change y sincronizar la spec `responsive-hero-images`
