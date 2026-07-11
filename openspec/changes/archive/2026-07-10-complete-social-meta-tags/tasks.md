@@ -10,5 +10,5 @@
 ## 3. Verificación y deploy
 
 - [x] 3.1 Revisar el `<head>` resultante de ambas páginas (todas las meta tags presentes, sin duplicados, valores correctos)
-- [ ] 3.2 Commit + push a `main`
-- [ ] 3.3 Verificar en producción (`ensenadaturismo.com` y `ensenadaturismo.com/en-fotos`) que las meta tags están presentes
+- [x] 3.2 Commit + push a `main`
+- [x] 3.3 Verificar en producción (`ensenadaturismo.com` y `ensenadaturismo.com/en-fotos`) que las meta tags están presentes

@@ -120,13 +120,13 @@
     "semantic_hash": "0bfe316dedd6def3a27875dad4d981a6"
   },
   "en-fotos/index.html": {
-    "mtime": 1783544799.7105644,
-    "ast_hash": "17ecabddca4fdd0226bf0c318839bb30",
-    "semantic_hash": "17ecabddca4fdd0226bf0c318839bb30"
+    "mtime": 1783729151.364634,
+    "ast_hash": "80b1658594539d85ef4dd0892dcd19be",
+    "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1783727000.7686157,
-    "ast_hash": "7297a49304c8db13fdadf951e6ba16b6",
+    "mtime": 1783729182.6228886,
+    "ast_hash": "4f8e7dece3b07186f0f42233471cfb4e",
     "semantic_hash": ""
   },
   "openspec/config.yaml": {
@@ -1072,6 +1072,31 @@
   "openspec/specs/keyboard-accessible-galleries/spec.md": {
     "mtime": 1783727697.1621182,
     "ast_hash": "e4c49953060b358d58a6f6bd6930b607",
+    "semantic_hash": ""
+  },
+  "openspec/changes/complete-social-meta-tags/.openspec.yaml": {
+    "mtime": 1783728691.3638635,
+    "ast_hash": "145b3979ac90c49abaf8eac7a3e26147",
+    "semantic_hash": ""
+  },
+  "openspec/changes/complete-social-meta-tags/design.md": {
+    "mtime": 1783728766.1428063,
+    "ast_hash": "38d77bb7737a9d0a6801c54b627ec227",
+    "semantic_hash": ""
+  },
+  "openspec/changes/complete-social-meta-tags/proposal.md": {
+    "mtime": 1783728714.9875708,
+    "ast_hash": "ed16fb168f06dc686dafaf1d2de796bf",
+    "semantic_hash": ""
+  },
+  "openspec/changes/complete-social-meta-tags/specs/social-sharing-metadata/spec.md": {
+    "mtime": 1783728785.995346,
+    "ast_hash": "241bd84a7a93c1e4782f81ac1349e8be",
+    "semantic_hash": ""
+  },
+  "openspec/changes/complete-social-meta-tags/tasks.md": {
+    "mtime": 1783729230.4137952,
+    "ast_hash": "759f6edfbaf58229b8764762f82256f5",
     "semantic_hash": ""
   }
 }
