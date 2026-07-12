@@ -1175,8 +1175,8 @@
     "semantic_hash": ""
   },
   "openspec/specs/responsive-hero-images/spec.md": {
-    "mtime": 1783833962.8163013,
-    "ast_hash": "a4165d1bfc269bd40a458a2dfb141c37",
+    "mtime": 1783835055.2388067,
+    "ast_hash": "87aca52bf4db9b078fb6dfd3ad4ee5fc",
     "semantic_hash": ""
   },
   "docs/tecnico/patron-galerias-data-attributes.md": {
@@ -1294,29 +1294,29 @@
     "ast_hash": "6e16c1424568d69dd726284416100d88",
     "semantic_hash": ""
   },
-  "openspec/changes/add-srcset-minor-images/.openspec.yaml": {
-    "mtime": 1783834205.9976213,
+  "openspec/changes/archive/2026-07-12-add-srcset-minor-images/.openspec.yaml": {
+    "mtime": 1783835062.6904328,
     "ast_hash": "be083c7982e1be250fd7f9023d23ad62",
     "semantic_hash": ""
   },
-  "openspec/changes/add-srcset-minor-images/design.md": {
-    "mtime": 1783834255.2693505,
+  "openspec/changes/archive/2026-07-12-add-srcset-minor-images/design.md": {
+    "mtime": 1783835062.6884305,
     "ast_hash": "f7a60e72ea640e0a621b2f4e2a154ef5",
     "semantic_hash": ""
   },
-  "openspec/changes/add-srcset-minor-images/proposal.md": {
-    "mtime": 1783834223.891901,
+  "openspec/changes/archive/2026-07-12-add-srcset-minor-images/proposal.md": {
+    "mtime": 1783835062.6874316,
     "ast_hash": "9cfce72d19c091b731a6da21dcf82bdc",
     "semantic_hash": ""
   },
-  "openspec/changes/add-srcset-minor-images/specs/responsive-hero-images/spec.md": {
-    "mtime": 1783834264.5235257,
+  "openspec/changes/archive/2026-07-12-add-srcset-minor-images/specs/responsive-hero-images/spec.md": {
+    "mtime": 1783835062.6894326,
     "ast_hash": "6b6b03cb66e288021bc33c42a8a90c12",
     "semantic_hash": ""
   },
-  "openspec/changes/add-srcset-minor-images/tasks.md": {
-    "mtime": 1783834535.5716755,
-    "ast_hash": "ffa8e55643330217a5b0d4256c22dfdc",
+  "openspec/changes/archive/2026-07-12-add-srcset-minor-images/tasks.md": {
+    "mtime": 1783835072.0010283,
+    "ast_hash": "938e5441fa69c23a2f316192d4a5a1da",
     "semantic_hash": ""
   }
 }
