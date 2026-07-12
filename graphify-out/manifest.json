@@ -125,8 +125,8 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1783833638.5659091,
-    "ast_hash": "72800ef04b5230ed7d7058100072a842",
+    "mtime": 1783834427.90172,
+    "ast_hash": "f5e8217e2db3bf57935a96718b639f07",
     "semantic_hash": ""
   },
   "openspec/config.yaml": {
@@ -185,8 +185,8 @@
     "semantic_hash": ""
   },
   "docs/pendientes/performance.md": {
-    "mtime": 1783833767.354528,
-    "ast_hash": "0d72c675eb3e95d11820f25504f8245d",
+    "mtime": 1783834529.8312755,
+    "ast_hash": "362c060e884f76f185476d73c18da3e5",
     "semantic_hash": ""
   },
   "docs/pendientes/riesgos-mitigados.md": {
@@ -1292,6 +1292,31 @@
   "openspec/changes/archive/2026-07-12-add-srcset-fragata-cultura/tasks.md": {
     "mtime": 1783833979.5170329,
     "ast_hash": "6e16c1424568d69dd726284416100d88",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-srcset-minor-images/.openspec.yaml": {
+    "mtime": 1783834205.9976213,
+    "ast_hash": "be083c7982e1be250fd7f9023d23ad62",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-srcset-minor-images/design.md": {
+    "mtime": 1783834255.2693505,
+    "ast_hash": "f7a60e72ea640e0a621b2f4e2a154ef5",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-srcset-minor-images/proposal.md": {
+    "mtime": 1783834223.891901,
+    "ast_hash": "9cfce72d19c091b731a6da21dcf82bdc",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-srcset-minor-images/specs/responsive-hero-images/spec.md": {
+    "mtime": 1783834264.5235257,
+    "ast_hash": "6b6b03cb66e288021bc33c42a8a90c12",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-srcset-minor-images/tasks.md": {
+    "mtime": 1783834535.5716755,
+    "ast_hash": "ffa8e55643330217a5b0d4256c22dfdc",
     "semantic_hash": ""
   }
 }

@@ -1,16 +1,16 @@
 # Graph Report - ensenada-turismo  (2026-07-12)
 
 ## Corpus Check
-- 236 files · ~296,535 words
+- 240 files · ~297,791 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 3435 nodes · 6987 edges · 217 communities (209 shown, 8 thin omitted)
+- 3461 nodes · 7009 edges · 221 communities (213 shown, 8 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 129 edges (avg confidence: 0.68)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c9b8273b`
+- Built from commit: `0f53bea4`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -232,6 +232,10 @@
 - expandScanTargets
 - 4. Plan three variants: identity first, then mode, then axes
 - checkHeroEyebrow
+- design.md
+- Requirement: Las imágenes de place-cards, brand-line-grid y video-panel sirven la resolución apropiada según su ancho renderizado
+- proposal.md
+- tasks.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `el()` - 55 edges
@@ -266,7 +270,7 @@
 - **Documentos derivados del Manual Interno de Marca v1.0** — docs_marca_identidad, docs_marca_sistema_visual, docs_marca_colores_y_tipografia, docs_marca_arquitectura_de_marca, docs_marca_fotografia_y_composicion, docs_marca_sponsors_y_reglas [INFERRED 0.85]
 - **Sistema de líneas de marca y su color asociado** — docs_marca_arquitectura_de_marca, docs_marca_colores_y_tipografia, docs_marca_sistema_visual_color [INFERRED 0.80]
 
-## Communities (217 total, 8 thin omitted)
+## Communities (221 total, 8 thin omitted)
 
 ### Community 0 - "Interacciones de UI (script.js)"
 Cohesion: 0.04
@@ -417,8 +421,8 @@ Cohesion: 0.09
 Nodes (52): applyOriginalAttrsToSvelteAnchor(), applySavedSessionMeta(), clampVariantIndex(), clearHandled(), commitAcceptedSvelteComponentToDom(), elementMatchesOriginalMarkup(), ensureInsertPlaceholder(), enterRecoveryWaitingForAnchor() (+44 more)
 
 ### Community 40 - "live-commit-manual-edits.mjs"
-Cohesion: 0.10
-Nodes (50): allEntryIds(), argVal(), buildRepairBatch(), candidatesForEntry(), changedFilesSinceSnapshot(), clearAppliedEntries(), collectApplyOwnedFiles(), collectRollbackFiles() (+42 more)
+Cohesion: 0.11
+Nodes (49): allEntryIds(), argVal(), buildRepairBatch(), candidatesForEntry(), changedFilesSinceSnapshot(), clearAppliedEntries(), collectApplyOwnedFiles(), collectRollbackFiles() (+41 more)
 
 ### Community 41 - "modern-screenshot.umd.js"
 Cohesion: 0.09
@@ -453,16 +457,16 @@ Cohesion: 0.14
 Nodes (39): ACTIONS, addIgnoreFile(), addIgnoreRule(), addIgnoreValue(), DETECTOR_CONFIG_KEYS, detectorSection(), fileHasImpeccableHookMarker(), HOOK_MANIFEST_TARGETS (+31 more)
 
 ### Community 49 - "manual-apply.mjs"
-Cohesion: 0.10
-Nodes (36): addOpToManualApplyChunk(), APPLY_EVENT_HARD_TIMEOUT_MS, APPLY_EVENT_SOFT_DEADLINE_MS, buildManualApplyAgentAction(), clearManualApplyTransaction(), collectManualApplyFiles(), compactManualApplyBatch(), compactManualApplyCandidates() (+28 more)
+Cohesion: 0.09
+Nodes (40): addOpToManualApplyChunk(), APPLY_EVENT_HARD_TIMEOUT_MS, APPLY_EVENT_SOFT_DEADLINE_MS, buildManualApplyAgentAction(), clearManualApplyTransaction(), collectManualApplyFiles(), compactManualApplyBatch(), compactManualApplyCandidates() (+32 more)
 
 ### Community 50 - "detect-html.mjs"
 Cohesion: 0.13
 Nodes (20): checkPageTypography(), resolveSerif(), firstOverusedGoogleFont(), checkBorders(), checkElementBorders(), checkElementBordersDOM(), checkPageTypography(), checkTypography() (+12 more)
 
 ### Community 51 - "live-inject.mjs"
-Cohesion: 0.08
-Nodes (48): detectCsp(), INLINE_HEADER_SIGNALS, LAYOUT_EXTS, MONOREPO_HELPER_SIGNALS, NUXT_ROUTE_RULES_SIGNALS, NUXT_SECURITY_SIGNALS, SCAN_EXTS, SKIP_DIRS (+40 more)
+Cohesion: 0.07
+Nodes (50): detectCsp(), INLINE_HEADER_SIGNALS, LAYOUT_EXTS, MONOREPO_HELPER_SIGNALS, NUXT_ROUTE_RULES_SIGNALS, NUXT_SECURITY_SIGNALS, SCAN_EXTS, SKIP_DIRS (+42 more)
 
 ### Community 52 - "hook-before-edit.mjs"
 Cohesion: 0.10
@@ -513,8 +517,8 @@ Cohesion: 0.13
 Nodes (32): analyzeVisualContrast(), analyzeVisualContrastCandidate(), checkColors(), checkElementAIPaletteDOM(), checkElementColors(), checkElementColorsDOM(), checkElementGlow(), checkElementGlowDOM() (+24 more)
 
 ### Community 64 - "live-manual-edit-evidence.mjs"
-Cohesion: 0.16
-Nodes (26): analyzeSourceHint(), buildCandidatesForOp(), buildContextHintsByRef(), buildManualEditEvidence(), collectSearchFiles(), countOps(), decodeBasicHtml(), escapeRegExp() (+18 more)
+Cohesion: 0.15
+Nodes (25): analyzeSourceHint(), buildCandidatesForOp(), buildContextHintsByRef(), collectSearchFiles(), countOps(), decodeBasicHtml(), escapeRegExp(), findContextMatches() (+17 more)
 
 ### Community 65 - "documentRefForElement"
 Cohesion: 0.10
@@ -537,12 +541,12 @@ Cohesion: 0.09
 Nodes (22): Assess Onboarding Needs, Context Over Ceremony, Contextual Help, Design Onboarding Experiences, Documentation & Help, Empty State Design, Feature Discovery & Adoption, Guided Tours & Walkthroughs (+14 more)
 
 ### Community 70 - "manual-edit-routes.mjs"
-Cohesion: 0.19
-Nodes (19): args, cwd, pageUrlFilter, remaining, compactManualLogText(), summarizeManualApplyFailures(), summarizeManualDiagnostics(), summarizeManualLogFile() (+11 more)
+Cohesion: 0.21
+Nodes (17): args, cwd, pageUrlFilter, remaining, buildManualEditEvidence(), createManualEditRoutes(), sendJson(), summarizePendingManualEditBatch() (+9 more)
 
 ### Community 71 - "context.mjs"
-Cohesion: 0.17
-Nodes (19): buildMissingTargetDirective(), buildResolvedContextDirective(), buildTargetSelectionDirective(), buildUpdateDirective(), cli(), compareSemver(), computeUpdateDirective(), DESIGN_NAMES (+11 more)
+Cohesion: 0.16
+Nodes (20): buildUpdateDirective(), compareSemver(), computeUpdateDirective(), DESIGN_NAMES, FALLBACK_DIRS, fetchLatestSkillVersion(), parseYamlFlowList(), PRODUCT_NAMES (+12 more)
 
 ### Community 72 - "runHook"
 Cohesion: 0.18
@@ -577,12 +581,12 @@ Cohesion: 0.14
 Nodes (32): acceptCli(), argVal(), buildCarbonizeReplacement(), decodeHtmlAttr(), deindentContent(), detectCommentSyntax(), escapeRegExp(), expandReplaceRange() (+24 more)
 
 ### Community 80 - "context-signals.mjs"
-Cohesion: 0.22
-Nodes (14): escapeRegExp(), extractPlatform(), extractRegister(), extractSectionValue(), cli(), COMMON_DEV_PORTS, devServerSignals(), gatherSignals() (+6 more)
+Cohesion: 0.24
+Nodes (13): extractPlatform(), extractRegister(), extractSectionValue(), cli(), COMMON_DEV_PORTS, devServerSignals(), gatherSignals(), gitSignals() (+5 more)
 
 ### Community 81 - "live.mjs"
-Cohesion: 0.26
-Nodes (13): loadContext(), resolveTargetSelection(), safeRead(), __dirname, ensureServerRunning(), globToRegex(), globToRegex(), resolveFiles() (+5 more)
+Cohesion: 0.35
+Nodes (10): loadContext(), safeRead(), __dirname, ensureServerRunning(), globToRegex(), liveCli(), missingLiveContext(), runScript() (+2 more)
 
 ### Community 82 - "Interaction Design"
 Cohesion: 0.12
@@ -737,8 +741,8 @@ Cohesion: 0.12
 Nodes (16): Avoid Redundant Copy, Confirmation Dialogs: Use Sparingly, Consistency: The Terminology Problem, Don't Blame the User, Empty States Are Opportunities, Error Message Templates, Error Messages: The Formula, Form Instructions (+8 more)
 
 ### Community 121 - "Craft Flow"
-Cohesion: 0.23
-Nodes (12): directChildDirs(), discoverRootsForPattern(), discoverTargetCandidates(), expandSimplePattern(), findTargetExample(), hasFallbackWorkspaceChildren(), isCandidateProjectRoot(), isIgnoredWorkspaceDiscoveryDir() (+4 more)
+Cohesion: 0.15
+Nodes (20): directChildDirs(), discoverRootsForPattern(), discoverTargetCandidates(), escapeRegExp(), expandSimplePattern(), findTargetExample(), hasFallbackWorkspaceChildren(), isCandidateProjectRoot() (+12 more)
 
 ### Community 122 - "Generate Combined Critique Report"
 Cohesion: 0.20
@@ -874,7 +878,7 @@ Nodes (3): candidates, detectorPath, __dirname
 
 ### Community 155 - "Contenido de la home"
 Cohesion: 0.14
-Nodes (16): contextSourcePath(), contextSourceStatus(), findMonorepoRoot(), firstExisting(), hasGitBoundary(), isPathInside(), isPathInsideOrEqual(), nearestPackageRootBetween() (+8 more)
+Nodes (17): contextSourcePath(), contextSourceStatus(), findMonorepoRoot(), firstExisting(), hasGitBoundary(), isPathInside(), isPathInsideOrEqual(), MONOREPO_FALLBACK_PROJECT_DIRS (+9 more)
 
 ### Community 156 - "Misión y objetivos"
 Cohesion: 0.08
@@ -933,8 +937,8 @@ Cohesion: 0.47
 Nodes (6): applyPatchText(), envProjectDir(), looksLikeApplyPatch(), normalizeGitHubEvent(), normalizeHookEvent(), parseGitHubToolArgs()
 
 ### Community 172 - "Adaptation Strategies"
-Cohesion: 0.10
-Nodes (18): Extract Flow, Step 1: Discover the Design System, Step 2: Identify Patterns, Step 3: Plan Extraction, Step 4: Extract & Enrich, Step 5: Migrate, Step 6: Document, Constraints (+10 more)
+Cohesion: 0.15
+Nodes (11): Constraints, Failure modes, Flow, /impeccable hooks, Intentional findings, Routing, Commands, Hooks (+3 more)
 
 ### Community 173 - "checkElementQuality"
 Cohesion: 0.29
@@ -1061,8 +1065,8 @@ Cohesion: 0.33
 Nodes (5): Capabilities, Impact, New Capabilities, What Changes, Why
 
 ### Community 206 - "Implement Animations"
-Cohesion: 0.39
-Nodes (8): isExcludedByWorkspacePattern(), MONOREPO_FALLBACK_PROJECT_DIRS, normalizeWorkspacePattern(), projectRootFromDoubleStarPattern(), projectRootFromWorkspacePattern(), resolveWorkspaceProjectRoot(), segmentMatches(), workspacePatternMatchesRel()
+Cohesion: 0.25
+Nodes (7): Extract Flow, Step 1: Discover the Design System, Step 2: Identify Patterns, Step 3: Plan Extraction, Step 4: Extract & Enrich, Step 5: Migrate, Step 6: Document
 
 ### Community 207 - "Patrón de galería: atributos `data-photo-*`"
 Cohesion: 0.50
@@ -1086,7 +1090,7 @@ Nodes (6): Context, Decisions, Goals / Non-Goals, Migration Plan, Open Questions
 
 ### Community 212 - "Diagnostic Scan"
 Cohesion: 0.32
-Nodes (8): parseYamlFlowList(), readJson(), readLernaWorkspaces(), readPackageWorkspaces(), readPnpmWorkspaces(), readWorkspacePatterns(), stripYamlInlineComment(), unquoteYamlValue()
+Nodes (8): buildMissingTargetDirective(), buildResolvedContextDirective(), buildTargetSelectionDirective(), cli(), hasTargetOption(), pathExistsForTarget(), resolveTargetSelection(), shouldWarnMissingTarget()
 
 ### Community 213 - "SAFE_TAGS"
 Cohesion: 0.29
@@ -1104,8 +1108,24 @@ Nodes (5): Capabilities, Impact, Modified Capabilities, What Changes, Why
 Cohesion: 0.33
 Nodes (5): 1. Assets, 2. Markup, 3. Verificación, 4. Documentación, 5. Deploy
 
+### Community 217 - "design.md"
+Cohesion: 0.29
+Nodes (6): Context, Decisions, Goals / Non-Goals, Migration Plan, Open Questions, Risks / Trade-offs
+
+### Community 218 - "Requirement: Las imágenes de place-cards, brand-line-grid y video-panel sirven la resolución apropiada según su ancho renderizado"
+Cohesion: 0.29
+Nodes (6): ADDED Requirements, Requirement: Las imágenes de place-cards, brand-line-grid y video-panel sirven la resolución apropiada según su ancho renderizado, Scenario: Brand-line-grid en desktop grande, Scenario: Place-card en cualquier viewport, Scenario: Sin regresión visual, Scenario: Video panel en mobile
+
+### Community 219 - "proposal.md"
+Cohesion: 0.33
+Nodes (5): Capabilities, Impact, Modified Capabilities, What Changes, Why
+
+### Community 220 - "tasks.md"
+Cohesion: 0.33
+Nodes (5): 1. Assets, 2. Markup, 3. Verificación, 4. Documentación, 5. Deploy
+
 ## Knowledge Gaps
-- **1046 isolated node(s):** `Context`, `Goals / Non-Goals`, `Decisions`, `Risks / Trade-offs`, `Migration Plan` (+1041 more)
+- **1065 isolated node(s):** `Performance`, `Context`, `Goals / Non-Goals`, `Decisions`, `Risks / Trade-offs` (+1060 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **8 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -1113,16 +1133,16 @@ Nodes (5): 1. Assets, 2. Markup, 3. Verificación, 4. Documentación, 5. Deploy
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `el()` connect `el` to `typeset.md`, `checks.mjs`, `index.mjs`, `setLiveState`, `design-system.mjs`, `Improve Typography Systematically`, `Identidad y sistema visual de marca`, `bolder.md`, `css-cascade.mjs`, `detect-antipatterns-browser.js`, `showToast`, `_`, `detect-html.mjs`, `initGlobalBar`, `resolveContext`, `detect-text.mjs`, `parseRgb`?**
-  _High betweenness centrality (0.070) - this node is a cross-community bridge._
+  _High betweenness centrality (0.066) - this node is a cross-community bridge._
 - **Why does `v()` connect `modern-screenshot.umd.js` to `bolder.md`, `Improve Typography Systematically`, `Identidad y sistema visual de marca`, `css-cascade.mjs`, `design-parser.mjs`?**
-  _High betweenness centrality (0.038) - this node is a cross-community bridge._
+  _High betweenness centrality (0.036) - this node is a cross-community bridge._
 - **Why does `normalizeSourceFallbackBlock()` connect `Identidad y sistema visual de marca` to `css-cascade.mjs`, `resumeSession`?**
-  _High betweenness centrality (0.034) - this node is a cross-community bridge._
+  _High betweenness centrality (0.031) - this node is a cross-community bridge._
 - **Are the 29 inferred relationships involving `el()` (e.g. with `browserFindingsFromMap()` and `collectVisualContrastCandidates()`) actually correct?**
   _`el()` has 29 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 7 inferred relationships involving `initGlobalBar()` (e.g. with `hideAgentPollTooltip()` and `onDetectMessage()`) actually correct?**
   _`initGlobalBar()` has 7 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `Context`, `Goals / Non-Goals`, `Decisions` to the rest of the system?**
-  _1054 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `Performance`, `Context`, `Goals / Non-Goals` to the rest of the system?**
+  _1073 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interacciones de UI (script.js)` be split into smaller, more focused modules?**
   _Cohesion score 0.043478260869565216 - nodes in this community are weakly interconnected._
