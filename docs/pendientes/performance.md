@@ -10,6 +10,8 @@
 **Resuelto (2026-07-12):**
 - ~~`srcset` en Fragata y Cultura~~ — resuelto para las 8 imágenes de Fragata (`.fragata-hero` + `.fragata-reel`) y las 6 de Cultura (`.culture-slide`): mismas variantes 480w/900w/1400w, con `sizes` calculado a partir del ancho renderizado real de cada carrusel (no `100vw`, ninguno es full-bleed). Ver `openspec/changes/archive/2026-07-12-add-srcset-fragata-cultura/`.
 - ~~`srcset` en place-cards, brand-line-grid y video-panel~~ — resuelto para los 8 `<img>` restantes de estos 3 grupos. Anchos de variantes ajustados a cada archivo original (sin generar escalones inútiles para archivos ya chicos como `ensenada-centro.jpg`, 887px). Ver `openspec/changes/archive/2026-07-12-add-srcset-minor-images/`.
-- **Queda pendiente**: galerías dinámicas de en-fotos (49 fotos generadas por `script.js`, requiere generar `srcset` en JS, no solo HTML). Único grupo de imágenes del sitio sin `srcset` a esta fecha.
+- ~~`srcset` en galerías dinámicas de en-fotos~~ — resuelto para las 49 fotos (`setupPhotoReelSection()` en `script.js` ahora genera `srcset` 480w/900w + `sizes="260px"` en cada `<img>`, con tope automático para no agrandar las fotos más angostas de `parroquia-el-dique`). Ver `openspec/changes/archive/2026-07-12-add-srcset-en-fotos/`.
+
+**Sin pendientes de `srcset` en el sitio** — las 8 imágenes del hero, Fragata, Cultura, place-cards, brand-line-grid, video-panel y las 49 fotos de en-fotos tienen todas variantes responsive.
 
 **No usar Git LFS para esto** — la solución es optimizar/comprimir las imágenes antes de subirlas, no cambiar cómo se versionan.

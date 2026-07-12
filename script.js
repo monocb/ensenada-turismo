@@ -208,7 +208,10 @@ function setupPhotoReelSection(section) {
       button.setAttribute("aria-label", title ? `Ampliar ${title}` : "Ampliar foto");
 
       image.loading = "lazy";
-      image.src = `/assets/en-fotos/${folder}/${prefix}-${number}.webp`;
+      const photoBase = `/assets/en-fotos/${folder}/${prefix}-${number}`;
+      image.src = `${photoBase}.webp`;
+      image.srcset = `${photoBase}-480w.webp 480w, ${photoBase}-900w.webp 900w`;
+      image.sizes = "260px";
       const altBase = title || humanizeSlug(prefix || folder);
       const includesLocation = location && altBase.toLowerCase().includes(location.toLowerCase());
       image.alt = location && !includesLocation
