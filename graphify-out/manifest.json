@@ -1,7 +1,7 @@
 {
   "script.js": {
-    "mtime": 1783797761.951852,
-    "ast_hash": "668a86e7dfe85a2ca1714d08f068e470",
+    "mtime": 1783840087.3196547,
+    "ast_hash": "79dc00da07ef275d2fcc2e6aa9701246",
     "semantic_hash": ""
   },
   ".claude/commands/opsx/apply.md": {
@@ -185,8 +185,8 @@
     "semantic_hash": ""
   },
   "docs/pendientes/performance.md": {
-    "mtime": 1783834529.8312755,
-    "ast_hash": "362c060e884f76f185476d73c18da3e5",
+    "mtime": 1783840196.2432592,
+    "ast_hash": "19acffe489f522a3dfe84af55512eb5d",
     "semantic_hash": ""
   },
   "docs/pendientes/riesgos-mitigados.md": {
@@ -1317,6 +1317,31 @@
   "openspec/changes/archive/2026-07-12-add-srcset-minor-images/tasks.md": {
     "mtime": 1783835072.0010283,
     "ast_hash": "938e5441fa69c23a2f316192d4a5a1da",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-srcset-en-fotos/.openspec.yaml": {
+    "mtime": 1783835224.2831488,
+    "ast_hash": "be083c7982e1be250fd7f9023d23ad62",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-srcset-en-fotos/design.md": {
+    "mtime": 1783835264.879801,
+    "ast_hash": "0962e575f9acc78cf4157ee558ae61ab",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-srcset-en-fotos/proposal.md": {
+    "mtime": 1783835239.0690005,
+    "ast_hash": "8ccc59c92f50efdb76465269555f42e3",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-srcset-en-fotos/specs/responsive-hero-images/spec.md": {
+    "mtime": 1783835274.6060946,
+    "ast_hash": "640dc192758b109f541a7a2523d6a6ec",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-srcset-en-fotos/tasks.md": {
+    "mtime": 1783840201.6739528,
+    "ast_hash": "59424737f45f230445dc1e25b4358515",
     "semantic_hash": ""
   }
 }
