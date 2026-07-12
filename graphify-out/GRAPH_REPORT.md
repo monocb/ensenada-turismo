@@ -1,16 +1,16 @@
 # Graph Report - ensenada-turismo  (2026-07-12)
 
 ## Corpus Check
-- 244 files · ~299,268 words
+- 244 files · ~299,454 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 3491 nodes · 7035 edges · 230 communities (222 shown, 8 thin omitted)
+- 3495 nodes · 7039 edges · 225 communities (217 shown, 8 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 129 edges (avg confidence: 0.68)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `938da04c`
+- Built from commit: `ca0503d2`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -239,11 +239,6 @@
 - proposal.md
 - tasks.md
 - checkHeroEyebrow
-- design.md
-- Plan Adaptation Strategy
-- proposal.md
-- Requirement: Las fotos de las galerías dinámicas de en-fotos sirven la resolución apropiada según su ancho renderizado
-- tasks.md
 - Handle fallback
 
 ## God Nodes (most connected - your core abstractions)
@@ -261,14 +256,14 @@
 ## Surprising Connections (you probably didn't know these)
 - `OpenSpec project config (openspec/config.yaml)` --shares_data_with--> `OpenSpec CLI (openspec command)`  [INFERRED]
   openspec/config.yaml → .claude/commands/opsx/apply.md
+- `latestCritique()` --indirect_call--> `v()`  [INFERRED]
+  .claude/skills/impeccable/scripts/context-signals.mjs → .claude/skills/impeccable/scripts/modern-screenshot.umd.js
 - `collectVisualContrastReasons()` --indirect_call--> `x()`  [INFERRED]
   .claude/skills/impeccable/scripts/detector/browser/injected/index.mjs → .claude/skills/impeccable/scripts/modern-screenshot.umd.js
 - `collectVisualContrastCandidates()` --indirect_call--> `el()`  [INFERRED]
   .claude/skills/impeccable/scripts/detector/browser/injected/index.mjs → .claude/skills/impeccable/scripts/live-browser.js
 - `textSamplePoints()` --indirect_call--> `x()`  [INFERRED]
   .claude/skills/impeccable/scripts/detector/browser/injected/index.mjs → .claude/skills/impeccable/scripts/modern-screenshot.umd.js
-- `serializeFindings()` --indirect_call--> `el()`  [INFERRED]
-  .claude/skills/impeccable/scripts/detector/browser/injected/index.mjs → .claude/skills/impeccable/scripts/live-browser.js
 
 ## Import Cycles
 - None detected.
@@ -279,7 +274,7 @@
 - **Documentos derivados del Manual Interno de Marca v1.0** — docs_marca_identidad, docs_marca_sistema_visual, docs_marca_colores_y_tipografia, docs_marca_arquitectura_de_marca, docs_marca_fotografia_y_composicion, docs_marca_sponsors_y_reglas [INFERRED 0.85]
 - **Sistema de líneas de marca y su color asociado** — docs_marca_arquitectura_de_marca, docs_marca_colores_y_tipografia, docs_marca_sistema_visual_color [INFERRED 0.80]
 
-## Communities (230 total, 8 thin omitted)
+## Communities (225 total, 8 thin omitted)
 
 ### Community 0 - "Interacciones de UI (script.js)"
 Cohesion: 0.04
@@ -406,8 +401,8 @@ Cohesion: 0.50
 Nodes (3): 1. Escribir el documento de evaluación, 2. Enlazar desde el índice de documentación, 3. Deploy
 
 ### Community 34 - "checks.mjs"
-Cohesion: 0.04
-Nodes (102): isNeutralBorderColor(), borderColorsFromStyle(), borderWidthsFromStyle(), checkBorders(), checkClippedOverflow(), checkColors(), checkCreamPalette(), checkElementAIPaletteDOM() (+94 more)
+Cohesion: 0.05
+Nodes (96): borderColorsFromStyle(), borderWidthsFromStyle(), checkClippedOverflow(), checkColors(), checkCreamPalette(), checkElementAIPaletteDOM(), checkElementClippedOverflow(), checkElementClippedOverflowDOM() (+88 more)
 
 ### Community 35 - "svelte-component.mjs"
 Cohesion: 0.10
@@ -423,7 +418,7 @@ Nodes (61): abortSvelteComponentInjection(), applyEditing(), buildInsertPlacehol
 
 ### Community 38 - "design-system.mjs"
 Cohesion: 0.09
-Nodes (55): addColorObject(), addDesignColor(), addRoundedScale(), addRoundedToken(), addSidecarColors(), addSidecarRadii(), addTypographyFonts(), addTypographySizes() (+47 more)
+Nodes (50): addColorObject(), addDesignColor(), addRoundedScale(), addRoundedToken(), addSidecarColors(), addSidecarRadii(), addTypographyFonts(), addTypographySizes() (+42 more)
 
 ### Community 39 - "resumeSession"
 Cohesion: 0.09
@@ -435,7 +430,7 @@ Nodes (50): allEntryIds(), argVal(), buildRepairBatch(), candidatesForEntry(), c
 
 ### Community 41 - "modern-screenshot.umd.js"
 Cohesion: 0.09
-Nodes (53): latestCritique(), ae(), be(), bt(), Ce(), Ct(), de(), dt() (+45 more)
+Nodes (53): ae(), be(), bt(), Ce(), Ct(), de(), dt(), _e() (+45 more)
 
 ### Community 42 - "impeccable-config.mjs"
 Cohesion: 0.10
@@ -447,11 +442,11 @@ Nodes (49): actionLabel(), applyConfigureBarChrome(), bindConfigureCountPillTool
 
 ### Community 44 - "css-cascade.mjs"
 Cohesion: 0.10
-Nodes (30): applyStaticDeclaration(), buildBorderOverrideMap(), buildStaticStyleMap(), collectStaticCssRules(), compareStaticPriority(), cssPropToCamel(), expandStaticBoxValues(), expandStaticDeclaration() (+22 more)
+Nodes (29): applyStaticDeclaration(), buildBorderOverrideMap(), buildStaticStyleMap(), collectStaticCssRules(), compareStaticPriority(), cssPropToCamel(), expandStaticBoxValues(), expandStaticDeclaration() (+21 more)
 
 ### Community 45 - "detect-antipatterns-browser.js"
-Cohesion: 0.09
-Nodes (34): checkBorders(), checkClippedOverflow(), checkElementBorders(), checkElementBordersDOM(), checkElementClippedOverflow(), checkElementClippedOverflowDOM(), checkElementItalicSerif(), checkElementItalicSerifDOM() (+26 more)
+Cohesion: 0.08
+Nodes (36): checkBorders(), checkClippedOverflow(), checkElementBorders(), checkElementBordersDOM(), checkElementClippedOverflow(), checkElementClippedOverflowDOM(), checkElementHeroEyebrow(), checkElementHeroEyebrowDOM() (+28 more)
 
 ### Community 46 - "hook-lib.mjs"
 Cohesion: 0.07
@@ -470,8 +465,8 @@ Cohesion: 0.10
 Nodes (36): addOpToManualApplyChunk(), APPLY_EVENT_HARD_TIMEOUT_MS, APPLY_EVENT_SOFT_DEADLINE_MS, buildManualApplyAgentAction(), clearManualApplyTransaction(), collectManualApplyFiles(), compactManualApplyBatch(), compactManualApplyCandidates() (+28 more)
 
 ### Community 50 - "detect-html.mjs"
-Cohesion: 0.15
-Nodes (18): checkPageTypography(), checkTypography(), isBrandFontOnOwnDomain(), resolveSerif(), firstOverusedGoogleFont(), checkPageTypography(), checkTypography(), resolveSerif() (+10 more)
+Cohesion: 0.13
+Nodes (20): checkPageTypography(), firstOverusedGoogleFont(), checkStaticPageTypography(), checkBorders(), checkElementBorders(), checkElementBordersDOM(), checkPageTypography(), checkTypography() (+12 more)
 
 ### Community 51 - "live-inject.mjs"
 Cohesion: 0.07
@@ -486,8 +481,8 @@ Cohesion: 0.11
 Nodes (10): canCreateInsert(), clampPlaceholderSize(), computeInsertPosition(), groupSiblingRows(), hitSiblingInsertGap(), horizontalOverlap(), insertCreateDisabledReason(), insertLineCoords() (+2 more)
 
 ### Community 54 - "live-wrap.mjs"
-Cohesion: 0.13
-Nodes (36): argVal(), buildInsertWrapperLines(), computeInsertLine(), INSERT_POSITIONS, insertCli(), isInsertPosition(), resolveElementMatch(), buildSvelteComponentCssAuthoring() (+28 more)
+Cohesion: 0.14
+Nodes (34): argVal(), buildInsertWrapperLines(), computeInsertLine(), INSERT_POSITIONS, insertCli(), isInsertPosition(), resolveElementMatch(), buildSvelteComponentCssAuthoring() (+26 more)
 
 ### Community 55 - "initGlobalBar"
 Cohesion: 0.10
@@ -498,8 +493,8 @@ Cohesion: 0.15
 Nodes (33): buildColor(), CANONICAL_SECTIONS, collectBullets(), collectColorValues(), collectParagraphs(), detectFormat(), extractColors(), extractComponents() (+25 more)
 
 ### Community 57 - "live-server.mjs"
-Cohesion: 0.09
-Nodes (43): assembleLiveBrowserScript(), assertLiveBrowserScriptParts(), LIVE_BROWSER_SCRIPT_PARTS, readLiveBrowserScriptParts(), resolveLiveBrowserScriptParts(), acknowledgePendingEvent(), activeSessionSummaries(), agentPollingConnected() (+35 more)
+Cohesion: 0.10
+Nodes (30): assembleLiveBrowserScript(), assertLiveBrowserScriptParts(), LIVE_BROWSER_SCRIPT_PARTS, readLiveBrowserScriptParts(), resolveLiveBrowserScriptParts(), activeSessionSummaries(), agentPollingConnected(), annotRoot (+22 more)
 
 ### Community 58 - "colorize.md"
 Cohesion: 0.06
@@ -514,16 +509,16 @@ Cohesion: 0.14
 Nodes (31): applyMockWrites(), buildCopyEditBatchPrompt(), checkFrameworkSourceSyntax(), chooseCopyEditAgent(), COMMAND_AUTH_CACHE, commandAuthed(), commandExists(), compactBatchForPrompt() (+23 more)
 
 ### Community 61 - "detect-text.mjs"
-Cohesion: 0.10
-Nodes (41): detectUrl(), runVisualContrastFallback(), serializeDesignSystemForBrowser(), CSS_IN_JS_EXTENSIONS, detectText(), extFromFilePath(), extractCSSinJS(), extractStyleBlocks() (+33 more)
+Cohesion: 0.09
+Nodes (44): mergeDesignSystemFindings(), detectUrl(), runVisualContrastFallback(), serializeDesignSystemForBrowser(), CSS_IN_JS_EXTENSIONS, detectText(), extFromFilePath(), extractCSSinJS() (+36 more)
 
 ### Community 62 - "detect-antipatterns.mjs"
-Cohesion: 0.17
-Nodes (25): confirm(), detectCli(), formatFindings(), formatFindingSummary(), handleStdin(), printUsage(), createBrowserDetector(), buildImportGraph() (+17 more)
+Cohesion: 0.15
+Nodes (29): confirm(), detectCli(), formatFindings(), formatFindingSummary(), handleStdin(), printUsage(), loadDesignSystemForCwd(), parseFrontmatter() (+21 more)
 
 ### Community 63 - "parseRgb"
 Cohesion: 0.19
-Nodes (23): checkColors(), checkElementAIPaletteDOM(), checkElementColors(), checkElementColorsDOM(), checkElementGlow(), checkElementGlowDOM(), checkElementIconTile(), checkElementIconTileDOM() (+15 more)
+Nodes (22): checkColors(), checkElementAIPaletteDOM(), checkElementColors(), checkElementColorsDOM(), checkElementGlow(), checkElementGlowDOM(), checkElementIconTile(), checkElementIconTileDOM() (+14 more)
 
 ### Community 64 - "live-manual-edit-evidence.mjs"
 Cohesion: 0.16
@@ -554,28 +549,28 @@ Cohesion: 0.19
 Nodes (19): args, cwd, pageUrlFilter, remaining, compactManualLogText(), summarizeManualApplyFailures(), summarizeManualDiagnostics(), summarizeManualLogFile() (+11 more)
 
 ### Community 71 - "context.mjs"
-Cohesion: 0.15
-Nodes (20): buildUpdateDirective(), compareSemver(), computeUpdateDirective(), DESIGN_NAMES, FALLBACK_DIRS, fetchLatestSkillVersion(), parseYamlFlowList(), PRODUCT_NAMES (+12 more)
+Cohesion: 0.08
+Nodes (57): buildUpdateDirective(), compareSemver(), computeUpdateDirective(), contextSourcePath(), contextSourceStatus(), DESIGN_NAMES, directChildDirs(), discoverRootsForPattern() (+49 more)
 
 ### Community 72 - "runHook"
 Cohesion: 0.18
 Nodes (13): applyConfigSource(), applyDetectorConfigSource(), cloneDefaultConfig(), detectorSection(), hookSection(), numberOr(), readCache(), readConfig() (+5 more)
 
 ### Community 73 - "GENERIC_FONTS"
-Cohesion: 0.12
-Nodes (13): Assess Adaptation Challenge, Reference Material, Verify Adaptations, Apply Clarity Principles, Assess Current Copy, Plan Copy Improvements, Reference Material, Verify Improvements (+5 more)
+Cohesion: 0.11
+Nodes (14): Assess Animation Opportunities, Plan Animation Strategy, Register, Verify Quality, Apply Clarity Principles, Assess Current Copy, Plan Copy Improvements, Reference Material (+6 more)
 
 ### Community 74 - "onAnnotDown"
 Cohesion: 0.15
 Nodes (21): applyPlaceholderDimensions(), beginEditPin(), buildAnnotationsForCapture(), buildPinElement(), cancelEditingPin(), clampPlaceholderSize(), finalizeEditingPin(), initAnnotOverlay() (+13 more)
 
 ### Community 75 - "impeccable-paths.mjs"
-Cohesion: 0.22
-Nodes (18): resolveProjectRoot(), firstExisting(), getDesignSidecarCandidates(), getDesignSidecarPath(), getImpeccableDir(), getLegacyLiveAnnotationsDir(), getLegacyLiveConfigPath(), getLegacyLiveServerPath() (+10 more)
+Cohesion: 0.14
+Nodes (21): resolveProjectRoot(), firstExisting(), getDesignSidecarCandidates(), getDesignSidecarPath(), getImpeccableDir(), getLegacyLiveAnnotationsDir(), getLegacyLiveConfigPath(), getLegacyLiveServerPath() (+13 more)
 
 ### Community 76 - "readLiveServerInfo"
-Cohesion: 0.21
-Nodes (17): isLiveServerPidReachable(), readLiveServerInfo(), completeCli(), completeThroughServer(), parseArgs(), readServerInfo(), collectManualApplyFiles(), manualApplyReplyCommand() (+9 more)
+Cohesion: 0.19
+Nodes (18): getLegacyLiveSessionsDir(), isLiveServerPidReachable(), readLiveServerInfo(), completeCli(), completeThroughServer(), parseArgs(), readServerInfo(), collectManualApplyFiles() (+10 more)
 
 ### Community 77 - "Delight Techniques"
 Cohesion: 0.11
@@ -590,20 +585,20 @@ Cohesion: 0.14
 Nodes (32): acceptCli(), argVal(), buildCarbonizeReplacement(), decodeHtmlAttr(), deindentContent(), detectCommentSyntax(), escapeRegExp(), expandReplaceRange() (+24 more)
 
 ### Community 80 - "context-signals.mjs"
-Cohesion: 0.22
-Nodes (14): escapeRegExp(), extractPlatform(), extractRegister(), extractSectionValue(), cli(), COMMON_DEV_PORTS, devServerSignals(), gatherSignals() (+6 more)
+Cohesion: 0.23
+Nodes (14): extractPlatform(), extractRegister(), extractSectionValue(), cli(), COMMON_DEV_PORTS, devServerSignals(), gatherSignals(), gitSignals() (+6 more)
 
 ### Community 81 - "live.mjs"
-Cohesion: 0.32
-Nodes (11): loadContext(), resolveTargetSelection(), safeRead(), __dirname, ensureServerRunning(), globToRegex(), liveCli(), missingLiveContext() (+3 more)
+Cohesion: 0.17
+Nodes (19): buildMissingTargetDirective(), buildResolvedContextDirective(), buildTargetSelectionDirective(), cli(), hasTargetOption(), loadContext(), parseCliOptions(), pathExistsForTarget() (+11 more)
 
 ### Community 82 - "Interaction Design"
 Cohesion: 0.12
 Nodes (17): CSS Anchor Positioning, Destructive Actions: Undo > Confirm, Dropdown & Overlay Positioning, Fixed Positioning Fallback, Focus Rings: Do Them Right, Form Design: The Non-Obvious, Gesture Discoverability, Interaction Design (+9 more)
 
 ### Community 84 - "adapt.md"
-Cohesion: 0.33
-Nodes (6): Content Adaptation, Implement Adaptations, Layout Adaptation Techniques, Navigation Adaptation, Responsive Breakpoints, Touch Adaptation
+Cohesion: 0.12
+Nodes (15): Assess Adaptation Challenge, Content Adaptation, Desktop Adaptation (Mobile → Desktop), Email Adaptation (Web → Email), Implement Adaptations, Layout Adaptation Techniques, Mobile Adaptation (Desktop → Mobile), Navigation Adaptation (+7 more)
 
 ### Community 85 - "Handle `generate`"
 Cohesion: 0.12
@@ -618,8 +613,8 @@ Cohesion: 0.12
 Nodes (16): Accessibility Considerations, Anti-reflexes worth defending against, Classic Typography Principles, Fluid Type, Font Selection & Pairing, Modern Web Typography, Modular Scale & Hierarchy, OpenType Features (+8 more)
 
 ### Community 88 - "resolveContext"
-Cohesion: 0.18
-Nodes (14): browserDesignSystemConfig(), browserFindingsFromMap(), browserPrimaryFont(), checkBrowserDesignSystemSources(), checkCreamPalette(), checkHtmlPatterns(), checkPageQualityDOM(), checkPageQualityFromDoc() (+6 more)
+Cohesion: 0.22
+Nodes (11): browserDesignSystemConfig(), browserFindingsFromMap(), browserPrimaryFont(), checkBrowserDesignSystemSources(), checkHtmlPatterns(), checkPageQualityDOM(), checkPageQualityFromDoc(), collectBrowserFindings() (+3 more)
 
 ### Community 89 - "analyzeVisualContrastCandidate"
 Cohesion: 0.22
@@ -642,12 +637,12 @@ Cohesion: 0.13
 Nodes (14): Assess Current Layout, Break Card Grid Monotony, Choose the Right Layout Tool, Create Visual Rhythm, Establish a Spacing System, Improve Layout Systematically, Live-mode signature params, Manage Depth & Elevation (+6 more)
 
 ### Community 94 - "sampleCssBackground"
-Cohesion: 0.16
-Nodes (18): analyzeVisualContrastCandidate(), blendRgba(), clampByte(), firstCssUrl(), getLayerValue(), loadVisualContrastImage(), parseObjectPosition(), parsePositionPair() (+10 more)
+Cohesion: 0.18
+Nodes (16): blendRgba(), clampByte(), firstCssUrl(), getLayerValue(), loadVisualContrastImage(), parseObjectPosition(), parsePositionPair(), parsePositionToken() (+8 more)
 
 ### Community 95 - "parseAnyColor"
-Cohesion: 0.16
-Nodes (18): borderColorsFromStyle(), borderWidthsFromStyle(), checkElementGptBorderShadow(), checkElementGptBorderShadowDOM(), checkGptThinBorderWideShadow(), checkQuality(), colorsNearlyMatch(), cssColorAlpha() (+10 more)
+Cohesion: 0.12
+Nodes (21): borderColorsFromStyle(), borderWidthsFromStyle(), browserColorsClose(), browserHasDirectText(), browserRadiusTokens(), browserSampleText(), checkCreamPalette(), checkElementDesignSystemDOM() (+13 more)
 
 ### Community 96 - "typeset.md"
 Cohesion: 0.22
@@ -750,8 +745,8 @@ Cohesion: 0.20
 Nodes (10): Craft Flow, Gates: do not compress, Production bar, Step 0: Project Foundation, Step 1: Shape the Design, Step 2: Load References, Step 3: Visual Direction & Assets (Harness-Gated), Step 4: Build to Production Quality (+2 more)
 
 ### Community 121 - "Craft Flow"
-Cohesion: 0.23
-Nodes (12): directChildDirs(), discoverRootsForPattern(), discoverTargetCandidates(), expandSimplePattern(), findTargetExample(), hasFallbackWorkspaceChildren(), isCandidateProjectRoot(), isIgnoredWorkspaceDiscoveryDir() (+4 more)
+Cohesion: 0.29
+Nodes (13): acknowledgePendingEvent(), broadcast(), broadcastAgentPollingIfChanged(), cancelQueuedAnonymousExitEvents(), findAvailablePendingEvent(), findPendingEventById(), flushPendingPolls(), handlePollGet() (+5 more)
 
 ### Community 122 - "Generate Combined Critique Report"
 Cohesion: 0.20
@@ -786,8 +781,8 @@ Cohesion: 0.22
 Nodes (9): 1. The Wall of Options, 2. The Memory Bridge, 3. The Hidden Navigation, 4. The Jargon Barrier, 5. The Visual Noise Floor, 6. The Inconsistent Pattern, 7. The Multi-Task Demand, 8. The Context Switch (+1 more)
 
 ### Community 130 - "Technical Implementation"
-Cohesion: 0.10
-Nodes (19): Accessibility, Assess Animation Opportunities, CSS Animations, Delight Moments, Entrance Animations, Feedback & Guidance, Implement Animations, JavaScript Animation (+11 more)
+Cohesion: 0.25
+Nodes (8): Accessibility, CSS Animations, JavaScript Animation, Motion Materials, Perceived Performance, Performance, Technical Implementation, Timing & Easing
 
 ### Community 131 - "Persona-Based Design Testing"
 Cohesion: 0.25
@@ -798,8 +793,8 @@ Cohesion: 0.29
 Nodes (6): Context, Decisions, Goals / Non-Goals, Migration Plan, Open Questions, Risks / Trade-offs
 
 ### Community 133 - "Init Flow"
-Cohesion: 0.39
-Nodes (8): addRules(), getSet(), hasDirectives(), isInlineIgnored(), normalizeRule(), parseInlineIgnores(), parseRuleList(), setMatches()
+Cohesion: 0.40
+Nodes (9): addRules(), applyInlineIgnores(), getSet(), hasDirectives(), isInlineIgnored(), normalizeRule(), parseInlineIgnores(), parseRuleList() (+1 more)
 
 ### Community 134 - "iOS platform"
 Cohesion: 0.29
@@ -814,16 +809,16 @@ Cohesion: 0.29
 Nodes (6): Context, Decisions, Goals / Non-Goals, Migration Plan, Open Questions, Risks / Trade-offs
 
 ### Community 137 - "README.md"
-Cohesion: 0.18
-Nodes (14): addBrowserFindings(), addVisualContrastFindings(), addVisualContrastResult(), analyzeVisualContrast(), clearOverlays(), detachOverlay(), disconnectLazyVisualContrastObserver(), postExtensionError() (+6 more)
+Cohesion: 0.11
+Nodes (23): addBrowserFindings(), addVisualContrastFindings(), addVisualContrastResult(), analyzeVisualContrast(), analyzeVisualContrastCandidate(), checkElementTextOverflowDOM(), classSelector(), clearOverlays() (+15 more)
 
 ### Community 138 - "Android platform"
 Cohesion: 0.33
 Nodes (5): Capabilities, Impact, New Capabilities, What Changes, Why
 
 ### Community 139 - "Implement Animations"
-Cohesion: 0.29
-Nodes (7): Audit Health Score, Detailed Findings by Severity, Executive Summary, Generate Report, Patterns & Systemic Issues, Platform Conformance Verdict, Positive Findings
+Cohesion: 0.25
+Nodes (8): Color & materials, Components & controls, iOS platform, Layout & structure, Motion, The iOS slop test, Touch targets, Typography
 
 ### Community 140 - "Generate Report"
 Cohesion: 0.29
@@ -842,8 +837,8 @@ Cohesion: 0.29
 Nodes (7): append-arrays, append-string, Consent prompt template, CSP detection (first-time only), Drift-heal warning, First-time setup (config missing or invalid), Troubleshooting
 
 ### Community 144 - "_"
-Cohesion: 0.17
-Nodes (13): browserColorsClose(), browserHasDirectText(), browserRadiusTokens(), browserSampleText(), checkElementDesignSystemDOM(), isBrowserDesignColorAllowed(), isBrowserTransparentCss(), isElementHidden() (+5 more)
+Cohesion: 0.25
+Nodes (9): buildSelectorSegment(), generateSelector(), isElementHidden(), isLikelyHashedClass(), postSerializedFindings(), renderBrowserFindings(), scanResultMeta(), serializeFindings() (+1 more)
 
 ### Community 145 - "Arquitectura de marca"
 Cohesion: 0.29
@@ -858,12 +853,12 @@ Cohesion: 0.25
 Nodes (7): Purpose, Requirement: La documentación describe con precisión el mecanismo real de las galerías de fotos, Requirement: La documentación describe con precisión la cantidad real de bloques `:root` en `styles.css`, Requirements, Scenario: No queda ningún archivo de datos sin uso documentado como si estuviera activo, Scenario: Un colaborador agrega una foto nueva a una galería existente, Scenario: Un colaborador agrega una variable CSS nueva
 
 ### Community 148 - "Handle fallback"
-Cohesion: 0.39
-Nodes (8): isExcludedByWorkspacePattern(), MONOREPO_FALLBACK_PROJECT_DIRS, normalizeWorkspacePattern(), projectRootFromDoubleStarPattern(), projectRootFromWorkspacePattern(), resolveWorkspaceProjectRoot(), segmentMatches(), workspacePatternMatchesRel()
+Cohesion: 0.29
+Nodes (7): Delight Moments, Entrance Animations, Feedback & Guidance, Implement Animations, Micro-interactions, Navigation & Flow, State Transitions
 
 ### Community 149 - "isGeneratedFile"
-Cohesion: 0.70
-Nodes (4): hasGeneratedHeader(), HEADER_MARKERS, isGeneratedFile(), isGitIgnored()
+Cohesion: 0.53
+Nodes (5): hasGeneratedHeader(), HEADER_MARKERS, isGeneratedFile(), isGitIgnored(), searchDir()
 
 ### Community 150 - "riesgos-mitigados.md"
 Cohesion: 0.40
@@ -886,12 +881,12 @@ Cohesion: 0.50
 Nodes (3): candidates, detectorPath, __dirname
 
 ### Community 155 - "Contenido de la home"
-Cohesion: 0.14
-Nodes (16): contextSourcePath(), contextSourceStatus(), findMonorepoRoot(), firstExisting(), hasGitBoundary(), isPathInside(), isPathInsideOrEqual(), nearestPackageRootBetween() (+8 more)
+Cohesion: 0.29
+Nodes (6): Context, Decisions, Goals / Non-Goals, Migration Plan, Open Questions, Risks / Trade-offs
 
 ### Community 156 - "Misión y objetivos"
 Cohesion: 0.08
-Nodes (23): Adaptation Strategies, Assess Adaptation Challenge, Implement & Verify, Orientation & foldables, Phone → Tablet (iPad / large screens), Platform → platform (iOS ↔ Android), Web → native (porting a website or web app), Android platform (+15 more)
+Nodes (22): Adaptation Strategies, Assess Adaptation Challenge, Implement & Verify, Orientation & foldables, Phone → Tablet (iPad / large screens), Platform → platform (iOS ↔ Android), Web → native (porting a website or web app), Android platform (+14 more)
 
 ### Community 157 - "linea-historica.md"
 Cohesion: 0.29
@@ -926,8 +921,8 @@ Cohesion: 0.29
 Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
 
 ### Community 166 - "Improve Typography Systematically"
-Cohesion: 0.15
-Nodes (15): checkElementOversizedH1(), checkElementOversizedH1DOM(), checkElementQuality(), checkElementQualityDOM(), checkOversizedH1(), checkRepeatedSectionKickers(), checkRepeatedSectionKickersDOM(), checkRepeatedSectionKickersFromDoc() (+7 more)
+Cohesion: 0.14
+Nodes (19): checkElementQuality(), checkElementQualityDOM(), checkQuality(), checkRepeatedSectionKickers(), checkRepeatedSectionKickersDOM(), checkRepeatedSectionKickersFromDoc(), cleanInlineText(), collectRepeatedSectionKickerCandidates() (+11 more)
 
 ### Community 167 - "Requirement: Las place-cards usan un radio de esquina consistente con las demás tarjetas del sitio"
 Cohesion: 0.33
@@ -1006,8 +1001,8 @@ Cohesion: 0.20
 Nodes (10): Button & CTA Text, Confirmation Dialogs, Empty States, Error Messages, Form Labels & Instructions, Help Text & Tooltips, Improve Copy Systematically, Loading States (+2 more)
 
 ### Community 188 - "tasks.md"
-Cohesion: 0.11
-Nodes (17): Purpose, Requirement: Las imágenes de Fragata y Cultura sirven la resolución apropiada según su ancho renderizado, Requirement: Las imágenes de place-cards, brand-line-grid y video-panel sirven la resolución apropiada según su ancho renderizado, Requirement: Las imágenes del hero sirven la resolución apropiada según el ancho del viewport, Requirements, Scenario: Brand-line-grid en desktop grande, Scenario: Carrete de Fragata en cualquier viewport, Scenario: Carrusel de Cultura en desktop (+9 more)
+Cohesion: 0.09
+Nodes (21): Purpose, Requirement: Las fotos de las galerías dinámicas de en-fotos sirven la resolución apropiada según su ancho renderizado, Requirement: Las imágenes de Fragata y Cultura sirven la resolución apropiada según su ancho renderizado, Requirement: Las imágenes de place-cards, brand-line-grid y video-panel sirven la resolución apropiada según su ancho renderizado, Requirement: Las imágenes del hero sirven la resolución apropiada según el ancho del viewport, Requirements, Scenario: Brand-line-grid en desktop grande, Scenario: Carrete de Fragata en cualquier viewport (+13 more)
 
 ### Community 189 - "tasks.md"
 Cohesion: 0.40
@@ -1090,16 +1085,16 @@ Cohesion: 0.25
 Nodes (7): Init Flow, Step 1: Load current state, Step 2: Explore the codebase, Step 4: Write PRODUCT.md, Step 5: Decide on DESIGN.md, Step 6: Configure live mode (when code exists), Step 7: Recommend starting points, then wrap up
 
 ### Community 210 - "syncEditBadgeHitProxies"
-Cohesion: 0.43
-Nodes (4): parseTargetOptions(), parseTargetPath(), TargetArgError, resolveLiveTarget()
+Cohesion: 0.47
+Nodes (6): clippedByInset(), clippedByRect(), expandBoxShorthand(), firstMetricLengthPx(), isScreenReaderOnlyTextStyle(), metricLengthPx()
 
 ### Community 211 - "The Toolkit"
 Cohesion: 0.29
 Nodes (6): Context, Decisions, Goals / Non-Goals, Migration Plan, Open Questions, Risks / Trade-offs
 
 ### Community 212 - "Diagnostic Scan"
-Cohesion: 0.29
-Nodes (8): buildMissingTargetDirective(), buildResolvedContextDirective(), buildTargetSelectionDirective(), cli(), hasTargetOption(), parseCliOptions(), pathExistsForTarget(), shouldWarnMissingTarget()
+Cohesion: 0.33
+Nodes (5): Capabilities, Impact, Modified Capabilities, What Changes, Why
 
 ### Community 213 - "SAFE_TAGS"
 Cohesion: 0.29
@@ -1119,7 +1114,7 @@ Nodes (5): 1. Assets, 2. Markup, 3. Verificación, 4. Documentación, 5. Deploy
 
 ### Community 217 - "design.md"
 Cohesion: 0.33
-Nodes (7): buildSelectorSegment(), collectVisualContrastCandidates(), collectVisualContrastReasons(), generateSelector(), getDirectText(), getDirectTextRect(), isLikelyHashedClass()
+Nodes (5): ADDED Requirements, Requirement: Las fotos de las galerías dinámicas de en-fotos sirven la resolución apropiada según su ancho renderizado, Scenario: Foto angosta de parroquia-el-dique, Scenario: Foto de una galería en cualquier viewport, Scenario: Sin regresión visual
 
 ### Community 218 - "Requirement: Las imágenes de place-cards, brand-line-grid y video-panel sirven la resolución apropiada según su ancho renderizado"
 Cohesion: 0.29
@@ -1142,26 +1137,6 @@ Cohesion: 0.33
 Nodes (5): 1. Assets, 2. Markup, 3. Verificación, 4. Documentación, 5. Deploy
 
 ### Community 223 - "checkHeroEyebrow"
-Cohesion: 0.40
-Nodes (5): checkElementHeroEyebrow(), checkElementHeroEyebrowDOM(), checkHeroEyebrow(), isAccentColor(), resolveVarRefs()
-
-### Community 224 - "design.md"
-Cohesion: 0.29
-Nodes (6): Context, Decisions, Goals / Non-Goals, Migration Plan, Open Questions, Risks / Trade-offs
-
-### Community 225 - "Plan Adaptation Strategy"
-Cohesion: 0.33
-Nodes (6): Desktop Adaptation (Mobile → Desktop), Email Adaptation (Web → Email), Mobile Adaptation (Desktop → Mobile), Plan Adaptation Strategy, Print Adaptation (Screen → Print), Tablet Adaptation (Hybrid Approach)
-
-### Community 226 - "proposal.md"
-Cohesion: 0.33
-Nodes (5): Capabilities, Impact, Modified Capabilities, What Changes, Why
-
-### Community 227 - "Requirement: Las fotos de las galerías dinámicas de en-fotos sirven la resolución apropiada según su ancho renderizado"
-Cohesion: 0.33
-Nodes (5): ADDED Requirements, Requirement: Las fotos de las galerías dinámicas de en-fotos sirven la resolución apropiada según su ancho renderizado, Scenario: Foto angosta de parroquia-el-dique, Scenario: Foto de una galería en cualquier viewport, Scenario: Sin regresión visual
-
-### Community 228 - "tasks.md"
 Cohesion: 0.33
 Nodes (5): 1. Assets, 2. JavaScript, 3. Verificación, 4. Documentación, 5. Deploy
 
@@ -1170,24 +1145,24 @@ Cohesion: 0.40
 Nodes (5): Handle fallback, Step 1: Identify where the element actually lives, Step 2: Show three variants in the DOM for preview, Step 3: On accept, write to true source, Step 4: On discard, clean up the served file
 
 ## Knowledge Gaps
-- **1087 isolated node(s):** `Performance`, `Context`, `Goals / Non-Goals`, `Decisions`, `Risks / Trade-offs` (+1082 more)
+- **1090 isolated node(s):** `Context`, `Goals / Non-Goals`, `Decisions`, `Risks / Trade-offs`, `Migration Plan` (+1085 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **8 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `el()` connect `el` to `typeset.md`, `checks.mjs`, `index.mjs`, `setLiveState`, `design-system.mjs`, `Improve Typography Systematically`, `Identidad y sistema visual de marca`, `bolder.md`, `css-cascade.mjs`, `showToast`, `_`, `detect-html.mjs`, `initGlobalBar`, `resolveContext`, `design.md`, `detect-text.mjs`?**
-  _High betweenness centrality (0.065) - this node is a cross-community bridge._
-- **Why does `v()` connect `modern-screenshot.umd.js` to `bolder.md`, `Identidad y sistema visual de marca`, `css-cascade.mjs`, `design-parser.mjs`, `checkHeroEyebrow`?**
-  _High betweenness centrality (0.033) - this node is a cross-community bridge._
+- **Why does `el()` connect `el` to `typeset.md`, `checks.mjs`, `index.mjs`, `setLiveState`, `design-system.mjs`, `Improve Typography Systematically`, `Identidad y sistema visual de marca`, `README.md`, `bolder.md`, `css-cascade.mjs`, `detect-antipatterns-browser.js`, `showToast`, `_`, `detect-html.mjs`, `initGlobalBar`, `resolveContext`, `detect-text.mjs`, `parseAnyColor`?**
+  _High betweenness centrality (0.067) - this node is a cross-community bridge._
 - **Why does `normalizeSourceFallbackBlock()` connect `Identidad y sistema visual de marca` to `css-cascade.mjs`, `resumeSession`?**
+  _High betweenness centrality (0.030) - this node is a cross-community bridge._
+- **Why does `v()` connect `modern-screenshot.umd.js` to `bolder.md`, `Identidad y sistema visual de marca`, `css-cascade.mjs`, `detect-antipatterns-browser.js`, `context-signals.mjs`, `design-parser.mjs`?**
   _High betweenness centrality (0.029) - this node is a cross-community bridge._
 - **Are the 29 inferred relationships involving `el()` (e.g. with `browserFindingsFromMap()` and `collectVisualContrastCandidates()`) actually correct?**
   _`el()` has 29 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 7 inferred relationships involving `initGlobalBar()` (e.g. with `hideAgentPollTooltip()` and `onDetectMessage()`) actually correct?**
   _`initGlobalBar()` has 7 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `Performance`, `Context`, `Goals / Non-Goals` to the rest of the system?**
-  _1095 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `Context`, `Goals / Non-Goals`, `Decisions` to the rest of the system?**
+  _1098 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interacciones de UI (script.js)` be split into smaller, more focused modules?**
   _Cohesion score 0.043478260869565216 - nodes in this community are weakly interconnected._
