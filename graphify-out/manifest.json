@@ -125,8 +125,8 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1783797732.770766,
-    "ast_hash": "765893df317204dbb4a14dc6e7cde3d9",
+    "mtime": 1783833638.5659091,
+    "ast_hash": "72800ef04b5230ed7d7058100072a842",
     "semantic_hash": ""
   },
   "openspec/config.yaml": {
@@ -185,8 +185,8 @@
     "semantic_hash": ""
   },
   "docs/pendientes/performance.md": {
-    "mtime": 1783791928.6221714,
-    "ast_hash": "d083279d3dd41004d132a758b043b15f",
+    "mtime": 1783833767.354528,
+    "ast_hash": "0d72c675eb3e95d11820f25504f8245d",
     "semantic_hash": ""
   },
   "docs/pendientes/riesgos-mitigados.md": {
@@ -1267,6 +1267,31 @@
   "openspec/specs/aria-semantics-and-focus/spec.md": {
     "mtime": 1783798758.19713,
     "ast_hash": "9e1c97532a16ebd45e8cd89ce67d9a98",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-srcset-fragata-cultura/.openspec.yaml": {
+    "mtime": 1783831285.2949584,
+    "ast_hash": "be083c7982e1be250fd7f9023d23ad62",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-srcset-fragata-cultura/design.md": {
+    "mtime": 1783831326.3562126,
+    "ast_hash": "ccfe9212a445f0542180dd4b2ea0d2a0",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-srcset-fragata-cultura/proposal.md": {
+    "mtime": 1783831302.2453265,
+    "ast_hash": "753df26a78902e940f066fa5b14d1817",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-srcset-fragata-cultura/specs/responsive-hero-images/spec.md": {
+    "mtime": 1783831339.9968023,
+    "ast_hash": "ccf7180286978757b904229dde083662",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-srcset-fragata-cultura/tasks.md": {
+    "mtime": 1783833773.0512967,
+    "ast_hash": "36292b4522280104865ab66add2361cd",
     "semantic_hash": ""
   }
 }
