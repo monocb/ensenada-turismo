@@ -20,6 +20,6 @@
 
 ## 5. Deploy
 
-- [ ] 5.1 Commit + push a `main` (confirmar con el usuario antes)
-- [ ] 5.2 Verificar en producción
-- [ ] 5.3 Archivar el change y sincronizar la spec `responsive-hero-images`
+- [x] 5.1 Commit + push a `main` (confirmar con el usuario antes)
+- [x] 5.2 Verificar en producción
+- [x] 5.3 Archivar el change y sincronizar la spec `responsive-hero-images`
