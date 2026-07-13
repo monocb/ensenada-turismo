@@ -22,4 +22,4 @@
 
 - [x] 5.1 Pushear la rama y abrir PR contra `main`; confirmar que Netlify genera la Deploy Preview automática — PR #1, Deploy Preview: https://deploy-preview-1--ensenadaturismo.netlify.app (confirmado que las previews automáticas están habilitadas)
 - [x] 5.2 Comparar visualmente la Deploy Preview contra `ensenadaturismo.com` (social-strip y eyebrow de Historia) — verificado leyendo el CSS servido por la Deploy Preview: `.social-strip` sin `backdrop-filter`, fondo sólido; `.heritage .eyebrow` presente con color dorado. No se pudo tomar captura visual (sin herramienta de navegador en esta sesión).
-- [ ] 5.3 Con aprobación del usuario: mergear el PR y archivar el change (`/opsx:archive`)
+- [x] 5.3 Con aprobación del usuario: mergear el PR y archivar el change (`/opsx:archive`) — PR #1 mergeado a `main` con confirmación explícita del usuario
