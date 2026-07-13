@@ -55,8 +55,8 @@
     "semantic_hash": "ca0a72a09ab4270d6868acc01dc9e6c9"
   },
   "404.html": {
-    "mtime": 1783921561.615024,
-    "ast_hash": "c53e64625743400d894f59dcd8f2c91d",
+    "mtime": 1783923212.0543826,
+    "ast_hash": "12e9a6a83c471ae13b1b20bd0fa330f8",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -120,8 +120,8 @@
     "semantic_hash": "0bfe316dedd6def3a27875dad4d981a6"
   },
   "en-fotos/index.html": {
-    "mtime": 1783797741.7986584,
-    "ast_hash": "9896ce94e57e604a6b98a41ea9bcaaa2",
+    "mtime": 1783923197.415242,
+    "ast_hash": "fb961f0433d1db3a78a8ca061b292fc1",
     "semantic_hash": ""
   },
   "index.html": {
@@ -1380,8 +1380,8 @@
     "semantic_hash": ""
   },
   "openspec/changes/add-social-footer-secondary-pages/tasks.md": {
-    "mtime": 1783923140.1437902,
-    "ast_hash": "16691d4e1d797525b14ca6fd3eb652d9",
+    "mtime": 1783923240.1620183,
+    "ast_hash": "57cb76033108284cb7df5d976148e48d",
     "semantic_hash": ""
   },
   "openspec/changes/archive/2026-07-13-fix-visual-consistency-404/.openspec.yaml": {
