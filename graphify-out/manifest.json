@@ -1,6 +1,6 @@
 {
   "script.js": {
-    "mtime": 1783924953.1484396,
+    "mtime": 1783925141.6194432,
     "ast_hash": "79dc00da07ef275d2fcc2e6aa9701246",
     "semantic_hash": ""
   },
@@ -120,12 +120,12 @@
     "semantic_hash": "0bfe316dedd6def3a27875dad4d981a6"
   },
   "en-fotos/index.html": {
-    "mtime": 1783924953.128407,
+    "mtime": 1783925141.5982735,
     "ast_hash": "fb961f0433d1db3a78a8ca061b292fc1",
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1783924953.1474395,
+    "mtime": 1783925141.6174426,
     "ast_hash": "f5e8217e2db3bf57935a96718b639f07",
     "semantic_hash": ""
   },
@@ -1495,28 +1495,28 @@
     "semantic_hash": ""
   },
   "openspec/changes/fix-identidad-eyebrow-contrast/.openspec.yaml": {
-    "mtime": 1783924619.0264747,
+    "mtime": 1783925141.6184416,
     "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
     "semantic_hash": ""
   },
   "openspec/changes/fix-identidad-eyebrow-contrast/design.md": {
-    "mtime": 1783924650.4537218,
+    "mtime": 1783925141.6184416,
     "ast_hash": "bccd22878f66f5b83675b322df01897f",
     "semantic_hash": ""
   },
   "openspec/changes/fix-identidad-eyebrow-contrast/proposal.md": {
-    "mtime": 1783924636.358448,
+    "mtime": 1783925141.6184416,
     "ast_hash": "8bb65f07493e7d55e4603d7bd5273557",
     "semantic_hash": ""
   },
   "openspec/changes/fix-identidad-eyebrow-contrast/specs/text-contrast-over-images/spec.md": {
-    "mtime": 1783924657.817284,
+    "mtime": 1783925141.6194432,
     "ast_hash": "ab05fcc7e5ac06caabd21deb9309732e",
     "semantic_hash": ""
   },
   "openspec/changes/fix-identidad-eyebrow-contrast/tasks.md": {
-    "mtime": 1783924664.7442224,
-    "ast_hash": "36b115083f4b811a6903dcab38f95b60",
+    "mtime": 1783925141.6194432,
+    "ast_hash": "8f26c82a9eb197d08143aee9464d81b3",
     "semantic_hash": ""
   },
   "openspec/specs/site-footer-coverage/spec.md": {

@@ -10,6 +10,6 @@
 ## 3. Verificación y entrega
 
 - [x] 3.1 `npx --yes stylelint styles.css` sin errores
-- [ ] 3.2 Pushear la rama y abrir PR contra `main`; confirmar Deploy Preview de Netlify
-- [ ] 3.3 Comparar visualmente el eyebrow "ENSENADA IDENTIDAD" en la Deploy Preview contra producción
+- [x] 3.2 Pushear la rama y abrir PR contra `main`; confirmar Deploy Preview de Netlify — PR #6, Deploy Preview: https://deploy-preview-6--ensenadaturismo.netlify.app. CI (`quality-checks`) pasó limpio en las 2 corridas.
+- [x] 3.3 Comparar visualmente el eyebrow "ENSENADA IDENTIDAD" en la Deploy Preview contra producción — verificado leyendo el CSS servido: `color: #b8440b` presente. No se pudo tomar captura visual (sin herramienta de navegador en esta sesión).
 - [ ] 3.4 Con aprobación del usuario: mergear el PR y archivar el change (`/opsx:archive`)
