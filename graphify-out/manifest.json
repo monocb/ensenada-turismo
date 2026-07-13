@@ -915,8 +915,8 @@
     "semantic_hash": ""
   },
   "DESIGN.md": {
-    "mtime": 1783704246.7319167,
-    "ast_hash": "2bcf31c87883e9686ac05bd63d253341",
+    "mtime": 1783916940.8833158,
+    "ast_hash": "c2abef8208a9ba860444cdcf938bfc68",
     "semantic_hash": ""
   },
   "PRODUCT.md": {
@@ -1420,8 +1420,8 @@
     "semantic_hash": ""
   },
   "openspec/changes/fix-visual-consistency-home/design.md": {
-    "mtime": 1783900103.4191287,
-    "ast_hash": "9f42b2b02aa60edc86292b36e9d4373e",
+    "mtime": 1783916911.162469,
+    "ast_hash": "11ff4314cff17f51df4e913a946015c3",
     "semantic_hash": ""
   },
   "openspec/changes/fix-visual-consistency-home/proposal.md": {
@@ -1445,8 +1445,8 @@
     "semantic_hash": ""
   },
   "openspec/changes/fix-visual-consistency-home/tasks.md": {
-    "mtime": 1783913695.5230424,
-    "ast_hash": "6b2258a55ce2dbd52ff0ef3864cf074e",
+    "mtime": 1783916948.350038,
+    "ast_hash": "4dc2ff311121acab171534c1d78441da",
     "semantic_hash": ""
   }
 }
