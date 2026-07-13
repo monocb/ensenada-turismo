@@ -1,7 +1,7 @@
 {
   "script.js": {
-    "mtime": 1783840087.3196547,
-    "ast_hash": "79dc00da07ef275d2fcc2e6aa9701246",
+    "mtime": 1783925087.8476799,
+    "ast_hash": "33e396fff10abcd5bd3d9f9f48b1082c",
     "semantic_hash": ""
   },
   ".claude/commands/opsx/apply.md": {
@@ -55,7 +55,7 @@
     "semantic_hash": "ca0a72a09ab4270d6868acc01dc9e6c9"
   },
   "404.html": {
-    "mtime": 1783923212.0543826,
+    "mtime": 1783923972.9859939,
     "ast_hash": "12e9a6a83c471ae13b1b20bd0fa330f8",
     "semantic_hash": ""
   },
@@ -120,13 +120,13 @@
     "semantic_hash": "0bfe316dedd6def3a27875dad4d981a6"
   },
   "en-fotos/index.html": {
-    "mtime": 1783923197.415242,
-    "ast_hash": "fb961f0433d1db3a78a8ca061b292fc1",
+    "mtime": 1783925087.8209243,
+    "ast_hash": "b03c55cab9df45bcec69e4e98f9674be",
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1783834427.90172,
-    "ast_hash": "f5e8217e2db3bf57935a96718b639f07",
+    "mtime": 1783925087.844028,
+    "ast_hash": "cdd5932b551d85493df164f9fb95eeae",
     "semantic_hash": ""
   },
   "openspec/config.yaml": {
@@ -1359,31 +1359,6 @@
     "ast_hash": "9abf2b712ac9dd2cce851fc9f554696b",
     "semantic_hash": ""
   },
-  "openspec/changes/add-social-footer-secondary-pages/.openspec.yaml": {
-    "mtime": 1783923089.8631468,
-    "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
-    "semantic_hash": ""
-  },
-  "openspec/changes/add-social-footer-secondary-pages/design.md": {
-    "mtime": 1783923123.9600568,
-    "ast_hash": "33d1119374057e8ff6d50af428087a84",
-    "semantic_hash": ""
-  },
-  "openspec/changes/add-social-footer-secondary-pages/proposal.md": {
-    "mtime": 1783923107.6901484,
-    "ast_hash": "1285011d5a986d536c8ec7f8acfa6ff9",
-    "semantic_hash": ""
-  },
-  "openspec/changes/add-social-footer-secondary-pages/specs/site-footer-coverage/spec.md": {
-    "mtime": 1783923132.5945928,
-    "ast_hash": "13ef8cfeffbc62ba791ef2f8e9e8d9d7",
-    "semantic_hash": ""
-  },
-  "openspec/changes/add-social-footer-secondary-pages/tasks.md": {
-    "mtime": 1783923240.1620183,
-    "ast_hash": "57cb76033108284cb7df5d976148e48d",
-    "semantic_hash": ""
-  },
   "openspec/changes/archive/2026-07-13-fix-visual-consistency-404/.openspec.yaml": {
     "mtime": 1783921561.615024,
     "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
@@ -1492,6 +1467,66 @@
   "openspec/specs/photos-line-visual-identity/spec.md": {
     "mtime": 1783921791.7150936,
     "ast_hash": "23bd8ac3a61d51426f521cd30d274799",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-add-social-footer-secondary-pages/.openspec.yaml": {
+    "mtime": 1783923973.007036,
+    "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-add-social-footer-secondary-pages/design.md": {
+    "mtime": 1783923973.0080373,
+    "ast_hash": "33d1119374057e8ff6d50af428087a84",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-add-social-footer-secondary-pages/proposal.md": {
+    "mtime": 1783923973.0090382,
+    "ast_hash": "1285011d5a986d536c8ec7f8acfa6ff9",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-add-social-footer-secondary-pages/specs/site-footer-coverage/spec.md": {
+    "mtime": 1783923973.0100374,
+    "ast_hash": "13ef8cfeffbc62ba791ef2f8e9e8d9d7",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-add-social-footer-secondary-pages/tasks.md": {
+    "mtime": 1783923989.5665176,
+    "ast_hash": "2da4d654806ad599a378bd895bfd451a",
+    "semantic_hash": ""
+  },
+  "openspec/changes/harden-lightbox-gallery-accessibility/.openspec.yaml": {
+    "mtime": 1783925087.8447027,
+    "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
+    "semantic_hash": ""
+  },
+  "openspec/changes/harden-lightbox-gallery-accessibility/design.md": {
+    "mtime": 1783925087.8447027,
+    "ast_hash": "b3a40040cb5be8c9459a9538172b598b",
+    "semantic_hash": ""
+  },
+  "openspec/changes/harden-lightbox-gallery-accessibility/proposal.md": {
+    "mtime": 1783925087.845557,
+    "ast_hash": "84a4adb230eb8988c4f14abedbfe1d8a",
+    "semantic_hash": ""
+  },
+  "openspec/changes/harden-lightbox-gallery-accessibility/specs/gallery-accessibility/spec.md": {
+    "mtime": 1783925087.845557,
+    "ast_hash": "4ea1321819deea30087fc3bb8a5cea0c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/harden-lightbox-gallery-accessibility/specs/lightbox-accessible-dialog/spec.md": {
+    "mtime": 1783925087.8466785,
+    "ast_hash": "bcf278b804a99229541f688db55e50bf",
+    "semantic_hash": ""
+  },
+  "openspec/changes/harden-lightbox-gallery-accessibility/tasks.md": {
+    "mtime": 1783925099.8482854,
+    "ast_hash": "5a2724cf29a00b0f56cac2b43a6222e9",
+    "semantic_hash": ""
+  },
+  "openspec/specs/site-footer-coverage/spec.md": {
+    "mtime": 1783924001.033927,
+    "ast_hash": "b364fa8d78ee04ff9e72cf334fef6093",
     "semantic_hash": ""
   }
 }
