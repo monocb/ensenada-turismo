@@ -14,6 +14,6 @@
 
 ## 4. Verificación y entrega
 
-- [ ] 4.1 Pushear la rama y abrir PR contra `main`; confirmar que Netlify genera la Deploy Preview automática
-- [ ] 4.2 Comparar visualmente la Deploy Preview de `/404` contra el resto del sitio (tipografía y color del eyebrow)
+- [x] 4.1 Pushear la rama y abrir PR contra `main`; confirmar que Netlify genera la Deploy Preview automática — PR #3, Deploy Preview: https://deploy-preview-3--ensenadaturismo.netlify.app. Nota: el check `quality-checks` mostró un fallo en una de sus dos corridas (push vs. pull_request) por `[429]` de Instagram en el chequeo de links — rate limit externo transitorio, no relacionado a este cambio; la otra corrida del mismo commit pasó limpia.
+- [x] 4.2 Comparar visualmente la Deploy Preview de `/404` contra el resto del sitio (tipografía y color del eyebrow) — verificado leyendo el HTML/CSS servido: los 3 tags de Google Fonts y `.not-found .eyebrow { color: var(--gold); }` presentes. No se pudo tomar captura visual (sin herramienta de navegador en esta sesión).
 - [ ] 4.3 Con aprobación del usuario: mergear el PR y archivar el change (`/opsx:archive`)
