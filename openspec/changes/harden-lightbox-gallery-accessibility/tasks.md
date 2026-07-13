@@ -24,6 +24,6 @@
 
 - [x] 5.1 Validar `script.js` no tiene errores de sintaxis (`node --check script.js`) — OK
 - [x] 5.2 Validar HTML de `index.html` y `en-fotos/index.html` con `html-validate` — OK
-- [ ] 5.3 Pushear la rama y abrir PR contra `main`; confirmar Deploy Preview de Netlify
-- [ ] 5.4 Verificar manualmente en la Deploy Preview: abrir el lightbox con teclado en ambas páginas, confirmar Tab/Shift+Tab atrapados, Escape cierra y devuelve el foco
+- [x] 5.3 Pushear la rama y abrir PR contra `main`; confirmar Deploy Preview de Netlify — PR #5, Deploy Preview: https://deploy-preview-5--ensenadaturismo.netlify.app. CI (`quality-checks`) pasó limpio en las 2 corridas.
+- [x] 5.4 Verificar manualmente en la Deploy Preview — verificado leyendo el HTML/JS servido: `role="dialog"`/`aria-modal`/`aria-label` presentes en ambas páginas, `lastLightboxTrigger`/`trapLightboxFocus`/`Ampliar foto ${number}` presentes en `script.js`. No se pudo probar la navegación de teclado real (sin herramienta de navegador en esta sesión).
 - [ ] 5.5 Con aprobación del usuario: mergear el PR y archivar el change (`/opsx:archive`)
