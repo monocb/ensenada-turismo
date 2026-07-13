@@ -14,3 +14,7 @@ Todo texto posicionado sobre una imagen (hero, fragata, culture-slides) SHALL te
 #### Scenario: Hero tagline sobre el resaltador dorado (corregido)
 - **WHEN** el texto del tagline del hero se superpone a la franja del resaltador dorado (`rgba(255, 207, 47, 0.96)`)
 - **THEN** el texto sigue siendo legible (verificado con captura ampliada antes/después), gracias a un contorno oscuro (`text-shadow`) que define el borde de cada letra independientemente del color de fondo detrás
+
+#### Scenario: Eyebrow "Identidad" sobre el fondo de la sección Descubrí (corregido)
+- **WHEN** se mide el contraste del texto de `.route-copy .eyebrow` ("ENSENADA IDENTIDAD") contra el fondo compuesto de `.route-section`
+- **THEN** el resultado es igual o mayor a 4.5:1
