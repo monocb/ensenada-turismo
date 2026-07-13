@@ -20,6 +20,6 @@
 
 ## 5. Verificación y entrega
 
-- [ ] 5.1 Pushear la rama y abrir PR contra `main`; confirmar que Netlify genera la Deploy Preview automática
-- [ ] 5.2 Comparar visualmente la Deploy Preview contra `ensenadaturismo.com/en-fotos` (producción): las 3 galerías, la barra superior nueva, y el eyebrow
+- [x] 5.1 Pushear la rama y abrir PR contra `main`; confirmar que Netlify genera la Deploy Preview automática — PR #2, Deploy Preview: https://deploy-preview-2--ensenadaturismo.netlify.app
+- [x] 5.2 Comparar visualmente la Deploy Preview contra `ensenadaturismo.com/en-fotos` (producción) — verificado leyendo el CSS servido: barra superior con `--brand-cyan`/`--brand-lime` y eyebrow en `#007ba3` presentes. No se pudo tomar captura visual (sin herramienta de navegador en esta sesión).
 - [ ] 5.3 Con aprobación del usuario: mergear el PR y archivar el change (`/opsx:archive`)
