@@ -915,8 +915,8 @@
     "semantic_hash": ""
   },
   "DESIGN.md": {
-    "mtime": 1783918612.8882034,
-    "ast_hash": "2bcf31c87883e9686ac05bd63d253341",
+    "mtime": 1783916940.8833158,
+    "ast_hash": "c2abef8208a9ba860444cdcf938bfc68",
     "semantic_hash": ""
   },
   "PRODUCT.md": {
@@ -1354,6 +1354,11 @@
     "ast_hash": "06f3c72eb0ed9ba96ee63ef29b983463",
     "semantic_hash": ""
   },
+  ".impeccable/critique/2026-07-12T23-32-39Z__index-html.md": {
+    "mtime": 1783899159.8302703,
+    "ast_hash": "9abf2b712ac9dd2cce851fc9f554696b",
+    "semantic_hash": ""
+  },
   "openspec/changes/fix-visual-consistency-404/.openspec.yaml": {
     "mtime": 1783915409.8136919,
     "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
@@ -1405,8 +1410,43 @@
     "semantic_hash": ""
   },
   "openspec/changes/fix-visual-consistency-en-fotos/tasks.md": {
-    "mtime": 1783918852.8342178,
-    "ast_hash": "3fa69dbd6371ccade40ac91fd0c59976",
+    "mtime": 1783914852.3841803,
+    "ast_hash": "f40fbda80784cea537f944c826e75345",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-visual-consistency-home/.openspec.yaml": {
+    "mtime": 1783899463.9574392,
+    "ast_hash": "be083c7982e1be250fd7f9023d23ad62",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-visual-consistency-home/design.md": {
+    "mtime": 1783916911.162469,
+    "ast_hash": "11ff4314cff17f51df4e913a946015c3",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-visual-consistency-home/proposal.md": {
+    "mtime": 1783900064.6940804,
+    "ast_hash": "17f575a32b36b55a325e3a271431cca6",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-visual-consistency-home/specs/eyebrow-color-consistency/spec.md": {
+    "mtime": 1783913429.5934415,
+    "ast_hash": "cf719844938beec7602cf6f50f3518bb",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-visual-consistency-home/specs/home-cta-visual-treatment/spec.md": {
+    "mtime": 1783913422.020312,
+    "ast_hash": "437b55edf077c32d6e0955d807d092af",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-visual-consistency-home/specs/technical-docs-accuracy/spec.md": {
+    "mtime": 1783913437.4272976,
+    "ast_hash": "7bb9a0822457e9b11c5458dedd8561d3",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-visual-consistency-home/tasks.md": {
+    "mtime": 1783916948.350038,
+    "ast_hash": "4dc2ff311121acab171534c1d78441da",
     "semantic_hash": ""
   }
 }

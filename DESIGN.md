@@ -41,6 +41,7 @@ rounded:
   control: "10px"
   pill: "999px"
   flat: "0px"
+  card: "18px"
 components:
   button-primary:
     backgroundColor: "{colors.primary}"
@@ -139,7 +140,7 @@ El sistema usa sombras suaves y difusas con tinte navy (`rgba(5, 32, 49, 0.13)`)
 - **Secundario (controles translúcidos):** fondo blanco a 12% de opacidad sobre fondo oscuro, borde blanco a 24% — usado en controles de carrusel y el botón de menú mobile.
 
 ### Cards / Containers
-- **Corner Style:** sin radio (`0px`) en las tarjetas de lugar (place-cards) — contrasta fuerte contra el resto del sistema, que es todo pill/redondeado. **Confirmado como deriva no intencional, no como regla de marca** — candidato a unificar en una futura pasada de `/impeccable polish`, no a preservar como está.
+- **Corner Style:** las place-cards y sus tarjetas hermanas (`.fragata-hero`, `.video-panel`, `.culture-slide`) usan el radio nombrado de "card" (`rounded.card`, 18px) — unificado a propósito en el change archivado `2026-07-10-unify-place-card-radius`, que corrigió una deriva anterior donde las place-cards estaban en `0px` sin motivo de marca. Este 18px es hoy la decisión vigente del sistema, no una deriva pendiente.
 - **Background:** superficies claras (papel) para el contenido editorial largo; superficies oscuras para hero, footer y secciones de impacto.
 - **Shadow Strategy:** ver Elevación — sombra difusa tinte navy.
 
