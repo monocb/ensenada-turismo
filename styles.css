@@ -1002,10 +1002,14 @@ body.has-video-modal {
 }
 
 .route-copy p:not(.eyebrow),
-.heritage p {
+.heritage p:not(.eyebrow) {
   color: var(--text-muted);
   font-size: 17px;
   line-height: 1.7;
+}
+
+.heritage .eyebrow {
+  color: var(--gold);
 }
 
 .place-accordion {
@@ -6905,9 +6909,8 @@ section {
   padding: 10px !important;
   border: 1px solid rgba(255, 255, 255, 0.34) !important;
   border-radius: 999px !important;
-  background: rgba(255, 255, 255, 0.22) !important;
+  background: rgba(8, 11, 24, 0.92) !important;
   box-shadow: 0 22px 70px rgba(0, 0, 0, 0.22) !important;
-  backdrop-filter: blur(14px) saturate(1.1) !important;
   transform: translate3d(0, 0, 0) !important;
   transition: opacity 260ms ease, transform 260ms ease !important;
 }
