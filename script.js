@@ -42,6 +42,7 @@ let activeLightboxIndex = 0;
 let tickingDepth = false;
 let lastHeaderScrollY = window.scrollY;
 let lastPlaceTrigger = null;
+let lastLightboxTrigger = null;
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 function refreshHeader() {
@@ -205,7 +206,10 @@ function setupPhotoReelSection(section) {
 
       button.className = "photos-reel-card";
       button.type = "button";
-      button.setAttribute("aria-label", title ? `Ampliar ${title}` : "Ampliar foto");
+      button.setAttribute(
+        "aria-label",
+        title ? `Ampliar foto ${number} de ${title}` : `Ampliar foto ${number}`
+      );
 
       image.loading = "lazy";
       const photoBase = `/assets/en-fotos/${folder}/${prefix}-${number}`;
@@ -287,8 +291,18 @@ function renderLightboxImage() {
   }
 }
 
-function openLightbox(image, galleryImages = [image]) {
+function getLightboxFocusable() {
+  if (!lightbox) return [];
+  return Array.from(
+    lightbox.querySelectorAll(
+      'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+    )
+  ).filter((element) => !element.hasAttribute("disabled") && element.offsetParent !== null);
+}
+
+function openLightbox(image, galleryImages = [image], trigger = null) {
   if (!lightbox || !lightboxImage) return;
+  lastLightboxTrigger = trigger || document.activeElement;
   activeLightboxImages = Array.from(galleryImages);
   activeLightboxIndex = Math.max(0, activeLightboxImages.indexOf(image));
   renderLightboxImage();
@@ -296,6 +310,10 @@ function openLightbox(image, galleryImages = [image]) {
   lightbox.setAttribute("aria-hidden", "false");
   lightbox.inert = false;
   document.body.classList.add("has-lightbox");
+  window.requestAnimationFrame(() => {
+    const focusable = getLightboxFocusable();
+    (focusable[0] || lightboxClose)?.focus();
+  });
 }
 
 function closeLightbox() {
@@ -307,6 +325,26 @@ function closeLightbox() {
   lightboxImage.src = "";
   activeLightboxImages = [];
   activeLightboxIndex = 0;
+  if (lastLightboxTrigger && typeof lastLightboxTrigger.focus === "function") {
+    lastLightboxTrigger.focus();
+  }
+  lastLightboxTrigger = null;
+}
+
+function trapLightboxFocus(event) {
+  if (!lightbox?.classList.contains("is-open") || event.key !== "Tab") return;
+  const focusable = getLightboxFocusable();
+  if (!focusable.length) return;
+  const first = focusable[0];
+  const last = focusable[focusable.length - 1];
+
+  if (event.shiftKey && document.activeElement === first) {
+    event.preventDefault();
+    last.focus();
+  } else if (!event.shiftKey && document.activeElement === last) {
+    event.preventDefault();
+    first.focus();
+  }
 }
 
 function moveLightbox(direction) {
@@ -431,6 +469,7 @@ lightbox?.addEventListener("click", (event) => {
     closeLightbox();
   }
 });
+lightbox?.addEventListener("keydown", trapLightboxFocus);
 
 placeModalCloseButtons.forEach((button) => {
   button.addEventListener("click", closePlaceModal);

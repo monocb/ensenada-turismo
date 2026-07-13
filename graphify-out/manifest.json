@@ -1,7 +1,7 @@
 {
   "script.js": {
-    "mtime": 1783925141.6194432,
-    "ast_hash": "79dc00da07ef275d2fcc2e6aa9701246",
+    "mtime": 1783925087.8476799,
+    "ast_hash": "33e396fff10abcd5bd3d9f9f48b1082c",
     "semantic_hash": ""
   },
   ".claude/commands/opsx/apply.md": {
@@ -120,13 +120,13 @@
     "semantic_hash": "0bfe316dedd6def3a27875dad4d981a6"
   },
   "en-fotos/index.html": {
-    "mtime": 1783925141.5982735,
-    "ast_hash": "fb961f0433d1db3a78a8ca061b292fc1",
+    "mtime": 1783925087.8209243,
+    "ast_hash": "b03c55cab9df45bcec69e4e98f9674be",
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1783925141.6174426,
-    "ast_hash": "f5e8217e2db3bf57935a96718b639f07",
+    "mtime": 1783925087.844028,
+    "ast_hash": "cdd5932b551d85493df164f9fb95eeae",
     "semantic_hash": ""
   },
   "openspec/config.yaml": {
@@ -1494,29 +1494,34 @@
     "ast_hash": "2da4d654806ad599a378bd895bfd451a",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-identidad-eyebrow-contrast/.openspec.yaml": {
-    "mtime": 1783925141.6184416,
+  "openspec/changes/harden-lightbox-gallery-accessibility/.openspec.yaml": {
+    "mtime": 1783925087.8447027,
     "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-identidad-eyebrow-contrast/design.md": {
-    "mtime": 1783925141.6184416,
-    "ast_hash": "bccd22878f66f5b83675b322df01897f",
+  "openspec/changes/harden-lightbox-gallery-accessibility/design.md": {
+    "mtime": 1783925087.8447027,
+    "ast_hash": "b3a40040cb5be8c9459a9538172b598b",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-identidad-eyebrow-contrast/proposal.md": {
-    "mtime": 1783925141.6184416,
-    "ast_hash": "8bb65f07493e7d55e4603d7bd5273557",
+  "openspec/changes/harden-lightbox-gallery-accessibility/proposal.md": {
+    "mtime": 1783925087.845557,
+    "ast_hash": "84a4adb230eb8988c4f14abedbfe1d8a",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-identidad-eyebrow-contrast/specs/text-contrast-over-images/spec.md": {
-    "mtime": 1783925141.6194432,
-    "ast_hash": "ab05fcc7e5ac06caabd21deb9309732e",
+  "openspec/changes/harden-lightbox-gallery-accessibility/specs/gallery-accessibility/spec.md": {
+    "mtime": 1783925087.845557,
+    "ast_hash": "4ea1321819deea30087fc3bb8a5cea0c",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-identidad-eyebrow-contrast/tasks.md": {
-    "mtime": 1783925141.6194432,
-    "ast_hash": "8f26c82a9eb197d08143aee9464d81b3",
+  "openspec/changes/harden-lightbox-gallery-accessibility/specs/lightbox-accessible-dialog/spec.md": {
+    "mtime": 1783925087.8466785,
+    "ast_hash": "bcf278b804a99229541f688db55e50bf",
+    "semantic_hash": ""
+  },
+  "openspec/changes/harden-lightbox-gallery-accessibility/tasks.md": {
+    "mtime": 1783925099.8482854,
+    "ast_hash": "5a2724cf29a00b0f56cac2b43a6222e9",
     "semantic_hash": ""
   },
   "openspec/specs/site-footer-coverage/spec.md": {
