@@ -16,4 +16,4 @@
 
 - [x] 4.1 Pushear la rama y abrir PR contra `main`; confirmar que Netlify genera la Deploy Preview automática — PR #4, Deploy Preview: https://deploy-preview-4--ensenadaturismo.netlify.app. Nota: `quality-checks` falló en sus 2 corridas por `[429]` de Instagram en el chequeo de links (rate limit externo, agravado porque ahora el link aparece en 3 páginas en vez de 1) — no es un link roto real, no bloquea el deploy.
 - [x] 4.2 Comparar visualmente la Deploy Preview de `/en-fotos/` y `/404` contra `index.html` — verificado leyendo el HTML servido: `<footer class="site-footer">` con los 3 enlaces presente en ambas páginas. No se pudo tomar captura visual (sin herramienta de navegador en esta sesión).
-- [ ] 4.3 Con aprobación del usuario: mergear el PR y archivar el change (`/opsx:archive`)
+- [x] 4.3 Con aprobación del usuario: mergear el PR y archivar el change (`/opsx:archive`) — PR #4 mergeado a `main` con confirmación explícita del usuario
