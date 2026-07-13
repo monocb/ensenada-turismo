@@ -5142,6 +5142,10 @@ body.menu-open {
   font-size: clamp(18px, 2vw, 24px);
 }
 
+.not-found .eyebrow {
+  color: var(--gold);
+}
+
 .not-found-link {
   display: inline-flex;
   min-height: 48px;
