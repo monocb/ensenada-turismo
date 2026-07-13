@@ -281,5 +281,16 @@
   "279": "tasks.md artifact (implementation steps)",
   "280": "OpenSpec store selection mechanism (--store flag)",
   "281": "Migration from manual Google Drive/Netlify uploads to Git-tracked history",
-  "282": "README.md (repo readme)"
+  "282": "README.md (repo readme)",
+  "283": "design.md",
+  "284": "tasks.md",
+  "285": "Requirement: El CTA de redes sociales del home no usa glassmorphism",
+  "286": "Requirement: 404.html carga la tipografía Inter",
+  "287": "tasks.md",
+  "288": "Requirement: El eyebrow de la página 404 renderiza en el color dorado de marca",
+  "289": "Requirement: 404.html carga la tipografía Inter",
+  "290": "tasks.md",
+  "291": "Requirement: Todos los eyebrows del home renderizan en el color dorado de marca",
+  "292": "Requirement: El CTA de redes sociales del home no usa glassmorphism",
+  "293": "Requirement: DESIGN.md describe con precisión el estado resuelto del radio de las place-cards"
 }

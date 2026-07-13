@@ -55,8 +55,8 @@
     "semantic_hash": "ca0a72a09ab4270d6868acc01dc9e6c9"
   },
   "404.html": {
-    "mtime": 1783733672.7669091,
-    "ast_hash": "13c2866fe5aa30e462c4601e6d3f8c68",
+    "mtime": 1783923212.0543826,
+    "ast_hash": "12e9a6a83c471ae13b1b20bd0fa330f8",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -120,8 +120,8 @@
     "semantic_hash": "0bfe316dedd6def3a27875dad4d981a6"
   },
   "en-fotos/index.html": {
-    "mtime": 1783797741.7986584,
-    "ast_hash": "9896ce94e57e604a6b98a41ea9bcaaa2",
+    "mtime": 1783923197.415242,
+    "ast_hash": "fb961f0433d1db3a78a8ca061b292fc1",
     "semantic_hash": ""
   },
   "index.html": {
@@ -915,7 +915,7 @@
     "semantic_hash": ""
   },
   "DESIGN.md": {
-    "mtime": 1783916940.8833158,
+    "mtime": 1783921473.4150815,
     "ast_hash": "c2abef8208a9ba860444cdcf938bfc68",
     "semantic_hash": ""
   },
@@ -1005,8 +1005,8 @@
     "semantic_hash": ""
   },
   "openspec/specs/technical-docs-accuracy/spec.md": {
-    "mtime": 1783794462.5655923,
-    "ast_hash": "48c1e535a9e67105e59fe93c55f5a136",
+    "mtime": 1783921738.235649,
+    "ast_hash": "0b4e455f5386ed5c51ae5e200a95e056",
     "semantic_hash": ""
   },
   "openspec/changes/archive/2026-07-10-compress-oversized-images/.openspec.yaml": {
@@ -1345,108 +1345,153 @@
     "semantic_hash": ""
   },
   ".impeccable/critique/2026-07-12T23-32-39Z__404-html.md": {
-    "mtime": 1783899159.974569,
+    "mtime": 1783921561.6140199,
     "ast_hash": "4fd26f20b187bf5d4327a359bdcbb15d",
     "semantic_hash": ""
   },
   ".impeccable/critique/2026-07-12T23-32-39Z__en-fotos-index-html.md": {
-    "mtime": 1783899159.9035273,
+    "mtime": 1783921473.4140804,
     "ast_hash": "06f3c72eb0ed9ba96ee63ef29b983463",
     "semantic_hash": ""
   },
   ".impeccable/critique/2026-07-12T23-32-39Z__index-html.md": {
-    "mtime": 1783899159.8302703,
+    "mtime": 1783921473.4140804,
     "ast_hash": "9abf2b712ac9dd2cce851fc9f554696b",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-visual-consistency-404/.openspec.yaml": {
-    "mtime": 1783915409.8136919,
+  "openspec/changes/add-social-footer-secondary-pages/.openspec.yaml": {
+    "mtime": 1783923089.8631468,
     "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-visual-consistency-404/design.md": {
-    "mtime": 1783915455.0749576,
+  "openspec/changes/add-social-footer-secondary-pages/design.md": {
+    "mtime": 1783923123.9600568,
+    "ast_hash": "33d1119374057e8ff6d50af428087a84",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-social-footer-secondary-pages/proposal.md": {
+    "mtime": 1783923107.6901484,
+    "ast_hash": "1285011d5a986d536c8ec7f8acfa6ff9",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-social-footer-secondary-pages/specs/site-footer-coverage/spec.md": {
+    "mtime": 1783923132.5945928,
+    "ast_hash": "13ef8cfeffbc62ba791ef2f8e9e8d9d7",
+    "semantic_hash": ""
+  },
+  "openspec/changes/add-social-footer-secondary-pages/tasks.md": {
+    "mtime": 1783923240.1620183,
+    "ast_hash": "57cb76033108284cb7df5d976148e48d",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-fix-visual-consistency-404/.openspec.yaml": {
+    "mtime": 1783921561.615024,
+    "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-fix-visual-consistency-404/design.md": {
+    "mtime": 1783921561.6160288,
     "ast_hash": "5c1f8b0d4c6f5cd6431763748ba5e28d",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-visual-consistency-404/proposal.md": {
-    "mtime": 1783915435.317213,
+  "openspec/changes/archive/2026-07-13-fix-visual-consistency-404/proposal.md": {
+    "mtime": 1783921561.6170218,
     "ast_hash": "4460bf58cf6d589fa4bd102aaa427c7e",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-visual-consistency-404/specs/eyebrow-color-consistency/spec.md": {
-    "mtime": 1783915469.0121248,
+  "openspec/changes/archive/2026-07-13-fix-visual-consistency-404/specs/eyebrow-color-consistency/spec.md": {
+    "mtime": 1783921561.6170218,
     "ast_hash": "83f1b3eed812cd95d4d3b2eacf1356c1",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-visual-consistency-404/specs/notfound-page-typography/spec.md": {
-    "mtime": 1783915461.738032,
+  "openspec/changes/archive/2026-07-13-fix-visual-consistency-404/specs/notfound-page-typography/spec.md": {
+    "mtime": 1783921561.6185324,
     "ast_hash": "f1239440f7833aa20ce07ebb410246d9",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-visual-consistency-404/tasks.md": {
-    "mtime": 1783915476.3161616,
-    "ast_hash": "590083a9535f956974c59ee42bf67850",
+  "openspec/changes/archive/2026-07-13-fix-visual-consistency-404/tasks.md": {
+    "mtime": 1783921818.0246067,
+    "ast_hash": "2740a502396cf3513e20277fb2bc2eef",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-visual-consistency-en-fotos/.openspec.yaml": {
-    "mtime": 1783914787.2647443,
+  "openspec/changes/archive/2026-07-13-fix-visual-consistency-en-fotos/.openspec.yaml": {
+    "mtime": 1783921473.4452772,
     "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-visual-consistency-en-fotos/design.md": {
-    "mtime": 1783914830.0274403,
+  "openspec/changes/archive/2026-07-13-fix-visual-consistency-en-fotos/design.md": {
+    "mtime": 1783921473.4452772,
     "ast_hash": "598e5a0d4871498c35555a4e7e73dedd",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-visual-consistency-en-fotos/proposal.md": {
-    "mtime": 1783914808.0517113,
+  "openspec/changes/archive/2026-07-13-fix-visual-consistency-en-fotos/proposal.md": {
+    "mtime": 1783921473.446283,
     "ast_hash": "8de16c4b399382617aaac6947c3856bb",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-visual-consistency-en-fotos/specs/photos-line-visual-identity/spec.md": {
-    "mtime": 1783914841.35519,
+  "openspec/changes/archive/2026-07-13-fix-visual-consistency-en-fotos/specs/photos-line-visual-identity/spec.md": {
+    "mtime": 1783921473.446283,
     "ast_hash": "f05f7cc572fee8800ff02a9181076cac",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-visual-consistency-en-fotos/tasks.md": {
-    "mtime": 1783914852.3841803,
-    "ast_hash": "f40fbda80784cea537f944c826e75345",
+  "openspec/changes/archive/2026-07-13-fix-visual-consistency-en-fotos/tasks.md": {
+    "mtime": 1783921775.9271574,
+    "ast_hash": "64329f9804d45051d518c83147475fc1",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-visual-consistency-home/.openspec.yaml": {
-    "mtime": 1783899463.9574392,
+  "openspec/changes/archive/2026-07-13-fix-visual-consistency-home/.openspec.yaml": {
+    "mtime": 1783921473.4472835,
     "ast_hash": "be083c7982e1be250fd7f9023d23ad62",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-visual-consistency-home/design.md": {
-    "mtime": 1783916911.162469,
+  "openspec/changes/archive/2026-07-13-fix-visual-consistency-home/design.md": {
+    "mtime": 1783921473.4472835,
     "ast_hash": "11ff4314cff17f51df4e913a946015c3",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-visual-consistency-home/proposal.md": {
-    "mtime": 1783900064.6940804,
+  "openspec/changes/archive/2026-07-13-fix-visual-consistency-home/proposal.md": {
+    "mtime": 1783921473.4472835,
     "ast_hash": "17f575a32b36b55a325e3a271431cca6",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-visual-consistency-home/specs/eyebrow-color-consistency/spec.md": {
-    "mtime": 1783913429.5934415,
+  "openspec/changes/archive/2026-07-13-fix-visual-consistency-home/specs/eyebrow-color-consistency/spec.md": {
+    "mtime": 1783921473.448283,
     "ast_hash": "cf719844938beec7602cf6f50f3518bb",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-visual-consistency-home/specs/home-cta-visual-treatment/spec.md": {
-    "mtime": 1783913422.020312,
+  "openspec/changes/archive/2026-07-13-fix-visual-consistency-home/specs/home-cta-visual-treatment/spec.md": {
+    "mtime": 1783921473.4487875,
     "ast_hash": "437b55edf077c32d6e0955d807d092af",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-visual-consistency-home/specs/technical-docs-accuracy/spec.md": {
-    "mtime": 1783913437.4272976,
+  "openspec/changes/archive/2026-07-13-fix-visual-consistency-home/specs/technical-docs-accuracy/spec.md": {
+    "mtime": 1783921473.4487875,
     "ast_hash": "7bb9a0822457e9b11c5458dedd8561d3",
     "semantic_hash": ""
   },
-  "openspec/changes/fix-visual-consistency-home/tasks.md": {
-    "mtime": 1783916948.350038,
-    "ast_hash": "4dc2ff311121acab171534c1d78441da",
+  "openspec/changes/archive/2026-07-13-fix-visual-consistency-home/tasks.md": {
+    "mtime": 1783921684.1519701,
+    "ast_hash": "12afad669d14661357d41eef4436127c",
+    "semantic_hash": ""
+  },
+  "openspec/specs/eyebrow-color-consistency/spec.md": {
+    "mtime": 1783921846.7149029,
+    "ast_hash": "cdd914f0d95d00f33ab3bf8af562f8fa",
+    "semantic_hash": ""
+  },
+  "openspec/specs/home-cta-visual-treatment/spec.md": {
+    "mtime": 1783921713.2892797,
+    "ast_hash": "c4a1bc0b71b208f04eab1fc02424086d",
+    "semantic_hash": ""
+  },
+  "openspec/specs/notfound-page-typography/spec.md": {
+    "mtime": 1783921829.5240395,
+    "ast_hash": "98e048d2664bd63d74edc9bc33bfa3e2",
+    "semantic_hash": ""
+  },
+  "openspec/specs/photos-line-visual-identity/spec.md": {
+    "mtime": 1783921791.7150936,
+    "ast_hash": "23bd8ac3a61d51426f521cd30d274799",
     "semantic_hash": ""
   }
 }
