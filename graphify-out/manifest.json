@@ -915,7 +915,7 @@
     "semantic_hash": ""
   },
   "DESIGN.md": {
-    "mtime": 1783704246.7319167,
+    "mtime": 1783918612.8882034,
     "ast_hash": "2bcf31c87883e9686ac05bd63d253341",
     "semantic_hash": ""
   },
@@ -1342,6 +1342,71 @@
   "openspec/changes/archive/2026-07-12-add-srcset-en-fotos/tasks.md": {
     "mtime": 1783871811.0522034,
     "ast_hash": "08f65263b213d13a9eea399db2f42a36",
+    "semantic_hash": ""
+  },
+  ".impeccable/critique/2026-07-12T23-32-39Z__404-html.md": {
+    "mtime": 1783899159.974569,
+    "ast_hash": "4fd26f20b187bf5d4327a359bdcbb15d",
+    "semantic_hash": ""
+  },
+  ".impeccable/critique/2026-07-12T23-32-39Z__en-fotos-index-html.md": {
+    "mtime": 1783899159.9035273,
+    "ast_hash": "06f3c72eb0ed9ba96ee63ef29b983463",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-visual-consistency-404/.openspec.yaml": {
+    "mtime": 1783915409.8136919,
+    "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-visual-consistency-404/design.md": {
+    "mtime": 1783915455.0749576,
+    "ast_hash": "5c1f8b0d4c6f5cd6431763748ba5e28d",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-visual-consistency-404/proposal.md": {
+    "mtime": 1783915435.317213,
+    "ast_hash": "4460bf58cf6d589fa4bd102aaa427c7e",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-visual-consistency-404/specs/eyebrow-color-consistency/spec.md": {
+    "mtime": 1783915469.0121248,
+    "ast_hash": "83f1b3eed812cd95d4d3b2eacf1356c1",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-visual-consistency-404/specs/notfound-page-typography/spec.md": {
+    "mtime": 1783915461.738032,
+    "ast_hash": "f1239440f7833aa20ce07ebb410246d9",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-visual-consistency-404/tasks.md": {
+    "mtime": 1783915476.3161616,
+    "ast_hash": "590083a9535f956974c59ee42bf67850",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-visual-consistency-en-fotos/.openspec.yaml": {
+    "mtime": 1783914787.2647443,
+    "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-visual-consistency-en-fotos/design.md": {
+    "mtime": 1783914830.0274403,
+    "ast_hash": "598e5a0d4871498c35555a4e7e73dedd",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-visual-consistency-en-fotos/proposal.md": {
+    "mtime": 1783914808.0517113,
+    "ast_hash": "8de16c4b399382617aaac6947c3856bb",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-visual-consistency-en-fotos/specs/photos-line-visual-identity/spec.md": {
+    "mtime": 1783914841.35519,
+    "ast_hash": "f05f7cc572fee8800ff02a9181076cac",
+    "semantic_hash": ""
+  },
+  "openspec/changes/fix-visual-consistency-en-fotos/tasks.md": {
+    "mtime": 1783914852.3841803,
+    "ast_hash": "f40fbda80784cea537f944c826e75345",
     "semantic_hash": ""
   }
 }
