@@ -5,10 +5,10 @@ TBD - created by syncing change unify-place-card-radius. Update Purpose after ar
 ## Requirements
 
 ### Requirement: Las place-cards usan un radio de esquina consistente con las demás tarjetas del sitio
-Las tarjetas de la sección "Tres formas de vivir Ensenada" (`.place-card`) SHALL tener esquinas redondeadas (no `border-radius: 0`), con un valor consistente con las demás tarjetas del sitio (`.fragata-hero`, `.video-panel`, `.culture-slide`).
+Las tarjetas de la sección "Identidad" (`#recorrido`) (`.place-card`) SHALL tener esquinas redondeadas (no `border-radius: 0`), con un valor consistente con las demás tarjetas del sitio (`.fragata-hero`, `.video-panel`, `.culture-slide`).
 
 #### Scenario: Renderizado de las place-cards
-- **WHEN** se carga la página de inicio y se llega a la sección "Tres formas de vivir Ensenada"
+- **WHEN** se carga la página de inicio y se llega a la sección "Identidad" (`#recorrido`)
 - **THEN** las 3 place-cards (El Dique, Ensenada Centro, Punta Lara) tienen esquinas redondeadas de 18px, no esquinas filosas
 
 #### Scenario: La imagen de portada respeta la esquina redondeada

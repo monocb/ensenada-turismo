@@ -4,13 +4,13 @@ TBD - created by syncing change make-fragata-reel-keyboard-accessible. Update Pu
 
 ## Requirements
 
-### Requirement: Las fotos del carrete de la Fragata son operables por teclado
-Cada imagen dentro de `.fragata-reel` SHALL ser alcanzable con la tecla Tab y SHALL abrir el lightbox al presionar Enter o Espacio, igual que con un clic de mouse.
+### Requirement: Las fotos de fondo de la Fragata son operables por teclado
+Cada imagen dentro de `.fragata-gallery` (`.fragata-hero-slide`) SHALL ser alcanzable con la tecla Tab y SHALL abrir el lightbox al presionar Enter o Espacio, igual que con un clic de mouse.
 
-#### Scenario: Navegar y abrir una foto del carrete de la Fragata por teclado
-- **WHEN** un usuario navega con Tab hasta una imagen dentro de `.fragata-reel` y presiona Enter o Espacio
+#### Scenario: Navegar y abrir una foto de fondo de la Fragata por teclado
+- **WHEN** un usuario navega con Tab hasta una imagen dentro de `.fragata-gallery` y presiona Enter o Espacio
 - **THEN** el lightbox se abre mostrando esa imagen, igual que al hacer clic
 
 #### Scenario: El foco es visible
-- **WHEN** una imagen de `.fragata-reel` recibe foco de teclado
+- **WHEN** una imagen de `.fragata-gallery` recibe foco de teclado
 - **THEN** se muestra un anillo de foco visible alrededor de la imagen

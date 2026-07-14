@@ -1,20 +1,12 @@
 const header = document.querySelector("[data-header]");
 const menu = document.querySelector("[data-menu]");
 const menuButton = document.querySelector("[data-menu-button]");
-const carousel = document.querySelector("[data-carousel]");
-const carouselPrev = document.querySelector("[data-carousel-prev]");
-const carouselNext = document.querySelector("[data-carousel-next]");
-const reel = document.querySelector("[data-reel]");
-const reelPrev = document.querySelector("[data-reel-prev]");
-const reelNext = document.querySelector("[data-reel-next]");
 const lightbox = document.querySelector("[data-lightbox]");
-const lightboxImage = document.querySelector("[data-lightbox-image]");
-const lightboxClose = document.querySelector("[data-lightbox-close]");
-const lightboxPrev = document.querySelector("[data-lightbox-prev]");
-const lightboxNext = document.querySelector("[data-lightbox-next]");
-const lightboxTitle = document.querySelector("[data-lightbox-title]");
-const lightboxLocation = document.querySelector("[data-lightbox-location]");
-const lightboxDescription = document.querySelector("[data-lightbox-description]");
+const lightboxImage = lightbox?.querySelector("[data-lightbox-image]");
+const lightboxClose = lightbox?.querySelector("[data-lightbox-close]");
+const lightboxPrev = lightbox?.querySelector("[data-lightbox-prev]");
+const lightboxNext = lightbox?.querySelector("[data-lightbox-next]");
+const lightboxDownload = lightbox?.querySelector("[data-lightbox-download]");
 const placeCards = document.querySelectorAll(".place-card");
 const placeTriggers = document.querySelectorAll("[data-place-open]");
 const placeGalleryImages = document.querySelectorAll(".place-photo-grid img");
@@ -28,14 +20,12 @@ const placeModalReview = document.querySelector("[data-place-modal-review]");
 const placeModalCloseButtons = document.querySelectorAll("[data-place-modal-close]");
 const photoExhibitImages = document.querySelectorAll(".photo-story-card img");
 const photoReelSections = document.querySelectorAll("[data-photo-reel-section]");
-const socialStrip = document.querySelector(".social-strip");
-const hero = document.querySelector(".hero");
 const pageHero = document.querySelector(".hero, .photos-page-hero");
 const revealTargets = document.querySelectorAll(
-  ".brand-line, .intro-gallery > *, .photo-category, .photo-story-card, .photos-reel-section, .fragata-reel figure, .place-card, .culture-slide, .heritage-copy, .video-panel"
+  ".brand-line, .intro-gallery > *, .photo-category, .photo-story-card, .photos-reel-section, .place-card, .heritage-copy, .video-panel"
 );
 const motionPhotos = document.querySelectorAll(
-  ".hero-image, .brand-line img, .intro-gallery img, .photo-exhibit-hero img, .photo-story-card img, .photos-page-hero img, .fragata-hero img, .fragata-reel img, .place-media img, .place-photo-grid img, .culture-slide img"
+  ".hero-image, .brand-line img, .intro-gallery img, .photo-exhibit-hero img, .photo-story-card img, .photos-page-hero img, .place-media img, .place-photo-grid img"
 );
 let activeLightboxImages = [];
 let activeLightboxIndex = 0;
@@ -66,10 +56,6 @@ function refreshHeader() {
     }
   }
 
-  const heroExitPoint = hero
-    ? Math.max(280, hero.offsetHeight - (header?.offsetHeight || 0) - 44)
-    : 420;
-  socialStrip?.classList.toggle("is-leaving", currentScrollY > heroExitPoint);
   lastHeaderScrollY = currentScrollY;
 }
 
@@ -153,32 +139,6 @@ menu?.querySelectorAll("a").forEach((link) => {
   });
 });
 
-function moveCarousel(direction) {
-  if (!carousel) return;
-  const firstSlide = carousel.querySelector(":scope > *");
-  const gap = parseFloat(window.getComputedStyle(carousel).columnGap) || 0;
-  const distance = firstSlide
-    ? firstSlide.getBoundingClientRect().width + gap
-    : carousel.clientWidth * 0.86;
-  carousel.scrollBy({ left: distance * direction, behavior: "smooth" });
-}
-
-carouselPrev?.addEventListener("click", () => moveCarousel(-1));
-carouselNext?.addEventListener("click", () => moveCarousel(1));
-
-function moveReel(direction) {
-  if (!reel) return;
-  const firstSlide = reel.querySelector(":scope > *");
-  const gap = parseFloat(window.getComputedStyle(reel).columnGap) || 0;
-  const distance = firstSlide
-    ? firstSlide.getBoundingClientRect().width + gap
-    : reel.clientWidth * 0.86;
-  reel.scrollBy({ left: distance * direction, behavior: "smooth" });
-}
-
-reelPrev?.addEventListener("click", () => moveReel(-1));
-reelNext?.addEventListener("click", () => moveReel(1));
-
 function humanizeSlug(slug) {
   return slug
     .split("-")
@@ -194,7 +154,6 @@ function setupPhotoReelSection(section) {
   const count = Number(section.dataset.photoCount || 0);
   const title = section.dataset.photoTitle || "";
   const location = section.dataset.photoLocation || "";
-  const description = section.dataset.photoDescription || "";
 
   if (!photoReel || !folder || !prefix || !count) return;
 
@@ -216,14 +175,12 @@ function setupPhotoReelSection(section) {
       image.src = `${photoBase}.webp`;
       image.srcset = `${photoBase}-480w.webp 480w, ${photoBase}-900w.webp 900w`;
       image.sizes = "260px";
+      image.dataset.lightboxSrc = `${photoBase}.webp`;
       const altBase = title || humanizeSlug(prefix || folder);
       const includesLocation = location && altBase.toLowerCase().includes(location.toLowerCase());
       image.alt = location && !includesLocation
         ? `${altBase} en ${location}, foto ${number}`
         : `${altBase}, foto ${number}`;
-      if (title) image.dataset.lightboxTitle = title;
-      if (location) image.dataset.lightboxLocation = location;
-      if (description) image.dataset.lightboxDescription = description;
 
       button.appendChild(image);
       photoReel.appendChild(button);
@@ -267,27 +224,18 @@ function renderLightboxImage() {
   if (!lightbox || !lightboxImage) return;
   const image = activeLightboxImages[activeLightboxIndex];
   if (!image) return;
-  const title = image.dataset.lightboxTitle || "";
-  const location = image.dataset.lightboxLocation || "";
-  const description = image.dataset.lightboxDescription || "";
+  const downloadSrc = image.dataset.download || "";
 
-  lightboxImage.src = image.currentSrc || image.src;
+  lightboxImage.src = image.dataset.lightboxSrc || image.dataset.download || image.currentSrc || image.src;
   lightboxImage.alt = image.alt || "Imagen ampliada";
-  if (lightboxTitle) {
-    lightboxTitle.textContent = title;
-    lightboxTitle.hidden = !title;
-  }
-  if (lightboxLocation) {
-    lightboxLocation.textContent = location;
-    lightboxLocation.hidden = !location;
-  }
-  if (lightboxDescription) {
-    lightboxDescription.textContent = description;
-    lightboxDescription.hidden = !description;
-  }
-  const caption = lightbox.querySelector("[data-lightbox-caption]");
-  if (caption) {
-    caption.hidden = !(title || location || description);
+  if (lightboxDownload) {
+    if (downloadSrc) {
+      lightboxDownload.href = downloadSrc;
+      lightboxDownload.hidden = false;
+    } else {
+      lightboxDownload.removeAttribute("href");
+      lightboxDownload.hidden = true;
+    }
   }
 }
 
@@ -427,19 +375,6 @@ function trapPlaceModalFocus(event) {
 
 
 
-reel?.querySelectorAll("img").forEach((image) => {
-  image.addEventListener("click", () => {
-    const gallery = reel.querySelectorAll("img");
-    openLightbox(image, gallery);
-  });
-  image.addEventListener("keydown", (event) => {
-    if (event.key !== "Enter" && event.key !== " ") return;
-    event.preventDefault();
-    const gallery = reel.querySelectorAll("img");
-    openLightbox(image, gallery);
-  });
-});
-
 placeGalleryImages.forEach((image) => {
   image.addEventListener("click", () => {
     const gallery = image.closest(".place-photo-grid")?.querySelectorAll("img") || [image];
@@ -450,6 +385,19 @@ placeGalleryImages.forEach((image) => {
 photoExhibitImages.forEach((image) => {
   image.addEventListener("click", () => {
     const gallery = image.closest(".photo-category")?.querySelectorAll(".photo-story-card img") || [image];
+    openLightbox(image, gallery);
+  });
+});
+
+document.querySelectorAll(".fragata-hero-slide").forEach((image) => {
+  image.addEventListener("click", () => {
+    const gallery = image.closest(".fragata-gallery")?.querySelectorAll(".fragata-hero-slide") || [image];
+    openLightbox(image, gallery);
+  });
+  image.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    event.preventDefault();
+    const gallery = image.closest(".fragata-gallery")?.querySelectorAll(".fragata-hero-slide") || [image];
     openLightbox(image, gallery);
   });
 });

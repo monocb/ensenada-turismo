@@ -22,13 +22,6 @@ El botón de menú mobile SHALL mostrarse como un ícono estándar de tres líne
 - **WHEN** un usuario hace clic en el botón `[data-menu-button]` con `aria-expanded="false"`
 - **THEN** el atributo cambia a `aria-expanded="true"` y la navegación `[data-menu]` se vuelve visible
 
-### Requirement: La sección Cultura muestra sus fotos correctamente
-El carrusel de la sección "Cultura, música y encuentros" SHALL cargar y mostrar las 6 fotos que lo componen al navegarlo con los controles siguiente/anterior.
-
-#### Scenario: Navegar el carrusel de Cultura
-- **WHEN** un usuario hace clic repetidamente en `[data-carousel-next]` dentro de la sección `#cultura`
-- **THEN** cada foto del carrusel carga (`naturalWidth > 0`) y se muestra sin espacios en blanco ni imágenes rotas
-
 ### Requirement: El panel del menú mobile abierto es completamente opaco al contenido del hero
 Mientras el menú mobile está abierto (`.main-nav.is-open`), ningún contenido de la sección hero (título, tagline u otro elemento de `.hero-content`) SHALL pintarse visualmente por encima del panel del menú en la zona donde ambos se superponen.
 
