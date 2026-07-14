@@ -1,16 +1,16 @@
-# Graph Report - ensenada-turismo  (2026-07-13)
+# Graph Report - ensenada-turismo  (2026-07-14)
 
 ## Corpus Check
-- 281 files · ~312,794 words
+- 355 files · ~339,429 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 3789 nodes · 7225 edges · 303 communities (264 shown, 39 thin omitted)
+- 4278 nodes · 7640 edges · 371 communities (333 shown, 38 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 121 edges (avg confidence: 0.66)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6ac77910`
+- Built from commit: `3456c412`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -310,6 +310,74 @@
 - ADDED Requirements
 - Adaptation Strategies
 - tasks.md
+- Requirement: La tarjeta de Ensenada Centro muestra su nombre completo
+- Requirement: El heading de la sección #recorrido muestra "IDENTIDAD" con el tratamiento visual del eyebrow
+- cli
+- live-target.mjs
+- Requirement: El heading de la sección #recorrido muestra "IDENTIDAD" con el tratamiento visual del eyebrow
+- ADDED Requirements
+- Requirement: El lightbox muestra un botón de descarga cuando la foto activa lo soporta
+- Requirement: El footer muestra las redes sociales como badges con ícono y handle
+- tasks.md
+- proposal.md
+- proposal.md
+- Android platform
+- proposal.md
+- proposal.md
+- proposal.md
+- proposal.md
+- proposal.md
+- tasks.md
+- design.md
+- proposal.md
+- tasks.md
+- proposal.md
+- proposal.md
+- proposal.md
+- Requirement: El heading de la sección #recorrido muestra "IDENTIDAD" con el tratamiento visual del eyebrow
+- proposal.md
+- Requirement: Todas las páginas del sitio incluyen el footer con un link a la sección de redes sociales
+- tasks.md
+- proposal.md
+- proposal.md
+- design.md
+- design.md
+- Requirement: Las imágenes de Fragata sirven la resolución apropiada según su ancho renderizado
+- Requirement: Las imágenes de Fragata sirven la resolución apropiada según su ancho renderizado
+- design.md
+- design.md
+- design.md
+- tasks.md
+- Requirement: El título y la bajada de la sección de marca muestran el copy vigente
+- Requirement: El footer del sitio solo muestra el crédito de administración
+- design.md
+- tasks.md
+- design.md
+- tasks.md
+- Requirement: Las fotos de fondo de la Fragata son operables por teclado
+- design.md
+- Requirement: El bloque de texto de Fragata está centrado verticalmente y el crédito es texto plano
+- tasks.md
+- design.md
+- Requirement: Las fotos del carrete de la Fragata son operables por teclado
+- design.md
+- tasks.md
+- design.md
+- Requirement: Todos los eyebrows del home renderizan en el color dorado de marca
+- tasks.md
+- design.md
+- tasks.md
+- design.md
+- Requirement: El título y la bajada de la sección de marca muestran el copy vigente
+- Requirement: El lightbox muestra la foto a resolución completa sin importar la galería de origen
+- Requirement: El footer del sitio solo muestra el crédito de administración
+- spec.md
+- MODIFIED Requirements
+- REMOVED Requirements
+- ADDED Requirements
+- tasks.md
+- REMOVED Requirements
+- tasks.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `el()` - 55 edges
@@ -326,14 +394,14 @@
 ## Surprising Connections (you probably didn't know these)
 - `OpenSpec project config (openspec/config.yaml)` --shares_data_with--> `OpenSpec CLI (openspec command)`  [INFERRED]
   openspec/config.yaml → .claude/commands/opsx/apply.md
-- `latestCritique()` --indirect_call--> `v()`  [INFERRED]
-  .claude/skills/impeccable/scripts/context-signals.mjs → .claude/skills/impeccable/scripts/modern-screenshot.umd.js
 - `collectVisualContrastReasons()` --indirect_call--> `x()`  [INFERRED]
   .claude/skills/impeccable/scripts/detector/browser/injected/index.mjs → .claude/skills/impeccable/scripts/modern-screenshot.umd.js
 - `collectVisualContrastCandidates()` --indirect_call--> `el()`  [INFERRED]
   .claude/skills/impeccable/scripts/detector/browser/injected/index.mjs → .claude/skills/impeccable/scripts/live-browser.js
 - `textSamplePoints()` --indirect_call--> `x()`  [INFERRED]
   .claude/skills/impeccable/scripts/detector/browser/injected/index.mjs → .claude/skills/impeccable/scripts/modern-screenshot.umd.js
+- `serializeFindings()` --indirect_call--> `el()`  [INFERRED]
+  .claude/skills/impeccable/scripts/detector/browser/injected/index.mjs → .claude/skills/impeccable/scripts/live-browser.js
 
 ## Import Cycles
 - None detected.
@@ -341,11 +409,11 @@
 ## Hyperedges (group relationships)
 - **OpenSpec fluid workflow: opsx slash commands paired with their skills** — _claude_commands_opsx_apply_opsx_apply, _claude_commands_opsx_archive_opsx_archive, _claude_commands_opsx_explore_opsx_explore, _claude_commands_opsx_propose_opsx_propose, _claude_commands_opsx_sync_opsx_sync, _claude_skills_openspec_apply_change_skill_openspec_apply_change, _claude_skills_openspec_archive_change_skill_openspec_archive_change, _claude_skills_openspec_explore_skill_openspec_explore, _claude_skills_openspec_propose_skill_openspec_propose, _claude_skills_openspec_sync_specs_skill_openspec_sync_specs [INFERRED 0.85]
 
-## Communities (303 total, 39 thin omitted)
+## Communities (371 total, 38 thin omitted)
 
 ### Community 0 - "Interacciones de UI (script.js)"
-Cohesion: 0.04
-Nodes (36): activeLightboxImages, carousel, carouselNext, carouselPrev, header, hero, lightbox, lightboxClose (+28 more)
+Cohesion: 0.05
+Nodes (38): activeLightboxImages, getLightboxFocusable(), getPlaceModalFocusable(), header, humanizeSlug(), lightbox, lightboxClose, lightboxDownload (+30 more)
 
 ### Community 1 - "Flujo de trabajo OpenSpec"
 Cohesion: 0.14
@@ -365,19 +433,23 @@ Nodes (15): Accesibilidad, Pendiente de revisar, Resuelto (2026-07-10), Resuelto
 
 ### Community 7 - "Identidad y sistema visual de marca"
 Cohesion: 0.03
-Nodes (133): addManualContextText(), applyGlobalBarLabelState(), applySvelteComponentVariantStyle(), bindEditBadgeProxy(), bufferToBase64(), buildCollapsible(), buildColorModels(), buildListHtml() (+125 more)
+Nodes (134): addManualContextText(), applyGlobalBarLabelState(), applyPlaceholderSizingStyles(), applySvelteComponentVariantStyle(), averageRgb01(), bindEditBadgeProxy(), bufferToBase64(), buildCollapsible() (+126 more)
 
 ### Community 8 - "Fotografia y composicion de marca"
-Cohesion: 0.15
-Nodes (12): Purpose, Requirement: El menú mobile es funcional y usa un ícono de tres líneas, Requirement: El panel del menú mobile abierto es completamente opaco al contenido del hero, Requirement: El título del hero no se recorta en viewports mobile, Requirement: La sección Cultura muestra sus fotos correctamente, Requirements, Scenario: Abrir el menú mobile, Scenario: Menú abierto sobre el hero (+4 more)
+Cohesion: 0.18
+Nodes (10): Purpose, Requirement: El menú mobile es funcional y usa un ícono de tres líneas, Requirement: El panel del menú mobile abierto es completamente opaco al contenido del hero, Requirement: El título del hero no se recorta en viewports mobile, Requirements, Scenario: Abrir el menú mobile, Scenario: Menú abierto sobre el hero, Scenario: Verificación en múltiples anchos (+2 more)
 
 ### Community 9 - "Funciones del lightbox"
-Cohesion: 0.29
-Nodes (7): getLightboxFocusable(), humanizeSlug(), moveLightbox(), openLightbox(), renderLightboxImage(), setupPhotoReelSection(), trapLightboxFocus()
+Cohesion: 0.25
+Nodes (15): detectUrl(), runVisualContrastFallback(), serializeDesignSystemForBrowser(), captureVisualContrastCandidate(), compareScreenshotContrast(), sanitizeScreenshotClip(), createDetectorProfile(), extractFindingIds() (+7 more)
 
 ### Community 10 - "Funciones del modal de lugares"
-Cohesion: 0.67
-Nodes (3): getPlaceModalFocusable(), openPlaceModal(), trapPlaceModalFocus()
+Cohesion: 0.12
+Nodes (16): Purpose, Requirement: El hover/focus de un badge cambia el color de fondo de toda la sección, Requirement: El inicio tiene una sección de redes sociales como última sección, después de Fragata, Requirement: El link "Redes" del sitio lleva a la sección del inicio, Requirement: La sección ocupa toda la pantalla y su transición con Fragata es continua, Requirement: Los badges tienen un efecto de vidrio esmerilado real, Requirements, Scenario: Cargar el inicio (+8 more)
+
+### Community 11 - "Efecto de profundidad de fotos"
+Cohesion: 0.12
+Nodes (16): Avoid Redundant Copy, Confirmation Dialogs: Use Sparingly, Consistency: The Terminology Problem, Don't Blame the User, Empty States Are Opportunities, Error Message Templates, Error Messages: The Formula, Form Instructions (+8 more)
 
 ### Community 12 - "Stack y mapa de archivos"
 Cohesion: 0.50
@@ -460,8 +532,8 @@ Cohesion: 0.29
 Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
 
 ### Community 32 - "convenciones-js.md"
-Cohesion: 0.14
-Nodes (24): buildMissingTargetDirective(), buildResolvedContextDirective(), buildTargetSelectionDirective(), buildUpdateDirective(), cli(), compareSemver(), computeUpdateDirective(), DESIGN_NAMES (+16 more)
+Cohesion: 0.16
+Nodes (20): buildUpdateDirective(), compareSemver(), computeUpdateDirective(), DESIGN_NAMES, FALLBACK_DIRS, fetchLatestSkillVersion(), parseYamlFlowList(), PRODUCT_NAMES (+12 more)
 
 ### Community 33 - "tasks.md"
 Cohesion: 0.50
@@ -469,7 +541,7 @@ Nodes (3): 1. Escribir el documento de evaluación, 2. Enlazar desde el índice 
 
 ### Community 34 - "checks.mjs"
 Cohesion: 0.05
-Nodes (81): borderColorsFromStyle(), borderWidthsFromStyle(), checkBorders(), checkClippedOverflow(), checkCreamPalette(), checkElementBorders(), checkElementBordersDOM(), checkElementClippedOverflow() (+73 more)
+Nodes (95): borderColorsFromStyle(), borderWidthsFromStyle(), checkClippedOverflow(), checkColors(), checkCreamPalette(), checkElementAIPaletteDOM(), checkElementClippedOverflow(), checkElementClippedOverflowDOM() (+87 more)
 
 ### Community 35 - "svelte-component.mjs"
 Cohesion: 0.10
@@ -481,31 +553,31 @@ Nodes (68): addBrowserFindings(), addVisualContrastFindings(), addVisualContrast
 
 ### Community 37 - "setLiveState"
 Cohesion: 0.11
-Nodes (57): abortSvelteComponentInjection(), cancelEditing(), cancelEditingToPicking(), cancelInsertConfigure(), cleanup(), cleanupAcceptedSession(), clearAnnotations(), clearInsertPicking() (+49 more)
+Nodes (61): abortSvelteComponentInjection(), applyEditing(), buildInsertPlaceholderSnapshotFromDom(), buildLocatorForLeaf(), cancelEditing(), cancelEditingToPicking(), cancelInsertConfigure(), captureAndEmit() (+53 more)
 
 ### Community 38 - "design-system.mjs"
 Cohesion: 0.09
-Nodes (54): addColorObject(), addDesignColor(), addRoundedScale(), addRoundedToken(), addSidecarColors(), addSidecarRadii(), addTypographyFonts(), addTypographySizes() (+46 more)
+Nodes (50): addColorObject(), addDesignColor(), addRoundedScale(), addRoundedToken(), addSidecarColors(), addSidecarRadii(), addTypographyFonts(), addTypographySizes() (+42 more)
 
 ### Community 39 - "resumeSession"
-Cohesion: 0.06
-Nodes (71): applyConfigureBarChrome(), applyOriginalAttrsToSvelteAnchor(), applyPlaceholderDimensions(), applyPlaceholderSizingStyles(), applySavedSessionMeta(), buildConfirmedRow(), buildCyclingRow(), buildDots() (+63 more)
+Cohesion: 0.09
+Nodes (52): applyOriginalAttrsToSvelteAnchor(), applySavedSessionMeta(), clampVariantIndex(), clearHandled(), commitAcceptedSvelteComponentToDom(), elementMatchesOriginalMarkup(), ensureInsertPlaceholder(), enterRecoveryWaitingForAnchor() (+44 more)
 
 ### Community 40 - "live-commit-manual-edits.mjs"
-Cohesion: 0.11
-Nodes (48): allEntryIds(), argVal(), buildRepairBatch(), candidatesForEntry(), changedFilesSinceSnapshot(), collectApplyOwnedFiles(), collectRollbackFiles(), commitManualEdits() (+40 more)
+Cohesion: 0.10
+Nodes (50): allEntryIds(), argVal(), buildRepairBatch(), candidatesForEntry(), changedFilesSinceSnapshot(), clearAppliedEntries(), collectApplyOwnedFiles(), collectRollbackFiles() (+42 more)
 
 ### Community 41 - "modern-screenshot.umd.js"
 Cohesion: 0.09
-Nodes (53): resolveVarRefs(), ae(), be(), bt(), Ce(), Ct(), de(), dt() (+45 more)
+Nodes (53): latestCritique(), ae(), be(), bt(), Ce(), Ct(), de(), dt() (+45 more)
 
 ### Community 42 - "impeccable-config.mjs"
 Cohesion: 0.10
 Nodes (47): applyDetectionConfigSource(), clampByte(), cleanIgnoreValueDisplay(), cloneDetectionConfig(), cloneRawDetectionConfig(), colorIgnoreKey(), DEFAULT_DETECTION_CONFIG, DETECTOR_CONFIG_KEYS (+39 more)
 
 ### Community 43 - "el"
-Cohesion: 0.11
-Nodes (34): actionLabel(), bindConfigureCountPillTooltip(), bindConfigureInlineControlHover(), bindConfigureModifierPillHover(), buildConfigureActionControl(), buildConfigureCountControl(), buildConfigureRow(), buildConfigureSubmitButton() (+26 more)
+Cohesion: 0.08
+Nodes (49): actionLabel(), applyConfigureBarChrome(), bindConfigureCountPillTooltip(), bindConfigureInlineControlHover(), bindConfigureModifierPillHover(), buildConfigureActionControl(), buildConfigureCountControl(), buildConfigureRow() (+41 more)
 
 ### Community 44 - "css-cascade.mjs"
 Cohesion: 0.10
@@ -513,7 +585,7 @@ Nodes (29): applyStaticDeclaration(), buildBorderOverrideMap(), buildStaticStyle
 
 ### Community 45 - "detect-antipatterns-browser.js"
 Cohesion: 0.08
-Nodes (36): checkBorders(), checkClippedOverflow(), checkElementBorders(), checkElementBordersDOM(), checkElementClippedOverflow(), checkElementClippedOverflowDOM(), checkElementItalicSerif(), checkElementItalicSerifDOM() (+28 more)
+Nodes (34): checkBorders(), checkClippedOverflow(), checkElementBorders(), checkElementBordersDOM(), checkElementClippedOverflow(), checkElementClippedOverflowDOM(), checkElementItalicSerif(), checkElementItalicSerifDOM() (+26 more)
 
 ### Community 46 - "hook-lib.mjs"
 Cohesion: 0.07
@@ -521,7 +593,7 @@ Nodes (58): ACK_EXTS, bumpEditCount(), clampByte(), clampGroupedToBudget(), clam
 
 ### Community 47 - "showToast"
 Cohesion: 0.09
-Nodes (48): armPageChatForTyping(), attachSteerFocusDebug(), attachSteerFocusGuard(), clearSteerAwaitTimer(), clearSteerFocusRecoverTimer(), collapsePageChat(), expandPageChat(), finishVoiceSession() (+40 more)
+Nodes (48): armPageChatForTyping(), attachSteerFocusDebug(), clearSteerAwaitTimer(), collapsePageChat(), configureVoiceContext(), dismissToast(), expandPageChat(), finishVoiceSession() (+40 more)
 
 ### Community 48 - "hook-admin.mjs"
 Cohesion: 0.14
@@ -532,12 +604,12 @@ Cohesion: 0.10
 Nodes (36): addOpToManualApplyChunk(), APPLY_EVENT_HARD_TIMEOUT_MS, APPLY_EVENT_SOFT_DEADLINE_MS, buildManualApplyAgentAction(), clearManualApplyTransaction(), collectManualApplyFiles(), compactManualApplyBatch(), compactManualApplyCandidates() (+28 more)
 
 ### Community 50 - "detect-html.mjs"
-Cohesion: 0.16
-Nodes (19): checkPageTypography(), checkTypography(), resolveSerif(), firstOverusedGoogleFont(), checkStaticPageTypography(), checkPageTypography(), checkTypography(), resolveSerif() (+11 more)
+Cohesion: 0.13
+Nodes (20): checkPageTypography(), resolveSerif(), firstOverusedGoogleFont(), checkBorders(), checkElementBorders(), checkElementBordersDOM(), checkPageTypography(), checkTypography() (+12 more)
 
 ### Community 51 - "live-inject.mjs"
-Cohesion: 0.08
-Nodes (48): detectCsp(), INLINE_HEADER_SIGNALS, LAYOUT_EXTS, MONOREPO_HELPER_SIGNALS, NUXT_ROUTE_RULES_SIGNALS, NUXT_SECURITY_SIGNALS, SCAN_EXTS, SKIP_DIRS (+40 more)
+Cohesion: 0.07
+Nodes (50): detectCsp(), INLINE_HEADER_SIGNALS, LAYOUT_EXTS, MONOREPO_HELPER_SIGNALS, NUXT_ROUTE_RULES_SIGNALS, NUXT_SECURITY_SIGNALS, SCAN_EXTS, SKIP_DIRS (+42 more)
 
 ### Community 52 - "hook-before-edit.mjs"
 Cohesion: 0.10
@@ -552,8 +624,8 @@ Cohesion: 0.13
 Nodes (36): argVal(), buildInsertWrapperLines(), computeInsertLine(), INSERT_POSITIONS, insertCli(), isInsertPosition(), resolveElementMatch(), buildSvelteComponentCssAuthoring() (+28 more)
 
 ### Community 55 - "initGlobalBar"
-Cohesion: 0.11
-Nodes (34): barPaletteForTheme(), brandMarkSvg(), buildDesignHeader(), buildSteerProcessingDots(), designPanelCss(), detectPageTheme(), ensureAgentPollTooltip(), fetchAgentPollingStatus() (+26 more)
+Cohesion: 0.10
+Nodes (37): barPaletteForTheme(), brandMarkSvg(), buildDesignHeader(), cursorForInsertAxis(), designPanelCss(), detectPageTheme(), ensureAgentPollTooltip(), fetchAgentPollingStatus() (+29 more)
 
 ### Community 56 - "design-parser.mjs"
 Cohesion: 0.15
@@ -568,20 +640,20 @@ Cohesion: 0.06
 Nodes (32): Accent Color Application, Accessibility, Alpha Is A Design Smell, Assess Color Opportunity, Background & Surfaces, Balance & Refinement, Borders & Accents, Building Functional Palettes (+24 more)
 
 ### Community 59 - "UX Writing"
-Cohesion: 0.06
-Nodes (31): Apply Clarity Principles, Assess Current Copy, Avoid Redundant Copy, Button & CTA Text, Confirmation Dialogs, Confirmation Dialogs: Use Sparingly, Consistency: The Terminology Problem, Don't Blame the User (+23 more)
+Cohesion: 0.12
+Nodes (15): Apply Clarity Principles, Assess Current Copy, Button & CTA Text, Confirmation Dialogs, Empty States, Error Messages, Form Labels & Instructions, Help Text & Tooltips (+7 more)
 
 ### Community 60 - "live-copy-edit-agent.mjs"
 Cohesion: 0.14
 Nodes (31): applyMockWrites(), buildCopyEditBatchPrompt(), checkFrameworkSourceSyntax(), chooseCopyEditAgent(), COMMAND_AUTH_CACHE, commandAuthed(), commandExists(), compactBatchForPrompt() (+23 more)
 
 ### Community 61 - "detect-text.mjs"
-Cohesion: 0.10
-Nodes (41): mergeDesignSystemFindings(), detectUrl(), runVisualContrastFallback(), serializeDesignSystemForBrowser(), CSS_IN_JS_EXTENSIONS, detectText(), extFromFilePath(), extractCSSinJS() (+33 more)
+Cohesion: 0.09
+Nodes (38): mergeDesignSystemFindings(), CSS_IN_JS_EXTENSIONS, detectText(), extFromFilePath(), extractCSSinJS(), extractStyleBlocks(), isNeutralBorderColor(), PAGE_ANALYZER_EXTS (+30 more)
 
 ### Community 62 - "detect-antipatterns.mjs"
-Cohesion: 0.17
-Nodes (26): confirm(), detectCli(), formatFindings(), formatFindingSummary(), handleStdin(), printUsage(), createBrowserDetector(), getAP() (+18 more)
+Cohesion: 0.14
+Nodes (30): confirm(), detectCli(), formatFindings(), formatFindingSummary(), handleStdin(), printUsage(), loadDesignSystemForCwd(), parseFrontmatter() (+22 more)
 
 ### Community 63 - "parseRgb"
 Cohesion: 0.13
@@ -592,8 +664,8 @@ Cohesion: 0.16
 Nodes (26): analyzeSourceHint(), buildCandidatesForOp(), buildContextHintsByRef(), buildManualEditEvidence(), collectSearchFiles(), countOps(), decodeBasicHtml(), escapeRegExp() (+18 more)
 
 ### Community 65 - "documentRefForElement"
-Cohesion: 0.14
-Nodes (23): applyEditing(), buildInsertPlaceholderSnapshotFromDom(), buildLocatorForLeaf(), buildPickedAnchorSnapshot(), captureAndEmit(), checkpointPayload(), copyEditContainerContext(), copyEditLeafContext() (+15 more)
+Cohesion: 0.10
+Nodes (26): canRestoreManualEditElement(), copyEditContainerContext(), copyEditLeafContext(), cssIdent(), directMixedTextRestoreNodes(), documentRefClassSuffix(), documentRefForElement(), documentRefIdSuffix() (+18 more)
 
 ### Community 66 - "live-poll.mjs"
 Cohesion: 0.18
@@ -604,20 +676,20 @@ Cohesion: 0.08
 Nodes (24): Component translation rules, Narrative mapping, Pitfalls, Scan mode (approach C: auto-extract, then confirm descriptive language), Schema, Seed mode, Step 1: Confirm seed mode, Step 1: Find the design assets (+16 more)
 
 ### Community 68 - "handleManualEditActivity"
-Cohesion: 0.19
-Nodes (24): clearStoredManualApplyState(), fetchPendingCount(), handleManualEditActivity(), hidePendingApplyDock(), manualApplyLoadingText(), manualApplyStateKey(), manualEditEventForCurrentPage(), numberOrNull() (+16 more)
+Cohesion: 0.18
+Nodes (25): clearStoredManualApplyState(), fetchPendingCount(), handleManualEditActivity(), hidePendingApplyDock(), manualApplyLoadingText(), manualApplyStateKey(), manualEditEventForCurrentPage(), numberOrNull() (+17 more)
 
 ### Community 69 - "onboard.md"
 Cohesion: 0.09
 Nodes (22): Assess Onboarding Needs, Context Over Ceremony, Contextual Help, Design Onboarding Experiences, Documentation & Help, Empty State Design, Feature Discovery & Adoption, Guided Tours & Walkthroughs (+14 more)
 
 ### Community 70 - "manual-edit-routes.mjs"
-Cohesion: 0.18
-Nodes (21): clearAppliedEntries(), args, cwd, pageUrlFilter, remaining, compactManualLogText(), summarizeManualApplyFailures(), summarizeManualDiagnostics() (+13 more)
+Cohesion: 0.19
+Nodes (19): args, cwd, pageUrlFilter, remaining, compactManualLogText(), summarizeManualApplyFailures(), summarizeManualDiagnostics(), summarizeManualLogFile() (+11 more)
 
 ### Community 71 - "context.mjs"
-Cohesion: 0.15
-Nodes (15): contextSourcePath(), contextSourceStatus(), findMonorepoRoot(), firstExisting(), hasGitBoundary(), isCandidateProjectRoot(), isPathInside(), isPathInsideOrEqual() (+7 more)
+Cohesion: 0.14
+Nodes (17): contextSourcePath(), contextSourceStatus(), findMonorepoRoot(), firstExisting(), hasGitBoundary(), isPathInside(), isPathInsideOrEqual(), MONOREPO_FALLBACK_PROJECT_DIRS (+9 more)
 
 ### Community 72 - "runHook"
 Cohesion: 0.18
@@ -628,8 +700,8 @@ Cohesion: 0.14
 Nodes (13): Animation Performance, Assess Performance Issues, Core Web Vitals Optimization, Cumulative Layout Shift (CLS < 0.1), First Input Delay (FID < 100ms) / INP (< 200ms), Largest Contentful Paint (LCP < 2.5s), Loading Performance, Network Optimization (+5 more)
 
 ### Community 74 - "onAnnotDown"
-Cohesion: 0.18
-Nodes (18): beginEditPin(), buildAnnotationsForCapture(), buildPinElement(), cancelEditingPin(), finalizeEditingPin(), initAnnotOverlay(), localCoords(), materializePlaceholderWidth() (+10 more)
+Cohesion: 0.15
+Nodes (21): applyPlaceholderDimensions(), beginEditPin(), buildAnnotationsForCapture(), buildPinElement(), cancelEditingPin(), clampPlaceholderSize(), finalizeEditingPin(), initAnnotOverlay() (+13 more)
 
 ### Community 75 - "impeccable-paths.mjs"
 Cohesion: 0.20
@@ -652,20 +724,20 @@ Cohesion: 0.18
 Nodes (13): addBrowserFindings(), addVisualContrastFindings(), addVisualContrastResult(), clearOverlays(), detachOverlay(), disconnectLazyVisualContrastObserver(), postExtensionError(), rememberVisualContrastAnalysis() (+5 more)
 
 ### Community 80 - "context-signals.mjs"
-Cohesion: 0.20
-Nodes (16): extractPlatform(), extractRegister(), extractSectionValue(), loadContext(), safeRead(), cli(), COMMON_DEV_PORTS, devServerSignals() (+8 more)
+Cohesion: 0.24
+Nodes (13): extractPlatform(), extractRegister(), extractSectionValue(), cli(), COMMON_DEV_PORTS, devServerSignals(), gatherSignals(), gitSignals() (+5 more)
 
 ### Community 81 - "live.mjs"
-Cohesion: 0.19
-Nodes (15): resolveTargetSelection(), parseTargetOptions(), parseTargetPath(), TargetArgError, __dirname, ensureServerRunning(), globToRegex(), globToRegex() (+7 more)
+Cohesion: 0.35
+Nodes (10): loadContext(), safeRead(), __dirname, ensureServerRunning(), globToRegex(), liveCli(), missingLiveContext(), runScript() (+2 more)
 
 ### Community 82 - "Interaction Design"
 Cohesion: 0.12
 Nodes (17): CSS Anchor Positioning, Destructive Actions: Undo > Confirm, Dropdown & Overlay Positioning, Fixed Positioning Fallback, Focus Rings: Do Them Right, Form Design: The Non-Obvious, Gesture Discoverability, Interaction Design (+9 more)
 
 ### Community 84 - "adapt.md"
-Cohesion: 0.12
-Nodes (15): Assess Adaptation Challenge, Content Adaptation, Desktop Adaptation (Mobile → Desktop), Email Adaptation (Web → Email), Implement Adaptations, Layout Adaptation Techniques, Mobile Adaptation (Desktop → Mobile), Navigation Adaptation (+7 more)
+Cohesion: 0.08
+Nodes (25): Assess Adaptation Challenge, Breakpoints: Content-Driven, Content Adaptation, Desktop Adaptation (Mobile → Desktop), Detect Input Method, Not Just Screen Size, Email Adaptation (Web → Email), Implement Adaptations, Layout Adaptation Patterns (+17 more)
 
 ### Community 85 - "Handle `generate`"
 Cohesion: 0.12
@@ -680,20 +752,20 @@ Cohesion: 0.12
 Nodes (16): Accessibility Considerations, Anti-reflexes worth defending against, Classic Typography Principles, Fluid Type, Font Selection & Pairing, Modern Web Typography, Modular Scale & Hierarchy, OpenType Features (+8 more)
 
 ### Community 88 - "resolveContext"
-Cohesion: 0.15
-Nodes (16): browserDesignSystemConfig(), browserFindingsFromMap(), browserHasDirectText(), browserPrimaryFont(), browserRadiusTokens(), browserSampleText(), checkBrowserDesignSystemSources(), checkElementDesignSystemDOM() (+8 more)
+Cohesion: 0.13
+Nodes (19): browserColorsClose(), browserDesignSystemConfig(), browserFindingsFromMap(), browserHasDirectText(), browserPrimaryFont(), browserRadiusTokens(), browserSampleText(), checkBrowserDesignSystemSources() (+11 more)
 
 ### Community 89 - "analyzeVisualContrastCandidate"
 Cohesion: 0.18
 Nodes (10): Check for context, Ending Discovery, Guardrails, Handling Different Entry Points, OpenSpec Awareness, The Stance, What You Don't Have To Do, What You Might Do (+2 more)
 
 ### Community 90 - "checkElementDesignSystemDOM"
-Cohesion: 0.12
-Nodes (26): directChildDirs(), discoverRootsForPattern(), discoverTargetCandidates(), escapeRegExp(), expandSimplePattern(), findTargetExample(), hasFallbackWorkspaceChildren(), isExcludedByWorkspacePattern() (+18 more)
+Cohesion: 0.15
+Nodes (20): directChildDirs(), discoverRootsForPattern(), discoverTargetCandidates(), escapeRegExp(), expandSimplePattern(), findTargetExample(), hasFallbackWorkspaceChildren(), isCandidateProjectRoot() (+12 more)
 
 ### Community 91 - "checkQuality"
-Cohesion: 0.20
-Nodes (10): Breakpoints: Content-Driven, Detect Input Method, Not Just Screen Size, Layout Adaptation Patterns, Mobile-First: Write It Right, Picture Element for Art Direction, Responsive Design, Responsive Images: Get It Right, Safe Areas: Handle the Notch (+2 more)
+Cohesion: 0.12
+Nodes (15): ADDED Requirements, Requirement: El hover/focus de un badge cambia el color de fondo de toda la sección, Requirement: El inicio tiene una sección de redes sociales como última sección, después de Fragata, Requirement: El link "Redes" del sitio lleva a la sección del inicio, Requirement: La sección ocupa toda la pantalla y su transición con Fragata es continua, Requirement: Los badges tienen un efecto de vidrio esmerilado real, Scenario: Cargar el inicio, Scenario: Foco de teclado tiene el mismo efecto que el hover (+7 more)
 
 ### Community 92 - "Generate Report"
 Cohesion: 0.13
@@ -708,8 +780,8 @@ Cohesion: 0.20
 Nodes (15): blendRgba(), clampByte(), firstCssUrl(), getLayerValue(), loadVisualContrastImage(), parseObjectPosition(), parsePositionPair(), parsePositionToken() (+7 more)
 
 ### Community 95 - "parseAnyColor"
-Cohesion: 0.12
-Nodes (23): borderColorsFromStyle(), borderWidthsFromStyle(), browserColorsClose(), checkCreamPalette(), checkElementGptBorderShadow(), checkElementGptBorderShadowDOM(), checkGptThinBorderWideShadow(), checkQuality() (+15 more)
+Cohesion: 0.16
+Nodes (18): borderColorsFromStyle(), borderWidthsFromStyle(), checkElementGptBorderShadow(), checkElementGptBorderShadowDOM(), checkGptThinBorderWideShadow(), checkQuality(), colorsNearlyMatch(), cssColorAlpha() (+10 more)
 
 ### Community 96 - "typeset.md"
 Cohesion: 0.14
@@ -724,8 +796,8 @@ Cohesion: 0.14
 Nodes (13): Cleanup, Exit, Handle `accept`, Handle `discard`, Handle `manual_edit_apply`, Handle `prefetch`, Handle `steer`, Poll loop (+5 more)
 
 ### Community 99 - "optimize.md"
-Cohesion: 0.20
-Nodes (22): checkColors(), checkElementAIPaletteDOM(), checkElementColors(), checkElementColorsDOM(), checkElementGlow(), checkElementGlowDOM(), checkElementIconTile(), checkElementIconTileDOM() (+14 more)
+Cohesion: 0.13
+Nodes (14): Purpose, Requirement: El bloque de texto de Fragata separa título arriba y bajada/crédito abajo, alineados a la izquierda, Requirement: La sección Fragata muestra el copy actualizado, Requirement: La sección Fragata muestra un fondo rotativo de 8 fotos, clickeables sin perder la rotación, Requirements, Scenario: 8 imágenes de fondo presentes, Scenario: Alineación mutua, Scenario: Click abre la foto visible (+6 more)
 
 ### Community 100 - "Polish Systematically"
 Cohesion: 0.10
@@ -736,8 +808,8 @@ Cohesion: 0.22
 Nodes (8): Purpose, Requirement: El CI arranca en verde sobre el estado actual del repositorio, Requirement: El repositorio ejecuta chequeos automáticos de calidad en cada push, Requirement: Los hallazgos de accesibilidad descubiertos pero no corregidos quedan documentados, Requirements, Scenario: Primera corrida del CI, Scenario: Se desactiva una regla por un hallazgo real, Scenario: Se pushea un commit a main
 
 ### Community 102 - "bolder.md"
-Cohesion: 0.13
-Nodes (20): averageRgb01(), captureChromeNodes(), captureElementFromRenderedAncestor(), captureElementToBlob(), compileShader(), cssColorToRgb01(), dominantRgb01(), findBackdropAncestor() (+12 more)
+Cohesion: 0.14
+Nodes (13): MODIFIED Requirements, Requirement: El bloque de texto de Fragata separa título arriba y bajada/crédito abajo, alineados a la izquierda, Requirement: La sección Fragata muestra el copy actualizado, Requirement: La sección Fragata muestra un fondo rotativo de 8 fotos, clickeables sin perder la rotación, Scenario: 8 imágenes de fondo presentes, Scenario: Alineación mutua, Scenario: Click abre la foto visible, Scenario: CTA sin caja (+5 more)
 
 ### Community 103 - "overdrive.md"
 Cohesion: 0.10
@@ -848,8 +920,8 @@ Cohesion: 0.22
 Nodes (9): 1. The Wall of Options, 2. The Memory Bridge, 3. The Hidden Navigation, 4. The Jargon Barrier, 5. The Visual Noise Floor, 6. The Inconsistent Pattern, 7. The Multi-Task Demand, 8. The Context Switch (+1 more)
 
 ### Community 130 - "Technical Implementation"
-Cohesion: 0.25
-Nodes (8): Accessibility, CSS Animations, JavaScript Animation, Motion Materials, Perceived Performance, Performance, Technical Implementation, Timing & Easing
+Cohesion: 0.10
+Nodes (19): Accessibility, Assess Animation Opportunities, CSS Animations, Delight Moments, Entrance Animations, Feedback & Guidance, Implement Animations, JavaScript Animation (+11 more)
 
 ### Community 131 - "Persona-Based Design Testing"
 Cohesion: 0.25
@@ -884,8 +956,8 @@ Cohesion: 0.33
 Nodes (5): Capabilities, Impact, New Capabilities, What Changes, Why
 
 ### Community 139 - "Implement Animations"
-Cohesion: 0.25
-Nodes (8): Color & materials, Components & controls, iOS platform, Layout & structure, Motion, The iOS slop test, Touch targets, Typography
+Cohesion: 0.17
+Nodes (11): Purpose, Requirement: El lightbox muestra la foto a resolución completa sin importar la galería de origen, Requirement: El lightbox muestra un botón de descarga cuando la foto activa lo soporta, Requirement: El lightbox no muestra información superpuesta sobre la foto, Requirements, Scenario: Abrir cualquier foto del sitio en el lightbox, Scenario: Foto de Fragata, Scenario: Foto de Fragata con descarga disponible (+3 more)
 
 ### Community 140 - "Generate Report"
 Cohesion: 0.29
@@ -948,8 +1020,8 @@ Cohesion: 0.29
 Nodes (6): Context, Decisions, Goals / Non-Goals, Migration Plan, Open Questions, Risks / Trade-offs
 
 ### Community 156 - "Misión y objetivos"
-Cohesion: 0.09
-Nodes (19): Adaptation Strategies, Assess Adaptation Challenge, Implement & Verify, Orientation & foldables, Phone → Tablet (iPad / large screens), Platform → platform (iOS ↔ Android), Web → native (porting a website or web app), Android platform (+11 more)
+Cohesion: 0.06
+Nodes (29): Adaptation Strategies, Assess Adaptation Challenge, Implement & Verify, Orientation & foldables, Phone → Tablet (iPad / large screens), Platform → platform (iOS ↔ Android), Web → native (porting a website or web app), 1. Accessibility (VoiceOver / TalkBack) (+21 more)
 
 ### Community 157 - "linea-historica.md"
 Cohesion: 0.29
@@ -984,8 +1056,8 @@ Cohesion: 0.29
 Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
 
 ### Community 166 - "Improve Typography Systematically"
-Cohesion: 0.16
-Nodes (14): checkElementHeroEyebrow(), checkElementHeroEyebrowDOM(), checkElementQualityDOM(), checkHeroEyebrow(), checkRepeatedSectionKickers(), checkRepeatedSectionKickersDOM(), checkRepeatedSectionKickersFromDoc(), cleanInlineText() (+6 more)
+Cohesion: 0.15
+Nodes (15): checkElementHeroEyebrow(), checkElementHeroEyebrowDOM(), checkElementQualityDOM(), checkHeroEyebrow(), checkRepeatedSectionKickers(), checkRepeatedSectionKickersDOM(), checkRepeatedSectionKickersFromDoc(), cleanInlineText() (+7 more)
 
 ### Community 167 - "Requirement: Las place-cards usan un radio de esquina consistente con las demás tarjetas del sitio"
 Cohesion: 0.33
@@ -1033,7 +1105,7 @@ Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What C
 
 ### Community 178 - "Requirement: Las fotos del carrete de la Fragata son operables por teclado"
 Cohesion: 0.33
-Nodes (5): Purpose, Requirement: Las fotos del carrete de la Fragata son operables por teclado, Requirements, Scenario: El foco es visible, Scenario: Navegar y abrir una foto del carrete de la Fragata por teclado
+Nodes (5): Purpose, Requirement: Las fotos de fondo de la Fragata son operables por teclado, Requirements, Scenario: El foco es visible, Scenario: Navegar y abrir una foto de fondo de la Fragata por teclado
 
 ### Community 179 - "tasks.md"
 Cohesion: 0.40
@@ -1068,8 +1140,8 @@ Cohesion: 0.25
 Nodes (9): buildSelectorSegment(), generateSelector(), isElementHidden(), isLikelyHashedClass(), postSerializedFindings(), renderBrowserFindings(), scanResultMeta(), serializeFindings() (+1 more)
 
 ### Community 188 - "tasks.md"
-Cohesion: 0.09
-Nodes (21): Purpose, Requirement: Las fotos de las galerías dinámicas de en-fotos sirven la resolución apropiada según su ancho renderizado, Requirement: Las imágenes de Fragata y Cultura sirven la resolución apropiada según su ancho renderizado, Requirement: Las imágenes de place-cards, brand-line-grid y video-panel sirven la resolución apropiada según su ancho renderizado, Requirement: Las imágenes del hero sirven la resolución apropiada según el ancho del viewport, Requirements, Scenario: Brand-line-grid en desktop grande, Scenario: Carrete de Fragata en cualquier viewport (+13 more)
+Cohesion: 0.10
+Nodes (20): Purpose, Requirement: Las fotos de las galerías dinámicas de en-fotos sirven la resolución apropiada según su ancho renderizado, Requirement: Las imágenes de Fragata sirven la resolución apropiada según su ancho renderizado, Requirement: Las imágenes de place-cards, brand-line-grid y video-panel sirven la resolución apropiada según su ancho renderizado, Requirement: Las imágenes del hero sirven la resolución apropiada según el ancho del viewport, Requirements, Scenario: Brand-line-grid en desktop grande, Scenario: Foto angosta de parroquia-el-dique (+12 more)
 
 ### Community 189 - "tasks.md"
 Cohesion: 0.40
@@ -1136,16 +1208,16 @@ Cohesion: 0.33
 Nodes (5): Capabilities, Impact, New Capabilities, What Changes, Why
 
 ### Community 206 - "Implement Animations"
-Cohesion: 0.25
-Nodes (7): Extract Flow, Step 1: Discover the Design System, Step 2: Identify Patterns, Step 3: Plan Extraction, Step 4: Extract & Enrich, Step 5: Migrate, Step 6: Document
+Cohesion: 0.22
+Nodes (11): checkElementMotion(), checkElementMotionDOM(), checkLayout(), checkMotion(), checkPageLayout(), isCardLike(), isCardLikeDOM(), isCardLikeFromProps() (+3 more)
 
 ### Community 207 - "Patrón de galería: atributos `data-photo-*`"
 Cohesion: 0.50
 Nodes (4): Caso de uso: agregar una foto nueva a una galería existente, Caso de uso: agregar una galería nueva, Esquema, Patrón de galería: atributos `data-photo-*`
 
 ### Community 208 - "inline-ignores.mjs"
-Cohesion: 0.39
-Nodes (8): addRules(), getSet(), hasDirectives(), isInlineIgnored(), normalizeRule(), parseInlineIgnores(), parseRuleList(), setMatches()
+Cohesion: 0.27
+Nodes (10): attachSteerFocusGuard(), clearSteerFocusRecoverTimer(), isInlineEditActive(), isPageEditableActive(), isPageEditableElement(), notePagePointerDown(), pageHasHostTextSelection(), scheduleSteerFocusRecover() (+2 more)
 
 ### Community 209 - "isScreenReaderOnlyTextStyle"
 Cohesion: 0.25
@@ -1168,8 +1240,8 @@ Cohesion: 0.29
 Nodes (6): ADDED Requirements, Requirement: Las imágenes de Fragata y Cultura sirven la resolución apropiada según su ancho renderizado, Scenario: Carrete de Fragata en cualquier viewport, Scenario: Carrusel de Cultura en desktop, Scenario: Fragata hero en un viewport angosto, Scenario: Sin regresión visual
 
 ### Community 214 - "expandScanTargets"
-Cohesion: 0.33
-Nodes (6): 1. Accessibility (VoiceOver / TalkBack), 2. Performance, 3. Appearance & Theming, 4. Platform Conformance (CRITICAL), 5. Adaptivity, Diagnostic Scan
+Cohesion: 0.20
+Nodes (9): 1. Copy y tamaño del título, 2. HTML — restaurar interactividad en las 8 fotos de fondo, 3. CSS — pointer-events sincronizado con la rotación, 4. CSS — botón de descarga del lightbox, 5. JavaScript — wiring de click/teclado y descarga, 6. Markup del lightbox (2 páginas), 7. Verificación, 8. OpenSpec (+1 more)
 
 ### Community 215 - "4. Plan three variants: identity first, then mode, then axes"
 Cohesion: 0.33
@@ -1212,20 +1284,20 @@ Cohesion: 0.22
 Nodes (8): ADDED Requirements, Requirement: El texto del eyebrow de cada galería cumple contraste WCAG AA, Requirement: Las galerías de En Fotos no usan el patrón de side-stripe prohibido, Requirement: Las galerías de En Fotos usan los tokens de color de la línea "Fotos", Scenario: Acento decorativo de cada tarjeta de galería, Scenario: Estructura del acento de color, Scenario: Identidad de color reconocible, Scenario: Medición de contraste del eyebrow
 
 ### Community 225 - "proposal.md"
-Cohesion: 0.22
-Nodes (8): Purpose, Requirement: El eyebrow de la página 404 renderiza en el color dorado de marca, Requirement: Todos los eyebrows del home renderizan en el color dorado de marca, Requirements, Scenario: Color del eyebrow en la página 404, Scenario: Eyebrow de la sección Historia, Scenario: Independencia de reglas sitewide, Scenario: Reglas de párrafo con guard consistente
+Cohesion: 0.33
+Nodes (5): Purpose, Requirement: El eyebrow de la página 404 renderiza en el color dorado de marca, Requirements, Scenario: Color del eyebrow en la página 404, Scenario: Independencia de reglas sitewide
 
 ### Community 226 - "proposal.md"
-Cohesion: 0.29
-Nodes (7): Audit Health Score, Detailed Findings by Severity, Executive Summary, Generate Report, Patterns & Systemic Issues, Platform Conformance Verdict, Positive Findings
+Cohesion: 0.20
+Nodes (9): Purpose, Requirement: El heading de la sección Historia muestra "HISTORIA" en su color de marca, Requirements, Scenario: Barra decorativa alineada a la izquierda, Scenario: Color del heading de Historia, Scenario: "Fuerte Barragán" como subtítulo, Scenario: La sección conserva un heading semántico, Scenario: No queda ningún eyebrow en Historia (+1 more)
 
 ### Community 227 - "Sistema visual"
 Cohesion: 0.33
 Nodes (6): Aire, Color, ENSENADA (la palabra), Fotografía, Qué evitar, Sistema visual
 
 ### Community 228 - "design.md"
-Cohesion: 0.15
-Nodes (11): Constraints, Failure modes, Flow, /impeccable hooks, Intentional findings, Routing, Commands, Hooks (+3 more)
+Cohesion: 0.10
+Nodes (18): Extract Flow, Step 1: Discover the Design System, Step 2: Identify Patterns, Step 3: Plan Extraction, Step 4: Extract & Enrich, Step 5: Migrate, Step 6: Document, Constraints (+10 more)
 
 ### Community 229 - "Handle fallback"
 Cohesion: 0.40
@@ -1236,8 +1308,8 @@ Cohesion: 0.33
 Nodes (5): Context, Decisions, Goals / Non-Goals, Migration Plan, Risks / Trade-offs
 
 ### Community 231 - "proposal.md"
-Cohesion: 0.29
-Nodes (7): Delight Moments, Entrance Animations, Feedback & Guidance, Implement Animations, Micro-interactions, Navigation & Flow, State Transitions
+Cohesion: 0.22
+Nodes (8): ADDED Requirements, Requirement: La sección Fragata muestra el copy actualizado, Requirement: La sección Fragata muestra un fondo rotativo de 8 fotos sin controles interactivos, Scenario: 8 imágenes de fondo presentes, Scenario: Rotación vía CSS, sin JavaScript, Scenario: Sin controles ni clic, Scenario: Texto del kicker, Scenario: Texto del párrafo
 
 ### Community 232 - "tasks.md"
 Cohesion: 0.29
@@ -1264,8 +1336,8 @@ Cohesion: 0.33
 Nodes (5): Capabilities, Impact, Modified Capabilities, What Changes, Why
 
 ### Community 238 - "tasks.md"
-Cohesion: 0.29
-Nodes (6): Purpose, Requirement: Todas las páginas del sitio incluyen el footer con enlaces a redes sociales, Requirements, Scenario: Consistencia visual del footer entre páginas, Scenario: Visitante llega a En Fotos, Scenario: Visitante llega a una URL inexistente
+Cohesion: 0.25
+Nodes (7): Purpose, Requirement: Todas las páginas del sitio incluyen el mismo footer, Requirements, Scenario: Consistencia visual del footer entre páginas, Scenario: El footer no tiene enlaces directos a redes sociales ni nav de navegación, Scenario: Visitante llega a En Fotos, Scenario: Visitante llega a una URL inexistente
 
 ### Community 239 - "Requirement: Todos los eyebrows del home renderizan en el color dorado de marca"
 Cohesion: 0.33
@@ -1348,8 +1420,8 @@ Cohesion: 0.33
 Nodes (5): 1. Rama y preparación, 2. Semántica de diálogo en el HTML, 3. Foco atrapado y restaurado en script.js, 4. aria-label único por foto, 5. Verificación y entrega
 
 ### Community 298 - "proposal.md"
-Cohesion: 0.40
-Nodes (5): checkElementOversizedH1(), checkElementOversizedH1DOM(), checkElementQuality(), checkOversizedH1(), resolveFontSizePx()
+Cohesion: 0.22
+Nodes (8): ADDED Requirements, Requirement: El heading de la sección Historia muestra "HISTORIA" en su color de marca, Scenario: Barra decorativa alineada a la izquierda, Scenario: Color del heading de Historia, Scenario: "Fuerte Barragán" como subtítulo, Scenario: La sección conserva un heading semántico, Scenario: No queda ningún eyebrow en Historia, Scenario: Texto del heading de Historia
 
 ### Community 299 - "design.md"
 Cohesion: 0.50
@@ -1367,25 +1439,297 @@ Nodes (3): 1. Rama y preparación, 2. Corregir el color, 3. Verificación y entr
 Cohesion: 0.40
 Nodes (4): 1. Rama y preparación, 2. Agregar el footer a en-fotos, 3. Agregar el footer a 404, 4. Verificación y entrega
 
+### Community 303 - "Requirement: La tarjeta de Ensenada Centro muestra su nombre completo"
+Cohesion: 0.22
+Nodes (8): Purpose, Requirement: La tarjeta de Ensenada Centro muestra su nombre completo, Requirement: Los botones de acción de las place-cards quedan alineados en desktop, Requirements, Scenario: Alineación con título de una línea vs. dos líneas, Scenario: Layout mobile no afectado, Scenario: Texto visible de la tarjeta, Scenario: Título del modal coincide con la tarjeta
+
+### Community 304 - "Requirement: El heading de la sección #recorrido muestra "IDENTIDAD" con el tratamiento visual del eyebrow"
+Cohesion: 0.22
+Nodes (8): Purpose, Requirement: El heading de la sección #recorrido muestra "IDENTIDAD" con el tratamiento visual del eyebrow, Requirements, Scenario: Barra corta centrada arriba de "IDENTIDAD", Scenario: Color del heading de #recorrido, Scenario: La sección conserva un heading semántico, Scenario: No queda ningún eyebrow en #recorrido, Scenario: Texto del heading de #recorrido
+
+### Community 305 - "cli"
+Cohesion: 0.32
+Nodes (8): buildMissingTargetDirective(), buildResolvedContextDirective(), buildTargetSelectionDirective(), cli(), hasTargetOption(), pathExistsForTarget(), resolveTargetSelection(), shouldWarnMissingTarget()
+
+### Community 306 - "live-target.mjs"
+Cohesion: 0.36
+Nodes (5): parseCliOptions(), parseTargetOptions(), parseTargetPath(), TargetArgError, resolveLiveTarget()
+
+### Community 307 - "Requirement: El heading de la sección #recorrido muestra "IDENTIDAD" con el tratamiento visual del eyebrow"
+Cohesion: 0.25
+Nodes (7): MODIFIED Requirements, Requirement: El heading de la sección #recorrido muestra "IDENTIDAD" con el tratamiento visual del eyebrow, Scenario: Barra corta centrada arriba de "IDENTIDAD", Scenario: Color del heading de #recorrido, Scenario: La sección conserva un heading semántico, Scenario: No queda ningún eyebrow en #recorrido, Scenario: Texto del heading de #recorrido
+
+### Community 308 - "ADDED Requirements"
+Cohesion: 0.25
+Nodes (7): ADDED Requirements, Requirement: La tarjeta de Ensenada Centro muestra su nombre completo, Requirement: Los botones de acción de las place-cards quedan alineados en desktop, Scenario: Alineación con título de una línea vs. dos líneas, Scenario: Layout mobile no afectado, Scenario: Texto visible de la tarjeta, Scenario: Título del modal coincide con la tarjeta
+
+### Community 309 - "Requirement: El lightbox muestra un botón de descarga cuando la foto activa lo soporta"
+Cohesion: 0.25
+Nodes (7): ADDED Requirements, Requirement: El lightbox muestra un botón de descarga cuando la foto activa lo soporta, Requirement: El lightbox no muestra información superpuesta sobre la foto, Scenario: Abrir cualquier foto del sitio en el lightbox, Scenario: Foto de Fragata con descarga disponible, Scenario: Foto de otra galería sin descarga, Scenario: Navegar entre fotos con y sin descarga dentro del mismo lightbox
+
+### Community 310 - "Requirement: El footer muestra las redes sociales como badges con ícono y handle"
+Cohesion: 0.25
+Nodes (7): ADDED Requirements, Requirement: El footer muestra las redes sociales como badges con ícono y handle, Requirement: La cápsula de redes sociales bajo el hero ya no existe, Scenario: Badge con ícono y handle, Scenario: Hover del badge, Scenario: Sin cápsula bajo el hero, Scenario: Sin cápsula contenedora
+
+### Community 311 - "tasks.md"
+Cohesion: 0.25
+Nodes (7): 1. HTML — eliminar la cápsula del hero, 2. HTML — footer con badges (3 páginas), 3. CSS — nuevos badges del footer, 4. CSS — limpieza de `.social-strip`, 5. JavaScript, 6. Verificación, 7. OpenSpec
+
+### Community 312 - "proposal.md"
+Cohesion: 0.25
+Nodes (7): Capabilities, Impact, Modified Capabilities, New Capabilities, Removed Capabilities, What Changes, Why
+
+### Community 313 - "proposal.md"
+Cohesion: 0.25
+Nodes (7): Capabilities, Impact, Modified Capabilities, New Capabilities, Removed Capabilities, What Changes, Why
+
+### Community 314 - "Android platform"
+Cohesion: 0.29
+Nodes (7): Android platform, Color & theming, Components & motion, Layout & structure, The Android slop test, Touch targets, Typography
+
+### Community 315 - "proposal.md"
+Cohesion: 0.29
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
+
+### Community 316 - "proposal.md"
+Cohesion: 0.29
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
+
+### Community 317 - "proposal.md"
+Cohesion: 0.29
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
+
+### Community 318 - "proposal.md"
+Cohesion: 0.29
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
+
+### Community 319 - "proposal.md"
+Cohesion: 0.29
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
+
+### Community 320 - "tasks.md"
+Cohesion: 0.29
+Nodes (6): 1. HTML — sección Fragata, 2. CSS — agregar galería de fondo, 3. CSS — limpieza de lo eliminado, 4. JavaScript, 5. Verificación, 6. OpenSpec
+
+### Community 321 - "design.md"
+Cohesion: 0.29
+Nodes (6): Context, Decisions, Goals / Non-Goals, Migration Plan, Open Questions, Risks / Trade-offs
+
+### Community 322 - "proposal.md"
+Cohesion: 0.29
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
+
+### Community 323 - "tasks.md"
+Cohesion: 0.29
+Nodes (6): 1. HTML — sección y navegación, 2. CSS, 3. JavaScript, 4. Assets, 5. Verificación, 6. OpenSpec
+
+### Community 324 - "proposal.md"
+Cohesion: 0.29
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
+
+### Community 325 - "proposal.md"
+Cohesion: 0.29
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
+
+### Community 326 - "proposal.md"
+Cohesion: 0.29
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
+
+### Community 327 - "Requirement: El heading de la sección #recorrido muestra "IDENTIDAD" con el tratamiento visual del eyebrow"
+Cohesion: 0.29
+Nodes (6): ADDED Requirements, Requirement: El heading de la sección #recorrido muestra "IDENTIDAD" con el tratamiento visual del eyebrow, Scenario: Color del heading de #recorrido, Scenario: La sección conserva un heading semántico, Scenario: Texto del eyebrow de #recorrido, Scenario: Texto del heading de #recorrido
+
+### Community 328 - "proposal.md"
+Cohesion: 0.29
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
+
+### Community 329 - "Requirement: Todas las páginas del sitio incluyen el footer con un link a la sección de redes sociales"
+Cohesion: 0.29
+Nodes (6): MODIFIED Requirements, Requirement: Todas las páginas del sitio incluyen el footer con un link a la sección de redes sociales, Scenario: Consistencia visual del footer entre páginas, Scenario: El footer ya no tiene enlaces directos a redes sociales, Scenario: Visitante llega a En Fotos, Scenario: Visitante llega a una URL inexistente
+
+### Community 330 - "tasks.md"
+Cohesion: 0.29
+Nodes (6): 1. Sección nueva `#redes` en `index.html`, 2. Reversión de la página standalone `/redes/`, 3. CSS — vidrio esmerilado y cambio de color de fondo de sección, 4. Limpiar CSS huérfano en `styles.css`, 5. Verificación, 6. OpenSpec
+
+### Community 331 - "proposal.md"
+Cohesion: 0.29
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
+
+### Community 332 - "proposal.md"
+Cohesion: 0.29
+Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
+
+### Community 333 - "design.md"
+Cohesion: 0.33
+Nodes (5): Context, Decisions, Goals / Non-Goals, Migration Plan, Risks / Trade-offs
+
+### Community 334 - "design.md"
+Cohesion: 0.33
+Nodes (5): Context, Decisions, Goals / Non-Goals, Migration Plan, Risks / Trade-offs
+
+### Community 335 - "Requirement: Las imágenes de Fragata sirven la resolución apropiada según su ancho renderizado"
+Cohesion: 0.33
+Nodes (5): MODIFIED Requirements, Requirement: Las imágenes de Fragata sirven la resolución apropiada según su ancho renderizado, Scenario: Fragata hero en un viewport angosto, Scenario: Galería de fondo de Fragata en cualquier viewport, Scenario: Sin regresión visual
+
+### Community 336 - "Requirement: Las imágenes de Fragata sirven la resolución apropiada según su ancho renderizado"
+Cohesion: 0.33
+Nodes (5): MODIFIED Requirements, Requirement: Las imágenes de Fragata sirven la resolución apropiada según su ancho renderizado, Scenario: Carrete de Fragata en cualquier viewport, Scenario: Fragata hero en un viewport angosto, Scenario: Sin regresión visual
+
+### Community 337 - "design.md"
+Cohesion: 0.33
+Nodes (5): Context, Decisions, Goals / Non-Goals, Migration Plan, Risks / Trade-offs
+
+### Community 338 - "design.md"
+Cohesion: 0.33
+Nodes (5): Context, Decisions, Goals / Non-Goals, Migration Plan, Risks / Trade-offs
+
+### Community 339 - "design.md"
+Cohesion: 0.33
+Nodes (5): Context, Decisions, Goals / Non-Goals, Migration Plan, Risks / Trade-offs
+
+### Community 340 - "tasks.md"
+Cohesion: 0.33
+Nodes (5): 1. HTML — simplificar `.footer-brand` en las 3 páginas, 2. HTML — eliminar la columna `.footer-column` (heading + nav) en las 3 páginas, 3. CSS — limpiar y simplificar, 4. Verificación, 5. OpenSpec
+
+### Community 341 - "Requirement: El título y la bajada de la sección de marca muestran el copy vigente"
+Cohesion: 0.33
+Nodes (5): Purpose, Requirement: El título y la bajada de la sección de marca muestran el copy vigente, Requirements, Scenario: Bajada de la sección de marca, Scenario: Título de la sección de marca
+
+### Community 342 - "Requirement: El footer del sitio solo muestra el crédito de administración"
+Cohesion: 0.33
+Nodes (5): Purpose, Requirement: El footer del sitio solo muestra el crédito de administración, Requirements, Scenario: Inspeccionar el footer de cualquier página, Scenario: Sin nav de navegación en el footer
+
+### Community 343 - "design.md"
+Cohesion: 0.40
+Nodes (4): Context, Decisions, Goals / Non-Goals, Risks / Trade-offs
+
+### Community 344 - "tasks.md"
+Cohesion: 0.40
+Nodes (4): 1. HTML, 2. CSS, 3. Verificación, 4. OpenSpec
+
+### Community 345 - "design.md"
+Cohesion: 0.40
+Nodes (4): Context, Decisions, Goals / Non-Goals, Risks / Trade-offs
+
+### Community 346 - "tasks.md"
+Cohesion: 0.40
+Nodes (4): 1. HTML, 2. CSS, 3. Verificación, 4. OpenSpec
+
+### Community 347 - "Requirement: Las fotos de fondo de la Fragata son operables por teclado"
+Cohesion: 0.40
+Nodes (4): ADDED Requirements, Requirement: Las fotos de fondo de la Fragata son operables por teclado, Scenario: El foco es visible, Scenario: Navegar y abrir una foto de fondo de la Fragata por teclado
+
+### Community 348 - "design.md"
+Cohesion: 0.40
+Nodes (4): Context, Decisions, Goals / Non-Goals, Risks / Trade-offs
+
+### Community 349 - "Requirement: El bloque de texto de Fragata está centrado verticalmente y el crédito es texto plano"
+Cohesion: 0.40
+Nodes (4): ADDED Requirements, Requirement: El bloque de texto de Fragata está centrado verticalmente y el crédito es texto plano, Scenario: Centrado vertical del bloque de texto, Scenario: CTA sin caja
+
+### Community 350 - "tasks.md"
+Cohesion: 0.40
+Nodes (4): 1. CSS — centrado vertical, 2. CSS — CTA sin caja, 3. Verificación, 4. OpenSpec
+
+### Community 351 - "design.md"
+Cohesion: 0.40
+Nodes (4): Context, Decisions, Goals / Non-Goals, Risks / Trade-offs
+
+### Community 352 - "Requirement: Las fotos del carrete de la Fragata son operables por teclado"
+Cohesion: 0.40
+Nodes (4): REMOVED Requirements, Requirement: Las fotos del carrete de la Fragata son operables por teclado, Scenario: El foco es visible, Scenario: Navegar y abrir una foto del carrete de la Fragata por teclado
+
+### Community 353 - "design.md"
+Cohesion: 0.40
+Nodes (4): Context, Decisions, Goals / Non-Goals, Risks / Trade-offs
+
+### Community 354 - "tasks.md"
+Cohesion: 0.40
+Nodes (4): 1. CSS, 2. Assets, 3. Verificación, 4. OpenSpec
+
+### Community 355 - "design.md"
+Cohesion: 0.40
+Nodes (4): Context, Decisions, Goals / Non-Goals, Risks / Trade-offs
+
+### Community 356 - "Requirement: Todos los eyebrows del home renderizan en el color dorado de marca"
+Cohesion: 0.40
+Nodes (4): REMOVED Requirements, Requirement: Todos los eyebrows del home renderizan en el color dorado de marca, Scenario: Eyebrow de la sección Historia, Scenario: Reglas de párrafo con guard consistente
+
+### Community 357 - "tasks.md"
+Cohesion: 0.40
+Nodes (4): 1. HTML, 2. CSS, 3. Verificación, 4. OpenSpec
+
+### Community 358 - "design.md"
+Cohesion: 0.40
+Nodes (4): Context, Decisions, Goals / Non-Goals, Risks / Trade-offs
+
+### Community 359 - "tasks.md"
+Cohesion: 0.40
+Nodes (4): 1. HTML, 2. CSS, 3. Verificación, 4. OpenSpec
+
+### Community 360 - "design.md"
+Cohesion: 0.40
+Nodes (4): Context, Decisions, Goals / Non-Goals, Risks / Trade-offs
+
+### Community 361 - "Requirement: El título y la bajada de la sección de marca muestran el copy vigente"
+Cohesion: 0.40
+Nodes (4): ADDED Requirements, Requirement: El título y la bajada de la sección de marca muestran el copy vigente, Scenario: Bajada de la sección de marca, Scenario: Título de la sección de marca
+
+### Community 362 - "Requirement: El lightbox muestra la foto a resolución completa sin importar la galería de origen"
+Cohesion: 0.40
+Nodes (4): ADDED Requirements, Requirement: El lightbox muestra la foto a resolución completa sin importar la galería de origen, Scenario: Foto de Fragata, Scenario: Foto de un carrete de en-fotos
+
+### Community 363 - "Requirement: El footer del sitio solo muestra el crédito de administración"
+Cohesion: 0.40
+Nodes (4): ADDED Requirements, Requirement: El footer del sitio solo muestra el crédito de administración, Scenario: Inspeccionar el footer de cualquier página, Scenario: Sin nav de navegación en el footer
+
+### Community 364 - "spec.md"
+Cohesion: 0.40
+Nodes (4): Purpose, Requirement: La sección #recorrido no muestra ningún watermark decorativo de fondo, Requirements, Scenario: Sin watermark de velero
+
+### Community 365 - "MODIFIED Requirements"
+Cohesion: 0.50
+Nodes (3): MODIFIED Requirements, Requirement: Los contenedores con aria-label tienen un rol que lo soporta, Scenario: Un lector de pantalla anuncia el panel de video de Historia
+
+### Community 366 - "REMOVED Requirements"
+Cohesion: 0.50
+Nodes (3): REMOVED Requirements, Requirement: La sección Cultura muestra sus fotos correctamente, Scenario: Navegar el carrusel de Cultura
+
+### Community 367 - "ADDED Requirements"
+Cohesion: 0.50
+Nodes (3): ADDED Requirements, Requirement: La sección #recorrido no muestra ningún watermark decorativo de fondo, Scenario: Sin watermark de velero
+
+### Community 368 - "tasks.md"
+Cohesion: 0.50
+Nodes (3): 1. HTML, 2. Verificación, 3. OpenSpec
+
+### Community 369 - "REMOVED Requirements"
+Cohesion: 0.50
+Nodes (3): REMOVED Requirements, Requirement: El footer muestra las redes sociales como badges con ícono y handle, Requirement: La cápsula de redes sociales bajo el hero ya no existe
+
+### Community 370 - "tasks.md"
+Cohesion: 0.50
+Nodes (3): 1. JavaScript — resolución completa en el lightbox, 2. Verificación, 3. OpenSpec
+
 ## Knowledge Gaps
-- **1305 isolated node(s):** `Context`, `Goals / Non-Goals`, `Decisions`, `Risks / Trade-offs`, `Migration Plan` (+1300 more)
+- **1628 isolated node(s):** `Context`, `Goals / Non-Goals`, `Decisions`, `Risks / Trade-offs`, `Why` (+1623 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **39 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **38 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `el()` connect `detect-html.mjs` to `checks.mjs`, `index.mjs`, `setLiveState`, `design-system.mjs`, `Improve Typography Systematically`, `Identidad y sistema visual de marca`, `resumeSession`, `README.md`, `el`, `css-cascade.mjs`, `detect-antipatterns-browser.js`, `showToast`, `detect-text.mjs`, `initGlobalBar`, `resolveContext`, `acceptedDomAlreadyClean`, `parseRgb`, `parseAnyColor`?**
-  _High betweenness centrality (0.062) - this node is a cross-community bridge._
-- **Why does `v()` connect `modern-screenshot.umd.js` to `Identidad y sistema visual de marca`, `README.md`, `css-cascade.mjs`, `context-signals.mjs`, `design-parser.mjs`?**
-  _High betweenness centrality (0.038) - this node is a cross-community bridge._
-- **Why does `ACTIONS` connect `hook-admin.mjs` to `el`, `initGlobalBar`?**
+- **Why does `el()` connect `el` to `checks.mjs`, `index.mjs`, `setLiveState`, `design-system.mjs`, `Improve Typography Systematically`, `Identidad y sistema visual de marca`, `README.md`, `css-cascade.mjs`, `detect-antipatterns-browser.js`, `Implement Animations`, `showToast`, `detect-html.mjs`, `initGlobalBar`, `resolveContext`, `acceptedDomAlreadyClean`, `detect-text.mjs`, `parseRgb`?**
+  _High betweenness centrality (0.057) - this node is a cross-community bridge._
+- **Why does `v()` connect `modern-screenshot.umd.js` to `Improve Typography Systematically`, `Identidad y sistema visual de marca`, `README.md`, `css-cascade.mjs`, `design-parser.mjs`?**
   _High betweenness centrality (0.027) - this node is a cross-community bridge._
+- **Why does `normalizeSourceFallbackBlock()` connect `Identidad y sistema visual de marca` to `css-cascade.mjs`, `resumeSession`?**
+  _High betweenness centrality (0.024) - this node is a cross-community bridge._
 - **Are the 29 inferred relationships involving `el()` (e.g. with `browserFindingsFromMap()` and `collectVisualContrastCandidates()`) actually correct?**
   _`el()` has 29 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 7 inferred relationships involving `initGlobalBar()` (e.g. with `hideAgentPollTooltip()` and `onDetectMessage()`) actually correct?**
   _`initGlobalBar()` has 7 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `Context`, `Goals / Non-Goals`, `Decisions` to the rest of the system?**
-  _1314 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1637 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interacciones de UI (script.js)` be split into smaller, more focused modules?**
-  _Cohesion score 0.043478260869565216 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05217391304347826 - nodes in this community are weakly interconnected._

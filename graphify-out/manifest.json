@@ -1,7 +1,7 @@
 {
   "script.js": {
-    "mtime": 1783925729.4645495,
-    "ast_hash": "33e396fff10abcd5bd3d9f9f48b1082c",
+    "mtime": 1784002034.5218496,
+    "ast_hash": "eabfe4c05d49e275b28ac8782084577f",
     "semantic_hash": ""
   },
   ".claude/commands/opsx/apply.md": {
@@ -55,8 +55,8 @@
     "semantic_hash": "ca0a72a09ab4270d6868acc01dc9e6c9"
   },
   "404.html": {
-    "mtime": 1783923972.9859939,
-    "ast_hash": "12e9a6a83c471ae13b1b20bd0fa330f8",
+    "mtime": 1784011480.5886352,
+    "ast_hash": "9adc262d4c66cb0c39030807023b1d4d",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -120,13 +120,13 @@
     "semantic_hash": "0bfe316dedd6def3a27875dad4d981a6"
   },
   "en-fotos/index.html": {
-    "mtime": 1783925729.4288535,
-    "ast_hash": "b03c55cab9df45bcec69e4e98f9674be",
+    "mtime": 1784011462.279704,
+    "ast_hash": "404f3bdfe9fb0f68c7f74790836d8334",
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1783925729.4615488,
-    "ast_hash": "cdd5932b551d85493df164f9fb95eeae",
+    "mtime": 1784011442.8326373,
+    "ast_hash": "f9b16f597c6ac2208218676d0085c5d4",
     "semantic_hash": ""
   },
   "openspec/config.yaml": {
@@ -355,8 +355,8 @@
     "semantic_hash": ""
   },
   "openspec/specs/mobile-hero-layout/spec.md": {
-    "mtime": 1783715408.2411826,
-    "ast_hash": "dcdfa5a7f2e56c8e5bee8a39105ba455",
+    "mtime": 1783962997.1642785,
+    "ast_hash": "031953ffbdace6f271ee1e2ce8de4c56",
     "semantic_hash": ""
   },
   "docs/tecnico/evaluacion-generador-estatico.md": {
@@ -975,8 +975,8 @@
     "semantic_hash": ""
   },
   "openspec/specs/place-card-visual-consistency/spec.md": {
-    "mtime": 1783718486.8053067,
-    "ast_hash": "cd0f365c740ab96214512896f775b875",
+    "mtime": 1783966770.730367,
+    "ast_hash": "aef663449a7e28f8e477bb514e8adc04",
     "semantic_hash": ""
   },
   "openspec/changes/archive/2026-07-10-fix-css-conventions-doc-drift/.openspec.yaml": {
@@ -1065,8 +1065,8 @@
     "semantic_hash": ""
   },
   "openspec/specs/keyboard-accessible-galleries/spec.md": {
-    "mtime": 1783727697.1621182,
-    "ast_hash": "e4c49953060b358d58a6f6bd6930b607",
+    "mtime": 1783997792.5526044,
+    "ast_hash": "aa5f23e5e76d889b80bb3a7b0a281c3e",
     "semantic_hash": ""
   },
   "openspec/changes/archive/2026-07-10-complete-social-meta-tags/.openspec.yaml": {
@@ -1175,8 +1175,8 @@
     "semantic_hash": ""
   },
   "openspec/specs/responsive-hero-images/spec.md": {
-    "mtime": 1783871790.2898693,
-    "ast_hash": "54f32b09f7f1411ef6844338bb55e673",
+    "mtime": 1783983752.2164962,
+    "ast_hash": "cbdfdcebca5049544f953a0fa2491137",
     "semantic_hash": ""
   },
   "docs/tecnico/patron-galerias-data-attributes.md": {
@@ -1265,8 +1265,8 @@
     "semantic_hash": ""
   },
   "openspec/specs/aria-semantics-and-focus/spec.md": {
-    "mtime": 1783798758.19713,
-    "ast_hash": "9e1c97532a16ebd45e8cd89ce67d9a98",
+    "mtime": 1783983766.312074,
+    "ast_hash": "dc224fdddfb85490733b381f583c93c3",
     "semantic_hash": ""
   },
   "openspec/changes/archive/2026-07-12-add-srcset-fragata-cultura/.openspec.yaml": {
@@ -1450,8 +1450,8 @@
     "semantic_hash": ""
   },
   "openspec/specs/eyebrow-color-consistency/spec.md": {
-    "mtime": 1783921846.7149029,
-    "ast_hash": "cdd914f0d95d00f33ab3bf8af562f8fa",
+    "mtime": 1783978776.4199307,
+    "ast_hash": "1ddab918e520d8883db94dc7c8997d67",
     "semantic_hash": ""
   },
   "openspec/specs/home-cta-visual-treatment/spec.md": {
@@ -1495,8 +1495,8 @@
     "semantic_hash": ""
   },
   "openspec/specs/site-footer-coverage/spec.md": {
-    "mtime": 1783924001.033927,
-    "ast_hash": "b364fa8d78ee04ff9e72cf334fef6093",
+    "mtime": 1784011761.8118167,
+    "ast_hash": "eb21bdd55a53fff49ec36b5b933e3029",
     "semantic_hash": ""
   },
   "openspec/changes/archive/2026-07-13-fix-identidad-eyebrow-contrast/.openspec.yaml": {
@@ -1557,6 +1557,446 @@
   "openspec/specs/lightbox-accessible-dialog/spec.md": {
     "mtime": 1783925872.2813056,
     "ast_hash": "0b68c13a032e1e0f62347e7e41c7afd0",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-add-recorrido-heading-overline/.openspec.yaml": {
+    "mtime": 1783967009.2430546,
+    "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-add-recorrido-heading-overline/design.md": {
+    "mtime": 1783967056.5048797,
+    "ast_hash": "2f3fb594f6cb2082872eb975dcf6d937",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-add-recorrido-heading-overline/proposal.md": {
+    "mtime": 1783967028.5975482,
+    "ast_hash": "25245d51650cc362714009e2bbc051fd",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-add-recorrido-heading-overline/specs/recorrido-heading-treatment/spec.md": {
+    "mtime": 1783967091.64702,
+    "ast_hash": "24cfb040baaf2ca76ae4ede95a111fea",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-add-recorrido-heading-overline/tasks.md": {
+    "mtime": 1783967763.5404975,
+    "ast_hash": "dfb3c7da9af9c7195ee5fd86efa9a948",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-fix-place-card-copy-and-alignment/.openspec.yaml": {
+    "mtime": 1783968575.2700815,
+    "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-fix-place-card-copy-and-alignment/design.md": {
+    "mtime": 1783968630.9113576,
+    "ast_hash": "4c462e38c983668daeb9be6021629c5b",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-fix-place-card-copy-and-alignment/proposal.md": {
+    "mtime": 1783968595.3708677,
+    "ast_hash": "ab7ca5e944bd1862c9042dd348e7414e",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-fix-place-card-copy-and-alignment/specs/place-card-content-and-alignment/spec.md": {
+    "mtime": 1783968645.856639,
+    "ast_hash": "c2921aed391fed9eb18c2eac080f5eff",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-fix-place-card-copy-and-alignment/tasks.md": {
+    "mtime": 1783970381.2932522,
+    "ast_hash": "8fd1acf8701c8792c5f7eff914e7f30b",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-fragata-clickable-gallery-download/.openspec.yaml": {
+    "mtime": 1783987663.729507,
+    "ast_hash": "b1aba589403cf000109206d5081c0e1c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-fragata-clickable-gallery-download/design.md": {
+    "mtime": 1783996428.4781687,
+    "ast_hash": "1efd0ef67bb1784ee8071f7aec8e039f",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-fragata-clickable-gallery-download/proposal.md": {
+    "mtime": 1783996419.5139365,
+    "ast_hash": "b63805e5e2b51df70839fdc87ce1270e",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-fragata-clickable-gallery-download/specs/fragata-background-gallery/spec.md": {
+    "mtime": 1783997765.8336048,
+    "ast_hash": "22b7e9b0c092362ddaee093da73adb62",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-fragata-clickable-gallery-download/specs/keyboard-accessible-galleries/spec.md": {
+    "mtime": 1783987783.5572736,
+    "ast_hash": "6bc193538e629c8e936702a086f90d0e",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-fragata-clickable-gallery-download/specs/lightbox-image-download/spec.md": {
+    "mtime": 1783996460.5661962,
+    "ast_hash": "2c6fc3bdcafd08a7e701ca2c2a00f189",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-fragata-clickable-gallery-download/tasks.md": {
+    "mtime": 1783997833.971539,
+    "ast_hash": "506ff05607811b45c0a1a92c4d14bad1",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-fragata-hero-text-layout-polish/.openspec.yaml": {
+    "mtime": 1783983614.377585,
+    "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-fragata-hero-text-layout-polish/design.md": {
+    "mtime": 1783983858.9327078,
+    "ast_hash": "153f7be39d219037ea0d25dca09bcf8c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-fragata-hero-text-layout-polish/proposal.md": {
+    "mtime": 1783983627.5627546,
+    "ast_hash": "069ded4e3eef5ac98a0789d8d7fb905d",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-fragata-hero-text-layout-polish/specs/fragata-background-gallery/spec.md": {
+    "mtime": 1783983875.7382545,
+    "ast_hash": "d2127135ef7b34bbc489c775e012bd6a",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-fragata-hero-text-layout-polish/tasks.md": {
+    "mtime": 1783984090.2013614,
+    "ast_hash": "686a17dc6ca63f34e6496b0b8d568855",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-move-social-links-to-footer/.openspec.yaml": {
+    "mtime": 1783984652.034436,
+    "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-move-social-links-to-footer/design.md": {
+    "mtime": 1783984702.1227274,
+    "ast_hash": "513aa18bc06d3137ac41f71a16e81892",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-move-social-links-to-footer/proposal.md": {
+    "mtime": 1783984677.7966983,
+    "ast_hash": "7c4e8c4c55ded6aa21efb4979967cb6d",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-move-social-links-to-footer/specs/footer-social-badges/spec.md": {
+    "mtime": 1783984720.025136,
+    "ast_hash": "0aed1a18fa715485079b5ebbad6ef5fb",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-move-social-links-to-footer/tasks.md": {
+    "mtime": 1783987357.0525641,
+    "ast_hash": "d8e268cd39c023d587a9b26cdb85ad79",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-redesign-fragata-background-gallery/.openspec.yaml": {
+    "mtime": 1783980283.365411,
+    "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-redesign-fragata-background-gallery/design.md": {
+    "mtime": 1783980452.4908345,
+    "ast_hash": "29efff62ce8ca414ec30f850d94624ec",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-redesign-fragata-background-gallery/proposal.md": {
+    "mtime": 1783980373.9623728,
+    "ast_hash": "f687c3d16e4d5ece0ca01c9c814844c8",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-redesign-fragata-background-gallery/specs/aria-semantics-and-focus/spec.md": {
+    "mtime": 1783980492.1945217,
+    "ast_hash": "16f9a6723720f8229c4a4bd36cbeb16d",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-redesign-fragata-background-gallery/specs/fragata-background-gallery/spec.md": {
+    "mtime": 1783980471.4642825,
+    "ast_hash": "9ff986f73ae5113dddcc270a962bbb48",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-redesign-fragata-background-gallery/specs/keyboard-accessible-galleries/spec.md": {
+    "mtime": 1783980501.6007397,
+    "ast_hash": "c9662d30b3a1d068eb5a3de46a8a90aa",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-redesign-fragata-background-gallery/specs/responsive-hero-images/spec.md": {
+    "mtime": 1783980484.1480525,
+    "ast_hash": "383189b33e60d03419e2a154fe0bd912",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-redesign-fragata-background-gallery/tasks.md": {
+    "mtime": 1783983702.4587092,
+    "ast_hash": "8c366ed4d52ce5dde1482590831b8046",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-remove-culture-section/.openspec.yaml": {
+    "mtime": 1783961266.8531168,
+    "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-remove-culture-section/design.md": {
+    "mtime": 1783961640.9396067,
+    "ast_hash": "cc5edaeb42e3fb8563343d0efbc71ee8",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-remove-culture-section/proposal.md": {
+    "mtime": 1783961585.5981033,
+    "ast_hash": "3d7b625414f558a60219da24bde00510",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-remove-culture-section/specs/mobile-hero-layout/spec.md": {
+    "mtime": 1783961653.6173303,
+    "ast_hash": "5248c7a8635e719477e119252d56b901",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-remove-culture-section/specs/responsive-hero-images/spec.md": {
+    "mtime": 1783961662.2006278,
+    "ast_hash": "570d33b746b659d15b4055fda31f053c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-remove-culture-section/tasks.md": {
+    "mtime": 1783963313.953619,
+    "ast_hash": "5d9d8f437cb617e6ddda1a0c1ca0d95e",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-remove-recorrido-watermark/.openspec.yaml": {
+    "mtime": 1783970452.65429,
+    "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-remove-recorrido-watermark/design.md": {
+    "mtime": 1783970500.3135014,
+    "ast_hash": "c620fafd9f069812695807262b4f79cb",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-remove-recorrido-watermark/proposal.md": {
+    "mtime": 1783970473.4366393,
+    "ast_hash": "793cbc86948c3c2e48b6328dd6a63cdb",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-remove-recorrido-watermark/specs/recorrido-section-background/spec.md": {
+    "mtime": 1783970512.5927577,
+    "ast_hash": "1ac049128dee9b16ee708598e648c75d",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-remove-recorrido-watermark/tasks.md": {
+    "mtime": 1783971323.5002842,
+    "ast_hash": "f3a59671b6f898f0a6adc38336cd2893",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-restyle-historia-heading/.openspec.yaml": {
+    "mtime": 1783974780.247685,
+    "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-restyle-historia-heading/design.md": {
+    "mtime": 1783974820.088254,
+    "ast_hash": "4831eb9b82b7c02e48071bdc9f274354",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-restyle-historia-heading/proposal.md": {
+    "mtime": 1783974801.041456,
+    "ast_hash": "78e26cfde5c6e443e963bccfc7c0ea92",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-restyle-historia-heading/specs/eyebrow-color-consistency/spec.md": {
+    "mtime": 1783974848.4476538,
+    "ast_hash": "a46e8eb139e97a3c4ed2847b0d74d6fa",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-restyle-historia-heading/specs/historia-heading-treatment/spec.md": {
+    "mtime": 1783974837.8978064,
+    "ast_hash": "07844bb1aad9c8d92409498322f6c69b",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-restyle-historia-heading/tasks.md": {
+    "mtime": 1783978784.2907333,
+    "ast_hash": "8845e5f9f87733ae65643f9e0407698c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-restyle-recorrido-identidad-heading/.openspec.yaml": {
+    "mtime": 1783966082.4356434,
+    "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-restyle-recorrido-identidad-heading/design.md": {
+    "mtime": 1783966152.644144,
+    "ast_hash": "567bc8632a7c6fe7fe70d115c7da5006",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-restyle-recorrido-identidad-heading/proposal.md": {
+    "mtime": 1783966114.5827436,
+    "ast_hash": "3f7318b18cfa0cdeb6f3474a5698b5ca",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-restyle-recorrido-identidad-heading/specs/recorrido-heading-treatment/spec.md": {
+    "mtime": 1783966167.938759,
+    "ast_hash": "068597d9513a132a771e6a34454d8fdb",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-restyle-recorrido-identidad-heading/tasks.md": {
+    "mtime": 1783966814.3829875,
+    "ast_hash": "31010ec43049340c0ca532f108dad303",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-update-brand-heading-copy/.openspec.yaml": {
+    "mtime": 1783963717.946811,
+    "ast_hash": "4a544af65220ddab0aaed6db46e883cc",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-update-brand-heading-copy/design.md": {
+    "mtime": 1783963796.997394,
+    "ast_hash": "c44d6cd3ab70bfafdd7ce844bc807e5f",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-update-brand-heading-copy/proposal.md": {
+    "mtime": 1783963838.3354475,
+    "ast_hash": "030ba7fad9104e5db4190b4a73e9a29d",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-update-brand-heading-copy/specs/brand-system-copy/spec.md": {
+    "mtime": 1783963851.233585,
+    "ast_hash": "8ef060de1f2b10a9cae94939624f425b",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-13-update-brand-heading-copy/tasks.md": {
+    "mtime": 1783965593.338079,
+    "ast_hash": "9f8eb3d2df16630a5ea2f5fb640ad093",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-add-social-links-page/.openspec.yaml": {
+    "mtime": 1784005616.6561112,
+    "ast_hash": "b1aba589403cf000109206d5081c0e1c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-add-social-links-page/design.md": {
+    "mtime": 1784010062.1632614,
+    "ast_hash": "e234b0588949615f3b8f858ff018366a",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-add-social-links-page/proposal.md": {
+    "mtime": 1784007061.6506848,
+    "ast_hash": "2947682440fd44846713c0af3e0be3b6",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-add-social-links-page/specs/footer-social-badges/spec.md": {
+    "mtime": 1784007043.0077667,
+    "ast_hash": "c382178383d7667ea663b7390cde2c49",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-add-social-links-page/specs/home-social-links-section/spec.md": {
+    "mtime": 1784010076.5691614,
+    "ast_hash": "3b449ba86b31224f84902da424c79c79",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-add-social-links-page/specs/site-footer-coverage/spec.md": {
+    "mtime": 1784007031.031782,
+    "ast_hash": "143b81f93acb6fca0d19ae8ad3209ac8",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-add-social-links-page/tasks.md": {
+    "mtime": 1784010227.6641393,
+    "ast_hash": "bc63ef65e7313bd467500898d05ac6cb",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-lightbox-photo-size-and-backdrop/.openspec.yaml": {
+    "mtime": 1783999886.4389164,
+    "ast_hash": "b1aba589403cf000109206d5081c0e1c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-lightbox-photo-size-and-backdrop/design.md": {
+    "mtime": 1784001997.1116872,
+    "ast_hash": "70fae7b48d3dddc61fc280e19aac97ac",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-lightbox-photo-size-and-backdrop/proposal.md": {
+    "mtime": 1784001968.0902264,
+    "ast_hash": "441f2c4eff7fc6e3fd1e5f9f5d04ff95",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-lightbox-photo-size-and-backdrop/specs/lightbox-image-download/spec.md": {
+    "mtime": 1784002006.3936605,
+    "ast_hash": "cbf86ee36267bdc4edea892016f2d54c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-lightbox-photo-size-and-backdrop/tasks.md": {
+    "mtime": 1784002142.6475046,
+    "ast_hash": "077e801f0aa8184f31d9521cfaa3731b",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-simplify-footer-brand-and-center-nav/.openspec.yaml": {
+    "mtime": 1784010547.2567582,
+    "ast_hash": "b1aba589403cf000109206d5081c0e1c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-simplify-footer-brand-and-center-nav/design.md": {
+    "mtime": 1784011664.4918523,
+    "ast_hash": "eeb9efe7e2eb22fd243216ce1d06361a",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-simplify-footer-brand-and-center-nav/proposal.md": {
+    "mtime": 1784011784.464391,
+    "ast_hash": "75b0b2515c3cc68b02a46f2fdec3351c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-simplify-footer-brand-and-center-nav/specs/footer-brand-content/spec.md": {
+    "mtime": 1784011673.2094073,
+    "ast_hash": "5583022b10a2f405436c8b80c2532af8",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-simplify-footer-brand-and-center-nav/tasks.md": {
+    "mtime": 1784011792.5915523,
+    "ast_hash": "8c444a335fda8fce1316c75b10483961",
+    "semantic_hash": ""
+  },
+  "openspec/specs/brand-system-copy/spec.md": {
+    "mtime": 1783965588.183749,
+    "ast_hash": "ea4179428c5a332fd8d768462551f797",
+    "semantic_hash": ""
+  },
+  "openspec/specs/footer-brand-content/spec.md": {
+    "mtime": 1784011739.6914167,
+    "ast_hash": "5cf9af7b463c9d2c79e7f406a8072242",
+    "semantic_hash": ""
+  },
+  "openspec/specs/fragata-background-gallery/spec.md": {
+    "mtime": 1783997783.6335175,
+    "ast_hash": "19ec1f678b3473c524dfd22247dbd4b7",
+    "semantic_hash": ""
+  },
+  "openspec/specs/historia-heading-treatment/spec.md": {
+    "mtime": 1783978764.2745583,
+    "ast_hash": "972f67b3afaf43af33fd8f554c53be9e",
+    "semantic_hash": ""
+  },
+  "openspec/specs/home-social-links-section/spec.md": {
+    "mtime": 1784011775.862671,
+    "ast_hash": "1a03ecd224afd3ec9454dd740cc7cf19",
+    "semantic_hash": ""
+  },
+  "openspec/specs/lightbox-image-download/spec.md": {
+    "mtime": 1784002136.6551402,
+    "ast_hash": "85e4e05e3888f40e7bd469a93eed9a52",
+    "semantic_hash": ""
+  },
+  "openspec/specs/place-card-content-and-alignment/spec.md": {
+    "mtime": 1783970375.1327865,
+    "ast_hash": "dba6d9c82c9ac3c78eed51a6d187628f",
+    "semantic_hash": ""
+  },
+  "openspec/specs/recorrido-heading-treatment/spec.md": {
+    "mtime": 1783967757.312744,
+    "ast_hash": "bee6fbb1e8abf5dd0a16d60af4682e11",
+    "semantic_hash": ""
+  },
+  "openspec/specs/recorrido-section-background/spec.md": {
+    "mtime": 1783971317.218301,
+    "ast_hash": "4ded41aef6ad6f9b8c8ae39b1e525ada",
     "semantic_hash": ""
   }
 }
