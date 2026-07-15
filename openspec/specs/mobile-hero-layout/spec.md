@@ -15,12 +15,16 @@ El `<h1>` de la sección hero SHALL renderizarse completo, sin recortarse ni des
 - **WHEN** se carga la página de inicio en un viewport entre 375px y 430px de ancho
 - **THEN** el ancho renderizado del texto "ENSENADA" es menor o igual al ancho disponible del contenedor `.hero h1`
 
-### Requirement: El menú mobile es funcional y usa un ícono de tres líneas
-El botón de menú mobile SHALL mostrarse como un ícono estándar de tres líneas (no seis), y SHALL alternar `aria-expanded` entre `"false"` y `"true"` al hacer clic, mostrando la navegación.
+### Requirement: El menú mobile es funcional, usa un ícono de tres líneas, y se transforma en X al abrirse
+El botón de menú mobile SHALL mostrarse como un ícono estándar de tres líneas (no seis) en reposo, y SHALL alternar `aria-expanded` entre `"false"` y `"true"` al hacer clic, mostrando la navegación. Cuando el menú está abierto (`.site-header.is-open`), el ícono SHALL transformarse visualmente en una X (no seguir mostrando las mismas tres líneas sin cambios).
 
 #### Scenario: Abrir el menú mobile
 - **WHEN** un usuario hace clic en el botón `[data-menu-button]` con `aria-expanded="false"`
 - **THEN** el atributo cambia a `aria-expanded="true"` y la navegación `[data-menu]` se vuelve visible
+
+#### Scenario: El ícono se transforma en X al abrir
+- **WHEN** el menú mobile pasa a estar abierto (`.site-header.is-open`)
+- **THEN** el ícono del botón se ve como una X (líneas rotadas formando una cruz), no como las mismas tres líneas horizontales del estado cerrado
 
 ### Requirement: El panel del menú mobile abierto es completamente opaco al contenido del hero
 Mientras el menú mobile está abierto (`.main-nav.is-open`), ningún contenido de la sección hero (título, tagline u otro elemento de `.hero-content`) SHALL pintarse visualmente por encima del panel del menú en la zona donde ambos se superponen.
