@@ -1,7 +1,7 @@
 {
   "script.js": {
-    "mtime": 1784002034.5218496,
-    "ast_hash": "eabfe4c05d49e275b28ac8782084577f",
+    "mtime": 1784082786.2172432,
+    "ast_hash": "8607046dff6a1ff101e8217c82eb598a",
     "semantic_hash": ""
   },
   ".claude/commands/opsx/apply.md": {
@@ -1965,8 +1965,8 @@
     "semantic_hash": ""
   },
   "openspec/specs/fragata-background-gallery/spec.md": {
-    "mtime": 1783997783.6335175,
-    "ast_hash": "19ec1f678b3473c524dfd22247dbd4b7",
+    "mtime": 1784082877.5901494,
+    "ast_hash": "d1ca74ffa4f792aeafc3595e7cbc3808",
     "semantic_hash": ""
   },
   "openspec/specs/historia-heading-treatment/spec.md": {
@@ -2032,6 +2032,31 @@
   "openspec/specs/mobile-layout-robustness/spec.md": {
     "mtime": 1784082002.694059,
     "ast_hash": "a1864292e6a553f516e09c60139238d8",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-fragata-mobile-tap-to-open/.openspec.yaml": {
+    "mtime": 1784082642.2124639,
+    "ast_hash": "cd28d93e0bdeca7395a309017174b6c6",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-fragata-mobile-tap-to-open/design.md": {
+    "mtime": 1784082685.494129,
+    "ast_hash": "04b2839890f2f15f7b131262729ee156",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-fragata-mobile-tap-to-open/proposal.md": {
+    "mtime": 1784082658.4349184,
+    "ast_hash": "eac28ff27e9440ae013d399fea9d884a",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-fragata-mobile-tap-to-open/specs/fragata-background-gallery/spec.md": {
+    "mtime": 1784082713.7068417,
+    "ast_hash": "a126e304875c10af5935a33e59716d79",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-fragata-mobile-tap-to-open/tasks.md": {
+    "mtime": 1784082887.6151524,
+    "ast_hash": "680e466b17fc06def2497f373b7ac754",
     "semantic_hash": ""
   }
 }

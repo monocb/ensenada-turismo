@@ -518,6 +518,7 @@ button {
   margin-left: clamp(16px, 3.6vw, 46px);
   padding: clamp(28px, 5vw, 56px) 0;
   color: #ffffff;
+  pointer-events: none;
 }
 
 .fragata-hero-foot {
@@ -599,6 +600,7 @@ button {
   text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-color: rgba(255, 255, 255, 0.35);
+  pointer-events: auto;
 }
 
 .fragata-cta:hover,
