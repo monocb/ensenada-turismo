@@ -1965,8 +1965,8 @@
     "semantic_hash": ""
   },
   "openspec/specs/fragata-background-gallery/spec.md": {
-    "mtime": 1784082877.5901494,
-    "ast_hash": "d1ca74ffa4f792aeafc3595e7cbc3808",
+    "mtime": 1784084141.946584,
+    "ast_hash": "283dfc296dc6d0183c38a012bad04075",
     "semantic_hash": ""
   },
   "openspec/specs/historia-heading-treatment/spec.md": {
@@ -2057,6 +2057,31 @@
   "openspec/changes/archive/2026-07-14-fix-fragata-mobile-tap-to-open/tasks.md": {
     "mtime": 1784082887.6151524,
     "ast_hash": "680e466b17fc06def2497f373b7ac754",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-fragata-copy-blocking-clicks/.openspec.yaml": {
+    "mtime": 1784083353.3001692,
+    "ast_hash": "cd28d93e0bdeca7395a309017174b6c6",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-fragata-copy-blocking-clicks/design.md": {
+    "mtime": 1784083382.7690454,
+    "ast_hash": "e5ceb1c4bf62d39b6e1c93014dda652c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-fragata-copy-blocking-clicks/proposal.md": {
+    "mtime": 1784083365.296685,
+    "ast_hash": "4f4e0f7f310fc35e067beaeb21da34e1",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-fragata-copy-blocking-clicks/specs/fragata-background-gallery/spec.md": {
+    "mtime": 1784083414.110393,
+    "ast_hash": "cb88fe3ddf8870565c87aef1b979baba",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-fragata-copy-blocking-clicks/tasks.md": {
+    "mtime": 1784084150.183786,
+    "ast_hash": "574435e59e7c12d45787bdfadddd3a6d",
     "semantic_hash": ""
   }
 }
