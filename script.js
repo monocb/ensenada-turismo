@@ -402,6 +402,23 @@ document.querySelectorAll(".fragata-hero-slide").forEach((image) => {
   });
 });
 
+const fragataSlidesForPointerEvents = document.querySelectorAll(".fragata-gallery .fragata-hero-slide");
+if (fragataSlidesForPointerEvents.length && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  const FRAGATA_CYCLE_MS = 48000;
+  const fragataStart = performance.now();
+  const updateFragataPointerEvents = () => {
+    const elapsed = performance.now() - fragataStart;
+    fragataSlidesForPointerEvents.forEach((slide, index) => {
+      const delay = index * 6000;
+      const local = ((elapsed - delay) % FRAGATA_CYCLE_MS + FRAGATA_CYCLE_MS) % FRAGATA_CYCLE_MS;
+      const pct = (local / FRAGATA_CYCLE_MS) * 100;
+      slide.style.pointerEvents = pct >= 4 && pct <= 14 ? "auto" : "none";
+    });
+  };
+  updateFragataPointerEvents();
+  setInterval(updateFragataPointerEvents, 250);
+}
+
 placeTriggers.forEach((trigger) => {
   trigger.addEventListener("click", () => {
     const card = trigger.closest(".place-card");

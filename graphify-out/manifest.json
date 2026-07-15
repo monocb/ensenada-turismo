@@ -355,8 +355,8 @@
     "semantic_hash": ""
   },
   "openspec/specs/mobile-hero-layout/spec.md": {
-    "mtime": 1783962997.1642785,
-    "ast_hash": "031953ffbdace6f271ee1e2ce8de4c56",
+    "mtime": 1784081982.2166648,
+    "ast_hash": "015e3b8834ee51661e608d8b431490d5",
     "semantic_hash": ""
   },
   "docs/tecnico/evaluacion-generador-estatico.md": {
@@ -1997,6 +1997,41 @@
   "openspec/specs/recorrido-section-background/spec.md": {
     "mtime": 1783971317.218301,
     "ast_hash": "4ded41aef6ad6f9b8c8ae39b1e525ada",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-mobile-responsive-bugs/.openspec.yaml": {
+    "mtime": 1784081491.5363867,
+    "ast_hash": "cd28d93e0bdeca7395a309017174b6c6",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-mobile-responsive-bugs/design.md": {
+    "mtime": 1784081574.2660935,
+    "ast_hash": "b9af55389cd51810a2864af5d27257a3",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-mobile-responsive-bugs/proposal.md": {
+    "mtime": 1784081547.0554032,
+    "ast_hash": "35ed7c9cc1f28ae77eb455d4e275dcd8",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-mobile-responsive-bugs/specs/mobile-hero-layout/spec.md": {
+    "mtime": 1784081601.904546,
+    "ast_hash": "d8707b3267a4c37691fcc0e89e08a887",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-mobile-responsive-bugs/specs/mobile-layout-robustness/spec.md": {
+    "mtime": 1784081589.063216,
+    "ast_hash": "9a3303aa28fcfb3be22165f8021a8363",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-14-fix-mobile-responsive-bugs/tasks.md": {
+    "mtime": 1784082013.309833,
+    "ast_hash": "847fb92d4995c984e706ae6560cdbf97",
+    "semantic_hash": ""
+  },
+  "openspec/specs/mobile-layout-robustness/spec.md": {
+    "mtime": 1784082002.694059,
+    "ast_hash": "a1864292e6a553f516e09c60139238d8",
     "semantic_hash": ""
   }
 }

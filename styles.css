@@ -6362,23 +6362,7 @@ body.modal-open {
   opacity: 0;
   pointer-events: none;
   cursor: pointer;
-  animation: heroPhotoFade 48s infinite, fragataSlideInteractive 48s infinite;
-}
-
-@keyframes fragataSlideInteractive {
-  0% {
-    pointer-events: none;
-  }
-
-  4%,
-  14% {
-    pointer-events: auto;
-  }
-
-  20%,
-  100% {
-    pointer-events: none;
-  }
+  animation: heroPhotoFade 48s infinite;
 }
 
 .fragata-gallery .fragata-hero-slide:nth-child(1) {
