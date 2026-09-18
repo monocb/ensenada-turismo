@@ -2083,5 +2083,35 @@
     "mtime": 1784084150.183786,
     "ast_hash": "574435e59e7c12d45787bdfadddd3a6d",
     "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-15-move-lightbox-nav-buttons-below-photo/.openspec.yaml": {
+    "mtime": 1784088264.475422,
+    "ast_hash": "cd28d93e0bdeca7395a309017174b6c6",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-15-move-lightbox-nav-buttons-below-photo/design.md": {
+    "mtime": 1784088305.3194659,
+    "ast_hash": "e21a38526a5c728d3dc73d49fa708e70",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-15-move-lightbox-nav-buttons-below-photo/proposal.md": {
+    "mtime": 1784088280.3790734,
+    "ast_hash": "eea0a62fd07c64f705eb6bf9f414f809",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-15-move-lightbox-nav-buttons-below-photo/specs/lightbox-nav-controls-layout/spec.md": {
+    "mtime": 1784088321.1070418,
+    "ast_hash": "89a900539a9a90c9d6f73ab7f29929b2",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-07-15-move-lightbox-nav-buttons-below-photo/tasks.md": {
+    "mtime": 1784088477.2131102,
+    "ast_hash": "7fe5862a1edb966454cd066880aae773",
+    "semantic_hash": ""
+  },
+  "openspec/specs/lightbox-nav-controls-layout/spec.md": {
+    "mtime": 1784088468.8087282,
+    "ast_hash": "b72cff8c206c2e0c0b1a59cf768a3941",
+    "semantic_hash": ""
   }
 }
