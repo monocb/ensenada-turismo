@@ -1,16 +1,16 @@
 # Graph Report - ensenada-turismo  (2026-09-18)
 
 ## Corpus Check
-- 383 files · ~357,475 words
+- 383 files · ~357,503 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 4560 nodes · 7896 edges · 416 communities (378 shown, 38 thin omitted)
+- 4560 nodes · 7885 edges · 421 communities (379 shown, 42 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 121 edges (avg confidence: 0.66)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3c1fbfef`
+- Built from commit: `3aaaf4fd`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -423,6 +423,11 @@
 - ensureFile
 - Verificación de la revisión visual — 18/09/2026
 - Adaptation Strategies
+- SEO
+- bug-menu-hamburguesa.md
+- bug-portada-mobile.md
+- bug-renglon-amarillo.md
+- bug-seccion-cultura.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `el()` - 55 edges
@@ -454,7 +459,7 @@
 ## Hyperedges (group relationships)
 - **OpenSpec fluid workflow: opsx slash commands paired with their skills** — _claude_commands_opsx_apply_opsx_apply, _claude_commands_opsx_archive_opsx_archive, _claude_commands_opsx_explore_opsx_explore, _claude_commands_opsx_propose_opsx_propose, _claude_commands_opsx_sync_opsx_sync, _claude_skills_openspec_apply_change_skill_openspec_apply_change, _claude_skills_openspec_archive_change_skill_openspec_archive_change, _claude_skills_openspec_explore_skill_openspec_explore, _claude_skills_openspec_propose_skill_openspec_propose, _claude_skills_openspec_sync_specs_skill_openspec_sync_specs [INFERRED 0.85]
 
-## Communities (416 total, 38 thin omitted)
+## Communities (421 total, 42 thin omitted)
 
 ### Community 0 - "Interacciones de UI (script.js)"
 Cohesion: 0.05
@@ -469,12 +474,12 @@ Cohesion: 0.13
 Nodes (14): Arquitectura de marca, Dónde se aplica cada línea, Colores y tipografía, Categorías de referencia, Fotografía y composición, Cierre de marca, Identidad de marca, Manifiesto (+6 more)
 
 ### Community 5 - "Mision y funcionalidades futuras"
-Cohesion: 0.13
-Nodes (11): Localidad: El Dique, Ver también, Localidad: Ensenada Centro, Ver también, Localidad: Punta Lara, Ver también, Proyecto, Convenciones de CSS (+3 more)
+Cohesion: 0.16
+Nodes (7): Seguridad, Localidad: El Dique, Ver también, Convenciones de CSS, `styles.css` creció por parches, no por diseño de arquitectura, Convenciones de JS, Técnico
 
 ### Community 6 - "Contenido y localidades del sitio"
-Cohesion: 0.08
-Nodes (15): Accesibilidad, Pendiente de revisar, Resuelto (2026-07-10), Resuelto (2026-07-11), Bug: menú hamburguesa mostrando seis líneas, Bug: portada mobile con problemas de responsive, Bug: "renglón amarillo" rompe el layout en mobile, Bug: sección Cultura sin mostrar fotos correctamente (+7 more)
+Cohesion: 0.40
+Nodes (4): Accesibilidad, Pendiente de revisar, Resuelto (2026-07-10), Resuelto (2026-07-11)
 
 ### Community 7 - "Identidad y sistema visual de marca"
 Cohesion: 0.03
@@ -665,8 +670,8 @@ Cohesion: 0.11
 Nodes (10): canCreateInsert(), clampPlaceholderSize(), computeInsertPosition(), groupSiblingRows(), hitSiblingInsertGap(), horizontalOverlap(), insertCreateDisabledReason(), insertLineCoords() (+2 more)
 
 ### Community 54 - "live-wrap.mjs"
-Cohesion: 0.13
-Nodes (35): argVal(), buildInsertWrapperLines(), computeInsertLine(), INSERT_POSITIONS, insertCli(), isInsertPosition(), resolveElementMatch(), buildSvelteComponentCssAuthoring() (+27 more)
+Cohesion: 0.14
+Nodes (34): argVal(), buildInsertWrapperLines(), computeInsertLine(), INSERT_POSITIONS, insertCli(), isInsertPosition(), resolveElementMatch(), buildSvelteComponentCssAuthoring() (+26 more)
 
 ### Community 55 - "initGlobalBar"
 Cohesion: 0.10
@@ -1037,8 +1042,8 @@ Cohesion: 0.22
 Nodes (8): Anti-Patterns Verdict, Design Health Score, Minor Observations, Overall Impression, Persona Red Flags, Priority Issues, Questions to Consider, What's Working
 
 ### Community 149 - "isGeneratedFile"
-Cohesion: 0.70
-Nodes (4): hasGeneratedHeader(), HEADER_MARKERS, isGeneratedFile(), isGitIgnored()
+Cohesion: 0.53
+Nodes (5): hasGeneratedHeader(), HEADER_MARKERS, isGeneratedFile(), isGitIgnored(), searchDir()
 
 ### Community 150 - "riesgos-mitigados.md"
 Cohesion: 0.18
@@ -1201,8 +1206,8 @@ Cohesion: 0.29
 Nodes (6): Context, Decisions, Goals / Non-Goals, Migration Plan, Open Questions, Risks / Trade-offs
 
 ### Community 192 - "Contenido de la home"
-Cohesion: 0.50
-Nodes (4): Contenido de la home, Identidad y navegación, Secciones de la home, Ver también
+Cohesion: 0.14
+Nodes (11): Contenido de la home, Identidad y navegación, Secciones de la home, Ver también, Línea histórica pública, Ver también, Localidad: Ensenada Centro, Ver también (+3 more)
 
 ### Community 193 - "Misión y objetivos"
 Cohesion: 0.50
@@ -1765,8 +1770,8 @@ Cohesion: 0.29
 Nodes (7): Audit Health Score, Detailed Findings by Severity, Executive Summary, Generate Report, Patterns & Systemic Issues, Platform Conformance Verdict, Positive Findings
 
 ### Community 372 - "Responsive Design"
-Cohesion: 0.20
-Nodes (10): Agregar una noche nueva sin rediseñar, Alternativa: `git revert`, Baja del bloque temporal "Luna Tarumá", Datos del evento publicados, Identificador, Material del kit que quedó sin usar, Observaciones anotadas al implementar, Procedimiento (+2 more)
+Cohesion: 0.15
+Nodes (11): Agregar una noche nueva sin rediseñar, Alternativa: `git revert`, Baja del bloque temporal "Luna Tarumá", Datos del evento publicados, Identificador, Material del kit que quedó sin usar, Observaciones anotadas al implementar, Procedimiento (+3 more)
 
 ### Community 373 - "iOS platform"
 Cohesion: 0.17
@@ -1936,25 +1941,29 @@ Nodes (5): Alcance, Interacción, Navegador y presentación, Validadores, Verifi
 Cohesion: 0.40
 Nodes (5): Adaptation Strategies, Orientation & foldables, Phone → Tablet (iPad / large screens), Platform → platform (iOS ↔ Android), Web → native (porting a website or web app)
 
+### Community 416 - "SEO"
+Cohesion: 0.50
+Nodes (3): Pendiente de revisar, SEO, Ya implementado
+
 ## Knowledge Gaps
-- **1820 isolated node(s):** `COMMON_DEV_PORTS`, `SOURCE_DIRS`, `PRODUCT_NAMES`, `DESIGN_NAMES`, `FALLBACK_DIRS` (+1815 more)
+- **1820 isolated node(s):** `Pendientes`, `Identificador`, `Qué se retira`, `Reorganización visual del 18/09/2026`, `Procedimiento` (+1815 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **38 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **42 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `el()` connect `el` to `checks.mjs`, `index.mjs`, `design.md`, `design-system.mjs`, `Improve Typography Systematically`, `Identidad y sistema visual de marca`, `Funciones del lightbox`, `README.md`, `setLiveState`, `css-cascade.mjs`, `detect-antipatterns-browser.js`, `animate.md`, `showToast`, `live-target.mjs`, `initGlobalBar`, `resolveContext`, `acceptedDomAlreadyClean`, `parseAnyColor`?**
-  _High betweenness centrality (0.034) - this node is a cross-community bridge._
+  _High betweenness centrality (0.042) - this node is a cross-community bridge._
 - **Why does `v()` connect `modern-screenshot.umd.js` to `Identidad y sistema visual de marca`, `README.md`, `css-cascade.mjs`, `detect-antipatterns-browser.js`, `context-signals.mjs`, `design-parser.mjs`?**
-  _High betweenness centrality (0.023) - this node is a cross-community bridge._
-- **Why does `finding()` connect `Funciones del lightbox` to `linea-historica.md`, `design-system.mjs`, `impeccable-config.mjs`, `detect-text.mjs`, `detect-antipatterns.mjs`?**
-  _High betweenness centrality (0.017) - this node is a cross-community bridge._
+  _High betweenness centrality (0.031) - this node is a cross-community bridge._
+- **Why does `createRequestHandler()` connect `live-server.mjs` to `impeccable-paths.mjs`, `css-cascade.mjs`, `SKILL.md`, `live-inject.mjs`, `design-parser.mjs`?**
+  _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **Are the 29 inferred relationships involving `el()` (e.g. with `browserFindingsFromMap()` and `collectVisualContrastCandidates()`) actually correct?**
   _`el()` has 29 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 7 inferred relationships involving `initGlobalBar()` (e.g. with `hideAgentPollTooltip()` and `onDetectMessage()`) actually correct?**
   _`initGlobalBar()` has 7 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `COMMON_DEV_PORTS`, `SOURCE_DIRS`, `PRODUCT_NAMES` to the rest of the system?**
+- **What connects `Pendientes`, `Identificador`, `Qué se retira` to the rest of the system?**
   _1829 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interacciones de UI (script.js)` be split into smaller, more focused modules?**
   _Cohesion score 0.05087881591119334 - nodes in this community are weakly interconnected._
