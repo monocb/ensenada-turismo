@@ -6580,3 +6580,598 @@ body.modal-open {
     min-height: clamp(140px, 42vw, 170px);
   }
 }
+
+/* LUNA-TARUMA:INICIO / bloque temporal del evento Luna Tarumá. Publicado 2026-09-18,
+   baja prevista despues del 26/09/2026.
+   Procedimiento de baja: docs/pendientes/baja-bloque-luna-taruma.md */
+
+/* Paleta "crepusculo" del evento, declarada en scope local: no toca ninguno de los
+   4 bloques :root del sitio. El reparto de roles sale de medir contraste (WCAG):
+   crema sobre rio-de-noche 15.86:1, crema sobre indigo 13.29:1,
+   rio-de-noche sobre dorado 10.49:1. Crema sobre dorado da 1.51:1 y no se usa nunca. */
+.luna-strip,
+.luna-taruma {
+  --lt-noche: #101733;
+  --lt-indigo: #1c2452;
+  --lt-crema: #f5f3ec;
+  --lt-dorado: #f2c14e;
+  --lt-verde-rio: #128a74;
+  --lt-verde-bosque: #1f5c3f;
+  --lt-violeta: #5b54c4;
+  --lt-terracota: #d65a3c;
+}
+
+/* Franja de anuncio: ultimo hijo de .hero-content, que es flex column con
+   justify-content: flex-end, asi que queda apoyada abajo del hero y arriba del fold.
+   Sin elementos <p> a proposito: .hero-content p:not(.eyebrow) tiene 4 reglas con
+   !important que le impondrian su tipografia. */
+.luna-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-self: stretch;
+  gap: 10px clamp(14px, 2vw, 26px);
+  max-width: min(100%, 830px);
+  margin: clamp(18px, 3vh, 30px) 0 0;
+  padding: clamp(12px, 1.6vw, 16px) clamp(14px, 1.8vw, 20px);
+  border: 1px solid rgba(242, 193, 78, 0.5);
+  border-radius: 16px;
+  background: rgba(16, 23, 51, 0.88);
+  color: var(--lt-crema);
+  text-shadow: none;
+  box-shadow: 0 18px 44px rgba(5, 8, 14, 0.42);
+  backdrop-filter: blur(10px);
+}
+
+.luna-strip-head {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 8px;
+}
+
+.luna-strip-mark {
+  color: var(--lt-dorado);
+  font-size: 17px;
+  line-height: 1;
+}
+
+.luna-strip-title {
+  color: var(--lt-dorado);
+  font-size: clamp(14px, 1.5vw, 17px);
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.luna-strip-data {
+  display: flex;
+  flex: 1 1 260px;
+  min-width: 0;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.luna-strip-dates {
+  font-size: clamp(15px, 1.6vw, 18px);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.luna-strip-place {
+  color: rgba(245, 243, 236, 0.86);
+  font-size: clamp(13px, 1.3vw, 15px);
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.luna-strip-cta {
+  flex: 0 0 auto;
+  padding: 11px 20px;
+  border-radius: 999px;
+  background: var(--lt-dorado);
+  color: var(--lt-noche);
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: none;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.luna-strip-cta:hover,
+.luna-strip-cta:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(242, 193, 78, 0.3);
+}
+
+@media (max-width: 560px) {
+  .luna-strip {
+    max-width: 100%;
+    gap: 8px 12px;
+    padding: 12px 14px;
+    border-radius: 14px;
+  }
+
+  .luna-strip-data {
+    flex-basis: 100%;
+  }
+
+  .luna-strip-cta {
+    width: 100%;
+    padding: 12px 18px;
+    text-align: center;
+  }
+}
+
+/* En <=430px, .hero-content lleva "left: 15px" con position: relative, asi que su caja
+   llega hasta el borde derecho del viewport y la franja quedaria pegada al borde.
+   Se le resta el corrimiento para que el margen derecho iguale al izquierdo. */
+@media (max-width: 430px) {
+  .luna-strip {
+    max-width: calc(100% - 30px);
+  }
+}
+
+/* ---- Seccion del evento ---- */
+
+.luna-taruma {
+  position: relative;
+  isolation: isolate;
+  padding: clamp(56px, 8vw, 104px) clamp(18px, 5vw, 72px) clamp(64px, 9vw, 116px);
+  background:
+    radial-gradient(circle at 78% 8%, rgba(242, 193, 78, 0.16), transparent 42%),
+    radial-gradient(circle at 8% 92%, rgba(91, 84, 196, 0.22), transparent 46%),
+    var(--lt-noche);
+  color: var(--lt-crema);
+  scroll-margin-top: 92px;
+}
+
+/* Barra de colores del kit como remate superior de la seccion. El kit la define con 7
+   segmentos, pero uno es "rio de noche" (#101733), que es justo el fondo de la seccion:
+   ahi se leia como un hueco en la barra. Van los 6 colores que contrastan contra el fondo. */
+.luna-taruma::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    var(--lt-verde-rio) 0 16.66%,
+    var(--lt-verde-bosque) 16.66% 33.32%,
+    var(--lt-violeta) 33.32% 49.98%,
+    var(--lt-indigo) 49.98% 66.64%,
+    var(--lt-terracota) 66.64% 83.3%,
+    var(--lt-dorado) 83.3% 100%
+  );
+}
+
+.lt-inner {
+  display: grid;
+  gap: clamp(48px, 6vw, 80px);
+  width: min(1120px, 100%);
+  margin: 0 auto;
+}
+
+.lt-inner *,
+.lt-opening > * {
+  min-width: 0;
+}
+
+/* La agenda precede a la obra en el DOM y en celular; en escritorio la obra
+   acompaña el título, mientras las fechas ocupan la fila siguiente. */
+.lt-opening {
+  display: grid;
+  grid-template-areas: "head" "agenda" "art";
+  gap: clamp(30px, 4vw, 48px);
+}
+
+.lt-head {
+  grid-area: head;
+  align-self: center;
+}
+
+.lt-agenda {
+  grid-area: agenda;
+}
+
+.lt-artwork {
+  grid-area: art;
+  align-self: center;
+  width: min(640px, 100%);
+  justify-self: center;
+}
+
+.lt-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--lt-dorado);
+  font-size: clamp(12px, 1.2vw, 14px);
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.lt-mark {
+  font-size: 15px;
+  line-height: 1;
+}
+
+.luna-taruma h2 {
+  margin: 14px 0 0;
+  color: var(--lt-crema);
+  font-size: clamp(42px, 7.4vw, 96px);
+  font-weight: 900;
+  line-height: 0.96;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.lt-lead {
+  max-width: 40ch;
+  margin: 18px 0 0;
+  color: var(--lt-crema);
+  font-size: clamp(18px, 1.7vw, 22px);
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+.lt-story {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: 36px;
+  padding-top: clamp(28px, 4vw, 48px);
+  border-top: 1px solid rgba(245, 243, 236, 0.18);
+}
+
+.lt-story-intro {
+  max-width: 40ch;
+}
+
+.lt-story h3 {
+  margin: 0 0 14px;
+  color: var(--lt-dorado);
+  font-size: clamp(22px, 2.2vw, 28px);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.lt-story p {
+  margin: 0;
+  color: rgba(245, 243, 236, 0.92);
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.lt-story-intro p {
+  font-size: clamp(20px, 2vw, 25px);
+  line-height: 1.45;
+}
+
+.lt-story-photo img {
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.lt-subtitle {
+  margin: 0 0 clamp(18px, 2.4vw, 26px);
+  color: var(--lt-crema);
+  font-size: clamp(22px, 2.6vw, 30px);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+/* Agenda: cada noche es un <li> con la misma estructura. Sumar una noche futura
+   es copiar un item y cambiarle el texto, sin tocar este archivo. */
+.lt-nights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: clamp(18px, 2.4vw, 28px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lt-night {
+  display: flex;
+  flex-direction: column;
+  padding: clamp(22px, 2.6vw, 32px);
+  border: 1px solid rgba(242, 193, 78, 0.28);
+  border-radius: 18px;
+  background: var(--lt-indigo);
+}
+
+.lt-night-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(245, 243, 236, 0.14);
+}
+
+.lt-night-meta {
+  display: grid;
+  gap: 10px;
+  justify-items: start;
+}
+
+.lt-night-moon {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: var(--lt-verde-bosque);
+  color: var(--lt-crema);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.lt-night:nth-child(even) .lt-night-moon {
+  background: var(--lt-violeta);
+}
+
+.lt-night-when {
+  margin: 0;
+  color: var(--lt-dorado);
+  font-weight: 900;
+  line-height: 1;
+}
+
+.lt-night-when time {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.lt-night-day {
+  font-size: clamp(56px, 5.2vw, 72px);
+  letter-spacing: -0.05em;
+}
+
+.lt-night-month {
+  font-size: 18px;
+  letter-spacing: 0.06em;
+}
+
+.lt-night-hour {
+  margin: 0;
+  color: var(--lt-crema);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.lt-night-where {
+  margin: 20px 0 0;
+  color: var(--lt-crema);
+  font-size: clamp(15px, 1.6vw, 18px);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.lt-night-what {
+  margin: 12px 0 0;
+  color: rgba(245, 243, 236, 0.9);
+  font-size: clamp(14px, 1.5vw, 16px);
+  line-height: 1.55;
+}
+
+.lt-night-free {
+  margin: auto 0 0;
+  padding-top: 22px;
+  color: var(--lt-crema);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.lt-gallery {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: 28px 24px;
+}
+
+.lt-photo {
+  margin: 0;
+}
+
+.lt-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  cursor: zoom-in;
+  transition: filter 180ms ease;
+}
+
+.lt-photo img:hover {
+  filter: brightness(1.08);
+}
+
+.luna-taruma [data-lt-image]:focus-visible,
+.lt-participate:focus-visible {
+  outline: 3px solid var(--lt-dorado);
+  outline-offset: 5px;
+}
+
+.lt-photo figcaption {
+  padding: 12px 0 0;
+  color: rgba(245, 243, 236, 0.86);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.lt-artwork figcaption span {
+  display: block;
+  margin-top: 5px;
+  color: rgba(245, 243, 236, 0.74);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.lt-story-photo {
+  margin-bottom: 22px;
+}
+
+.lt-credit-line {
+  margin: clamp(14px, 1.8vw, 20px) 0 0;
+  color: rgba(245, 243, 236, 0.74);
+  font-size: 13px;
+  font-style: italic;
+}
+
+.lt-call {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 28px 40px;
+  padding: clamp(24px, 3vw, 40px);
+  border: 1px solid rgba(242, 193, 78, 0.34);
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(31, 92, 63, 0.5), var(--lt-indigo) 62%);
+}
+
+.lt-call-copy {
+  flex: 1 1 480px;
+}
+
+.lt-call .lt-subtitle {
+  margin-bottom: 14px;
+}
+
+.lt-call p {
+  max-width: 68ch;
+  margin: 0;
+  color: rgba(245, 243, 236, 0.92);
+  font-size: clamp(15px, 1.6vw, 18px);
+  line-height: 1.55;
+}
+
+.lt-call-how {
+  font-weight: 700;
+}
+
+.lt-call p + p {
+  margin-top: 14px;
+}
+
+.lt-call-action {
+  display: grid;
+  gap: 12px;
+  flex: 0 1 260px;
+  text-align: center;
+}
+
+.lt-participate {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  min-height: 48px;
+  padding: 15px 24px;
+  border-radius: 999px;
+  background: var(--lt-dorado);
+  color: var(--lt-noche);
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.lt-participate:hover {
+  background: var(--lt-crema);
+}
+
+.lt-call-channel {
+  color: rgba(245, 243, 236, 0.8);
+  font-size: 13px;
+}
+
+.lt-credits {
+  padding-top: 28px;
+  border-top: 1px solid rgba(245, 243, 236, 0.18);
+}
+
+.lt-credits .lt-subtitle {
+  margin-bottom: 14px;
+  font-size: 20px;
+}
+
+.lt-credits p {
+  max-width: 72ch;
+  margin: 0 0 8px;
+  color: rgba(245, 243, 236, 0.82);
+  font-size: clamp(13px, 1.4vw, 15px);
+  line-height: 1.6;
+}
+
+.lt-credits strong {
+  color: var(--lt-crema);
+}
+
+@media (min-width: 660px) {
+  .lt-story {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lt-story-intro {
+    grid-column: 1 / -1;
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 760px) {
+  .lt-gallery {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 960px) {
+  .lt-opening {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas: "head art" "agenda agenda";
+  }
+
+  .lt-story {
+    grid-template-columns: 0.7fr 1fr 1fr;
+  }
+
+  .lt-story-intro {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 560px) {
+  .lt-night-top {
+    flex-wrap: nowrap;
+    gap: 18px;
+  }
+
+  .lt-night-when time {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .lt-call-action {
+    flex-basis: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lt-photo img {
+    transition: none;
+  }
+}
+
+/* LUNA-TARUMA:FIN */

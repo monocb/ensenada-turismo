@@ -8,6 +8,7 @@ Estado conocido de bugs y deuda técnica — no asumir que algo funciona o que f
 | [`bug-menu-hamburguesa.md`](bug-menu-hamburguesa.md) | Botón de menú mobile mostrando seis líneas |
 | [`bug-renglon-amarillo.md`](bug-renglon-amarillo.md) | Franja amarilla rompe el layout en mobile |
 | [`bug-seccion-cultura.md`](bug-seccion-cultura.md) | Sección Cultura sin mostrar fotos correctamente |
+| [`baja-bloque-luna-taruma.md`](baja-bloque-luna-taruma.md) | Contenido temporal del evento Luna Tarumá: inventario y procedimiento de baja |
 | [`riesgos-mitigados.md`](riesgos-mitigados.md) | Riesgos de la auditoría previa ya resueltos con la migración a Git |
 | [`seo.md`](seo.md) | Qué SEO ya está implementado, qué falta |
 | [`accesibilidad.md`](accesibilidad.md) | Contraste, alt text, foco visible, navegación por teclado |

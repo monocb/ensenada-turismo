@@ -1,7 +1,7 @@
 {
   "script.js": {
-    "mtime": 1784082786.2172432,
-    "ast_hash": "8607046dff6a1ff101e8217c82eb598a",
+    "mtime": 1789772495.8084345,
+    "ast_hash": "4f7ac62bea21908a2c27e3a30e57cde0",
     "semantic_hash": ""
   },
   ".claude/commands/opsx/apply.md": {
@@ -125,8 +125,8 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1784011442.8326373,
-    "ast_hash": "f9b16f597c6ac2208218676d0085c5d4",
+    "mtime": 1789773645.6942298,
+    "ast_hash": "330fa24c86761d77185d806138d9b92d",
     "semantic_hash": ""
   },
   "openspec/config.yaml": {
@@ -155,8 +155,8 @@
     "semantic_hash": ""
   },
   "docs/pendientes/README.md": {
-    "mtime": 1783659933.5692153,
-    "ast_hash": "9198554d0a4aad28f422306195fc633a",
+    "mtime": 1789770003.613657,
+    "ast_hash": "35d3ccdb18835474d7119c2eaa1acf3d",
     "semantic_hash": ""
   },
   "docs/pendientes/accesibilidad.md": {
@@ -2112,6 +2112,56 @@
   "openspec/specs/lightbox-nav-controls-layout/spec.md": {
     "mtime": 1784088468.8087282,
     "ast_hash": "b72cff8c206c2e0c0b1a59cf768a3941",
+    "semantic_hash": ""
+  },
+  "docs/pendientes/baja-bloque-luna-taruma.md": {
+    "mtime": 1789772728.769698,
+    "ast_hash": "d250a9a163235d2ec568347764ba26ee",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-09-18-add-luna-taruma-event-block/.openspec.yaml": {
+    "mtime": 1789767715.6850688,
+    "ast_hash": "b70cd8df0676b036bbf0f90970abeb32",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-09-18-add-luna-taruma-event-block/design.md": {
+    "mtime": 1789772728.467558,
+    "ast_hash": "76231f738c985c8b5d0655d14bead6bf",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-09-18-add-luna-taruma-event-block/proposal.md": {
+    "mtime": 1789772761.2183447,
+    "ast_hash": "6f4ef632d968f856edb50c63738d57e2",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-09-18-add-luna-taruma-event-block/specs/luna-taruma-event-block/spec.md": {
+    "mtime": 1789772727.9084804,
+    "ast_hash": "978262e41eafe85f4b7d06858e3d7064",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-09-18-add-luna-taruma-event-block/specs/temporary-content-blocks/spec.md": {
+    "mtime": 1789767895.7519062,
+    "ast_hash": "2407ded64b4e7509fa264b22766f1696",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-09-18-add-luna-taruma-event-block/tasks.md": {
+    "mtime": 1789772809.996354,
+    "ast_hash": "97f068f1ab6d7aefba5f45e0852677c9",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-09-18-add-luna-taruma-event-block/verification.md": {
+    "mtime": 1789772798.9792485,
+    "ast_hash": "195c4e6cb0d91a58d4b2b1167b69e4ff",
+    "semantic_hash": ""
+  },
+  "openspec/specs/luna-taruma-event-block/spec.md": {
+    "mtime": 1789772917.0287547,
+    "ast_hash": "5f84a7a946743c86134e5397b4fa3d18",
+    "semantic_hash": ""
+  },
+  "openspec/specs/temporary-content-blocks/spec.md": {
+    "mtime": 1789772917.2588408,
+    "ast_hash": "c76e7f6c4832ad55af9603faf57cc218",
     "semantic_hash": ""
   }
 }

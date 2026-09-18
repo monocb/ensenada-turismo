@@ -402,6 +402,24 @@ document.querySelectorAll(".fragata-hero-slide").forEach((image) => {
   });
 });
 
+/* LUNA-TARUMA:INICIO / bloque temporal del evento Luna Tarumá. Publicado 2026-09-18,
+   baja prevista despues del 26/09/2026.
+   Procedimiento de baja: docs/pendientes/baja-bloque-luna-taruma.md
+   Si el HTML del bloque ya no esta, querySelectorAll devuelve vacio y esto no hace nada. */
+document.querySelectorAll(".luna-taruma [data-lt-image]").forEach((image) => {
+  const abrir = () => {
+    const gallery = image.closest(".luna-taruma")?.querySelectorAll("[data-lt-image]") || [image];
+    openLightbox(image, gallery, image);
+  };
+  image.addEventListener("click", abrir);
+  image.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    event.preventDefault();
+    abrir();
+  });
+});
+/* LUNA-TARUMA:FIN */
+
 const fragataSlidesForPointerEvents = document.querySelectorAll(".fragata-gallery .fragata-hero-slide");
 if (fragataSlidesForPointerEvents.length && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
   const FRAGATA_CYCLE_MS = 48000;
@@ -493,4 +511,3 @@ window.addEventListener("load", () => {
       iframe.focus();
     });
   });
-
