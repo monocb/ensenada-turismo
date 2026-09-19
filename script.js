@@ -418,6 +418,200 @@ document.querySelectorAll(".luna-taruma [data-lt-image]").forEach((image) => {
     abrir();
   });
 });
+/* Juego "Florece el Tarumá". Todo va dentro de un IIFE: script.js es alcance global de
+   punta a punta y el juego define nombres muy genericos ($, Q, i, score, end, show, pick).
+   El guard de arranque hace que retirar el markup alcance para desactivarlo, sin errores. */
+(() => {
+  const raiz = document.querySelector(".ltg");
+  if (!raiz) return;
+
+  const $ = (id) => document.getElementById(id);
+
+  const PREGUNTAS = [
+    { q: "¿Qué es el Tarumá?", o: ["Un árbol autóctono de la Selva Marginal", "Una playa de Punta Lara", "Una constelación de primavera", "Un pez del Río de la Plata"], a: 0, f: "<b>Es un árbol.</b> Autóctono, ensenadense, y cada primavera florece con flores amarillas y perfumadas a la orilla del río." },
+    { q: "¿Por qué el evento se llama Luna Tarumá?", o: ["Por una leyenda guaraní", "Porque la primera Luna llena de la primavera coincide con la floración del Tarumá", "Por el nombre de un barco hundido", "Porque así se llama el parador"], a: 1, f: "<b>Un encuentro.</b> El Tarumá florece y la primera Luna llena de la primavera se posa sobre nuestro río: a eso le pusimos nombre." },
+    { q: "¿Qué tiene de especial la Selva Marginal de Punta Lara?", o: ["Es la más grande de la provincia", "Fue plantada en 1950", "Es el bosque subtropical más austral de la Argentina", "Tiene el árbol más alto del país"], a: 2, f: "<b>La selva que no debería estar aquí.</b> Es el bosque subtropical más austral del país, y está en Ensenada." },
+    { q: "¿Quién sembró la Selva Marginal?", o: ["Los primeros pobladores", "Un vivero municipal", "La Universidad", "Nadie: la trajo el río, semilla a semilla"], a: 3, f: "<b>Nadie.</b> Las semillas bajaron flotando desde el norte por el Paraná y el Río de la Plata y prendieron en la costa." },
+    { q: "¿Cómo va a estar la Luna el sábado 19 de septiembre?", o: ["Nueva", "En cuarto creciente", "Llena", "En cuarto menguante"], a: 1, f: "<b>Creciente.</b> La primera noche es la de la Luna que crece, mientras el Tarumá empieza a florecer." },
+    { q: "¿Y el sábado 26?", o: ["Llena, la primera de la primavera", "Nueva", "En eclipse", "No sale ese día"], a: 0, f: "<b>Llena.</b> La segunda noche es la noche de Luna Tarumá: la primera Luna llena de la primavera sobre el río." },
+    { q: "¿Dónde es Luna Tarumá?", o: ["En el Fuerte Barragán", "En la Isla Santiago", "En el Paseo Costero de Punta Lara, Parador 5C", "En la plaza central de Ensenada"], a: 2, f: "<b>Parador 5C.</b> Paseo Costero de Punta Lara, en Alte. Brown y 52, frente al río." },
+    { q: "¿Qué hay la noche del 26 además de la observación?", o: ["Pintura en vivo", "Tango, folclore y danza", "Sabores de la costa", "Todo eso"], a: 3, f: "<b>Todo eso.</b> Telescopios, pintura en vivo, tango, folclore, danza, música y sabores de la costa. Elegancia frente a la Luna." },
+    { q: "¿Con qué se observa la Luna en el evento?", o: ["Con telescopios, guiados por astrónomos", "Solo a simple vista", "Con binoculares que hay que traer", "Con una pantalla gigante"], a: 0, f: "<b>Telescopios.</b> Con la Facultad de Ciencias Astronómicas y Geofísicas de la UNLP, que organiza junto a Turismo Ensenada y Nexa Contenidos." },
+    { q: "¿Cuánto cuesta la entrada?", o: ["Una entrada general", "Un bono contribución", "Nada: es libre y gratuito", "Depende de la noche"], a: 2, f: "<b>Libre y gratuito.</b> Las dos noches. Vení a vivir Luna Tarumá." },
+  ];
+
+  /* Donde se abre cada flor sobre la copa del arbol, en coordenadas del viewBox. */
+  const POSICIONES = [[52, 100], [84, 116], [120, 54], [146, 66], [196, 80], [222, 96], [40, 166], [60, 180], [214, 150], [236, 164]];
+
+  const NIVELES = [
+    { min: 10, titulo: "Luna Tarumá", texto: "Floreciste entero: sos de acá, o merecés serlo. Te esperamos las dos noches." },
+    { min: 7, titulo: "En flor", texto: "Casi todo el árbol abierto. La Luna llena del 26 te va a encontrar preparado." },
+    { min: 4, titulo: "Brote", texto: "Ya empezaste a florecer. Lo que falta se aprende mirando el cielo el 19." },
+    { min: 0, titulo: "Semilla", texto: "Todavía bajo tierra, como la selva antes de que el río la trajera. Vení y florecé con nosotros." },
+  ];
+
+  const SVG_NS = "http://www.w3.org/2000/svg";
+  let indice = 0;
+  let aciertos = 0;
+  let respondida = false;
+
+  /* Cielo estrellado con random sembrado: la escena se ve igual en cada visita. */
+  const estrellas = $("ltg-stars");
+  let semilla = 7;
+  const azar = () => {
+    semilla = (semilla * 9301 + 49297) % 233280;
+    return semilla / 233280;
+  };
+  for (let k = 0; k < 70; k += 1) {
+    const c = document.createElementNS(SVG_NS, "circle");
+    c.setAttribute("cx", azar() * 500);
+    c.setAttribute("cy", azar() * 240);
+    c.setAttribute("r", (azar() * 1.4 + 0.4).toFixed(2));
+    c.setAttribute("fill", "#F5F3EC");
+    c.setAttribute("opacity", (azar() * 0.6 + 0.25).toFixed(2));
+    estrellas.appendChild(c);
+  }
+
+  /* n flores: la Luna sube y su sombra se corre hasta salir del disco (llena en 10). */
+  function luna(n) {
+    $("ltg-moonG").setAttribute("transform", `translate(${390 - n * 4},${300 - n * 17})`);
+    $("ltg-moonShadow").setAttribute("cx", 12 + n * 6.5);
+    $("ltg-reflect").setAttribute("opacity", 0.2 + n * 0.06);
+  }
+
+  function flor(n) {
+    const [x, y] = POSICIONES[n];
+    const g = document.createElementNS(SVG_NS, "g");
+    const petalos = [0, 72, 144, 216, 288]
+      .map((a) => `<ellipse rx="2.6" ry="5" cy="-4.5" fill="#F2C14E" transform="rotate(${a})"/>`)
+      .join("");
+    g.innerHTML = `<circle r="9" fill="#F2C14E" opacity=".35"/>${petalos}<circle r="2" fill="#D65A3C"/>`;
+    $("ltg-flowers").appendChild(g);
+
+    if (reduceMotion) {
+      g.setAttribute("transform", `translate(${x},${y}) scale(1)`);
+      return;
+    }
+    g.setAttribute("transform", `translate(${x},${y}) scale(0)`);
+    g.style.transition = "transform .5s cubic-bezier(.34,1.56,.64,1)";
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        g.setAttribute("transform", `translate(${x},${y}) scale(1)`);
+      });
+    });
+  }
+
+  function mostrarPregunta() {
+    respondida = false;
+    const actual = PREGUNTAS[indice];
+    $("ltg-qn").textContent = `Pregunta ${indice + 1} de ${PREGUNTAS.length}`;
+    $("ltg-q").textContent = actual.q;
+    $("ltg-prog").style.width = `${(indice / PREGUNTAS.length) * 100}%`;
+    $("ltg-fact").hidden = true;
+    $("ltg-next").hidden = true;
+
+    const contenedor = $("ltg-opts");
+    contenedor.innerHTML = "";
+    actual.o.forEach((texto, k) => {
+      const boton = document.createElement("button");
+      boton.type = "button";
+      boton.className = "ltg-opt";
+      boton.innerHTML = `<i aria-hidden="true">${"ABCD"[k]}</i><span></span>`;
+      boton.querySelector("span").textContent = texto;
+      boton.addEventListener("click", () => responder(k, boton));
+      contenedor.appendChild(boton);
+    });
+  }
+
+  function responder(elegida, boton) {
+    if (respondida) return;
+    respondida = true;
+
+    const actual = PREGUNTAS[indice];
+    const botones = [...$("ltg-opts").children];
+    botones.forEach((b) => {
+      b.disabled = true;
+    });
+
+    if (elegida === actual.a) {
+      boton.classList.add("is-ok");
+      aciertos += 1;
+      $("ltg-score").textContent = aciertos;
+      flor(aciertos - 1);
+      luna(aciertos);
+    } else {
+      boton.classList.add("is-bad");
+      botones[actual.a].classList.add("is-ok");
+      botones.forEach((b, j) => {
+        if (j !== elegida && j !== actual.a) b.classList.add("is-dim");
+      });
+    }
+
+    $("ltg-fact").innerHTML = actual.f;
+    $("ltg-fact").hidden = false;
+    $("ltg-next").hidden = false;
+    $("ltg-next").textContent = indice === PREGUNTAS.length - 1 ? "Ver resultado" : "Siguiente";
+    /* preventScroll: el foco va al boton para seguir con el teclado, pero sin que el
+       navegador mueva la pagina por su cuenta. El boton aparece pegado a las opciones
+       que la persona acaba de tocar, asi que ya esta a la vista. */
+    $("ltg-next").focus({ preventScroll: true });
+  }
+
+  function mostrarResultado() {
+    $("ltg-game").hidden = true;
+    $("ltg-end").hidden = false;
+    $("ltg-prog").style.width = "100%";
+    const nivel = NIVELES.find((n) => aciertos >= n.min);
+    $("ltg-title").textContent = nivel.titulo;
+    $("ltg-sub").textContent = `${aciertos} de ${PREGUNTAS.length} flores. ${nivel.texto}`;
+  }
+
+  /* El juego no scrollea la pagina en ningun momento: las tres tarjetas (intro,
+     pregunta y resultado) ocupan el mismo lugar, asi que la siguiente aparece donde
+     estaba la anterior y mover la vista solo lograba sacar la escena de pantalla. */
+
+  $("ltg-start").addEventListener("click", () => {
+    $("ltg-intro").hidden = true;
+    $("ltg-game").hidden = false;
+    mostrarPregunta();
+  });
+
+  $("ltg-next").addEventListener("click", () => {
+    indice += 1;
+    if (indice < PREGUNTAS.length) {
+      mostrarPregunta();
+      return;
+    }
+    mostrarResultado();
+  });
+
+  $("ltg-again").addEventListener("click", () => {
+    indice = 0;
+    aciertos = 0;
+    $("ltg-score").textContent = "0";
+    $("ltg-flowers").innerHTML = "";
+    luna(0);
+    $("ltg-end").hidden = true;
+    $("ltg-game").hidden = false;
+    mostrarPregunta();
+  });
+
+  $("ltg-share").addEventListener("click", async () => {
+    const texto = `Florecí ${aciertos}/${PREGUNTAS.length} en "Florecé el Tarumá" 🌕 Luna Tarumá, 19 y 26 de septiembre en Punta Lara. Jugá vos: ensenadaturismo.com/#luna-taruma`;
+    try {
+      if (navigator.share) {
+        await navigator.share({ title: "Florecé el Tarumá", text: texto });
+        return;
+      }
+      await navigator.clipboard.writeText(texto);
+      $("ltg-share").textContent = "Copiado";
+    } catch (e) {
+      /* la persona cancelo el compartir, o el navegador nego el portapapeles */
+    }
+  });
+
+  luna(0);
+})();
 /* LUNA-TARUMA:FIN */
 
 const fragataSlidesForPointerEvents = document.querySelectorAll(".fragata-gallery .fragata-hero-slide");

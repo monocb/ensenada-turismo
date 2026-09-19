@@ -7174,4 +7174,336 @@ body.modal-open {
   }
 }
 
+/* Juego "Florece el Tarumá", 2026-09-18. Vive dentro de .luna-taruma y hereda de ahi
+   la paleta --lt-*: los ocho colores del juego original coincidian exactamente con los
+   del bloque. Solo se declaran aca los tres tokens que el bloque no tenia. Ojo: el juego
+   original llamaba --line a su color de linea, nombre que YA EXISTE en el :root del sitio
+   (styles.css:5) y se usa en toda la pagina; por eso aca se llama --ltg-linea.
+   Todo selector desciende de .ltg: el juego venia con estilos sobre html, body, h1, h2, p,
+   header y footer que no pueden tocar el resto de la home. */
+.ltg {
+  --ltg-indigo-claro: #25306a;
+  --ltg-crema-tenue: rgba(245, 243, 236, 0.62);
+  --ltg-linea: rgba(245, 243, 236, 0.14);
+
+  /* Verde y terracota de las respuestas, un punto mas oscuros que los del bloque.
+     Con --lt-verde-rio y --lt-terracota tal cual, el texto crema de la opcion daba
+     3.85:1 y 3.51:1, debajo del 4.5:1 que pide WCAG AA (16px bold no llega al umbral
+     de texto grande). Asi dan 4.55:1 y 4.56:1. Son tokens propios del juego: la franja
+     de siete colores del bloque sigue usando los originales sin cambio. */
+  --ltg-acierto: #107d69;
+  --ltg-error: #b84d33;
+
+  max-width: 520px;
+  margin-inline: auto;
+  color: var(--lt-crema);
+}
+
+/* El juego alterna tres tarjetas ocultandolas entre si. Como .ltg-card es flex,
+   [hidden] necesita ganarle a display:flex o las tres se verian a la vez. */
+.ltg [hidden] {
+  display: none !important;
+}
+
+.ltg-scene {
+  position: relative;
+  aspect-ratio: 10 / 7;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 22px;
+  background: linear-gradient(#0c1330 0%, #1c2452 55%, #12336a 100%);
+}
+
+.ltg-scene svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.ltg-hud {
+  position: absolute;
+  top: 12px;
+  left: 14px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 0;
+}
+
+.ltg-hud b {
+  font-size: 22px;
+  font-weight: 900;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+.ltg-hud span {
+  color: var(--ltg-crema-tenue);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.ltg-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+  padding: 22px 20px 20px;
+  border-radius: 22px;
+  background: var(--lt-indigo);
+}
+
+.ltg-card p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.ltg-ask {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ltg-card h4 {
+  margin: 0;
+  font-size: clamp(21px, 5.6vw, 26px);
+  font-weight: 900;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+
+.ltg-eyebrow {
+  color: var(--lt-dorado);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.ltg-muted {
+  color: var(--ltg-crema-tenue);
+}
+
+.ltg-opts {
+  display: grid;
+  gap: 10px;
+}
+
+.ltg-opt {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 14px 16px;
+  border: 2px solid transparent;
+  border-radius: 14px;
+  background: var(--ltg-indigo-claro);
+  color: var(--lt-crema);
+  font: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: left;
+  cursor: pointer;
+  appearance: none;
+  transition: transform 120ms, border-color 120ms, background 120ms;
+}
+
+.ltg-opt i {
+  display: grid;
+  flex: 0 0 28px;
+  place-items: center;
+  height: 28px;
+  border: 2px solid var(--ltg-linea);
+  border-radius: 50%;
+  color: var(--ltg-crema-tenue);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.ltg-opt:hover {
+  border-color: rgba(245, 243, 236, 0.25);
+  transform: translateY(-1px);
+}
+
+.ltg-opt:focus-visible {
+  outline: 3px solid var(--lt-dorado);
+  outline-offset: 2px;
+}
+
+.ltg-opt.is-ok {
+  border-color: var(--ltg-acierto);
+  background: var(--ltg-acierto);
+}
+
+.ltg-opt.is-ok i {
+  border-color: var(--lt-crema);
+  background: var(--lt-crema);
+  color: var(--ltg-acierto);
+}
+
+.ltg-opt.is-bad {
+  border-color: var(--ltg-error);
+  background: var(--ltg-error);
+}
+
+.ltg-opt.is-bad i {
+  border-color: var(--lt-crema);
+  background: var(--lt-crema);
+  color: var(--ltg-error);
+}
+
+.ltg-opt.is-dim {
+  opacity: 0.45;
+}
+
+.ltg-opt:disabled {
+  cursor: default;
+}
+
+.ltg-fact {
+  padding: 4px 0 4px 14px;
+  border-left: 4px solid var(--lt-dorado);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.ltg-fact b {
+  color: var(--lt-dorado);
+}
+
+.ltg-btn {
+  align-self: flex-start;
+  padding: 15px 24px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--lt-dorado);
+  color: var(--lt-noche);
+  font: inherit;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+  appearance: none;
+}
+
+.ltg-btn-ghost {
+  border: 2px solid var(--ltg-linea);
+  background: transparent;
+  color: var(--lt-crema);
+}
+
+.ltg-btn:focus-visible {
+  outline: 3px solid var(--lt-crema);
+  outline-offset: 2px;
+}
+
+.ltg-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.ltg-bar {
+  height: 6px;
+  overflow: hidden;
+  border-radius: 3px;
+  background: var(--ltg-linea);
+}
+
+.ltg-bar i {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: var(--lt-dorado);
+  transition: width 400ms;
+}
+
+.ltg-datos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.ltg-dato {
+  padding: 14px;
+  border-radius: 14px;
+  background: var(--ltg-indigo-claro);
+}
+
+.ltg-dato b {
+  display: block;
+  color: var(--lt-dorado);
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.ltg-dato span {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* Las siete franjas de la paleta del evento. En el juego original cada <i> traia su
+   color en un style inline; aca salen de las variables que el bloque ya define. */
+.ltg-bar7 {
+  display: flex;
+  height: 8px;
+  margin-top: 6px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.ltg-bar7 i {
+  flex: 1;
+}
+
+.ltg-bar7 i:nth-child(1) { background: var(--lt-verde-rio); }
+.ltg-bar7 i:nth-child(2) { background: var(--lt-verde-bosque); }
+.ltg-bar7 i:nth-child(3) { background: var(--lt-violeta); }
+.ltg-bar7 i:nth-child(4) { background: var(--lt-noche); }
+.ltg-bar7 i:nth-child(5) { background: var(--lt-indigo); }
+.ltg-bar7 i:nth-child(6) { background: var(--lt-terracota); }
+.ltg-bar7 i:nth-child(7) { background: var(--lt-dorado); }
+
+.ltg-pulse {
+  animation: ltgPulse 1.6s ease-in-out infinite;
+}
+
+@keyframes ltgPulse {
+  50% {
+    transform: scale(1.04);
+  }
+}
+
+@media (max-width: 400px) {
+  .ltg-dato b {
+    font-size: 26px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ltg-pulse {
+    animation: none;
+  }
+
+  .ltg-bar i {
+    transition: none;
+  }
+
+  .ltg-opt {
+    transition: none;
+  }
+}
 /* LUNA-TARUMA:FIN */

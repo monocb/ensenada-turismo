@@ -1,7 +1,7 @@
 {
   "script.js": {
-    "mtime": 1789772495.8084345,
-    "ast_hash": "4f7ac62bea21908a2c27e3a30e57cde0",
+    "mtime": 1789776792.9463246,
+    "ast_hash": "d482716449401e0ca04a907eb50ada67",
     "semantic_hash": ""
   },
   ".claude/commands/opsx/apply.md": {
@@ -125,8 +125,8 @@
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1789773645.6942298,
-    "ast_hash": "330fa24c86761d77185d806138d9b92d",
+    "mtime": 1789775030.65699,
+    "ast_hash": "8ef08e7c213a8d2fb1051617ad5aba68",
     "semantic_hash": ""
   },
   "openspec/config.yaml": {
@@ -2115,8 +2115,8 @@
     "semantic_hash": ""
   },
   "docs/pendientes/baja-bloque-luna-taruma.md": {
-    "mtime": 1789772728.769698,
-    "ast_hash": "d250a9a163235d2ec568347764ba26ee",
+    "mtime": 1789776921.95784,
+    "ast_hash": "2410e105f44450248d62d6a40592bdd6",
     "semantic_hash": ""
   },
   "openspec/changes/archive/2026-09-18-add-luna-taruma-event-block/.openspec.yaml": {
@@ -2155,13 +2155,48 @@
     "semantic_hash": ""
   },
   "openspec/specs/luna-taruma-event-block/spec.md": {
-    "mtime": 1789772917.0287547,
-    "ast_hash": "5f84a7a946743c86134e5397b4fa3d18",
+    "mtime": 1789778243.5796885,
+    "ast_hash": "1cb942563b9a87785cc50ca5d36e7bd1",
     "semantic_hash": ""
   },
   "openspec/specs/temporary-content-blocks/spec.md": {
     "mtime": 1789772917.2588408,
     "ast_hash": "c76e7f6c4832ad55af9603faf57cc218",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-09-18-add-luna-taruma-game/.openspec.yaml": {
+    "mtime": 1789774420.6586251,
+    "ast_hash": "b70cd8df0676b036bbf0f90970abeb32",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-09-18-add-luna-taruma-game/design.md": {
+    "mtime": 1789774670.921353,
+    "ast_hash": "5c6f3bcf8f7b2bb2fa693a2f5071c9fd",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-09-18-add-luna-taruma-game/proposal.md": {
+    "mtime": 1789774481.2177694,
+    "ast_hash": "cb79558287b6e6b8415a3b0c8e1db715",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-09-18-add-luna-taruma-game/specs/luna-taruma-event-block/spec.md": {
+    "mtime": 1789774558.4550445,
+    "ast_hash": "e465880379000b4f02224c334abb9fb6",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-09-18-add-luna-taruma-game/specs/luna-taruma-quiz-game/spec.md": {
+    "mtime": 1789774550.8112438,
+    "ast_hash": "330fe09aeb1bce9207ce9a6f419e3f05",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-09-18-add-luna-taruma-game/tasks.md": {
+    "mtime": 1789776157.330712,
+    "ast_hash": "37c7e1ff79bec4bdbfdc2240cb652812",
+    "semantic_hash": ""
+  },
+  "openspec/specs/luna-taruma-quiz-game/spec.md": {
+    "mtime": 1789778233.7541463,
+    "ast_hash": "8ace9dcc8f3aeb9243578ce15aed6286",
     "semantic_hash": ""
   }
 }

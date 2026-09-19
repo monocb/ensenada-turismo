@@ -184,6 +184,73 @@
             </article>
           </div>
 
+          <!-- Juego del evento. Se monta dentro de .luna-taruma para heredar la paleta --lt-*;
+               solo los tokens que el bloque no tiene se declaran sobre .ltg en styles.css. -->
+          <div class="ltg">
+            <h3 class="lt-subtitle">Florecé el Tarumá</h3>
+
+            <div class="ltg-scene">
+              <svg viewBox="0 0 500 350" aria-hidden="true" focusable="false">
+               <defs>
+                <radialGradient id="ltg-glow"><stop offset="0" stop-color="#F2C14E" stop-opacity=".9"/><stop offset=".55" stop-color="#F2C14E" stop-opacity=".25"/><stop offset="1" stop-color="#F2C14E" stop-opacity="0"/></radialGradient>
+                <linearGradient id="ltg-river" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1c3d7a"/><stop offset="1" stop-color="#0d1a3a"/></linearGradient>
+               </defs>
+               <g id="ltg-stars"></g>
+               <g id="ltg-moonG" transform="translate(390,300)"><circle r="70" fill="url(#ltg-glow)"/><circle id="ltg-moon" r="26" fill="#F2C14E"/><circle id="ltg-moonShadow" cx="12" r="26" fill="#1C2452"/></g>
+               <rect x="0" y="262" width="500" height="88" fill="url(#ltg-river)"/>
+               <path id="ltg-reflect" d="M370 268 h40 M360 282 h60 M375 296 h30" stroke="#F2C14E" stroke-width="3" stroke-linecap="round" opacity=".35"/>
+               <path d="M0 262 Q120 250 250 262 T500 262 V270 H0Z" fill="#0b1230"/>
+               <g id="ltg-tree" fill="#0b1230">
+                <path d="M118 262 C122 200 108 170 116 120 C120 100 128 96 132 96 C136 96 142 100 144 120 C150 170 138 200 142 262Z"/>
+                <path d="M128 150 C100 140 70 132 48 112" stroke="#0b1230" stroke-width="8" fill="none" stroke-linecap="round"/>
+                <path d="M134 128 C160 112 190 106 214 88" stroke="#0b1230" stroke-width="8" fill="none" stroke-linecap="round"/>
+                <path d="M126 180 C96 178 68 186 40 176" stroke="#0b1230" stroke-width="7" fill="none" stroke-linecap="round"/>
+                <path d="M136 176 C166 168 196 176 224 160" stroke="#0b1230" stroke-width="7" fill="none" stroke-linecap="round"/>
+                <path d="M130 110 C122 84 118 66 126 46" stroke="#0b1230" stroke-width="7" fill="none" stroke-linecap="round"/>
+                <ellipse cx="60" cy="108" rx="40" ry="26"/><ellipse cx="128" cy="60" rx="46" ry="30"/><ellipse cx="206" cy="86" rx="44" ry="28"/>
+                <ellipse cx="46" cy="172" rx="34" ry="20"/><ellipse cx="222" cy="156" rx="36" ry="22"/><ellipse cx="132" cy="120" rx="52" ry="30"/>
+               </g>
+               <g id="ltg-flowers"></g>
+              </svg>
+              <p class="ltg-hud"><b id="ltg-score">0</b><span>flores de 10</span></p>
+            </div>
+
+            <div class="ltg-card" id="ltg-intro">
+              <p class="ltg-eyebrow">Juego · 2 minutos</p>
+              <p>Diez preguntas sobre la Luna, el río y la selva de Punta Lara. Cada respuesta correcta abre una flor. Si florece entero, sale la Luna llena.</p>
+              <button class="ltg-btn ltg-pulse" id="ltg-start" type="button">Empezar</button>
+            </div>
+
+            <div class="ltg-card" id="ltg-game" hidden>
+              <div class="ltg-bar" aria-hidden="true"><i id="ltg-prog"></i></div>
+              <div class="ltg-ask" aria-live="polite">
+                <p class="ltg-eyebrow" id="ltg-qn">Pregunta 1 de 10</p>
+                <h4 id="ltg-q"></h4>
+              </div>
+              <div class="ltg-opts" id="ltg-opts"></div>
+              <div class="ltg-fact" id="ltg-fact" aria-live="polite" hidden></div>
+              <button class="ltg-btn" id="ltg-next" type="button" hidden>Siguiente</button>
+            </div>
+
+            <div class="ltg-card" id="ltg-end" hidden>
+              <p class="ltg-eyebrow">Tu resultado</p>
+              <div class="ltg-ask" aria-live="polite">
+                <h4 id="ltg-title"></h4>
+                <p id="ltg-sub"></p>
+              </div>
+              <div class="ltg-datos">
+                <div class="ltg-dato"><b>19</b><span>Sáb · 19:00 hs<br />Cuarto creciente</span></div>
+                <div class="ltg-dato"><b>26</b><span>Sáb · 19:00 hs<br />Luna llena</span></div>
+              </div>
+              <p class="ltg-muted">Paseo Costero de Punta Lara · Parador 5C (Alte. Brown y 52) · Libre y gratuito</p>
+              <div class="ltg-row">
+                <button class="ltg-btn" id="ltg-share" type="button">Compartir resultado</button>
+                <button class="ltg-btn ltg-btn-ghost" id="ltg-again" type="button">Jugar de nuevo</button>
+              </div>
+              <div class="ltg-bar7" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+          </div>
+
           <div class="lt-call">
             <div class="lt-call-copy">
               <h3 class="lt-subtitle">¿Querés pintar en vivo?</h3>

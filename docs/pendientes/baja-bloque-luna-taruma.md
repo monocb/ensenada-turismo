@@ -25,9 +25,9 @@ Deben aparecer **5 pares** de marcadores (10 líneas): 3 pares en `index.html`, 
 
 | Archivo | Qué hay entre los marcadores |
 |---|---|
-| `index.html` | Tres bloques: (1) el enlace `Luna Tarumá` en `.main-nav`; (2) la franja `.luna-strip`, último hijo de `.hero-content`; (3) la sección completa `<section class="luna-taruma" id="luna-taruma">`, entre el hero y `.brand-system` |
-| `styles.css` | Un bloque al final del archivo: variables de la paleta del evento en scope local, estilos de la franja y de la sección. No se editó ninguna regla preexistente |
-| `script.js` | Un bloque con el enganche de `.luna-taruma [data-lt-image]` al lightbox existente; reúne las seis imágenes de toda la sección |
+| `index.html` | Tres bloques: (1) el enlace `Luna Tarumá` en `.main-nav`; (2) la franja `.luna-strip`, último hijo de `.hero-content`; (3) la sección completa `<section class="luna-taruma" id="luna-taruma">`, entre el hero y `.brand-system`. **El juego (`.ltg`) vive dentro de esa sección**, entre `.lt-story` y `.lt-call`: se va con ella |
+| `styles.css` | Un bloque al final del archivo: variables de la paleta del evento en scope local, estilos de la franja, de la sección y del juego (`.ltg*`). No se editó ninguna regla preexistente |
+| `script.js` | Un bloque con dos partes: el enganche de `.luna-taruma [data-lt-image]` al lightbox existente (reúne las seis imágenes de toda la sección) y el IIFE del juego |
 | `assets/luna-taruma/` | La carpeta completa: 6 imágenes base más sus variantes responsive (17 archivos) |
 
 ## Reorganización visual del 18/09/2026
@@ -36,16 +36,32 @@ La sección conserva las seis imágenes originales, repartidas entre la apertura
 
 La agenda aparece antes del relato, con el día y el mes destacados y el horario separado. En móvil, el orden es título, agenda, ilustración y relato. Los textos del relato ya no se presentan como una serie de tarjetas. La convocatoria aparece antes de la galería secundaria, con el botón "Quiero participar" hacia Instagram. Las ilustraciones conservan su proporción completa, sin recortes. Esta reorganización queda dentro de los mismos marcadores de baja y no agrega archivos ni dependencias.
 
+## El juego "Florecé el Tarumá" (18/09/2026)
+
+Dentro de la sección, entre el relato y la convocatoria, hay un quiz de 10 preguntas: cada acierto abre una flor en el tarumá dibujado en SVG y hace subir la Luna, que queda llena con 10 de 10. Termina en un resultado de cuatro niveles con botón de compartir.
+
+Viene de un archivo suelto y autosuficiente del kit (`08_Web_juego/florece_el_taruma.html`), adaptado para convivir con la home. Lo que hay que saber si se toca:
+
+- **No agrega archivos, rutas ni assets.** La escena es SVG en línea y no hay página aparte: todo vive en los tres archivos de siempre.
+- **Prefijo `ltg-`** en clases e IDs, incluidos los gradientes del SVG. El bloque del evento usa `lt-`; el juego usa `ltg-` para no pisarlo.
+- **Hereda la paleta del bloque.** El juego original declaraba sus colores en `:root`; se borró, porque los ocho colores coincidían exactamente con los `--lt-*` que la sección ya declara. Solo se agregaron los tres tokens que faltaban (`--ltg-indigo-claro`, `--ltg-crema-tenue`, `--ltg-linea`), en scope local sobre `.ltg`.
+  - Ojo con el tercero: el juego lo llamaba `--line`, nombre que **ya existe** en el `:root` del sitio (`styles.css:5`) y se usa en toda la página. Por eso se renombró.
+- **El JS va dentro de un IIFE** que arranca con un guard sobre `.ltg` y retorna si el markup no está. `script.js` es alcance global de punta a punta y el juego define nombres muy genéricos (`$`, `Q`, `i`, `score`, `end`, `show`, `pick`): sin el IIFE, cualquiera de esos podría chocar con un parche futuro.
+- **Lo que se descartó del original**: su `<header>` (logo en base64, que se comía la mayor parte de los 33 KB del archivo), su `<footer>` (duplicaba los créditos que la sección ya tiene), la tipografía Archivo (la home carga Inter en los pesos que el juego necesita) y sus estilos sobre `html`, `body`, `h1`, `h2`, `p`, `header` y `footer`, que se habrían derramado sobre el resto de la home.
+- **Se corrigió un dato**: el original decía "18 hs" en las dos noches. Se publicó 19:00 hs, que es el horario del resto del sitio.
+- **El juego no scrollea la página.** El original hacía `scrollIntoView` al empezar y en cada "Siguiente", algo que en una página propia se notaba poco pero embebido tiraba la vista hacia abajo y sacaba la escena de pantalla en cada clic. Se quitó: las tres tarjetas ocupan el mismo lugar, así que la siguiente aparece donde estaba la anterior. Por lo mismo, el foco al botón de avanzar se pasa con `preventScroll: true`.
+- **Contraste de las respuestas**: con el verde y el terracota del bloque, el texto crema de la opción daba 3.85:1 y 3.51:1, debajo del 4.5:1 de WCAG AA. El juego usa dos tonos propios un punto más oscuros (`--ltg-acierto`, `--ltg-error`), que dan 4.55:1 y 4.56:1. La franja de siete colores del resultado sigue usando los originales del bloque.
+
 ## Procedimiento
 
-1. Borrar los tres bloques marcados de `index.html`, **incluidos los comentarios marcadores**.
+1. Borrar los tres bloques marcados de `index.html`, **incluidos los comentarios marcadores**. El juego está adentro del tercero, no hay que buscarlo aparte.
 2. Borrar el bloque marcado de `styles.css` (va al final del archivo).
 3. Borrar el bloque marcado de `script.js`.
 4. Borrar la carpeta `assets/luna-taruma/` completa: `rm -rf assets/luna-taruma`.
 5. Borrar este documento y su línea en [`docs/pendientes/README.md`](README.md).
 6. Verificar que no quedaron restos:
    ```bash
-   grep -rn "LUNA-TARUMA\|luna-taruma\|luna-strip\|lt-night\|lt-gallery" index.html styles.css script.js docs/
+   grep -rn "LUNA-TARUMA\|luna-taruma\|luna-strip\|lt-night\|lt-gallery\|ltg" index.html styles.css script.js docs/
    ```
    No debe devolver nada.
 7. Verificar que el sitio sigue sano, igual que lo hace el CI:
