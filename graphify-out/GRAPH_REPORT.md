@@ -5,12 +5,12 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 5361 nodes · 8628 edges · 482 communities (439 shown, 43 thin omitted)
+- 5361 nodes · 8604 edges · 479 communities (431 shown, 48 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 122 edges (avg confidence: 0.66)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `213d60ed`
+- Built from commit: `74a6346e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -447,7 +447,6 @@
 - MODIFIED Requirements
 - tasks.md
 - Requirement: La documentación advierte de los modos de falla silenciosa del CSS
-- iOS platform
 - SAFE_TAGS
 - /impeccable hooks
 - proposal.md
@@ -474,7 +473,6 @@
 - cli
 - ADDED Requirements
 - strokes.py
-- Introduce Color Strategically
 - build.py
 - Requirement: El trazo de costa acompaña al lettering
 - tasks.md
@@ -488,7 +486,6 @@
 - proposal.md
 - Requirement: El CTA de redes sociales del home no usa glassmorphism
 - tasks.md
-- 4. Plan three variants: identity first, then mode, then axes
 
 ## God Nodes (most connected - your core abstractions)
 1. `el()` - 55 edges
@@ -520,7 +517,7 @@
 ## Hyperedges (group relationships)
 - **OpenSpec fluid workflow: opsx slash commands paired with their skills** — _claude_commands_opsx_apply_opsx_apply, _claude_commands_opsx_archive_opsx_archive, _claude_commands_opsx_explore_opsx_explore, _claude_commands_opsx_propose_opsx_propose, _claude_commands_opsx_sync_opsx_sync, _claude_skills_openspec_apply_change_skill_openspec_apply_change, _claude_skills_openspec_archive_change_skill_openspec_archive_change, _claude_skills_openspec_explore_skill_openspec_explore, _claude_skills_openspec_propose_skill_openspec_propose, _claude_skills_openspec_sync_specs_skill_openspec_sync_specs [INFERRED 0.85]
 
-## Communities (482 total, 43 thin omitted)
+## Communities (479 total, 48 thin omitted)
 
 ### Community 0 - "Interacciones de UI (script.js)"
 Cohesion: 0.05
@@ -531,8 +528,8 @@ Cohesion: 0.14
 Nodes (13): Antes de tocar colores o textos de marca, Aviso sobre el CSS, Cómo agregar una foto a una galería, Cómo previsualizar en local, graphify, Mapa de carpetas, Metodología de trabajo, Pendientes conocidos (+5 more)
 
 ### Community 4 - "Arquitectura de marca y colores"
-Cohesion: 0.14
-Nodes (13): Arquitectura de marca, Dónde se aplica cada línea, Categorías de referencia, Fotografía y composición, Cierre de marca, Identidad de marca, Manifiesto, Qué es (+5 more)
+Cohesion: 0.18
+Nodes (9): Arquitectura de marca, Dónde se aplica cada línea, Categorías de referencia, Fotografía y composición, Cierre de marca, Identidad de marca, Manifiesto, Qué es (+1 more)
 
 ### Community 5 - "Mision y funcionalidades futuras"
 Cohesion: 0.50
@@ -563,8 +560,8 @@ Cohesion: 0.12
 Nodes (15): Apply Clarity Principles, Assess Current Copy, Button & CTA Text, Confirmation Dialogs, Empty States, Error Messages, Form Labels & Instructions, Help Text & Tooltips (+7 more)
 
 ### Community 12 - "Stack y mapa de archivos"
-Cohesion: 0.50
-Nodes (4): Metodología: Graphify, Salida, Uso día a día, Ver también
+Cohesion: 0.22
+Nodes (7): Metodología: Graphify, Salida, Uso día a día, Ver también, Flujo, Metodología: OpenSpec, Ver también
 
 ### Community 13 - "Misión y objetivos"
 Cohesion: 0.22
@@ -695,8 +692,8 @@ Cohesion: 0.14
 Nodes (28): applyStaticDeclaration(), buildBorderOverrideMap(), buildStaticStyleMap(), collectStaticCssRules(), compareStaticPriority(), cssPropToCamel(), expandStaticBoxValues(), expandStaticDeclaration() (+20 more)
 
 ### Community 45 - "detect-antipatterns-browser.js"
-Cohesion: 0.09
-Nodes (33): checkBorders(), checkClippedOverflow(), checkElementBorders(), checkElementBordersDOM(), checkElementClippedOverflow(), checkElementClippedOverflowDOM(), checkElementHeroEyebrow(), checkElementHeroEyebrowDOM() (+25 more)
+Cohesion: 0.08
+Nodes (37): browserColorsClose(), browserDesignSystemConfig(), browserHasDirectText(), browserPrimaryFont(), browserRadiusTokens(), browserSampleText(), buildSelectorSegment(), checkBorders() (+29 more)
 
 ### Community 46 - "hook-lib.mjs"
 Cohesion: 0.07
@@ -851,8 +848,8 @@ Cohesion: 0.09
 Nodes (19): After This File, Codex: Visual Direction & Asset Production, Four stop points before code, Step A: Explore Directions with the User, Step B: Generate the Brand Palette First, Step C: Generate 1-3 Visual Mocks Against the Palette, Step D: Approval Loop, Step E: Mock Fidelity Inventory (+11 more)
 
 ### Community 85 - "Handle `generate`"
-Cohesion: 0.18
-Nodes (11): 1. Read the screenshot (if present), 2. Wrap the element, 3. Load the action's reference, 5. Apply the freeform prompt (if present), 6. Write all variants in a single edit, 7. Parameters (composition-sized, 0–4 per variant), 8. Signal done, Aborting an in-flight session (+3 more)
+Cohesion: 0.12
+Nodes (16): 1. Read the screenshot (if present), 2. Wrap the element, 3. Load the action's reference, 4. Plan three variants: identity first, then mode, then axes, 5. Apply the freeform prompt (if present), 6. Write all variants in a single edit, 7. Parameters (composition-sized, 0–4 per variant), 8. Signal done (+8 more)
 
 ### Community 86 - "Phase 1: Discovery Interview"
 Cohesion: 0.12
@@ -863,8 +860,8 @@ Cohesion: 0.12
 Nodes (16): Accessibility Considerations, Anti-reflexes worth defending against, Classic Typography Principles, Fluid Type, Font Selection & Pairing, Modern Web Typography, Modular Scale & Hierarchy, OpenType Features (+8 more)
 
 ### Community 88 - "resolveContext"
-Cohesion: 0.18
-Nodes (13): browserDesignSystemConfig(), browserFindingsFromMap(), browserPrimaryFont(), checkBrowserDesignSystemSources(), checkHtmlPatterns(), checkPageQualityDOM(), checkPageQualityFromDoc(), checkTypography() (+5 more)
+Cohesion: 0.29
+Nodes (7): Android platform, Color & theming, Components & motion, Layout & structure, The Android slop test, Touch targets, Typography
 
 ### Community 89 - "analyzeVisualContrastCandidate"
 Cohesion: 0.18
@@ -891,8 +888,8 @@ Cohesion: 0.18
 Nodes (16): blendRgba(), clampByte(), firstCssUrl(), getLayerValue(), loadVisualContrastImage(), parseObjectPosition(), parsePositionPair(), parsePositionToken() (+8 more)
 
 ### Community 95 - "parseAnyColor"
-Cohesion: 0.12
-Nodes (21): borderColorsFromStyle(), borderWidthsFromStyle(), browserColorsClose(), browserHasDirectText(), browserRadiusTokens(), browserSampleText(), checkCreamPalette(), checkElementDesignSystemDOM() (+13 more)
+Cohesion: 0.13
+Nodes (21): borderColorsFromStyle(), borderWidthsFromStyle(), checkCreamPalette(), checkElementGptBorderShadow(), checkElementGptBorderShadowDOM(), checkGptThinBorderWideShadow(), checkQuality(), colorsNearlyMatch() (+13 more)
 
 ### Community 96 - "typeset.md"
 Cohesion: 0.05
@@ -903,8 +900,8 @@ Cohesion: 0.13
 Nodes (14): Brand bans (on top of the shared absolute bans), Brand permissions, Brand register, Color, Font selection procedure, Imagery, Layout, Motion (+6 more)
 
 ### Community 98 - "live.md"
-Cohesion: 0.14
-Nodes (13): Cleanup, Exit, Handle `accept`, Handle `discard`, Handle `manual_edit_apply`, Handle `prefetch`, Handle `steer`, Poll loop (+5 more)
+Cohesion: 0.08
+Nodes (25): append-arrays, append-string, Cleanup, Consent prompt template, CSP detection (first-time only), Drift-heal warning, Exit, First-time setup (config missing or invalid) (+17 more)
 
 ### Community 99 - "optimize.md"
 Cohesion: 0.11
@@ -1003,8 +1000,8 @@ Cohesion: 0.20
 Nodes (10): Anti-Patterns Verdict, Design Health Score, Generate Combined Critique Report, Minor Observations, Overall Impression, Persona Red Flags, Priority Issues, Questions to Consider (+2 more)
 
 ### Community 123 - "Step 3: Ask strategic questions (for PRODUCT.md)"
-Cohesion: 0.20
-Nodes (10): Accessibility & Inclusion, Brand & Personality, Conversion & proof (brand register only), Interview mode, not confirmation mode, Minimum viable interview, Platform (ask right after register), Positioning, Register (ask first; it shapes everything below) (+2 more)
+Cohesion: 0.11
+Nodes (17): Accessibility & Inclusion, Brand & Personality, Conversion & proof (brand register only), Init Flow, Interview mode, not confirmation mode, Minimum viable interview, Platform (ask right after register), Positioning (+9 more)
 
 ### Community 124 - "Product register"
 Cohesion: 0.20
@@ -1083,8 +1080,8 @@ Cohesion: 0.29
 Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
 
 ### Community 143 - "CSP detection (first-time only)"
-Cohesion: 0.29
-Nodes (7): append-arrays, append-string, Consent prompt template, CSP detection (first-time only), Drift-heal warning, First-time setup (config missing or invalid), Troubleshooting
+Cohesion: 0.50
+Nodes (4): Evitar, Sponsors, Sponsors y reglas, Usar
 
 ### Community 144 - "_"
 Cohesion: 0.22
@@ -1113,10 +1110,6 @@ Nodes (8): Riesgos ya mitigados, Historial de migración, Sobre la carpeta `EXPO
 ### Community 151 - "Funcionalidades futuras"
 Cohesion: 0.40
 Nodes (5): Concurso de microrelatos "Historias de Ensenada", Concurso fotográfico, Funcionalidades futuras, Otras mejoras de producto planteadas, Páginas por lugar
-
-### Community 152 - "Stack y mapa de archivos"
-Cohesion: 0.40
-Nodes (5): Convención de `assets/`, Mapa de archivos, Stack, Stack y mapa de archivos, Ver también
 
 ### Community 153 - "Heuristics Scoring Guide"
 Cohesion: 0.50
@@ -1167,8 +1160,8 @@ Cohesion: 0.29
 Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
 
 ### Community 166 - "Improve Typography Systematically"
-Cohesion: 0.14
-Nodes (19): checkElementQuality(), checkElementQualityDOM(), checkQuality(), checkRepeatedSectionKickers(), checkRepeatedSectionKickersDOM(), checkRepeatedSectionKickersFromDoc(), cleanInlineText(), collectRepeatedSectionKickerCandidates() (+11 more)
+Cohesion: 0.09
+Nodes (28): browserFindingsFromMap(), checkElementHeroEyebrow(), checkElementHeroEyebrowDOM(), checkElementOversizedH1(), checkElementOversizedH1DOM(), checkElementQuality(), checkElementQualityDOM(), checkHeroEyebrow() (+20 more)
 
 ### Community 167 - "Requirement: Las place-cards usan un radio de esquina consistente con las demás tarjetas del sitio"
 Cohesion: 0.33
@@ -1247,8 +1240,8 @@ Cohesion: 0.50
 Nodes (3): 1. Completar metadata en en-fotos/index.html, 2. Completar metadata en index.html, 3. Verificación y deploy
 
 ### Community 187 - "acceptedDomAlreadyClean"
-Cohesion: 0.25
-Nodes (9): buildSelectorSegment(), generateSelector(), isElementHidden(), isLikelyHashedClass(), postSerializedFindings(), renderBrowserFindings(), scanResultMeta(), serializeFindings() (+1 more)
+Cohesion: 0.50
+Nodes (3): Pendiente de revisar, SEO, Ya implementado
 
 ### Community 188 - "tasks.md"
 Cohesion: 0.10
@@ -1268,7 +1261,7 @@ Nodes (6): Context, Decisions, Goals / Non-Goals, Migration Plan, Open Questions
 
 ### Community 192 - "Contenido de la home"
 Cohesion: 0.15
-Nodes (9): Localidad: El Dique, Ver también, Localidad: Ensenada Centro, Ver también, Localidad: Punta Lara, Ver también, Proyecto, Convenciones de JS (+1 more)
+Nodes (10): Seguridad, Línea histórica pública, Ver también, Localidad: El Dique, Ver también, Localidad: Ensenada Centro, Ver también, Localidad: Punta Lara (+2 more)
 
 ### Community 193 - "Misión y objetivos"
 Cohesion: 0.50
@@ -1333,10 +1326,6 @@ Nodes (20): buildUpdateDirective(), compareSemver(), computeUpdateDirective(), D
 ### Community 208 - "inline-ignores.mjs"
 Cohesion: 0.09
 Nodes (21): brand-identity-system Specification, Purpose, Requirement: El contraste se mantiene con la paleta nueva, Requirement: El logotipo es el lettering de marca, Requirement: El trazo de costa acompaña al lettering, Requirement: La forma sigue una escala única, Requirement: La paleta es la del manual, con sus roles, Requirement: La tipografía institucional es la del manual (+13 more)
-
-### Community 209 - "isScreenReaderOnlyTextStyle"
-Cohesion: 0.25
-Nodes (7): Init Flow, Step 1: Load current state, Step 2: Explore the codebase, Step 4: Write PRODUCT.md, Step 5: Decide on DESIGN.md, Step 6: Configure live mode (when code exists), Step 7: Recommend starting points, then wrap up
 
 ### Community 210 - "syncEditBadgeHitProxies"
 Cohesion: 0.11
@@ -1413,10 +1402,6 @@ Nodes (6): Aire, Color, ENSENADA (la palabra), Fotografía, Qué evitar, Sistema
 ### Community 228 - "design.md"
 Cohesion: 0.15
 Nodes (12): Context, D1 — El orden de foco se arregla moviendo el HTML, no parcheando `tabindex`, D2 — Las imágenes activables pasan a `<button>`, copiando el patrón que ya existe, D3 — El control de pausa del carrusel aparece sólo cuando hay algo que pausar, D4 — El cromo nativo se declara una vez, en el lugar donde ya vive el tema, D5 — El anuncio del lightbox usa una región viva, no un `alert`, D6 — Las dos reglas con `outline: none` reciben foco propio, Decisions (+4 more)
-
-### Community 229 - "Handle fallback"
-Cohesion: 0.40
-Nodes (5): Handle fallback, Step 1: Identify where the element actually lives, Step 2: Show three variants in the DOM for preview, Step 3: On accept, write to true source, Step 4: On discard, clean up the served file
 
 ### Community 230 - "design.md"
 Cohesion: 0.33
@@ -1827,8 +1812,8 @@ Cohesion: 0.50
 Nodes (3): 1. JavaScript — resolución completa en el lightbox, 2. Verificación, 3. OpenSpec
 
 ### Community 371 - "HEADING_TAGS"
-Cohesion: 0.08
-Nodes (22): Adaptation Strategies, Assess Adaptation Challenge, Implement & Verify, Orientation & foldables, Phone → Tablet (iPad / large screens), Platform → platform (iOS ↔ Android), Web → native (porting a website or web app), Android platform (+14 more)
+Cohesion: 0.06
+Nodes (29): Adaptation Strategies, Assess Adaptation Challenge, Implement & Verify, Orientation & foldables, Phone → Tablet (iPad / large screens), Platform → platform (iOS ↔ Android), Web → native (porting a website or web app), 1. Accessibility (VoiceOver / TalkBack) (+21 more)
 
 ### Community 372 - "Responsive Design"
 Cohesion: 0.83
@@ -1939,8 +1924,8 @@ Cohesion: 0.18
 Nodes (10): 10. Cierre, 1. Preparar el terreno, 2. Orden de foco, 3. Enlace de salto al contenido, 4. Controles reales, 5. Anuncio del visor, 6. Foco visible, 7. Cromo nativo y toque (+2 more)
 
 ### Community 399 - "Typography"
-Cohesion: 0.07
-Nodes (17): Accesibilidad, Migración de `en-fotos/` y `404.html` (2026-10-08), Pendiente de revisar, Resuelto (2026-07-10), Resuelto (2026-07-11), Resuelto (2026-10-08), Bug: menú hamburguesa mostrando seis líneas, Bug: portada mobile con problemas de responsive (+9 more)
+Cohesion: 0.22
+Nodes (7): Accesibilidad, Migración de `en-fotos/` y `404.html` (2026-10-08), Pendiente de revisar, Resuelto (2026-07-10), Resuelto (2026-07-11), Resuelto (2026-10-08), Pendientes
 
 ### Community 400 - "tasks.md"
 Cohesion: 0.18
@@ -1953,10 +1938,6 @@ Nodes (15): contextSourcePath(), contextSourceStatus(), findMonorepoRoot(), firs
 ### Community 402 - "tasks.md"
 Cohesion: 0.22
 Nodes (8): 1. Assets, 2. Franja de anuncio (lo urgente), 3. Sección del evento, 4. Estilos del bloque, 5. Comportamiento, 6. Verificación integral, 7. Documentación y baja, 8. Revisión visual solicitada el 18/09/2026
-
-### Community 403 - "ADDED Requirements"
-Cohesion: 0.20
-Nodes (10): Breakpoints: Content-Driven, Detect Input Method, Not Just Screen Size, Layout Adaptation Patterns, Mobile-First: Write It Right, Picture Element for Art Direction, Responsive Design, Responsive Images: Get It Right, Safe Areas: Handle the Notch (+2 more)
 
 ### Community 404 - "Requirement: El orden de tabulación coincide con el orden visual"
 Cohesion: 0.18
@@ -1985,10 +1966,6 @@ Nodes (4): Contenido de la home, Identidad y navegación, Secciones de la home, 
 ### Community 410 - "proposal.md"
 Cohesion: 0.29
 Nodes (6): Capabilities, Impact, Modified Capabilities, New Capabilities, What Changes, Why
-
-### Community 412 - "Metodología: OpenSpec"
-Cohesion: 0.67
-Nodes (3): Flujo, Metodología: OpenSpec, Ver también
 
 ### Community 413 - "The Toolkit"
 Cohesion: 0.20
@@ -2023,8 +2000,8 @@ Cohesion: 0.22
 Nodes (8): Purpose, Requirement: Cada territorio tiene su color, Requirement: El esqueleto es común a los tres, Requirements, Scenario: Agregar un territorio no obliga a rediseñar, Scenario: El color no es decoración arbitraria, Scenario: Tres territorios distinguibles, territory-visual-system Specification
 
 ### Community 421 - "Adaptation Strategies"
-Cohesion: 0.33
-Nodes (5): Convenciones de CSS, Las cuatro hojas vivas, Reglas de la casa, `styles.css`: la hoja histórica, Verificación
+Cohesion: 0.13
+Nodes (11): Convenciones de CSS, Las cuatro hojas vivas, Reglas de la casa, `styles.css`: la hoja histórica, Verificación, Técnico, Convención de `assets/`, Mapa de archivos (+3 more)
 
 ### Community 422 - "checkElementQuality"
 Cohesion: 0.22
@@ -2098,10 +2075,6 @@ Nodes (9): 1. Medir el encabezado antes de propagarlo, 2. Partir la hoja de la p
 Cohesion: 0.22
 Nodes (8): ADDED Requirements, MODIFIED Requirements, Requirement: La documentación advierte de los modos de falla silenciosa del CSS, Requirement: La documentación describe con precisión la cantidad real de bloques `:root` en `styles.css`, Scenario: Un colaborador agrega una variable CSS nueva, Scenario: Un colaborador va a corregir un estilo, Scenario: Un elemento con máscara no se ve, Scenario: Una regla de estado no se aplica
 
-### Community 440 - "iOS platform"
-Cohesion: 0.25
-Nodes (8): Color & materials, Components & controls, iOS platform, Layout & structure, Motion, The iOS slop test, Touch targets, Typography
-
 ### Community 441 - "SAFE_TAGS"
 Cohesion: 0.22
 Nodes (11): checkElementMotion(), checkElementMotionDOM(), checkLayout(), checkMotion(), checkPageLayout(), isCardLike(), isCardLikeDOM(), isCardLikeFromProps() (+3 more)
@@ -2123,8 +2096,8 @@ Cohesion: 0.16
 Nodes (20): bumpEditCount(), clampGroupedToBudget(), clampToBudget(), dedupeAgainstCache(), depthIsSet(), directiveFooter(), ensureFile(), ensureSession() (+12 more)
 
 ### Community 446 - "Implement Adaptations"
-Cohesion: 0.12
-Nodes (15): Assess Adaptation Challenge, Content Adaptation, Desktop Adaptation (Mobile → Desktop), Email Adaptation (Web → Email), Implement Adaptations, Layout Adaptation Techniques, Mobile Adaptation (Desktop → Mobile), Navigation Adaptation (+7 more)
+Cohesion: 0.08
+Nodes (25): Assess Adaptation Challenge, Breakpoints: Content-Driven, Content Adaptation, Desktop Adaptation (Mobile → Desktop), Detect Input Method, Not Just Screen Size, Email Adaptation (Web → Email), Implement Adaptations, Layout Adaptation Patterns (+17 more)
 
 ### Community 447 - "Plan Adaptation Strategy"
 Cohesion: 0.27
@@ -2187,8 +2160,8 @@ Cohesion: 0.67
 Nodes (3): getPlaceModalFocusable(), openPlaceModal(), trapPlaceModalFocus()
 
 ### Community 463 - "checkElementTextOverflowDOM"
-Cohesion: 0.32
-Nodes (8): checkElementTextOverflowDOM(), classSelector(), clippedByInset(), clippedByRect(), expandBoxShorthand(), firstMetricLengthPx(), isScreenReaderOnlyTextStyle(), metricLengthPx()
+Cohesion: 0.13
+Nodes (17): checkClippedOverflow(), checkElementClippedOverflow(), checkElementClippedOverflowDOM(), checkElementTextOverflowDOM(), classSelector(), clippedByInset(), clippedByRect(), clippingContainerIsIntentionalViewport() (+9 more)
 
 ### Community 464 - "cli"
 Cohesion: 0.22
@@ -2201,10 +2174,6 @@ Nodes (9): ADDED Requirements, Requirement: El cálculo del scroll no se paga de
 ### Community 466 - "strokes.py"
 Cohesion: 0.22
 Nodes (3): Construye los trazos de pincel (orden y dirección de escritura) pegados al esque, Catmull-Rom -> Bézier cúbicas., smooth_path()
-
-### Community 467 - "Introduce Color Strategically"
-Cohesion: 0.33
-Nodes (6): 1. Accessibility (VoiceOver / TalkBack), 2. Performance, 3. Appearance & Theming, 4. Platform Conformance (CRITICAL), 5. Adaptivity, Diagnostic Scan
 
 ### Community 468 - "build.py"
 Cohesion: 0.38
@@ -2242,29 +2211,25 @@ Nodes (5): MODIFIED Requirements, Requirement: El CTA de redes sociales del home
 Cohesion: 0.33
 Nodes (5): 1. La invitación cambia de pantalla, 2. La entrada de la navegación, 3. Las tres excepciones, 4. La composición de la pantalla del emblema, 5. Verificación
 
-### Community 481 - "4. Plan three variants: identity first, then mode, then axes"
-Cohesion: 0.40
-Nodes (5): 4. Plan three variants: identity first, then mode, then axes, Phase A: Extract the identity (non-skippable), Phase B: Pick mode (default vs departure), Phase C: Plan three variants, Phase D: Squint test
-
 ## Knowledge Gaps
-- **2318 isolated node(s):** `COMMON_DEV_PORTS`, `SOURCE_DIRS`, `PRODUCT_NAMES`, `DESIGN_NAMES`, `FALLBACK_DIRS` (+2313 more)
+- **2318 isolated node(s):** `Qué es el proyecto`, `Stack`, `Cómo previsualizar en local`, `Mapa de carpetas`, `Cómo agregar una foto a una galería` (+2313 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **43 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **48 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `el()` connect `el` to `convenciones-js.md`, `checks.mjs`, `index.mjs`, `design-system.mjs`, `Improve Typography Systematically`, `Identidad y sistema visual de marca`, `Funciones del lightbox`, `README.md`, `UX Writing`, `css-cascade.mjs`, `showToast`, `initGlobalBar`, `resolveContext`, `SAFE_TAGS`, `acceptedDomAlreadyClean`, `parseRgb`, `parseAnyColor`?**
-  _High betweenness centrality (0.026) - this node is a cross-community bridge._
-- **Why does `v()` connect `modern-screenshot.umd.js` to `convenciones-js.md`, `Identidad y sistema visual de marca`, `css-cascade.mjs`, `detect-antipatterns-browser.js`, `design-parser.mjs`?**
-  _High betweenness centrality (0.017) - this node is a cross-community bridge._
-- **Why does `finding()` connect `cli` to `design-system.mjs`, `runHook`, `README.md`, `impeccable-config.mjs`, `inline-ignores.mjs`, `applyDeferredSvelteComponentAccepts`, `detect-antipatterns.mjs`?**
+- **Why does `el()` connect `el` to `convenciones-js.md`, `checks.mjs`, `index.mjs`, `Improve Typography Systematically`, `design-system.mjs`, `Identidad y sistema visual de marca`, `Funciones del lightbox`, `README.md`, `css-cascade.mjs`, `detect-antipatterns-browser.js`, `showToast`, `initGlobalBar`, `SAFE_TAGS`, `UX Writing`, `parseRgb`, `parseAnyColor`?**
+  _High betweenness centrality (0.034) - this node is a cross-community bridge._
+- **Why does `v()` connect `modern-screenshot.umd.js` to `convenciones-js.md`, `Improve Typography Systematically`, `Identidad y sistema visual de marca`, `css-cascade.mjs`, `design-parser.mjs`?**
+  _High betweenness centrality (0.018) - this node is a cross-community bridge._
+- **Why does `ACTIONS` connect `hook-admin.mjs` to `el`, `initGlobalBar`?**
   _High betweenness centrality (0.014) - this node is a cross-community bridge._
 - **Are the 29 inferred relationships involving `el()` (e.g. with `browserFindingsFromMap()` and `collectVisualContrastCandidates()`) actually correct?**
   _`el()` has 29 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 7 inferred relationships involving `initGlobalBar()` (e.g. with `hideAgentPollTooltip()` and `onDetectMessage()`) actually correct?**
   _`initGlobalBar()` has 7 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `COMMON_DEV_PORTS`, `SOURCE_DIRS`, `PRODUCT_NAMES` to the rest of the system?**
+- **What connects `Qué es el proyecto`, `Stack`, `Cómo previsualizar en local` to the rest of the system?**
   _2333 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Interacciones de UI (script.js)` be split into smaller, more focused modules?**
   _Cohesion score 0.05 - nodes in this community are weakly interconnected._

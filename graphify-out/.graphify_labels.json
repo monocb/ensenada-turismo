@@ -439,7 +439,6 @@
   "437": "MODIFIED Requirements",
   "438": "tasks.md",
   "439": "Requirement: La documentación advierte de los modos de falla silenciosa del CSS",
-  "440": "iOS platform",
   "441": "SAFE_TAGS",
   "442": "/impeccable hooks",
   "443": "proposal.md",
@@ -466,7 +465,6 @@
   "464": "cli",
   "465": "ADDED Requirements",
   "466": "strokes.py",
-  "467": "Introduce Color Strategically",
   "468": "build.py",
   "469": "Requirement: El trazo de costa acompaña al lettering",
   "470": "tasks.md",
@@ -479,6 +477,5 @@
   "477": "actualizarEmblema",
   "478": "proposal.md",
   "479": "Requirement: El CTA de redes sociales del home no usa glassmorphism",
-  "480": "tasks.md",
-  "481": "4. Plan three variants: identity first, then mode, then axes"
+  "480": "tasks.md"
 }
