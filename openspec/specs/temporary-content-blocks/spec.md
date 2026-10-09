@@ -5,11 +5,13 @@ Establecer una convención para publicar y retirar eventos y campañas temporale
 ## Requirements
 ### Requirement: Todo contenido temporal está delimitado por comentarios marcadores
 
-El contenido publicado con fecha de vencimiento (campañas, eventos, convocatorias) SHALL quedar encerrado entre comentarios marcadores de apertura y cierre en cada archivo que lo contenga (`index.html`, `styles.css`, `script.js`), con un identificador de bloque idéntico en todos los archivos.
+El contenido publicado con fecha de vencimiento (campañas, eventos, convocatorias) SHALL quedar encerrado entre comentarios marcadores de apertura y cierre en cada archivo que lo contenga (la página HTML, la hoja de `assets/css/` que corresponda y `script.js`), con un identificador de bloque idéntico en todos los archivos.
+
+El requisito nombraba `styles.css` como la hoja única del sitio. Con el CSS repartido en una capa compartida más una hoja por página, un bloque temporal puede tocar la hoja de la página donde se publica, la capa compartida si agrega algo transversal, o las dos.
 
 #### Scenario: Localizar todo el contenido temporal de un bloque
 
-- **WHEN** se busca el identificador del bloque en el repositorio con `grep -rn "<identificador>" index.html styles.css script.js`
+- **WHEN** se busca el identificador del bloque en el repositorio con `grep -rn "<identificador>" index.html en-fotos/index.html 404.html assets/css/ script.js`
 - **THEN** se obtienen los pares de marcadores de apertura y cierre de cada archivo involucrado, sin omitir ninguno
 
 #### Scenario: El marcador declara su fecha de baja prevista
@@ -49,3 +51,4 @@ Retirar un bloque temporal SHALL poder hacerse en un solo commit y SHALL no deja
 
 - **WHEN** se retira el HTML del bloque pero se carga el sitio antes de limpiar el JS asociado
 - **THEN** la consola no reporta errores: el código del bloque consulta sus elementos de forma tolerante a que no existan, igual que el resto de `script.js`
+

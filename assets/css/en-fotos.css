@@ -1,0 +1,276 @@
+/* =============================================================================
+   Turismo Ensenada — Ensenada en Fotos
+   Rediseño 2026-10-08. Sistema del Manual de Identidad v3.0.
+
+   Los tokens, el encabezado, el pie y el visor vienen de base.css. Acá sólo
+   la portada de la página y los carretes.
+
+   La página abre con la palabra y después la foto, igual que la portada de la
+   home: "la letra hecha lugar". Los carretes van a sangre, salen del ancho de
+   lectura y se van por el borde, para que el gesto sea mirar y no leer.
+   ========================================================================== */
+
+/* =============================================================================
+   Portada de la página
+   ========================================================================== */
+
+.photos-page-hero {
+  display: grid;
+  justify-items: center;
+  gap: var(--e3);
+  max-width: 1280px;
+  /* El encabezado es fijo: el primer bloque despeja su alto. */
+  margin: 0 auto;
+  padding: calc(var(--e6) + 48px) var(--e4) var(--e3);
+  text-align: center;
+}
+
+.photos-page-hero-copy {
+  display: grid;
+  justify-items: center;
+  gap: var(--e2);
+}
+
+.photos-page-hero h1 {
+  max-width: 11ch;
+  font-size: var(--t-display);
+}
+
+.photos-page-hero p {
+  max-width: 54ch;
+  color: rgba(244, 242, 236, 0.78);
+}
+
+/* Fantasma sobre fondo oscuro, con borde real: el enlace de vuelta es
+   secundario y no debe competir con los carretes. */
+.photos-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border: 1px solid rgba(244, 242, 236, 0.34);
+  border-radius: var(--r-pastilla);
+  color: var(--papel);
+  font-size: var(--t-chico);
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    background-color 200ms var(--sale),
+    border-color 200ms var(--sale);
+}
+
+.photos-back-link:hover {
+  border-color: var(--papel);
+  background: rgba(244, 242, 236, 0.1);
+}
+
+.photos-page-hero-image {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  border-radius: var(--r-caleta);
+}
+
+.photos-page-hero-image img {
+  width: 100%;
+  height: clamp(240px, 38vw, 480px);
+  object-fit: cover;
+}
+
+/* =============================================================================
+   Carretes
+   Cada carrete toma el acento del territorio que retrata, el mismo par de
+   colores que el manual le asigna en la home.
+   ========================================================================== */
+
+.photos-reels {
+  display: grid;
+  gap: var(--e6);
+  padding: var(--e5) 0 var(--e6);
+}
+
+.photos-reel-section {
+  display: grid;
+  gap: var(--e3);
+  --carrete-color: var(--cielo-verano);
+}
+
+.photos-reel-section[data-photo-folder="parroquia-el-dique"] {
+  --carrete-color: var(--amarillo);
+}
+
+.photos-reel-section[data-photo-folder="stella-maris-punta-lara"] {
+  --carrete-color: var(--rio-verde);
+}
+
+.photos-reel-section[data-photo-folder="domingo-punta-lara"] {
+  --carrete-color: var(--cielo-verano);
+}
+
+.photos-reel-heading {
+  display: grid;
+  justify-items: center;
+  gap: var(--e2);
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 var(--e4);
+  text-align: center;
+}
+
+.photos-reel-heading > div:first-child {
+  display: grid;
+  justify-items: center;
+  gap: var(--e1);
+  max-width: 54ch;
+}
+
+.photos-reel-number {
+  color: var(--carrete-color);
+  font-size: var(--t-micro);
+  font-weight: 900;
+  letter-spacing: 0.22em;
+}
+
+/* El volantillo no es un rótulo decorativo: es el lugar donde se sacó la
+   foto, así que se compone como un dato, en pastilla. */
+/* Especificidad 0,2,0: si no, la pisa .photos-reel-heading p, que al ser
+   clase + tipo gana y le roba el color. */
+.photos-reel-heading .photos-reel-eyebrow {
+  padding: 5px 13px;
+  border: 1px solid rgba(244, 242, 236, 0.28);
+  border-radius: var(--r-pastilla);
+  color: rgba(244, 242, 236, 0.82);
+  font-size: var(--t-micro);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.photos-reel-heading h2 {
+  font-size: var(--t-titulo);
+}
+
+.photos-reel-heading p {
+  max-width: 52ch;
+  color: rgba(244, 242, 236, 0.78);
+}
+
+.photos-reel-controls {
+  display: flex;
+  gap: var(--e1);
+}
+
+.photos-reel-controls button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  padding: 0;
+  border: 1px solid rgba(244, 242, 236, 0.3);
+  border-radius: var(--r-pastilla);
+  background: rgba(244, 242, 236, 0.08);
+  color: var(--papel);
+  font-size: 20px;
+  cursor: pointer;
+  transition:
+    background-color 200ms var(--sale),
+    transform 200ms var(--sale);
+}
+
+.photos-reel-controls button:hover {
+  background: rgba(244, 242, 236, 0.18);
+}
+
+.photos-reel-controls button:active {
+  transform: scale(0.96);
+}
+
+/* El carrete va de borde a borde y avanza solo, como una calesita. No lleva
+   barra de scroll: la mueve el JS, y las flechas quedan como control
+   explicito para teclado y para movimiento reducido. */
+.photos-reel {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: clamp(220px, 23vw, 300px);
+  gap: var(--e2);
+  padding: 4px 0;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+}
+
+.photos-reel::-webkit-scrollbar {
+  display: none;
+}
+
+.photos-reel-card {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: var(--r-caleta);
+  background: var(--noche-2);
+  cursor: pointer;
+}
+
+.photos-reel-card img {
+  width: 100%;
+  height: clamp(260px, 28vw, 360px);
+  object-fit: cover;
+  transition: transform 520ms var(--sale);
+}
+
+.photos-reel-card:hover img,
+.photos-reel-card:focus-visible img {
+  transform: scale(1.06);
+}
+
+/* La misma firma que las líneas de la home: el borde de abajo se pinta con
+   el color del territorio. */
+.photos-reel-card::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 5px;
+  background: var(--carrete-color);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 360ms var(--sale);
+}
+
+.photos-reel-card:hover::after,
+.photos-reel-card:focus-visible::after {
+  transform: scaleX(1);
+}
+
+/* =============================================================================
+   Teléfono y tablet
+   ========================================================================== */
+
+@media (max-width: 860px) {
+  .photos-page-hero {
+    padding: calc(var(--e6) + 16px) var(--e3) var(--e3);
+  }
+
+  .photos-reel-heading {
+    padding: 0 var(--e3);
+  }
+
+  .photos-reel {
+    grid-auto-columns: clamp(200px, 62vw, 260px);
+  }
+}
+
+/* =============================================================================
+   Movimiento reducido
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .photos-reel-card img,
+  .photos-reel-card::after,
+  .photos-reel-controls button,
+  .photos-back-link {
+    transition: none;
+  }
+}

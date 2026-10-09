@@ -20,7 +20,7 @@ jobs:
         run: npx --yes html-validate --config .htmlvalidate.json index.html en-fotos/index.html 404.html
 
       - name: Validar sintaxis de CSS
-        run: npx --yes stylelint styles.css
+        run: npx --yes stylelint "**/*.css" --ignore-pattern "graphify-out/**"
 
       - name: Chequear links e imágenes rotos
         run: npx --yes linkinator . --recurse --skip "ensenadaturismo\.com|fonts\.googleapis\.com"

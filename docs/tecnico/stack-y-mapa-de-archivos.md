@@ -11,7 +11,11 @@ index.html          página principal
 en-fotos/index.html galería de fotos ("En Fotos")
 404.html             página de error
 script.js            todo el JS del sitio (menú, carrusel, lightbox, modales de lugares)
-styles.css           todo el CSS del sitio (~7.9k líneas, ver convenciones-css.md)
+assets/css/base.css      tokens del manual, base, encabezado, pie, visor (las 3 páginas)
+assets/css/home.css      secciones de la portada
+assets/css/en-fotos.css  portada de la página de fotos y carretes
+assets/css/error.css     404
+styles.css           hoja histórica, ya no la carga nadie (ver convenciones-css.md)
 _redirects           reglas de redirect de Netlify
 netlify.toml         publish = "."
 robots.txt / sitemap.xml

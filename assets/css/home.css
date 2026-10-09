@@ -1,0 +1,1039 @@
+/* =============================================================================
+   Turismo Ensenada — hoja de la portada
+   Rediseño 2026-10-08. Sistema del Manual de Identidad v3.0.
+
+   Sólo las secciones de la home. Los tokens, la base, el encabezado, el pie y
+   el visor viven en base.css, que esta página carga antes.
+
+   Lane: cartel pintado a mano, puesto en sistema. Estrategia de color: full
+   palette — el manual ya asigna un rol a cada color, y los territorios son
+   superficies bañadas, no tarjetas con un detalle de color.
+   ========================================================================== */
+
+/* =============================================================================
+   El emblema: la primera pantalla
+   La animacion que el manual especifica en "I - Animacion del emblema",
+   portada de la demo aprobada: una mascara por letra, cada una con sus
+   pinceladas, y la costa al final.
+
+   No es una capa encima del sitio sino la primera seccion del contenido:
+   quien llega ya esta adentro y baja cuando quiere. El cierre lo maneja el
+   scroll, asi que no puede ir ni muy rapido ni muy lento.
+   ========================================================================== */
+
+.emblema {
+  position: relative;
+  /* Sin seguimiento del scroll mide una pantalla y se va scrolleando. Es el
+     valor seguro: bajar siempre tiene que llevar al contenido. */
+  min-height: 100svh;
+  background: var(--noche);
+}
+
+/* Con seguimiento, la seccion pide altura de mas: ese excedente es el
+   recorrido que el cierre tiene para moverse. */
+[data-emblema="sigue"] .emblema {
+  min-height: 160svh;
+}
+
+.emblema-pegado {
+  display: grid;
+  /* Dos filas declaradas y no automaticas: con filas automaticas las dos se
+     estiran a media pantalla cada una y el emblema queda en el tercio de
+     arriba. Asi el emblema se centra en el espacio libre y la invitacion
+     queda abajo, que es donde invita a ir. */
+  grid-template-rows: 1fr auto;
+  align-items: center;
+  justify-items: center;
+  min-height: 100svh;
+  padding: var(--e4) var(--e4) var(--e5);
+  /* Los trazos se salen del viewBox a proposito y el emblema crece al irse:
+     sin recorte eso desborda la pagina a lo ancho. */
+  overflow: hidden;
+}
+
+[data-emblema="sigue"] .emblema-pegado {
+  position: sticky;
+  top: 0;
+}
+
+.emblema-marca {
+  display: grid;
+  justify-items: center;
+  gap: clamp(4px, 0.8vw, 12px);
+  width: min(86vw, 760px);
+  margin: 0;
+  /* El JS escribe aca la escala y la opacidad del cierre. */
+  transform-origin: center center;
+}
+
+.emblema-lettering,
+.emblema-costa {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* El pincel es mas grueso que la letra: tiene que poder salirse. */
+  overflow: visible;
+}
+
+.emblema-lettering path {
+  fill: #ffffff;
+}
+
+/* Iba como style en linea en la demo. */
+.emblema-costa {
+  margin-top: 3%;
+}
+
+.emblema-costa path {
+  fill: var(--amarillo);
+}
+
+/* Cada pincelada es un trazo con su largo normalizado que se dibuja corriendo
+   su guion. Una mascara por letra, nunca una comun: el trazo que pinta una
+   letra se pasa de su ancho y destaparia la de al lado antes de su turno. */
+.trazo path {
+  fill: none;
+  stroke: #ffffff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1 1;
+  stroke-dashoffset: 1;
+  animation-name: pinta;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes pinta {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* =============================================================================
+   El ritmo de la pincelada
+   Los tiempos de la demo, escalados 1.5 todos por igual: estirarlos juntos
+   conserva el encadenado que la demo ya tiene calculado, y a 244ms por letra
+   el gesto terminaba antes de que el ojo lo siguiera.
+
+   Van en reglas y no en atributos style como en la demo: la CSP del sitio es
+   style-src 'self' y los ignoraria, dejando el emblema apareciendo de golpe.
+   ========================================================================== */
+
+#emblema-l0 .trazo path:nth-of-type(1) {
+  animation-delay: 375ms;
+  animation-duration: 330ms;
+}
+
+#emblema-l0 .trazo path:nth-of-type(2) {
+  animation-delay: 645ms;
+  animation-duration: 75ms;
+}
+
+#emblema-l1 .trazo path:nth-of-type(1) {
+  animation-delay: 706ms;
+  animation-duration: 164ms;
+}
+
+#emblema-l1 .trazo path:nth-of-type(2) {
+  animation-delay: 842ms;
+  animation-duration: 264ms;
+}
+
+#emblema-l2 .trazo path:nth-of-type(1) {
+  animation-delay: 1058ms;
+  animation-duration: 380ms;
+}
+
+#emblema-l3 .trazo path:nth-of-type(1) {
+  animation-delay: 1370ms;
+  animation-duration: 280ms;
+}
+
+#emblema-l3 .trazo path:nth-of-type(2) {
+  animation-delay: 1599ms;
+  animation-duration: 93ms;
+}
+
+#emblema-l4 .trazo path:nth-of-type(1) {
+  animation-delay: 1674ms;
+  animation-duration: 162ms;
+}
+
+#emblema-l4 .trazo path:nth-of-type(2) {
+  animation-delay: 1808ms;
+  animation-duration: 262ms;
+}
+
+#emblema-l5 .trazo path:nth-of-type(1) {
+  animation-delay: 2022ms;
+  animation-duration: 376ms;
+}
+
+#emblema-l5 .trazo path:nth-of-type(2) {
+  animation-delay: 2331ms;
+  animation-duration: 93ms;
+}
+
+#emblema-l6 .trazo path:nth-of-type(1) {
+  animation-delay: 2408ms;
+  animation-duration: 206ms;
+}
+
+#emblema-l6 .trazo path:nth-of-type(2) {
+  animation-delay: 2576ms;
+  animation-duration: 261ms;
+}
+
+#emblema-l7 .trazo path:nth-of-type(1) {
+  animation-delay: 2790ms;
+  animation-duration: 380ms;
+}
+
+#emblema-l7 .trazo path:nth-of-type(2) {
+  animation-delay: 3100ms;
+  animation-duration: 92ms;
+}
+
+#emblema-co .trazo path:nth-of-type(1) {
+  animation-delay: 3176ms;
+  animation-duration: 812ms;
+  animation-timing-function: cubic-bezier(.2,0,.6,1);
+}
+
+
+/* =============================================================================
+   Portada
+   Foto a sangre. El emblema se fue a la entrada y el logotipo vive en el
+   encabezado: repetirlo aca le sacaria sentido al gesto de atravesarlo.
+   ========================================================================== */
+
+.portada {
+  position: relative;
+  display: grid;
+  align-items: end;
+  justify-items: center;
+  min-height: 100svh;
+  overflow: hidden;
+  padding: calc(var(--e6) + 40px) var(--e4) var(--e6);
+  text-align: center;
+}
+
+.portada-fotos {
+  position: absolute;
+  inset: 0;
+}
+
+.portada-fotos img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  animation: portadaCicla 56s infinite;
+}
+
+.portada-fotos img:nth-child(1) { animation-delay: 0s; }
+.portada-fotos img:nth-child(2) { animation-delay: 7s; }
+.portada-fotos img:nth-child(3) { animation-delay: 14s; }
+.portada-fotos img:nth-child(4) { animation-delay: 21s; }
+.portada-fotos img:nth-child(5) { animation-delay: 28s; }
+.portada-fotos img:nth-child(6) { animation-delay: 35s; }
+.portada-fotos img:nth-child(7) { animation-delay: 42s; }
+.portada-fotos img:nth-child(8) { animation-delay: 49s; }
+
+@keyframes portadaCicla {
+  0%, 10% { opacity: 1; }
+  14%, 100% { opacity: 0; }
+}
+
+/* La foto necesita un velo para que el lettering blanco se sostenga sin
+   depender del encuadre de cada imagen del ciclo. */
+/* El velo esta calibrado para donde cae el texto, no a ojo: la frase y la
+   invitacion viven en el tercio de abajo, asi que ahi el velo se cierra. El
+   medio queda claro para que las fotos se vean. Medido sobre las ocho fotos
+   del ciclo, con el peor pixel de fondo de cada una. */
+.portada-velo {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(14, 19, 48, 0.58) 0%,
+      rgba(14, 19, 48, 0.22) 26%,
+      rgba(14, 19, 48, 0.78) 58%,
+      rgba(14, 19, 48, 0.96) 100%
+    );
+}
+
+.portada-cuerpo {
+  position: relative;
+  z-index: var(--z-sobre);
+  display: grid;
+  justify-items: center;
+  gap: var(--e3);
+  width: 100%;
+}
+
+/* Sin el emblema, la frase es lo primero que se lee sobre las fotos. */
+.portada-bajada {
+  max-width: 18ch;
+  color: #ffffff;
+  font-size: var(--t-titulo);
+  font-weight: 900;
+  line-height: 1.04;
+  letter-spacing: -0.03em;
+  text-shadow: 0 2px 24px rgba(14, 19, 48, 0.86);
+}
+
+
+
+/* =============================================================================
+   Lo que aparece cuando el emblema termina de dibujarse
+   La navegacion y la invitacion entran un segundo despues de que la costa
+   queda trazada. Transicion suave y escalonada, con la curva del sistema: el
+   emblema se termina de escribir, respira, y recien ahi aparece el resto.
+   ========================================================================== */
+
+@keyframes emblemaAparece {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 10px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* La invitacion a seguir bajando. El manual empareja la ola con el celeste en
+   su seccion de patrones; el agua que baja es la invitacion, y no hace falta
+   una flecha de interfaz en una pagina donde todo trazo es de pincel. */
+.emblema-seguir {
+  margin: var(--e4) 0 0;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: var(--t-micro);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.emblema-seguir-interior {
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+  /* "backwards" y no "forwards": terminada la aparicion el elemento vuelve a
+     su opacidad propia, que es la que el scroll maneja desde afuera. */
+  animation: emblemaAparece 700ms var(--sale-fuerte) 4988ms backwards;
+}
+
+.emblema-ola {
+  width: 42px;
+  height: 42px;
+  fill: var(--cielo-verano);
+  animation: olaDeriva 3200ms ease-in-out infinite;
+}
+
+@keyframes olaDeriva {
+  0%,
+  100% {
+    transform: translateY(-5px);
+    opacity: 0.8;
+  }
+
+  50% {
+    transform: translateY(7px);
+    opacity: 1;
+  }
+}
+
+/* La navegacion del encabezado entra escalonada de izquierda a derecha. Va en
+   esta hoja y no en la compartida porque es propio de la portada: en-fotos y
+   404 muestran su navegacion desde el primer momento.
+
+   Solo arriba del ancho donde el menu se despliega: abajo la navegacion vive
+   escondida detras del boton, y dejarla en opacidad 0 significaria abrir el
+   menu y no ver nada. */
+@media (min-width: 861px) {
+  .enc-nav a {
+    animation: emblemaAparece 700ms var(--sale-fuerte)
+      calc(4988ms + var(--enc-orden, 0) * 70ms) backwards;
+  }
+
+  .enc-nav--izq a:nth-child(1) { --enc-orden: 0; }
+  .enc-nav--izq a:nth-child(2) { --enc-orden: 1; }
+  .enc-nav--izq a:nth-child(3) { --enc-orden: 2; }
+  .enc-nav--der a:nth-child(1) { --enc-orden: 3; }
+  .enc-nav--der a:nth-child(2) { --enc-orden: 4; }
+  .enc-nav--der a:nth-child(3) { --enc-orden: 5; }
+
+  /* Quien llega con el teclado no espera: si el foco entra al encabezado, la
+     navegacion esta ahi. Un enlace invisible pero enfocable es una trampa. */
+  .enc:focus-within .enc-nav a {
+    animation: none;
+  }
+}
+
+/* =============================================================================
+   Las líneas — bento asimétrico
+   "En Fotos" es el CTA secundario del proyecto, así que domina la composición
+   en vez de repartirse en cuatro tiles iguales.
+   ========================================================================== */
+
+.lineas {
+  /* Contiene entradas laterales: sin recorte, los tiles que esperan corridos
+     agregan scroll horizontal a la pagina entera. */
+  overflow-x: clip;
+  padding: var(--e6) var(--e4);
+  background: var(--papel);
+  color: var(--noche);
+}
+
+.lineas-intro {
+  max-width: 1280px;
+  margin: 0 auto var(--e4);
+  display: grid;
+  gap: var(--e2);
+}
+
+.lineas-intro h2 {
+  max-width: 14ch;
+  font-size: var(--t-titulo);
+}
+
+.lineas-intro p {
+  max-width: 46ch;
+  color: var(--gris-texto);
+  font-size: var(--t-cuerpo);
+}
+
+.lineas-grilla {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "fotos fotos fragata"
+    "fotos fotos historia"
+    "vivo  vivo  historia";
+  gap: var(--e2);
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.linea {
+  position: relative;
+  display: grid;
+  align-content: end;
+  gap: 2px;
+  min-height: 190px;
+  padding: var(--e3);
+  overflow: hidden;
+  border-radius: var(--r-caleta);
+  background: var(--noche);
+  color: #ffffff;
+  text-decoration: none;
+  isolation: isolate;
+}
+
+.linea--fotos    { grid-area: fotos; min-height: 420px; }
+.linea--fragata  { grid-area: fragata; }
+.linea--historia { grid-area: historia; }
+.linea--vivo     { grid-area: vivo; }
+
+.linea img {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 700ms var(--sale);
+}
+
+.linea::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(14, 19, 48, 0.12) 0%, rgba(14, 19, 48, 0.88) 78%);
+  transition: background 320ms var(--sale);
+}
+
+.linea:hover img {
+  transform: scale(1.045);
+}
+
+.linea:hover::after {
+  background: linear-gradient(180deg, rgba(14, 19, 48, 0.2) 0%, rgba(14, 19, 48, 0.94) 78%);
+}
+
+/* Cada línea con su color, como fija el manual. */
+.linea-etiqueta {
+  color: var(--linea-color, var(--amarillo));
+  font-size: var(--t-micro);
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.linea strong {
+  font-size: clamp(26px, 2.6vw, 40px);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  line-height: 1.02;
+}
+
+.linea--fotos strong {
+  font-size: clamp(38px, 4.4vw, 64px);
+}
+
+.linea small {
+  color: rgba(255, 255, 255, 0.84);
+  font-size: var(--t-chico);
+}
+
+.linea--fotos  { --linea-color: var(--cielo-verano); }
+.linea--fragata { --linea-color: var(--amarillo); }
+.linea--historia { --linea-color: var(--celeste); }
+.linea--vivo   { --linea-color: var(--rojo); }
+
+/* El borde inferior toma el color de la línea: una firma, no una tarjeta más. */
+.linea::before {
+  content: "";
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 6px;
+  background: var(--linea-color);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 420ms var(--sale);
+}
+
+.linea:hover::before,
+.linea:focus-visible::before {
+  transform: scaleX(1);
+}
+
+/* =============================================================================
+   Los territorios — tres superficies bañadas
+   El manual los define como sub-marcas con su color y sus motivos. Dejan de
+   ser tres tarjetas en una grilla y pasan a ser tres mundos, uno por pantalla.
+   ========================================================================== */
+
+.territorios {
+  background: var(--noche);
+}
+
+.territorios-titulo {
+  display: grid;
+  gap: var(--e2);
+  padding: var(--e6) var(--e4) var(--e5);
+  text-align: center;
+  justify-items: center;
+}
+
+.territorios-titulo h2 {
+  font-size: var(--t-titulo);
+}
+
+.territorios-titulo p {
+  max-width: 48ch;
+  color: rgba(244, 242, 236, 0.78);
+}
+
+.territorio {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+  min-height: clamp(420px, 56vw, 580px);
+  overflow: hidden;
+  background: var(--t-fondo);
+  color: var(--papel);
+}
+
+/* El tercero invierte el orden para que la serie respire, pero los tres
+   comparten esqueleto: sumar Isla Santiago es declarar un par de colores. */
+.territorio:nth-child(even) .territorio-foto {
+  order: -1;
+}
+
+.territorio-cuerpo {
+  display: grid;
+  align-content: center;
+  gap: var(--e2);
+  padding: var(--e5) clamp(24px, 5vw, 76px);
+}
+
+.territorio-num {
+  font-size: var(--t-micro);
+  font-weight: 900;
+  letter-spacing: 0.22em;
+  /* El volantillo es texto chico: va en papel, no en el acento. El acento
+     se reserva para los iconos, que son decorativos. */
+  color: rgba(244, 242, 236, 0.82);
+}
+
+.territorio h3 {
+  font-size: clamp(38px, 5.2vw, 76px);
+  line-height: 0.96;
+}
+
+.territorio p {
+  max-width: 40ch;
+  color: rgba(244, 242, 236, 0.86);
+}
+
+/* Los íconos de pincel del territorio. Trazo, nunca línea geométrica. */
+.territorio-motivos {
+  display: flex;
+  gap: var(--e2);
+  margin-top: var(--e1);
+}
+
+.territorio-motivos svg {
+  width: 38px;
+  height: 38px;
+  color: var(--t-acento);
+}
+
+.territorio-ver {
+  justify-self: start;
+  margin-top: var(--e2);
+  padding: 14px 26px;
+  border: 0;
+  border-radius: var(--r-pastilla);
+  background: var(--papel);
+  color: var(--t-tinta);
+  font-size: var(--t-chico);
+  font-weight: 900;
+  cursor: pointer;
+  transition: transform 200ms var(--sale), filter 200ms var(--sale);
+}
+
+.territorio-ver:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.06);
+}
+
+.territorio-ver:active {
+  transform: translateY(0) scale(0.985);
+}
+
+.territorio-foto {
+  position: relative;
+  overflow: hidden;
+}
+
+.territorio-foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Los pares del manual, medidos antes de usarlos. El dominante hace de
+   superficie y el acento queda para los iconos y el volantillo, que es donde
+   el color luce sin cargar texto chico:
+
+     papel sobre acero #6B7280 .... 4.32:1   por debajo de AA
+     papel sobre sauce ............ 3.65:1   por debajo de AA
+     papel sobre rojo ............. 3.36:1   por debajo de AA
+
+   Por eso el acero se profundiza un 4% hasta #666D7A (4.65:1), que conserva
+   el caracter de astillero, y el boton no se pinta con el acento: va en papel
+   con la tinta de la banda, que da entre 4.65:1 y 14.83:1. */
+.territorio--punta-lara {
+  --t-fondo: var(--verde-monte);
+  --t-acento: var(--sauce);
+  --t-tinta: var(--verde-monte);
+}
+
+.territorio--el-dique {
+  --t-fondo: #666d7a;
+  --t-acento: var(--amarillo);
+  --t-tinta: #3a3f49;
+}
+
+.territorio--ensenada-centro {
+  --t-fondo: var(--noche-2);
+  --t-acento: var(--rojo);
+  --t-tinta: var(--noche);
+}
+
+/* =============================================================================
+   Historia — el sello patrio
+   Un respiro claro y compacto entre los territorios bañados y la Fragata.
+   ========================================================================== */
+
+.historia {
+  /* Idem .lineas: el texto y el video entran enfrentados. */
+  overflow-x: clip;
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: var(--e5);
+  align-items: center;
+  padding: var(--e6) var(--e4);
+  background: var(--papel);
+  color: var(--noche);
+}
+
+.historia-copy {
+  display: grid;
+  gap: var(--e2);
+  justify-items: start;
+}
+
+.historia-sello {
+  width: 74px;
+  height: 74px;
+  color: var(--verde-monte);
+}
+
+.historia-copy h2 {
+  font-size: var(--t-titulo);
+}
+
+.historia-copy p {
+  max-width: 44ch;
+  color: var(--gris-texto);
+}
+
+.historia-dato {
+  font-size: var(--t-sub);
+  font-weight: 700;
+  color: var(--verde-monte);
+}
+
+.historia-video {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--r-caleta);
+  background: var(--noche);
+}
+
+.historia-video .youtube-lite-button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.historia-video img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.historia-video iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  border: 0;
+}
+
+.youtube-lite-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 78px;
+  height: 78px;
+  border-radius: var(--r-pastilla);
+  background: var(--amarillo);
+  transform: translate(-50%, -50%);
+  transition: transform 220ms var(--sale);
+}
+
+.youtube-lite-play::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 54%;
+  width: 0;
+  height: 0;
+  border-left: 22px solid var(--noche);
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  transform: translate(-50%, -50%);
+}
+
+.historia-video .youtube-lite-button:hover .youtube-lite-play {
+  transform: translate(-50%, -50%) scale(1.07);
+}
+
+/* =============================================================================
+   Fragata — galería a sangre
+   ========================================================================== */
+
+.fragata {
+  position: relative;
+  display: grid;
+  align-content: end;
+  min-height: clamp(560px, 86vh, 820px);
+  overflow: hidden;
+  padding: var(--e6) var(--e4) var(--e5);
+  background: var(--noche);
+}
+
+.fragata-gallery {
+  position: absolute;
+  inset: 0;
+}
+
+.fragata-hero-slide {
+  position: absolute;
+  inset: 0;
+  display: block;
+  padding: 0;
+  border: 0;
+  background: none;
+  opacity: 0;
+  cursor: zoom-in;
+  animation: fragataCicla 48s infinite;
+}
+
+.fragata-hero-slide:nth-child(1) { animation-delay: 0s; }
+.fragata-hero-slide:nth-child(2) { animation-delay: 6s; }
+.fragata-hero-slide:nth-child(3) { animation-delay: 12s; }
+.fragata-hero-slide:nth-child(4) { animation-delay: 18s; }
+.fragata-hero-slide:nth-child(5) { animation-delay: 24s; }
+.fragata-hero-slide:nth-child(6) { animation-delay: 30s; }
+.fragata-hero-slide:nth-child(7) { animation-delay: 36s; }
+.fragata-hero-slide:nth-child(8) { animation-delay: 42s; }
+
+@keyframes fragataCicla {
+  0%, 10% { opacity: 1; }
+  14%, 100% { opacity: 0; }
+}
+
+.fragata-hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fragata-velo {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(14, 19, 48, 0.3) 0%, rgba(14, 19, 48, 0.92) 82%);
+}
+
+.fragata-cuerpo {
+  position: relative;
+  z-index: var(--z-sobre);
+  display: grid;
+  gap: var(--e2);
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.fragata-kicker {
+  color: var(--amarillo);
+  font-size: var(--t-micro);
+  font-weight: 900;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.fragata-cuerpo h2 {
+  max-width: 16ch;
+  font-size: var(--t-titulo);
+}
+
+.fragata-cuerpo p {
+  max-width: 52ch;
+  color: rgba(244, 242, 236, 0.86);
+}
+
+.fragata-credito {
+  justify-self: start;
+  color: rgba(244, 242, 236, 0.74);
+  font-size: var(--t-chico);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.fragata-pausa {
+  position: absolute;
+  right: var(--e4);
+  bottom: var(--e3);
+  z-index: var(--z-sobre);
+  padding: 9px 18px;
+  border: 1px solid rgba(244, 242, 236, 0.4);
+  border-radius: var(--r-pastilla);
+  background: rgba(14, 19, 48, 0.68);
+  backdrop-filter: blur(10px);
+  color: var(--papel);
+  font-size: var(--t-micro);
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.fragata-pausa:hover {
+  border-color: rgba(244, 242, 236, 0.7);
+}
+
+/* =============================================================================
+   Seguinos — el CTA primario del proyecto
+   No es un pie: es a lo que el sitio quiere llevar. Bañado en el azul que el
+   manual reserva para marca digital y enlaces.
+   ========================================================================== */
+
+.redes {
+  display: grid;
+  gap: var(--e4);
+  padding: var(--e6) var(--e4);
+  background: var(--rio-plata);
+  color: #ffffff;
+  text-align: center;
+  justify-items: center;
+}
+
+.redes h2 {
+  max-width: 18ch;
+  font-size: var(--t-titulo);
+}
+
+.redes-bajada {
+  max-width: 46ch;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.redes-lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--e2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.red {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 28px;
+  border-radius: var(--r-pastilla);
+  background: #ffffff;
+  color: var(--noche);
+  font-size: var(--t-cuerpo);
+  font-weight: 900;
+  text-decoration: none;
+  transition: transform 200ms var(--sale), box-shadow 200ms var(--sale);
+}
+
+.red:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.28);
+}
+
+.red:active {
+  transform: translateY(0) scale(0.985);
+}
+
+.red svg {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+}
+
+/* =============================================================================
+   Teléfono y tablet
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .historia {
+    grid-template-columns: 1fr;
+    gap: var(--e4);
+  }
+
+  .territorio {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+
+  /* En una columna el orden lo decide el documento, no el CSS: así el foco
+     y la lectura siguen coincidiendo. */
+  .territorio:nth-child(even) .territorio-foto {
+    order: 0;
+  }
+
+  .territorio-foto img {
+    height: clamp(240px, 42vw, 360px);
+  }
+}
+
+@media (max-width: 860px) {
+  .lineas-grilla {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "fotos"
+      "fragata"
+      "historia"
+      "vivo";
+  }
+
+  .linea--fotos {
+    min-height: 320px;
+  }
+
+  .territorio-cuerpo {
+    padding: var(--e4) var(--e3);
+  }
+}
+
+/* =============================================================================
+   Movimiento reducido
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .portada-fotos img {
+    animation: none;
+  }
+
+  .portada-fotos img:first-child {
+    opacity: 1;
+  }
+
+  .fragata-hero-slide {
+    animation: none;
+  }
+
+  .fragata-hero-slide:first-child {
+    opacity: 1;
+  }
+
+  .linea img,
+  .linea::before,
+  .linea::after,
+  .territorio-ver,
+  .red,
+  .youtube-lite-play {
+    transition: none;
+  }
+
+  /* El emblema aparece completo y quieto, y al bajar se va scrolleando sin
+     crecer ni desvanecerse: el seguimiento del scroll no se activa. */
+  .trazo path {
+    animation: none;
+    stroke-dashoffset: 0;
+  }
+
+  .emblema-ola {
+    animation: none;
+  }
+
+  /* Nada espera a aparecer: la navegacion y la invitacion estan desde el
+     primer momento. */
+  .emblema-seguir-interior,
+  .enc-nav a {
+    animation: none;
+  }
+}

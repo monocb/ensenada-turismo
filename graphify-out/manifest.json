@@ -1,7 +1,7 @@
 {
   "script.js": {
-    "mtime": 1789776792.9463246,
-    "ast_hash": "d482716449401e0ca04a907eb50ada67",
+    "mtime": 1791522615.171672,
+    "ast_hash": "1f5a626b2fea71d9dca6380e27257d82",
     "semantic_hash": ""
   },
   ".claude/commands/opsx/apply.md": {
@@ -55,13 +55,13 @@
     "semantic_hash": "ca0a72a09ab4270d6868acc01dc9e6c9"
   },
   "404.html": {
-    "mtime": 1784011480.5886352,
-    "ast_hash": "9adc262d4c66cb0c39030807023b1d4d",
+    "mtime": 1791494282.1319742,
+    "ast_hash": "fd575900e3b128b73f378090fbb133b0",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1783793297.7612,
-    "ast_hash": "8ea9e3847c28fdb521aa76f356f152f0",
+    "mtime": 1791495052.1045163,
+    "ast_hash": "dff92988f7b4c355f348cd37f4a85699",
     "semantic_hash": ""
   },
   "README.md": {
@@ -80,8 +80,8 @@
     "semantic_hash": "a3384988e938067b5712144d44492e02"
   },
   "docs/marca/colores-y-tipografia.md": {
-    "mtime": 1783659949.2564783,
-    "ast_hash": "85822ed74db2c81160d6a90b54820f5b",
+    "mtime": 1791494966.4326026,
+    "ast_hash": "a10f6ca1dc8e010178efecf995e1fedf",
     "semantic_hash": ""
   },
   "docs/marca/fotografia-y-composicion.md": {
@@ -120,13 +120,13 @@
     "semantic_hash": "0bfe316dedd6def3a27875dad4d981a6"
   },
   "en-fotos/index.html": {
-    "mtime": 1784011462.279704,
-    "ast_hash": "404f3bdfe9fb0f68c7f74790836d8334",
+    "mtime": 1791505157.8754349,
+    "ast_hash": "d40b7eb1e0cdd172a7e92d2c73cff2cd",
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1789775030.65699,
-    "ast_hash": "8ef08e7c213a8d2fb1051617ad5aba68",
+    "mtime": 1791522615.169665,
+    "ast_hash": "5f270a553c416c9bd6505e3a863eec95",
     "semantic_hash": ""
   },
   "openspec/config.yaml": {
@@ -155,13 +155,13 @@
     "semantic_hash": ""
   },
   "docs/pendientes/README.md": {
-    "mtime": 1789770003.613657,
-    "ast_hash": "35d3ccdb18835474d7119c2eaa1acf3d",
+    "mtime": 1791478612.3019404,
+    "ast_hash": "c0741a0f01e3313754971c627a377926",
     "semantic_hash": ""
   },
   "docs/pendientes/accesibilidad.md": {
-    "mtime": 1783797945.2629251,
-    "ast_hash": "69a17e08689da009f9dd22a704137f73",
+    "mtime": 1791495123.7298284,
+    "ast_hash": "a22039ad407c3e4f36a2acaf181e0005",
     "semantic_hash": ""
   },
   "docs/pendientes/bug-menu-hamburguesa.md": {
@@ -240,13 +240,13 @@
     "semantic_hash": ""
   },
   "docs/tecnico/README.md": {
-    "mtime": 1783793321.1943016,
-    "ast_hash": "b22bbb0668fbae270f0a412ecf99ac06",
+    "mtime": 1791494966.4259338,
+    "ast_hash": "2c8266a7e289ae0f87ac6bcb0de62e9a",
     "semantic_hash": ""
   },
   "docs/tecnico/convenciones-css.md": {
-    "mtime": 1783719460.327459,
-    "ast_hash": "fa08fc3da69534fa1c3280a2c2c7bc95",
+    "mtime": 1791495034.921635,
+    "ast_hash": "b964d4217939df1491bf7236fcec022c",
     "semantic_hash": ""
   },
   "docs/tecnico/convenciones-js.md": {
@@ -265,8 +265,8 @@
     "semantic_hash": ""
   },
   "docs/tecnico/stack-y-mapa-de-archivos.md": {
-    "mtime": 1783793358.2582262,
-    "ast_hash": "49bd8ea05217ffb2452a9567dd7a2e34",
+    "mtime": 1791494966.4184163,
+    "ast_hash": "7f06b7ff89e8296f679a88b11647b45e",
     "semantic_hash": ""
   },
   "openspec/changes/archive/2026-07-10-add-security-headers/.openspec.yaml": {
@@ -915,8 +915,8 @@
     "semantic_hash": ""
   },
   "DESIGN.md": {
-    "mtime": 1783921473.4150815,
-    "ast_hash": "c2abef8208a9ba860444cdcf938bfc68",
+    "mtime": 1791494966.4184163,
+    "ast_hash": "a33ad273531160c3829cfd4e7edb4f79",
     "semantic_hash": ""
   },
   "PRODUCT.md": {
@@ -1005,8 +1005,8 @@
     "semantic_hash": ""
   },
   "openspec/specs/technical-docs-accuracy/spec.md": {
-    "mtime": 1783921738.235649,
-    "ast_hash": "0b4e455f5386ed5c51ae5e200a95e056",
+    "mtime": 1791501283.4004402,
+    "ast_hash": "209ab586d25a379653928e439abe1522",
     "semantic_hash": ""
   },
   "openspec/changes/archive/2026-07-10-compress-oversized-images/.openspec.yaml": {
@@ -1065,8 +1065,8 @@
     "semantic_hash": ""
   },
   "openspec/specs/keyboard-accessible-galleries/spec.md": {
-    "mtime": 1783997792.5526044,
-    "ast_hash": "aa5f23e5e76d889b80bb3a7b0a281c3e",
+    "mtime": 1791479412.403333,
+    "ast_hash": "ee6439f653cc58dcc1c1f6fda4491b8d",
     "semantic_hash": ""
   },
   "openspec/changes/archive/2026-07-10-complete-social-meta-tags/.openspec.yaml": {
@@ -1110,8 +1110,8 @@
     "semantic_hash": ""
   },
   ".github/workflows/ci.yml": {
-    "mtime": 1783738354.136216,
-    "ast_hash": "14c59e333aea69227871b113eb87abdb",
+    "mtime": 1791494372.9116144,
+    "ast_hash": "f9fe6be222e20766d3caf26eff7c2a7d",
     "semantic_hash": ""
   },
   "openspec/changes/archive/2026-07-10-add-minimal-ci/.openspec.yaml": {
@@ -1140,8 +1140,8 @@
     "semantic_hash": ""
   },
   "openspec/specs/ci-quality-gate/spec.md": {
-    "mtime": 1783738633.0336752,
-    "ast_hash": "cddd59948d355f0ce1b52296fc7e44e2",
+    "mtime": 1791501283.318375,
+    "ast_hash": "dbd7e9b50be02fb6ab121ea895e27d40",
     "semantic_hash": ""
   },
   "docs/tecnico/generar-variantes-responsive.md": {
@@ -1265,8 +1265,8 @@
     "semantic_hash": ""
   },
   "openspec/specs/aria-semantics-and-focus/spec.md": {
-    "mtime": 1783983766.312074,
-    "ast_hash": "dc224fdddfb85490733b381f583c93c3",
+    "mtime": 1791479412.40133,
+    "ast_hash": "128ba4fb3521528e6ef307711ebc1ffd",
     "semantic_hash": ""
   },
   "openspec/changes/archive/2026-07-12-add-srcset-fragata-cultura/.openspec.yaml": {
@@ -1455,18 +1455,18 @@
     "semantic_hash": ""
   },
   "openspec/specs/home-cta-visual-treatment/spec.md": {
-    "mtime": 1783921713.2892797,
-    "ast_hash": "c4a1bc0b71b208f04eab1fc02424086d",
+    "mtime": 1791522941.2554173,
+    "ast_hash": "3d42a69a05e229e6014d93a685b828ec",
     "semantic_hash": ""
   },
   "openspec/specs/notfound-page-typography/spec.md": {
-    "mtime": 1783921829.5240395,
-    "ast_hash": "98e048d2664bd63d74edc9bc33bfa3e2",
+    "mtime": 1791501283.3705566,
+    "ast_hash": "c7981d59d24dfdc8028084d3de7bd502",
     "semantic_hash": ""
   },
   "openspec/specs/photos-line-visual-identity/spec.md": {
-    "mtime": 1783921791.7150936,
-    "ast_hash": "23bd8ac3a61d51426f521cd30d274799",
+    "mtime": 1791501283.394413,
+    "ast_hash": "e8ce60af0167752f53d6b7ff04c97471",
     "semantic_hash": ""
   },
   "openspec/changes/archive/2026-07-13-add-social-footer-secondary-pages/.openspec.yaml": {
@@ -1495,8 +1495,8 @@
     "semantic_hash": ""
   },
   "openspec/specs/site-footer-coverage/spec.md": {
-    "mtime": 1784011761.8118167,
-    "ast_hash": "eb21bdd55a53fff49ec36b5b933e3029",
+    "mtime": 1791501283.4004402,
+    "ast_hash": "edcbfb6f8a1a04c46059c2a182cff3fb",
     "semantic_hash": ""
   },
   "openspec/changes/archive/2026-07-13-fix-identidad-eyebrow-contrast/.openspec.yaml": {
@@ -2114,11 +2114,6 @@
     "ast_hash": "b72cff8c206c2e0c0b1a59cf768a3941",
     "semantic_hash": ""
   },
-  "docs/pendientes/baja-bloque-luna-taruma.md": {
-    "mtime": 1789776921.95784,
-    "ast_hash": "2410e105f44450248d62d6a40592bdd6",
-    "semantic_hash": ""
-  },
   "openspec/changes/archive/2026-09-18-add-luna-taruma-event-block/.openspec.yaml": {
     "mtime": 1789767715.6850688,
     "ast_hash": "b70cd8df0676b036bbf0f90970abeb32",
@@ -2154,14 +2149,9 @@
     "ast_hash": "195c4e6cb0d91a58d4b2b1167b69e4ff",
     "semantic_hash": ""
   },
-  "openspec/specs/luna-taruma-event-block/spec.md": {
-    "mtime": 1789778243.5796885,
-    "ast_hash": "1cb942563b9a87785cc50ca5d36e7bd1",
-    "semantic_hash": ""
-  },
   "openspec/specs/temporary-content-blocks/spec.md": {
-    "mtime": 1789772917.2588408,
-    "ast_hash": "c76e7f6c4832ad55af9603faf57cc218",
+    "mtime": 1791501283.402449,
+    "ast_hash": "ecadc4b78cfc91cb99e8b0b91fda4816",
     "semantic_hash": ""
   },
   "openspec/changes/archive/2026-09-18-add-luna-taruma-game/.openspec.yaml": {
@@ -2194,9 +2184,424 @@
     "ast_hash": "37c7e1ff79bec4bdbfdc2240cb652812",
     "semantic_hash": ""
   },
-  "openspec/specs/luna-taruma-quiz-game/spec.md": {
-    "mtime": 1789778233.7541463,
-    "ast_hash": "8ace9dcc8f3aeb9243578ce15aed6286",
+  "docs/marca/manual-identidad/index.html": {
+    "mtime": 1791493014.4553742,
+    "ast_hash": "ed268b90ca0f48fcb1148c5c30819564",
+    "semantic_hash": ""
+  },
+  "docs/marca/manual-identidad/manual-identidad-ensenada.pdf": {
+    "mtime": 1791493016.5764189,
+    "ast_hash": "6416bec523079002eb59dbe0843ddb0b",
+    "semantic_hash": ""
+  },
+  "docs/marca/manual-identidad/ensenada-caleta.svg": {
+    "mtime": 1791493014.4573748,
+    "ast_hash": "7aa45c20ec18665f528518f857af6093",
+    "semantic_hash": ""
+  },
+  "docs/marca/manual-identidad/ensenada-costa.svg": {
+    "mtime": 1791493014.4573748,
+    "ast_hash": "dc88e48e4ae961cb49c53dec52533419",
+    "semantic_hash": ""
+  },
+  "docs/marca/manual-identidad/ensenada-wordmark.svg": {
+    "mtime": 1791493014.4563727,
+    "ast_hash": "d6daac3b04d843827792b31a361b0c48",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-retire-luna-taruma-block/.openspec.yaml": {
+    "mtime": 1791477939.0452516,
+    "ast_hash": "4119a8266bb6ac1de3c20a412a4485c7",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-retire-luna-taruma-block/design.md": {
+    "mtime": 1791478097.6423938,
+    "ast_hash": "08a338019272d3e0120294206ce1342c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-retire-luna-taruma-block/proposal.md": {
+    "mtime": 1791477972.832157,
+    "ast_hash": "e39d3861ed73fa1a4606a275fa32c51c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-retire-luna-taruma-block/specs/luna-taruma-event-block/spec.md": {
+    "mtime": 1791478054.3254519,
+    "ast_hash": "5c71d8a19a7ec1a324a91fa20cdf9f6c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-retire-luna-taruma-block/specs/luna-taruma-quiz-game/spec.md": {
+    "mtime": 1791478054.3537107,
+    "ast_hash": "1d38bac2fe891d67bcb38ffa41496fb2",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-retire-luna-taruma-block/specs/temporary-content-blocks/spec.md": {
+    "mtime": 1791478603.2441883,
+    "ast_hash": "6be902d9a473dcedb466900f78a34d3b",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-retire-luna-taruma-block/tasks.md": {
+    "mtime": 1791478687.7507238,
+    "ast_hash": "9ba7db2d4bac5b1a6cf8718f77a143fc",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-fix-web-guidelines-findings/.openspec.yaml": {
+    "mtime": 1791478787.361654,
+    "ast_hash": "4119a8266bb6ac1de3c20a412a4485c7",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-fix-web-guidelines-findings/design.md": {
+    "mtime": 1791478920.05792,
+    "ast_hash": "bace31468697305e60dab73696bfe6ce",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-fix-web-guidelines-findings/proposal.md": {
+    "mtime": 1791478818.0382879,
+    "ast_hash": "c5b01fbef7b46badb877ecabcd6d8e28",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-fix-web-guidelines-findings/specs/aria-semantics-and-focus/spec.md": {
+    "mtime": 1791478875.4476306,
+    "ast_hash": "3184a07d39bc4a94cf1fc90357e1e229",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-fix-web-guidelines-findings/specs/focus-order-matches-visual-order/spec.md": {
+    "mtime": 1791478851.2648542,
+    "ast_hash": "c4fa2d0835859ca197b5e938c66b43c4",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-fix-web-guidelines-findings/specs/interactive-controls-semantics/spec.md": {
+    "mtime": 1791478851.2937815,
+    "ast_hash": "34ceabf5e5efa52a2f1901dec75924cb",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-fix-web-guidelines-findings/specs/keyboard-accessible-galleries/spec.md": {
+    "mtime": 1791478875.418751,
+    "ast_hash": "1ea9ce3084f171cb618d9161dbc8d98c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-fix-web-guidelines-findings/specs/native-ui-theming/spec.md": {
+    "mtime": 1791478851.3212535,
+    "ast_hash": "a2971cb6d523f00187564004e08d0b46",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-fix-web-guidelines-findings/tasks.md": {
+    "mtime": 1791479379.702314,
+    "ast_hash": "9d3f396a1640c5e7dd0dcef7e0d34134",
+    "semantic_hash": ""
+  },
+  "openspec/specs/focus-order-matches-visual-order/spec.md": {
+    "mtime": 1791479412.40233,
+    "ast_hash": "148957cf510c5cbfe0c14de88a8898d3",
+    "semantic_hash": ""
+  },
+  "openspec/specs/interactive-controls-semantics/spec.md": {
+    "mtime": 1791479412.40233,
+    "ast_hash": "ca9a79d7b402e80ac1775a59c0029a23",
+    "semantic_hash": ""
+  },
+  "openspec/specs/native-ui-theming/spec.md": {
+    "mtime": 1791479412.403333,
+    "ast_hash": "90d15d920934a90daef9ed7f0e4bf079",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-apply-brand-manual-v3/.openspec.yaml": {
+    "mtime": 1791479451.9246879,
+    "ast_hash": "4119a8266bb6ac1de3c20a412a4485c7",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-apply-brand-manual-v3/design.md": {
+    "mtime": 1791479617.5540452,
+    "ast_hash": "e3f2b9c0ec42374759f75b3a5c0e7b09",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-apply-brand-manual-v3/proposal.md": {
+    "mtime": 1791479491.516151,
+    "ast_hash": "533f1c486fc91378adac0d829607e388",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-apply-brand-manual-v3/specs/brand-identity-system/spec.md": {
+    "mtime": 1791479522.6658006,
+    "ast_hash": "74c0e68cfa4d926a6fb8c6458e125d42",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-apply-brand-manual-v3/specs/territory-visual-system/spec.md": {
+    "mtime": 1791479522.6907601,
+    "ast_hash": "c1940d41aaaf33fb91f84dbcb6b4183f",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-apply-brand-manual-v3/tasks.md": {
+    "mtime": 1791493236.3364737,
+    "ast_hash": "e514f9858185f361ffb07404a2ba87bd",
+    "semantic_hash": ""
+  },
+  "openspec/specs/brand-identity-system/spec.md": {
+    "mtime": 1791521173.4482381,
+    "ast_hash": "4b43da70eb2313eb8e8760426d409a72",
+    "semantic_hash": ""
+  },
+  "openspec/specs/territory-visual-system/spec.md": {
+    "mtime": 1791480634.790526,
+    "ast_hash": "cd93011c82a4c95ba6ead71cd8fe7b09",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-unify-pages-on-shared-stylesheet/.openspec.yaml": {
+    "mtime": 1791500254.6250973,
+    "ast_hash": "4119a8266bb6ac1de3c20a412a4485c7",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-unify-pages-on-shared-stylesheet/design.md": {
+    "mtime": 1791501025.413085,
+    "ast_hash": "c329e2c3330bcbbfb2bb5f1e4e8f7bac",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-unify-pages-on-shared-stylesheet/proposal.md": {
+    "mtime": 1791500931.327345,
+    "ast_hash": "bd72920c6bfbc6b6c6ca85bb80122748",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-unify-pages-on-shared-stylesheet/specs/ci-quality-gate/spec.md": {
+    "mtime": 1791501183.4472911,
+    "ast_hash": "13f077dea3034386444785c9ad7c0fc8",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-unify-pages-on-shared-stylesheet/specs/consistent-site-chrome/spec.md": {
+    "mtime": 1791501069.9240036,
+    "ast_hash": "062e90b0c94394526db9a64f12b11bda",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-unify-pages-on-shared-stylesheet/specs/notfound-page-typography/spec.md": {
+    "mtime": 1791501272.5486753,
+    "ast_hash": "825808171a2f6d04450a9b9d84a0411a",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-unify-pages-on-shared-stylesheet/specs/photo-reel-carousel/spec.md": {
+    "mtime": 1791501091.4721665,
+    "ast_hash": "4104ed0e42dcdb94c1a65e7049d7f714",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-unify-pages-on-shared-stylesheet/specs/photos-line-visual-identity/spec.md": {
+    "mtime": 1791501151.3390746,
+    "ast_hash": "a16f4c65d306883dacc9a5979a73a0a6",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-unify-pages-on-shared-stylesheet/specs/shared-stylesheet-architecture/spec.md": {
+    "mtime": 1791501047.4067793,
+    "ast_hash": "aeee5435b2d3d0984f4ae6dbbc827bc2",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-unify-pages-on-shared-stylesheet/specs/site-footer-coverage/spec.md": {
+    "mtime": 1791501152.4378996,
+    "ast_hash": "0322e6f2cba65f6dca52542bf5488e13",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-unify-pages-on-shared-stylesheet/specs/technical-docs-accuracy/spec.md": {
+    "mtime": 1791501184.5489252,
+    "ast_hash": "f65241dc58f32bbac16a72d9b8a201e5",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-unify-pages-on-shared-stylesheet/specs/temporary-content-blocks/spec.md": {
+    "mtime": 1791501118.6723,
+    "ast_hash": "3954d464ca9131de0f0aca8d3b7dee88",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-08-unify-pages-on-shared-stylesheet/tasks.md": {
+    "mtime": 1791501213.455986,
+    "ast_hash": "24db2d655eaa73070a4de70fabf44447",
+    "semantic_hash": ""
+  },
+  "openspec/specs/consistent-site-chrome/spec.md": {
+    "mtime": 1791522941.2544096,
+    "ast_hash": "d7f8b9c3cda1614529379bf808105acb",
+    "semantic_hash": ""
+  },
+  "openspec/specs/photo-reel-carousel/spec.md": {
+    "mtime": 1791501308.870098,
+    "ast_hash": "47fb4abfcce402214fcbe7831eae6520",
+    "semantic_hash": ""
+  },
+  "openspec/specs/shared-stylesheet-architecture/spec.md": {
+    "mtime": 1791501308.870098,
+    "ast_hash": "467ac5a16322cb15a6532b4c1b1d35eb",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-emblem-intro-and-scroll-motion/.openspec.yaml": {
+    "mtime": 1791504430.0640523,
+    "ast_hash": "433c90e145c3244312223cbcf6cf21ae",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-emblem-intro-and-scroll-motion/design.md": {
+    "mtime": 1791504544.2218707,
+    "ast_hash": "8b6e2f3083cc742355157e93b92ff32e",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-emblem-intro-and-scroll-motion/proposal.md": {
+    "mtime": 1791504496.9215746,
+    "ast_hash": "988cb4db49e1f9b0fb8b0dfa714ed62c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-emblem-intro-and-scroll-motion/specs/brand-identity-system/spec.md": {
+    "mtime": 1791504614.5462196,
+    "ast_hash": "907ba4511bfc5df9f38fa72d0c857f8c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-emblem-intro-and-scroll-motion/specs/emblem-intro-animation/spec.md": {
+    "mtime": 1791504574.8416605,
+    "ast_hash": "7e5de78511ab260849c906a27f34c3c6",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-emblem-intro-and-scroll-motion/specs/home-cta-visual-treatment/spec.md": {
+    "mtime": 1791506047.9435768,
+    "ast_hash": "eb7f53b11c5bb0e54581217793f0b337",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-emblem-intro-and-scroll-motion/specs/scroll-motion-system/spec.md": {
+    "mtime": 1791504595.6813297,
+    "ast_hash": "caefc4c42435f64e1b1baaf07e07df07",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-emblem-intro-and-scroll-motion/tasks.md": {
+    "mtime": 1791506025.030081,
+    "ast_hash": "d855823a576318057f3ebfc5464d6716",
+    "semantic_hash": ""
+  },
+  "openspec/specs/emblem-intro-animation/spec.md": {
+    "mtime": 1791522941.2554173,
+    "ast_hash": "41d613996dd1b64f76818e5d1655b031",
+    "semantic_hash": ""
+  },
+  "openspec/specs/scroll-motion-system/spec.md": {
+    "mtime": 1791521173.4494488,
+    "ast_hash": "8003ccaf2fc184e9bc11b5ddcaaa280e",
+    "semantic_hash": ""
+  },
+  "docs/marca/manual-identidad/pincelada-demo.html": {
+    "mtime": 1791506575.0132382,
+    "ast_hash": "eb9938021b61d53886fcc5cea84cce34",
+    "semantic_hash": ""
+  },
+  "docs/marca/manual-identidad/herramientas/branches.py": {
+    "mtime": 1791506008.482607,
+    "ast_hash": "b0064fa50cb86e580832d64fcee7be2a",
+    "semantic_hash": ""
+  },
+  "docs/marca/manual-identidad/herramientas/build.py": {
+    "mtime": 1791507643.451658,
+    "ast_hash": "1620912cc04c643cc5df9688dac35930",
+    "semantic_hash": ""
+  },
+  "docs/marca/manual-identidad/herramientas/demo.py": {
+    "mtime": 1791507643.451658,
+    "ast_hash": "1052ee5fd0366a0a885870185b6b0d56",
+    "semantic_hash": ""
+  },
+  "docs/marca/manual-identidad/herramientas/skeleton.py": {
+    "mtime": 1791505944.9853127,
+    "ast_hash": "e17c9164e43991d98ee90505fb0a8da1",
+    "semantic_hash": ""
+  },
+  "docs/marca/manual-identidad/herramientas/strokes.py": {
+    "mtime": 1791506055.9316354,
+    "ast_hash": "db86c01ab367a297f02b65d9b184dc0e",
+    "semantic_hash": ""
+  },
+  "docs/marca/manual-identidad/herramientas/trabajo/wm-strokes.json": {
+    "mtime": 1791507653.5130332,
+    "ast_hash": "54c598af80911de6324445993a5ccac4",
+    "semantic_hash": ""
+  },
+  "docs/marca/manual-identidad/herramientas/trace.py": {
+    "mtime": 1791507643.451658,
+    "ast_hash": "9ec21039267837f26f1f79fed4e0835f",
+    "semantic_hash": ""
+  },
+  "docs/marca/manual-identidad/herramientas/README.md": {
+    "mtime": 1791507667.334958,
+    "ast_hash": "7352279fe585c04ff3c299b5525e9fc1",
+    "semantic_hash": ""
+  },
+  "docs/marca/manual-identidad/herramientas/template.html": {
+    "mtime": 1791493009.3668036,
+    "ast_hash": "75274f49194adc069b66d4eddde346ef",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-emblem-masthead-scroll-exit/.openspec.yaml": {
+    "mtime": 1791508773.667116,
+    "ast_hash": "433c90e145c3244312223cbcf6cf21ae",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-emblem-masthead-scroll-exit/design.md": {
+    "mtime": 1791508870.5302653,
+    "ast_hash": "01f46b5f16be8f937617746436f3b84c",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-emblem-masthead-scroll-exit/proposal.md": {
+    "mtime": 1791508806.4599118,
+    "ast_hash": "01474c101078542060e6ccea838e416e",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-emblem-masthead-scroll-exit/specs/brand-identity-system/spec.md": {
+    "mtime": 1791508936.6387324,
+    "ast_hash": "dc489fc7434e96183ce2b47a286bb757",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-emblem-masthead-scroll-exit/specs/emblem-intro-animation/spec.md": {
+    "mtime": 1791508914.9846702,
+    "ast_hash": "370e6e2e9f8361cad0039f1661200d35",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-emblem-masthead-scroll-exit/specs/scroll-motion-system/spec.md": {
+    "mtime": 1791508937.7806349,
+    "ast_hash": "c538faffde22696409c1f19d056fa502",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-emblem-masthead-scroll-exit/tasks.md": {
+    "mtime": 1791521166.821903,
+    "ast_hash": "2bb8cce058feaf335bbd8d8fb0e435fb",
+    "semantic_hash": ""
+  },
+  "docs/marca/manual-identidad/herramientas/trabajo/co-skel.png": {
+    "mtime": 1791507654.124026,
+    "ast_hash": "b3f1d4a348fe531219079a13f25f18f9",
+    "semantic_hash": ""
+  },
+  "docs/marca/manual-identidad/herramientas/trabajo/wm-skel.png": {
+    "mtime": 1791507653.0545926,
+    "ast_hash": "772e7ae7e5fcae56c1c199288aa11036",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-chrome-appears-after-stroke/.openspec.yaml": {
+    "mtime": 1791522811.9964151,
+    "ast_hash": "433c90e145c3244312223cbcf6cf21ae",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-chrome-appears-after-stroke/design.md": {
+    "mtime": 1791522869.477651,
+    "ast_hash": "a6ad60a94e28637ce8b1cbd1b826bc4b",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-chrome-appears-after-stroke/proposal.md": {
+    "mtime": 1791522835.1463776,
+    "ast_hash": "2f36014a88deb7695b0196295816f7a7",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-chrome-appears-after-stroke/specs/consistent-site-chrome/spec.md": {
+    "mtime": 1791522904.9308474,
+    "ast_hash": "0b9cb9a22056c943430659f1559c27cb",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-chrome-appears-after-stroke/specs/emblem-intro-animation/spec.md": {
+    "mtime": 1791522906.0052998,
+    "ast_hash": "3126baf1a99478270fec0478bfddb359",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-chrome-appears-after-stroke/specs/home-cta-visual-treatment/spec.md": {
+    "mtime": 1791522930.0735524,
+    "ast_hash": "688d1790cf7a0b0ac3c202c5f19dfcde",
+    "semantic_hash": ""
+  },
+  "openspec/changes/archive/2026-10-09-chrome-appears-after-stroke/tasks.md": {
+    "mtime": 1791522931.1512442,
+    "ast_hash": "9dfc9694bf23b047c4db1cdd4fe315ba",
     "semantic_hash": ""
   }
 }

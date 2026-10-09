@@ -1,0 +1,86 @@
+/* =============================================================================
+   Turismo Ensenada — página no encontrada
+   Rediseño 2026-10-08. Sistema del Manual de Identidad v3.0.
+
+   Los tokens y el pie vienen de base.css. La página no lleva el encabezado
+   completo a propósito: es un callejón sin salida, y lo único que tiene que
+   hacer es decir dónde estás y devolverte al inicio.
+   ========================================================================== */
+
+.perdida {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: var(--e3);
+  min-height: 72svh;
+  padding: var(--e6) var(--e4) var(--e5);
+  text-align: center;
+}
+
+.perdida-marca {
+  display: block;
+  text-decoration: none;
+}
+
+.perdida-lettering {
+  /* Igual que en el encabezado: es un <span> dentro de un <a> en bloque, así
+     que necesita display: block o colapsa a 0x0. */
+  display: block;
+  width: min(68vw, 400px);
+  aspect-ratio: 2500 / 704;
+  background-color: var(--papel);
+  -webkit-mask: url("/assets/marca/ensenada-wordmark.svg") no-repeat center / contain;
+  mask: url("/assets/marca/ensenada-wordmark.svg") no-repeat center / contain;
+}
+
+/* Especificidad 0,2,0 por lo mismo que en en-fotos.css: .perdida p gana
+   por ser clase + tipo y lo dejaba en papel en vez de amarillo. */
+.perdida .perdida-codigo {
+  color: var(--amarillo);
+  font-size: var(--t-micro);
+  font-weight: 900;
+  letter-spacing: 0.22em;
+}
+
+.perdida h1 {
+  max-width: 16ch;
+  font-size: var(--t-titulo);
+}
+
+.perdida p {
+  max-width: 46ch;
+  color: rgba(244, 242, 236, 0.78);
+}
+
+.perdida-ir {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: var(--e1);
+  padding: 15px 28px;
+  border-radius: var(--r-pastilla);
+  background: var(--amarillo);
+  color: var(--noche);
+  font-size: var(--t-chico);
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition:
+    transform 200ms var(--sale),
+    box-shadow 200ms var(--sale);
+}
+
+.perdida-ir:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 40px rgba(255, 212, 61, 0.34);
+}
+
+.perdida-ir:active {
+  transform: translateY(0) scale(0.98);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .perdida-ir {
+    transition: none;
+  }
+}

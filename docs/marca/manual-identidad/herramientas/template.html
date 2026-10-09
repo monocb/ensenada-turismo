@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manual de Identidad Ensenada</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --noche:#0E1330; --noche-2:#161B40; --papel:#F4F2EC; --blanco:#FFFFFF;
+  --tinta:#0E1330; --gris-texto:#4A5068; --linea:#DEDAD0;
+  --verde-monte:#1B5E20; --sauce:#3E8E3F; --rio-verde:#00A676;
+  --celeste:#3B6FD4; --amarillo:#FFD43D; --rojo:#F04438;
+  --rio-plata:#0B55FF; --cielo-verano:#00C8FF; --atardecer:#6D5CFF; --acero:#6B7280;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#2A2E3A}
+body{font-family:"Archivo",system-ui,sans-serif;color:var(--tinta);-webkit-font-smoothing:antialiased}
+
+/* ---------- Escalado en pantalla ---------- */
+.deck{display:flex;flex-direction:column;align-items:center;gap:calc(32px*var(--s,1));padding:calc(32px*var(--s,1)) 0}
+.frame{width:calc(1920px*var(--s,1));height:calc(1080px*var(--s,1));position:relative;box-shadow:0 10px 40px rgba(0,0,0,.35)}
+.slide{width:1920px;height:1080px;position:absolute;top:0;left:0;transform:scale(var(--s,1));transform-origin:0 0;overflow:hidden;
+  background:var(--papel);padding:96px 120px 0;display:flex;flex-direction:column}
+.slide.dark{background:var(--noche);color:#F4F2EC}
+.slide.green{background:var(--verde-monte);color:#F4F2EC}
+
+@media print{
+  @page{size:1920px 1080px;margin:0}
+  html,body{background:none}
+  .deck{display:block;padding:0;gap:0}
+  .frame{width:1920px;height:1080px;box-shadow:none;page-break-after:always;break-after:page}
+  .slide{transform:none}
+  .noprint{display:none!important}
+}
+
+/* ---------- Tipografía ---------- */
+.kicker{display:flex;align-items:center;gap:14px;font-size:20px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;font-variation-settings:"wdth" 110}
+.kicker::before{content:"";width:12px;height:12px;border-radius:50%;background:currentColor}
+h1,h2{font-weight:900;font-variation-settings:"wdth" 112;letter-spacing:-.02em;line-height:.98}
+h2{font-size:84px;margin-top:22px}
+.lead{font-size:26px;line-height:1.45;color:var(--gris-texto);max-width:820px}
+.dark .lead,.green .lead{color:#B9BED6}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:80px;margin-bottom:56px}
+.head .lead{max-width:640px;text-align:right}
+.label{font-size:17px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#7A8099;font-variation-settings:"wdth" 110}
+.dark .label{color:#8E95BC}
+
+/* pie de página */
+.foot{position:absolute;left:120px;right:120px;bottom:44px;display:flex;justify-content:space-between;font-size:17px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#9A9FB2}
+.dark .foot,.green .foot{color:#7C82A6}
+.green .foot{color:#A8C9AA}
+
+/* tarjetas */
+.cards{display:grid;gap:28px;flex:1;margin-bottom:120px;min-height:0}
+.card{background:var(--blanco);border-radius:24px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:40px}
+.card .label{position:absolute;top:30px;left:34px}
+.card.navy{background:var(--noche)} .card.navy .label{color:#8E95BC}
+.dark .card{background:var(--noche-2)}
+.dark .card.white{background:#fff}
+
+.wm{display:block;fill:currentColor}
+svg{overflow:visible} use{fill:currentColor} figcaption.label{position:static!important}
+
+/* colores de sección */
+.cA{color:var(--sauce)} .cB{color:var(--rojo)} .cC{color:var(--rio-verde)} .cD{color:#8E95BC}
+.cE{color:var(--rio-plata)} .cF{color:var(--atardecer)} .cG{color:var(--cielo-verano)} .cH{color:#E0B300} .cI{color:var(--verde-monte)}
+.dark .cH{color:var(--amarillo)} .dark .cE{color:#5D8BFF}
+</style>
+</head>
+<body>
+
+<!-- ======= Formas trazadas del manual original ======= -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="wordmark" viewBox="{{WM_VB}}"><path fill-rule="evenodd" d="{{WM_D}}"/></symbol>
+    <symbol id="caleta" viewBox="{{CA_VB}}"><path fill-rule="evenodd" d="{{CA_D}}"/></symbol>
+    <symbol id="costa" viewBox="{{CO_VB}}"><path fill-rule="evenodd" d="{{CO_D}}"/></symbol>
+    <filter id="pincel" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".09" numOctaves="2" seed="7"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+    </filter>
+
+    <!-- Íconos: grilla 64, trazo redondeado -->
+    <symbol id="i-sauce" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M32 58V20"/><path d="M10 32C10 12 54 12 54 32"/><path d="M14 26c-1 7 0 14 2 20M23 19c-1 9 0 18 1 26M41 19c1 9 0 18-1 26M50 26c1 7 0 14-2 20"/></g></symbol>
+    <symbol id="i-hoja" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M32 58C14 46 14 22 32 6c18 16 18 40 0 52Z"/><path d="M32 58V16"/><path d="M32 30l-9-7M32 42l-10-7M32 30l9-7M32 42l10-7"/></g></symbol>
+    <symbol id="i-garza" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 40c4-10 18-12 26-4-6 8-20 10-26 4Z"/><path d="M42 34c6-6 0-14 4-22"/><path d="M46 12l12 3"/><path d="M28 46v12M34 46v12"/></g></symbol>
+    <symbol id="i-ola" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"><path d="M6 26c6.5-8 13-8 13 0s6.5 8 13 0 6.5-8 13 0 6.5 8 13 0"/><path d="M6 42c6.5-8 13-8 13 0s6.5 8 13 0 6.5-8 13 0 6.5 8 13 0"/></g></symbol>
+    <symbol id="i-bote" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 40h48l-8 12H16Z"/><path d="M32 40V8"/><path d="M32 10l16 24H32"/></g></symbol>
+    <symbol id="i-pez" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 32c10-14 30-14 40 0-10 14-30 14-40 0Z"/><path d="M48 32l10-10v20Z"/><circle cx="20" cy="30" r="1.5" fill="currentColor"/></g></symbol>
+    <symbol id="i-grua" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 58V8h40"/><path d="M16 18L28 8M16 30l12-12"/><path d="M48 8v20"/><path d="M48 28c0 6-7 6-7 1"/><path d="M6 58h22"/></g></symbol>
+    <symbol id="i-fragata" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 44h52l-8 12H14Z"/><path d="M32 44V6"/><path d="M32 8h12v8H32"/><path d="M18 44V22M46 44V24"/><path d="M12 30h12M40 32h12M24 20h16"/></g></symbol>
+    <symbol id="i-llama" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M32 58c-14-2-18-18-8-28 0 8 4 10 6 8-4-12 2-24 10-30-2 12 12 20 10 34-2 10-10 16-18 16Z"/></g></symbol>
+    <symbol id="i-fuerte" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 56V22h8v7h8v-7h12v7h8v-7h8v34"/><path d="M26 56V45a6 6 0 0 1 12 0v11"/><path d="M4 56h56"/></g></symbol>
+    <symbol id="i-mate" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 24h28c6 12 6 28-14 34-20-6-20-22-14-34Z"/><path d="M36 24L46 6h6"/></g></symbol>
+    <symbol id="i-bombo" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="32" cy="20" rx="20" ry="7"/><path d="M12 20v24c0 4 9 7 20 7s20-3 20-7V20"/><path d="M12 26l10 20 10-20 10 20 10-20"/></g></symbol>
+    <symbol id="i-sol" viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 46a16 16 0 0 1 32 0"/><path d="M6 46h52"/><path d="M32 22V12M18 28l-6-7M46 28l6-7M12 38H4M52 38h8"/></g></symbol>
+    <symbol id="i-caleta" viewBox="{{CA_VB}}"><path fill-rule="evenodd" d="{{CA_D}}"/></symbol>
+
+    <!-- Sello patrio -->
+    <symbol id="sello" viewBox="0 0 200 200">
+      <circle cx="100" cy="100" r="94" fill="none" stroke="var(--ring,currentColor)" stroke-width="7"/>
+      <circle cx="100" cy="100" r="82" fill="none" stroke="var(--ring,currentColor)" stroke-width="2"/>
+      <path d="M96 40v74" stroke="var(--ink,currentColor)" stroke-width="4.5" stroke-linecap="round"/>
+      <rect x="98" y="41" width="30" height="18" fill="var(--flag-w,#fff)" stroke="var(--flag-line,none)" stroke-width="2"/>
+      <rect x="98" y="41" width="30" height="6" fill="var(--flag-c,#74ACDF)"/><rect x="98" y="53" width="30" height="6" fill="var(--flag-c,#74ACDF)"/>
+      <path d="M62 109a34 34 0 0 1 68 0Z" fill="var(--sail,currentColor)" stroke="var(--sail-line,none)" stroke-width="4"/>
+      <path d="M56 116h88l-12 16H68Z" fill="var(--hull,currentColor)" stroke="var(--hull-line,none)" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M44 144c36-14 76-14 112 0" fill="none" stroke="var(--wave,currentColor)" stroke-width="6" stroke-linecap="round"/>
+      <path d="M52 160c32-10 64-10 96 0" fill="none" stroke="var(--wave,currentColor)" stroke-width="6" stroke-linecap="round"/>
+    </symbol>
+
+    <!-- Patrones -->
+    <pattern id="p-ondas" width="80" height="40" patternUnits="userSpaceOnUse"><path d="M0 20c10-12 30-12 40 0s30 12 40 0" fill="none" stroke="#8FB0EE" stroke-width="5" stroke-linecap="round"/></pattern>
+    <pattern id="p-hojas" width="90" height="110" patternUnits="userSpaceOnUse"><use href="#i-hoja" x="12" y="10" width="34" height="34" color="#4FA153"/><use href="#i-hoja" x="57" y="65" width="34" height="34" color="#4FA153"/></pattern>
+    <pattern id="p-gruas" width="56" height="56" patternUnits="userSpaceOnUse"><path d="M0 0L56 56M56 0L0 56" stroke="#A5ABBA" stroke-width="3"/></pattern>
+  </defs>
+</svg>
+
+<main class="deck" id="deck">
+
+<!-- 01 · PORTADA -->
+<section class="frame"><div class="slide dark" style="justify-content:center;align-items:center;padding-top:0">
+  <div style="position:absolute;top:84px;left:120px;right:120px;display:flex;justify-content:space-between">
+    <div class="kicker" style="color:var(--amarillo)"><span style="color:#F4F2EC">Una identidad</span></div>
+    <div class="label" style="color:#8E95BC">Manual de identidad · v3.0</div>
+  </div>
+  <div class="label" style="color:var(--amarillo);font-size:30px;letter-spacing:.6em;margin-bottom:28px;margin-left:.6em">Turismo</div>
+  <svg class="wm" style="width:1060px;height:300px;color:#F4F2EC"><use href="#wordmark"/></svg>
+  <svg class="wm" style="width:820px;height:90px;margin-top:26px;color:var(--sauce)"><use href="#costa"/></svg>
+  <div style="position:absolute;bottom:80px;left:120px;right:120px;display:flex;justify-content:space-between;align-items:center">
+    <div class="label" style="color:#8E95BC">La letra hecha lugar</div>
+    <div style="display:flex;height:12px;width:420px;border-radius:6px;overflow:hidden">
+      <i style="flex:1;background:var(--verde-monte)"></i><i style="flex:1;background:var(--sauce)"></i><i style="flex:1;background:var(--rio-verde)"></i><i style="flex:1;background:var(--celeste)"></i><i style="flex:1;background:var(--amarillo)"></i><i style="flex:1;background:var(--rojo)"></i><i style="flex:1;background:var(--acero)"></i>
+    </div>
+  </div>
+</div></section>
+
+<!-- 02 · ÍNDICE -->
+<section class="frame"><div class="slide">
+  <h2 style="margin-top:0;font-size:110px">Índice</h2>
+  <style>
+    .toc{display:grid;grid-template-columns:1fr 1fr;column-gap:96px;margin-top:56px}
+    .toc li{list-style:none;display:grid;grid-template-columns:64px 1fr auto;align-items:baseline;border-top:2px solid var(--linea);padding:26px 0;font-size:36px;font-weight:600}
+    .toc b{font-weight:900;font-size:32px;font-variation-settings:"wdth" 112}
+    .toc span{font-size:22px;color:#9A9FB2;font-weight:600}
+  </style>
+  <ol class="toc">
+    <li><b class="cA">A</b>Logo y emblema<span>03</span></li>
+    <li><b class="cF">F</b>Iconografía<span>14</span></li>
+    <li><b class="cB">B</b>Color con significado<span>05</span></li>
+    <li><b class="cG">G</b>Patrones<span>15</span></li>
+    <li><b class="cC">C</b>La Caleta (contenedor)<span>07</span></li>
+    <li><b class="cH">H</b>Tipografía<span>16</span></li>
+    <li><b class="cD" style="color:var(--acero)">D</b>El sello patrio<span>08</span></li>
+    <li><b class="cI">I</b>Aplicaciones<span>17</span></li>
+    <li><b class="cE">E</b>Los territorios<span>09</span></li>
+    <li style="border-top-color:transparent"></li>
+  </ol>
+  <div class="foot"><span>Ciudad de Ensenada · Manual de identidad</span><span>02</span></div>
+</div></section>
+
+<!-- 03 · A · WORDMARK -->
+<section class="frame"><div class="slide">
+  <div class="kicker cA">A · Logo</div>
+  <div class="head" style="margin-bottom:48px">
+    <h2>La letra hecha lugar.</h2>
+    <p class="lead">Lettering de pincel con movimiento y ritmo, sin perder legibilidad. Conviven dos formas: el <b>wordmark</b> para uso cotidiano y el <b>emblema</b> para piezas hero, portadas y cartelería.</p>
+  </div>
+  <div class="cards" style="grid-template-columns:1.45fr 1fr;grid-template-rows:1fr 1fr">
+    <div class="card" style="grid-row:span 2"><span class="label">Wordmark · uso cotidiano</span>
+      <svg class="wm" style="width:620px;height:200px;color:var(--sauce)"><use href="#wordmark"/></svg></div>
+    <div class="card navy"><span class="label">Negativo</span>
+      <svg class="wm" style="width:400px;height:130px;color:#fff"><use href="#wordmark"/></svg></div>
+    <div class="card" style="background:var(--celeste)"><span class="label" style="color:#DCE6FB">Sobre color</span>
+      <svg class="wm" style="width:400px;height:130px;color:#fff"><use href="#wordmark"/></svg></div>
+  </div>
+  <div class="foot"><span>A · Logo y emblema</span><span>03</span></div>
+</div></section>
+
+<!-- 04 · A · EMBLEMA -->
+<section class="frame"><div class="slide">
+  <div class="kicker cA">A · El emblema</div>
+  <div class="head">
+    <h2>Un solo gesto:<br>letra y territorio.</h2>
+    <p class="lead">El trazo final de la última «A» se prolonga en una pincelada continua que dibuja la línea de costa de la ensenada y su punta.</p>
+  </div>
+  <div class="cards" style="grid-template-columns:repeat(3,1fr)">
+    <div class="card" style="flex-direction:column"><span class="label">1 · Línea pura · una tinta</span>
+      <svg class="wm" style="width:400px;height:130px;color:var(--verde-monte)"><use href="#wordmark"/></svg>
+      <svg class="wm" style="width:440px;height:52px;margin-top:14px;color:var(--verde-monte)"><use href="#costa"/></svg></div>
+    <div class="card" style="flex-direction:column"><span class="label">2 · Versión bandera</span>
+      <div style="width:440px;border-radius:14px;overflow:hidden;border:2px solid var(--linea)">
+        <div style="height:64px;background:var(--celeste);display:flex;justify-content:flex-end;align-items:center;padding-right:22px">
+          <svg width="40" height="40" style="color:var(--amarillo)"><use href="#i-sol"/></svg></div>
+        <div style="padding:28px 30px 22px;display:flex;flex-direction:column;align-items:center">
+          <svg class="wm" style="width:340px;height:108px;color:var(--sauce)"><use href="#wordmark"/></svg>
+          <svg class="wm" style="width:300px;height:38px;margin-top:8px;color:var(--verde-monte)"><use href="#costa"/></svg></div>
+      </div></div>
+    <div class="card navy" style="flex-direction:column"><span class="label">3 · Cómo se construye</span>
+      <svg class="wm" style="width:400px;height:130px;color:#fff"><use href="#wordmark"/></svg>
+      <div style="position:relative;width:440px;height:52px;margin-top:14px">
+        <svg class="wm" style="width:440px;height:52px;color:var(--sauce)"><use href="#costa"/></svg>
+        <svg viewBox="0 0 440 52" style="position:absolute;inset:0;width:440px;height:52px"><g fill="var(--amarillo)"><circle cx="216" cy="20" r="6"/><circle cx="230" cy="29" r="4.5"/><circle cx="242" cy="35" r="4.5"/><circle cx="254" cy="37" r="6"/></g></svg>
+      </div>
+      <div style="margin-top:30px;text-align:center"><div style="font-size:30px;font-weight:800;color:#8FB0EE">Punta Lara</div>
+      <div style="font-size:20px;color:#8E95BC;margin-top:8px">La «A» final entrega su trazo a la costa.</div></div></div>
+  </div>
+  <div class="foot"><span>A · Logo y emblema</span><span>04</span></div>
+</div></section>
+
+<!-- 05 · B · PRIMARIOS -->
+<section class="frame"><div class="slide">
+  <style>
+    .sw{background:#fff;border-radius:22px;overflow:hidden;display:flex;flex-direction:column}
+    .sw i{flex:1;display:block}
+    .sw div{padding:22px 28px 26px}
+    .sw small{display:block;font-size:16px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;font-variation-settings:"wdth" 110}
+    .sw strong{display:block;font-size:30px;font-weight:800;margin-top:6px;font-variation-settings:"wdth" 108}
+    .sw p{font-size:20px;color:var(--gris-texto);margin-top:6px}
+  </style>
+  <div class="kicker cB">B · Color con significado</div>
+  <div class="head">
+    <h2>Anclada a la bandera.</h2>
+    <p class="lead">La bandera oficial de 1999: cielo y sol naciente, agua, costa verde-monte y la franja roja de la fusión de orígenes.</p>
+  </div>
+  <div class="cards" style="grid-template-columns:repeat(3,1fr);grid-template-rows:1fr 1fr">
+    <div class="sw"><i style="background:var(--verde-monte)"></i><div><small style="color:var(--verde-monte)">Verde-monte · institucional</small><strong>#1B5E20</strong><p>La costa de la bandera, la selva marginal.</p></div></div>
+    <div class="sw"><i style="background:var(--sauce)"></i><div><small style="color:var(--sauce)">Sauce · lettering</small><strong>#3E8E3F</strong><p>El verde del logo, más luminoso.</p></div></div>
+    <div class="sw"><i style="background:var(--rio-verde)"></i><div><small style="color:#008A62">Río verde</small><strong>#00A676</strong><p>Agua y naturaleza en movimiento.</p></div></div>
+    <div class="sw"><i style="background:var(--celeste)"></i><div><small style="color:var(--celeste)">Celeste · cielo</small><strong>#3B6FD4 · Pantone 285</strong><p>El cielo con sol naciente de la bandera.</p></div></div>
+    <div class="sw"><i style="background:var(--amarillo)"></i><div><small style="color:#B38F00">Amarillo · sol</small><strong>#FFD43D · Pantone 108</strong><p>El sol naciente: identidad y esperanza.</p></div></div>
+    <div class="sw"><i style="background:var(--rojo)"></i><div><small style="color:var(--rojo)">Rojo · sangre</small><strong>#F04438 · Pantone 185</strong><p>Fusión de orígenes, carnaval, esfuerzo obrero.</p></div></div>
+  </div>
+  <div class="foot"><span>B · Color con significado</span><span>05</span></div>
+</div></section>
+
+<!-- 06 · B · COMPLEMENTARIOS -->
+<section class="frame"><div class="slide">
+  <div class="kicker cE">B · Complementarios</div>
+  <div class="head">
+    <h2>El río, el cielo y el acero.</h2>
+    <p class="lead">Acompañan a la paleta de bandera en piezas digitales, fondos y señalética. Nunca reemplazan al verde institucional.</p>
+  </div>
+  <div class="cards" style="grid-template-columns:repeat(5,1fr)">
+    <div class="sw"><i style="background:var(--rio-plata)"></i><div><small style="color:var(--rio-plata)">Río de la Plata</small><strong>#0B55FF</strong><p>Marca digital y enlaces.</p></div></div>
+    <div class="sw"><i style="background:var(--cielo-verano)"></i><div><small style="color:#0096C2">Cielo de verano</small><strong>#00C8FF</strong><p>Fotos, agua, verano.</p></div></div>
+    <div class="sw"><i style="background:var(--atardecer)"></i><div><small style="color:var(--atardecer)">Atardecer</small><strong>#6D5CFF</strong><p>Cultura y agenda.</p></div></div>
+    <div class="sw"><i style="background:var(--noche)"></i><div><small style="color:var(--noche)">Río de noche</small><strong>#0E1330</strong><p>Fondos y texto principal.</p></div></div>
+    <div class="sw"><i style="background:var(--acero)"></i><div><small style="color:var(--acero)">Gris acero</small><strong>#6B7280</strong><p>Astillero, puerto, YPF, industria.</p></div></div>
+  </div>
+  <div class="foot"><span>B · Color con significado</span><span>06</span></div>
+</div></section>
+
+<!-- 07 · C · LA CALETA -->
+<section class="frame"><div class="slide">
+  <div class="kicker cC">C · La Caleta</div>
+  <div class="head" style="margin-bottom:44px">
+    <h2>El contenedor<br>de la marca.</h2>
+    <p class="lead">La forma de la costa funciona como cartucho constante: contiene el wordmark y unifica todas las piezas.</p>
+  </div>
+  <div class="cards" style="grid-template-columns:repeat(4,1fr);grid-template-rows:1fr 150px;margin-bottom:110px">
+    <div class="card"><span class="label">Positivo</span>
+      <div style="position:relative;width:330px;height:187px;color:var(--verde-monte)"><svg class="wm" style="width:100%;height:100%"><use href="#caleta"/></svg>
+      <svg class="wm" style="position:absolute;left:18%;top:28%;width:64%;height:44%"><use href="#wordmark"/></svg></div></div>
+    <div class="card" style="background:var(--verde-monte)"><span class="label" style="color:#A8C9AA">Negativo</span>
+      <div style="position:relative;width:330px;height:187px;color:#fff"><svg class="wm" style="width:100%;height:100%"><use href="#caleta"/></svg>
+      <svg class="wm" style="position:absolute;left:18%;top:28%;width:64%;height:44%"><use href="#wordmark"/></svg></div></div>
+    <div class="card"><span class="label">Color pleno</span>
+      <div style="position:relative;width:330px;height:187px"><svg viewBox="{{CA_VB}}" style="width:100%;height:100%"><path d="{{CA_FILL}}" fill="var(--celeste)"/></svg>
+      <svg class="wm" style="position:absolute;left:18%;top:28%;width:64%;height:44%;color:#fff"><use href="#wordmark"/></svg></div></div>
+    <div class="card"><span class="label">Patrón</span>
+      <div style="position:relative;width:330px;height:187px"><svg viewBox="{{CA_VB}}" style="width:100%;height:100%"><path d="{{CA_FILL}}" fill="url(#p-ondas-c)"/><path d="{{CA_D}}" fill-rule="evenodd" fill="var(--rio-plata)"/>
+        <defs><pattern id="p-ondas-c" width="120" height="60" patternUnits="userSpaceOnUse"><rect width="120" height="60" fill="#fff"/><path d="M0 30c15-18 45-18 60 0s45 18 60 0" fill="none" stroke="var(--cielo-verano)" stroke-width="10" stroke-linecap="round"/></pattern></defs></svg></div></div>
+    <div class="card" style="grid-column:span 4;justify-content:space-between;padding:0 48px">
+      <span class="label" style="position:static">Versión mínima · legible a 2 cm</span>
+      <div style="display:flex;gap:56px;align-items:center">
+        <figure style="text-align:center"><svg width="88" height="50" style="color:var(--verde-monte)"><use href="#caleta"/></svg><figcaption class="label" style="font-size:14px;margin-top:6px">Avatar</figcaption></figure>
+        <figure style="text-align:center"><svg viewBox="{{CA_VB}}" width="70" height="40"><path d="{{CA_FILL}}" fill="var(--celeste)"/></svg><figcaption class="label" style="font-size:14px;margin-top:6px">Favicon</figcaption></figure>
+        <figure style="text-align:center"><svg viewBox="0 0 40 52" width="40" height="52"><path d="M20 50C8 34 3 26 3 18a17 17 0 0 1 34 0c0 8-5 16-17 32Z" fill="var(--rojo)"/><use href="#caleta" x="8" y="11" width="24" height="14" style="color:#fff"/></svg><figcaption class="label" style="font-size:14px;margin-top:6px">Pin de mapa</figcaption></figure>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>C · La Caleta</span><span>07</span></div>
+</div></section>
+
+<!-- 08 · D · SELLO -->
+<section class="frame"><div class="slide dark">
+  <div class="kicker cD">D · El sello patrio</div>
+  <div class="head">
+    <h2>Memoria, puerto<br>y bandera.</h2>
+    <p class="lead">Síntesis del escudo municipal de 1958 —fragata izando bandera argentina sobre la caleta— que evoca la Fragata Libertad del Astillero Río Santiago.</p>
+  </div>
+  <div class="cards" style="grid-template-columns:repeat(3,1fr);margin-bottom:130px">
+    <div class="card"><span class="label">Sello solo</span>
+      <svg width="330" height="330" style="--ring:var(--amarillo);--ink:#F4F2EC;--sail:#C9D3EE;--hull:#F4F2EC;--wave:#8FB0EE"><use href="#sello"/></svg></div>
+    <div class="card white" style="flex-direction:column;gap:30px"><span class="label" style="color:#7A8099">Con wordmark</span>
+      <svg width="260" height="260" style="--ring:var(--verde-monte);--ink:var(--noche);--sail:#B9C6EA;--hull:var(--noche);--wave:var(--celeste);--flag-line:var(--noche)"><use href="#sello"/></svg>
+      <svg class="wm" style="width:300px;height:96px;color:var(--sauce)"><use href="#wordmark"/></svg></div>
+    <div class="card white"><span class="label" style="color:#7A8099">Una tinta</span>
+      <svg width="330" height="330" style="--ring:var(--noche);--ink:var(--noche);--sail:var(--noche);--hull:var(--noche);--wave:var(--noche);--flag-w:#fff;--flag-c:var(--noche);--flag-line:var(--noche)"><use href="#sello"/></svg></div>
+  </div>
+  <p style="position:absolute;left:120px;bottom:92px;font-size:21px;color:#8E95BC">Uso protocolar: documentos oficiales, actos, efemérides (1801 · Marqués de Avilés · Primera Junta) y memoria.</p>
+  <div class="foot"><span>D · El sello patrio</span><span>08</span></div>
+</div></section>
+
+<!-- 09 · E · TERRITORIOS -->
+<section class="frame"><div class="slide">
+  <style>
+    .terr{border-radius:24px;padding:40px;display:flex;flex-direction:column;justify-content:flex-end;color:#fff;position:relative;overflow:hidden}
+    .terr .label{position:absolute;top:34px;left:40px;color:rgba(255,255,255,.7)}
+    .terr h3{font-size:54px;font-weight:900;font-variation-settings:"wdth" 112;line-height:1;text-transform:uppercase}
+    .terr p{font-size:22px;margin-top:14px;opacity:.85;line-height:1.4}
+    .terr .ico{position:absolute;top:110px;left:40px;display:flex;gap:26px;opacity:.95}
+  </style>
+  <div class="kicker cE">E · Los territorios</div>
+  <div class="head" style="margin-bottom:44px">
+    <h2>Una marca,<br>tres territorios.</h2>
+    <p class="lead">Modelo ciudades sede: cada localidad real es una sub-marca con el mismo esqueleto —wordmark + Caleta + nombre en Archivo— y su propio color y motivo.</p>
+  </div>
+  <div class="cards" style="grid-template-columns:repeat(3,1fr)">
+    <div class="terr" style="background:var(--verde-monte)"><span class="label">Territorio 01</span>
+      <div class="ico" style="color:#8CCB8E"><svg width="64" height="64"><use href="#i-sauce"/></svg><svg width="64" height="64"><use href="#i-hoja"/></svg><svg width="64" height="64"><use href="#i-garza"/></svg></div>
+      <h3>Punta Lara</h3><p>La reserva natural: selva marginal, sauces, garzas y recreos.</p></div>
+    <div class="terr" style="background:var(--acero)"><span class="label">Territorio 02</span>
+      <div class="ico" style="color:var(--amarillo)"><svg width="64" height="64"><use href="#i-grua"/></svg><svg width="64" height="64"><use href="#i-bote"/></svg><svg width="64" height="64"><use href="#i-sol"/></svg></div>
+      <h3>El Dique</h3><p>El corazón obrero: Astillero Río Santiago, puerto e YPF.</p></div>
+    <div class="terr" style="background:var(--noche)"><span class="label">Territorio 03</span>
+      <div class="ico" style="color:var(--rojo)"><svg width="64" height="64"><use href="#i-fuerte"/></svg><svg width="64" height="64"><use href="#i-fragata"/></svg><svg width="64" height="64"><use href="#i-bombo"/></svg><svg width="64" height="64"><use href="#i-mate"/></svg></div>
+      <h3>Ensenada<br>Centro</h3><p>La historia: Fuerte Barragán, la plaza, el carnaval y la memoria.</p></div>
+  </div>
+  <div class="foot"><span>E · Los territorios</span><span>09</span></div>
+</div></section>
+
+{{TERRITORIOS}}
+
+<!-- 13 · E · FAMILIA -->
+<section class="frame"><div class="slide dark">
+  <div class="kicker cE">E · Familia</div>
+  <div class="head">
+    <h2>La familia, unida<br>por la Caleta.</h2>
+    <p class="lead">Mismo esqueleto, distinto color y motivo. Isla Santiago se suma como emblema ribereño transversal del partido.</p>
+  </div>
+  <div class="cards" style="grid-template-columns:repeat(4,1fr)">
+    {{FAMILIA}}
+  </div>
+  <div class="foot"><span>E · Los territorios</span><span>13</span></div>
+</div></section>
+
+<!-- 14 · F · ICONOGRAFÍA -->
+<section class="frame"><div class="slide">
+  <style>
+    .icons{display:grid;grid-template-columns:repeat(7,1fr);grid-template-rows:1fr 1fr;gap:20px;flex:1;margin-bottom:120px}
+    .icons figure{background:#fff;border-radius:20px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px}
+    .icons svg{width:96px;height:96px}
+    .icons figcaption{font-size:20px;font-weight:700;color:var(--tinta)}
+  </style>
+  <div class="kicker cF">F · Iconografía</div>
+  <div class="head" style="margin-bottom:44px">
+    <h2>La misma mano<br>del lettering.</h2>
+    <p class="lead">Trazo de pincel orgánico, nunca línea geométrica. A una tinta y siempre planos: positivo y negativo.</p>
+  </div>
+  <div class="icons">
+    <figure style="background:var(--verde-monte)"><svg viewBox="{{CA_VB}}" style="width:120px;color:#fff"><use href="#caleta"/></svg><figcaption style="color:#fff">Caleta</figcaption></figure>
+    <figure><svg style="color:var(--sauce)"><use href="#i-sauce"/></svg><figcaption>Sauce</figcaption></figure>
+    <figure><svg style="color:var(--verde-monte)"><use href="#i-hoja"/></svg><figcaption>Hoja de selva</figcaption></figure>
+    <figure><svg style="color:var(--sauce)"><use href="#i-garza"/></svg><figcaption>Garza</figcaption></figure>
+    <figure><svg style="color:var(--cielo-verano)"><use href="#i-ola"/></svg><figcaption>Ola</figcaption></figure>
+    <figure><svg style="color:var(--rio-plata)"><use href="#i-bote"/></svg><figcaption>Bote</figcaption></figure>
+    <figure><svg style="color:var(--rio-verde)"><use href="#i-pez"/></svg><figcaption>Pez</figcaption></figure>
+    <figure><svg style="color:var(--acero)"><use href="#i-grua"/></svg><figcaption>Grúa</figcaption></figure>
+    <figure><svg style="color:var(--noche)"><use href="#i-fragata"/></svg><figcaption>Fragata</figcaption></figure>
+    <figure><svg style="color:var(--rojo)"><use href="#i-llama"/></svg><figcaption>Llama</figcaption></figure>
+    <figure><svg style="color:var(--acero)"><use href="#i-fuerte"/></svg><figcaption>Fuerte</figcaption></figure>
+    <figure><svg style="color:var(--rio-verde)"><use href="#i-mate"/></svg><figcaption>Mate</figcaption></figure>
+    <figure><svg style="color:var(--rojo)"><use href="#i-bombo"/></svg><figcaption>Bombo</figcaption></figure>
+    <figure style="background:var(--noche)"><svg style="color:var(--amarillo)"><use href="#i-sol"/></svg><figcaption style="color:#fff">Sol naciente</figcaption></figure>
+  </div>
+  <div class="foot"><span>F · Iconografía</span><span>14</span></div>
+</div></section>
+
+<!-- 15 · G · PATRONES -->
+<section class="frame"><div class="slide">
+  <style>.pat{background:#fff;border-radius:22px;overflow:hidden;display:flex;flex-direction:column}.pat svg,.pat .fill{flex:1;width:100%;display:block}.pat div.t{padding:22px 28px;font-size:24px;font-weight:800}.pat div.t span{display:block;font-size:19px;font-weight:500;color:var(--gris-texto);margin-top:4px}</style>
+  <div class="kicker cG">G · Patrones</div>
+  <div class="head">
+    <h2>Derivados<br>de los íconos.</h2>
+    <p class="lead">Para fondos, textiles, redes y relleno de La Caleta. Siempre planos: un color sobre fondo.</p>
+  </div>
+  <div class="cards" style="grid-template-columns:repeat(4,1fr)">
+    <div class="pat"><svg preserveAspectRatio="none"><rect width="100%" height="100%" fill="var(--celeste)"/><rect width="100%" height="100%" fill="url(#p-ondas)"/></svg><div class="t">Ondas del río<span>Celeste + ola</span></div></div>
+    <div class="pat"><svg preserveAspectRatio="none"><rect width="100%" height="100%" fill="var(--verde-monte)"/><rect width="100%" height="100%" fill="url(#p-hojas)"/></svg><div class="t">Hojas de selva<span>Verde-monte + hoja</span></div></div>
+    <div class="pat"><svg preserveAspectRatio="none"><rect width="100%" height="100%" fill="var(--acero)"/><rect width="100%" height="100%" fill="url(#p-gruas)"/></svg><div class="t">Geometría de grúas<span>Acero + estructura</span></div></div>
+    <div class="pat"><div class="fill" style="background:repeating-conic-gradient(from -90deg at 50% 100%,var(--amarillo) 0 9deg,var(--rojo) 9deg 18deg)"></div><div class="t">Rayos del sol<span>Amarillo + rojo</span></div></div>
+  </div>
+  <div class="foot"><span>G · Patrones</span><span>15</span></div>
+</div></section>
+
+<!-- 16 · H · TIPOGRAFÍA -->
+<section class="frame"><div class="slide dark">
+  <div class="kicker cH">H · Tipografía</div>
+  <div class="head" style="margin-bottom:44px">
+    <h2 style="font-size:68px">El lettering es del logo.<br>Archivo, lo institucional.</h2>
+    <p class="lead">El trazo de pincel no se tipea nunca: es exclusivo del logo. Todo lo demás se compone en Archivo.</p>
+  </div>
+  <div class="cards" style="grid-template-columns:1.1fr 1fr">
+    <div class="card" style="flex-direction:column;align-items:stretch;justify-content:center;padding:84px 64px 40px">
+      <span class="label">Jerarquías · Archivo</span>
+      <div style="font-size:120px;font-weight:900;font-variation-settings:'wdth' 112;letter-spacing:-.02em;line-height:1">Aa</div>
+      <div style="border-top:2px solid #2A3060;margin-top:30px;padding-top:24px;display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:52px;font-weight:900;font-variation-settings:'wdth' 112">Black</span><span class="label" style="font-size:16px;position:static">Títulos</span></div>
+      <div style="border-top:2px solid #2A3060;margin-top:22px;padding-top:22px;display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:40px;font-weight:700">Bold</span><span class="label" style="font-size:16px;position:static">Subtítulos</span></div>
+      <div style="border-top:2px solid #2A3060;margin-top:22px;padding-top:22px;display:flex;justify-content:space-between;align-items:baseline;gap:30px"><span style="font-size:26px;font-weight:400;color:#C9CDE2">Regular · texto corrido y párrafos largos de lectura cómoda.</span><span class="label" style="font-size:16px;position:static">Texto</span></div>
+    </div>
+    <div class="card" style="flex-direction:column;align-items:stretch;justify-content:center;padding:84px 64px 40px">
+      <span class="label">Sub-áreas de la marca paraguas</span>
+      <style>.sub{display:grid;grid-template-columns:230px 1fr;align-items:center;gap:30px;padding:20px 0;border-bottom:2px solid #2A3060}.sub b{font-size:26px;font-weight:700;letter-spacing:.2em;color:#8FB0EE;text-transform:uppercase;font-variation-settings:"wdth" 110}</style>
+      <div class="sub"><svg class="wm" style="width:220px;height:70px;color:#fff"><use href="#wordmark"/></svg><b>Turismo</b></div>
+      <div class="sub"><svg class="wm" style="width:220px;height:70px;color:#fff"><use href="#wordmark"/></svg><b>Cultura</b></div>
+      <div class="sub"><svg class="wm" style="width:220px;height:70px;color:#fff"><use href="#wordmark"/></svg><b>Adultos mayores</b></div>
+      <div class="sub" style="border-bottom:0"><svg class="wm" style="width:220px;height:70px;color:#fff"><use href="#wordmark"/></svg><b>Prensa</b></div>
+      <p style="font-size:20px;color:#8E95BC;margin-top:22px;line-height:1.45">El nombre del área va en Archivo Bold, mayúsculas espaciadas, junto al wordmark o la Caleta. Nunca compite con el lettering.</p>
+    </div>
+  </div>
+  <div class="foot"><span>H · Tipografía</span><span>16</span></div>
+</div></section>
+
+<!-- 17 · I · APLICACIONES -->
+<section class="frame"><div class="slide">
+  <style>.app{background:#fff;border-radius:22px;padding:66px 26px 26px;position:relative;display:flex}.app .label{position:absolute;top:24px;left:28px;font-size:15px}.app .m{flex:1;border-radius:14px;overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center;background:#EFEDE6}</style>
+  <div class="kicker cI">I · Aplicaciones</div>
+  <div class="head" style="margin-bottom:40px">
+    <h2>La marca en la calle.</h2>
+    <p class="lead">Un mismo sistema que se reconoce del posteo a la ruta.</p>
+  </div>
+  <div class="cards" style="grid-template-columns:repeat(3,1fr);grid-template-rows:1fr 1fr;gap:24px">
+    <div class="app"><span class="label" style="color:var(--verde-monte)">Post · Punta Lara</span>
+      <div class="m" style="background:var(--verde-monte) repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.07) 22px 44px);align-items:flex-end;justify-content:flex-start;padding:30px">
+        <div><svg class="wm" style="width:300px;height:96px;color:#fff"><use href="#wordmark"/></svg><div style="color:#fff;font-weight:800;letter-spacing:.2em;font-size:18px;margin-top:6px">PUNTA LARA</div></div>
+        <svg width="64" height="64" style="position:absolute;top:26px;right:26px;color:#8CCB8E"><use href="#i-garza"/></svg></div></div>
+    <div class="app" style="background:var(--noche)"><span class="label" style="color:var(--rojo)">Cartel de entrada</span>
+      <div class="m" style="background:var(--noche-2);flex-direction:column">
+        <div class="label" style="position:static;color:#8E95BC;font-size:16px;letter-spacing:.4em">Bienvenidos a</div>
+        <svg class="wm" style="width:330px;height:106px;color:#fff;margin-top:10px"><use href="#wordmark"/></svg>
+        <svg class="wm" style="width:340px;height:40px;color:var(--sauce);margin-top:6px"><use href="#costa"/></svg></div></div>
+    <div class="app"><span class="label" style="color:var(--atardecer)">Credencial de evento</span>
+      <div class="m" style="gap:30px">
+        <div style="width:150px;height:210px;background:#fff;border-radius:12px;box-shadow:0 8px 24px rgba(14,19,48,.15);padding:18px 16px;display:flex;flex-direction:column;position:relative">
+          <div style="position:absolute;top:-14px;left:70px;width:30px;height:22px;border:4px solid #B9BED6;border-radius:6px"></div>
+          <svg class="wm" style="width:138px;height:44px;color:var(--sauce)"><use href="#wordmark"/></svg>
+          <div style="flex:1"></div>
+          <div style="font-size:22px;font-weight:900">Prensa</div>
+          <div style="font-size:11px;color:var(--gris-texto)">Carnaval 2026 · Acceso general</div>
+          <div style="height:8px;margin:10px -16px -18px;background:linear-gradient(90deg,var(--celeste) 33%,var(--amarillo) 33% 66%,var(--rojo) 66%)"></div>
+        </div></div></div>
+    <div class="app"><span class="label">Remera</span>
+      <div class="m"><svg viewBox="0 0 240 220" width="210" height="192"><path d="M70 10l-58 34 24 42 22-12v136h124V74l22 12 24-42-58-34c-6 16-24 26-50 26S76 26 70 10Z" fill="var(--verde-monte)"/>
+        <g style="color:#fff"><use href="#caleta" x="80" y="78" width="80" height="46"/><use href="#wordmark" x="90" y="91" width="60" height="20"/></g></svg></div></div>
+    <div class="app"><span class="label" style="color:var(--celeste)">Banderas de calle</span>
+      <div class="m" style="gap:22px">
+        <div style="width:70px;height:200px;background:var(--celeste);border-radius:6px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:20px 0;color:#fff"><svg width="46" height="46"><use href="#i-ola"/></svg><svg width="56" height="32"><use href="#caleta"/></svg></div>
+        <div style="width:70px;height:200px;background:var(--verde-monte);border-radius:6px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:20px 0;color:#fff"><svg width="46" height="46"><use href="#i-sauce"/></svg><svg width="56" height="32"><use href="#caleta"/></svg></div>
+        <div style="width:70px;height:200px;background:var(--rojo);border-radius:6px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:20px 0;color:#fff"><svg width="46" height="46"><use href="#i-bombo"/></svg><svg width="56" height="32"><use href="#caleta"/></svg></div>
+      </div></div>
+    <div class="app"><span class="label" style="color:var(--rio-verde)">Ploteo vehicular</span>
+      <div class="m"><svg viewBox="0 0 420 200" width="430" height="205">
+        <ellipse cx="210" cy="182" rx="190" ry="8" fill="#D8D5CC"/>
+        <path d="M30 150V112c0-10 6-16 16-18l60-12 44-36c8-6 16-8 26-8h150c14 0 24 8 28 20l20 60v32c0 6-4 10-10 10H40c-6 0-10-4-10-10Z" fill="var(--rio-verde)"/>
+        <path d="M30 128c80-14 150 14 240-4 50-10 90-18 124-26v52c0 6-4 10-10 10H40c-6 0-10-4-10-10Z" fill="var(--noche)"/>
+        <path d="M30 126c80-14 150 14 240-4 50-10 90-18 124-26" fill="none" stroke="var(--amarillo)" stroke-width="5"/>
+        <path d="M122 84l34-28c6-4 10-6 18-6h40v34Z" fill="#BFE6F2"/><path d="M226 50h60v34h-60Z" fill="#BFE6F2"/>
+        <g style="color:#fff"><use href="#caleta" x="296" y="46" width="88" height="50"/><use href="#wordmark" x="308" y="60" width="64" height="22"/></g>
+        <text x="380" y="146" text-anchor="end" font-family="Archivo" font-weight="800" font-size="15" fill="#fff">ensenadaturismo.com</text>
+        <circle cx="108" cy="160" r="22" fill="var(--noche)"/><circle cx="108" cy="160" r="9" fill="#9AA0B4"/>
+        <circle cx="330" cy="160" r="22" fill="var(--noche)"/><circle cx="330" cy="160" r="9" fill="#9AA0B4"/></svg></div></div>
+  </div>
+  <div class="foot"><span>I · Aplicaciones</span><span>17</span></div>
+</div></section>
+
+<!-- 18 · I · ANIMACIÓN -->
+<section class="frame"><div class="slide dark">
+  <style>
+    .anim .card{flex-direction:column}
+    .anim .stage{width:280px}
+    .anim figcaption{position:absolute;bottom:34px;left:0;right:0;text-align:center;font-size:20px;color:#8E95BC;font-weight:600}
+    .anim .n{position:absolute;top:30px;left:34px;font-size:18px;font-weight:800;color:#5D648F}
+    .live .w,.live .c{animation-duration:4.2s;animation-iteration-count:infinite;animation-timing-function:cubic-bezier(.5,0,.3,1)}
+    .live .w{animation-name:wIn} .live .c{animation-name:cIn}
+    @keyframes wIn{0%{clip-path:inset(0 100% 0 0)}45%,100%{clip-path:inset(0 0 0 0)}}
+    @keyframes cIn{0%,45%{clip-path:inset(0 100% 0 0)}80%,100%{clip-path:inset(0 0 0 0)}}
+    @media print{.live .w,.live .c{animation:none}}
+  </style>
+  <div class="kicker cH">I · Animación del emblema</div>
+  <div class="head">
+    <h2>La pincelada que<br>sigue de largo.</h2>
+    <p class="lead">La misma mano escribe «Ensenada» y, sin levantar el pincel, dibuja la costa de la ensenada.</p>
+  </div>
+  <div class="cards anim" style="grid-template-columns:repeat(4,1fr)">
+    {{FRAMES}}
+  </div>
+  <div class="foot"><span>I · Aplicaciones</span><span>18</span></div>
+</div></section>
+
+<!-- 19 · CIERRE -->
+<section class="frame"><div class="slide green" style="justify-content:center;align-items:center;padding-top:0">
+  <div class="kicker" style="position:absolute;top:84px;left:120px;color:var(--amarillo)"><span style="color:#F4F2EC">Cierre</span></div>
+  <div style="font-size:120px;font-weight:900;font-variation-settings:'wdth' 112;letter-spacing:-.01em;color:#F4F2EC">ensenadaturismo.com</div>
+  <svg class="wm" style="width:760px;height:84px;margin-top:20px;color:var(--amarillo)"><use href="#costa"/></svg>
+  <div style="position:absolute;bottom:80px;left:120px;right:120px;display:flex;justify-content:space-between;align-items:center">
+    <span class="label" style="color:#A8C9AA">Ciudad de Ensenada · Manual de identidad v3.0</span>
+    <svg class="wm" style="width:220px;height:70px;color:#F4F2EC"><use href="#wordmark"/></svg>
+  </div>
+</div></section>
+
+</main>
+
+<script>
+(function(){
+  function fit(){
+    var w=Math.min(window.innerWidth-48,1920);
+    document.documentElement.style.setProperty('--s',(w/1920).toFixed(4));
+  }
+  fit();window.addEventListener('resize',fit);
+  window.addEventListener('beforeprint',function(){document.documentElement.style.setProperty('--s','1')});
+  window.addEventListener('afterprint',fit);
+})();
+</script>
+</body>
+</html>

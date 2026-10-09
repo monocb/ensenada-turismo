@@ -6,7 +6,7 @@ Cómo está construido el sitio y cómo trabajar sobre el código. Cada archivo 
 |---|---|
 | [`stack-y-mapa-de-archivos.md`](stack-y-mapa-de-archivos.md) | Stack (sin build/framework) y mapa de archivos del sitio |
 | [`patron-galerias-data-attributes.md`](patron-galerias-data-attributes.md) | Cómo se arman las galerías (atributos `data-photo-*`) y cómo agregar una foto |
-| [`convenciones-css.md`](convenciones-css.md) | Cómo creció `styles.css`, los dos bloques `:root` |
+| [`convenciones-css.md`](convenciones-css.md) | Las cuatro hojas de `assets/css/` y qué pasó con `styles.css` |
 | [`convenciones-js.md`](convenciones-js.md) | Organización de `script.js`, convención `data-*` |
 | [`deploy-netlify.md`](deploy-netlify.md) | Datos del sitio en Netlify, checklist de reconexión a Git |
 | [`metodologia-openspec.md`](metodologia-openspec.md) | Toda tarea nueva pasa primero por una propuesta OpenSpec |

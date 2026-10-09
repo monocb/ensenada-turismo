@@ -1,0 +1,709 @@
+/* =============================================================================
+   Turismo Ensenada — capa compartida
+   Rediseño 2026-10-08. Sistema del Manual de Identidad v3.0.
+
+   Lo que las tres páginas tienen en común: los tokens del manual, la base
+   tipográfica, el encabezado partido, el pie, el visor de fotos y el reveal.
+   Cada página suma después su propia hoja (home.css, en-fotos.css,
+   error.css). No hay un solo !important en ninguna de las cuatro.
+
+   Los nombres de clase de estado (is-open, is-scrolled, is-visible) los fija
+   script.js: la hoja se adapta al JS y no al revés, porque el JS es uno solo
+   para todo el sitio.
+   ========================================================================== */
+
+:root {
+  color-scheme: dark;
+
+  /* ---- Paleta de bandera (Manual v3.0) ---------------------------------- */
+  --verde-monte: #1b5e20;   /* institucional: la costa, la selva marginal */
+  --sauce: #3e8e3f;         /* el verde del lettering */
+  --rio-verde: #00a676;     /* agua y naturaleza en movimiento */
+  --celeste: #3b6fd4;       /* el cielo con sol naciente (Pantone 285) */
+  --amarillo: #ffd43d;      /* el sol naciente (Pantone 108) */
+  --rojo: #f04438;          /* fusión de orígenes, carnaval (Pantone 185) */
+
+  /* ---- Complementarios: el río, el cielo y el acero ---------------------- */
+  --rio-plata: #0b55ff;     /* marca digital y enlaces */
+  --cielo-verano: #00c8ff;  /* fotos, agua, verano */
+  --atardecer: #6d5cff;     /* cultura y agenda */
+  --noche: #0e1330;         /* fondos y texto principal */
+  --acero: #6b7280;         /* astillero, puerto, YPF, industria */
+
+  /* ---- Neutrales --------------------------------------------------------- */
+  --papel: #f4f2ec;
+  --noche-2: #161b40;
+  --gris-texto: #4a5068;
+
+  /* ---- Forma: la escala sale de La Caleta -------------------------------- */
+  --r-pastilla: 999px;
+  --r-caleta: 20px;
+  --r-media: 12px;
+  --r-chico: 8px;
+
+  /* ---- Ritmo vertical. Escala modular 1.5, fluida ------------------------ */
+  --e1: clamp(8px, 1vw, 12px);
+  --e2: clamp(14px, 1.6vw, 20px);
+  --e3: clamp(22px, 2.6vw, 32px);
+  --e4: clamp(34px, 4.2vw, 52px);
+  --e5: clamp(52px, 6.6vw, 84px);
+  --e6: clamp(78px, 10vw, 132px);
+
+  /* ---- Tipografía. Archivo en tres pesos, como fija el manual ------------ */
+  --fuente: "Archivo", "Helvetica Neue", Arial, sans-serif;
+
+  /* Escala con ratio >=1.25 entre pasos. Techo del display en 96px: por
+     encima la página grita en vez de diseñar. */
+  --t-display: clamp(44px, 7vw, 92px);
+  --t-titulo: clamp(34px, 4.6vw, 64px);
+  --t-sub: clamp(22px, 2.4vw, 32px);
+  --t-cuerpo: clamp(16px, 1.15vw, 19px);
+  --t-chico: 14px;
+  --t-micro: 12px;
+
+  /* ---- Capas. Escala semántica, nunca valores arbitrarios ---------------- */
+  --z-base: 1;
+  --z-sobre: 2;
+  --z-pegado: 50;
+  --z-encabezado: 60;
+  --z-fondo-modal: 80;
+  --z-modal: 90;
+  --z-salto: 100;
+  --z-intro: 200;
+
+  /* ---- Curvas. Salida exponencial, sin rebote ---------------------------- */
+  --sale: cubic-bezier(0.22, 1, 0.36, 1);
+  --sale-fuerte: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--noche);
+  color: var(--papel);
+  font-family: var(--fuente);
+  font-size: var(--t-cuerpo);
+  font-weight: 400;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-weight: 900;
+  line-height: 1.02;
+  /* Piso de tracking en -0.04em: más apretado y las letras se tocan. */
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+
+p {
+  margin: 0;
+  text-wrap: pretty;
+}
+
+/* Largo de línea cómodo: 65-75ch. */
+p:not([class]) {
+  max-width: 68ch;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+a,
+button,
+summary,
+[tabindex] {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(244, 242, 236, 0.16);
+}
+
+:focus-visible {
+  outline: 3px solid var(--amarillo);
+  outline-offset: 3px;
+  border-radius: var(--r-chico);
+}
+
+:target {
+  scroll-margin-top: 108px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.salto {
+  position: fixed;
+  top: 12px;
+  left: 50%;
+  z-index: var(--z-salto);
+  padding: 13px 24px;
+  border-radius: var(--r-pastilla);
+  background: var(--amarillo);
+  color: var(--noche);
+  font-size: var(--t-chico);
+  font-weight: 900;
+  text-decoration: none;
+  transform: translate(-50%, calc(-100% - 24px));
+  transition: transform 180ms var(--sale);
+}
+
+.salto:focus-visible {
+  transform: translate(-50%, 0);
+  outline-color: var(--noche);
+}
+
+#contenido:focus {
+  outline: none;
+}
+
+/* =============================================================================
+   Encabezado partido, el lettering al centro
+   La navegación se abre a los dos lados y el logo queda de protagonista, que
+   es el primer principio de diseño del proyecto: la palabra ENSENADA manda.
+   ========================================================================== */
+
+.enc {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--z-encabezado);
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: var(--e3);
+  padding: var(--e3) var(--e4);
+  transition:
+    padding 280ms var(--sale),
+    background-color 280ms var(--sale),
+    backdrop-filter 280ms var(--sale);
+}
+
+/* Al scrollear se condensa y gana fondo, para no pelear con el contenido. */
+.enc.is-scrolled {
+  padding: var(--e2) var(--e4);
+  background: rgba(14, 19, 48, 0.82);
+  backdrop-filter: blur(14px) saturate(140%);
+}
+
+.enc-nav {
+  display: flex;
+  align-items: center;
+  gap: clamp(14px, 1.8vw, 30px);
+  min-width: 0;
+}
+
+.enc-nav--der {
+  justify-content: flex-end;
+}
+
+.enc-nav a {
+  position: relative;
+  padding: 6px 2px;
+  color: var(--papel);
+  font-size: var(--t-chico);
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 180ms var(--sale);
+}
+
+/* Subrayado que crece desde la izquierda, como un trazo de pincel. */
+.enc-nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--amarillo);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 240ms var(--sale);
+}
+
+.enc-nav a:hover::after,
+.enc-nav a:focus-visible::after {
+  transform: scaleX(1);
+}
+
+/* El lettering, centrado y protagonista. */
+.enc-marca {
+  display: block;
+  flex: 0 0 auto;
+  text-decoration: none;
+}
+
+.enc-lettering {
+  /* display: block obligatorio. Es un <span> dentro de un <a> en bloque, no
+     de un grid, asi que sin esto queda inline, width y aspect-ratio no
+     aplican y el logo del encabezado colapsa a 0x0. */
+  display: block;
+  width: clamp(124px, 14vw, 178px);
+  aspect-ratio: 2500 / 704;
+  background-color: var(--papel);
+  -webkit-mask: url("/assets/marca/ensenada-wordmark.svg") no-repeat center / contain;
+  mask: url("/assets/marca/ensenada-wordmark.svg") no-repeat center / contain;
+  transition: width 280ms var(--sale);
+}
+
+.enc.is-scrolled .enc-lettering {
+  width: clamp(104px, 11vw, 140px);
+}
+
+.enc-menu {
+  display: none;
+}
+
+/* En la portada, mientras el emblema grande esta a la vista, el lettering del
+   encabezado esta apagado: el logotipo no se duplica, se traspasa. Lo enciende
+   el mismo avance del scroll que se lleva al emblema. El atributo lo pone el
+   JS, asi que sin el queda visible, que es el valor seguro. */
+[data-emblema="sigue"] .enc-lettering {
+  opacity: var(--emblema-logo, 0);
+}
+
+/* =============================================================================
+   Pie
+   ========================================================================== */
+
+.pie {
+  display: grid;
+  gap: var(--e2);
+  padding: var(--e5) var(--e4);
+  background: var(--noche);
+  text-align: center;
+  justify-items: center;
+}
+
+.pie-lettering {
+  width: 142px;
+  aspect-ratio: 2500 / 704;
+  background-color: rgba(244, 242, 236, 0.54);
+  -webkit-mask: url("/assets/marca/ensenada-wordmark.svg") no-repeat center / contain;
+  mask: url("/assets/marca/ensenada-wordmark.svg") no-repeat center / contain;
+}
+
+.pie p {
+  color: rgba(244, 242, 236, 0.6);
+  font-size: var(--t-chico);
+}
+
+/* =============================================================================
+   Visor de fotos y ficha de territorio
+   ========================================================================== */
+
+.image-lightbox,
+.place-modal {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-modal);
+  display: grid;
+  place-items: center;
+  gap: var(--e2);
+  padding: var(--e4);
+  background: rgba(8, 11, 26, 0.94);
+  overscroll-behavior: contain;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 240ms var(--sale), visibility 240ms;
+}
+
+.image-lightbox.is-open,
+.place-modal.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.image-lightbox img[data-lightbox-image] {
+  max-width: min(94vw, 1280px);
+  max-height: 76vh;
+  width: auto;
+  height: auto;
+  border-radius: var(--r-media);
+  object-fit: contain;
+}
+
+.lightbox-close,
+.place-modal__close {
+  position: absolute;
+  top: var(--e3);
+  right: var(--e3);
+  padding: 11px 20px;
+  border: 1px solid rgba(244, 242, 236, 0.34);
+  border-radius: var(--r-pastilla);
+  background: rgba(244, 242, 236, 0.1);
+  color: var(--papel);
+  font-size: var(--t-chico);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.lightbox-close::after {
+  content: "Cerrar";
+}
+
+.lightbox-close:hover,
+.place-modal__close:hover {
+  background: rgba(244, 242, 236, 0.2);
+}
+
+.lightbox-nav {
+  position: absolute;
+  bottom: var(--e4);
+  width: 54px;
+  height: 54px;
+  border: 1px solid rgba(244, 242, 236, 0.34);
+  border-radius: var(--r-pastilla);
+  background: rgba(244, 242, 236, 0.1);
+  color: var(--papel);
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.lightbox-prev { left: calc(50% - 72px); }
+.lightbox-next { left: calc(50% + 18px); }
+.lightbox-prev::after { content: "\2190"; }
+.lightbox-next::after { content: "\2192"; }
+
+.lightbox-nav:hover {
+  background: rgba(244, 242, 236, 0.2);
+}
+
+.lightbox-download {
+  position: absolute;
+  top: var(--e3);
+  left: var(--e3);
+  padding: 11px 20px;
+  border-radius: var(--r-pastilla);
+  background: var(--amarillo);
+  color: var(--noche);
+  font-size: var(--t-chico);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.lightbox-download::after {
+  content: "Descargar";
+}
+
+.place-modal__overlay {
+  position: absolute;
+  inset: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.place-modal__panel {
+  position: relative;
+  display: grid;
+  gap: 0;
+  /* min(100%) y no 94vw: el contenedor ya aporta su padding, y sumarlos
+     desbordaba entre 9 y 12px abajo de 414px. */
+  width: min(100%, 880px);
+  max-height: 86vh;
+  overflow: auto;
+  overscroll-behavior: contain;
+  border-radius: var(--r-caleta);
+  background: var(--papel);
+  color: var(--noche);
+}
+
+.place-modal__media img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.place-modal__copy {
+  display: grid;
+  gap: var(--e2);
+  padding: var(--e4);
+}
+
+.place-modal__number {
+  color: var(--verde-monte);
+  font-size: var(--t-micro);
+  font-weight: 900;
+  letter-spacing: 0.22em;
+}
+
+.place-modal__copy h3 {
+  font-size: var(--t-sub);
+}
+
+.place-modal__copy strong {
+  color: var(--verde-monte);
+}
+
+.place-modal__copy p {
+  max-width: 62ch;
+  color: var(--gris-texto);
+}
+
+body.has-lightbox,
+body.modal-open,
+body.menu-open {
+  overflow: hidden;
+}
+
+/* =============================================================================
+   Entradas al scrollear
+   Vocabulario corto y cerrado: izquierda, derecha, abajo y escala. Cada
+   elemento declara la suya en el marcado con data-anim, y cada seccion recibe
+   la que le corresponde a su composicion en vez de la misma para todas.
+
+   La clase .reveal-on-scroll la agrega script.js. Es a proposito: el contenido
+   es visible por defecto, y la entrada solo existe si hay JS. Tenerla escrita
+   en el HTML dejaba ocho bloques de la portada invisibles cuando el JS no
+   corria, que es como se publica una pagina en blanco.
+   ========================================================================== */
+
+.reveal-on-scroll {
+  transition:
+    opacity 700ms var(--sale-fuerte) var(--reveal-delay, 0ms),
+    transform 700ms var(--sale-fuerte) var(--reveal-delay, 0ms);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .reveal-on-scroll:not(.is-visible) {
+    opacity: 0;
+  }
+
+  /* Solo transformacion y opacidad: nada que obligue a recalcular la
+     maquetacion mientras entra. */
+  .reveal-on-scroll[data-anim="izq"]:not(.is-visible) {
+    transform: translate3d(-52px, 0, 0);
+  }
+
+  /* Ojo: un elemento que espera corrido 52px agrega scroll horizontal a toda
+     la pagina si su seccion no recorta. La seccion que contenga entradas
+     laterales lleva overflow-x: clip — clip y no hidden, porque no crea
+     contenedor de scroll ni rompe position: sticky. */
+  .reveal-on-scroll[data-anim="der"]:not(.is-visible) {
+    transform: translate3d(52px, 0, 0);
+  }
+
+  .reveal-on-scroll[data-anim="abajo"]:not(.is-visible) {
+    transform: translate3d(0, 34px, 0);
+  }
+
+  .reveal-on-scroll[data-anim="escala"]:not(.is-visible) {
+    transform: scale(1.055);
+  }
+}
+
+/* =============================================================================
+   Encabezado en teléfono y tablet
+   ========================================================================== */
+
+@media (max-width: 860px) {
+  .enc {
+    padding: var(--e2) var(--e3);
+  }
+
+  /* Con las dos navegaciones ocultas el lettering se auto-ubicaba en la
+     primera columna y quedaba al ras del borde izquierdo: 97px fuera del
+     centro a 390px de ancho. Se fija a la columna del medio para que siga
+     centrado, que es de lo que se trata el encabezado partido. */
+  .enc-marca {
+    grid-column: 2;
+  }
+
+  .enc-nav {
+    display: none;
+  }
+
+  .enc-menu {
+    position: relative;
+    display: inline-flex;
+    grid-column: 3;
+    align-items: center;
+    justify-content: center;
+    justify-self: end;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    border: 1px solid rgba(244, 242, 236, 0.34);
+    border-radius: var(--r-pastilla);
+    background: rgba(14, 19, 48, 0.6);
+    cursor: pointer;
+  }
+
+  .enc-menu span,
+  .enc-menu span::before,
+  .enc-menu span::after {
+    display: block;
+    width: 18px;
+    height: 2px;
+    background: var(--papel);
+    transition: transform 240ms var(--sale), opacity 160ms linear;
+  }
+
+  .enc-menu span {
+    position: relative;
+  }
+
+  .enc-menu span::before,
+  .enc-menu span::after {
+    content: "";
+    position: absolute;
+  }
+
+  .enc-menu span::before {
+    transform: translateY(-6px);
+  }
+
+  .enc-menu span::after {
+    transform: translateY(6px);
+  }
+
+  .enc-menu[aria-expanded="true"] span {
+    background: transparent;
+  }
+
+  .enc-menu[aria-expanded="true"] span::before {
+    transform: rotate(45deg);
+  }
+
+  .enc-menu[aria-expanded="true"] span::after {
+    transform: rotate(-45deg);
+  }
+
+  /* Menú abierto: el encabezado pasa a ocupar la hoja entera.
+     Se engancha a .enc.is-open, el estado que marca script.js sobre el
+     header, y no al nav con [data-menu]: enganchado al nav aparecía sólo la
+     mitad de los enlaces, porque el encabezado partido tiene dos. */
+  .enc.is-open {
+    position: fixed;
+    inset: 0;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-areas:
+      "vacio marca menu"
+      "izq   izq   izq"
+      "der   der   der";
+    align-content: start;
+    gap: var(--e3);
+    padding: var(--e2) var(--e3) var(--e5);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    background: var(--noche);
+  }
+
+  .enc.is-open .enc-marca {
+    grid-area: marca;
+  }
+
+  .enc.is-open .enc-menu {
+    grid-area: menu;
+  }
+
+  .enc.is-open .enc-nav--izq {
+    grid-area: izq;
+  }
+
+  .enc.is-open .enc-nav--der {
+    grid-area: der;
+  }
+
+  .enc.is-open .enc-nav {
+    display: grid;
+    /* justify-content y no solo justify-items: la navegacion derecha trae
+       justify-content: flex-end del encabezado de escritorio, y sin esto el
+       segundo grupo de enlaces queda pegado al borde derecho. */
+    justify-content: center;
+    justify-items: center;
+    gap: var(--e3);
+  }
+
+  /* Los seis enlaces son dos <nav> por el encabezado partido, pero abiertos
+     tienen que leerse como una sola lista: mismo espacio entre todos. */
+  .enc.is-open .enc-nav--izq {
+    margin-top: var(--e3);
+  }
+
+  .enc.is-open .enc-nav a {
+    padding: 10px 6px;
+    font-size: var(--t-sub);
+  }
+
+  .lightbox-prev {
+    left: calc(50% - 64px);
+  }
+
+  .lightbox-next {
+    left: calc(50% + 10px);
+  }
+}
+
+/* =============================================================================
+   Movimiento reducido
+   Cada animación tiene su alternativa: nada se pierde, sólo deja de moverse.
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal-on-scroll {
+    transition: none;
+  }
+
+  /* Con movimiento reducido no hay desplazamiento ni escala: el contenido
+     aparece donde va, sin que nada quede esperando una animacion. */
+  .reveal-on-scroll:not(.is-visible) {
+    opacity: 1;
+    transform: none;
+  }
+
+  .enc,
+  .enc-lettering,
+  .enc-nav a::after,
+  .enc-menu span,
+  .enc-menu span::before,
+  .enc-menu span::after {
+    transition: none;
+  }
+}

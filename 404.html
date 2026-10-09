@@ -5,37 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Página no encontrada | Turismo Ensenada</title>
     <meta name="robots" content="noindex" />
-    <meta name="theme-color" content="#080b18" />
+    <meta name="theme-color" content="#0e1330" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/assets/css/base.css" />
+    <link rel="stylesheet" href="/assets/css/error.css" />
   </head>
-  <body class="not-found-page">
-    <main class="not-found">
-      <a class="brand" href="/" aria-label="Volver al inicio de ENSENADA, Turismo Ensenada">
-        <span class="brand-mark">ET</span>
-        <span>
-          <strong>ENSENADA</strong>
-          <small>Turismo Ensenada · Buenos Aires, Argentina</small>
-        </span>
+  <body>
+    <a class="salto" href="#contenido">Saltar al contenido</a>
+
+    <main class="perdida" id="contenido" tabindex="-1">
+      <a class="perdida-marca" href="/" aria-label="ENSENADA, inicio de Turismo Ensenada">
+        <span class="perdida-lettering" aria-hidden="true"></span>
       </a>
-      <section>
-        <p class="eyebrow">ENSENADA</p>
-        <h1>Página no encontrada</h1>
-        <p>El contenido que buscás no está disponible o cambió de ubicación.</p>
-        <a class="not-found-link" href="/">Volver al inicio</a>
-      </section>
+      <p class="perdida-codigo">ERROR 404</p>
+      <h1>Página no encontrada</h1>
+      <p>El contenido que buscás no está disponible o cambió de ubicación.</p>
+      <a class="perdida-ir" href="/">Volver al inicio</a>
     </main>
 
-    <footer class="site-footer" id="contacto">
-      <div class="footer-brand">
-        <p class="footer-credit">Administrado por NexaContenidos.</p>
-      </div>
+    <footer class="pie" id="contacto">
+      <span class="pie-lettering" aria-hidden="true"></span>
+      <p>Administrado por NexaContenidos.</p>
     </footer>
   </body>
 </html>

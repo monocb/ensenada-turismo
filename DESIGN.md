@@ -2,64 +2,61 @@
 name: Turismo Ensenada
 description: Marca ciudad y archivo visual de Ensenada (Buenos Aires) — río, cultura, historia, memoria, orgullo local.
 colors:
-  primary: "#ffcf4a"
-  primary-deep: "#ffcf2f"
-  ink: "#101014"
-  night: "#080b18"
-  paper: "#fbf4e7"
-  white: "#ffffff"
-  line-fotos: "#00c8ff"
-  line-fotos-accent: "#c7ff31"
-  line-cultura: "#6d5cff"
-  line-cultura-accent: "#ffd43d"
-  line-historia: "#173f78"
-  line-envivo: "#f04438"
-  brand-blue-oficial: "#0b55ff"
+  verde-monte: "#1b5e20"
+  sauce: "#3e8e3f"
+  rio-verde: "#00a676"
+  celeste: "#3b6fd4"
+  amarillo: "#ffd43d"
+  rojo: "#f04438"
+  rio-plata: "#0b55ff"
+  cielo-verano: "#00c8ff"
+  atardecer: "#6d5cff"
+  noche: "#0e1330"
+  noche-2: "#161b40"
+  acero: "#6b7280"
+  papel: "#f4f2ec"
+  gris-texto: "#4a5068"
 typography:
   display:
-    fontFamily: "Inter, Arial, Helvetica, sans-serif"
-    fontSize: "clamp(46px, 14vw, 168px)"
-    fontWeight: 950
-    lineHeight: 0.84
-    letterSpacing: "0"
+    fontFamily: "Archivo, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(44px, 7vw, 92px)"
+    fontWeight: 900
+    lineHeight: 1.02
+    letterSpacing: "-0.03em"
   headline:
-    fontFamily: "Inter, Arial, Helvetica, sans-serif"
-    fontSize: "clamp(32px, 5vw, 66px)"
+    fontFamily: "Archivo, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(34px, 4.6vw, 64px)"
     fontWeight: 900
-    lineHeight: 1
+    lineHeight: 1.02
   body:
-    fontFamily: "Inter, Arial, Helvetica, sans-serif"
-    fontSize: "clamp(20px, 2vw, 30px)"
-    fontWeight: 900
-    lineHeight: 1.15
+    fontFamily: "Archivo, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(16px, 1.15vw, 19px)"
+    fontWeight: 400
+    lineHeight: 1.55
   label:
-    fontFamily: "Inter, Arial, Helvetica, sans-serif"
-    fontSize: "14px"
-    fontWeight: 800
-    letterSpacing: "0.02em"
+    fontFamily: "Archivo, Helvetica Neue, Arial, sans-serif"
+    fontSize: "12px"
+    fontWeight: 900
+    letterSpacing: "0.22em"
 rounded:
-  control: "10px"
-  pill: "999px"
-  flat: "0px"
-  card: "18px"
+  pastilla: "999px"
+  caleta: "20px"
+  media: "12px"
+  chico: "8px"
 components:
-  button-primary:
-    backgroundColor: "{colors.primary}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.pill}"
-    padding: "14px 28px"
-  nav-toggle:
-    backgroundColor: "rgba(7, 11, 11, 0.46)"
-    textColor: "{colors.white}"
-    rounded: "{rounded.control}"
-  social-link:
-    backgroundColor: "rgba(255, 255, 255, 0.92)"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.pill}"
-  carousel-control:
-    backgroundColor: "rgba(255, 255, 255, 0.12)"
-    textColor: "{colors.white}"
-    rounded: "{rounded.pill}"
+  cta-primario:
+    backgroundColor: "{colors.amarillo}"
+    textColor: "{colors.noche}"
+    rounded: "{rounded.pastilla}"
+    padding: "15px 28px"
+  territorio-boton:
+    backgroundColor: "{colors.papel}"
+    textColor: "color dominante de la banda"
+    rounded: "{rounded.pastilla}"
+  red:
+    backgroundColor: "#ffffff"
+    textColor: "{colors.noche}"
+    rounded: "{rounded.pastilla}"
 ---
 
 # Design System: Turismo Ensenada
@@ -169,3 +166,13 @@ El sistema usa sombras suaves y difusas con tinte navy (`rgba(5, 32, 49, 0.13)`)
 - **Don't** asumir que el azul del manual oficial (`#0B55FF`) es el color primario al construir algo nuevo — en la práctica el dorado ocupa ese rol; si se quiere alinear con el manual, es una decisión a tomar explícitamente, no a asumir.
 - **Don't** agregar más variantes de `border-radius` sin revisar primero la inconsistencia ya detectada (place-cards en `0px` contra el resto del sistema en pill/`999px`) — no sumar una tercera variante a un problema ya señalado como no intencional.
 - **Don't** usar sombras negras puras (`rgba(0,0,0,...)`) sobre superficies claras — rompe la coherencia tonal navy del sistema.
+
+## Estado (2026-10-08)
+
+Las tres páginas corren sobre el sistema del Manual de Identidad v3.0, repartido en cuatro hojas en `assets/css/`: `base.css` (tokens, base tipográfica, encabezado, pie, visor, reveal) más una hoja por página (`home.css`, `en-fotos.css`, `error.css`). Ninguna usa `!important`.
+
+La hoja histórica `styles.css` **ya no la carga ninguna página**. Queda en el repo a propósito mientras el rediseño está en revisión, para que volver atrás sea barato; una vez aprobado se puede borrar.
+
+Lane: cartel pintado a mano, puesto en sistema. Estrategia de color: *full palette* — el manual asigna un rol a cada color y los tres territorios son superficies bañadas, no tarjetas con un detalle.
+
+Contrastes medidos sobre píxeles, no estimados: el acero `#6B7280` da 4.32:1 con texto papel y se profundiza a `#666D7A` (4.65:1) como superficie; el sauce (3.65:1) y el rojo (3.36:1) no llevan texto chico y quedan para íconos y detalles.

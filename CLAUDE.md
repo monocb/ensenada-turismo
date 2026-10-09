@@ -20,15 +20,17 @@ npx serve .
 
 ## Mapa de carpetas
 
-`index.html` / `en-fotos/index.html` / `404.html` son las páginas. `script.js` y `styles.css` concentran todo el JS y CSS del sitio. `assets/` tiene una subcarpeta por sección (`fragata/`, `historia/`, `identidad/`, `lugares/`, `portada-home/`, `en-fotos/`). Detalle completo en [`docs/tecnico/stack-y-mapa-de-archivos.md`](docs/tecnico/stack-y-mapa-de-archivos.md).
+`index.html` / `en-fotos/index.html` / `404.html` son las páginas. `script.js` concentra todo el JS. El CSS está en `assets/css/`: `base.css` (tokens, encabezado, pie, visor — lo cargan las tres páginas) más una hoja por página (`home.css`, `en-fotos.css`, `error.css`). `assets/` tiene además una subcarpeta por sección (`marca/`, `fragata/`, `historia/`, `identidad/`, `lugares/`, `portada-home/`, `en-fotos/`). Detalle completo en [`docs/tecnico/stack-y-mapa-de-archivos.md`](docs/tecnico/stack-y-mapa-de-archivos.md).
 
 ## Cómo agregar una foto a una galería
 
 Convertir a `.webp`, nombrarla con el siguiente número secuencial de la galería (ej. si hay 19 fotos, la nueva es `<prefix>-20.webp`), copiarla a `assets/en-fotos/<categoria>/`, y sumar 1 al atributo `data-photo-count` de esa sección en el HTML. No hay `manifest.json` ni archivo de datos intermedio — el HTML (`data-photo-*`) es la única fuente de verdad. No hace falta tocar `script.js`. Detalle en [`docs/tecnico/patron-galerias-data-attributes.md`](docs/tecnico/patron-galerias-data-attributes.md).
 
-## Aviso sobre `styles.css`
+## Aviso sobre el CSS
 
-Es grande (~7.9k líneas) y creció por comentarios fechados de parches puntuales, con **4 bloques `:root` separados** (líneas ~1, ~2062, ~2899, ~5284 — verificar con `grep -n "^:root" styles.css`). No hay tests de regresión visual — evitar reorganizaciones amplias del archivo; seguir el mismo patrón de agregar/corregir puntualmente. Detalle en [`docs/tecnico/convenciones-css.md`](docs/tecnico/convenciones-css.md).
+Los estilos van en `assets/css/`, nunca en `styles.css`: esa es la hoja histórica (~6.8k líneas, 4 bloques `:root`, llena de `!important`) y **ya no la carga ninguna página**. Queda en el repo sólo mientras el rediseño está en revisión.
+
+Tres cosas que muerden en las hojas nuevas: los tokens se declaran una sola vez en el `:root` de `base.css`; los nombres de clase de estado (`is-open`, `is-scrolled`, `is-visible`) los fija `script.js` y el CSS se adapta a ellos; y un `<span>` con máscara necesita `display: block` explícito o colapsa a 0×0 sin avisar. Detalle en [`docs/tecnico/convenciones-css.md`](docs/tecnico/convenciones-css.md).
 
 ## Antes de tocar colores o textos de marca
 
